@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 40</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 40</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e494">
+            <head xml:id="azsw2e-d1e494-Hd1e100">Titulus 40</head>
+            <head xml:id="azsw2e-d1e494-Hd1e102" type="question-title">De officio rectoris provinciae.</head>
+            <div xml:id="azsw2e-d1e494-Dd1e105">
+               <head xml:id="azsw2e-d1e494-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e494-d1e109">
+                  <ref xml:id="azsw2e-d1e494-Rd1e111">Imperator 
+        Alexander Severus.</ref> Potest de falso causam cognoscens praeses 
+        provinciae incidentem proprietatis quaestionem dirimere. * ALEX. A. 
+        IULIANAE. *&lt;A 234 D. VI K. APRIL. MAXIMO II ET URBANO CONSS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e115">
+               <head xml:id="azsw2e-d1e494-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e494-d1e119">
+                  <ref xml:id="azsw2e-d1e494-Rd1e121">Imperator 
+        Constantinus.</ref> Praesides provinciarum oportet, si quis potentiorum 
+        extiterit insolentior et ipsi vindicare non possunt aut examinare 
+        aut pronuntiare nequeunt, de eius nomine ad nos aut certe ad praetorianae 
+        praefecturae scientiam referre : quo provideatur, qualiter publicae 
+        disciplinae et laesis tenuioribus consulatur. * CONST. A. AD MAXIMUM. 
+        *&lt;A 328 D. IIII K. IAN. TREVIRIS IANUARINO ET IUSTO CONSS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e125">
+               <head xml:id="azsw2e-d1e494-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e494-d1e129">
+                  <ref xml:id="azsw2e-d1e494-Rd1e131">Imperator 
+        Constantinus.</ref> Iustissimos et vigilantissimos iudices publicis 
+        adclamationibus collaudandi damus omnibus potestatem, ut honoris eis 
+        auctiores proferamus processus, et e contrario iniustos et maleficos 
+        querellarum vocibus accusandi, ut censurae nostrae vigor eos absumat. 
+        Nam si verae voces sunt nec ad libidinem per clientelas effusae, diligenter 
+        investigabimus: praefectis praetorio et comitibus, qui per provincias 
+        constituti sunt, provincialium nostrorum voces ad nostram scientiam 
+        referentibus. * CONST. A. AD PROVINCIALES. *&lt;A 331 PP. K. NOV. 
+        CONSTANTINOPOLI BASSO ET ABLABIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e136">
+               <head xml:id="azsw2e-d1e494-Hd1e138">4</head>
+               <p xml:id="azsw2e-d1e494-d1e140">
+                  <ref xml:id="azsw2e-d1e494-Rd1e142">Imperator 
+        Constantinus.</ref> In officiales praefectorum cursum publicum laniantes 
+        vel prava contra utilitatem publicam molientes vindicandi tibi dedimus 
+        potestatem, ita ut praefectos de eorum culpa facias certiores. * CONST. 
+        A. AD PERICLEM PRAES. *&lt;A 335 D. X K. NOV. NICOPOLI CONSTANTIO 
+        ET ALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e146">
+               <head xml:id="azsw2e-d1e494-Hd1e148">5</head>
+               <p xml:id="azsw2e-d1e494-d1e150">
+                  <ref xml:id="azsw2e-d1e494-Rd1e152">Imperatores 
+        Valentinianus, Valens.</ref> Potioris gradus iudicibus ab inferioribus 
+        competens reverentia tribuatur. Sed ubi publica tractatur utilitas, 
+        etsi minor iudex veritatem investigaverit, nulla maiori inrogatur 
+        iniuria. Sane qui insignia dignitatis ad hoc exercet, ut indignis 
+        iniuriis existimet adficiendos eos, qui officia cum potestate moderantur, 
+        non declinabit nostrae indignationis aculeos. * VALENTIN. ET VALENS 
+        AA. AD APRONIANUM PU. *&lt;A 364 D. V. K. IUN. ANCYRO DIVO IOVIANO 
+        ET VARRONIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e156">
+               <head xml:id="azsw2e-d1e494-Hd1e158">6</head>
+               <p xml:id="azsw2e-d1e494-d1e160">
+                  <ref xml:id="azsw2e-d1e494-Rd1e162">Imperatores 
+        Gratianus, Valentinianus, Theodosius.</ref> Civitas rhodiorum iniuriam 
+        suam non tam decenter quam sero conquesta est. Unde inviolabili observatione 
+        sancimus, ut, quoniam tempore hiemis navigatio saepe periculosa est 
+        semper incerta, in illis quinque urbibus, quae potiores esse ceteris 
+        adseruntur, vicissim hiemandum sibi iudices recognoscant. Quod si 
+        cuiquam tale existat ingenium, ut praecepta nostra contemnat, quinquaginta 
+        ab eo argenti librae, centum ab eius officio, si aliter factum fuerit, 
+        fisci viribus inferantur. * GRAT. VALENTIN. ET THEODOS. AAA. CYNEGIO 
+        PP. *&lt;A 385 D. V ID. DEC. CONSTANTINOPOLI ARCADIO ET BAUTONE CONSS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e166">
+               <head xml:id="azsw2e-d1e494-Hd1e168">7</head>
+               <p xml:id="azsw2e-d1e494-d1e170">
+                  <ref xml:id="azsw2e-d1e494-Rd1e172">Imperatores 
+        Valentinianus, Theodosius, Arcadius.</ref> Qui ordinariam gesserit 
+        dignitatem, quidquid ex venturae delegationis titulis profligaverit, 
+        cum dispendio pudoris atque fortunae de propriis facultatibus intra 
+        provinciam positus inferre debebit. * VALENTIN. THEODOS. ET ARCAD. 
+        AAA. CYNEGIO PP. *&lt;A 386 D. VII K. IUN. CONSTANTINOPOLI HONORIO 
+        NP. ET EUODIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e176">
+               <head xml:id="azsw2e-d1e494-Hd1e178">8</head>
+               <p xml:id="azsw2e-d1e494-d1e180">
+                  <ref xml:id="azsw2e-d1e494-Rd1e182">Imperatores 
+        Valentinianus, Theodosius, Arcadius.</ref> Ne quis iudicum in provincia 
+        sua praefectianum vel palatinum vel militem vel ex his etiam omnibus, 
+        qui antea in huiusmodi officiis fuerunt commorati, intercessorem ( 
+        id est exsecutorem) cuiusquam litigatoris petitione in quolibet seu 
+        privato seu publico negotio putet esse tribuendum. Nam peccantem circa 
+        consulta caelestia cum suo officio non solum detrimentum famae, sed 
+        etiam patrimoniorum damna comitentur. * VALENTIN. THEODOS. ET ARCAD. 
+        AAA. CYNEGIO PP. *&lt;A 386 D. NON. AUG. CONSTANTINOPOLI HONORIO NP. 
+        ET EUODIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e186">
+               <head xml:id="azsw2e-d1e494-Hd1e188">9</head>
+               <p xml:id="azsw2e-d1e494-d1e190">
+                  <ref xml:id="azsw2e-d1e494-Rd1e192">Imperatores 
+        Valentinianus, Theodosius, Arcadius.</ref> Nullus provinciae moderator 
+        augustissimam urbem sine iussione adire audeat. Nam si quem patuerit 
+        contra decreti nostri praecepta venisse, is congrua condemnatione 
+        plectetur. * VALENTIN. THEODOS. ET ARCAD. AAA. POLEMIO PP. ILLYRICI. 
+        *&lt;A 390 D. X K. IAN. MEDIOLANI POST CONSULATUM TIMASII ET PROMOTI.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e197">
+               <head xml:id="azsw2e-d1e494-Hd1e199">10</head>
+               <p xml:id="azsw2e-d1e494-d1e201">
+                  <ref xml:id="azsw2e-d1e494-Rd1e203">Imperatores 
+        Arcadius, Honorius.</ref> Nullum palatinis tibi obsecundantibus cum 
+        provincialibus volumus esse commercium : sed iudices scire debebunt 
+        hoc sibi praecipue esse commissum, ut ipsi a provincialibus exigant 
+        et consueta deposcant, palatinum vero possessor non horreat, qui non 
+        sibi, sed iudicibus atque officiis praeceptus est imminere. * ARCAD. 
+        ET HONOR. AA. LIMENIO COM. SACR. LARG. *&lt;A 401 D. VI K. APRIL.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e207">
+               <head xml:id="azsw2e-d1e494-Hd1e209">11</head>
+               <p xml:id="azsw2e-d1e494-d1e211">
+                  <ref xml:id="azsw2e-d1e494-Rd1e213">Imperatores 
+        Honorius, Theodosius.</ref> Moderatores provinciarum curam gerere iubemus, 
+        ne quid potentium procuratores perperam inliciteque committant. * 
+        HONOR. ET THEODOS. AA. THEODORO PP. *&lt;A 408 D. VI K. DEC. RAVENNAE 
+        BASSO ET PHILIPPO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e217">
+               <head xml:id="azsw2e-d1e494-Hd1e219">12</head>
+               <p xml:id="azsw2e-d1e494-d1e221">
+                  <ref xml:id="azsw2e-d1e494-Rd1e223">Imperatores 
+        Honorius, Theodosius.</ref> Omnes per provincias apparitores pro inveterata 
+        auctoritate iuxta motum iudicis nudatos verberibus, si ita res tulerit, 
+        subiacere praecipimus, ut et facilis exsecutio rerum publicarum sit 
+        et officiorum insolentia comprimatur et iudicum severitati competens 
+        reddatur auctoritas. * HONOR. ET THEODOS. AA. MONAXIO PP. *&lt;A 412 
+        D. VI K. IAN. HONORIO VIIII ET THEODOSIO V AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e227">
+               <head xml:id="azsw2e-d1e494-Hd1e229">13</head>
+               <p xml:id="azsw2e-d1e494-d1e231">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e236">
+               <head xml:id="azsw2e-d1e494-Hd1e238">14</head>
+               <p xml:id="azsw2e-d1e494-d1e240">
+                  <ref xml:id="azsw2e-d1e494-Rd1e242">Imperator 
+        Leo.</ref> Si quis cohortalibus adhuc obsequiis obligatus regimen provinciae 
+        vel cingulum cuiuslibet militiae dignitatisve quoquo modo meruit, 
+        contra licitum usurpatis impetratisve careat, etiamsi ultronea nostra 
+        liberalitate ius gerendae provinciae vel militiae seu dignitatis cuiuspiam 
+        sibi iactaverit fuisse delatum. * LEO A. CONSTANTINO PP. *&lt;A 471 
+        D. VII ID. AUG. CONSTANTINOPOLI LEONE A. IIII ET PROBIANO CONSS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e246">
+               <head xml:id="azsw2e-d1e494-Hd1e248">15</head>
+               <p xml:id="azsw2e-d1e494-d1e250">
+                  <ref xml:id="azsw2e-d1e494-Rd1e252">Imperator 
+        Leo.</ref> Nulli iudicum, qui provincias regunt, in civitatibus, in 
+        quibus sacra palatia vel praetoria sunt, liceat relictis his privatorum 
+        sibi domus ad habitandum veluti praetoria vindicare, sed sacratissima 
+        modis omnibus inhabitare palatia seu praetoria, ut hac necessitate 
+        compellantur eorum reparationi providere. </p>
+               <p xml:id="azsw2e-d1e494-d1e255" n="1"> 
+        Ubi autem et palatium est et praetorium, palatium quidem habitationi 
+        praesidis, praetorium autem suscipiendis conservandisque speciebus 
+        publicis horreorum vice vel aliae necessariae rei deputetur.</p>
+               <p xml:id="azsw2e-d1e494-d1e258" n="2"> 
+        Quod si quis aliquando dissimulare temptaverit, protinus eum atque 
+        officium quinquaginta librarum auri multam ad reparandum sacrum quod 
+        neglexerit palatium solvere sancimus.* LEO A. CONSTANTINO PP. *&lt;A 
+        471 ? &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e263">
+               <head xml:id="azsw2e-d1e494-Hd1e265">16</head>
+               <p xml:id="azsw2e-d1e494-d1e267">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e494-Dd1e272">
+               <head xml:id="azsw2e-d1e494-Hd1e274">17</head>
+               <p xml:id="azsw2e-d1e494-d1e276">  
+        <!-- Greek --> 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

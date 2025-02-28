@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 24</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 24</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e316">
+            <head xml:id="azsw2e-d1e316-Hd1e100">Titulus 24</head>
+            <head xml:id="azsw2e-d1e316-Hd1e102" type="question-title">De statuis et imaginibus.</head>
+            <div xml:id="azsw2e-d1e316-Dd1e105">
+               <head xml:id="azsw2e-d1e316-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e316-d1e109">
+                  <ref xml:id="azsw2e-d1e316-Rd1e111">Imperatores 
+        Arcadius, Honorius.</ref> Si quis iudicum accepisse aeneas vel argenteas 
+        vel marmoreas statuas extra imperiale beneficium in administratione 
+        positus detegetur, emolumenta, quae acceperit in ea positus dignitate, 
+        quam polluit, cum extortis titulis vel praesumptis in quadruplum fisco 
+        nostro inferat simulque noverit existimatonis suae poenam se subiturum. 
+        Nec eos sane a periculo pudoris haberi volumus immunes, qui adulandi 
+        studio aut metu inconstanti ignavia transire quae sunt interdicta 
+        temptaverint. * ARCAD. ET HONOR. AA. THEODORO PP. *&lt;A 398 D. XII 
+        K. IAN. MEDIOLANI HONORIO A. IIII ET EUTYCHIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e316-Dd1e115">
+               <head xml:id="azsw2e-d1e316-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e316-d1e119">
+                  <ref xml:id="azsw2e-d1e316-Rd1e121">Imperator 
+        Theodosius.</ref> Si quando nostrae statuae vel imagines eriguntur 
+        seu diebus, ut adsolet, festis sive communibus, adsit iudex sine adorationis 
+        ambitioso fastigio, ut ornamentum diei vel loco et nostrae recordationi 
+        sui probet accessisse praesentiam. * THEODOS. A. ET VALENTIN. C. AETIO 
+        PP. *&lt;A 425 D. III NON. MAI. THEODOSIO A. XI ET VALENTINIANO C. 
+        CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e316-Dd1e125">
+               <head xml:id="azsw2e-d1e316-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e316-d1e129">
+                  <ref xml:id="azsw2e-d1e316-Rd1e131">Imperatores 
+        Theodosius, Valentinianus.</ref> In nostrae serenitatis imaginibus 
+        ac statuis erigendis privatae collationis iniuriam propulsari praecipimus, 
+        ne quid in eo suum collator agnoscat. * THEODOS. ET VALENTIN. AA. 
+        FLORENTIO PP. *&lt;A 439 D. III NON. APRIL. THEODOSIO A. XVII ET FESTO 
+        CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e316-Dd1e136">
+               <head xml:id="azsw2e-d1e316-Hd1e138">4</head>
+               <p xml:id="azsw2e-d1e316-d1e140">
+                  <ref xml:id="azsw2e-d1e316-Rd1e142">Imperatores 
+        Theodosius, Valentinianus.</ref> Et virtutum praemia tribui merentibus 
+        convenit et aliorum honores aliis damnorum occasionem fieri non oportet. 
+        Idcirco quotiens vel iudicibus nostris vel cuilibet alii statua fuerit 
+        a quocumque collegio seu officio vel in hac sacratissima civitate 
+        vel in provinciis postulata, nequaquam ex discriptione sumptus colligi 
+        patimur, sed eius, cuius ad honorem petitur, expensis propriis statuam 
+        collocari praecipimus. * THEODOS. ET VALENTIN. AA. AD NOMUM COM. ET 
+        MAG. OFF. *&lt;A 444 D. V K. APRIL. THEODOSIO A. XVIII CONS.&gt;  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 1</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 1</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e59">
+            <head xml:id="azsw2e-d1e59-Hd1e100">Titulus 1</head>
+            <head xml:id="azsw2e-d1e59-Hd1e102" type="question-title">De summa trinitate et de fide catholica et ut nemo de ea publice contendere audeat.</head>
+            <div xml:id="azsw2e-d1e59-Dd1e105">
+               <head xml:id="azsw2e-d1e59-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e59-d1e109" n="pr">
+                  <ref xml:id="azsw2e-d1e59-Rd1e111">Imperatores Gratianus, Valentinianus, Theodosius.</ref> 
+        Cunctos populos, quos clementiae 
+        nostrae regit temperamentum, in tali volumus religione versari, quam 
+        divinum Petrum apostulum tradidisse Romanis religio usque ad nunc 
+        ab ipso insinuata declarat quamque pontificem Damasum sequi claret 
+        et Petrum Alexandriae episcopum virum apostolicae sanctitatis, hoc 
+        est ut secundum apostolicam disciplinam evangelicamque doctrinam patris 
+        et filii et spiritus sancti unam deitatem sub pari maiestate et sub 
+        pia trinitate credamus. </p>
+               <p xml:id="azsw2e-d1e59-d1e114" n="1"> 
+        Hanc legem sequentes christianorum catholicorum nomen iubemus amplecti, 
+        reliquos vero dementes vesanosque iudicantes haeretici dogmatis infamiam 
+        sustinere, divina primum vindicta, post etiam motus nostri, quem ex 
+        caelesti arbitrio sumpserimus, ultione plectendos. * GRAT. VALENTIN. 
+        ET THEODOS. AAA. AD POP. URB. CONSTANTINOP. *&lt;A 380 D. III K. MART. THESSALONICA 
+        GRATIANO V ET THEODOSIO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e59-Dd1e118">
+               <head xml:id="azsw2e-d1e59-Hd1e120">2</head>
+               <p xml:id="azsw2e-d1e59-d1e122" n="pr">
+                  <ref xml:id="azsw2e-d1e59-Rd1e124">Imperatores Gratianus, Valentinianus, Theodosius</ref>
+        Nullus haereticis mysteriorum locus, nulla ad exercendam animi obstinatioris 
+        dementiam pateat occasio. Sciant omnes, etiamsi quid speciali quolibet 
+        rescripto per fraudem elicito ab huiusmodi hominum genere impetratum 
+        sit, non valere. Arceantur cunctorum haereticorum ab illicitis congregationibus 
+        turbae: unius et summi dei nomen ubique celebretur: nicaenae fidei 
+        dudum a maioribus traditae et divinae religionis testimonio atque 
+        adsertione firmatae observantia semper mansura teneatur. 
+      </p>
+               <p xml:id="azsw2e-d1e59-d1e127" n="1"> 
+        Is autem nicaenae adsertor fidei et catholicae religionis verus cultor 
+        accipiendus est, qui omnipotentem deum et Christum filium dei uno 
+        nomine confitetur, deum de deo, lumen ex lumine, qui spiritum sanctum, 
+        quem ex summo rerum parente speramus et accipimus, negando non violat, 
+        apud quem intemeratae fidei sensu viget incorruptae trinitatis indivisa 
+        substantia, quae Graeco verbo <mentioned>ousia</mentioned> recte credentibus dicitur. 
+        Haec profecto nobis magis probata, haec veneranda sunt.</p>
+               <p xml:id="azsw2e-d1e59-d1e132" n="2"> 
+        Qui vero isdem non inserviunt, desinant adfectatis dolis alienum verae 
+        religionis nomen adsumere et suis apertis criminibus denotentur: ab 
+        omnium submoti ecclesiarum limine penitus arceantur, cum omnes haereticos 
+        illicitas agere intra oppida congregationes vetemus. Ac si quid eruptio 
+        factiosa temptaverit, ab ipsis etiam urbium moenibus exterminato furore 
+        propelli iubemus, ut cunctis orthodoxis episcopis, qui nicaenam fidem 
+        tenent, catholicae ecclesiae toto orbe reddantur.* GRAT. VALENTIN. 
+        ET THEODOS. AAA. EUTROPIO PP. *&lt;A 381 D. IIII 
+        ID. IAN. CONSTANTINOPOLI EUCHERIO ET SYAGRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e59-Dd1e136">
+               <head xml:id="azsw2e-d1e59-Hd1e138">3</head>
+               <p xml:id="azsw2e-d1e59-d1e140" xml:lang="gr">
+        <!-- Greek -->
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e59-Dd1e147">
+               <head xml:id="azsw2e-d1e59-Hd1e149">4</head>
+               <p xml:id="azsw2e-d1e59-d1e151" n="pr">
+                  <ref xml:id="azsw2e-d1e59-Rd1e153">Imperator Marcianus.</ref>
+        Nemo clericus vel militans vel alterius cuiuslibet 
+        condicionis de fide christiana publice turbis coadunatis et audientibus 
+        tractare conetur in posterum, ex hoc tumultus et perfidiae occasionem 
+        requirens. </p>
+               <p xml:id="azsw2e-d1e59-d1e156" n="1">
+        Nam iniuriam facit iudicio reverentissimae synodi, si quis semel 
+        iudicata ac recte disposita revolvere et publice disputare contendit, 
+        cum ea, quae nunc de christiana fide a sacerdotibus, qui chalcedone 
+        convenerunt, per nostra praecepta statuta sunt, iuxta apostolicas 
+        expositiones et instituta sanctorum patrum trecentorum decem et octo 
+        et centum quinquaginta definita esse noscuntur. </p>
+               <p xml:id="azsw2e-d1e59-d1e159" n="2">
+        Nam in contemptores huius legis poena non deerit, quia non solum 
+        contra fidem vere expositam veniunt, sed etiam iudaeis et paganis 
+        ex huiusmodi certamine profanant veneranda mysteria. </p>
+               <p xml:id="azsw2e-d1e59-d1e162" n="3"> 
+        Igitur si clericus erit, qui publice tractare de religione ausus fuerit, 
+        consortio clericorum removebitur: si vero militia praeditus sit, cingulo 
+        spoliabitur: ceteri etiam hiusmodi criminis rei, si quidem liberi 
+        sint, de hac sacratissima urbe pellentur, pro vigore iudiciario etiam 
+        competentibus suppliciis subiugandi, sin vero servi, severissimis 
+        animadversionibus plectentur. * MARCIAN. A. PALLADIO PP. *&lt;A 
+        452 D. VII ID. FEBR. CONSTANTINOPOLI SPORACIO CONS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e59-Dd1e166">
+               <head xml:id="azsw2e-d1e59-Hd1e168">5</head>
+               <p xml:id="azsw2e-d1e59-d1e170" xml:lang="gr">
+        <!-- greek -->  
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e59-Dd1e176">
+               <head xml:id="azsw2e-d1e59-Hd1e178">6</head>
+               <p xml:id="azsw2e-d1e59-d1e180" xml:lang="gr"><!-- greek -->
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e59-Dd1e185">
+               <head xml:id="azsw2e-d1e59-Hd1e187">7</head>
+               <p xml:id="azsw2e-d1e59-d1e189" xml:lang="gr"><!-- greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e59-Dd1e193">
+               <head xml:id="azsw2e-d1e59-Hd1e195">8</head>
+               <p xml:id="azsw2e-d1e59-d1e197" n="pr">
+                  <ref xml:id="azsw2e-d1e59-Rd1e199">Imperator Justinianus.</ref>
+        Inter claras sapientiae 
+        mansuetudinis vestrae laudes, christianissime principum, puriore luce 
+        tamquam aliquod sidus irradiat, quod amore fidei, quod caritatis studio, 
+        edocti ecclesiasticis disciplinis, Romanae sedis reverentiam conservatis 
+        et ei cuncta subicitis et ad eius deducitis unitatem, ad cuius auctorem, 
+        hoc est apostolorum primum, domino loquente praeceptum est: ' pasce 
+        oves meas '. </p>
+               <p xml:id="azsw2e-d1e59-d1e202" n="1"> 
+        Quam esse omnium vere ecclesiarum caput et patrum regulae et principum 
+        statuta declarant et pietatis vestrae reverentissimi testantur affatus. 
+        Patet igitur in vobis impletum fore, quod scripturae loquuntur: 'per 
+        me reges regnant et potentes scribunt iustitiam'. </p>
+               <p xml:id="azsw2e-d1e59-d1e205" n="2"> 
+        Nihil est enim, quod lumine clariore praefulgeat, quam recta fides 
+        in principe: nihil est, quod ita nequeat occasui subiacere, quam vera 
+        religio. Nam cum auctorem vitae vel luminis utraque respiciant, recte 
+        et tenebras respuunt et nesciunt subiacere defectui. </p>
+               <p xml:id="azsw2e-d1e59-d1e208" n="3"> 
+        Quam ob rem, gloriosissime principum, votis omnibus exorabitur divina 
+        potentia, ut pietatem vestram in hoc ardore fidei, in hac devotione 
+        mentis, in hoc integrae religionis studio sine defectu sui in tempora 
+        longiora conservet: hoc enim et sanctis credimus ecclesiis expedire. 
+        Scriptum est enim: ' labiis regit rex ', et iterum: ' cor regis in 
+        manu dei, et ubi voluerit, inclinabit illud'. </p>
+               <p xml:id="azsw2e-d1e59-d1e212" n="4"> 
+        Hoc est enim, quod vestrum firmat imperium, hoc, quod vestra regna 
+        conservat. Nam pax ecclesiae, religionis unitas, auctorem facti in 
+        sublime provectum grata sibi tranquillitate custodit. </p>
+               <p xml:id="azsw2e-d1e59-d1e215" n="5"> 
+        Neque enim parva ei vicissitudo a potentia divina tribuitur, per quem 
+        nullis rugis ecclesia divisa secernitur, nullis insertis maculis variatur. 
+        Scriptum est enim: ' quia cum rex iustus sederit supra sedem, non 
+        adversabitur sibi quicquam malignum '. </p>
+               <p xml:id="azsw2e-d1e59-d1e218" n="6"> 
+        Proinde serenitatis vestrae apices per Hypatium atque demetrium sanctissimos 
+        viros fratres et coepiscopos meos reverentia consueta suscepimus: 
+        quorum etiam relatione comperimus, quod fidelibus populis proposuissetis 
+        edictum amore fidei pro submovenda haereticorum intentione secundum 
+        apostolicam doctrinam, fratrum et coepiscoporum nostrorum interveniente 
+        consensu. Quod, quia apostolicae doctrinae convenit, nostra auctoritate 
+        confirmamus. </p>
+               <p xml:id="azsw2e-d1e59-d1e221" n="7"> 
+        Textus autem epistulae talis est: &lt;A. 533 D. VIII ID. IUN. CONSTANTINOPOLI 
+        DN. IUSTINIANO PERPETUO AUGUSTO III CONSULE. &gt; 
+        VICTOR IUSTINIANUS PIUS FELIX INCLITUS TRIUMPHATOR SEMPER AUGUSTUS 
+        IOHANNI SANCTISSIMO ARCHIEPISCOPO ALMAE URBIS ROMAE ET PATRIARCHAE. 
+      </p>
+               <p xml:id="azsw2e-d1e59-d1e224" n="8"> 
+        Reddentes honorem apostolicae sedi et vestrae sanctitati, quod semper 
+        nobis in voto fuit et est, ut decet, patrem honorantes vestram beatitudinem 
+        omnia, quae ad ecclesiarum statum pertinent, festinamus ad notitiam 
+        deferre vestrae sanctitatis, quoniam semper magnum nobis fuit studium 
+        unitatem vestrae apostolicae sedis et statum sanctarum dei ecclesiarum 
+        custodiri, qui hactenus obtinet et incommote permanet nulla intercedente 
+        contrarietate. </p>
+               <p xml:id="azsw2e-d1e59-d1e227" n="9"> 
+        Ideoque omnes sacerdotes universi Orientalis tractus et subicere et 
+        unire sedi vestrae sanctitatis properavimus. </p>
+               <p xml:id="azsw2e-d1e59-d1e231" n="10"> 
+        Et in praesenti ergo quae hic commota sunt, quamvis manifesta et indubitata 
+        sint et secundum apostolicae vestrae sedis doctrinam ab omnibus semper 
+        sacerdotibus firme custodita et praedicata, necessarium duximus, ut 
+        ad notitiam vestrae sanctitatis perveniant. </p>
+               <p xml:id="azsw2e-d1e59-d1e234" n="11"> 
+        Nec enim patimur quicquam, quod ad ecclesiarum statum pertinet, quamvis 
+        manifestum et indubitatum sit, quod movetur, ut non etiam vestrae 
+        innotescat sanctitati , quia caput est omnium sanctarum ecclesiarum. 
+        Per omnia enim, ut dictum est, properamus honorem et auctoritatem 
+        crescere vestrae sedis.  </p>
+               <p xml:id="azsw2e-d1e59-d1e237" n="12"> 
+        Manifestum igitur facimus vestrae sanctitati, quod pauci quidam infideles 
+        et alieni sanctae dei catholicae atque apostolicae ecclesiae contradicere 
+        iudaice ausi sunt adversus ea, quae ab omnibus sacerdotibus secundum 
+        vestram doctrinam recte tenentur et glorificantur atque praedicantur, 
+        denegantes dominum nostrum Ihesum Christum, unigenitum filium dei 
+        et deum nostrum, incarnatum ex sancto spiritu et sancta atque gloriosa 
+        virgine et dei genetrice Maria hominem factum atque crucifixum, unum 
+        esse sanctae et consubstantialis trinitatis, coadorandum et conglorificandum 
+        patri et spiritui sancto, consubstantialem patri secundum divinitatem 
+        et consubstantialem nobis eundem ipsum secundum humanitatem, passibilem 
+        carne, eundem ipsum impassibilem deitate. </p>
+               <p xml:id="azsw2e-d1e59-d1e240" n="13"> 
+        Recusantes enim dominum nostrum Ihesum Christum unigenitum filium 
+        dei et deum nostrum fateri unum esse sanctae et consubstantialis trinitatis 
+        videntur nestorii malam sequentes doctrinam, secundum gratiam dicentes 
+        eum filium dei et alium dicentes deum verbum et alium Christum. </p>
+               <p xml:id="azsw2e-d1e59-d1e243" n="14"> 
+        Omnes vero sacerdotes sanctae catholicae atque apostolicae ecclesiae 
+        et reverentissimi archimandritae sacrorum monasteriorum sequentes 
+        sanctitatem vestram et custodientes statum et unitatem sanctarum dei 
+        ecclesiarum, quam habent ad apostolicam vestrae sanctitatis sedem, 
+        nihil penitus immutantes de ecclesiastico statu, qui hactenus obtinuit 
+        atque obtinet, uno consensu confitentur et glorificant , praedicantes 
+        dominum nostrum Ihesum Christum, unigenitum filium et verbum dei et 
+        deum nostrum, ante saecula et sine tempore de patre natum, in ultimis 
+        diebus descendisse de caelis et incarnatum ex spiritu sancto et sancta 
+        atque gloriosa virgine et dei genetrice maria natum et hominem factum 
+        et crucifixum unum esse sanctae et consubstantialis trinitatis, coadorandum 
+        et conglorificandum patri et sancto spiritui. </p>
+               <p xml:id="azsw2e-d1e59-d1e246" n="15"> 
+        Nec enim alium deum verbum et alium Christum cognoscimus, sed unum 
+        atque eundem ipsum consubstantialem patri secundum divinitatem et 
+        consubstantialem nobis eundem ipsum secundum humanitatem, passibilem 
+        carne, eundem ipsum impassibilem deitate. </p>
+               <p xml:id="azsw2e-d1e59-d1e250" n="16"> 
+        Ut enim est in divinitate perfectus, ita idem ipse et in humanitate 
+        perfectus est: in una enim subsistentia unitatem suscipimus et confitemur, 
+        quod dicunt Graeci <mentioned>tyn kav hupostasin henwsin homologumen</mentioned>. 
+      </p>
+               <p xml:id="azsw2e-d1e59-d1e255" n="17"> 
+        Et quoniam unigenitus filius et verbum dei, ante saecula et sine tempore 
+        de patre natus, idem ipse et in ultimis diebus descendens de caelis, 
+        incarnatus ex sancto spiritu et sancta atque gloriosa virgine et dei 
+        genetrice maria et homo factus, dominus noster Ihesus Christus proprie 
+        et vere deus est, ideo et sanctam et gloriosam virginem maria proprie 
+        et vere dei matrem dicimus: non quia deus verbum principium ex ipsa 
+        sumpserit, sed quod in ultimis diebus descendit de caelis et ex ipsa 
+        incarnatus et homo factus natus est. </p>
+               <p xml:id="azsw2e-d1e59-d1e258" n="18"> 
+        Quem confitemur et credimus, sicut dictum est, consubstantialem esse 
+        patri secundum deitatem et consubstantialem nobis eundem ipsum secundum 
+        humanitatem, eiusdem miracula et passiones, quas sponte carne sustinuit, 
+        cognoscentes. </p>
+               <p xml:id="azsw2e-d1e59-d1e261" n="19"> 
+        Suscipimus autem sancta quattuor concilia, id est trecentorum decem 
+        et octo sanctorum patrum, qui in nicaea congregati sunt, et centum 
+        quinquaginta sanctorum patrum, qui in hac regia urbe convenerunt, 
+        et sanctorum patrum, qui in epheso primo congregati sunt, et sanctorum 
+        patrum, qui in Chalcedone convenerunt, sicut vestra apostolica sedes 
+        docet atque praedicat. </p>
+               <p xml:id="azsw2e-d1e59-d1e264" n="20"> 
+        Omnes ergo sacerdotes sequentes doctrinam apostolicae vestrae sedis 
+        ita credunt et confitentur et praedicant. </p>
+               <p xml:id="azsw2e-d1e59-d1e267" n="21"> 
+        Unde properavimus haec ad notitiam deferre vestrae sanctitatis per 
+        Hypatium et Demetrium, beatissimos episcopos, ut nec vestram sanctitatem 
+        lateat, quae a quibusdam paucis monachis male et iudaice secundum 
+        nestorii perfidiam denegata sunt. </p>
+               <p xml:id="azsw2e-d1e59-d1e271" n="22"> 
+        Petimus ergo vestrum paternum adfectum, ut vestris ad nos destinatis 
+        litteris et ad sanctissimum episcopum huius almae urbis et patriarcham 
+        vestrum fratrem, quoniam et ipse per eosdem scripsit ad vestram sanctitatem 
+        festinans in omnibus sequi sedem apostolicam beatitudinis vestrae, 
+        manifestum nobis faciatis, quod omnes, qui praedicta recte confitentur, 
+        suscipit vestra sanctitas et eorum, qui iudaice ausi sunt recte denegare 
+        fidem, condemnat perfidiam. </p>
+               <p xml:id="azsw2e-d1e59-d1e274" n="23"> 
+        Plus enim ita et circa vos omnium amor et vestrae sedis crescit auctoritas 
+        et quae ad vos est unitas sanctarum ecclesiarum inturbata servabitur, 
+        quando per vos didicerint omnes beatissimi episcopi eorum, quae ad 
+        vos relata sunt, sinceram vestrae sanctitatis doctrinam. Petimus autem 
+        vestram beatitudinem orare pro nobis et dei nobis adquirere providentiam. 
+      </p>
+               <p xml:id="azsw2e-d1e59-d1e277" n="24"> 
+        Et alia manu: divinitas te servet per multos annos, sancte ac religiosissime 
+        pater. </p>
+               <p xml:id="azsw2e-d1e59-d1e280" n="25"> 
+        Liquet igitur, gloriosissime imperator, ut lectionis tenor et legatorum 
+        vestrorum relatio patefecit, vos apostolicis eruditionibus studere, 
+        cum de religionis catholicae fide ea sapitis, ea scripsistis, ea populis 
+        fidelibus publicastis, quae, sicut diximus, et sedes apostolica docet 
+        et patrum veneranda decrevit auctoritas et nos confirmavimus in omnibus. 
+      </p>
+               <p xml:id="azsw2e-d1e59-d1e283" n="26"> 
+        Opportunum est ergo voce clamare prophetica; ' iucundetur caelum desuper, 
+        effundant montes iucunditatem et colles laetitia laetabuntur '.</p>
+               <p xml:id="azsw2e-d1e59-d1e286" n="27"> 
+        Haec igitur in tabulis cordis fideles scribere, haec ut pupillas oculorum 
+        convenit observare. </p>
+               <p xml:id="azsw2e-d1e59-d1e290" n="28"> 
+        Neque enim quisquam est, in quo Christi caritas fervet, qui tam rectae, 
+        tam verae confessionis vestrae fidei refragator existat, cum impietatem 
+        evidenter nestorii eutychisque et omnium haereticorum damnantes, unam 
+        veram catholicam fidem domini et dei nostri salvatoris Ihesu Christi 
+        magisterio institutam et propheticis apostolicisque praedicationibus 
+        ubique diffusam et sanctorum per totum orbem confessionibus roboratam, 
+        patrum atque doctorum sententiis adunatam et nostrae doctrinae consentaneam 
+        inconcusse atque inviolabiliter devota deo et pia mente servatis. 
+      </p>
+               <p xml:id="azsw2e-d1e59-d1e293" n="29"> 
+        Soli etenim vestris professionibus adversantur, de quibus divina scriptura 
+        loquitur dicens: ' posuerunt mendacium spem suam et mendacio operiri 
+        speraverunt ': et iterum qui secundum prophetam dicunt domino: ' recede 
+        a nobis, vias tuas scire nolumus ', propter quos salomon dicit: ' 
+        semitas propriae culturae erraverunt , colligunt autem manibus infructuosa 
+        '. </p>
+               <p xml:id="azsw2e-d1e59-d1e296" n="30"> 
+        Haec est igitur vestra vera fides, haec certa religio, hoc beatae 
+        recordationis, ut diximus, patres omnes praesulesque Romanae ecclesiae, 
+        quos in omnibus sequimur, hoc sedes apostolica praedicavit hactenus 
+        et inconvulse custodivit: huic confessioni, huic fidei quisquis contradictor 
+        extiterit, alienum a sancta communione, alienum se ipse ab ecclesia 
+        iudicavit esse catholica. </p>
+               <p xml:id="azsw2e-d1e59-d1e299" n="31"> 
+        Nos enim in Romana cyrum cum sequacibus suis invenimus civitate, qui 
+        de acoemetensi monasterio fuit, quos apostolicis suasionibus ad rectam 
+        fidem et velut oves , quae perierant errantes, ad ovile contendimus 
+        revocare dominicum, ut agnoscerent secundum prophetam linguae balbutientes 
+        loqui quae ad pacem sunt. </p>
+               <p xml:id="azsw2e-d1e59-d1e302" n="32"> 
+        Non credentibus autem per nos primus apostolorum esaiae prophetae 
+        verba dicit: ' pergite lumini ignis vestri et flammae, quam accendistis 
+        '. Sed obduratum est cor eorum, ut scriptum est, ut non intellegerent, 
+        et pastoris vocem oves, quae meae non erant, audire minime voluerunt. 
+      </p>
+               <p xml:id="azsw2e-d1e59-d1e305" n="33"> 
+        In quibus servantes ea, quae ab ipsorum sunt statuta pontifice, eos 
+        minime in nostra communione recepimus et ab omni ecclesia catholica 
+        esse iussimus alienos, nisi errore damnato doctrinam nostram quantocius 
+        sequi habita regulari professione signaverint. </p>
+               <p xml:id="azsw2e-d1e59-d1e309" n="34"> 
+        Aequum quippe est, ut, qui nostris minime oboedientiam commodant statutis, 
+        ecclesiis habeantur extorres. </p>
+               <p xml:id="azsw2e-d1e59-d1e312" n="35"> 
+        Sed quia gremium suum numquam redeuntibus claudit ecclesia, obsecro 
+        clementiam vestram, ut, si proprio errore deposito et prava intentione 
+        depulsa ad unitatem ecclesiae reverti voluerint, in nostra communione 
+        receptis indignationis vestrae removeatis aculeos et nobis intercedentibus 
+        benigni animi gratiam condonate. </p>
+               <p xml:id="azsw2e-d1e59-d1e315" n="36"> 
+        Deum autem et salvatorem nostrum Ihesum Christum exoramus, quatenus 
+        longaevis et pacificis vos dignetur custodire temporibus in hac vera 
+        religione et unitate et veneratione apostolicae sedis, cuius principatum 
+        ut christianissimi et pii conservatis in omnibus. </p>
+               <p xml:id="azsw2e-d1e59-d1e318" n="37"> 
+        Praeterea, serenissime principum, laudamus legatorum vestrorum personas, 
+        Hypatii et Demetrii fratrum et coepiscoporum nostrorum, quos clementiae 
+        vestrae gratos fore ipsa manifestavit electio. </p>
+               <p xml:id="azsw2e-d1e59-d1e321" n="38"> 
+        Nam tantae causae pondus non nisi perfectis in Christo potuisset iis 
+        iniungi, tantae vero pietatis, tantae reverentiae plenos adfatus nisi 
+        per amantes minime dignaremini destinare. </p>
+               <p xml:id="azsw2e-d1e59-d1e324" n="39"> 
+        Et alia manu: gratia domini nostri Ihesu Christi et caritas dei patris 
+        et communicatio spiritus sancti sit semper vobiscum, piissime fili. 
+        Item subscriptio: omnipotens deus regnum et salutem vestram perpetua 
+        protectione custodiat, gloriosissime et clementissime fili imperator 
+        Auguste. * GLORIOSISS. ET CLEMENTISS. FIL. IUSTINIANO A. IOHANNES 
+        EP. URB. ROMAE.*&lt;A 534 D. VIII K. APRIL. ROMA 
+        DN. IUSTINIANO PP. A. IIII ET PAULINO IUNIORE VC. CONSS.&gt;  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

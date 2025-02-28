@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 19</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 19</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e260">
+            <head xml:id="azsw2e-d1e260-Hd1e100">Titulus 19</head>
+            <head xml:id="azsw2e-d1e260-Hd1e102" type="question-title">De precibus imperatori offerendis et de quibus rebus supplicare liceat vel non.</head>
+            <div xml:id="azsw2e-d1e260-Dd1e105">
+               <head xml:id="azsw2e-d1e260-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e260-d1e109">
+                  <ref xml:id="azsw2e-d1e260-Rd1e111">Imperatores 
+        Diocletianus, Maximianus.</ref> Licet servilis condicio deferendae 
+        precis facile capax non sit, tamen admissi sceleris atrocitas et laudabilis 
+        fidei exemplum super vindicanda caede domini tui hortamento fuit, 
+        ut praefecto praetorio iuxta adnotationis nostrae decretum demandaremus 
+        (quem adire cura), ut auditis his, quae in libello contulisti, et 
+        reos investigare et severissimam vindictam iuxta legum censuram exigere 
+        curet. * DIOCL. ET MAXIM. AA.FIRMINAE. *&lt;A 290 D. VIII ID OCT. 
+        DIOCLETIANO IIII ET MAXIMIANO III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e260-Dd1e115">
+               <head xml:id="azsw2e-d1e260-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e260-d1e119">
+                  <ref xml:id="azsw2e-d1e260-Rd1e121">Imperator 
+        Constantinus.</ref> Quotiens rescripto nostro moratoria praescriptio 
+        remittitur, aditus supplicandi pandatur. Quod autem totius negotii 
+        cognitionem tollit et vires principalis negotii exhaurit, sine gravi 
+        partis alterius dispendio convelli non potest. Nec praescriptionis 
+        igitur peremptoriae relaxatio petatur. * CONSTANT. A. SEVERO PU. *&lt;A 
+        325 D. X K. IUN. NICAEAE PAULINO ET IULIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e260-Dd1e125">
+               <head xml:id="azsw2e-d1e260-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e260-d1e129">
+                  <ref xml:id="azsw2e-d1e260-Rd1e131">Imperator 
+        Constantinus.</ref> Nec damnosa fisco nec iuri contraria postulari 
+        oportet. * CONST. A. AD POP. *&lt;A 329 PP. VIII K. OCT. ROMAE CONSTANTINO 
+        A. VIII ET CONSTANTIO C. IIII CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e260-Dd1e136">
+               <head xml:id="azsw2e-d1e260-Hd1e138">4</head>
+               <p xml:id="azsw2e-d1e260-d1e140">
+                  <ref xml:id="azsw2e-d1e260-Rd1e142">Imperatores 
+        Gratianus, Valentinianus, Theodosius.</ref> Universa rescripta, quae 
+        in debitorum causis super praestandis dilationibus promulgantur, non 
+        aliter valeant, nisi fideiussio idonea super solutione debiti praebeatur. 
+        * GRAT. VALENTIN. ET THEODOS. AAA. FLORO PP. *&lt;A 382 D. VIII K. 
+        MART. CONSTANTINOPOLI ANTONIO ET SYAGRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e260-Dd1e146">
+               <head xml:id="azsw2e-d1e260-Hd1e148">5</head>
+               <p xml:id="azsw2e-d1e260-d1e150">
+                  <ref xml:id="azsw2e-d1e260-Rd1e152">Imperatores 
+        Valentinianus, Valens.</ref> Si quis adversus praefectorum praetorio 
+        sententias duxerit supplicandum victusque fuerit denuo, nullam habebit 
+        licentiam iterum super eadem causa supplicandi. * VALENTIN. ET VALENS 
+        AA. AD VOLUSIANUM PP. *&lt;A 365 D. XV K. OCT. ROMAE VALENTINIANO 
+        ET VALENTE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e260-Dd1e156">
+               <head xml:id="azsw2e-d1e260-Hd1e158">6</head>
+               <p xml:id="azsw2e-d1e260-d1e160">
+                  <ref xml:id="azsw2e-d1e260-Rd1e162">Imperatores 
+        Honorius, Theodosius.</ref> Universis simul hanc observantiam remittimus, 
+        ut, a quocumque liberae condicionis constituto vel servo supplicante 
+        impetratum fuerit rescriptum, minime requiratur, per quem preces oblatae 
+        sunt. * HONOR. ET THEODOS. AA. ISIDORO PU. *&lt;A 410 D. II NON. SEPT. 
+        CONSTANTINOPOLI VARANE CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e260-Dd1e166">
+               <head xml:id="azsw2e-d1e260-Hd1e168">7</head>
+               <p xml:id="azsw2e-d1e260-d1e170">
+                  <ref xml:id="azsw2e-d1e260-Rd1e172">Imperatores 
+        Theodosius, Valentinianus.</ref> Rescripta contra ius elicita ab omnibus 
+        iudicibus praecipimus refutari, nisi forte aliquid est, quod non laedat 
+        alium et prosit petenti vel crimen supplicanti indulgeat. * THEODOS. 
+        ET VALENTIN. AA. AD SENATUM. *&lt;A 426 D. VIII ID. NOV. RAVENNAE 
+        THEODOSIO XII ET VALENTINIANO II AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e260-Dd1e176">
+               <head xml:id="azsw2e-d1e260-Hd1e178">8</head>
+               <p xml:id="azsw2e-d1e260-d1e180">
+                  <ref xml:id="azsw2e-d1e260-Rd1e182">Imperatores 
+        Theodosius, Valentinianus.</ref> Instrumentorum exempla non prosit 
+        precibus adiunxisse, sed necesse sit eorum in supplicatione vim exprimi, 
+        ut responsuro principi vera precatio rem aperiat cognoscendam, solis, 
+        cum necessitas exegerit, verbis precibus inserendis, quorum de sensu 
+        inter partes ita dubitari contigerit, ut etiam merito nostrum expectetur 
+        iudicium. * THEODOS. ET VALENTIN. AA. FLORENTIO PP. *&lt;A 429 D. 
+        VI K. APRIL. CONSTANTINOPOLI FLORENTIO ET DIONYSIO CONSS.&gt;  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

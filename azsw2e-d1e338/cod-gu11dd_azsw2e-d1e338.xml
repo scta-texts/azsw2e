@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 26</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 26</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e338">
+            <head xml:id="azsw2e-d1e338-Hd1e100">Titulus 26</head>
+            <head xml:id="azsw2e-d1e338-Hd1e102" type="question-title">De officio praefectorum praetorio Orientis et Illyrici.</head>
+            <div xml:id="azsw2e-d1e338-Dd1e105">
+               <head xml:id="azsw2e-d1e338-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e338-d1e109">
+                  <ref xml:id="azsw2e-d1e338-Rd1e111">Imperator 
+        Alexander Severus.</ref> Libellus praefecto praetorio datus pro contestatione 
+        haberi non potest. * ALEX. A. THEODOTO. *&lt;A 230 D. PRID. K. OCT. 
+        AGRICOLA ET CLEMENTE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e338-Dd1e115">
+               <head xml:id="azsw2e-d1e338-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e338-d1e119">
+                  <ref xml:id="azsw2e-d1e338-Rd1e121">Imperator 
+        Alexander Severus.</ref> Formam a praefecto praetorio datam, et si 
+        generalis sit, minime legibus vel constitutionibus contrariam, si 
+        nihil postea ex auctoritate mea innovatum est, servari aequum est. 
+        * ALEX. A. RESTITUTO. *&lt;A 235 D. ID. AUG. SEVERO ET QUINTIANO CONSS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e338-Dd1e125">
+               <head xml:id="azsw2e-d1e338-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e338-d1e129">
+                  <ref xml:id="azsw2e-d1e338-Rd1e131">Imperatores 
+        Valentinianus, Theodosius, Arcadius.</ref> Si quos iudices vel propter 
+        adversam et longinquam corporis valetudinem vel propter neglegentiam 
+        aut furtum vel simile aliquod vitium sublimitas tua inutiles esse 
+        reppererit, his ab administratione remotis et vice eorum aliis subrogatis 
+        furibusque poenis legitimis subactis ad nostrae mansuetudinis scientiam 
+        non crimina, sed vindicta referatur. * VALENTIN. THEODOS. ET ARCAD. 
+        AAA. TATIANO PP. *&lt;A 389 D. VI NON. MAI. MEDIOLANI TIMASIO ET PROMOTO 
+        CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e338-Dd1e136">
+               <head xml:id="azsw2e-d1e338-Hd1e138">4</head>
+               <p xml:id="azsw2e-d1e338-d1e140">
+                  <ref xml:id="azsw2e-d1e338-Rd1e142">Imperatores 
+        Valentinianus, Theodosius, Arcadius.</ref> De ordinario iudice semper 
+        illustris est cognitio praefecturae, licet militari viro ab eo facta 
+        fuerit iniuria. * VALENTIN. THEODOS. ET ARCAD. AAA. ADDEO COM. ET 
+        MAG. UTR. MIL.*&lt;A 393 D. PRID. ID. IAN. CONSTANTINOPOLI THEODOSIO 
+        A. III ET ABUNDATIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e338-Dd1e146">
+               <head xml:id="azsw2e-d1e338-Hd1e148">5</head>
+               <p xml:id="azsw2e-d1e338-d1e150">
+                  <ref xml:id="azsw2e-d1e338-Rd1e152">Imperatores 
+        Arcadius, Honorius, Theodosius.</ref> Si qui posthac velut indebitis 
+        oneribus gravati ad preces crediderint convolandum sive de naviculariis 
+        rationibus sive transvectionibus, rescripta, quae de omnibus his atque 
+        huiusmodi ordinationibus emitti contigerit, ad sedem sublimitatis 
+        tuae rescribantur. * ARCAD. HONOR. ET THEODOS. AAA. ANTHEMIO PP. *&lt;A 
+        405 D. VII ID. DEC. CONSTANTINOPOLI STILICHONE II ET ANTHEMIO CONSS.&gt; 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 11</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 11</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e171">
+            <head xml:id="azsw2e-d1e171-Hd1e100">Titulus 11</head>
+            <head xml:id="azsw2e-d1e171-Hd1e102" type="question-title">De paganis sacrificiis et templis.</head>
+            <div xml:id="azsw2e-d1e171-Dd1e105">
+               <head xml:id="azsw2e-d1e171-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e171-d1e109">
+                  <ref xml:id="azsw2e-d1e171-Rd1e111">Imperator Constantius.</ref>  Placuit omnibus locis atque urbibus universis claudi 
+        protinus templa et accessu vetito omnibus licentiam delinquendi perditis 
+        abnegari. </p>
+               <p xml:id="azsw2e-d1e171-d1e114" n="1"> 
+        Volumus etiam cunctos sacrificiis abstinere. </p>
+               <p xml:id="azsw2e-d1e171-d1e117" n="2"> 
+        Quod si quis aliquid forte huiusmodi perpetraverit, gladio ultore 
+        sternatur. Facultates etiam perempti fisco decernimus vindicari et 
+        similiter puniri rectores provinciarum, si facinora vindicare neglexerint. 
+        * CONSTANTIUS A. AD TAURUM PP. *&lt;A 354 D.K.DEC.CONSTANTIO A.VII 
+        ET CONSTANTE III CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e171-Dd1e121">
+               <head xml:id="azsw2e-d1e171-Hd1e123">2</head>
+               <p xml:id="azsw2e-d1e171-d1e125">
+                  <ref xml:id="azsw2e-d1e171-Rd1e127">Imperatores 
+        Gratianus, Valentinianus, Theodosius.</ref> Ne quis mortalium ita faciendi 
+        sacrificii sumat audaciam, ut inspectione iecoris extorumque praesagio 
+        vanae spem promissionis accipiat vel, quod est deterius, futura sub 
+        exsecrabili consultatione cognoscat. Acerbioris etenim imminebit supplicii 
+        cruciatus eis, qui contra vetitum praesentium vel futurarum rerum 
+        explorare temptaverint veritatem. * GRAT. VALENTIN. ET THEODOS. AAA. 
+        CYNEGIO PP. *&lt;A 385 D. VIII K. IUN. CONSTANTINOPOLI ARCADIO A. 
+        ET BAUTONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e171-Dd1e131">
+               <head xml:id="azsw2e-d1e171-Hd1e133">3</head>
+               <p xml:id="azsw2e-d1e171-d1e135">
+                  <ref xml:id="azsw2e-d1e171-Rd1e137">Imperatores 
+        Arcadius, Honorius.</ref> Sicut sacrificia prohibemus, ita volumus 
+        publicorum operum ornamenta servari. Ac ne sibi aliqua auctoritate 
+        blandiantur, qui ea conantur evertere, si quod rescriptum, si qua 
+        lex forte praetenditur: abreptae huiusmodi chartae ex eorum manibus 
+        ad nostram scientiam referantur. * ARCAD. ET HONOR. AA. MACROBIO ET 
+        PROCLIANO VIC. *&lt;A 399 D. IIII K. FEBR. RAVENNAE THEODORO CONS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e171-Dd1e142">
+               <head xml:id="azsw2e-d1e171-Hd1e144">4</head>
+               <p xml:id="azsw2e-d1e171-d1e146">
+                  <ref xml:id="azsw2e-d1e171-Rd1e148">Imperatores 
+        Arcadius, Honorius.</ref> Ut profanos ritus iam salubri lege submovimus, 
+        ita festos conventus civium et communem omnium laetitiam non patimur 
+        submoveri. Unde absque ullo sacrificio atque ulla superstitione damnabili 
+        exhiberi populo voluptates secundum veterem consuetudinem, iniri etiam 
+        festa convivia, si quando exigunt publica vota, decernimus. * ARCAD. 
+        ET HONOR. AA.APOLLODORO PROCONS. AFRICAE. *&lt;A 399 D. XIII K. SEPT. 
+        PATAVI THEODORO CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e171-Dd1e152">
+               <head xml:id="azsw2e-d1e171-Hd1e154">5</head>
+               <p xml:id="azsw2e-d1e171-d1e156">
+                  <ref xml:id="azsw2e-d1e171-Rd1e158">Imperatores 
+        Honorius, Theodosius.</ref> Omnia loca, quae sacris error veterum deputavit, 
+        nostrae rei iubemus sociari. Quod autem ex eo iure ubicumque ad singulas 
+        quasque personas vel praecedentium principum largitas vel nostra maiestas 
+        voluit pervenire, id in eorum patrimoniis aeterna firmitate perduret. 
+        Ea vero, quae multiplicibus constitutis ad venerabilem ecclesiam voluimus 
+        pertinere, christiana sibi merito religio vindicabit. * HONOR. ET 
+        THEODOS. AA. POPULO CARTHAGINIENSI. *&lt;A 415 D. III K. SEPT.RAVENNAE 
+        HONORIO X ET THEODOSIO VI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e171-Dd1e162">
+               <head xml:id="azsw2e-d1e171-Hd1e164">6</head>
+               <p xml:id="azsw2e-d1e171-d1e166">
+                  <ref xml:id="azsw2e-d1e171-Rd1e168">Imperatores 
+        Honorius, Theodosius.</ref> Christianis, qui vel vere sunt vel esse 
+        dicuntur, specialiter demandamus, ut iudaeis ac paganis in quiete 
+        degentibus nihilque temptantibus turbulentum legibusque contrarium 
+        non audeant manus inferre religionis auctoritate abusi. Nam si contra 
+        securos fuerint violenti vel eorum bona diripuerint, non ea sola quae 
+        abstulerint, sed convicti in duplum quae rapuerint restituere compellantur. 
+      </p>
+               <p xml:id="azsw2e-d1e171-d1e171" n="1"> 
+        Rectores etiam provinciarum et officia et principales cognoscant se, 
+        si non ipsi talia vindicent, sed fieri a popularibus hoc permiserint, 
+        ut eos qui fecerint puniendos. * HONOR. ET THEODOS. AA. ASCLEPIODOTO 
+        PP. *&lt;A 423 D. VI ID. IUN. CONSTANTINOPOLI ASCLEPIODOTO ET MARINIANO 
+        CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e171-Dd1e175">
+               <head xml:id="azsw2e-d1e171-Hd1e177">7</head>
+               <p xml:id="azsw2e-d1e171-d1e179">
+                  <ref xml:id="azsw2e-d1e171-Rd1e181">Imperatores 
+        Valentinianus, Marcianus.</ref> Nemo venerantis adorantisque animo 
+        delubra, quae olim iam clausa sunt, reseret: absit a saeculo nostro 
+        infandis exsecrandisque simulacris honorem pristinum reddi, redimiri 
+        sertis templorum impios postes, profanis aris accendi ignes, adoleri 
+        in isdem thura, victimas caedi, pateris vina libari et religionis 
+        loco existimari sacrilegium. </p>
+               <p xml:id="azsw2e-d1e171-d1e184" n="1"> 
+        Quisquis autem contra hanc serenitatis nostrae sanctionem et contra 
+        interdicta sacratissimarum veterum constitutionum sacrificia exercere 
+        temptaverit, apud publicum iudicem reus tanti facinoris legitime accusetur 
+        et convictus proscriptionem omnium bonorum suorum et ultimum supplicium 
+        subeat. </p>
+               <p xml:id="azsw2e-d1e171-d1e187" n="2"> 
+        Conscii etiam ac ministri sacrificiorum eandem poenam, quae in illum 
+        fuerit inrogata, sustineant, ut hac legis nostrae severitate perterriti 
+        metu poenae desinant sacrificia interdicta celebrare. </p>
+               <p xml:id="azsw2e-d1e171-d1e190" n="3"> 
+        Quod si vir clarissimus rector provinciae post accusationem legitimam 
+        et post crimen in cognitione convictum tantum scelus dissimulaverit 
+        vindicare, quinquaginta libras auri ipse iudex, quinquaginta etiam 
+        officium eius confestim fisco nostro inferre cogatur. * VALENTIN. 
+        ET MARCIAN. AA. PALLADIO PP. *&lt;A 451 D. PRID. ID. NOV. MARCIANO 
+        A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e171-Dd1e194">
+               <head xml:id="azsw2e-d1e171-Hd1e196">8</head>
+               <p xml:id="azsw2e-d1e171-d1e198">
+                  <ref xml:id="azsw2e-d1e171-Rd1e200">Imperatores 
+        Leo, Anthemius.</ref> Nemo ea, quae saepius paganae superstitionis 
+        hominibus interdicta sunt, audeat pertemptare, sciens, quod crimen 
+        publicum committit qui haec ausus fuerit perpetrare. </p>
+               <p xml:id="azsw2e-d1e171-d1e203" n="1"> 
+        In tantum autem huiusmodi facinora volumus esse resecanda, ut, etiamsi 
+        in alieno praedio vel domo aliquid tale perpetretur, scientibus videlicet 
+        dominis, praedium quidem vel domus sacratissimi viribus aerarii addicetur, 
+        domini vero pro hoc solo, quod scientes consenserint sua loca talibus 
+        contaminari sceleribus, si quidem dignitate vel militia quadam decorantur, 
+        amissione militiae vel dignitatis nec non rerum suarum proscriptione 
+        plectentur, privatae vero condicionis vel plebeii constituti post 
+        cruciatus corporis operibus metallorum perpetuo deputabuntur exilio. 
+        * LEO ET ANTHEM. AA. DIOSCORO PP. *&lt;A 472? &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e171-Dd1e207">
+               <head xml:id="azsw2e-d1e171-Hd1e209">9</head>
+               <p xml:id="azsw2e-d1e171-d1e211">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e171-Dd1e217">
+               <head xml:id="azsw2e-d1e171-Hd1e219">10</head>
+               <p xml:id="azsw2e-d1e171-d1e221">  
+        <!-- Greek --> 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

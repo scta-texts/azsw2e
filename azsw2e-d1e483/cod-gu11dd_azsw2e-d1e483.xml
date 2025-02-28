@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 39</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 39</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e483">
+            <head xml:id="azsw2e-d1e483-Hd1e100">Titulus 39</head>
+            <head xml:id="azsw2e-d1e483-Hd1e102" type="question-title">De officio praetorum.</head>
+            <div xml:id="azsw2e-d1e483-Dd1e105">
+               <head xml:id="azsw2e-d1e483-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e483-d1e109">
+                  <ref xml:id="azsw2e-d1e483-Rd1e111">Imperator 
+        Constantius.</ref> Praetori defertur haec iurisdictio sancientibus 
+        nobis, ut liberale negotium ipse disceptator examinet. Sane interponi 
+        ab eo decreta conveniet, ut, sive in integrum restitutio deferenda 
+        est, probatis dumtaxat causis ab eodem etiam interponatur decretum, 
+        seu tutoris dandi seu ordinandi curatoris, impleatur ab eo interpositio 
+        decretorum: quippe cum apud eum quoque adipisci debeat patronorum 
+        iudicio sedula servitus libertatem. Nec sane debita filiorum votis 
+        patrum vota cessabunt, ut patente copia liberos suos exuant potestate, 
+        magis propriis obsequiis mancipatos, cum sese intellegant his obsequii 
+        plus debere, a quibus sese memine runt vinculis sacris exutos. * CONSTANTIUS 
+        A. AD SENATUM. *&lt;A 359 D. III K. IAN. EUSEBIO ET HYPATIO CONSS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e483-Dd1e115">
+               <head xml:id="azsw2e-d1e483-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e483-d1e119">
+                  <ref xml:id="azsw2e-d1e483-Rd1e121">Imperatores 
+        Valentinianus, Marcianus.</ref> Tres tantummodo praetores electae opinionis 
+        in hac urbe per singulos annos iudicio senatus praecipimus ordinari, 
+        qui competentes causas et debitos actus integre disceptare atque tractare 
+        debebunt, ut hi tamen tres ex his, qui proprium larem in hac alma 
+        urbe habeant, non ex provinciis eligantur. Nec si qui forte propter 
+        aliquas causas ad hanc urbem de provinciis venerit, ad praeturae munus 
+        vocetur, sed hi tantummodo, ut dictum est, qui hic domicilium fovent, 
+        ita ut nec ipsi sumptus quosdam inferre cogantur inviti, sed habeant 
+        spontaneae liberalitatis arbitrium. * VALENTIN. ET MARCIAN. AA. TATIANO 
+        PU. *&lt;A 450 D. XV K. IAN. CONSTANTINOPOLI VALENTINIANO A. VII ET 
+        AVIENO CONSS.&gt;  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

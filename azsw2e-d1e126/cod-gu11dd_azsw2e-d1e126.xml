@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 7</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 7</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e126">
+            <head xml:id="azsw2e-d1e126-Hd1e100">Titulus 7</head>
+            <head xml:id="azsw2e-d1e126-Hd1e102" type="question-title">De apostatis</head>
+            <div xml:id="azsw2e-d1e126-Dd1e105">
+               <head xml:id="azsw2e-d1e126-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e126-d1e109">
+                  <ref xml:id="azsw2e-d1e126-Rd1e111">Imperator 
+        Constantius .</ref> Si quis lege venerabili constitutus ex christiano 
+        iudaeus effectus sacrilegis coetibus adgregetur, cum accusatio fuerit 
+        comprobata, facultates eiusdem dominio fisci iubemus vindicari. * 
+        CONSTANTIUS A. AD THALASSIUM PP. *&lt;A 357 D. V NON. IUL. MEDIOLANO 
+        CONSTANTIO A. VIIII ET IULIANO C. II CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e126-Dd1e115">
+               <head xml:id="azsw2e-d1e126-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e126-d1e119">
+                  <ref xml:id="azsw2e-d1e126-Rd1e121">Imperatores 
+        Gratianus, Valentinianus, Theodosius.</ref> Si quis defunctum violatae 
+        atque desertae christianae religionis accusat eumque in sacrilegia 
+        templorum vel in ritus iudaicos transisse contendit eaque gratia testari 
+        minime potuisse confirmat, intra quinquennium iuge, quod inofficiosis 
+        actionibus constitutum est, proprias exserat actiones futurique iudicii 
+        huiuscemodi sortiatur exordium. * GRAT. VALENTIN. ET THEODOS. AAA. 
+        AD HYPATIUM PP. *&lt;A 383 D. XV K. IUN. PATAVI MEROBAUDE II ET SATURNINO 
+        CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e126-Dd1e125">
+               <head xml:id="azsw2e-d1e126-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e126-d1e129">
+                  <ref xml:id="azsw2e-d1e126-Rd1e131">Imperatores 
+        Valentinianus, Theodosius, Arcadius.</ref> Ii, qui sanctam fidem prodiderint 
+        et sanctum baptisma haeretica superstitione profanaverint, a consortio 
+        omnium segregati sint, a testimoniis alieni, testamenti, ut ante iam 
+        sanximus, non habeant factionem, nulli in hereditate succedant, a 
+        nemine scribantur heredes. </p>
+               <p xml:id="azsw2e-d1e126-d1e134" n="1"> 
+        Quos etiam praecepissemus procul abici ac longius amandari, nisi poenae 
+        visum fuisset esse maioris versari inter homines et hominum carere 
+        suffragiis. </p>
+               <p xml:id="azsw2e-d1e126-d1e137" n="2"> 
+        Sed nec umquam in statum pristinum revertentur, non flagitium morum 
+        oblitterabitur paenitentia neque umbra aliqua exquisitae defensionis 
+        aut muniminis obducetur, quoniam quidem eos, qui fidem quam deo dicaverant 
+        polluerunt et prodentes divinum mysterium in profana migraverunt, 
+        tueri ea quae sunt commenticia et concinnata non possunt. </p>
+               <p xml:id="azsw2e-d1e126-d1e140" n="3"> 
+        Lapsis etenim et errantibus subvenitur, perditis vero. Hoc est sanctum 
+        baptisma profanantibus, nullo remedio paenitentiae, quae solet aliis 
+        criminibus adesse, succurritur. * VALENTIN. THEODOS. ET ARCAD. AAA. 
+        FLAVIANO PP. *&lt;A 391 D. V ID. MAI. CONCORDIAE TATIANO ET SYMMACHO 
+        CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e126-Dd1e145">
+               <head xml:id="azsw2e-d1e126-Hd1e147">4</head>
+               <p xml:id="azsw2e-d1e126-d1e149">
+                  <ref xml:id="azsw2e-d1e126-Rd1e151">Imperatores 
+        Theodosius, Valentinianus.</ref> Apostatarum sacrilegum nomen singulorum 
+        vox continuae accusationis incesset et nullis finita temporibus huiuscemodi 
+        criminis arceatur indago. </p>
+               <p xml:id="azsw2e-d1e126-d1e154" n="1"> 
+        Quibus quamvis praeterita interdicta sufficiant, tamen etiam illud 
+        iteramus, ne, postquam a fide deviaverint, testandi aut donandi quippiam 
+        habeant facultatem. Sed nec venditionis specie facere legi fraudem 
+        sinantur, totumque ab intestato christianitatem sectantibus propinquis 
+        potissimum deferatur. </p>
+               <p xml:id="azsw2e-d1e126-d1e157" n="2"> 
+        In tantum autem contra huiuscemodi sacrilegia perpetuari volumus actionem, 
+        ut universis ab intestato venientibus etiam post mortem peccantis 
+        absolutam vocem insimulationis congruae non negamus: nec illud patiemur 
+        obstare, si nihil in contestatione profano dicatur vivente perductum. 
+      </p>
+               <p xml:id="azsw2e-d1e126-d1e160" n="3"> 
+        Sed ne huius interpretatio criminis latius incerto vagetur errore, 
+        eos praesentibus insectamur oraculis, qui nomine christianitatis induti 
+        sacrificia vel fecerint vel facienda mandaverint: quorum etiam post 
+        mortem comprobata perfidia hac ratione plectenda est, ut donationibus 
+        testamentisque rescissis ii, quibus hoc defert legitima successio, 
+        huiusmodi personarum hereditate potiantur. * THEODOS. ET VALENTIN. 
+        AA. BASSO PP. *&lt;A 426 D. VII ID. APRIL. RAVENNAE THEODOSIO A. XII 
+        ET VALENTINIANO C. II CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e126-Dd1e164">
+               <head xml:id="azsw2e-d1e126-Hd1e166">5</head>
+               <p xml:id="azsw2e-d1e126-d1e168">
+                  <ref xml:id="azsw2e-d1e126-Rd1e170">Imperatores 
+        Theodosius, Valentinianus.</ref> Eum, quicumque servum seu ingenuum, 
+        invitum vel suasione plectenda, ex cultu christianae religionis in 
+        nefandam sectam ritumve traduxerit, cum dispendio fortunarum capite 
+        puniendum censemus. * THEODOS. ET VALENTIN. AA. FLORENTIO PP. *&lt;A 
+        438 D. PRID. K. FEBR. CONSTANTINOPOLI THEODOSIO A. XVI ET FAUSTO CONSS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e126-Dd1e174">
+               <head xml:id="azsw2e-d1e126-Hd1e176">6</head>
+               <p xml:id="azsw2e-d1e126-d1e178">
+                  <ref xml:id="azsw2e-d1e126-Rd1e180">Imperatores 
+        Valentinianus, Marcianus.</ref> Eos, qui catholicarum ecclesiarum clerici 
+        vel orthodoxae fidei monachi relicto vero orthodoxae religionis cultu 
+        apollinaris vel eutychetis haeresin et dogmata abominanda sectati 
+        sunt, omnibus poenis, quae prioribus legibus adversus haereticos constitutae 
+        sunt, iubemus teneri et extra ipsum quoque romani imperii solum repelli, 
+        sicut de manichaeis praecedentium legum statuta sanxerunt. * VALENTIN. 
+        ET MARCIAN. AA. PALLADIO PP. *&lt;A 455 D. K. AUG. CONSTANTINOPOLI 
+        VALENTINIANO A. VIII ET ANTHEMIO CONSS.&gt;  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

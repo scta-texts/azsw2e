@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 28</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 28</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e360">
+            <head xml:id="azsw2e-d1e360-Hd1e100">Titulus 28</head>
+            <head xml:id="azsw2e-d1e360-Hd1e102" type="question-title">&gt;De officio praefecti urbis.</head>
+            <div xml:id="azsw2e-d1e360-Dd1e105">
+               <head xml:id="azsw2e-d1e360-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e360-d1e109">
+                  <ref xml:id="azsw2e-d1e360-Rd1e111">Imperatores 
+        Valentinianus, Valens.</ref> Studentibus nobis statum urbis et annoniarum 
+        rationem aliquando firmare in animo subiit eiusdem annonae curam non 
+        omnibus deferre potestatibus. Ac ne praefectura urbis abrogatum sibi 
+        aliquid putaret, si totum ad officium annonarium redundasset eidem 
+        praefecturae sollicitudinis ac diligentiae necessitatem mandamus, 
+        sed non ita, ut lateat officium annonariae praefecturae, sed ut ambae 
+        potestates, in quantum sibi negotii est, tueantur civilem annonam 
+        sitque societas muneris ita, ut inferior gradus meritum superioris 
+        agnoscat atque ita superior potestas se exserat, ut sciat ex ipso 
+        nomine, quid praefecto debeatur annonae. * VALENTIN. ET VALENS AA. 
+        AD VOLUSIANUM PU. *&lt;A 368 D. II NON. APRIL. MEDIOLANI VALENTINIANO 
+        ET VALENTE AA. II CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e360-Dd1e115">
+               <head xml:id="azsw2e-d1e360-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e360-d1e119">
+                  <ref xml:id="azsw2e-d1e360-Rd1e121">Imperatores 
+        Valentinianus, Valens.</ref> Quod promulgatis sanctionibus tua sinceritas 
+        perscriptum esse non nescit, etiam ex praecepto nostro competenter 
+        observet nec quasdam personas de provincia existimet avocandas nisi 
+        tantummodo suos officiales et homines populares huius almae urbis 
+        seditioni obnoxios. * VALENTIN. ET VALENS AA. AD AMPELIUM PU. *&lt;A 
+        371 372 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e360-Dd1e125">
+               <head xml:id="azsw2e-d1e360-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e360-d1e129">
+                  <ref xml:id="azsw2e-d1e360-Rd1e131">Imperatores 
+        Valens, Gratianus, Valentinianus.</ref> Praefectura urbis cunctis quae 
+        intra urbem sunt antecellat potestatibus, tantum ex omnium parte delibans, 
+        quantum sine iniuria ac detrimento alieni honoris usurpet. * VALENS 
+        GRAT. ET VALENTIN. AAA. AD RUFINUM PU. *&lt;A 376 D. III ID. IUL. 
+        VALENTE A. V ET VALENTINIANO IUN. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e360-Dd1e136">
+               <head xml:id="azsw2e-d1e360-Hd1e138">4</head>
+               <p xml:id="azsw2e-d1e360-d1e140">
+                  <ref xml:id="azsw2e-d1e360-Rd1e142">Imperatores 
+        Valentinianus, Theodosius, Arcadius.</ref> Omnia corporatorum genera, 
+        quae in constantinopolitana civitate versantur, universos quoque cives 
+        atque populares praefecturae urbanae regi moderamine recognoscas. 
+        * VALENTIN. THEODOS. ET ARCAD. AAA. SEVERINO COM. SACR. LARG. *&lt;A 
+        391 D. XVII K. MAI. MEDIOLANI TATIANO ET SYMMACHO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e360-Dd1e146">
+               <head xml:id="azsw2e-d1e360-Hd1e148">5</head>
+               <p xml:id="azsw2e-d1e360-d1e150">
+                  <ref xml:id="azsw2e-d1e360-Rd1e152">Imperator 
+        Theodosius.</ref> Primicerius adiutorum tuae sedis officii per biennium, 
+        quod in eodem gradu ex consuetudine priscae ordinationis emeruit, 
+        curam insuper personarum usurpatione omni atque ambitione cessante 
+        suscipiat: hoc etiam adiecto, ut, si quis ex memorato ordine vel condicionis 
+        humanae fine praeventus vel alia quacumque ratione militiae gradum 
+        propriae amisisse monstrabitur, solitae ambitionis iniuria vacante 
+        locum is, qui iuxta matriculae veritatem sequitur, obtineat. * THEODOS. 
+        A. CONSTANTIO PU. *&lt;A 424 D. X III K. IAN. CONSTANTINOPOLI VICTORE 
+        CONS.&gt;  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

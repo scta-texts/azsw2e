@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 12</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 12</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e182">
+            <head xml:id="azsw2e-d1e182-Hd1e100">Titulus 12</head>
+            <head xml:id="azsw2e-d1e182-Hd1e102" type="question-title">De his qui ad ecclesias confugiunt vel ibi exclamant. </head>
+            <div xml:id="azsw2e-d1e182-Dd1e105">
+               <head xml:id="azsw2e-d1e182-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e182-d1e109">
+                  <ref xml:id="azsw2e-d1e182-Rd1e111">Imperatores Arcadius, Honorius.</ref> 
+        Iudaei, qui reatu aliquo vel debitis fatigati 
+        simulant se christianae legi velle coniungi, ut ad ecclesias confugientes 
+        evitare possint crimina vel pondera debitorum, arceantur nec ante 
+        suscipiantur, quam debita universa reddiderint vel fuerint innocentia 
+        demonstrata purgati. * ARCAD. ET HONOR. AA. ARCHELAO PRAEF. AUGUSTALI. 
+        *&lt;A 397 D. XV K. IUL. CONSTANTINOPOLI CAESARIO ET ATTICO CONSS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e182-Dd1e115">
+               <head xml:id="azsw2e-d1e182-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e182-d1e119">
+                  <ref xml:id="azsw2e-d1e182-Rd1e121">Imperatores 
+        Honorius, Theodosius.</ref> Fideli ac devota praeceptione sancimus 
+        nemini licere ad sacrosanctas ecclesias confugientes abducere: sub 
+        hac videlicet definitione, ut, si quisquam contra hanc legem venire 
+        temptaverit, sciat se ad maiestatis crimen esse retinendum. * HONOR. 
+        ET THEODOS. AA. IOVIO PP. *&lt;A 409 D. K. APRIL. RAVENNAE HONORIO 
+        VIII ET THEODOSIO III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e182-Dd1e125">
+               <head xml:id="azsw2e-d1e182-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e182-d1e129">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e182-Dd1e135">
+               <head xml:id="azsw2e-d1e182-Hd1e137">4</head>
+               <p xml:id="azsw2e-d1e182-d1e139">
+                  <ref xml:id="azsw2e-d1e182-Rd1e141">Imperatores Theodosius, Valentinianus.</ref> Si servus cuiusquam ecclesiam alteriave 
+        armatus nullis hoc suspicantibus inopinatus inruerit, exinde protinus 
+        abstrahatur vel certe continuo domino vel ei, unde eum tam furiosa 
+        formido proripuit, indicetur eique mox abstrahendi copia non negetur. 
+      </p>
+               <p xml:id="azsw2e-d1e182-d1e144" n="1"> 
+        Sed si armorum fiducia resistendi animos insania impellente conceperit, 
+        abripiendi extrahendique eum domino, quibus potest id efficere viribus, 
+        concedatur. Quod si illum etiam confici in concertatione pugnaque 
+        contigerit, nulla erit eius noxa nec conflandae criminationis relinquetur 
+        occasio, si is, qui ex statu servili in hostilis et homicidae condicionem 
+        transiliit, occisus sit. * THEODOS. ET VALENTIN. AA. HIERO PP. 
+        *&lt;A 432 D. V. K. APRIL. CONSTANTINOPOLI VALERIO ET AETIO CONSS.&gt; 
+      </p>
+               <p xml:id="azsw2e-d1e182-d1e147"> 
+      </p>
+               <p xml:id="azsw2e-d1e182-d1e149">
+                  <ref xml:id="azsw2e-d1e182-Rd1e151">Imperator 
+        Marcianus.</ref> Denuntiamus vobis omnibus, ut in sacrosanctis ecclesiis 
+        et in aliis quidem venerabilibus locis, in quibus cum pace et quiete 
+        vota competit celebrari, abstineatis omni seditione. Nemo conclamationibus 
+        utatur, nemo moveat tumultum aut impetum committat vel conventicula 
+        collecta multitudine in qualibet parte civitatis vel vici vel cuiuscumque 
+        loci colligere aut celebrare conetur. Nam si quis aliquid contra leges 
+        a quibusdam sibi existimet perpetrari, liceat ei adire iudicem et 
+        legitimum postulare praesidium. Sciant sane omnes, quod, si quis contra 
+        huius edicti normam aut agere aliquid aut seditionem movere temptaverit, 
+        ultimo supplicio subiacebit. * MARCIAN. A. AD POP. *&lt;A 451 D. III 
+        ID. IUL. CONSTANTINOPOLI MARCIANO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e182-Dd1e155">
+               <head xml:id="azsw2e-d1e182-Hd1e157">6</head>
+               <p xml:id="azsw2e-d1e182-d1e159">
+                  <ref xml:id="azsw2e-d1e182-Rd1e161">Imperator Leo.</ref> Praesenti lege decernimus per omnia loca valitura ( excepta 
+        hac urbe regia, in qua nos divinitate propitia degentes, quotiens 
+        usus exegerit, invocati singulis causis atque personis praesentanea 
+        constituta praestamus) nullos penitus cuiuscumque condicionis de sacrosanctis 
+        ecclesiis orthodoxae fidei expelli aut tradi vel protrahi confugas 
+        nec pro his venerabiles episcopos aut religiosos oeconomos exigi, 
+        quae debeantur ab eis: qui hoc moliri aut facere aut nuda saltim cogitatione 
+        atque tractatu ausi fuerint temptare, capitali et ultima supplicii 
+        animadversione plectendi sunt. Ex his ergo locis eorumque finibus, 
+        quos anteriorum le gum praescripta sanxerunt, nullos expelli aut eici 
+        aliquando patimur nec in ipsis ecclesiis reverendis ita quemquam detineri 
+        atque constringi, ut ei aliquid aut victualium rerum aut vestis negetur 
+        aut requies. </p>
+               <p xml:id="azsw2e-d1e182-d1e164" n="1"> 
+        Sed si quidem ipsi refugae apparent publice et se in sacris locis 
+        offerunt quaerentibus conveniendos, ipsi, servata locis reverentia, 
+        iudicum quibus subiacent sententiis moneantur, responsum daturi, quale 
+        sibi quisque perspexerit convenire. </p>
+               <p xml:id="azsw2e-d1e182-d1e167" n="2"> 
+        Quod si in finibus ecclesiasticis latitant, religiosus oeconomus seu 
+        defensor ecclesiae vel certe, quem his negotiis commodiorem auctoritas 
+        episcopalis elegerit, reconditam latentemque personam decenter sine 
+        ullo incommodo monitus, intra fines ecclesiae si invenitur, praesentet. 
+      </p>
+               <p xml:id="azsw2e-d1e182-d1e170" n="3"> 
+        Cum autem monitus fuerit in publico privatove contractu actione civili, 
+        in eius sit arbitrio sive per se seu, si magis elegerit, instructo 
+        sollemniter procuratore directo in eius iudicis, cuius pulsatur sententiis, 
+        examine respondere. </p>
+               <p xml:id="azsw2e-d1e182-d1e174" n="4"> 
+        Sed si hoc facere detractat aut differt, iudiciorum legumque solitus 
+        ordo servetur. Itaque si res immobiles possidet, post edictorum sollemnia 
+        sententia iudicantis usque ad modum debiti bonorum eius sive praediorum 
+        traditio seu venditio celebretur. </p>
+               <p xml:id="azsw2e-d1e182-d1e177" n="5"> 
+        Quod si res mobiles habet easque extra terminos occultat ecclesiae, 
+        sententia iudicantis et exsecutoris sollicitudine perquisitae, quocumque 
+        occultantur, erutae pro aequitatis tramite modoque debiti publicis 
+        rationibus privatisque proficiant. </p>
+               <p xml:id="azsw2e-d1e182-d1e180" n="6"> 
+        Sane si intra fines habentur ecclesiae vel apud quemlibet ex clericis 
+        absconditae sive depositae fuisse firmantur, studio et providentia 
+        viri reverentissimi oeconomi sive defensoris ecclesiae diligentia 
+        inquisitae quolibet modo ad sacrosanctam ecclesiam pervenientes proferantur, 
+        ut pari aequitatis ordine ex isdem bonis fisco vel rei publicae sive 
+        creditoribus et quibuscumque iustis petitoribus ad modum debiti consulatur. 
+      </p>
+               <p xml:id="azsw2e-d1e182-d1e183" n="7"> 
+        Sicubi depositae vel commendatae dicuntur, inquirendi tantam volumus 
+        esse cautelam, ut, si sola suspicatione apud aliquem adserantur absconditae, 
+        de sua etiam conscientia satisfacere auctoritate venerabilis antistitis 
+        iubeatur. </p>
+               <p xml:id="azsw2e-d1e182-d1e186" n="8"> 
+        Adicientes, quod ea, quae de principalibus personis decrevimus, etiam 
+        in fideiussorum sive mandatorum seu rerum ad eos pertinentium vel 
+        familiarium et sociorum vel participum et omnino in isdem causis obnoxiorum 
+        personis praecipimus observari, scilicet si ipsos quoque secum confugae 
+        intra ecclesiarum terminos habere voluerint, ut ex eorum quoque bonis 
+        publica debita privataque solvantur et per eos rerum ubicumque depositae 
+        sunt procedat inquisitio. Et haec quidem de ingenuis liberisque personis. 
+      </p>
+               <p xml:id="azsw2e-d1e182-d1e189" n="9"> 
+        Sane si servus aut colonus vel adscripticius, familiaris sive libertus 
+        et huiusmodi aliqua persona domestica vel condicioni subdita conquassatis 
+        rebus certis atque subtractis aut se ipsum furatus ad sacrosancta 
+        se contulerit loca, statim a religiosis oeconomis sive defensoribus, 
+        ubi primum hoc scire potuerint, per eos videlicet ad quos pertinent, 
+        ipsis praesentibus pro ecclesiastica disciplina et qualitate commissi 
+        aut ultione competenti aut intercessione humanissima procedente, remissione 
+        veniae et sacramenti interveniente securi ad locum statumque proprium 
+        revertantur, rebus, quas secum habuerint, reformandis. Diutius enim 
+        eos intra ecclesiam non convenit commorari, ne patronis seu dominis 
+        per ipsorum ab sentiam obsequia iusta denegentur et ipsi per incommodum 
+        ecclesiae egentium et pauperum alantur expensis. </p>
+               <p xml:id="azsw2e-d1e182-d1e193" n="10"> 
+        Inter haec autem, quae sedulo ad religiosi oeconomi sive defensoris 
+        ecclesiae sollicitudinem curamque respiciunt, erit etiam illud observandum, 
+        ut singulorum intra ecclesias confugientium personas causasque incessanter 
+        conquirant, denique iudices vel eos, ad quos causae et personae pertinent, 
+        instantius instruant, ut aequitatis convenientiam diligentius exsequantur. 
+        * LEO A. ERYTHRIO PP. *&lt;A 466 D. PRID. K. MART. CONSTANTINOPOLI 
+        LEONE A. III CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e182-Dd1e197">
+               <head xml:id="azsw2e-d1e182-Hd1e199">7</head>
+               <p xml:id="azsw2e-d1e182-d1e201">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e182-Dd1e206">
+               <head xml:id="azsw2e-d1e182-Hd1e208">8</head>
+               <p xml:id="azsw2e-d1e182-d1e210">  
+        <!-- Greek --> 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 3</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 3</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e81">
+            <head xml:id="azsw2e-d1e81-Hd1e100">Titulus 3</head>
+            <head xml:id="azsw2e-d1e81-Hd1e102" type="question-title">De episcopis et clericis et orphanotrophis et brephotrophis et xenodochis 
+      et asceteriis et monachis et privilegio eorum et castrensi peculio 
+      et de redimendis captivis et de nuptiis clericorum vetitis seu permissis.</head>
+            <div xml:id="azsw2e-d1e81-Dd1e105">
+               <head xml:id="azsw2e-d1e81-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e81-d1e109">
+                  <ref xml:id="azsw2e-d1e81-Rd1e111">Imperator 
+        Constantius.</ref> Iuxta sanctionem, quam dudum meruistis, et vos et 
+        mancipia vestra nullus novis collationibus obligabit, sed vacatione 
+        gaudebitis. Praeterea neque hospites suscipietis. * CONSTANTIUS A. 
+        CLERICIS S. D. *&lt;A 343 D. VI K. SEPT. PLACIDO ET ROMULO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e115">
+               <head xml:id="azsw2e-d1e81-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e81-d1e119">
+                  <ref xml:id="azsw2e-d1e81-Rd1e121">Imperator 
+        Constantius.</ref> Omnis a clericis indebitae conventionis iniuria 
+        et iniquae exactionis repellatur improbitas nullaque conventio sit 
+        circa eos munerum sordidorum. Et cum negotiatores ad aliquam praestationem 
+        competentem vocantur, ab his universis istiusmodi strepitus conquiescat. 
+        Si quid enim vel parsimonia vel provisione vel mercatura, honestati 
+        tamen conscia, congesserint, in usum pauperum atque egentium ministrari 
+        oportet aut id, quod ex eorundem ergasteriis vel tabernis conquiri 
+        potuerit et colligi, collectum id religionis aestiment lucrum.</p>
+               <p xml:id="azsw2e-d1e81-d1e124" n="1"> 
+        Verum etiam hominibus eorundem, qui operam in mercimoniis habent, 
+        divi principis, id est nostri genitoris, statuta multimoda observatione 
+        caverunt, ut idem clerici privilegiis pluribus redundarent. </p>
+               <p xml:id="azsw2e-d1e81-d1e127" n="2"> 
+        Itaque extraordinariorum a praedictis necessitas atque omnis molestia 
+        conquiescat. </p>
+               <p xml:id="azsw2e-d1e81-d1e130" n="3"> 
+        Ad parangariarum quoque praestationem non vocentur nec eorundem facultates 
+        atque substantiae. </p>
+               <p xml:id="azsw2e-d1e81-d1e134" n="4"> 
+        Omnibus clericis huiusmodi praerogativa succurrat, ut coniugia clericorum 
+        ac liberi quoque et ministeria, id est mares pariter ac feminae, eorumque 
+        etiam filii immunes semper ab huiusmodi muneribus perseverent. * CONSTANTIUS 
+        A. FELICI EP. *&lt;A 357 D. VIII ID. DEC. MEDIOLANO. LECTA V K. IAN. 
+        APUD ACTA CONSTANTIO A. VIIII ET IULIANO C. II CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e138">
+               <head xml:id="azsw2e-d1e81-Hd1e140">3</head>
+               <p xml:id="azsw2e-d1e81-d1e142">
+                  <ref xml:id="azsw2e-d1e81-Rd1e144">Imperator 
+        Constantius.</ref> De his clericis, qui praedia possident, sublimis 
+        auctoritas tua non solum eos aliena iuga nequaquam statuet excusare, 
+        sed etiam pro his, quae ab ipsis possidentur, eosdem ad pensitanda 
+        fiscalia perurgueri. Universos namque clericos possessores dumtaxat 
+        provinciales pensitationes fiscalium translationesque faciendas recognoscere 
+        iubemus. * CONSTANTIUS A. AD TAURUM PP. *&lt;A 360 DATA EPISTULA PRID. 
+        K. IUL. MEDIOLANO CONSTANTIO A. X ET IULIANO C. III CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e149">
+               <head xml:id="azsw2e-d1e81-Hd1e151">4</head>
+               <p xml:id="azsw2e-d1e81-d1e153">
+                  <ref xml:id="azsw2e-d1e81-Rd1e155">Imperator 
+        Constantius.</ref> Officiales rationales, si exhibitione cursus seu 
+        primipili necessitate neglecta, interversa etiam ratione fiscali ad 
+        clericatus honorem putaverint transeundum, ad priorem condicionem 
+        retrahantur. </p>
+               <p xml:id="azsw2e-d1e81-d1e158" n="1"> 
+        Si vero obnoxii ratiociniis vel necessitatibus non sint, sub notione 
+        iudicum officiis consentientibus, si id probabilis vitae studium postularit, 
+        transferantur nec cessionem metuant facultatum. </p>
+               <p xml:id="azsw2e-d1e81-d1e161" n="2"> 
+        Quod si clandestinis artibus putaverint inrependum, duas concedant 
+        liberis aut, si proles defuerit, propinquis e propria substantia portiones 
+        tertiam sibimet retenturi: si vero propinquorum necessitudo defuerit, 
+        geminae portiones officiis in quibus militant relinquantur, portione 
+        tertia tantummodo retenta. * CONSTANTIUS A. AD TAURUM PP. *&lt;A 361 
+        D. IIII K. SEPT. TAURO ET FLORENTIO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e165">
+               <head xml:id="azsw2e-d1e81-Hd1e167">5</head>
+               <p xml:id="azsw2e-d1e81-d1e169">
+                  <ref xml:id="azsw2e-d1e81-Rd1e171">Imperator 
+        iovianus.</ref> Si quis non dicam rapere, sed attemptare tantum matrimonii 
+        iungendi causa sacratissimas virgines ausus fuerit, capitali poena 
+        ferietur. * IOVIANUS A. SECUNDO PP. *&lt;A 364 D. XI K. MART. ANTIOCHIAE 
+        IOVIANO A. ET VARRONIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e175">
+               <head xml:id="azsw2e-d1e81-Hd1e177">6</head>
+               <p xml:id="azsw2e-d1e81-d1e179">
+                  <ref xml:id="azsw2e-d1e81-Rd1e181">Imperatores 
+        Valens, Gratianus, Valentinianus.</ref> Presbyteros diaconos subdiaconos 
+        atque exorcistas et lectores, ostiarios etiam personalium munerum 
+        expertes esse praecipimus. * VALENS GRAT. ET VALENTIN. AAA. AD CATAPHRONIUM. 
+        *&lt;A 377 D. III NON. MART. GRATIANO A. IIII ET MEROBAUDE CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e185">
+               <head xml:id="azsw2e-d1e81-Hd1e187">7</head>
+               <p xml:id="azsw2e-d1e81-d1e189">
+                  <ref xml:id="azsw2e-d1e81-Rd1e191">Imperatores 
+        Gratianus, Valentinianus, Theodosius.</ref> Nec honore nec legibus 
+        episcopus ad testimonium flagitatur. Item dixit: episcopum ad testimonium 
+        dicendum admitti non decet: nam et persona oneratur et dignitas sacerdotis 
+        excepta confunditur. * GRAT. VALENTIN. ET THEODOS. AAA. PARS ACT. 
+        HAB. IN S. CONSIST.*&lt;381 SYAGRII ET EUCHERII VV. CLARISS. CONSS. 
+        DIE IV K IUL. CONSTANTINOPOLI.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e195">
+               <head xml:id="azsw2e-d1e81-Hd1e197">8</head>
+               <p xml:id="azsw2e-d1e81-d1e199">
+                  <ref xml:id="azsw2e-d1e81-Rd1e201">Imperatores 
+        Gratianus, Valentinianus, Theodosius.</ref> Presbyteri citra iniuriam 
+        quaestionis testimonium dicant, ita tamen, ut falsa non simulent. 
+        Ceteri vero clerici, qui eorum gradum vel ordinem sequuntur, si ad 
+        testimonium dicendum petiti fuerint, prout leges praecipiunt, audiantur. 
+      </p>
+               <p xml:id="azsw2e-d1e81-d1e204" n="1"> 
+        Salva tamen sit litigatoribus falsi actio, si forte presbyteri, qui 
+        sub nomine superioris loci testimonium dicere citra aliquam corporalem 
+        iniuriam sunt praecepti, hoc ipso, quod nihil metuant, vera suppresserint. 
+        Multo magis etenim poena sunt digni, quibus cum plurimum honoris per 
+        nostram iussionem delatum est, occulto inveniuntur in crimine. * GRAT. 
+        VALENTIN. ET THEODOS. AAA. PAULINO PRAEF. AUGUSTALI.*&lt;A 385 D. 
+        VIII K. AUG. ARCADIO A. ET BAUTONE CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e208">
+               <head xml:id="azsw2e-d1e81-Hd1e210">9</head>
+               <p xml:id="azsw2e-d1e81-d1e212">
+                  <ref xml:id="azsw2e-d1e81-Rd1e214">Imperatores 
+        Valentinianus, Theodosius, Arcadius.</ref> Nulla nisi emensis sexaginta 
+        annis secundum praeceptum apostoli ad diaconissarum consortium transferatur. 
+        * VALENTIN. THEODOS. ET ARCAD. AAA. TATIANO PP. *&lt;A 390 D. XI K. 
+        IUL. MEDIOLANO VALENTINIANO A. IIII ET NEOTERIO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e219">
+               <head xml:id="azsw2e-d1e81-Hd1e221">10</head>
+               <p xml:id="azsw2e-d1e81-d1e223">
+                  <ref xml:id="azsw2e-d1e81-Rd1e225">Imperatores 
+        Arcadius, Honorius.</ref> Si quis in hoc genus sacrilegii proruperit, 
+        ut in ecclesias catholicas inruens, sacerdotibus et ministris vel 
+        ipso cultu locoque importet iniuriae, quod geritur, a provinciae rectoribus 
+        animadvertatur. </p>
+               <p xml:id="azsw2e-d1e81-d1e228" n="1"> 
+        Atque ita provinciae moderator sacerdotum et catholicae ecclesiae 
+        ministrorum, loci quoque ipsius et divini cultus iniuriam capitali 
+        in convictos sive confessos reos sententia noverit vindicandum nec 
+        expectet, ut episcopus iniuriae propriae ultionem deposcat, cui sanctitas 
+        ignoscendi gloriam dereliquit: sitque cunctis laudabile factas atroces 
+        sacerdotibus aut ministris iniurias veluti publicum crimen persequi 
+        ac de talibus reis ultionem mereri. </p>
+               <p xml:id="azsw2e-d1e81-d1e231" n="2"> 
+        Quod si multitudo violenta civilis apparitionis exsecutione et adminiculo 
+        ordinum possessorumve non potuerit praesentari, quod se armis aut 
+        locorum difficultate tueatur, praesides provinciarum etiam militari 
+        auxilio per publicas litteras appetito competentem vindicatam tali 
+        excessui imponere non morentur. * ARCAD. ET HONOR. AA. THEODORO PP. 
+        *&lt;A 398 D. VI K. MAI. MEDIOLANO HONORIO A. IIII ET EUTYCHIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e235">
+               <head xml:id="azsw2e-d1e81-Hd1e237">11</head>
+               <p xml:id="azsw2e-d1e81-d1e239">
+                  <ref xml:id="azsw2e-d1e81-Rd1e241">Imperatores 
+        Arcadius, Honorius.</ref> Ecclesiis, quae in possessionibus, ut adsolet, 
+        diversorum, vicis etiam vel quibuslibet locis sunt constitutae, clerici 
+        non ex alia possessione vel vico, sed ex eo, ubi ecclesiam esse constiterit, 
+        ordinentur, ut propriae capitationis onus ac sarcinam recognoscant: 
+        ita ut pro magnitudine vel celebritate uniuscuiusque vici ecclesiis 
+        certus iudicio episcopi clericorum numerus ordinetur. * ARCAD. ET 
+        HONOR. AA. EUTYCHIANO PP. *&lt;A 398 D. VI K. AUG. MNIZO HONORIO A. 
+        IIII ET EUTYCHIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e245">
+               <head xml:id="azsw2e-d1e81-Hd1e247">12</head>
+               <p xml:id="azsw2e-d1e81-d1e249">
+                  <ref xml:id="azsw2e-d1e81-Rd1e251">Imperatores 
+        Arcadius, Honorius.</ref> Si quis curialis clericus fuerit ordinatus 
+        nec statim conventione praemissa pristinae condicioni reddatur, is 
+        vigore et sollertia iudicantium ad pristinam sortem velut manu mox 
+        iniecta revocetur. Clericis enim ulterius legem prodesse non patimur, 
+        quae cessione patrimonii subsecuta decuriones clericos esse non vetabat 
+        * ARCAD. ET HONOR. AA. EUTYCHIANO PP. *&lt;A 398 D. VI K. AUG. MNIZO 
+        HONORIO A. IIII ET EUTYCHIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e255">
+               <head xml:id="azsw2e-d1e81-Hd1e257">13</head>
+               <p xml:id="azsw2e-d1e81-d1e259">
+                  <ref xml:id="azsw2e-d1e81-Rd1e261">Imperatores 
+        Arcadius, Honorius.</ref> Si ecclesiae venerabilis privilegia cuiusquam 
+        fuerint vel temeritate violata vel dissimulatione neglecta, commissum 
+        quinque librarum auri condemnatione plectetur. * ARCAD. ET HONOR. 
+        AA. SAPIDIANO VIC. AFRICAE. *&lt;A 399 D. VII K. IUL. BRIXIAE THEODORO 
+        CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e265">
+               <head xml:id="azsw2e-d1e81-Hd1e267">14</head>
+               <p xml:id="azsw2e-d1e81-d1e269">
+                  <ref xml:id="azsw2e-d1e81-Rd1e271">Imperatores 
+        Arcadius, Honorius.</ref> Quicumque residentibus sacerdotibus fuerit 
+        episcopali loco et nomine detrusus, si aliquid vel contra custodiam 
+        vel contra quietem publicam moliri fuerit deprehensus rursusque sacerdotium 
+        petere, a quo videtur expulsus, procul ab ea urbe, quam conturbavit, 
+        centum milibus vitam agat. Nec nostra adeat secreta nec impetrare 
+        rescripta speret, sed etiam impetratis careat: defensoribus etiam 
+        eorum indignationem subituris. * ARCAD. ET HONOR. AA. HADRIANO PP. 
+        *&lt;A 400 D. PRID. NON. FEBR. RAVENNA STILICHONE ET AURELIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e275">
+               <head xml:id="azsw2e-d1e81-Hd1e277">15</head>
+               <p xml:id="azsw2e-d1e81-d1e279">
+                  <ref xml:id="azsw2e-d1e81-Rd1e281">Imperatores 
+        Arcadius, Honorius.</ref> Conventicula illicita extra ecclesiam in 
+        privatis aedibus celebrari prohibemus, proscriptionis domus periculo 
+        imminente, si dominus eius in ea clericos nova ac tumultuosa conventicula 
+        extra ecclesiam celebrantes susceperit. * ARCAD. ET HONOR. AA. STUDIO 
+        PU. *&lt;A 404 D. IIII K. SEPT. CONSTANTINOPOLI HONORIO A. VI ET ARISTAENETO 
+        CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e286">
+               <head xml:id="azsw2e-d1e81-Hd1e288">16</head>
+               <p xml:id="azsw2e-d1e81-d1e290">
+                  <ref xml:id="azsw2e-d1e81-Rd1e292">Imperatores 
+        Honorius, Theodosius.</ref> Quisquis censibus fuerit adnotatus, invito 
+        agri domino ab omni temperet clericatu, adeo ut etiam, si in eo vico, 
+        in quo noscitur mansitare, clericus fuerit, sub hac lege religiosum 
+        adsumat sacerdotium, ut et capitationis sarcinam per ipsum dominum 
+        agnoscere compellatur et ruralibus obsequiis quo maluerit subrogato 
+        fungatur, ea scilicet immunitate indulta, quae certae capitationis 
+        venerandis ecclesiis relaxatur: nullo contra hanc legem valituro rescripto. 
+        * HONOR. ET THEODOS. AA. ANTHEMIO PP. *&lt;A 409 D. PRID. K. MART. 
+        HONORIO A. VIII ET THEODOSIO A. III CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e296">
+               <head xml:id="azsw2e-d1e81-Hd1e298">17</head>
+               <p xml:id="azsw2e-d1e81-d1e300">
+                  <ref xml:id="azsw2e-d1e81-Rd1e302">Imperatores 
+        Honorius, Theodosius.</ref> Placet nostrae clementiae, ut nihil commune 
+        clerici cum publicis actibus vel ad curiam pertinentibus, cuius corpori 
+        non sunt adnexi, habeant. </p>
+               <p xml:id="azsw2e-d1e81-d1e305" n="1"> 
+        Praeterea eis, qui parabalanin vocantur, neque ad quodlibet publicum 
+        spectaculum neque ad curiae locum neque ad iudicium accedendi licentiam 
+        permittimus, nisi forte singuli ob causas proprias et necessitates 
+        iudicem adierint aliquem lite pulsantes vel ab alio ipsi pulsati vel 
+        in communi totius corporis causa syndico ordinato: sub ea definitione, 
+        ut, si quis eorum haec violaverit et brevibus parabalanin eximatur 
+        et competenti supplicio subiugetur nec umquam ad eandem sollicitudinem 
+        revertatur. * HONOR. ET THEODOS. AA. MONAXIO PP. *&lt;A 416 D. III 
+        K. OCT. CONSTANTINOPOLI THEODOSIO A. VII ET PALLADIO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e309">
+               <head xml:id="azsw2e-d1e81-Hd1e311">18</head>
+               <p xml:id="azsw2e-d1e81-d1e313">
+                  <ref xml:id="azsw2e-d1e81-Rd1e315">Imperatores 
+        Honorius, Theodosius.</ref> Parabalanin, qui ad curanda debilium aegra 
+        corpora deputantur, sescentos constitui praecipimus, ita ut pro arbitrio 
+        viri reverentissimi Antistitis Alexandrinae urbis de his, qui ante 
+        fuerant et qui pro consuetudine curandi gerunt experientiam, sescenti 
+        parabalanin ad huiusmodi sollicitudinem eligantur, exceptis videlicet 
+        honoratis et curialibus. </p>
+               <p xml:id="azsw2e-d1e81-d1e318" n="1"> 
+        Si quis autem ex his naturali sorte fuerit absumptus, alter in eius 
+        locum pro voluntate eiusdem sacerdotis exceptis honoratis et curialibus 
+        subrogetur, ita ut hi sescenti viri reverentissimi sacerdotis praeceptis 
+        ac dispositionibus obsecundent et sub eius cura consistant: reliquis, 
+        quae dudum latae legis forma complectitur, super his parabalanin vel 
+        de spectaculis vel de iudiciis ceterisque sicut iam statutum est custodiendis. 
+        * HONOR. ET THEODOS. AA. MONAXIO PP. *&lt;A 418 D. III NON. FEBR. 
+        CONSTANTINOPOLI HONORIO XII ET THEODOSIO VIII AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e322">
+               <head xml:id="azsw2e-d1e81-Hd1e324">19</head>
+               <p xml:id="azsw2e-d1e81-d1e326">
+                  <ref xml:id="azsw2e-d1e81-Rd1e328">Imperatores 
+        Honorius, Theodosius.</ref> Eum, qui probabilem saeculo disciplinam 
+        agit, decolorari consortio sororiae appellationis non decet. Quicumque 
+        igitur cuiuscumque gradus sacerdotio fulciuntur vel clericatus honore 
+        censentur, extranearum sibi mulierum interdicta consortia cognoscant: 
+        hac eis tantum facultate concessa, ut matres filias atque germanas 
+        intra domorum suarum saepta contineant: in his enim nihil scaevi criminis 
+        aestimari foedus naturale permittit. </p>
+               <p xml:id="azsw2e-d1e81-d1e331" n="1">
+                  <ref xml:id="azsw2e-d1e81-Rd1e333"> 
+      </ref>Illas etiam non relinqui castitatis hortatur adfectio, quae ante 
+        sacerdotium maritorum legitimum meruere coniugium: neque enim clericis 
+        incompetenter adiunctae sunt, quae dignos sacerdotio viros sui conversatione 
+        fecerunt. * HONOR. ET THEODOS. AA. PALLADIO PP. *&lt;A 420 D. VIII 
+        ID. MAI. RAVENNA THEODOSIO A. VIIII ET CONSTANTIO III CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e337">
+               <head xml:id="azsw2e-d1e81-Hd1e339">20</head>
+               <p xml:id="azsw2e-d1e81-d1e341">
+                  <ref xml:id="azsw2e-d1e81-Rd1e343">Imperatores 
+        Theodosius, Valentinianus.</ref> Si quis presbyter aut diaconus aut 
+        diaconissa aut subdiaconus vel cuiuslibet alterius loci clericus aut 
+        monachus aut mulier, quae solitariae vitae dedita est, nullo condito 
+        testamento decesserit nec ei parentes utriusque sexus vel liberi vel 
+        si qui agnationis cognationisve iure iunguntur vel uxor extiterit, 
+        bona, quae ad eum vel ad eam pertinuerint, sacrosanctae ecclesiae 
+        vel monasterio, cui fuerat destinatus aut destinata, omnifariam socientur. 
+      </p>
+               <p xml:id="azsw2e-d1e81-d1e346" n="1"> 
+        Exceptis his facultatibus, quas forte censibus adscripti vel iuri 
+        patronatus subiecti vel curiali condicioni obnoxii clerici vel monachi 
+        cuiuscumque sexus relinquunt: nec enim iustum est bona seu peculia, 
+        quae aut patrono legibus debentur aut domino possessionis, cui quis 
+        eorum fuerat adscriptus, aut ad curias pro tenore dudum latae constitutionis 
+        sub certa forma pertinere noscuntur, ab ecclesiis vel monasteriis 
+        detineri: actionibus videlicet competenter sacrosanctis ecclesiis 
+        vel monasteriis reservatis, si quis forte praedictis condicionibus 
+        obnoxius aut ex gestis negotiis aut ex quibuslibet aliis ecclesiasticis 
+        actibus obligatus obierit. * THEODOS. ET VALENTIN. AA. AD TAURUM PP. 
+        *&lt;A 434 D. XVIII K. IAN. ARIOBINDO ET ASPARE CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e350">
+               <head xml:id="azsw2e-d1e81-Hd1e352">21</head>
+               <p xml:id="azsw2e-d1e81-d1e354">
+                  <ref xml:id="azsw2e-d1e81-Rd1e356">Imperatores 
+        Theodosius, Valentinianus.</ref> Ad similitudinem tam episcoporum orthodoxae 
+        fidei quam presbyteri et diaconi ii, qui honorario titulo illustrem 
+        dignitatem consecuti sunt, per substitutos periculo suarum facultatum 
+        curiae muneribus satisfacere non vetentur. * THEODOS. ET VALENTIN. 
+        AA. THOMAE PP. *&lt;A 442 D. V K. MART. CONSTANTINOPOLI EUDOXIO ET 
+        DIOSCORO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e361">
+               <head xml:id="azsw2e-d1e81-Hd1e363">22</head>
+               <p xml:id="azsw2e-d1e81-d1e365">
+                  <ref xml:id="azsw2e-d1e81-Rd1e367">Imperatores 
+        Theodosius, Valentinianus.</ref> Si qua per calumniam postulatio super 
+        criminalibus causis apud competentem iudicem deposita exhibitionis 
+        causa fuerit sacrosanctae religionis antistitis, triginta pondo auri 
+        condemnatione publicis calculis inferenda ut percellatur, praecipimus. 
+      </p>
+               <p xml:id="azsw2e-d1e81-d1e370" n="1"> 
+        Quin etiam omnia privilegia, quae sacrosanctis ecclesiis confugarum 
+        aut clericorum, decanorum vel aliorum ecclesiasticorum causa legibus 
+        sunt praestita, intacta atque illibata servari. </p>
+               <p xml:id="azsw2e-d1e81-d1e373" n="2"> 
+        Praeterea iubemus, ut omnes clerici atque monachi, qui de suis civitatibus 
+        ad hanc almam urbem ecclesiastici negotii vel religionis causa proficiscuntur, 
+        litteris episcopi, cui unusquisque iter faciens obsequitur, muniti 
+        adveniant: scituri quod, si citra hanc fiduciam accesserint, sibimet 
+        imputabunt, quod non clerici vel monachi esse putabuntur. * THEODOS. 
+        ET VALENTIN. AA. FLORENTIO PP. *&lt;A 445 D. III ID. FEBR. CONSTANTINOPOLI 
+        VALENTINIANO A. VI ET NOMO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e377">
+               <head xml:id="azsw2e-d1e81-Hd1e379">23</head>
+               <p xml:id="azsw2e-d1e81-d1e381">
+                  <ref xml:id="azsw2e-d1e81-Rd1e383">Imperatores 
+        Valentinianus, Marcianus.</ref> Quoniam venerabilis recordationis Flavianus 
+        huius Almae urbis episcopus cum venerabili synodo innumerabilium paene 
+        sacerdotum, qui Chalcedone convenerunt, tanto ac tali decoratus est 
+        testimonio, ut Eutyches, qui contra senserat, cum scelaeratis dictis 
+        suis ab omnibus uno ore damnaretur, aboleatur quidem Eutychetis damnosa 
+        memoria, Flaviani autem laudabilis recordatio reveletur. * VALENTIN. 
+        ET MARCIAN. AA. PALLADIO PP. *&lt;A 452 D. CONSTANTINOPOLI PRIDIE 
+        NONAS IULIAS SPORACIO CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e387">
+               <head xml:id="azsw2e-d1e81-Hd1e389">24</head>
+               <p xml:id="azsw2e-d1e81-d1e391">
+                  <ref xml:id="azsw2e-d1e81-Rd1e393">Imperatores 
+        Valentinianus, Marcianus.</ref> Id, quod pauperibus testamento vel 
+        codicillis relinquitur, non ut incertis personis relictum evanescat, 
+        sed modis omnibus ratum firmumque consistat. * VALENTIN. ET MARCIAN. 
+        AA. PALLADIO PP. *&lt;A 455 D. VIII K. MAI. ANTHEMIO CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e397">
+               <head xml:id="azsw2e-d1e81-Hd1e399">25</head>
+               <p xml:id="azsw2e-d1e81-d1e401">
+                  <ref xml:id="azsw2e-d1e81-Rd1e403">Imperator 
+        Marcianus.</ref> Cum clericis in iudicium vocatis pateat episcopalis 
+        audientia, volentibus tamen actoribus, si actor disceptationem sanctissimi 
+        archiepiscopi noluerit experiri, eminentissimae tuae sedis examen 
+        contra catholicos sub viro reverentissimo archiepiscopo huius urbis 
+        clericos constitutos vel contra reverentissimum oeconomum tam de ipsius 
+        quam de ecclesiasticis negotiis sibimet noverit expetendum neque in 
+        ullo alio foro vel apud quemquam alterum iudicem eosdem clericos litibus 
+        inretire et civilibus vel criminalibus negotiis temptet innectere. 
+      </p>
+               <p xml:id="azsw2e-d1e81-d1e406" n="1"> 
+        Memorati autem reverentissimi clerici orthodoxarum ecclesiarum, quae 
+        sub viro religioso antistite huius inclitae urbis sunt, in causa, 
+        in qua vel ipsi vel procuratores, quos pro se dederint, sententiarum 
+        auctoritate pulsantur, exsecutoribus, per quos coeperint conveniri, 
+        fideiussorem sacratissimae huius urbis ecclesiae oeconomum vel defensorem 
+        praebeant, qui usque ad quinquaginta libras auri fideiussor existat. 
+      </p>
+               <p xml:id="azsw2e-d1e81-d1e409" n="1a"> 
+        Ipse vero reverentissimus oeconomus almae huius urbis ecclesiae 
+        lite pulsatus fideiussorem pro se non praebeat, utpote qui et aliorum 
+        clericorum fideiussor futurus est, sed fidei suae committatur. </p>
+               <p xml:id="azsw2e-d1e81-d1e412" n="1b"> 
+        Quod si lis diversorum (excepto reverentissimo oeconomo) clericorum, 
+        quae agitanda sit, memoratam summam videtur excedere, clericus lite 
+        pulsatus det exsecutori pro residua quantitate cautionem suam: cui 
+        nullum tamen insertum erit iusiurandum, quia ecclesiasticis regulis 
+        et canone a beatissimis episcopis antiquitus instituto clerici iurare 
+        prohibentur.</p>
+               <p xml:id="azsw2e-d1e81-d1e416" n="2"> 
+        Statuimus autem, ut exsecutoribus idem reverentissimus oeconomus vel 
+        alii diversi clerici sub beatissimo archiepiscopo huius splendidissimae 
+        civitatis sententiarum tuarum auctoritate commoniti solidos duos tantummodo 
+        dent pro commonitione sua et pro institutione procuratoris, si per 
+        eum voluerint litigare. </p>
+               <p xml:id="azsw2e-d1e81-d1e419" n="3"> 
+        Quod circa alios quoque diversos apparitores eminentiae tuae in his, 
+        quae ex consuetudine praebentur officio, observari in causis praedictorum 
+        clericorum iubemus, ut litis sumptus vel expensae a clericis pauciores 
+        humanioresve praestentur. * MARCIAN. A. CONSTANTINO PP. *&lt;A 456 
+        ? D........ &gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e423">
+               <head xml:id="azsw2e-d1e81-Hd1e425">26</head>
+               <p xml:id="azsw2e-d1e81-d1e427">
+                  <ref xml:id="azsw2e-d1e81-Rd1e429">Imperator 
+        Leo.</ref> Decernimus, ut posthac neque monachi aut quicumque alius 
+        cuiuslibet status aut fortunae in aedes publicas vel in quaecumque 
+        loca populi voluptatibus fabricata venerabilem crucem et sanctorum 
+        martyrum reliquias illicite inferre conentur vel occupare audeant 
+        ea, quae vel ad publicas causas vel ad populi oblectamenta constructa 
+        sunt. Cum enim religiosae aedes non desunt, possunt ibi, consultis 
+        prius ut oportet religiosissimis episcopis, reliquias martyrum non 
+        quorundam usurpatione, sed arbitrio reverentissimorum antistitum collocare. 
+        Ideo patientiam et modestiam suam, quam leges nostrae et publica disciplina 
+        et ipsorum monachorum nomen exposcit, studiose unusquisque tam monachus 
+        quam cuiuslibet alterius professionis retineat et perpetuo observare 
+        procuret. * LEO A. VIVIANO PP. *&lt;A 459 D. XV K. OCT. PATRICIO CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e433">
+               <head xml:id="azsw2e-d1e81-Hd1e435">27</head>
+               <p xml:id="azsw2e-d1e81-d1e437">
+                  <ref xml:id="azsw2e-d1e81-Rd1e439">Imperator 
+        Leo.</ref> Quisquis emensis militiae suae stipendiis expletisque officiis 
+        sive muneribus, quae cuicumque condicioni aut consuetudine vel lege 
+        debebat, ad consortium se contulerit clericorum et inter ministros 
+        verae orthodoxae fidei maluerit et elegerit numerari, nullius prorsus 
+        sententiae acerbitate revocetur nec a dei templis quibus se consecravit 
+        inopportunis intentionibus abstrahatur, sed isdem beatissimis ministeriis 
+        securus permaneat et quietus, ad quae post longi laboris lassitudinem 
+        ob reliquiae vitae requiem consilio meliore protractus est: his actionibus, 
+        si quae contra eum eiusque patrimonium legitima intentione competunt, 
+        pro iuris ordine responsurus: exceptis primipilaribus, quos praeceptis 
+        tui culminis et publicis utilitatibus in perpetuum esse subiectos 
+        sacratissimae constitution is statuta sanxerunt. * LEO A. ERYTHRIO 
+        PP. *&lt;A 466 D. PRID. NON. MART. CONSTANTINOPOLI LEONE A. III CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e444">
+               <head xml:id="azsw2e-d1e81-Hd1e446">28</head>
+               <p xml:id="azsw2e-d1e81-d1e448" n="pr">
+                  <ref xml:id="azsw2e-d1e81-Rd1e450">Imperator Leo.</ref> Nulli licere decernimus, si testamento heres sit institutus 
+        seu ab intestato succedat seu fideicommissarius vel legatarius inveniatur, 
+        dispositionem pii testatoris infringere vel improba mente violare, 
+        adserendo incertum esse legatum vel fideicommissum, quod redemptioni 
+        relinquitur captivorum, sed modis omnibus exactum pro voluntate testatoris 
+        piae rei negotio proficere. </p>
+               <p xml:id="azsw2e-d1e81-d1e453" n="1"> 
+        Et si quidem testator significaverit, per quem desiderat redemptionem 
+        fieri captivorum, is qui specialiter designatus est legati seu fideicommissi 
+        habeat exigendi licentiam et pro sua conscientia votum adimpleat testatoris. 
+        Sin autem persona non designata testator absolute tantummodo summam 
+        legati vel fideicommissi taxaverit, quae debeat memoratae causae proficere, 
+        vir reverentissimus episcopus illius civitatis, ex qua testator oritur, 
+        habeat facultatem exigendi, quod huius rei gratia fuerit derelictum, 
+        pium defuncti propositum sine ulla cunctatione ut convenit impleturus. 
+      </p>
+               <p xml:id="azsw2e-d1e81-d1e456" n="2"> 
+        Cum autem vir religiosissimus episcopus huiusmodi pecunias pio relictas 
+        arbitrio fuerit consecutus, statim gestis intervenientibus earum quantitatem 
+        et tempus quo eas susceperit apud rectorem provinciae publicare debebit. 
+        Post unius vero anni spatium et numerum captivorum et data pro his 
+        pretia eum manifestare praecipimus, ut per omnia impleantur tam piae 
+        deficientium voluntates: ita tamen, ut religiosissimi antistites gratis 
+        et sine ullo dispendio praedicta gesta conficiant, ne humanitatis 
+        obtentu relictae pecuniae iudiciorum dispendiis erogentur. </p>
+               <p xml:id="azsw2e-d1e81-d1e459" n="3"> 
+        Quod si testato, qui huiusmodi legatum vel fideicommissum non designata 
+        persona reliquit, barbarae sit nationis et de eius patria aliqua emerserit 
+        ambiguitas, vir reverentissimus episcopus civitatis eius, in qua idem 
+        testator defunctus est , itidem habeat legati seu fideicommissi petitionem 
+        defuncti propositum modis omnibus impleturus. </p>
+               <p xml:id="azsw2e-d1e81-d1e463" n="4"> 
+        Quod si in vico vel in territorio testator mortem obierit, illius 
+        civitatis vir reverentissimus episcopus exactionem habebit, sub qua 
+        vicus vel territorium esse dignoscitur. &lt;A 468 D. XV K. SEPT. CONSTANTINOPOLI 
+        ANTHEMIO II CONS.&gt;</p>
+               <p xml:id="azsw2e-d1e81-d1e466" n="5"> 
+        Et ne pium defunctorum propositum improba fraudatorum calliditate 
+        celetur, quidquid pro huiusmodi causa a testatore relictum fuerit, 
+        universi, qui id quocumque modo cognoverint, vel in viri clarissimi 
+        rectoris provinciae vel in urbis episcopi notitiam deferendi habeant 
+        liberam facultatem: nec delatoris nomen suspicionemque formident, 
+        cum fides atque industria eorum tam laude quam honestate non careat 
+        ac pariter pietate, cum veritatem in publicas aures lucemque deduxerint. 
+        * LEO A. NICOSTRATO PP. *&lt;A 468 D. XV K. SEPT. CONSTANTINOPOLI 
+        ANTHEMIO II CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e470">
+               <head xml:id="azsw2e-d1e81-Hd1e472">29</head>
+               <p xml:id="azsw2e-d1e81-d1e474">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e479">
+               <head xml:id="azsw2e-d1e81-Hd1e481">30</head>
+               <p xml:id="azsw2e-d1e81-d1e483">
+                  <ref xml:id="azsw2e-d1e81-Rd1e485">Imperatores 
+        Leo, Anthemius.</ref> Si quemquem vel in hac urbe regia vel in ceteris 
+        provinciis, quae toto orbe diffusae sunt, ad episcopatus gradum provehi 
+        deo auctore contigerit, puris hominum mentibus nuda electionis conscientia 
+        sincero omnium iudicio proferatur. </p>
+               <p xml:id="azsw2e-d1e81-d1e488" n="1"> 
+        Nemo gradum sacerdotii pretii venalitate mercetur: qualiter quisque 
+        mereatur, non quantum dare sufficiat aestimetur. </p>
+               <p xml:id="azsw2e-d1e81-d1e491" n="2"> 
+        Profecto enim quis locus tutus et quae causa esse poterit excusata, 
+        si veneranda dei templa pecuniis expugnantur? quem murum integritati 
+        aut vallum fidei providebimus, si auri sacra fames penetralia veneranda 
+        proserpit? quid denique cautum esse poterit aut securum, si sanctitas 
+        incorrupta corrumpitur? </p>
+               <p xml:id="azsw2e-d1e81-d1e494" n="3">
+                  <ref xml:id="azsw2e-d1e81-Rd1e496"> 
+       .</ref> Cesset altaribus imminere profanus ardor avaritiae et a sacris 
+        adytis repellatur piaculare flagitium. Ita castus et humilis nostris 
+        temporibus eligatur episcopus, ut, locorum quocumque pervenerit, omnia 
+        vitae propriae integritate purificet. </p>
+               <p xml:id="azsw2e-d1e81-d1e500" n="4">
+                  <ref xml:id="azsw2e-d1e81-Rd1e502">. 
+      </ref>Non pretio, sed precibus ordinetur antistes. Tantum ab ambitu 
+        debet esse sepositus, ut quaeratur cogendus, rogatus recedat, invitatus 
+        effugiat. </p>
+               <p xml:id="azsw2e-d1e81-d1e505" n="5">
+                  <ref xml:id="azsw2e-d1e81-Rd1e507"> 
+       .</ref> Sola illi suffragetur necessitas excusandi. Profecto enim indignus 
+        est sacerdotio, nisi fuerit ordinatus invitus, cum sane quisquis hanc 
+        sanctam et venerandam antistitis sedem pecuniae interventu subiise 
+        aut si quis, ut alterum ordinaret vel eligeret, aliquid accepisse 
+        detegitur, ad instar publici criminis et laesae maiestatis accusatione 
+        proposita a gradu sacerdotii retrahatur. </p>
+               <p xml:id="azsw2e-d1e81-d1e510" n="6">
+                  <ref xml:id="azsw2e-d1e81-Rd1e512"> 
+       .</ref> Nec hoc solum deinceps honore privari, sed perpetuae quoque 
+        infamiae damnari decernimus, ut eos, quos facinus par coinquinat et 
+        aequat, utrosque similis poena comitetur. * LEO ET ANTHEM. AA. ARMASIO 
+        PP. *&lt;A 469 D. VIII ID. MART. CONSTANTINOPOLI ZENONE ET MARCIANO 
+        CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e516">
+               <head xml:id="azsw2e-d1e81-Hd1e518">31</head>
+               <p xml:id="azsw2e-d1e81-d1e520">
+                  <ref xml:id="azsw2e-d1e81-Rd1e522">Imperatores 
+        Leo, Anthemius.</ref> Orphanotrophos huius inclitae urbis nulla subtilitate 
+        iuris obsistente eorum quidem qui pupilli sunt quasi tutores, adulescentium 
+        vero quasi curatores sine ullo fideiussionis gravamine in emergentibus 
+        causis tam in iudicio quam extra iudicium, ut opus exegerit, ad similitudinem 
+        tutoris et curatoris personas et negotia eorum, si qua possint habere, 
+        defendere ac vindicare iubemus: ita videlicet, ut praesentibus publicis 
+        personis, id est tabulariis, aut intervenientibus gestis in hac quidem 
+        inclita urbe apud virum perfectissimum magistrum census, in provinciis 
+        vero apud moderatores earum vel defensores locorum res eorum eis tradantur, 
+        a quibus sunt custodiendae: ut, si quas earundem rerum propter fenus 
+        forsitan vel aliam urguentem causam vel eo quod servari non possunt 
+        alienare perspexerint, prius habita aestimatione licebit eis alienationis 
+        inire contractum, ut pretia eorum quae exinde colliguntur, ab isdem 
+        personis custodiantur. </p>
+               <p xml:id="azsw2e-d1e81-d1e525" n="1"> 
+        Huiusmodi autem pium atque religiosum officium pro tempore orphanotrophos 
+        ita peragere convenit, ut minime ratiociniis tutelaribus seu curationibus 
+        obnoxii sint. Grave enim atque iniquum est callidis quorundam, si 
+        ita contigerit, machinationibus eos vexari, qui propter timorem dei 
+        a parentibus atque substantiis destitutos minores sustentare ac velut 
+        paterna adfectione educare festinant. * LEO ET ANTHEM. AA. DIOSCORO 
+        PP. *&lt;A 472 D. K. IUN. CONSTANTINOPOLI MARCIANO CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e529">
+               <head xml:id="azsw2e-d1e81-Hd1e531">32</head>
+               <p xml:id="azsw2e-d1e81-d1e533">
+                  <ref xml:id="azsw2e-d1e81-Rd1e535">Imperatores 
+        Leo, Anthemius.</ref> Omnes, qui ubicumque sunt vel posthac fuerint 
+        orthodoxae fidei sacerdotes et clerici, cuiuscumque gradus sunt, monachi 
+        quoque in causis civilibus ex nullius penitus maioris minorisve sententia 
+        iudicis ad extranea iudicia pertrahantur aut provinciam vel locum 
+        aut regionem quam habitant exire cogantur. Nullus eorum ecclesias 
+        vel monasteria propria, quae religionis intuitu habitant, relinquere 
+        miserabili necessitate iubeatur, sed apud suos iudices ordinarios, 
+        hoc est provinciarum rectores, locis quibus degunt et ecclesiarum 
+        ministeriis obsecundant, omnium contra se agentium suscipiant actiones, 
+        ut his saltem horis atque temporibus, quibus religiosos viros a turbulenta 
+        observatione praetorii vacare contigerit cumque eos ad tempus petitorum 
+        intentio calumniosa laxaverit, ad sua se monasteria et venerabiles 
+        ecclesias conferentes sapienti animo, precatione sollicita faciliusque 
+        de proximo sacrosanctis altaribus obsecundent in suis laribus et domiciliis 
+        constituti. </p>
+               <p xml:id="azsw2e-d1e81-d1e538" n="1"> 
+        In hac autem regia urbe si quando cuiuscumque rei causa episcopos 
+        vel presbyteros ceterosque clericos, qui sacrosanctis ecclesiis obsequuntur, 
+        sive monachos ex aliis quibuscumque provinciis contigerit reperiri, 
+        quos tamen in litem quisquam vocare voluerit, in nullo alio sit licitum 
+        memoratos cuiquam pulsare iudicio, nisi in tuae sublimatis dumtaxat 
+        examine, ubi eis et beatitudinis honor debitus reservetur et oratorum 
+        adfluens in defensionibus copia large praestetur. </p>
+               <p xml:id="azsw2e-d1e81-d1e541" n="2">
+                  <ref xml:id="azsw2e-d1e81-Rd1e543"> 
+       .</ref> Praeterea cum in provinciis ex eius qui regit provinciam fuerint 
+        sententia vel interlocutione conventi sive illi sacerdotes seu cuiuscumque 
+        gradus clerici sive monachi habeantur, dummodo approbentur orthodoxi, 
+        qui in propriis causis contractibusve pulsantur non alios quam ecclesiae 
+        propriae defensores seu quos oeconomos appellant fideiussores praebeant, 
+        ne, dum exsecutoris pertinax et avara protervitas extraneos fideiussores 
+        flagitat, multiglex innoxiae paupertati infligatur incommodum. </p>
+               <p xml:id="azsw2e-d1e81-d1e546" n="3">
+                  <ref xml:id="azsw2e-d1e81-Rd1e548"> 
+       .</ref> In hac autem regia urbe inventi ex quacumque provincia venientes, 
+        cum in tuae amplitudinis iudicio, quod eis solum delegavimus, lite 
+        pulsati fuerint, reverentissimi orthodoxae fidei sacerdotes certe 
+        oeconomi aut ecclesiae defensores seu clerici in causis civilibus 
+        suis sive ecclesiasticis nulla praebendi fideiussoris molestentur 
+        iniuria, sed aut vicariis fideiussionibus contradantur, quas tamen 
+        stipulationum sollemnis cautela vallaverit, aut cautionibus et professioni 
+        propriae ac facultatum suarum obligationibus committantur. </p>
+               <p xml:id="azsw2e-d1e81-d1e552" n="4">
+                  <ref xml:id="azsw2e-d1e81-Rd1e554">. </ref>Hoc nihilo minus observando, ut in causis ecclesiasticis 
+        nullum alium conveniri fas sit nisi eum, quem dispensatorem pauperum, 
+        id est oeconomum ecclesiae, episcopi tractatus elegerit (hunc enim 
+        sine dubio a sacerdote convenit ordinari) : quem tamen conventum defensoris 
+        ecclesiae fidei committi praecipimus. </p>
+               <p xml:id="azsw2e-d1e81-d1e557" n="5">
+                  <ref xml:id="azsw2e-d1e81-Rd1e559">. </ref>Exsecutoribus in minoribus quidem iudiciis omnibus in ipsa 
+        conventione sacerdotum seu clericorum non amplius quam unum semissem 
+        aut sperantibus aut etiam audentibus accipere. Si vero apparitor tuae 
+        magnitudinis ex sententia tuae sedis amplissimae in provincia degentes 
+        eos monuerit, iubemus non amplius eum quam duos solidos sportularum 
+        nomine percipere. In hac vero urbe magnifica idem apparitor tuae magnitudinis 
+        uno aureo sportularum gratia a provincialibus clericis contentus sit, 
+        quantaelibet summae qui conventus fuerit exponatur obnoxius. </p>
+               <p xml:id="azsw2e-d1e81-d1e562" n="6">
+                  <ref xml:id="azsw2e-d1e81-Rd1e564"> 
+       .</ref> Praeterea nullus exsecutor vexare contumeliis clericos ullos, 
+        nullis impulsionibus molestare, nullis exprobrare conviciis aut corporalibus 
+        iniuriis fatigare conetur: his, qui huiusmodi aliquid adgressi fuerint, 
+        post amissionem cinguli et patrimonii ultima protinus animadversione 
+        plectendis. </p>
+               <p xml:id="azsw2e-d1e81-d1e567" n="7">
+                  <ref xml:id="azsw2e-d1e81-Rd1e569"> 
+       .</ref> Privilegiis sane singulis quibuscumque sacrosanctis ecclesiis 
+        orthodoxae fidei, xenodochiis sive ptochiis tam generaliter quam specialiter 
+        attributis perpetuo reservandis, nullis eas earumque sacerdotes aut 
+        clericos cuiuslibet gradus aut monachos vel ptochos aut xenodochos 
+        orthodoxae fidei deputatos extraordinariis muneribus praecipimus praegravari. 
+        Eas enim sarcinas oneris, quas plerisque personis diversa ratione 
+        remittimus, imponi beatissimis viris nostro saeculo inconveniens esse 
+        iudicamus. </p>
+               <p xml:id="azsw2e-d1e81-d1e572" n="8">
+                  <ref xml:id="azsw2e-d1e81-Rd1e574"> 
+       .</ref> Praeterea ne cui temeritas sua lucrativa concedatur et ut impudens 
+        calumniantium refrenetur audacia, iubemus, quotiens ii, qui sacerdotes 
+        seu clericos seu monachos ceterosque superius designatos vel in tuae 
+        magnitudinis examine vel in provinciali iudicio proposita actione 
+        convenerint, si causa cognita convicti fuerint sine iusta eos et legitima 
+        petitione pulsasse, omnes eis legitimas expensas sumptusque, quos 
+        ab exordio coeptae controversiae ipsorum vitio tolerasse eos constiterit, 
+        redhibere cogantur, ut hac saltem censurae iustissimae formidine revocati 
+        improbis adsidue conflictationibus occupati adquiescant se iam sopitis 
+        clamoribus iurgiorum magistra deinceps necessitate retinere. * LEO 
+        ET ANTHEM. AA. ERYTHRIO PP. *&lt;A 472 DATUM CONSTANTINOPOLI PRIDIE 
+        NONAS APRIL. MARCIANO CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e578">
+               <head xml:id="azsw2e-d1e81-Hd1e580">33</head>
+               <p xml:id="azsw2e-d1e81-d1e582">
+                  <ref xml:id="azsw2e-d1e81-Rd1e584">Imperatores 
+        Leo, Anthemius.</ref> 
+        Sacrosanctae orthodoxae fidei episcopi atque 
+        presbyteri, diaconi quoque, qui semel probatis moribus integritate 
+        castissima ad hunc gradum meruerint pervenire, ea, quaecumque in eodem 
+        clericatus gradu locoque viventes adquirere et habere potuerint, etiamsi 
+        in patris avique aut proavi potestate constituti sunt et adhuc superstites 
+        habentur, tamquam bona propria vindicent: de his, si quando eis libitum 
+        fuerit, testandi vel donandi vel quolibet alio titulo alienandi libera 
+        facultate concessa, ut ea bona quoquo tempore numquam fratribus vel 
+        sororibus aut ex his genitis conferantur, sed ad eorum filios posteros 
+        et quoscumque extraneos heredes perveniant nec a patribus avis aut 
+        proavis, sed ab ipsorum liberis tamquam praecipua vindicentur, certe 
+        his procedant, quibus ipsi id peculium vel inter vivos alienatione 
+        habita vel mortis tempore ultima et vere cognita voluntate concesserint. 
+        * LEO ET ANTHEM. AA. ERYTHRIO PP. *&lt;A 472 D. PRID. NON. APRIL. 
+        MARCIANO CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e589">
+               <head xml:id="azsw2e-d1e81-Hd1e591">34</head>
+               <p xml:id="azsw2e-d1e81-d1e593">
+                  <ref xml:id="azsw2e-d1e81-Rd1e595">Imperatores 
+        Leo, Anthemius.</ref> Omnia privilegia, quae a retro principibus aut 
+        a nostra serenitate vel iudiciariis dispositionibus aut liberalitatibus 
+        pro singulis quibuscumque temporibus vel consuetudine sive circa ius 
+        metatorum sive in aliis quibuslibet rebus praestita sunt orphanotrophio 
+        sive asceteriis vel ecclesiis aut ptochiis seu xenodochiis aut monasteriis 
+        atque ceteris hominibus etiam ac rebus iuris eorum ad curam niconis 
+        viri religiosissimi presbyteri et orphanotrophi vel ad eos, qui post 
+        eum loco eius successerint, pertinentibus ad similitudinem zotici 
+        beatissimae memoriae, qui prius huiusmodi pietatis officium invenisse 
+        dicitur, per hanc pragmaticam sanctionem firma illibataque in perpetuum 
+        custodiri decernimus. Valde etenim hoc videtur esse necessarium, cum 
+        exinde sustentatio vel educatio orphanis atque egenis et usibus ecclesiasticis 
+        vel ptochiis vel asceteriis comparetur. </p>
+               <p xml:id="azsw2e-d1e81-d1e598" n="1"> 
+        Domus etiam aliasque res superius nominatas ad curam memorati viri 
+        pertinentes vel postmodum quolibet modo ad eius sollicitudinem vel 
+        qui post eum ad eiusdem orphanotrophii curam vocati fuerint perventuras 
+        ad instar maioris venerabilis ecclesiae huius inclitae urbis omnibus 
+        privilegiis, quae eadem sancta ecclesia vel nunc adipiscitur vel postea 
+        merebitur, perpetuo potiri pietatis intuitu decernimus. * LEO ET ANTHEM. 
+        AA. DIOSCORO PP. *&lt;A 472 D. X K. IAN. CONSTANTINOPOLI MARCIANO 
+        CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e602">
+               <head xml:id="azsw2e-d1e81-Hd1e604">35</head>
+               <p xml:id="azsw2e-d1e81-d1e606">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e611">
+               <head xml:id="azsw2e-d1e81-Hd1e613">36</head>
+               <p xml:id="azsw2e-d1e81-d1e615">
+                  <ref xml:id="azsw2e-d1e81-Rd1e617">Imperator Zeno.</ref>  Iubemus adscripticiorum creationes secundum veterem constitutionem, 
+        nisi dominorum possessionum, unde oriundi sunt, evidens concurrerit 
+        consensus, nullius penitus esse momenti, sed isdem fundorum dominis, 
+        qui faciendae creationi non sicut dictum est evidenter consenserint, 
+        ius proprium ad similitudinem ceterorum colonorum in suos adscripticios 
+        exercendi, tamquam si nulla creatio intercessisset, tribui facultatem. 
+        Idemque hoc super illis quoque agricolis decernimus observari, qui 
+        cum essent adscripticiae nexibus condicionis conscripti, solitariam 
+        vitam videlicet appetentes quibuslibet sese monasteriis contra voluntatem 
+        dominorum fundorum duxerint offerendos. </p>
+               <p xml:id="azsw2e-d1e81-d1e620" n="1"> 
+        Servos sane sociari clericorum consortiis volentibus quoque et consentientibus 
+        dominis modis omnibus prohibemus, cum liceat eorum dominis, data servis 
+        prius libertate licitum eis ad suscipiendos honores clericorum iter, 
+        si hoc voluerint, aperire. &lt;A 484 D. V K. APRIL. CONSTANTINOPOLI 
+        THEODORICO CONS.&gt;</p>
+               <p xml:id="azsw2e-d1e81-d1e623" n="2">
+                  <ref xml:id="azsw2e-d1e81-Rd1e625"> 
+       .</ref> Omnes praeterea virorum clarissimorum provincias moderantium 
+        sententiis absque ulla privilegii differentia ( qui tamen praesidali 
+        iurisdictioni subiecti sunt, sive episcopi vel quilibet clerici aut 
+        monachi aut cuiuslibet sint condicionis) pariter respondere decernimus: 
+        nulla in posterum viris clarissimis provinciarum rectoribus ad loca, 
+        in quibus incusatae personae consistunt, perveniendi necessitate penitus 
+        imponenda, cum non solum legibus, verum etiam naturali quoque iuri 
+        conveniat, quos res exegerit, iudicialibus ad iudicium vocari sententiis, 
+        non ipsos iudices, quod dici etiam iniustum est, ad subiectos deduci, 
+        sed per datos ab his iudices causae examinationem in locis ubi incusati 
+        degunt procedere. * ZENO A. SEBASTIANO PP. *&lt;A 484 D. V K. APRIL. 
+        CONSTANTINOPOLI THEODORICO CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e629">
+               <head xml:id="azsw2e-d1e81-Hd1e631">37</head>
+               <p xml:id="azsw2e-d1e81-d1e633">
+                  <ref xml:id="azsw2e-d1e81-Rd1e635">Imperator Zeno.</ref> Servis, si dominorum fuerint voluntate muniti, solitariam 
+        vitam participandi licentia non denegetur, dum tamen eorum domini 
+        non ignorent, quod, si servis suis ad monasteriorum cultum migrandi 
+        tribuerint facultatem, eorundem servorum dominio, donec idem servi 
+        in eodem monachorum habitu duraverint, spoliandos: alioquin si relicta 
+        forte vita solitaria ad aliam se condicionem transtulerint, certum 
+        est eos ad servitutis iugum, quam monachicae professionis cultu evaserant, 
+        reversuros. * ZENO A. SEBASTIANO PP. *&lt;A 484 D. ID. APRIL. THEODORICO 
+        CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e639">
+               <head xml:id="azsw2e-d1e81-Hd1e641">38</head>
+               <p xml:id="azsw2e-d1e81-d1e643">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e648">
+               <head xml:id="azsw2e-d1e81-Hd1e650">39</head>
+               <p xml:id="azsw2e-d1e81-d1e652">  
+        <!--Greek--> </p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e659">
+               <head xml:id="azsw2e-d1e81-Hd1e661">40</head>
+               <p xml:id="azsw2e-d1e81-d1e663">
+                  <ref xml:id="azsw2e-d1e81-Rd1e665">Imperator 
+        Justinus.</ref> Repetita promulgatione non solum iudices quorumlibet 
+        tribunalium, verum etiam defensores ecclesiarum huius almae urbis, 
+        quos turpissimum insinuandi ultimas deficientium voluntates genus 
+        irrepserat, praemonendos censemus, ne rem attingant, quae nemini prorsus 
+        omnium secundum constitutionum praecepta quam census magistro competit. 
+        Absurdum etenim clericis est, immo etiam opprobrium, si peritos se 
+        velint disceptationum esse forensium: feriendis temeratoribus huius 
+        sanctionis poena quinquaginta librarum auri. * IUSTINUS A. ARCHELAO 
+        PP. *&lt;A 524 D. XIII K. DEC. CONSTANTINOPOLI IUSTINO A. II ET OPILIONE 
+        CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e669">
+               <head xml:id="azsw2e-d1e81-Hd1e671">41</head>
+               <p xml:id="azsw2e-d1e81-d1e673">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e678">
+               <head xml:id="azsw2e-d1e81-Hd1e680">42</head>
+               <p xml:id="azsw2e-d1e81-d1e682">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e687">
+               <head xml:id="azsw2e-d1e81-Hd1e689">43</head>
+               <p xml:id="azsw2e-d1e81-d1e691">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e696">
+               <head xml:id="azsw2e-d1e81-Hd1e698">44</head>
+               <p xml:id="azsw2e-d1e81-d1e700">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e705">
+               <head xml:id="azsw2e-d1e81-Hd1e707">45</head>
+               <p xml:id="azsw2e-d1e81-d1e709">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e715">
+               <head xml:id="azsw2e-d1e81-Hd1e717">46</head>
+               <p xml:id="azsw2e-d1e81-d1e719">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e724">
+               <head xml:id="azsw2e-d1e81-Hd1e726">47</head>
+               <p xml:id="azsw2e-d1e81-d1e728">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e733">
+               <head xml:id="azsw2e-d1e81-Hd1e735">48</head>
+               <p xml:id="azsw2e-d1e81-d1e737">
+                  <ref xml:id="azsw2e-d1e81-Rd1e739">Imperator 
+        Justinianus.</ref> Si quis ad declinandam legem Falcidiam, cum desiderat 
+        totam suam substantiam pro redemptione captivorum relinquere, eos 
+        ipsos captivos scripserit heredes, ne videatur quasi incertis personis 
+        heredibus institutis iudicium suum oppugnandum reliquisse, sancimus 
+        huius talem institutionem pietatis intuitu valere et non esse respuendam. 
+      </p>
+               <p xml:id="azsw2e-d1e81-d1e742" n="1">
+                  <ref xml:id="azsw2e-d1e81-Rd1e744"> 
+      </ref>Sed et si pauperes quidam scripserit heredes et non inveniatur 
+        certum ptochium vel certae ecclesiae pauperes, de quibus testator 
+        cogitaverit, sed hic incerto vocabulo pauperes fuerint heredes instituti, 
+        simili modo et huiusmodi institutionem valere decernimus. </p>
+               <p xml:id="azsw2e-d1e81-d1e747" n="2">
+                  <ref xml:id="azsw2e-d1e81-Rd1e749">. </ref>Et si quidem captivos scripserit heredes, civitatis, in qua 
+        testator larem fovere ac degere noscitur, episcopus et oeconomus hereditatem 
+        suscipiant et omnimodo in redemptione captivorum procedat hereditas 
+        sive per annuos reditus sive per venditionem mobilium seu se moventium 
+        rerum: nullo penitus ex hoc lucro vel oeconomo vel episcopo vel sacrosanctae 
+        ecclesiae relinquendo. Si enim propter hoc a speciali herede recessum 
+        est, ut non falcidiae ratio inducatur, quomodo ferendum est hoc, quod 
+        in sacro venit, per falcidiam vel aliam occasionem minui? </p>
+               <p xml:id="azsw2e-d1e81-d1e752" n="3">
+                  <ref xml:id="azsw2e-d1e81-Rd1e754"> 
+       .</ref> Ubi autem indiscrete pauperes scripti sunt heredes, ibi xenonem 
+        eius civitatis omnimodo hereditatem nancisci et per xenodochum in 
+        aegrotantes fieri patrimonii distributionem, secundum quod in captivis 
+        constituimus: vel per redituum annalium erogationem vel per venditionem 
+        rerum mobilium vel se moventium, ut ex his res immobiles comparentur 
+        et annuus victus aegrotantibus accedat. Quis enim pauperior est hominibus, 
+        qui et inopia tenti sunt et in xenonem repositi et suis corporibus 
+        laborantes necessarium victum sibi non possunt adferre? </p>
+               <p xml:id="azsw2e-d1e81-d1e758" n="4">
+                  <ref xml:id="azsw2e-d1e81-Rd1e760"> 
+       .</ref> Licentia omnimodo danda et in priore et in secunda specie et 
+        actionem movere et debita exigere, ut in captivos vel in aegrotantes 
+        consumantur. Si enim heredum eis et ius et nomen dedimus, sine Falcidiae 
+        tamen legis emolumento, necesse est eos et debita exigere et creditoribus 
+        respondere. </p>
+               <p xml:id="azsw2e-d1e81-d1e763" n="5">
+                  <ref xml:id="azsw2e-d1e81-Rd1e765"> 
+       .</ref> Sin autem ampliores in civitate xenones vel ptochia sint, ne 
+        incerta videatur pecuniarum datio, tunc ei xenoni vel ptochio, qui 
+        pauperior esse dignoscitur, easdem res vel pecunias adsignari: hoc 
+        videlicet discutiendo a viro reverentissimo locorum antistite et sub 
+        eo constitutis clericis. </p>
+               <p xml:id="azsw2e-d1e81-d1e768" n="6">
+                  <ref xml:id="azsw2e-d1e81-Rd1e770">. </ref>Sin autem nullus xenon in civitate inveniatur, tunc secundum 
+        de captivis sanctionem pro tempore oeconomus sacrosanctae ecclesiae 
+        vel episcopus hereditatem accipiat et sine Falcidiae ratione pauperibus, 
+        qui in civitate sunt vel penitus mendicantes vel alia sustentatione 
+        egentes, eaedem pecuniae distribuantur. </p>
+               <p xml:id="azsw2e-d1e81-d1e773" n="7">
+                  <ref xml:id="azsw2e-d1e81-Rd1e775">. </ref>Haec tamen omnia locum habere sancimus, quando non certi 
+        xenonis vel certi ptochii vel certae ecclesiae nominatio a testatore 
+        subsecuta est, sed incertus est eius sensus. Sin autem in personam 
+        certam vel in certam venerabilem domum respexit, ei tantummodo hereditatem 
+        vel legatum competere sancimus, nulla Falcidia nec in hac parte intercedente. 
+      </p>
+               <p xml:id="azsw2e-d1e81-d1e778" n="8">
+                  <ref xml:id="azsw2e-d1e81-Rd1e780"> 
+       .</ref> In omnibus autem hiusmodi casibus caelestes iracundias sacrosanctarum 
+        rerum administratores expectent, si qualecumque lucrum ex huiusmodi 
+        gubernationibus sibi adquisierint vel si hoc committi ab alio senserint 
+        et non gravissima poena et interminatione quod perperam factum est 
+        studeant corrigere. * IUST. A. IOHANNI PP. *&lt;A 531 D. X K. SEPT. 
+        CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTIS VV. CC.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e784">
+               <head xml:id="azsw2e-d1e81-Hd1e786">49</head>
+               <p xml:id="azsw2e-d1e81-d1e788">
+                  <ref xml:id="azsw2e-d1e81-Rd1e790">Imperator 
+        Justinianus.</ref> Cum lege Leoniana viris reverentissimis episcopis 
+        et presbyteris et diaconis peculium habere quasi castrense concessum 
+        est, eo addito, ut in ipso testari possint, dubitabatur, si huiusmodi 
+        testamenta debent de inofficiosi querella expugnari, cum de omnibus 
+        personis, quae huiusmodi peculia meruerunt, eadem fuerat quaestio 
+        exorta. </p>
+               <p xml:id="azsw2e-d1e81-d1e793" n="1"> 
+        Sancimus itaque viris reverentissimis episcopis et presbyteris et 
+        diaconis, qui tale peculium ( id est quasi castrense) possident, super 
+        his tantummodo rebus, quae quasi castrensis peculii sunt, non solum 
+        ultima condere secundum leges tamen elogia licere, quod ex Leoniana 
+        constitutione descendit, sed etiam eorum ultimas voluntates, super 
+        his tantummodo habitas, de inofficiosi querellae minime subiacere. 
+        * IUST. A. IOHANNI PP. *&lt;A 531 D. K. SEPT. CONSTANTINOPOLI POST 
+        CONS. LAMPADII ET ORESTAE.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e797">
+               <head xml:id="azsw2e-d1e81-Hd1e799">50</head>
+               <p xml:id="azsw2e-d1e81-d1e801">
+                  <ref xml:id="azsw2e-d1e81-Rd1e803">Imperator 
+        Justinianus.</ref> Si quis in conscribendo instrumento sese confessus 
+        fuerit non usurum fori praescriptione propter sacerdotii praerogativam, 
+        sancimus non licere ei adversus sua pacta venire et contrahentes decipere, 
+        cum regula est iuris antiqui omnes licentiam habere his quae pro se 
+        introducta sunt renuntiare. </p>
+               <p xml:id="azsw2e-d1e81-d1e806" n="1"> 
+        Quam generalem legem in omnibus casibus obtinere sancimus, qui necdum 
+        per iudicialem sententiam vel amicalem conventionem sopiti sunt. * 
+        IUST. A. IOHANNI PP. *&lt;A 531 D. K. SEPT. CONSTANTINOPOLI POST CONS. 
+        LAMPADII ET ORESTAE VV. CC.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e810">
+               <head xml:id="azsw2e-d1e81-Hd1e812">51</head>
+               <p xml:id="azsw2e-d1e81-d1e814">
+                  <ref xml:id="azsw2e-d1e81-Rd1e816">Imperator 
+        Justinianus.</ref> Generaliter sancimus omnes viros reverentissimos 
+        episcopos nec non presbyteros seu diaconos et subdiaconos et praecipue 
+        monachos, licet non sint clerici, immunitatem ipso iure omnes habere 
+        tutelae sive testamentariae sive legitimae sive dativae: et non solum 
+        tutelae esse eos expertes, sed etiam curae, non solum pupillorum et 
+        adultorum, sed et furiosi et muti et surdi et aliarum personarum, 
+        quibus tutores vel curatores a veteribus legibus dantur. </p>
+               <p xml:id="azsw2e-d1e81-d1e819" n="1"> 
+        Eos tamen clericos et monachos huiusmodi habere beneficium sancimus, 
+        qui ad sacrosanctas ecclesias vel monasteria permanent, non devagantes 
+        neque circa divina ministeria desides, cum propter hoc ipsum beneficium 
+        eis indulgemus, ut aliis omnibus derelictis dei omnipotentis inhaereant 
+        ministeriis. </p>
+               <p xml:id="azsw2e-d1e81-d1e822" n="2"> 
+        Et hoc non solum in vetere Roma vel in hac regia civitate, sed in 
+        omni terra, ubicumque christianorum nomen colitur, obtinere sancimus. 
+        * IUST. A. IOHANNI PP. *&lt;A 531 D. K. NOV. POST CONS. LAMPADII ET 
+        ORESTIS VV. CC.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e827">
+               <head xml:id="azsw2e-d1e81-Hd1e829">52</head>
+               <p xml:id="azsw2e-d1e81-d1e831">  
+        <!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e836">
+               <head xml:id="azsw2e-d1e81-Hd1e838">53</head>
+               <p xml:id="azsw2e-d1e81-d1e840">
+                  <ref xml:id="azsw2e-d1e81-Rd1e842">Imperator 
+        Justinianus.</ref> Raptores virginum vel viduarum vel diaconissarum, 
+        quae deo fuerint dedicatae, pessima criminum peccantes capitis supplicio 
+        plectendos fuisse decernimus, quod non solum ad iniuriam hominum, 
+        sed ad ipsius omnipotentis dei inreverentiam committitur. </p>
+               <p xml:id="azsw2e-d1e81-d1e845" n="1"> 
+        Qui itaque huiusmodi crimen commiserint et qui eis auxilium tempore 
+        invasionis praebuerint, ubi inventi fuerint in ipsa rapina et adhuc 
+        flagrante crimine comprehensi a parentibus sanctimonialium virginum 
+        vel viduarum vel diaconissarum aut earum consanguineis vel tutoribus 
+        seu curatoribus, convicti interficiantur. </p>
+               <p xml:id="azsw2e-d1e81-d1e848" n="2">
+                  <ref xml:id="azsw2e-d1e81-Rd1e850">. </ref>Sin autem post commissum tam detestabile crimen aut potentatu 
+        raptor se defendere aut fuga evadere potuerit, in hac quidem regia 
+        urbe tam viri excelsi praefecti praetorio quam vir gloriosissimus 
+        praefectus urbis, in provinciis autem tam viri eminentissimi praefecti 
+        praetorio per Illyricum quam magistri militum per diversas nostri 
+        orbis regiones nec non viri spectabiles praefectus Aegypti et vicarii 
+        et proconsules et nihilo minus viri spectabiles duces et viri clarissimi 
+        rectores provinciarum nec non alii cuiuslibet ordines iudices, qui 
+        in locis inventi fuerint, simile studium cum magna sollicitudine adhibeant, 
+        ut eos possint comprehendere et comprehensos in tali crimine post 
+        legitimas et iuri cognitas probationes sine fori praescriptione durissimis 
+        poenis adficiant et mortis condemnent supplicio. </p>
+               <p xml:id="azsw2e-d1e81-d1e853" n="3">
+                  <ref xml:id="azsw2e-d1e81-Rd1e855">. </ref>Bona autem eorum, si hoc commissum fuerit vel in sanctimonialem 
+        virginem, quae in asceterio vel monasterio degit, sive eadem virgo 
+        diaconissa constituta sit sive non, eidem monasterio vel asceterio, 
+        ubi consecrata est, addicentur, ut ex his rebus et ipsa solacium habeat, 
+        dum vivit, sufficiens et res omnes sacrosanctum asceterium seu monasterium 
+        pleno habeat dominio. </p>
+               <p xml:id="azsw2e-d1e81-d1e859" n="4">
+                  <ref xml:id="azsw2e-d1e81-Rd1e861">. </ref>Sin autem diaconissa cuiuscumque ecclesiae sit, in nullo 
+        autem monasterio vel asceterio constituta est, sed per se degit, raptoris 
+        eius substantia ecclesiae, cuius diaconissa est, adsignetur, ut ex 
+        his facultatibus ipsa quidem usum fructum, dum superest, ab eadem 
+        ecclesia consequatur, ecclesia vero omnem proprietatem et plenam possessionem 
+        earundem rerum nostro habeat beneficio: nemine vel iudice vel alia 
+        quacumque persona hoc audente contemnere. </p>
+               <p xml:id="azsw2e-d1e81-d1e864" n="5">
+                  <ref xml:id="azsw2e-d1e81-Rd1e866">. </ref>Poenas autem, quas praediximus, id est mortis et bonorum 
+        amissionis, constituimus non tantum adversus raptores, sed etiam contra 
+        eos, qui hos comitati in ipsa invasione et rapina fuerint. Ceteros 
+        autem omnes, qui conscii et ministri huiusmodi criminis reperti et 
+        convicti fuerint vel eos susceperint vel quamcumque opem eis intulerint, 
+        sive masculi sive feminae sunt, cuiuscumque condicionis vel gradus 
+        vel dignitatis, poenae tantummodo capitali subicimus, ut huic poenae 
+        omnes subiaceant, sive volentibus sive nolentibus sanctimonialibus 
+        virginibus seu aliis supra dictis mulieribus tale facinus fuerit perpetratum. 
+        * IUST. A. HERMOGENI MAG. OFF. *&lt;A 533 D. XV K. DEC. CONSTANTINOPOLI 
+        DN. IUSTINIANO PP. A. III CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e870">
+               <head xml:id="azsw2e-d1e81-Hd1e872">54</head>
+               <p xml:id="azsw2e-d1e81-d1e874">
+                  <ref xml:id="azsw2e-d1e81-Rd1e876">Imperator 
+        Justinianus.</ref> Deo nobis auxilium praebente omnia, quae pro honore 
+        sanctae catholicae ecclesiae ad dei placitum fieri properamus, legibus 
+        constituere et operibus adimplere desideramus. </p>
+               <p xml:id="azsw2e-d1e81-d1e879" n="1"> 
+        Et iam quidem multa cum eius auxilio statuimus, quae ecclesiasticae 
+        doctrinae statui conveniunt, in praesenti autem hoc pia deliberatione 
+        duximus corrigendum, quod hactenus contra dei timorem fiebat. </p>
+               <p xml:id="azsw2e-d1e81-d1e882" n="2">
+                  <ref xml:id="azsw2e-d1e81-Rd1e884">. </ref>Cognitum etenim nobis est, quod, si quis sponsus vel sponsa 
+        post datas aut acceptas arras voluisset se divino deputare servitio 
+        et a saeculari conversatione recedere ac sanctimonialem vitam vivere 
+        atque in dei timore permanere, compellebatur vir quidem ea quae arrarum 
+        nomine dederat amittere, sponsa vero duplum id quod acceperat reddere. 
+        Quod nostrae mansuetudini satis religioni esse contrarium visum est. 
+      </p>
+               <p xml:id="azsw2e-d1e81-d1e887" n="3">
+                  <ref xml:id="azsw2e-d1e81-Rd1e889">. </ref>Unde per praesentem legem in perpetuum valituram iubemus, 
+        ut, si quis sponsus vel sponsa desideraverit saeculi istius vitam 
+        contemnens in sanctimonialium conversatione vivere, sponsus quidem 
+        omnia, quae arrarum nomine futuri causa coniugii dedisset, sine ulla 
+        imminutione recipiat, sponsa autem non duplum, sicut hactenus, sed 
+        hoc tantum sponso restituat, quod arrarum acceperat nomine, et nihil 
+        amplius reddere compellatur, nisi quod probata fuerit accepisse. </p>
+               <p xml:id="azsw2e-d1e81-d1e893" n="4">
+                  <ref xml:id="azsw2e-d1e81-Rd1e895">. </ref>Nam et maritis et uxoribus qui saeculo renuntiant iam anteriore 
+        lege a nobis provisum est, ut, sive maritus sive uxor religionis causa 
+        a coniugio recesserit et solitariam vitam elegerit, unusquisque eorum 
+        res suas recipiat, quas vel pro dote vel ante nuptias donatione praestiterat, 
+        et hoc tantummodo lucri nomine consequatur ab eo qui solitariam vitam 
+        elegerit, quod debuit legitime vel ex pacto per casum mortis exigere. 
+        &lt;A &gt;</p>
+               <p xml:id="azsw2e-d1e81-d1e898" n="5">
+                  <ref xml:id="azsw2e-d1e81-Rd1e900">. </ref>Hoc etiam cognitum nobis correctione nostra dignum esse iudicamus, 
+        ut, si quis in parentium potestate constitutus vel constituta vel 
+        forsitan huiusmodi iure absolutus vel absoluta elegerit se vel monasterio 
+        vel clero sociare et reliquum vitae suae tempus sanctimonialiter degere 
+        voluerit, non liceat parentibus vel easdem personas quocumque modo 
+        abstrahere vel propter hanc tantummodo causam quasi ingratum a sua 
+        hereditate vel successione repellere, sed necesse sit eis omnimodo, 
+        cum ultimam voluntatem suam sive per scripturam sive alio legitimo 
+        modo conficiant, quartam quidem portionem secundum leges nostras eis 
+        relinquere; sin autem amplius voluerit largiri, hoc eius voluntati 
+        concedimus. </p>
+               <p xml:id="azsw2e-d1e81-d1e903" n="6">
+                  <ref xml:id="azsw2e-d1e81-Rd1e905">. </ref>Sin vero ultimam voluntatem parentes neque testamento neque 
+        alio ultimo elogio declarasse monstrati fuerint, omnem parentium substantiam 
+        heredes, quibus ab intestato competit, secundum leges nostras sibi 
+        defendant: nullo eis impedimento ex sanctimoniali conversatione generando, 
+        sive soli sive cum aliis ad successionem vocantur. </p>
+               <p xml:id="azsw2e-d1e81-d1e908" n="7">
+                  <ref xml:id="azsw2e-d1e81-Rd1e910"> 
+       .</ref> Huius perpetuae nostrae legis beneficia eos volumus obtinere, 
+        qui in monasterio vel clericatu perseveraverint. Nam si qui eorum, 
+        de quibus praesentem legem posuimus, sanctimonialem vitam elegerint, 
+        ad saecularem autem conservationem remeaverint, iubemus omnes eorum 
+        res ad iura eius ecclesiae vel monasterii a quo recesserint pertinere. 
+      </p>
+               <p xml:id="azsw2e-d1e81-d1e913" n="8">
+                  <ref xml:id="azsw2e-d1e81-Rd1e915">. </ref>His ita dispositis repetita lege iubemus, ut nullus iudaeus 
+        vel paganus vel haereticus servos christianos habeat. Quod si inventi 
+        in tali reatu fuerint, sancimus servos modis omnibus liberos esse 
+        secundum anteriorem nostrarum legum tenorem. </p>
+               <p xml:id="azsw2e-d1e81-d1e918" n="9">
+                  <ref xml:id="azsw2e-d1e81-Rd1e920"> 
+       .</ref> In praesenti autem hoc amplius decernimus, ut, si suis de praedictis 
+        iudaeis vel paganis vel haereticis habuerit servos nondum catholicae 
+        fidei sanctissimis mysteriis imbutos, et praedicti servi desideraverint 
+        ad orthodoxam fidem venire, postquam catholicae ecclesiae sociati 
+        fuerint, in libertatem modis omnibus ex praesenti lege eripiantur: 
+        et eos tam iudices provinciarum quam sacrosanctae ecclesiae defensores 
+        nec non beatissimi episcopi defendant, nihil pro eorum pretio penitus 
+        accipientibus dominis. </p>
+               <p xml:id="azsw2e-d1e81-d1e924" n="10">
+                  <ref xml:id="azsw2e-d1e81-Rd1e926"> 
+       .</ref> Quod si forte posthac etiam ipsi domini eorum ad orthodoxam 
+        fidem conversi fuerint, non liceat eis ad servitutem reducere illos, 
+        qui eos ad fidem orthodoxam praecesserunt: sed si quis talia usurpaverit, 
+        poenis gravissimis subiacebit. </p>
+               <p xml:id="azsw2e-d1e81-d1e929" n="11">
+                  <ref xml:id="azsw2e-d1e81-Rd1e931">. </ref>Haec igitur omnia, quae pietatis intuitu nostra sanxit aeternitas, 
+        omnes iudices et religiosissimi antistites sive Africanae dioeceseos, 
+        in qua maxime huiusmodi vitia frequentari cognovimus, sive aliarum 
+        provinciarum naviter et studiosissime observare procurent. Nam contemptores 
+        non solum pecuniaria multa, sed et capitis supplicio ferientur. * 
+        IUST. A. IOHANNI PP. *&lt;A &gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e81-Dd1e935">
+               <head xml:id="azsw2e-d1e81-Hd1e937">55</head>
+               <p xml:id="azsw2e-d1e81-d1e939">  
+        <!-- Greek --> 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

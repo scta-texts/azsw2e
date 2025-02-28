@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 23</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 23</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e305">
+            <head xml:id="azsw2e-d1e305-Hd1e100">Titulus 23</head>
+            <head xml:id="azsw2e-d1e305-Hd1e102" type="question-title">De diversis rescriptis et pragmaticis sanctionibus.</head>
+            <div xml:id="azsw2e-d1e305-Dd1e105">
+               <head xml:id="azsw2e-d1e305-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e305-d1e109">
+                  <ref xml:id="azsw2e-d1e305-Rd1e111">Imperator 
+        Alexander Severus.</ref>  Si libellum de communi causa tu fraterque 
+        tuus dedistis, quamvis rescriptum ad unius personam directum sit, 
+        utrique tamen prospectum est. * ALEX. A. SUPERO. *&lt;A 222 D. ID. 
+        IUL. ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e305-Dd1e115">
+               <head xml:id="azsw2e-d1e305-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e305-d1e119">
+                  <ref xml:id="azsw2e-d1e305-Rd1e121">Imperator 
+        Alexander Severus.</ref> Falso adseveratur auctoritatem rescriptorum 
+        devoluto spatio anni obtinere firmitatem suam non oportere, cum ea, 
+        quae ad ius rescribuntur, perennia esse debent, si modo tempus, intra 
+        quod adlegari vel audiri debeat, non sit comprehensum. * ALEX. A. 
+        EPAGATHO. *&lt;A 270 D. VII K. NOV. ANTIOCHIANO ET ORFITO CONSS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e305-Dd1e125">
+               <head xml:id="azsw2e-d1e305-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e305-d1e129">
+                  <ref xml:id="azsw2e-d1e305-Rd1e131">Imperatores 
+        Diocletianus, Maximianus.</ref> Sancimus, ut authentica ipsa atque 
+        originalia rescripta et nostra manu subscripta, non exempla eorum, 
+        insinuentur. * DIOCL. ET MAXIM. AA. CRISPINO PRAESIDI PROV. PHOENICE. 
+        *&lt;A 292 D. PRID. K. APRIL. HANNIBALIANO ET ASCLEPIODOTO CONSS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e305-Dd1e136">
+               <head xml:id="azsw2e-d1e305-Hd1e138">4</head>
+               <p xml:id="azsw2e-d1e305-d1e140">
+                  <ref xml:id="azsw2e-d1e305-Rd1e142">Imperator 
+        Constantinus.</ref> Si qua beneficia personalia sine die et consule 
+        fuerint deprehensa, auctoritate careant. * CONST. A. AD LUSITANOS. 
+        *&lt;A 322 D. VII K. AUG. SAVARIAE PROBIANO ET IULIANO CONSS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e305-Dd1e146">
+               <head xml:id="azsw2e-d1e305-Hd1e148">5</head>
+               <p xml:id="azsw2e-d1e305-d1e150">
+                  <ref xml:id="azsw2e-d1e305-Rd1e152">Imperatores 
+        Valentinianus, Theodosius, Arcadius.</ref> Sacrilegii instar est divinis 
+        super quibuscumque administrationibus vel dignitatibus promulgandis 
+        obviare beneficiis. * VALENTIN. THEODOS. ET ARCAD. AAA. AD NICETIUM 
+        PRAEF. ANNON. *&lt;A 385 D. K. FEBR. MEDIOLANI ARCADIO A. ET BAUTONE 
+        CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e305-Dd1e156">
+               <head xml:id="azsw2e-d1e305-Hd1e158">6</head>
+               <p xml:id="azsw2e-d1e305-d1e160">
+                  <ref xml:id="azsw2e-d1e305-Rd1e162">Imperator 
+        Leo.</ref> Sacri adfatus, quoscumque nostrae mansuetudinis in quacumque 
+        parte paginarum scripserit auctoritas, non alio vultu penitus aut 
+        colore, nisi purpurea tantummodo scriptione illustrentur, scilicet 
+        ut cocti muricis et triti conchylii ardore signentur: eaque tantummodo 
+        fas sit proferri et dici rescripta in quibuscumque iudiciis, quae 
+        in chartis sive membranis subnotatio nostrae subscriptionis impresserit. 
+      </p>
+               <p xml:id="azsw2e-d1e305-d1e165" n="1"> 
+        Hanc autem sacri encausti confectionem nulli sit licitum aut concessum 
+        habere aut quaerere aut a quoquam sperare: eo videlicet, qui hoc adgressus 
+        fuerit tyrannico spiritu, post proscriptionem bonorum omnium capitali 
+        non immerito poena plectendo. * LEO A. HILARIANO MAG. OFF. ET PATRICIO. 
+        *&lt;A 470 D. VI K. APRIL. IORDANE ET SEVERO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e305-Dd1e169">
+               <head xml:id="azsw2e-d1e305-Hd1e171">7</head>
+               <p xml:id="azsw2e-d1e305-d1e173">
+                  <ref xml:id="azsw2e-d1e305-Rd1e175">Imperator 
+        Zeno.</ref> Universa rescripta, sive in personam precantium sive ad 
+        quemlibet iudicem manaverint, quae vel adnotatio vel quaevis pragmatica 
+        sanctio nominetur, sub ea condicione proferri praecipimus, si preces 
+        veritate nituntur, nec aliquem fructum precator oraculi percipiat 
+        impetrati, licet in iudicio adserat veritatem, nisi quaestio fidei 
+        precum imperiali beneficio monstretur inserta. </p>
+               <p xml:id="azsw2e-d1e305-d1e178" n="1"> 
+        Nam et vir magnificus quaestor et viri spectabiles magistri scriniorum: 
+        qui sine praefata adiectione qualecumque divinum responsum dictaverint, 
+        et iudices, qui susceperint, reprehensionem subibunt et, qui illicite 
+        dictata scribere ausi fuerint cuiuscumque scrinii memoriales seu pragmaticarii 
+        vel adiutores primicerii, amissione cinguli ferientur. </p>
+               <p xml:id="azsw2e-d1e305-d1e181" n="2"> 
+        Pragmaticas praeterea sanctiones non ad singulorum preces super privatis 
+        negotiis proferri, sed si quando corpus aut schola vel officium vel 
+        curia vel civitas vel provincia vel quaedam universitas hominum ob 
+        causam publicam fuderit preces, manare decernimus, ut hic etiam veritatis 
+        quaestio reservetur. * ZENO A. SEBASTIANO PP. *&lt;A 477 D. X K. IAN. 
+        CONSTANTINOPOLI POST CONSULATUM ARMATI.&gt;  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

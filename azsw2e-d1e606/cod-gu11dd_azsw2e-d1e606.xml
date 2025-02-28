@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 50</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 50</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e606">
+            <head xml:id="azsw2e-d1e606-Hd1e100">Titulus 50</head>
+            <head xml:id="azsw2e-d1e606-Hd1e102" type="question-title">&gt;De officio eius qui vicem alicuius iudicis obtinet.</head>
+            <div xml:id="azsw2e-d1e606-Dd1e105">
+               <head xml:id="azsw2e-d1e606-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e606-d1e109">
+                  <ref xml:id="azsw2e-d1e606-Rd1e111">Imperator Gordianus.</ref> In causa quae spectat ad utilitatem rei publicae eum 
+        qui vice praesidis provinciae administrat potuisse cognoscere in dubium 
+        non venit. Sane si in aliquo captum est ius rei publicae, iuxta scita 
+        divorum principum defensores rei publicae ( si modo adesse fiduciam 
+        negotio putant) restitutionis auxilium possunt flagitare. * GORD. 
+        A.DOMITIO PP. *&lt;A 240 D. III NON. NOV. SABINO II ET VENUSTO CONSS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e606-Dd1e115">
+               <head xml:id="azsw2e-d1e606-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e606-d1e119">
+                  <ref xml:id="azsw2e-d1e606-Rd1e121">Imperatores 
+        Theodosius, Valentinianus.</ref> Suggerente magnificentia vestra docta 
+        imperialis aeternitas debere eos, qui praeceptione principali seu 
+        vestrae sedis amplissimae tueri locum rectorum provinciarum noscuntur, 
+        auctoritatem habere tutores seu curatores petentibus dare, decretum 
+        etiam interponere ad alienandas minorum similiumque eis personarum 
+        seu curalium facultates, emancipationes quoque legibus celebrare et 
+        omnia quae ad iurisdictionem rectoris provinciae pertinent actitare, 
+        praecipere dignata est pro dispositione vestrae celsitudinis praefatas 
+        huiusmodi sollicitudines peragendi habere licentiam. * THEODOS. ET 
+        VALENTIN. AA. MANDATA AD ANTIOCHUM PP. PER REFERENDARIUM, QUAE SIC 
+        HABENT:*&lt;A 427 D. PRID. ID. OCT. CONSTANTINOPOLI HIERIO ET ARDABURE 
+        CONSS.&gt; 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

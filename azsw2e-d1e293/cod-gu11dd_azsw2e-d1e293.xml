@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 22</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 22</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e293">
+            <head xml:id="azsw2e-d1e293-Hd1e100">Titulus 22</head>
+            <head xml:id="azsw2e-d1e293-Hd1e102" type="question-title">Si contra ius utilitatemve publicam vel per mendacium fuerit aliquid 
+      postulatum vel impetratum.</head>
+            <div xml:id="azsw2e-d1e293-Dd1e105">
+               <head xml:id="azsw2e-d1e293-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e293-d1e109">
+                  <ref xml:id="azsw2e-d1e293-Rd1e111">Imperatores 
+        Diocletianus, Maximianus.</ref>
+        Non idcirco minus is, cui a nostro 
+        rescripto cognitio delata est, iudicare potest, quod ex gestis quaedam 
+        in precibus omissa proponis. * DIOCL. ET MAXIMIN. AA. ET CC. GREGORIO. 
+        *&lt;A 293 D. V NON. MAI. DIOCLETIANO V ET MAXIMINIANO IIII AA. CONSS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e293-Dd1e115">
+               <head xml:id="azsw2e-d1e293-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e293-d1e119">
+                  <ref xml:id="azsw2e-d1e293-Rd1e121">Imperatores 
+        Diocletianus, Maximianus.</ref> Praescriptione mendaciorum opposita, 
+        sive in iuris narratione mendacium reperiatur sive in facti sive in 
+        tacendi fraude, pro tenore veritatis, non deprecantis adfirmatione, 
+        datum iudicem cognoscere debere et secundum hoc de causa convenit 
+        ferre sententiam. * DIOCL. ET MAXIM. AA. ET CONSTANT. ET MAXIMIN. 
+        CC. STATIAE.*&lt;A 294 D. K. DEC. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e293-Dd1e125">
+               <head xml:id="azsw2e-d1e293-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e293-d1e129">
+                  <ref xml:id="azsw2e-d1e293-Rd1e131">Imperator 
+        Constantinus.</ref> Puniri iubemus decem librarum auri multa iudices, 
+        qui vetuerunt precum argui falsitatem. * CONST. A. AD BASSUM. *&lt;A 
+        313 D. K. OCT. CONSTANTINO A. III ET LICINIO C. III CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e293-Dd1e136">
+               <head xml:id="azsw2e-d1e293-Hd1e138">4</head>
+               <p xml:id="azsw2e-d1e293-d1e140">
+                  <ref xml:id="azsw2e-d1e293-Rd1e142">Imperator 
+        Constantinus.</ref> Etsi non cognitio, sed exsecutio mandatur, de veritate 
+        precum inquiri oportet, ut, si fraus intervenit, de omni negotio cognoscatur. 
+        * CONST. A. AD BARBARUM POMPEIANUM CONSULAREM CAMPANIAE. *&lt;A 333 
+        D. III ID. NOV. AQUIS DALMATIO ET ZENOPHILO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e293-Dd1e146">
+               <head xml:id="azsw2e-d1e293-Hd1e148">5</head>
+               <p xml:id="azsw2e-d1e293-d1e150">
+                  <ref xml:id="azsw2e-d1e293-Rd1e152">Imperatores 
+        Theodosius, Valentinianus.</ref> Etsi legibus consentaneum sacrum oraculum 
+        mendax precator attulerit, careat penitus impetratis et, si nimia 
+        mentientis invenitur improbitas, etiam severitati subiaceat iudicantis. 
+        * THEODOS. ET VALENTIN. AA. AD SENATUM. *&lt;A 426 D. VIII ID. NOV. 
+        RAVENNAE THEODOSIO XII ET VALENTINIANO II AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e293-Dd1e156">
+               <head xml:id="azsw2e-d1e293-Hd1e158">6</head>
+               <p xml:id="azsw2e-d1e293-d1e160">
+                  <ref xml:id="azsw2e-d1e293-Rd1e162">Imperator 
+        Anastasius.</ref> Omnes cuiuscumque maioris vel minoris administrationis 
+        universae nostrae rei publicae iudices monemus, ut nullum rescriptum, 
+        nullam pragmaticam sanctionem, nullam sacram adnotationem, quae generali 
+        iuri vel utilitati publicae adversa esse videatur, in disceptatione 
+        cuiuslibet litigii patiantur proferri, sed generales sacras constitutiones 
+        modis omnibus non dubitent observandas. * ANASTAS. A. MATRONIANO PP. 
+        *&lt;A 491 ? D. K. IUL. CONSTANTINOPOLI.&gt;  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

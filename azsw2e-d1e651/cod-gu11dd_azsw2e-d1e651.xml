@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 54</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 54</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e651">
+            <head xml:id="azsw2e-d1e651-Hd1e100">Titulus 54</head>
+            <head xml:id="azsw2e-d1e651-Hd1e102" type="question-title">De modo multarum, quae ab iudicibus infliguntur.</head>
+            <div xml:id="azsw2e-d1e651-Dd1e105">
+               <head xml:id="azsw2e-d1e651-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e651-d1e109">
+                  <ref xml:id="azsw2e-d1e651-Rd1e111">Imperatores 
+        Severus, Antoninus.</ref> Multa damnum famae non inrogat. * SEV. ET 
+        ANT. AA. FIRMO. *&lt;A 205 D. V ID. APRIL. ANTONINO A. ET GETA UTRISQUE 
+        II CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e651-Dd1e115">
+               <head xml:id="azsw2e-d1e651-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e651-d1e119">
+                  <ref xml:id="azsw2e-d1e651-Rd1e121">Imperator 
+        Alexander Severus.</ref> Procuratores meos, id est rationales, indicendae 
+        multae ius non habere saepe rescriptum est. * ALEX. A. DECIMO. *&lt;A 
+        228 D. XIII K. SEPT. MODESTO ET PROBO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e651-Dd1e125">
+               <head xml:id="azsw2e-d1e651-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e651-d1e129">
+                  <ref xml:id="azsw2e-d1e651-Rd1e131">Imperator 
+        Gordianus.</ref> Curator rei publicae, qui Graeco vocabulo logista 
+        nuncupatur, multandi ius non habet. * GORD. A. CELERI. *&lt;A 239 
+        D. ID. SEPT. GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e651-Dd1e136">
+               <head xml:id="azsw2e-d1e651-Hd1e138">4</head>
+               <p xml:id="azsw2e-d1e651-d1e140">
+                  <ref xml:id="azsw2e-d1e651-Rd1e142">Imperatores 
+        Gratianus, Valentinianus, Theodosius.</ref> Illustres viros praefectos 
+        praetorio usque ad quinquaginta librarum auri multas, cum peccatum 
+        gravissimum erit, sinimus pervenire. * GRAT. VALENTIN. ET THEODOS. 
+        AAA. EUTROPIO PP. *&lt;A 380 D. VIII ID. IAN. GRATIANO V ET THEODOSIO 
+        AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e651-Dd1e146">
+               <head xml:id="azsw2e-d1e651-Hd1e148">5</head>
+               <p xml:id="azsw2e-d1e651-d1e150">
+                  <ref xml:id="azsw2e-d1e651-Rd1e152">Imperatores 
+        Valentinianus, Theodosius, Arcadius.</ref> Multarum severa compendia 
+        aerario nostro protinus esse quaerenda nullus ignoret, nisi ipse iudex 
+        id, quod ad poenam admissi facinoris exculpitur, vel publicis operibus 
+        vel cursui publico vel aliis necessariis causis specialiter deputaverit. 
+        * VALENTIN. THEODOS. ET ARCAD. AAA. AD PRAETEXTATUM PP. *&lt;A 384 
+        D. V ID. SEPT. AQUILEIAE RICOMERE ET CLEARCHO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e651-Dd1e156">
+               <head xml:id="azsw2e-d1e651-Hd1e158">6</head>
+               <p xml:id="azsw2e-d1e651-d1e160">
+                  <ref xml:id="azsw2e-d1e651-Rd1e162">Imperatores 
+        Arcadius, Honorius.</ref> Eos, qui ordinario provincias iure moderantur, 
+        erga eorum personas, quos culpa reddit obnoxios, ultra duarum unciarum 
+        auri multam condemnare non patimur. </p>
+               <p xml:id="azsw2e-d1e651-d1e165" n="1"> 
+        Proconsularem vero potestatem, si multandi necessitas imminebit, senarum 
+        unciarum auri summa cohibebit: in qua forma etiam comes orientis atque 
+        praefectus augustalis erit. </p>
+               <p xml:id="azsw2e-d1e651-d1e168" n="2"> 
+        Ceteri vero spectabiles iudices et qui vice vestra administrationis 
+        gubernacula susceperunt, ultra tres auri uncias sibi intellegant licentiam 
+        denegandam. </p>
+               <p xml:id="azsw2e-d1e651-d1e171" n="3">
+                  <ref xml:id="azsw2e-d1e651-Rd1e173"> 
+      </ref>Id quoque observandum a moderatore esse censemus, ut in unius 
+        correptione personae, si ad id continuatio peccati impulerit, trinae 
+        tantum in annum condemnationis sub praestituta summa severitas exseratur. 
+      </p>
+               <p xml:id="azsw2e-d1e651-d1e177" n="4"> 
+        Quod si quis praedictum modum excesserit, huius auctor admissi condemnato 
+        ad dupli restituionem, fisco vero nostro ad inferendam eam quantitatem, 
+        quam multae nomine inflixerit, retinebitur. </p>
+               <p xml:id="azsw2e-d1e651-d1e180" n="5"> 
+        Nec tamen ad huiusmodi legis moderationem pertinere se credant, qui 
+        in peculatibus aut manubiis, id est depraedationibus concussionibus 
+        furtis atque aliis flagitiis, quae coerceri severius convenit, fuerint 
+        deprehensi, scilicet ut scripta per iudices memoratos, in cuiuslibet 
+        fuerit dirigenda dispendium, sententia proferatur. </p>
+               <p xml:id="azsw2e-d1e651-d1e183" n="6"> 
+        Nec putent factu facile esse, ut aut praecipiti persuasione condemnet 
+        quem culpa non ingravat, aut erubescenda varietate iudicii pro arbitrio 
+        proprio immutandum esse quod lex iusserit, nisi paupertas condemnati 
+        hoc persuaserit. * ARCAD. ET HONOR. AA. MESSALAE PP. *&lt;A 399 D. 
+        XII K. SEPT. THEODORO CONS.&gt;  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

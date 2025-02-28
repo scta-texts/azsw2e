@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 31 De officio magistri officiorum. </title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 31 De officio magistri officiorum. </title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e394">
+            <head xml:id="azsw2e-d1e394-Hd1e100">Titulus 31</head>
+            <head xml:id="azsw2e-d1e394-Hd1e102">De officio magistri officiorum. </head>
+            <div xml:id="azsw2e-d1e394-Dd1e104">
+               <head xml:id="azsw2e-d1e394-Hd1e106">1</head>
+               <p xml:id="azsw2e-d1e394-d1e108">
+                  <ref xml:id="azsw2e-d1e394-Rd1e110">Imperator 
+        Constantius.</ref> Privilegiis dudum scholae vestrae indultis integris 
+        reservatis, ad ducenam etiam et centenam et biarchiam nemo suffragio, 
+        nisi labore unusquisque perveniat, principatum vero adipiscatur matricula 
+        decurrente, ita ut ad curas agendas et cursum illi exeant, quos ordo 
+        militiae vocat et laborum. </p>
+               <p xml:id="azsw2e-d1e394-d1e113" n="1"> 
+        Adiutor praeterea, in quo totius scholae status et magistri securitas 
+        constituta est, idoneus probitate morum ac bonis artibus praeditus 
+        nostris per magistrum obtutibus offeratur, ut nostro ordinetur arbitrio. 
+        * CONSTANTIUS A. AD AGENTES IN REBUS. *&lt;A 359 D. ET PP. ROMAE IN 
+        FORO TRAIANI K. NOV. EUSEBIO ET HYPATIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e394-Dd1e117">
+               <head xml:id="azsw2e-d1e394-Hd1e119">2</head>
+               <p xml:id="azsw2e-d1e394-d1e121">
+                  <ref xml:id="azsw2e-d1e394-Rd1e123">Imperatores 
+        Valentinianus, Theodosius, Arcadius.</ref> Nemo agentum in rebus ordinem 
+        militiae atque stipendia praevertat, etiamsi nostri numinis per obreptionem 
+        detulerit indultum: ac si quis formam istiusmodi docebitur obtulisse, 
+        in locum, ex quo indecenter emerserat, revertatur, ut is gradu ceteros 
+        antecedat, quem stipendia longiora vel labor prolixior fecerit anteire. 
+        * VALENTIN. THEODOS. ET ARCAD. AAA. AD PRINCIPIUM MAG. OFF.*&lt;A 
+        386 PP. HADRUMETI VII ID. MART. POST CONS. ARCADII A. ET BAUTONIS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e394-Dd1e127">
+               <head xml:id="azsw2e-d1e394-Hd1e129">3</head>
+               <p xml:id="azsw2e-d1e394-d1e131">
+                  <ref xml:id="azsw2e-d1e394-Rd1e133">Imperatores 
+        Theodosius, Valentinianus.</ref> Scholarium nostrorum devotio, probata 
+        nostris parentibus, circa nostrae maxime serenitatis adfectionem enituit. 
+        Inde quidquid ad fovenda servandaque eorum privilegia postulatur, 
+        statim credidimus admittendum. Ideoque suggestionem tui culminis approbantes 
+        viris spectabilibus comitibus scholarum verberandi regradandive senatores 
+        ac ducenarios licentiam denegamus. Ea namque, quae tali commotione 
+        digna sunt, ad tuae sublimitatis volumus referri notitiam. * THEODOS. 
+        ET VALENTIN. AA. PHLEGETIO COM. ET MAG. OFF. *&lt;A 441 D. XV K. MAI. 
+        CONSTANTINOPOLI CYRO VC. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e394-Dd1e138">
+               <head xml:id="azsw2e-d1e394-Hd1e140">4</head>
+               <p xml:id="azsw2e-d1e394-d1e142">
+                  <ref xml:id="azsw2e-d1e394-Rd1e144">Imperatores 
+        Theodosius, Valentinianus.</ref> Curae perpetuae tui culminis credimus 
+        iniungendum, ut super omni limite sub tua iurisdictione constituto, 
+        quemadmodum se militum numerus habeat castrorumque ac clusurarum cura 
+        procedat, quotannis significare nobis propria suggestione procuret. 
+        * THEODOS. ET VALENTIN. AA. NOMO MAG. OFF. *&lt;A 443 D. PRID. ID. 
+        SEPT. CONSTANTINOPOLI MAXIMO II ET PATERIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e394-Dd1e148">
+               <head xml:id="azsw2e-d1e394-Hd1e150">5</head>
+               <p xml:id="azsw2e-d1e394-d1e152">
+                  <ref xml:id="azsw2e-d1e394-Rd1e154">Imperatores 
+        Justinus, Justinianus.</ref> Iubemus eum ad militiam devotissimorum 
+        scholarium de cetero pervenire, qui nostrum meruit iudicium, nec licere 
+        pro tempore tui culminis administrationem habenti sine huiusmodi probatoria 
+        aliquem inter eosdem viros devotos, scholares suis referre praeceptionibus: 
+        sed sciat is, qui sine sacro rescripto ad eandem pervenire militiam 
+        ausus fuerit, non solum ea se privari, verum etiam poenae viginti 
+        librarum auri subici. </p>
+               <p xml:id="azsw2e-d1e394-d1e157" n="1"> 
+        Illud etiam observari de cetero volumus, ut, si quis locus statutorum 
+        scholarium in quacumque schola vacaverit, ille subrogetur, quem nostra 
+        pietas per sacrum rescriptum vacantem subire locum praeceperit. </p>
+               <p xml:id="azsw2e-d1e394-d1e160" n="2"> 
+        Ad haec quadrimenstruos breves eorundem scholarium cura tuae sublimitatis 
+        et pro tempore viri excellentissimi magistri officiorum conscribi 
+        volumus et eos sacro scrinio laterculi praestari ibi deponendos, ut 
+        semper notitia eorundem scholarium certa sit neque publico damnum 
+        aliquod infligatur. * IUSTINUS ET IUST. AA. TATIANO MAG. OFF. *&lt;A 
+        527 D. X K. MAI. CONSTANTINOPOLI MAVORTIO VC. CONS.&gt;  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

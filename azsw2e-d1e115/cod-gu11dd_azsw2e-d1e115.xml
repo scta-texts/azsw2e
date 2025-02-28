@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 6</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 6</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e115">
+            <head xml:id="azsw2e-d1e115-Hd1e100">Titulus 6</head>
+            <head xml:id="azsw2e-d1e115-Hd1e102" type="question-title">Ne sanctum baptisma iteretur. </head>
+            <div xml:id="azsw2e-d1e115-Dd1e105">
+               <head xml:id="azsw2e-d1e115-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e115-d1e109">
+                  <ref xml:id="azsw2e-d1e115-Rd1e111">Imperatores 
+        Valens, Gratianus, Valentinianus.</ref> Antistitem, qui sanctitatem 
+        baptismatis illicita usurpatione geminaverit, sacerdotio indignum 
+        esse censemus. Eorum enim condemnamus errorem, qui apostolorum praecepta 
+        calcantes christiani nominis sacramenta sortitos alio rursus baptismate 
+        non purificant, sed incestant, lavacri nomine polluentes. * VALENS 
+        GRAT. ET VALENTIN. AAA. AD FLORIANUM VIC. ASIAE. *&lt;A 377 D. XVI 
+        K. NOV. CONSTANTINOPOLI GRATIANO A. IIII ET MEROBAUDE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e115-Dd1e115">
+               <head xml:id="azsw2e-d1e115-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e115-d1e119">
+                  <ref xml:id="azsw2e-d1e115-Rd1e121">Imperatores 
+        Honorius, Theodosius.</ref> Si quis rebaptizare quempiam de mysteriis 
+        catholicae sectae fuerit detectus, una cum eo qui piaculare crimen 
+        commisit ( si tamen criminis per aetatem capax sit, cui persuasum 
+        sit) ultimo supplicio percellatur. * HONOR. ET THEODOS. AA. ANTHEMIO 
+        PP. *&lt;A 413 D. XII K. APRIL. CONSTANTINOPOLI LUCIO CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e115-Dd1e125">
+               <head xml:id="azsw2e-d1e115-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e115-d1e129">
+                  <ref xml:id="azsw2e-d1e115-Rd1e131">Imperatores 
+        Theodosius, Valentinianus.</ref> Nulli haereticorum danda est licentia 
+        vel ingenuos vel servos proprios, qui orthodoxorum sunt initiati mysteriis, 
+        ad suum rursus baptisma deducendi, nec vero illos, quos emerint vel 
+        qualitercumque habuerint necdum suae superstitioni coniunctos, prohibendi 
+        catholicae sequi religionem ecclesiae. </p>
+               <p xml:id="azsw2e-d1e115-d1e134" n="1"> 
+        Quod qui fecerit vel, cum sit ingenuus, in se fieri passus sit vel 
+        factum non detulerit, exilio ac decem librarum auri multa damnabitur: 
+        testamenti et donationis faciendae utrique deneganda licentia. </p>
+               <p xml:id="azsw2e-d1e115-d1e137" n="2"> 
+        Quae omnia ita custodiri decernimus, ut nulli iudicum liceat delatum 
+        ad se crimen minori aut nulli coercitioni mandare, nisi ipse id pati 
+        velit, quod aliis dissimulando concesserit.* THEODOS. ET VALENTIN. 
+        AA. FLORENTIO PP. *&lt;A 428 D. III K. IUN. CONSTANTINOPOLI FELICE 
+        ET TAURO CONSS.&gt;  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

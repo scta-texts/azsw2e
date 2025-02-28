@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 29</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 29</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e372">
+            <head xml:id="azsw2e-d1e372-Hd1e100">Titulus 29</head>
+            <head xml:id="azsw2e-d1e372-Hd1e102" type="question-title">De officio magistri militum.</head>
+            <div xml:id="azsw2e-d1e372-Dd1e105">
+               <head xml:id="azsw2e-d1e372-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e372-d1e109">
+                  <ref xml:id="azsw2e-d1e372-Rd1e111">Imperatores 
+        Gratianus, Valentinianus, Theodosius.</ref> Viri illustres comites 
+        et magistri peditum et equitum in provinciales nullam penitus habeant 
+        potestatem, nec amplissima praefectura in militares viros. * GRAT. 
+        VALENTIN. ET THEODOS. AAA. AD EUSIGNIUM PP. *&lt;A 386 - 387&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e372-Dd1e115">
+               <head xml:id="azsw2e-d1e372-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e372-d1e119">
+                  <ref xml:id="azsw2e-d1e372-Rd1e121">Imperatores 
+        Honorius, Theodosius.</ref> Apparitores statutos officii tui ad aliud 
+        iudicium trahi minime oportebit. Sciat igitur illustris magnificentia 
+        tua sub te, sive civiliter sive criminaliter appetantur, eos litigare 
+        debere. * HONOR. ET THEODOS. AA. AD HYPATIUM MAG. MIL. PER ORIENTEM. 
+        *&lt;A 414 D. ID. DEC. CONSTANTINOPOLI CONSTANTIO ET CONSTANTE CONSS.&gt; 
+      </p>
+            </div>
+            <div xml:id="azsw2e-d1e372-Dd1e125">
+               <head xml:id="azsw2e-d1e372-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e372-d1e129">
+                  <ref xml:id="azsw2e-d1e372-Rd1e131">Imperator 
+        Zeno.</ref> Eos, qui ultra statutos officii magisteriae per orientem 
+        potestatis militant, civilium quoque iudicum sententiis super quolibet 
+        negotio subiacere: ipsis quin etiam statutis in tributariis collationibus 
+        civilium quoque iudicum dispositionibus procul dubio parituris. * 
+        ZENO A. SEBASTIANO PP. *&lt;A 476-485&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e372-Dd1e136">
+               <head xml:id="azsw2e-d1e372-Hd1e138">4</head>
+               <p xml:id="azsw2e-d1e372-d1e140">
+                  <ref xml:id="azsw2e-d1e372-Rd1e142">Imperator 
+        Anastasius.</ref> Milites de locis, in quibus consistunt, ad alia loca 
+        sine speciali nostrae serenitatis auctoritate nullatenus transferri 
+        praecipimus, nec eorum expensae in locis, in quibus consistunt, minuantur. 
+        Sed si forte quaedam urguens et necessaria causa emerserit, utilitati 
+        ac securitati publicae tam amplissimam praetorianam praefecturam quam 
+        tuam sedem sine ulla procrastinatione prospicere protinus oportet 
+        et suggestiones ad nostras aures destinare, indicantes tam loca, de 
+        quibus milites transferendi sunt, quam ea, ad quae pervenire eos oportet, 
+        nominaque fortissimorum numerorum, in quibus idem milites referuntur, 
+        nec non quantitatem annonarum et ante omnia causam, ob quam idem milites 
+        transferendi sunt, ut post talem suggestionem a nostra auctoritate 
+        competentia procedant. * ANASTAS. A. IOHANNI MAG. MIL. PER ILLYRICUM. 
+        *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e372-Dd1e146">
+               <head xml:id="azsw2e-d1e372-Hd1e148">5</head>
+               <p xml:id="azsw2e-d1e372-d1e150">
+                  <ref xml:id="azsw2e-d1e372-Rd1e152">Imperator 
+        Justinianus.</ref> Cum propitia divinitate Romanum nobis sit delatum 
+        imperium, sollicita cura cauta diligentia pertractantes perspeximus 
+        oportere etiam partibus Armeniae et Ponto Polemoniaco et gentibus 
+        proprium magistrum militum per hanc legem constituere, tuamque magnitudinem, 
+        quae nobis ex ante gestis optime commendata est, idoneam ad talem 
+        fore dignitatem confidentes elegimus certasque provincias, id est 
+        Magnam Armeniam, quae interior dicebatur, et gentes (Anzetenam videlicet, 
+        Ingilenam, Asthianenam, Sophenam, Sophanenam, in qua est Martyropolis, 
+        Balabitenam) et primam et secundam Armeniam et Pontum Polemoniacum 
+        tuae curae cum suis ducibus commisimus, comite Armeniae penitus sublato, 
+        certosque subdidimus numeros, non m odo quos in praesenti novos constituimus, 
+        sed etiam de praesentalibus et orientalibus et aliis agminibus segregatos, 
+        non tamen quantitatem eorum agminum minuentes: sed quia plures eis 
+        addidimus sine rei publicae gravamine et sine augmento sumptuum, aliquantos 
+        subtraximus, ita tamen, ut et post hanc subtractionem ampliores remanserint, 
+        quam usque ad nostra felicia fuerant tempora. * IUST. A. ZETAE VIRO 
+        ILLUSTRI MAG. MIL. PER ARMENIAM ET PONTUM POLEMONIACUM ET GENTES.*&lt;A 
+        XXX &gt;  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

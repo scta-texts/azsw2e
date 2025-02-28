@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 49</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 49</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e595">
+            <head xml:id="azsw2e-d1e595-Hd1e100">Titulus 49</head>
+            <head xml:id="azsw2e-d1e595-Hd1e102" type="question-title">Ut omnes tam civiles quam militares iudices post administrationem 
+      depositam per quinquaginta dies in civitatibus vel certis locis permaneant. </head>
+            <div xml:id="azsw2e-d1e595-Dd1e105">
+               <head xml:id="azsw2e-d1e595-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e595-d1e109">
+                  <ref xml:id="azsw2e-d1e595-Rd1e111">Imperator 
+        Zeno.</ref> Nemo ex viris clarissimis praesidibus provinciarum vel 
+        consularibus aut correctoribus neve qui administrationis maioris infulas 
+        meruerint, id est viri spectabiles proconsules vel praefectus Augustalis 
+        aut comes Orientis aut cuiuslibet tractus vicarius aut quicumque dux 
+        vel comes cuiuslibet limitis vel divinarum comes domorum, postquam 
+        sibi successum fuerit, audeat excedere de locis, quae rexisse noscitur, 
+        antequam quinquaginta dierum constitutus numerus finiatur. </p>
+               <p xml:id="azsw2e-d1e595-d1e114" n="1"> 
+        Sed per id tempus praesides quidem et consulares nec non correctores 
+        in metropoli, spectabiles vero iudices tam civiles quam militares 
+        in civitatibus administratae dioeceseos illustrioribus publice, nec 
+        domi vel intra sancrosanctos terminos vel regiones aut potentes domos 
+        latitantes, sed in celeberrimis locis ante omnium quos nuper gubernaverant 
+        ora versentur, ut pateat omnibus facultas libera super furtis aut 
+        criminibus querimoniam commovendi, ita ut ab omni defensus iniuria 
+        provisione post eum administrantis ac periculo officii nec minus curialium 
+        et defensoris civitatis, iuratoriae tantum cautioni commissus, postquam 
+        fuerit in querimoniam devocatus, pulsare volentibus ( ut dictum est) 
+        pro legum ratione respondeat: </p>
+               <p xml:id="azsw2e-d1e595-d1e117" n="2"> 
+        Nec ullam ante praefinitum tempus de provincia discedendi excusationem 
+        ei tribuat vel divina revocatoria vel codicilli alterius administrationis 
+        oblati vel praeceptum amplissimae tuae sedis, ut alterius provinciae 
+        moderatoris vices obtineat, aut praeceptum praefatae vel alterius 
+        civilis seu militaris cuiuscumque potestatis, ut quamcumque sollicitudinem 
+        publicam gerat aut exhibeatur vel deducatur, aut postremum cuiuslibet 
+        artis astutia, cuiuscumque occasionis excogitata calliditas excludatur, 
+        ut modis omnibus, quae pro universarum provinciarum salute sancimus, 
+        sortiantur effectum. </p>
+               <p xml:id="azsw2e-d1e595-d1e120" n="3"> 
+        Quod si quis temeritate punienda saluberrimam legem circumscribendam 
+        vel violandam crediderit, licet et maiestatis reus non immerito iudicetur, 
+        attamen quinquaginta librarum auri multam publicis calculis inferre 
+        cogetur: simili poena plectendo, qui post eum administratione suscepta 
+        minime eum curaverit honeste retinendum aut super eius fuga protinus 
+        referendum. </p>
+               <p xml:id="azsw2e-d1e595-d1e124" n="4"> 
+        Administrationem autem deponere non volumus decessorem, antequam successor 
+        ad provinciae fines pervenerit, licet litteris ad eum seu programmate 
+        vel edicto ad officium et provinciales usus fuerit. </p>
+               <p xml:id="azsw2e-d1e595-d1e127" n="5"> 
+        Ipse autem, qui praesentem fugiens non observaverit legem, ubicumque 
+        repertus fuerit, licet in hac florentissima civitate, ad provinciam 
+        sine ullo penitus obstaculo praeceptione tui culminis, cura etiam 
+        viri clarissimi rectoris provinciae, in qua repertus fuerit, deducetur, 
+        per sex mensuum curricula ibidem moraturus, quatenus interea minime 
+        crimina possint vel furta celari. </p>
+               <p xml:id="azsw2e-d1e595-d1e130" n="6"> 
+        Officium etiam, quod eum (debito tamen honore servato) non prohibuerit 
+        contra legis tenorem discedere, triginta librarum auri dispendio ferietur. 
+      </p>
+               <p xml:id="azsw2e-d1e595-d1e133" n="7"> 
+        Quod si intra quinquaginta dierum numerum fuerit forte pulsatus et 
+        praefato elapso tempore necdum finita lis fuerit, civiliter quidem 
+        super furtorum sceleribus pulsatus dato procuratore instructo post 
+        quinquaginta dies protinus habeat licentiam discedendi: accusatione 
+        vero super criminibus facta per inscriptionum laqueos inretitus usque 
+        ad terminum causae ibidem necessario perdurabit. </p>
+               <p xml:id="azsw2e-d1e595-d1e136" n="8"> 
+        Sciant autem universi iudices, apud quos vel administrationis iure 
+        vel ex praecepto amplissimae tuae sedis huiusmodi controversiae civiliter 
+        vel criminaliter ventilantur, intra viginti dierum spatium debere 
+        se praefata litigia, postquam orta fuerint, terminare. Nam si supersederint, 
+        ipsos quidem decem librarum auri condemnationem subire censemus, accusationem 
+        vero seu civilem intentionem semel in iudicium deductam praefato modo 
+        legitime terminari. * ZENO A. SEBASTIANO PP. *&lt;A 479 D. V ID. OCT. 
+        CONSTANTINOPOLI ZENONE A. II CONS.&gt;  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

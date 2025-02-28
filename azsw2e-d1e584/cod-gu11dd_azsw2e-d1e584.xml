@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 48</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 48</title>
+               <date when="2025-02-27">February 27, 2026</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-02-27" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e584">
+            <head xml:id="azsw2e-d1e584-Hd1e100">Titulus 48</head>
+            <head xml:id="azsw2e-d1e584-Hd1e102" type="question-title">De officio diversorum iudicum.</head>
+            <div xml:id="azsw2e-d1e584-Dd1e105">
+               <head xml:id="azsw2e-d1e584-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e584-d1e109">
+                  <ref xml:id="azsw2e-d1e584-Rd1e111">Imperator 
+        Constantinus.</ref> Nemo iudex officialem ad eam domum, in qua mater 
+        familias agit, cum aliquo praecepto existimet esse mittendum, ut eandem 
+        in publicum protrahat, cum certum sit debita eius, quae intra domum 
+        considerato sexu semet contineat, domus eius vel cuiuscumque rei habita 
+        distractione, publicis necessitatibus posse servari. Quod si quis 
+        in publicum matrem familias posthac crediderit protrahendam, inter 
+        maximos reos citra ullam indulgentiam capitali poena plectetur. * 
+        CONST. A. AD DOMITIUM CELSUM VIC. *&lt;A 316 D. III ID. IAN. TREVIRIS 
+        SABINO ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e584-Dd1e115">
+               <head xml:id="azsw2e-d1e584-Hd1e117">22</head>
+               <p xml:id="azsw2e-d1e584-d1e119">
+                  <ref xml:id="azsw2e-d1e584-Rd1e121">Imperatores 
+        Valentinianus, Theodosius, Arcadius.</ref> Singuli quique iudices sciant 
+        celsioribus viris et his, quorum nonnumquam iudicio provehuntur, honorificentiam 
+        esse debitam praestandam, nec in subscriptionibus suis fratres audeant 
+        nominare, apparitione multanda, cuius haec cura est. * VALENTIN. THEODOS. 
+        ET ARCAD. AAA. AD PRINCIPIUM PU. *&lt;A 384 D. ID. FEBR. RICOMERE 
+        ET CLEARCHO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e584-Dd1e125">
+               <head xml:id="azsw2e-d1e584-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e584-d1e129">
+                  <ref xml:id="azsw2e-d1e584-Rd1e131">Imperatores 
+        Valentinianus, Theodosius, Arcadius.</ref> Sciant principes et cornicularii 
+        et primates officiorum, iudices etiam, ternas libras auri a suis facultatibus 
+        eruendas, si honoratis viris, quibus etiam consistorium nostrum ingrediendi 
+        facultas praebetur, secretarii iudicum non patuerit ingressus aut 
+        reverentia non fuerit in salutatione delata aut sedendi cum iudice 
+        societas denegata. * VALENTIN. THEODOS. ET ARCAD. AAA. CONSTANTIO 
+        PP. GALLIARUM. *&lt;A 389 D. VI ID. NOV. TREVIRIS TIMASIO ET PROMOTO 
+        CONSS.&gt;  
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
