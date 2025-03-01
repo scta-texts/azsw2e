@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 13</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 13</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5102"><!-- azsw2e-l8t13 -->
+            <head xml:id="azsw2e-d1e5102-Hd1e101">Titulus 13</head>
+            <head xml:id="azsw2e-d1e5102-Hd1e103" type="question-title">De pignoribus</head>
+            <div xml:id="azsw2e-d1e5102-Dd1e106">
+               <head xml:id="azsw2e-d1e5102-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5102-d1e110">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Debitor, qui pignoribus profitetur se creditoribus
+            cedere, nihilo magis liberabitur. * SEV. ET ANT. AA. TIMOTHEO. *&lt;A
+            194 PP. V K. MART. SEVERO A. II ET ALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e116">
+               <head xml:id="azsw2e-d1e5102-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5102-d1e120">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e122">Imperatores
+            Severus, Antoninus</ref>  Quamvis constet specialiter quaedam et universa
+            bona generaliter adversarium tuum pignori accepisse et aequale ius
+            in omnibus habere, iurisdictio tamen temperanda est. </p>
+               <p xml:id="azsw2e-d1e5102-d1e125" n="1">
+            Ideoque si certum est posse eum ex his, quae nominatim ei
+            pignori obligata sunt, universum redigere debitum, ea, quae postea
+            ex isdem bonis pignori accepisti, interim non auferri praeses iubebit.
+            * SEV. ET ANT. AA. LUCIO. *&lt;A 204 PP. II K. IUN. CILONE ET LIBONE
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e129">
+               <head xml:id="azsw2e-d1e5102-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e5102-d1e133">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e135">Imperatores
+            Severus, Antoninus</ref> Creditores, qui non reddita sibi pecunia
+            conventionis legem ingressi possessionem adipisci debent. * SEV. ET
+            ANT. AA. MAXIMO. *&lt;A 205 PP. K. MAI ANTONINO A. II ET GETA II CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e140">
+               <head xml:id="azsw2e-d1e5102-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e5102-d1e144">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e146">Imperatores
+            Severus, Antoninus</ref> Cum te pecuniam accepisse et agros tuos obligasse
+            fateris, non habet rationem, quod quereris vi te coactum pignori dare.
+            Si igitur recipere vis rem tuam, solve creditori pecuniam debitam
+            * SEV. ET ANT. AA. BELLIO. *&lt;A 208 D. III K. IUN. ANTONINO A. III
+            ET GETA III CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e150">
+               <head xml:id="azsw2e-d1e5102-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e5102-d1e154">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e156">Imperator
+            Antoninus</ref> Praeses provinciae vir clarissimus ius pignoris tui
+            exsequentem te audiet. Nec tibi oberit sententia adversus debitorem
+            tuum dicta, si eum collusisse cum adversario suo aut, ut dicis, non
+            causa cognita, sed praescriptione superatum esse constiterit * ANT.
+            A. DOMITIO. *&lt;A 212 PP. ID. MAI. ROMAE DUOBUS ASPRIS CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e160">
+               <head xml:id="azsw2e-d1e5102-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e5102-d1e164">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e166">Imperator
+            Antoninus</ref> In summa debiti computabitur etiam id, quod propter
+            possessiones pignori datas ad collationem viarum muniendarum vel quod
+            aliud necessarium obsequium praestitisse creditorem constiterit. *
+            ANT. A. QUINTO. *&lt;A 213 PP. III K. AUG. ANTONINO A. IIII ET BALBINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e170">
+               <head xml:id="azsw2e-d1e5102-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e5102-d1e174">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e176">Imperator
+            Gordianus</ref> Usucapio pignoris conventionem non extinguit. * GORD.
+            A. MARCIANO. *&lt;A 238 PP. NON. SEPT. PIO ET PONTIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e180">
+               <head xml:id="azsw2e-d1e5102-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e5102-d1e184">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e186">Imperator
+            Gordianus</ref> Quamvis personali actione expertus adversus reum vel
+            fideiussores seu mandatores eius feceris condemnationem, pignoris
+            tamen adhuc habes persecutionem. * GORD. A. FESTO. *&lt;A 239 PP.
+            ID. MART. GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e190">
+               <head xml:id="azsw2e-d1e5102-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e5102-d1e194">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e196">Imperator
+            Gordianus</ref> Si dominium eius possessionis, quae cum pignori data
+            esset, a debitrice donatu ad te translatum est, eamque postea creditor
+            vel eius heredes detinere coeperunt , vindica eam, praeside provinciae
+            curante, ut, fructuum deducta ratione residuoque a te oblato si fuerit
+            satisfactum, ea possessio tibi reddatur. * GORD. A. ATTICO. *&lt;A
+            239 PP. III K. OCT. GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e201">
+               <head xml:id="azsw2e-d1e5102-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e5102-d1e205">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e207">Imperatores
+            Diocletianus, Maximianus</ref> Debitores praesentes prius denuntiationibus
+            conveniendi sunt. Igitur si conventi debito satis non fecerint, persequenti
+            tibi pignora seu hypothecas, quas instrumento specialiter comprehensas
+            esse dicis, competentibus actionibus rector provinciae auctoritatis
+            suae auxilium impertire non dubitabit * DIOCL. ET MAXIM. AA. ALEXANDRO.
+            *&lt;A 290 D. XVIII K. FEBR. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e211">
+               <head xml:id="azsw2e-d1e5102-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e5102-d1e215">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e217">Imperatores
+            Diocletianus, Maximianus</ref> Nominatori pignori capere sine praesidis
+            auctoritate res nominati non licet. * DIOCL. ET MAXIM. AA. ET CC.
+            EUPHROSYNO. *&lt;A 293 S. III K. MART. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e221">
+               <head xml:id="azsw2e-d1e5102-Hd1e223">12</head>
+               <p xml:id="azsw2e-d1e5102-d1e225">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e227">Imperatores
+            Diocletianus, Maximianus</ref> Si uxor tua pro pecunia quam accepit
+            mutuo res proprias obligavit pignori eique tu successisti, licet in
+            instrumentum eius facti testimonium collatum non sit, soluto debito
+            creditorem de his tibi reddendis sollemni iure conveni. * DIOCL. ET
+            MAXIM. AA. ET CC. EUSEBIO. *&lt;A 293 S. V K. APRIL. AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e231">
+               <head xml:id="azsw2e-d1e5102-Hd1e233">13</head>
+               <p xml:id="azsw2e-d1e5102-d1e235">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e237">Imperatores
+            Diocletianus, Maximianus</ref> Cum dominam non minorem viginti et
+            quinque annis ea quae obligaverat tibi iure dominii possidere permisisse
+            et in solutum dedisse precibus significes, dominae contractus et voluntas
+            ad firmitatem tibi sufficit. * DIOCL. ET MAXIM. AA. ET CC. MATRONAE.
+            *&lt;A 293 S. III K. MAI. HERACLIAE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e241">
+               <head xml:id="azsw2e-d1e5102-Hd1e243">14</head>
+               <p xml:id="azsw2e-d1e5102-d1e245">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e247">Imperatores
+            Diocletianus, Maximianus</ref> Distractis a debitore pignoribus creditores
+            in potestate habere, utrumne personali obligatos sibi, an pignora
+            possidentes in rem actione convenire velint, non est incerti iuris.
+            * DIOCL. ET MAXIM. AA. ET CC. APPIANO. *&lt;A 293 S. K. MAI. HERACLIAE
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e251">
+               <head xml:id="azsw2e-d1e5102-Hd1e253">15</head>
+               <p xml:id="azsw2e-d1e5102-d1e255">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e257">Imperatores
+            Diocletianus, Maximianus</ref> Debitorem neque vendentem neque donatem
+            neque legantem vel per fideicommissum relinquentem posse deteriorem
+            facere creditoris condicionem certissimum est. Unde si tibi obligatam
+            rem probare posse confidis, pignora persequi debes * DIOCL. ET MAXIM.
+            AA. ET CC. BASILIDAE. *&lt;A 293 S. V NON. MAI. HERACLIAE AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e262">
+               <head xml:id="azsw2e-d1e5102-Hd1e264">16</head>
+               <p xml:id="azsw2e-d1e5102-d1e266">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e268">Imperatores
+            Diocletianus, Maximianus</ref> Etsi frater tuus non suam, sed ad te
+            pertinentem pecuniam mutuam suo nomine dedit ac pignus accepit, tamen
+            tibi pignoris obligationem quaerere non potuit. * DIOCL. ET MAXIM.
+            AA. ET CC. HERAIDI. *&lt;A 293 S. IIII ID. MAI HADRIANOPOLI AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e272">
+               <head xml:id="azsw2e-d1e5102-Hd1e274">17</head>
+               <p xml:id="azsw2e-d1e5102-d1e276">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e278">Imperatores
+            Diocletianus, Maximianus</ref> Quamvis ea pecunia, quam a te mutuo
+            frater tuus accepit, comparavit praedium, tamen nisi specialiter vel
+            generaliter hoc obligavit, tuae pecuniae numeratio in causam pignoris
+            non deduxit. Sane personali actione debitum apud praesidem petere
+            non prohiberis * DIOCL. ET MAXIM. AA. ET CC. PONTIAE. *&lt;A 293 S.
+            XV K. IUN. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e282">
+               <head xml:id="azsw2e-d1e5102-Hd1e284">18</head>
+               <p xml:id="azsw2e-d1e5102-d1e286">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e288">Imperatores
+            Diocletianus, Maximianus</ref> Pignoris vel hypothecae persecutio
+            in rem est. * DIOCL. ET MAXIM. AA. ET CC. EUODIO. *&lt;A 293 S. K.
+            DEC. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e292">
+               <head xml:id="azsw2e-d1e5102-Hd1e294">19</head>
+               <p xml:id="azsw2e-d1e5102-d1e296">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e298">Imperatores
+            Diocletianus, Maximianus</ref> Sicut vim maiorem pignorum creditor
+            praestare necesse non habet, ita dolum et culpam, sed et custodiam
+            exhibere cogitur. * DIOCL. ET MAXIM. AA. ET CC. MAXIMO. *&lt;A 293
+            S. XVII K. IAN. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e302">
+               <head xml:id="azsw2e-d1e5102-Hd1e304">20</head>
+               <p xml:id="azsw2e-d1e5102-d1e306">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e308">Imperatores
+            Diocletianus, Maximianus</ref> Creditor ad petitionem urgueri iure
+            minime potest. Quapropter eo, quod vos heredibus euodiani debere confiditis,
+            oblato et, si nolint accipere, consignato atque deposito de reddendo
+            pignore hos praesidali notione convenite * DIOCL. ET MAXIM. AA. ET
+            CC. ALEXANDRO. *&lt;A 294 PP. XVIII K. FEBR. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e312">
+               <head xml:id="azsw2e-d1e5102-Hd1e314">21</head>
+               <p xml:id="azsw2e-d1e5102-d1e316">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e318">Imperatores
+            Diocletianus, Maximianus</ref> Res obligatas exterus debito soluto
+            liberando datum petere, non earum dominium adipisci potest. * DIOCL.
+            ET MAXIM. AA. ET CC. VITO. *&lt;A 294 S. III K. NOV. RETIARIAE CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e323">
+               <head xml:id="azsw2e-d1e5102-Hd1e325">22</head>
+               <p xml:id="azsw2e-d1e5102-d1e327">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e329">Imperatores
+            Diocletianus, Maximianus</ref> Secundus creditor offerendo priori
+            debitum confirmat sibi pignus et a debitore sortem eiusque tantum
+            usuras, quae fuissent praestandae, non etiam usurarum usuras accipit.
+            * DIOCL. ET MAXIM. AA. ET CC. ANTIOCHIANO. *&lt;A 294 S. III ID. DEC.
+            NICOMEDIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e333">
+               <head xml:id="azsw2e-d1e5102-Hd1e335">23</head>
+               <p xml:id="azsw2e-d1e5102-d1e337">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e339">Imperatores
+            Diocletianus, Maximianus</ref> Maior annis viginti quinque pignoris
+            conventione remissa, cum hoc solum pactum vel iurisdictio secundum
+            ipsius voluntatem tueatur, persequi non potest. * DIOCL. ET MAXIM.
+            AA. ET CC. MACEDONIO. *&lt;A 294 S. XVII K. IAN. NICOMEDIAE CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e343">
+               <head xml:id="azsw2e-d1e5102-Hd1e345">24</head>
+               <p xml:id="azsw2e-d1e5102-d1e347">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e349">Imperatores
+            Diocletianus, Maximianus</ref> Persecutione pignoris omissa debitores
+            actione personali convenire creditor urgueri non potest. * DIOCL.
+            ET MAXIM. AA. ET CC. MARCO. *&lt;A 294 S. XV K. IAN. NICOMEDIAE CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e353">
+               <head xml:id="azsw2e-d1e5102-Hd1e355">25</head>
+               <p xml:id="azsw2e-d1e5102-d1e357">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e359">Imperatores
+            Diocletianus, Maximianus</ref> Servo, qui fuerat pignori obligatus,
+            defuncto debiti permanet integra petitio. * DIOCL. ET MAXIM. AA. ET
+            CC. DRACONTIO. *&lt;A 294 S. VII K. IAN. NICOMEDIAE CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e363">
+               <head xml:id="azsw2e-d1e5102-Hd1e365">26</head>
+               <p xml:id="azsw2e-d1e5102-d1e367">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e369">Imperatores
+            Diocletianus, Maximianus</ref> Si tibi notarium pignoris titulo debitor
+            tuus obligavit, eum, a quo mancipium abreptum proponis, apud rectorem
+            provinciae conveni. * DIOCL. ET MAXIM. AA. ET CC. MAURICIO. *&lt;A
+            294 S. VI K. IAN. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5102-Dd1e373">
+               <head xml:id="azsw2e-d1e5102-Hd1e375">27</head>
+               <p xml:id="azsw2e-d1e5102-d1e377">
+                  <ref xml:id="azsw2e-d1e5102-Rd1e379">Imperator
+            Justinianus</ref>  Super hypothecis, quas argenti distractores vel
+            metaxarii vel alii quarumcumque specierum negotiatores pecunias sibi
+            credentibus dare solent, hoc specialiter super amputanda omni machinatione
+            sancimus, ut, si post huiusmodi contractum liberis suis vel alio modo
+            cognatis quamcumque militiam idem negotiatores adquisierint, ea tamen
+            vendi vel ad heredes sub certa definitione transmitti potest, liceat
+            creditoribus eorum, etiam non probantibus ex pecuniis eorundem negotiatorum
+            liberos eorum vel cognatos militasse (dum tamen contrarium non probetur
+            alios e suo patrimonio dedisse pecunias), creditum ab his qui militarunt
+            exigere vel tantum eos efflagitare, quanti vendi eadem militia possit.
+            </p>
+               <p xml:id="azsw2e-d1e5102-d1e382" n="1">
+            Quod ita obtinere sancimus, et si extraneis quibusdam idem
+            negotiatores de suis pecuniis huiusmodi militiam adquisisse probentur,
+            ut, quod generaliter in ipsis debitoribus militantibus talem militiam,
+            quae vendi vel ad heredes transmitti potest, permissum est, ut liceat
+            creditoribus et adhuc viventium debitorum iure hypothecae vindicare
+            militias, nisi satis sibi fiat, et post mortem eorum exigere, quod
+            pro isdem militiis pro tenore communis militantium placiti vel divinae
+            sanctionis tale praestantis beneficium dari solet, hoc in negotiatorum
+            personis, licet ipsi militantes minime debito obnoxii sint, integrum
+            creditoribus eorum servetur. </p>
+               <p xml:id="azsw2e-d1e5102-d1e385" n="2">
+            Quod scilicet in futuris militiis, non etiam in his, quas
+            liberi vel cognati eorundem negotiatorum vel extranei pecuniis eorum
+            meruerunt, tenere sancimus. * IUST. A. MENAE PP. *&lt;A 528 D. K.
+            IUN. DN. IUSTINIANO A. PP. II CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 6</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 6</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5677"><!-- azsw2e-l9t6 -->
+            <head xml:id="azsw2e-d1e5677-Hd1e101">Titulus 6</head>
+            <head xml:id="azsw2e-d1e5677-Hd1e103" type="question-title">Si reus vel accusator mortuus fuerit</head>
+            <div xml:id="azsw2e-d1e5677-Dd1e106">
+               <head xml:id="azsw2e-d1e5677-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5677-d1e110"><!-- Greek -->
+
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5677-Dd1e115">
+               <head xml:id="azsw2e-d1e5677-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e5677-d1e119">
+                  <ref xml:id="azsw2e-d1e5677-Rd1e121">Imperator
+            Antoninus</ref> Etsi Marcellus qui crimine falsi postulabatur vita
+            functus est ac per hoc crimen in persona eius sit extinctum, accusatio
+            tamen non est abolita, cum tam uxorem eius quam te eodem crimine postulatos
+            proponas. * ANT. A. EUTYCHIANO. *&lt;A 215 PP.VII.K.OCT. LAETO II
+            ET CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5677-Dd1e125">
+               <head xml:id="azsw2e-d1e5677-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e5677-d1e129">
+                  <ref xml:id="azsw2e-d1e5677-Rd1e131">Imperator
+            Antoninus</ref> Si is, quem homicidii seu cuiusvis criminis postulasti
+            reum, vita functus est, frustra ob poenam desertae accusationis conveniris,
+            cum morte eius crimen cum poena eius sit extinctum ac per hoc tibi
+            adempta est necessitas accusationis. * ANT. A. PROCULO. *&lt;A 216
+            PP.IIII K.OCT.ROMAE SABINO ET ANULLINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5677-Dd1e136">
+               <head xml:id="azsw2e-d1e5677-Hd1e138">4</head>
+               <p xml:id="azsw2e-d1e5677-d1e140">
+                  <ref xml:id="azsw2e-d1e5677-Rd1e142">Imperator
+            Alexander Severus</ref>  Si, ut proponis, causa
+            pecuniaria ad emolumentum tuum spectat, licet annianus, cui falsi
+            crimen auctor tuus intendebat, vita functus sit, non prohiberis, si
+            quis adversus te instrumento quod in dubium vocatur uti coeperit,
+            accusationem instituere. </p>
+               <p xml:id="azsw2e-d1e5677-d1e145" n="1">
+            Quamvis enim in persona principalis rei morte subducti iam
+            subsistere non possit , tamen si quis illo uti voluerit, intellegit
+            se periculo criminis esse subiectum. * ALEX. A. VERONICIANO. *&lt;A
+            227 PP.VI K.IAN.ALBINO ET AEMILIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5677-Dd1e149">
+               <head xml:id="azsw2e-d1e5677-Hd1e151">5</head>
+               <p xml:id="azsw2e-d1e5677-d1e153">
+                  <ref xml:id="azsw2e-d1e5677-Rd1e155">Imperator
+            Gordianus</ref> Defunctis reis publicorum criminum, sive ipsi per
+            se ea commiserunt sive aliis mandaverunt, pendente accusatione, praeterquam
+            si sibi mortem consciverint, bona successoribus eorum non denegari
+            notissimi iuris est. * GORD. A. RUFO. *&lt;A 238
+            PP.VII K.NOV.PIO ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5677-Dd1e159">
+               <head xml:id="azsw2e-d1e5677-Hd1e161">6</head>
+               <p xml:id="azsw2e-d1e5677-d1e163">
+                  <ref xml:id="azsw2e-d1e5677-Rd1e165">Imperator
+            Gordianus</ref>  Si quis, cum capitali poena vel deportatione
+            damnatus esset, appellatione interposita et in suspenso constituta
+            fati diem functus est, crimen morte finitum est. </p>
+               <p xml:id="azsw2e-d1e5677-d1e168" n="1">
+            Idem observatur et si accusator pendente appellationis tempore
+            ultimum diem obisset. </p>
+               <p xml:id="azsw2e-d1e5677-d1e171" n="2">
+            Sin autem relegationis poenam sustinuit et in parte bonorum
+            damnatus appellatione usus est, etiam post mortem eius nihilo minus
+            appellationis ratio examinabitur, cum desideretur, utrum valeat nec
+            ne particularis publicatio. * GORD. A. IULIANO. *&lt;A 239 PP.VI K.AUG.GORDIANO
+            A. ET AVIOLA CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

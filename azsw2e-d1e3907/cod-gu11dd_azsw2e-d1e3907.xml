@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 43</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 43</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3907"><!-- azsw2e-l6t43 -->
+            <head xml:id="azsw2e-d1e3907-Hd1e101">Titulus 43</head>
+            <head xml:id="azsw2e-d1e3907-Hd1e103" type="question-title">Communia de legatis et fideicommissis et de in rem missione tollenda.</head>
+            <div xml:id="azsw2e-d1e3907-Dd1e106">
+               <head xml:id="azsw2e-d1e3907-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3907-d1e110">
+                  <ref xml:id="azsw2e-d1e3907-Rd1e112">Imperator
+            Justinianus</ref>  Cum ii, qui legatis vel fideicommissis honorati
+            sunt, personalem plerumque actionem habere noscuntur, quis vel vindicationis
+            vel sinendi modo aliorumque generum legatorum subtilitatem prono animo
+            admittet, quam posteritas optimis rationibus usa nec facile suscepit
+            nec inextricabiles circuitus laudavit? quis in rem missionis scrupulosis
+            utatur ambagibus? </p>
+               <p xml:id="azsw2e-d1e3907-d1e115" n="1">
+            Rectius igitur esse censemus in rem quidem missionem penitus
+            aboleri, omnibus vero tam legatariis quam fideicommissariis unam naturam
+            imponere et non solum personalem actionem praestare, sed etiam in
+            rem, quatenus eis liceat easdem res, vel per quodcumque genus legati
+            vel per fideicommissum fuerint derelictae, vindicare in rem actione
+            instituenda, et insuper utilem servianam ( id est hypothecariam) super
+            his quae fuerint derelicta in res mortui praestare. </p>
+               <p xml:id="azsw2e-d1e3907-d1e118" n="2">
+            Cum enim hoc iam iure nostro increbuit licere testatori hypothecam
+            rerum suarum in testamento quibus voluerit dare, et iterum novellae
+            constitutiones in multis casibus et tacitas hypothecas induxerunt,
+            non ab re est etiam nos in praesenti casu hypothecariam donare, quae
+            et nullo verbo praecedente possit ab ipsa lege induci. </p>
+               <p xml:id="azsw2e-d1e3907-d1e121" n="3">
+            Si enim testator ideo legata vel fidecommissa dereliquit,
+            ut omnimodo personae ab eo honoratae ea percipiant, apparet ex eius
+            voluntate etiam praefatas actiones contra res testatoris esse instituendas,
+            ut omnibus modis voluntati eius satisfiat, et praecipue cum talia
+            sint legata vel fidecommissa, quae piis actibus sunt deputata. </p>
+               <p xml:id="azsw2e-d1e3907-d1e125" n="4">
+            Et haec disponimus, non tantum si ab herede fuerit legatum
+            derelictum vel fideicommissum, sed et si a legatario vel fideicommissario
+            vel alia persona, quam gravare fideicommisso possumus, fideicommissum
+            cuidam relinquatur. Cum enim non aliter valeat, nisi aliquid lucri
+            offerat ei a quo derelictum est, nihil est grave etiam adversus eum
+            non tantum personalem, sed etiam in rem et hypothecariam extendere
+            actionem in rebus, quas a testatore consecutus est. </p>
+               <p xml:id="azsw2e-d1e3907-d1e128" n="5">
+            In omnibus autem huiusmodi casibus in tantum et hypothecaria
+            unumquemque conveniri volumus, in quantum personalis actio adversus
+            eum competit, et hypothecam esse non ipsius heredis vel alterius personae
+            quae gravata est fideicommisso rerum, sed tantummodo earum, quae a
+            testatore ad eum pervenerint. * IUST. A. DEMOSTHENI PP. *&lt;A 529
+            D.XV K.OCT.CHALCEDONE DECIO VC.CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3907-Dd1e132">
+               <head xml:id="azsw2e-d1e3907-Hd1e134">2</head>
+               <p xml:id="azsw2e-d1e3907-d1e136">
+                  <ref xml:id="azsw2e-d1e3907-Rd1e138">Imperator
+            Justinianus</ref>  Omne verbum significans testatoris legitimum sensum
+            legare vel fideicommittere volentis utile atque validum est, sive
+            directis verbis, quale est "iubeo" forte , sive precariis
+            utetur testator, quale est "rogo" "volo" "mando"
+            "fideicommitto", sive iuramentum posuerit, cum et hoc nobis
+            audientibus ventilatum est, testatore quidem dicente " enorkw",
+            partibus autem huiusmodi verbum huc atque illuc lacerantibus. </p>
+               <p xml:id="azsw2e-d1e3907-d1e141" n="1">
+            Sit igitur secundum quod diximus ex omni parte verborum non
+            inefficax voluntas secundum verba legantis vel fideicommittentis et
+            omnia, quae naturaliter insunt legatis, ea et fideicommissis inhaerere
+            intellegantur et e contrario, quidquid fideicommittitur, hoc intellegatur
+            esse legatum, et si quid tale est, quod non habet natura legatorum,
+            hoc ei ex fideicommissis accommodetur, et sit omnibus perfectus eventus,
+            ex omnibus nascantur in rem actiones, ex omnibus hypothecariae, ex
+            omnibus personales. </p>
+               <p xml:id="azsw2e-d1e3907-d1e144" n="2">
+            Ubi autem aliquid contrarium in legatis et fideicommissis
+            eveniat, hoc fideicommisso quasi humaniori adgregetur et secundum
+            eius dirimatur naturam. </p>
+               <p xml:id="azsw2e-d1e3907-d1e147" n="3">
+            Et nemo moriens putet suam legitimam voluntatem reprobari,
+            sed nostro semper utetur adiutorio, et quemadmodum viventibus providimus,
+            ita et morientibus prospiciatur: et si specialiter legati tantummodo
+            faciat testator mentionem, hoc et legatum et fideicommissum intellegatur,
+            et si fidei heredis vel legatarii aliquid committatur, hoc et legatum
+            esse videatur. Nos enim non verbis, sed ipsis rebus leges imponimus.
+            * IUST. A. IULIANO PP. *&lt;A 531 D. X K. MART. CONSTANTINOPOLI POST
+            CONSULATUM LAMPADII ET ORESTIS VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3907-Dd1e151">
+               <head xml:id="azsw2e-d1e3907-Hd1e153">3</head>
+               <p xml:id="azsw2e-d1e3907-d1e155">
+                  <ref xml:id="azsw2e-d1e3907-Rd1e157">Imperator
+            Justinianus</ref>  Si duobus vel tribus hominibus vel pluribus forte
+            optio servi vel alterius rei relicta fuerit, vel si uni quidem legatario
+            optio servi vel alterius rei relicta est, ipse autem moriens plures
+            sibi reliquerit heredes, dubitabatur inter veteres, si inter legatarios
+            vel heredes legatarii fuerit certatum et alter alterum servum vel
+            aliam rem eligere velit, quid sit statuendum. </p>
+               <p xml:id="azsw2e-d1e3907-d1e160" n="1">
+            Sancimus itaque in omnibus huiusmodi casibus rei iudicem
+            fortunam esse, sortem etenim inter altercantes adhibendam, ut, quem
+            sors praetulerit, is quidem habeat potestatem eligendi, ceteris autem
+            aestimationem praestet contingentium eis partium: id est in servis
+            quidem et ancillis maioribus decem annis, si sine arte sint, viginti
+            solidis aestimandis, minoribus videlicet decem annis non amplius quam
+            decem solidis computandis: sin autem artifices sunt, usque ad triginta
+            solidos aestimatione eorum procedente, sive masculi sive feminae sunt,
+            exceptis notariis et medicis utriusque sexus, cum notarios quinquaginta
+            solidis aestimari volumus, medicos autem et obstetrices sexaginta:
+            eunuchis minoribus quidem decem annis usque ad triginta solidos valentibus,
+            maioribus vero usque ad quinquagin ta, sin autem artifices sint, usque
+            ad septuaginta. </p>
+               <p xml:id="azsw2e-d1e3907-d1e163"> 
+            Sed et si quis optionem servi vel alterius rei reliquerit
+            non ipsi legatario, sed quem titius forte elegerit, titius autem vel
+            noluerit eligere vel morte fuerit praeventus, et in hac specie dubitabatur
+            apud veteres, quid statuendum sit, utrumne legatum expirat, an aliquid
+            inducitur ei adiutorium, ut viri boni arbitratu procedat electio.
+            </p>
+               <p xml:id="azsw2e-d1e3907-d1e165"> 
+            Censemus itaque, si intra annale tempus ille qui eligere
+            iussus est hoc facere supersederit vel minime potuerit vel quandocumque
+            decesserit, ipsi legatario videri esse datam electionem, ita tamen,
+            ut non optimum ex servis vel aliis rebus quicquam eligat, sed mediae
+            aestimationis, ne dum legatarium satis esse fovendum existimamus,
+            heredis commoda defraudentur. </p>
+               <p xml:id="azsw2e-d1e3907-d1e168" n="2">
+            Sed quia nostra maiestas per multos casus legatariis et fideicommissariis
+            prospexit et actiones tam personales quam in rem et hypothecarias
+            dedimus et in rem missionis tenebrosissimus error abolitus est, et
+            ad hanc legem pervenimus. </p>
+               <p xml:id="azsw2e-d1e3907-d1e171"> 
+            Nemo itaque ea, quae per legatum vel pure vel sub certo die
+            relicta sunt vel quae restitui aliis disposita sunt vel substitutione
+            posita, secundum veterem dispositionem putet esse in posterum alienanda
+            vel pignoris vel hypothecae titulo adsignanda vel mancipia manumittenda,
+            sed sciat, quod hoc quod alienum est non ei liceat utpote sui patrimonii
+            existens alieno iuri applicare, quia satis absurdum est et inrationabile
+            rem, quam in suis bonis pure non possidet, eam ad alios posse transferre
+            vel hypothecae pignorisve nomine obligare vel manumittere et alienam
+            spem decipere. </p>
+               <p xml:id="azsw2e-d1e3907-d1e173" n="3">
+            Sin autem sub condicione vel sub incerta die fuerit relictum
+            legatum vel fideicommissum universitatis vel speciale vel substitutione
+            vel restitutione, melius quidem faciat, et si in his casibus caveat
+            ab omni venditione vel hypotheca, ne se gravioribus oneribus evictionis
+            nomine supponat. </p>
+               <p xml:id="azsw2e-d1e3907-d1e176"> 
+            Sin autem avaritiae cupidine propter spem condicionis minime
+            implendae ad venditionem vel hypothecam prosiluerit, sciat, quod condicione
+            impleta ab initio causa in irritum devocetur et sic intellegenda est,
+            quasi nec scripta nec penitus fuerat celebrata, ut nec usucapio nec
+            longi temporis praescriptio contra legatarium vel fideicommissarium
+            procedat. </p>
+               <p xml:id="azsw2e-d1e3907-d1e178"> 
+            Quod similiter censemus in huiusmodi legatis, quae sive pure
+            sive sub die certo sive sub condicione sive sub incerta die relicta
+            sint: sed in his omnibus casibus legatario quidem vel fideicommissario
+            omnis licentia pateat rem vindicare et sibi adsignare, nullo obstaculo
+            ei a detentatoribus opponendo. </p>
+               <p xml:id="azsw2e-d1e3907-d1e180" n="4">
+            Emptor autem sciens rei gravamen adversus venditorem actionem
+            habeat tantummodo ad restitutionem pretii, neque dupli stipulatione
+            neque melioratione locum habente, cum sufficiat ei saltem pro pretio,
+            quod sciens dedit pro aliena re, sibi satisfieri: creditori nihilo
+            minus pigneraticia contraria actione adversus debitorem competente,
+            ut ex omni parte omnique studio id, quod semper properamus, ad effectum
+            perducatur, ut ultima elogia defunctorum legitimum finem sortiantur
+            : bonae fidei procul dubio emptoribus integra iura et nullo modo ex
+            hac constitutione deminuta contra venditores habentibus. * IUST. A.
+            IOHANNI PP. *&lt;A 531 D. K. SEPT. CONSTANTINOPOLI POST CONSULATUM
+            LAMPADII ET ORESTIS VV. CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

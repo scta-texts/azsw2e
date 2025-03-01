@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 1</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 1</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7940"><!-- azsw2e-l12t1 -->
+            <head xml:id="azsw2e-d1e7940-Hd1e101">Titulus 1</head>
+            <head xml:id="azsw2e-d1e7940-Hd1e103" type="question-title">De dignitatibus.</head>
+            <div xml:id="azsw2e-d1e7940-Dd1e106">
+               <head xml:id="azsw2e-d1e7940-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7940-d1e110">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e112">Imperator
+            Alexander Severus</ref> Si, ut proponitis, et avum consularem
+            et patrem praetorium virum habuistis, et non privatae condicionis
+            hominibus, sed clarissimis nupseritis, claritatem generis retinetis.
+            * ALEX. A. SEVERIANAE. *&lt;A XXX SINE DIE ET CONSULE &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e116">
+               <head xml:id="azsw2e-d1e7940-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7940-d1e120">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e122">Imperator
+            Constantinus</ref> Neque famosis et notatis et quos scelus aut vitae
+            turpitudo inquinat et quos infamia ab honestorum coetu segregat, dignitatis
+            portae patebunt. * CONST. A. VOLUSIANO PP. *&lt;A
+            313-315 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e126">
+               <head xml:id="azsw2e-d1e7940-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e7940-d1e130">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e132">Imperator
+            Constantinus</ref> Maior dignitatis nulli
+            debet circa prioris dignitatis seu militiae privilegia praeiudicium
+            facere. * CONST. A. AD RUFINUM PP. *&lt;A 319 D.V K.MAI.SIRMIO CONSTANTINO
+            A.V ET LICINIO C.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e137">
+               <head xml:id="azsw2e-d1e7940-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e7940-d1e141">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e143">Imperatores
+            Constantius, Constans</ref> Senatorum substantias, quas in diversis
+            locis et provinciis possident, et homines eorum tam a temonariis oneribus
+            conferendis quam a ceteris praestationibus, quas iudices describunt,
+            nec non etiam ab omnibus sordidis extraordinariisque et vilioribus
+            muneribus liberos esse praecipimus nullaque sorte constringi functionis
+            indignae. * CONSTANTIUS ET CONSTANS AA. PHILIPPO PP. *&lt;A 346-349
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e147">
+               <head xml:id="azsw2e-d1e7940-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e7940-d1e151">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e153">Imperator
+            Constantius</ref>  Nemo praefectus urbis citra praeceptionem vel scientiam
+            nostram ulli muneri subiuget senatorem: nemo curiam nostram immani
+            pulset iniuria.</p>
+               <p xml:id="azsw2e-d1e7940-d1e156" n="1">
+            Si quid enim senatoria praeditis dignitate fuerit forte mandandum,
+            nostro est iudicio reservandum: sit namque dignitas, si nobis iubentibus
+            sustinetur.* CONSTANTIUS A. AD CLEARCHUM PU.
+            *&lt;A XXX&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e160">
+               <head xml:id="azsw2e-d1e7940-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e7940-d1e164">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e166">Imperator
+            Constantius</ref> Ne quis ex ultimis negotiatoribus vel monetariis
+            abiectisque officiis vel deformis ministerii stationariis omnique
+            officiorum faece diversisque pastis turpibus lucris aliqua frui dignitate
+            pertemptet. Sed et si quis meruerit, repellatur: repulsos autem etiam
+            propriis reddi consortiis oportebit * CONSTANTIUS A. AD ORFITUM. *&lt;A
+            357-360 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e170">
+               <head xml:id="azsw2e-d1e7940-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e7940-d1e174">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e176">Imperator
+            Constantius</ref> Quoniam diversi iudices
+            nonnulla opera in quibusdam aestimant urbibus extruenda, ad huiusmodi
+            necessitatem senatorum substantia non vocetur. * CONSTANTIUS A. AD
+            SENATUM. *&lt;A 361 D.V NON.MAI.TAURO ET FLORENTIO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e180">
+               <head xml:id="azsw2e-d1e7940-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e7940-d1e184">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e186">Imperator
+            Julianus</ref> Ius senatorum et auctoritatem eius ordinis, in quo
+            nos quoque ipsos numeramus, necesse est ab omni iniuria defendere.
+            * IUL. A. SALLUSTIO PP. *&lt;A 362 D.NON.FEBR.CONSTANTINOPOLI MAMERTINO
+            ET NEVITTA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e190">
+               <head xml:id="azsw2e-d1e7940-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e7940-d1e194">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e196">Imperatores
+            Valentinianus, Valens</ref> Libertorum filios adipisci clarissimam
+            dignitatem non prohibemus. * VALENTIN. ET VALENS AA. AD SYMMACHUM
+            PU. *&lt;A 364-365&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e201">
+               <head xml:id="azsw2e-d1e7940-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e7940-d1e205">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e207">Imperatores
+            Valens, Gratianus, Valentinianus</ref> Severam indagationem per tormenta
+            quaerendi a clarissimo nomine submovemus. * VALENS GRAT. ET VALENTIN.
+            AAA. AD GRACCHUM PU. *&lt;A 377 D.PRID.NON.IAN.TREVIRIS GRATIANO A.IIII
+            ET MEROBAUDE CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e211">
+               <head xml:id="azsw2e-d1e7940-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e7940-d1e215">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e217">Imperatores
+            Valens, Gratianus, Valentinianus</ref>  Senator vel alius clarissimus
+            privatos habeat filios, editos quippe, antequam susciperet dignitatem:
+            quod non solum circa masculos dignoscitur constitutum, verum etiam
+            circa filias simili condicione servandum. </p>
+               <p xml:id="azsw2e-d1e7940-d1e220" n="1">
+            Cum autem paternos honores invidere filiis non oportet, a
+            senatore vel solo clarissimo susceptum in clarissimatus sciendum est
+            dignitate mansurum. * VALENS GRAT. ET VALENTIN. AAA.
+            AD PROCOPIUM. *&lt;A 377 D.XVIII K... HIERAPOLI GRATIANO A.IIII
+            ET MEROBAUDE CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e224">
+               <head xml:id="azsw2e-d1e7940-Hd1e226">12</head>
+               <p xml:id="azsw2e-d1e7940-d1e228">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e230">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Iudices, qui se furtis
+            et sceleribus fuerint maculasse convicti, ablatis codicillorum insignibus
+            et honore exuti inter pessimos quosque et plebeios habeantur, nec
+            sibi posthac de eo honore blandiantur, quo se ipsi indignos iudicaverunt.
+            * GRAT. VALENTIN. ET THEODOS. AAA. NEOTERIO PP. *&lt;A 380 D.XVIII K.FEBR.THESSALONICAE GRATIANO
+            V ET THEODOSIO AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e234">
+               <head xml:id="azsw2e-d1e7940-Hd1e236">13</head>
+               <p xml:id="azsw2e-d1e7940-d1e238">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e240">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Mulieres honore maritorum
+            erigimus, genere nobilitamus et forum ex eorum persona statuimus et
+            domicilia mutamus. Sin autem minoris ordinis virum postea sortitae
+            sunt, priore dignitate privatae posterioris mariti sequantur condicionem
+            * VALENTIN. THEODOS. ET ARCAD. AAA. MARCIANO COM. ORIENTIS. *&lt;A
+            392 D.IIII ID.NOV.CONSTANTINOPOLI ARCADIO A.II ET RUFINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e244">
+               <head xml:id="azsw2e-d1e7940-Hd1e246">14</head>
+               <p xml:id="azsw2e-d1e7940-d1e248">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e250">Imperatores
+            Theodosius, Valentinianus</ref> Praecipimus, ut senatori in qualibet
+            provincia constituto nullam habeant iudices iniungendi aliquid forte
+            publici muneris potestatem. * THEODOS. ET VALENTIN. AA. BASSO PP. *&lt;A 426 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e254">
+               <head xml:id="azsw2e-d1e7940-Hd1e256">15</head>
+               <p xml:id="azsw2e-d1e7940-d1e258">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e260">Imperatores
+            Theodosius, Valentinianus</ref> Clarissimis vel spectabilibus universis
+            ad genitale solum vel quolibet alio et sine commeatu proficiscendi
+            et ubi voluerint commorandi habitandive permittimus facultatem. *
+            THEODOS. ET VALENTIN. AA. AD NEUTHIUM PU. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e265">
+               <head xml:id="azsw2e-d1e7940-Hd1e267">16</head>
+               <p xml:id="azsw2e-d1e7940-d1e269">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e271">Imperatores
+            Theodosius, Valentinianus</ref> Si gravius
+            ullum facinus admittatur, nocente persona extra carceralem custodiam
+            substitutione habita, super illustribus quidem nobis suggeri iubemus,
+            super ceteris vero quadam minore dignitate decoratis ad tui referri
+            culminis notionem, ut ita demum, quid de admisso crimine constitui
+            oporteat, iudicetur. * THEODOS. ET VALENTIN. AA. APOLLONIO PP. *&lt;A 442-443&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e275">
+               <head xml:id="azsw2e-d1e7940-Hd1e277">17</head>
+               <p xml:id="azsw2e-d1e7940-d1e279">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e281">Imperator
+            Zeno</ref>  Quotiens ex privata cuiuslibet
+            interpellatione civili vel criminali viri illustres conveniendi sunt,
+            nulla dandae fideiussionis concussione vexentur, sed per speciale
+            privilegium suae committi fidei consequantur, iuratoria ab his cautione
+            tantummodo exponenda. </p>
+               <p xml:id="azsw2e-d1e7940-d1e284" n="1">
+            Quam si neglexerint et contra insertum cautioni sacramentum
+            ipsi vel eorum procuratores afuerint, in pecuniariis quidem causis
+            super possessione rerum ad eos pertinentium iudex competens, quod
+            et iuris auctoritas et rei qualitas suggerit, ordinabit: in criminalibus
+            vero negotiis dignitate quoque, qua se per suum videlicet periurium
+            indignos esse probaverint, spolientur, ut in eos utpote illustri dignitate
+            per suum facinus privatos inconsulta etiam nostra pietate iudicibus
+            legum severitatem liceat exercere. </p>
+               <p xml:id="azsw2e-d1e7940-d1e287" n="2">
+            Quibus illustrium dignitatum privilegiis hoc etiam adiciendum
+            statuimus, ut huiusmodi personae nullam ex cuiuslibet iudicis sine
+            scriptis habita sententia conventionem neque in civili neque in criminali
+            causa sustineant. * ZENO A. ARCADIO PP. *&lt;A 485-486? &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7940-Dd1e291">
+               <head xml:id="azsw2e-d1e7940-Hd1e293">18</head>
+               <p xml:id="azsw2e-d1e7940-d1e295">
+                  <ref xml:id="azsw2e-d1e7940-Rd1e297">Imperator
+            Anastasius</ref> Iubemus salvo honore, qui
+            per evocationem sacrae revocatoriae defertur, durante licere cunctis
+            tam maiores quam minores potestates gerentibus nec non etiam honorariis
+            illustribus sive ex hac urbe regia, principali videlicet praecedente
+            consensu, profecti fuerint, sive in provinciis habitantes sacratissimum,
+            suis scilicet poscentibus negotiis, petere maluerint comitatum, sine
+            sacra quoque revocatoria ad hanc regiam urbem pervenire. * ANASTAS. A. EUSEBIO MAG. OFF. *&lt;A XXX &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

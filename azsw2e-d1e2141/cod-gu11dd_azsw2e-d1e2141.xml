@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 27</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 27</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2141"><!-- azsw2e-l4t27 -->
+            <head xml:id="azsw2e-d1e2141-Hd1e101">Titulus 27</head>
+            <head xml:id="azsw2e-d1e2141-Hd1e103" type="question-title">Per quas personas nobis adquiritur</head>
+            <div xml:id="azsw2e-d1e2141-Dd1e106">
+               <head xml:id="azsw2e-d1e2141-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2141-d1e110">
+                  <ref xml:id="azsw2e-d1e2141-Rd1e112">Imperatores
+            Diocletianus, Maximianus</ref>  Excepta possessionis causa per liberam
+            personam, quae alterius iuri non est subdita, nihil adquiri posse
+            indubii iuris est. </p>
+               <p xml:id="azsw2e-d1e2141-d1e115" n="1">
+            Si igitur procurator non sibi, sed ei, cuius negotia administrabat,
+            redintegratae rei vindicationem pactus est idque pactum etiam stipulatio
+            insecuta est, nulla domino obligatio adquisita est. Servis autem res
+            traditae dominis adquiruntur * DIOCL. ET MAXIM. AA. MARCELLO. *&lt;A
+            290 D. K. IUL. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2141-Dd1e119">
+               <head xml:id="azsw2e-d1e2141-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e2141-d1e123">
+                  <ref xml:id="azsw2e-d1e2141-Rd1e125">Imperator
+            Justinianus</ref>  Si duo vel plures communem servum habeant et unus
+            ex his iussit, ut nomine suo servus ab aliquo stipuletur decem puta
+            aureos vel aliam rem, ipse autem servus non eius nomine qui iussit,
+            sed alicuius ex dominis suis mentionem fecit et nomine illius stipulatus
+            est, inter antiquam sapientiam quaerebatur, cui adquiritur actio et
+            lucrum, quod ex hac accidit causa, utrumne ei qui iussit an ei cuius
+            servus mentionem fecit an ambobus. </p>
+               <p xml:id="azsw2e-d1e2141-d1e128" n="1">
+            Cumque ex omni latere magna pars auctorum multum effudit
+            tractatum, nobis verior eorum sententia videtur, qui domino qui iussit
+            adferunt stipulationem et ei tantummodo adquiri dixerunt, quam aliorum,
+            qui in alias opiniones deferuntur. Neque enim malignitati servorum
+            indulgendum est, ut liceat eis domini iussione contempta sua libidine
+            facere stipulationem et ad alium dominum, qui eum forsitan corrupit,
+            alienum lucrum transferre: quod neque ferendum est, si servus impius
+            domino quidem qui iussit minime oboediendum existimaverit, alii autem,
+            qui forsitan ignorat et nescit, repentinum adducit solacium </p>
+               <p xml:id="azsw2e-d1e2141-d1e131" n="2">
+            Quod enim saepe apud antiquos dicebatur iussionem domini
+            non esse absimilem nominationi, tunc debet obtinere, cum servus iussus
+            ab uno ex dominis stipulationem facere sine nomine stipulatus est:
+            tunc etenim soli ei adquirit qui iussit: sin autem expresserit alium
+            dominum, soli illi necesse est adquisitionem celebrari: multo etenim
+            amplius oportet valere dominici nominis mentionem quam herilem iussionem.
+            * IUST. A. IULIANO PP. *&lt;A 530 D. XV K. DEC. LAMPADIO ET ORESTA
+            VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2141-Dd1e135">
+               <head xml:id="azsw2e-d1e2141-Hd1e137">3</head>
+               <p xml:id="azsw2e-d1e2141-d1e139">
+                  <ref xml:id="azsw2e-d1e2141-Rd1e141">Imperator
+            Justinianus</ref>  Cum per liberam personam, si pecunia alterius nomine
+            fuerit numerata, adquiritur ei cuius nomine pecunia credita est per
+            huiusmodi numerationem condictio, non autem hypotheca vel pignus,
+            quae procuratori data vel supposita sunt, dominis contractus adquiritur,
+            talem differentiam expellentes sancimus et condictionem et hypothecariam
+            actionem vel pignus ipso iure et sine aliqua cessione ad dominum contractus
+            pervenire. </p>
+               <p xml:id="azsw2e-d1e2141-d1e144" n="1">
+            Si enim procuratori necessitas legibus imposita est domino
+            contractus cedere actionem, quare non ab initio quemadmodum in personali
+            actione cessio supervacua videbatur, non etiam in hypothecis et pignoribus
+            simili modo dominus contractus habeat hypothecariam actionem seu pignoris
+            vinculum vel retentionem sibi adquisitam? * IUST. A. IOHANNI PP. *&lt;A
+            530 D. K. NOV. LAMPADIO ET ORESTA VV. CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

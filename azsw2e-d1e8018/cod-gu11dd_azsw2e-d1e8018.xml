@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 8</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 8</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8018"><!-- azsw2e-l12t8 -->
+            <head xml:id="azsw2e-d1e8018-Hd1e101">Titulus 8</head>
+            <head xml:id="azsw2e-d1e8018-Hd1e103" type="question-title">Ut dignitatum ordo servetur</head>
+            <div xml:id="azsw2e-d1e8018-Dd1e106">
+               <head xml:id="azsw2e-d1e8018-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8018-d1e110">
+                  <ref xml:id="azsw2e-d1e8018-Rd1e112">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Si quis indebitum sibi
+            locum usurpaverit, nulla se ignoratione defendat sitque plane sacrilegii
+            reus, qui divina praecepta neglexerit. * GRAT. VALENTIN. ET THEODOS.
+            AAA. AD PRAETEXTATUM PP. *&lt;A 384 D.XII K.IUN.MEDIOLANI RICOMERE
+            ET CLEARCHO VV.CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8018-Dd1e116">
+               <head xml:id="azsw2e-d1e8018-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e8018-d1e120">
+                  <ref xml:id="azsw2e-d1e8018-Rd1e122">Imperatores
+            Theodosius, Valentinianus</ref>  Omnes privilegia
+            dignitatum hoc ordine servanda cognoscant, ut primo loco habeantur
+            ii, qui in actu positi illustres peregerint administrationes: secundo
+            venient vacantes, qui praesentes in comitatu illustris dignitatis
+            cingulum meruerint : tertium ordinem eorum prospicimus, quibus absentibus
+            cingulum illustris mittitur dignitatis: quartum honorariorum, qui
+            praesentes a nostro numine sine cingulo codicillos tantum honorariae
+            dignitatis adepti sunt: quintum eorum, quibus absentibus similiter
+            sine cingulo mittuntur illustris insignia dignitatis. </p>
+               <p xml:id="azsw2e-d1e8018-d1e125" n="1">
+            Sed administratores quidem, etiam comites rei privatae, omnibus
+            vacantibus omnibus honorariis anteponi censemus. </p>
+               <p xml:id="azsw2e-d1e8018-d1e128" n="2">
+            Vacantes autem post administratores venientes non omnes iam
+            omnibus honorariis credidimus praeponendos, sed eos vacantes illis
+            honorariis, qui similem adepti sunt dignitatem, ut praefectorius praefectorio,
+            non quaestorius praefectorio praeponatur, parique modo quaestorius
+            quaestorio, non vacans comes thesaurorum vel comes rei privatae honorario
+            quaestorio vel ex magistro officiorum praeferatur. </p>
+               <p xml:id="azsw2e-d1e8018-d1e131" n="3">
+            Inter administratores illos etiam numerari decernimus, quibus
+            illustribus in sacro nostro consistorio cinctis aliquid ordinariae
+            dignitatis vel antea commisimus vel postea committemus peragendum,
+            verbi gratia si vacanti magistro militum belli cura committatur. </p>
+               <p xml:id="azsw2e-d1e8018-d1e135" n="4">
+            Cur enim aut vir magnificus germanus magister militum vacans
+            appellatur, cui bellum contra hostes mandavimus? aut cur excellentissimus
+            pentadius non egisse dicitur praefecturam, cuius illustribus cincti
+            dispositionibus vice praetorianae praefecturae miles in expeditione
+            copia commeatuum abundavit. * THEODOS. ET VALENTIN. AA. CYRO PP. *&lt;A 440-441 &gt; </p>
+               <p xml:id="azsw2e-d1e8018-d1e138"> 
+            ..............................................
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

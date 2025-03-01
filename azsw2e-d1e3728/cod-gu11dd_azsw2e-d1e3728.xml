@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 27</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 27</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3728"><!-- azsw2e-l6t27 -->
+            <head xml:id="azsw2e-d1e3728-Hd1e101">Titulus 27</head>
+            <head xml:id="azsw2e-d1e3728-Hd1e103" type="question-title">De necessariis et servis heredibus instituendis vel substituendis.</head>
+            <div xml:id="azsw2e-d1e3728-Dd1e106">
+               <head xml:id="azsw2e-d1e3728-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3728-d1e110">
+                  <ref xml:id="azsw2e-d1e3728-Rd1e112">Imperator
+            Pertinax</ref> Is, qui solvendo non est, heredem necessarium etiam
+            in fraudem creditorum relinquere potest. Sed si pignori datus fuisti
+            et in eadem causa permansisti, nec ab eo quidem debitore qui solvendo
+            non fuit liber et heres necessarius existere potuisti * PERTINAX A.
+            LUCRETIO. *&lt;A 193 PP.XI K.APRIL.FALCONE ET CLARO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3728-Dd1e116">
+               <head xml:id="azsw2e-d1e3728-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3728-d1e120">
+                  <ref xml:id="azsw2e-d1e3728-Rd1e122">Imperator
+            Antoninus</ref> Cum vos servi constituti sub appellatione libertorum
+            heredes scripti essetis, ea scriptura benigna interpretatione perinde
+            habenda est, ac si liberi et heredes instituti fuissetis. Quod in
+            legato locum non habet * ANT. A. AUFIDIO. *&lt;A 196 ACCEPTA VII K.MART.PRISCO
+            ET APOLLINARI CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3728-Dd1e126">
+               <head xml:id="azsw2e-d1e3728-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3728-d1e130">
+                  <ref xml:id="azsw2e-d1e3728-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Si tutor ancillam tuam contubernio
+            suo coniunxit ac post heredem instituit, neque dominium ex huiusmodi
+            facto tibi auferri potuit et, ut eius aditione iussu tuo tibi per
+            hanc successio quaeratur, iure concessam habes facultatem. * DIOCL.
+            ET MAXIM. AA. ET CC. FELICI. *&lt;A 293 S.XVI K.IAN.SIRMI AA.CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3728-Dd1e137">
+               <head xml:id="azsw2e-d1e3728-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e3728-d1e141">
+                  <ref xml:id="azsw2e-d1e3728-Rd1e143">Imperator
+            Justinianus</ref>  Cum quidam suum pupillum heredem instituit et servo
+            directis verbis libertatem reliquit et in secundo gradu, in quo pupillarem
+            substitutionem faciebat, ipsum servum sine libertate pupillo suo substituit,
+            quaerebatur inter prudentes, si ex huiusmodi substitutione heres necessarius
+            pupillo existat. </p>
+               <p xml:id="azsw2e-d1e3728-d1e146" n="1">
+            Causa etenim altercationis ex vetere regula orta est, quia
+            omnibus placuerat hunc servum necessarium heredem domino fieri, cui
+            in eodem gradu et hereditas et libertas relinquebatur, in praesenti
+            autem non in unum tam libertas quam substitutio congregata est, sed
+            in alium et alium gradum. </p>
+               <p xml:id="azsw2e-d1e3728-d1e149" n="2">
+            Nobis itaque eandem altercationem decidentibus mirabile visum
+            est, si quis putet ex huiusmodi scrupulositate impediri testatoris
+            voluntatem, et maxime domini, et existimet non fieri servum heredem
+            necessarium, sed ei licentiam praestet et libertatem consequi et hereditatem
+            respuere et domini voluntati reclamare: qui si hoc differre temptaverit,
+            etiam puniendus est. Sit itaque et vivo pupillo liber, quia testator
+            hoc voluit, et mortuo pupillo necessarius heres, quia et hoc testator
+            voluit * IUST. A. IULIANO PP. *&lt;A 530 D.XV K.DEC.CONSTANTINOPOLI
+            LAMPADIO ET ORESTE VV.CC.CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3728-Dd1e153">
+               <head xml:id="azsw2e-d1e3728-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e3728-d1e157">
+                  <ref xml:id="azsw2e-d1e3728-Rd1e159">Imperator
+            Justinianus</ref>  Quidam, cum testamentum conderet, duobus heredibus
+            scriptis unum quidem ex parte instituit, servum autem suum, cuius
+            et nomen addidit, ex reliqua parte sine libertate scripsit heredem
+            et postea eundem servum alii legavit, vel post institutionem heredis
+            servum per legatum alii adsignavit et tunc heredem eum sine libertate
+            instituit: et dubitabatur, si huiusmodi legatum vel institutio aliquas
+            vires potest habere et cui adquiritur legatum vel institutio. </p>
+               <p xml:id="azsw2e-d1e3728-d1e162" n="1">
+            Dubitationis autem materia erat, quod adhuc servum suum constitutum
+            heredem sine libertate scripserat, et tanta inter veteres exorta est
+            contentio, ut vix possibile sit videri eandem decidere. </p>
+               <p xml:id="azsw2e-d1e3728-d1e165"> 
+            Sed antiquitatem quidem haec altercantem relinquendum est.
+            Nobis autem alius modus huiusmodi decisionis inventus est, quia semper
+            vestigia voluntatis sequimur testatorum </p>
+               <p xml:id="azsw2e-d1e3728-d1e167"> 
+            Cum igitur invenimus a nostro iure hoc esse inductum, ut,
+            si quis servum suum tutorem filiis suis reliquerit sine libertate,
+            ex ipsa tutelae datione praesumatur etiam libertatem ei favore pupillorum
+            imposuisse, quare non hoc et in hereditate et humanius et favore libertatis
+            inducimus, ut, si quis servum suum scripserit heredem sine libertate,
+            omnimodo civis Romanus efficiatur? </p>
+               <p xml:id="azsw2e-d1e3728-d1e170"> 
+            Quo inducto neque adquisitio neque tam effusus veterum atque
+            inextricabilis tractatus locum habeat. Neque enim ferendum est supponere
+            quosdam ita esse supinos, ut eundem servum et heredem instituant sine
+            libertate et item alii per legatum eundem servum adsignent </p>
+               <p xml:id="azsw2e-d1e3728-d1e172"> 
+            Sed cum veteres et aliam proposuerunt ambiguitatem dicentes,
+            si quis servum suum in testamento quidem heredem ex parte sine libertate
+            scripsisset, in codicillis autem libertatem ei reliquisset, si possit
+            institutio valere et ille tam heres quam liber fieri, ne videatur
+            per codicillos hereditas confirmari, in quibus hereditas dari secundum
+            veterem regulam non potest: nos in tali dispositione, licet in codicillis
+            fuerit scripta, et libertatem et hereditatem simul servis per nostram
+            liberalitatem et benignam interpretationem indulgemus, ut gratulentur,
+            cum non servi remaneant, sed et liberti et heredes efficiantur, cum
+            tanta in eos nostri numinis benivolentia effusa est, ut, etsi libertas
+            eis neque testamento neque codicillis data est, tamen hereditate servis
+            relicta quasi iniunctam et libertatem esse videri. </p>
+               <p xml:id="azsw2e-d1e3728-d1e174" n="2">
+            Illo videlicet observando, ut, si legatum vel fideicommissum
+            eis sine libertate relinquatur, maneant in servitute. </p>
+               <p xml:id="azsw2e-d1e3728-d1e177"> 
+            Non tamen ita impii heredes existant, ut liberalitatem testatoris
+            servilis laboris debita remuneratione defraudare conentur et non derelictum,
+            licet adhuc servis constitutis, donent. </p>
+               <p xml:id="azsw2e-d1e3728-d1e179" n="3">
+            Quae iuris nostri definitio etiam ad aliam speciem dubitatam
+            benigne extendatur. Si quis etenim in principali testamento servum
+            suum cuidam legaverit, in pupillari autem substitutione eundem servum
+            filio suo sine libertate substituerit, quaerebatur, sive utilis esset
+            talis substitutio et per servum legatum substitutio post mortem pupilli
+            legatario adquiritur, sive inutilis est huiusmodi substitutio, quia
+            sine libertate in servum proprium facta est </p>
+               <p xml:id="azsw2e-d1e3728-d1e182"> 
+            Melius itaque nobis videtur legatario eum non statim adquiri
+            sancire, sed expectandum esse substitutionis eventum. Et si quidem
+            pupillo mortuo locus fuerit substitutioni, et liber et heres efficiatur:
+            sin autem substitutio minime locum habuerit, forsitan pupillo iam
+            in pubertatem perveniente, tunc ad legatarii dominium transeat </p>
+               <p xml:id="azsw2e-d1e3728-d1e185"> 
+            Quemadmodum enim veteres, si cum libertate substitutio fuisset,
+            hoc inducebant quatenus in suspenso fiat libertas et statuliber intellegatur,
+            ita et ex nostra interpretatione et sine adiectione libertatis in
+            substitutione et liber et heres pupillo existat. * IUST. A. IOHANNI
+            PP. *&lt;A 531 D. II K. MAI. CONSTANTINOPOLI POST CONSULATUM LAMPADII
+            ET ORESTIS VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3728-Dd1e188">
+               <head xml:id="azsw2e-d1e3728-Hd1e190">6</head>
+               <p xml:id="azsw2e-d1e3728-d1e192">
+                  <ref xml:id="azsw2e-d1e3728-Rd1e194">Imperator
+            Justinianus</ref> Decisione nostra, quam fecimus sancientes eum, qui
+            a domino suo sine libertate heres instituitur, videri libertatem accepisse,
+            in propria firmitate durante, si quis servum suum pure quidem heredem
+            instituit, libertatem autem sub condicione ei donavit, si quidem condicio
+            talis sit, quae in potestate servi posita est: ille autem eam neglexerit
+            minimeque compleverit, et libertate eum et hereditate sua culpa defraudari.
+            Sin autem casualis est condicio et ex fortunae insidiis defecerit,
+            tunc humanitatis intuitu libertatem quidem ei omnimodo competere,
+            hereditatem autem, si quidem solvendo sit, ad alios venire, quos leges
+            vocabant, si non aliquis fuisset substitutus. Sin autem solvendo non
+            sit, ut necessarius he res constitutus simul et libertatem et hereditatem
+            obtineat. Tunc enim secundum definitionem tam veteris quam nostrae
+            decisionis et liber et heres existat necessari * IUST. A. IOHANNI
+            PP. *&lt;A 531 D. II K. AUG. CONSTANTINOPOLI POST CONSULATUM LAMPADII
+            ET ORESTIS VV. CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

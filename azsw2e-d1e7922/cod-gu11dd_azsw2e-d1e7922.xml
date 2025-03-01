@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 78</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 78</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7922"><!-- azsw2e-l11t78 -->
+            <head xml:id="azsw2e-d1e7922-Hd1e101">Titulus 78</head>
+            <head xml:id="azsw2e-d1e7922-Hd1e103" type="question-title">De cupressis ex luco Daphnensi vel Perseis per Aegyptum non excidendis
+            vel vendendis</head>
+            <div xml:id="azsw2e-d1e7922-Dd1e106">
+               <head xml:id="azsw2e-d1e7922-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7922-d1e110">
+                  <ref xml:id="azsw2e-d1e7922-Rd1e112">Imperatores
+            Arcadius, Honorius</ref> Si quis Daphnensis luci in Syria vel Persei
+            in Aegypto arborem comparaverit, quinque libris auri noverit se esse
+            multandum: non minore dispendio et illo feriendo, qui vendere arbores
+            ausus fuerit, quas non licet emptoribus comparare. * ARCAD. ET HONOR.
+            AA. SILVANO COM. RER. PRIVAT. *&lt; &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7922-Dd1e116">
+               <head xml:id="azsw2e-d1e7922-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7922-d1e120">
+                  <ref xml:id="azsw2e-d1e7922-Rd1e122">Imperatores
+            Theodosius, Valentinianus</ref>  Omnes iudices cuiuscumque dignitatis
+            sciant posthac absque permissu magnitudinis tuae arborem ex Daphnensi
+            luco Antiochenae civitatis praecidendi vel quolibet modo lapsas transferendi
+            licentiam sibimet denegandam. </p>
+               <p xml:id="azsw2e-d1e7922-d1e125" n="1">
+            Sed nec alytarcha unam cupressum aliis plantatis excidere
+            sibi licere contendat. Ac ne solacio antiquitus ei concesso privari
+            per omnia videatur, pro eo, quod ei cupressum excidere denegatur,
+            unam auri libram eum de privatis nostris largitionibus accipere decernimus:
+            quinque librarum auri condemnatione huius legis temeratore plectendo.
+            * THEODOS. ET VALENTIN. AA. EUDOXIO COM. SACR. LARG. *&lt; &gt; 
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 9</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 9</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1940"><!-- azsw2e-l4t9 -->
+            <head xml:id="azsw2e-d1e1940-Hd1e101">Titulus 9</head>
+            <head xml:id="azsw2e-d1e1940-Hd1e103" type="question-title">De condictione ex lege et sine causa vel iniusta causa</head>
+            <div xml:id="azsw2e-d1e1940-Dd1e106">
+               <head xml:id="azsw2e-d1e1940-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1940-d1e110">
+                  <ref xml:id="azsw2e-d1e1940-Rd1e112">Imperatores
+            Diocletianus, Maximianus</ref> Licet ante tempus debita exigi non
+            possunt, tamen si te ex primipilo debitorem fisci constitutum ac patrimonium
+            tuum exhaustum praeses provinciae compererit, ut ad solutionis securitatem
+            solum fenebris pecuniae subsidium superesse videatur, commonebit debitorem
+            tuum, si saltem ipse solvendo sit, ut ante definitum tempus debita
+            tibi repraesentet, ut fisco, cuius ob necessitates publicas causam
+            potiorem esse oportet, debita pecunia exsolvatur. * DIOCL. ET MAXIM.
+            AA. ET CC. ULPIO. *&lt;A 294 S. XIII K. AUG. SIRMI CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1940-Dd1e116">
+               <head xml:id="azsw2e-d1e1940-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e1940-d1e120">
+                  <ref xml:id="azsw2e-d1e1940-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> Dissolutae quantitatis retentum instrumentum
+            inefficax penes creditorem remanere et ideo per condictionem reddi
+            oportere non est iuris ambigui. * DIOCL. ET MAXIM. AA. ET CC. SCYLACIO.
+            *&lt;A 293 S. III NON. APRIL. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1940-Dd1e126">
+               <head xml:id="azsw2e-d1e1940-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e1940-d1e130">
+                  <ref xml:id="azsw2e-d1e1940-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Mala fide possidens de proprietate
+            victus extantibus fructibus vindicatione, consumptis vero condictione
+            conventus horum restitutioni parere compellitur. * DIOCL. ET MAXIM.
+            AA. ET CC. GALATIAE. *&lt;A 294 S. VI ID. FEBR. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1940-Dd1e137">
+               <head xml:id="azsw2e-d1e1940-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e1940-d1e141">
+                  <ref xml:id="azsw2e-d1e1940-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Si non est numeratum, quod velut acceptum
+            te sumpsisse mutuo scripsisti, et necdum transisse tempus statutum
+            vel intra hunc diem habitam contestationem monstrando reddi cautionem
+            praesidali notione postulare potes. * DIOCL. ET MAXIM. AA. ET CC.
+            ALEXANDRO. *&lt;A 294 D. XVII K. IAN. CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

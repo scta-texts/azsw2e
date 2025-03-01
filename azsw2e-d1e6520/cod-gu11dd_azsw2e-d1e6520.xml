@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 30</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 30</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6520"><!-- azsw2e-l10t30 -->
+            <head xml:id="azsw2e-d1e6520-Hd1e101">Titulus 30</head>
+            <head xml:id="azsw2e-d1e6520-Hd1e103" type="question-title">De discussoribus</head>
+            <div xml:id="azsw2e-d1e6520-Dd1e106">
+               <head xml:id="azsw2e-d1e6520-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6520-d1e110">
+                  <ref xml:id="azsw2e-d1e6520-Rd1e112">Imperatores
+            Valentinianus, Valens, Gratianus</ref> Quotiens in discrepatione constiterit
+            inique discussionem fuisse confectam et fidem facti non poterit approbare
+            discussor, ipse in eodem titulo et in eodem modo ad solvendum protinus
+            urgeatur, in quo alterum perperam fecerit debitorem. * VALENTIN. VALENS
+            ET GRAT. AAA. AD ARTHEMIUM VIC. HISPANIARUM.*&lt;A 369 D. PRID. ID. MAI. VALENTINIANO
+            NP. ET VICTORE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6520-Dd1e116">
+               <head xml:id="azsw2e-d1e6520-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6520-d1e120">
+                  <ref xml:id="azsw2e-d1e6520-Rd1e122">Imperatores
+            Arcadius, Honorius</ref> Ne casu amissa securitate publica
+            quaedam praeda nascatur collatoribus, decernimus, ut, quando securitates
+            a discussoribus seu apparatioribus expositae ratiociniis publicis
+            continentur, rursus per iniuriam non petantur. * ARCAD. ET HONOR.
+            AA. MESSALAE PP. *&lt;A 400 D. V K. DEC. MEDIOLANI STILICHONE ET AURELIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6520-Dd1e126">
+               <head xml:id="azsw2e-d1e6520-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e6520-d1e130">
+                  <ref xml:id="azsw2e-d1e6520-Rd1e132">Imperatores
+            Theodosius, Valentinianus</ref> Per singulas provincias vel civitates
+            honoratis usque ad comitivam consistorianam nec non etiam militantibus
+            et suis obsequiis non adhaerentibus, advocatis quin etiam fori provincialis
+            mandari discussionis iugorum sollicitudinem decernimus. * THEODOS.
+            ET VALENTIN. AA. APOLLONIO PP. *&lt;A 442 D. V K. IAN. EUDOXIO ET DIOSCORO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6520-Dd1e137">
+               <head xml:id="azsw2e-d1e6520-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e6520-d1e141"><!-- Greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 24</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 24</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5878"><!-- azsw2e-l9t24 -->
+            <head xml:id="azsw2e-d1e5878-Hd1e101">Titulus 24</head>
+            <head xml:id="azsw2e-d1e5878-Hd1e103" type="question-title">De falsa moneta</head>
+            <div xml:id="azsw2e-d1e5878-Dd1e106">
+               <head xml:id="azsw2e-d1e5878-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5878-d1e110">
+                  <ref xml:id="azsw2e-d1e5878-Rd1e112">Imperator
+            Constantinus</ref>  Quoniam nonnulli monetarii adulterinam monetam
+            clandestinis sceleribus exercent, cuncti cognoscant necessitatem sibi
+            incumbere huiusmodi homines inquirendi, ut investigati tradantur iudiciis,
+            facti conscios per tormenta ilico prodituri ac sic dignis suppliciis
+            addicendi. </p>
+               <p xml:id="azsw2e-d1e5878-d1e115" n="1">
+            Accusatoribus etiam eorum immunitatem permittimus, cuius
+            modus, quoniam dispar patrimonium est, a nobis per singulos statuetur.
+            </p>
+               <p xml:id="azsw2e-d1e5878-d1e118" n="2">
+            Si quis autem militum huiusmodi personam susceptam de custodia
+            exire fecerit, capite puniatur </p>
+               <p xml:id="azsw2e-d1e5878-d1e121" n="3">
+            Appellandi etiam privato licentia denegetur: si vero miles
+            aut promotus in gradu huiusmodi crimen incurrerit, super eius nomine
+            et gradu ad competentes iudices referatur. </p>
+               <p xml:id="azsw2e-d1e5878-d1e125" n="4">
+            Domus vero vel fundus, in quo haec perpetrata sunt, si dominus
+            in proximo constitutus sit, cuius incuria vel neglegentia punienda
+            est, etsi ignoret, fisco vindicetur, nisi dominus, ante ignorans,
+            ut primum reppererit, scelus prodiderit perpetratum: tunc enim possessio
+            vel domus ipsius proscriptionis iniuriae minime subiacebit. </p>
+               <p xml:id="azsw2e-d1e5878-d1e128" n="5">
+            Sin vero longissime ab ea domo vel possessione afuerit, nullum
+            sustineat detrimentum: actore videlicet fundi vel servis vel incolis
+            vel colonis, qui hoc ministerium praebuerunt, cum eo qui fecit supplicio
+            capitali plectendis. </p>
+               <p xml:id="azsw2e-d1e5878-d1e131" n="6">
+            Viduas autem ac pupillos speciali dignos indulgentia credidimus,
+            ut viduae nec in proximo constitutae domo sua vel possessione careant,
+            si nulla apud ipsas tam gravis conscientiae noxa resideat, impuberes
+            vero, etiamsi conscii fuerint, nullum sustineant detrimentum, quia
+            aetas eorum quid videat ignorat. </p>
+               <p xml:id="azsw2e-d1e5878-d1e134" n="7">
+            Tutores tamen eorum, si in proximo sint, quoniam ignorare
+            eos, quid in re pupilli geritur, non oportet, haec poena expectabit,
+            ut de rebus eorum, si idonei fuerint, tantum fisco inferatur, quantum
+            a pupillo fuerat inferendum. * CONST. A. AD IANUARIUM. *&lt;A 321
+            D. XII K. DEC. ROMAE CRISPO II ET CONSTANTINO II CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5878-Dd1e138">
+               <head xml:id="azsw2e-d1e5878-Hd1e140">2</head>
+               <p xml:id="azsw2e-d1e5878-d1e142">
+                  <ref xml:id="azsw2e-d1e5878-Rd1e144">Imperator
+            Constantinus</ref> Si quis nummum falsa fusione formaverit, universas
+            eius facultates fisco nostro addici praecipimus: in monetis etenim
+            tantum nostris cudendae pecuniae studium frequentari volumus. Cuius
+            obnoxii maiestatis crimen committunt, et praemio accusatoribus proposito,
+            quicumque solidorum adulter poterit reperiri vel a quoquam fuerit
+            publicatus, ilico omni dilatione submota flammarum exustionibus mancipetur
+            * CONST. A. AD TERTULLIANUM PROCONS. AFRICAE. *&lt;A 326 D. PRID.
+            NON. IUL. MEDIOLANI CONSTANTINO A. VII ET CONSTANTIO C. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5878-Dd1e148">
+               <head xml:id="azsw2e-d1e5878-Hd1e150">3</head>
+               <p xml:id="azsw2e-d1e5878-d1e152">
+                  <ref xml:id="azsw2e-d1e5878-Rd1e154">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Si quis super cudendo aere
+            vel rescripto aliquo vel etiam adnotatione nostra sibi eripuerit facultatem,
+            non solum fructum propriae petitionis amittat, verum etiam poenam
+            quam meretur excipiat. * VALENTIN. THEODOS. ET ARCAD. AAA. RUFINO
+            PP. *&lt;A 393 D. IIII ID. IUL. CONSTANTINOPOLI THEODOSIO A. III ET
+            ABUNDANTIO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

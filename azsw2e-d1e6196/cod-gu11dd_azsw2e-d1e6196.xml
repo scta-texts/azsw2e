@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 1</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 1</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6196"><!-- azsw2e-l10t1 -->
+            <head xml:id="azsw2e-d1e6196-Hd1e101">Titulus 1</head>
+            <head xml:id="azsw2e-d1e6196-Hd1e103" type="question-title">De iure fisci.</head>
+            <div xml:id="azsw2e-d1e6196-Dd1e106">
+               <head xml:id="azsw2e-d1e6196-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6196-d1e110">
+                  <ref xml:id="azsw2e-d1e6196-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Si prius, quam fisci
+            rationibus pater vester obligaretur, perfectam praediorum donationem
+            fecisse fuerit probatus, quod citra fraudem creditorum gestum est,
+            non rescinditur. * SEV. ET ANT. AA. ATTICO ET SEVERO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6196-Dd1e116">
+               <head xml:id="azsw2e-d1e6196-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6196-d1e120">
+                  <ref xml:id="azsw2e-d1e6196-Rd1e122">Imperator
+            Gordianus</ref> Instar obtinere minime potest rei iudicatae
+            computatio a tabulariis facta, nisi sententia procuratoris fuerit
+            comprobata. * GORD. A. SERENO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6196-Dd1e126">
+               <head xml:id="azsw2e-d1e6196-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e6196-d1e130">
+                  <ref xml:id="azsw2e-d1e6196-Rd1e132">Imperator
+            Gordianus</ref> Si minori pretio, quam res
+            est, aperta fraude emptoris vel gratia quae obligata sunt a fisco
+            venierunt, aditus procurator meus debitam quantitatem inferenti restitui
+            ea praedia iubebit. * GORD. A. ATTICAE. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6196-Dd1e137">
+               <head xml:id="azsw2e-d1e6196-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e6196-d1e141">
+                  <ref xml:id="azsw2e-d1e6196-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref>  Certa forma
+            super metoecis data est, qui iussu principis in aliam civitatem translati
+            sunt. Nam praedia eorum, quae antequam demigrarent habuerint, si ab
+            his distracta non essent, fisci rationibus vindicari iam pridem decretum
+            est, nisi aliud speciali praecepto Augusta maiestas decreverit. </p>
+               <p xml:id="azsw2e-d1e6196-d1e146" n="1">
+            Ut igitur a principibus salubriter statutum est, ita salvis
+            his, quae utiliter placuerunt, parentibus heredes eos exsistere minime
+            oportere nulla legis sanctione statutum est. * DIOCL. ET MAXIM.
+            AA. MUCATRAULO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6196-Dd1e150">
+               <head xml:id="azsw2e-d1e6196-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e6196-d1e154">
+                  <ref xml:id="azsw2e-d1e6196-Rd1e156">Imperatores
+            Diocletianus, Maximianus</ref>  Prohibitum
+            est cuiuscumque bona, qui fisco locum fecisse existimabitur capi prius,
+            quam a nobis forma fuerit data. </p>
+               <p xml:id="azsw2e-d1e6196-d1e159" n="1">
+            Et ut omni improvisionis genere occursum sit caesarianis,
+            sancimus licere universis quorum interest obicere manus his, qui ad
+            capienda bona alicuius venerint, qui succubuerit legibus, ut, etiamsi
+            officiales ausi fuerint a tenore datae legis desistere, ipsis privatis
+            resistentibus a facienda iniuria arceantur. </p>
+               <p xml:id="azsw2e-d1e6196-d1e162" n="2">
+            Tunc enim is, cuius interest bona alicuius non interpellari,
+            officialibus volentibus ea capere debet adquiescere, cum litteris
+            nostris cognoverit non ex arbitrio suo caesarianos ad capiendas easdem
+            venisse facultates, sed iustitiae vigorem id fieri statuisse. *
+            DIOCL. ET MAXIM. AA. EXEMPL. SACR. LITT. AD FLACCUM.*&lt;X &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6196-Dd1e166">
+               <head xml:id="azsw2e-d1e6196-Hd1e168">6</head>
+               <p xml:id="azsw2e-d1e6196-d1e170">
+                  <ref xml:id="azsw2e-d1e6196-Rd1e172">Imperator
+            Constantinus</ref> Iustas etiam et quae locum habent fisci actiones
+            praecipimus concremari ob hoc solum, quod suis temporibus prolatae
+            non sunt. Iam calumniae privatorum eo saltem arceantur exemplo, quo
+            iustas fisci lites silere praecipimus * CONSTANT. A. AD PROVINCIALES.
+            *&lt;A 319 D.III K.IUN.CONSTANTINO A.V ET LICINIO C.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6196-Dd1e176">
+               <head xml:id="azsw2e-d1e6196-Hd1e178">7</head>
+               <p xml:id="azsw2e-d1e6196-d1e180">
+                  <ref xml:id="azsw2e-d1e6196-Rd1e182">Imperator
+            Constantinus</ref>  Defensionis facultas danda est his, quibus aliquam
+            inquietudinem fiscus infert, cum facultates eorundem adhuc controversia
+            pendente inquietari describique fas non sit. </p>
+               <p xml:id="azsw2e-d1e6196-d1e185" n="1">
+            Ubi ergo controversia extiterit fisco alicuius patrimonium
+            vindicante, apud eum omnibus facultatibus constitutis cognitio ventiletur,
+            ut, cum rei exitus debere eas vindicari probaverit, tum demum res
+            persequi liceat et super modo facultatum ac rerum interrogationem
+            haberi, quae per condicionales servos investiganda est , ut, si quid
+            subtractum fuerit, exigatur et extrinsecus tantum aliud multae nomine,
+            quantum fuerat per fraudem ablatum. </p>
+               <p xml:id="azsw2e-d1e6196-d1e188" n="2">
+            Sane in huiuscemodi quaestione si caesariani nomen inciderit,
+            ad usurpationem constitutionis istius non debebit accedere, si quidem
+            consuetudo fraudium, quibus praedicti omnia temerare consueverunt,
+            exceptionem eorundem meruerit. * CONST. A. *&lt;A 326 D.PRID.K.IAN.SIRMIO
+            CONSTANTINO A.VII ET CONSTANTIO C.CONSS&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6196-Dd1e192">
+               <head xml:id="azsw2e-d1e6196-Hd1e194">8</head>
+               <p xml:id="azsw2e-d1e6196-d1e196">
+                  <ref xml:id="azsw2e-d1e6196-Rd1e198">Imperatores
+            Valentinianus, Valens</ref> Qui in contractibus scaelestis ac fisco
+            perniciosis interversorum maculosis se fraudibus implicuerunt, in
+            quadrupli redhibitionem teneantur. * VALENTIN. ET VALENS AA. AD DRACONTIUM VIC. AFRICAE. *&lt;A 365 D.XV K.DEC.HADRUMETO
+            VALENTINIANO ET VALENTE AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6196-Dd1e202">
+               <head xml:id="azsw2e-d1e6196-Hd1e204">9</head>
+               <p xml:id="azsw2e-d1e6196-d1e206">
+                  <ref xml:id="azsw2e-d1e6196-Rd1e208">Imperatores
+            Honorius, Theodosius</ref> Super creandis
+            susceptoribus periculo procuratorum rei dominiciae dispositionem tuae
+            sublimitatis firmam esse praecipimus, ita ut, omni ambitione cessante,
+            quae statuta sunt quaeque antiqua consuetudine commendantur, in pabulis
+            vel sumptu familiae ministrando intemerata permaneant: super irenarcho
+            et optione omni antiqua consuetudine observanda. * HONOR. ET THEODOS.
+            AA. PATRICIO COM. RER. PRIVAT. *&lt;A 420 D.III K.IAN.CONSTANTINOPOLI
+            THEODOSIO A.VIIII ET CONSTANTIO III CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6196-Dd1e213">
+               <head xml:id="azsw2e-d1e6196-Hd1e215">10</head>
+               <p xml:id="azsw2e-d1e6196-d1e217">
+                  <ref xml:id="azsw2e-d1e6196-Rd1e219">Imperatores
+            Honorius, Theodosius</ref> Eorum patrimonia
+            mortuorum, qui vitae suae tempore diversis conscientiam suam dicuntur
+            polluisse criminibus, fisci rationibus nequaquam competere vel ab
+            eo alienari censemus, nisi post publicam accusationem eos constiterit
+            fuisse convictos. * HONOR. ET THEODOS. AA. PALLADIO PP. *&lt;A 421
+            D.VIII ID IUL.RAVENNAE EUSTATHIO ET AGRICOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6196-Dd1e223">
+               <head xml:id="azsw2e-d1e6196-Hd1e225">11</head>
+               <p xml:id="azsw2e-d1e6196-d1e227"><!--Greek --></p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

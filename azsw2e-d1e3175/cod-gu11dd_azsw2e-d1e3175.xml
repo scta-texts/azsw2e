@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 53</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 53</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3175"><!-- azsw2e-l5t53 -->
+            <head xml:id="azsw2e-d1e3175-Hd1e101">Titulus 53</head>
+            <head xml:id="azsw2e-d1e3175-Hd1e103" type="question-title">De in litem iurando</head>
+            <div xml:id="azsw2e-d1e3175-Dd1e106">
+               <head xml:id="azsw2e-d1e3175-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3175-d1e110">
+                  <ref xml:id="azsw2e-d1e3175-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Adversus heredem tutoris ad transferendam
+            tutelam iudicem accipiens tempore litis ad puberem instrumenta pertinentia
+            restitui desiderabis. Quod si dolo non exhibeantur, in litem iurandi
+            tibi facultas erit, modo si quondam pupillo debitam adfectionem ad
+            vincula quoque religionis extendere volueris * SEV. ET ANT. AA. ASCLEPIODOTO.
+            *&lt;A 205 PP. K. AUG. GETA II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3175-Dd1e116">
+               <head xml:id="azsw2e-d1e3175-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3175-d1e120">
+                  <ref xml:id="azsw2e-d1e3175-Rd1e122">Imperator
+            Antoninus</ref>  Is, qui rationes tutelae seu curae reposcit, invitus
+            in litem iurare compelli non potest. Sed volens ita demum audiendus
+            est, si heres per longam successionem tutoris instrumenta pupillaria
+            dolo circumveniendi pupilli gratia exhibere non vult </p>
+               <p xml:id="azsw2e-d1e3175-d1e125" n="1">
+            Sin vero neque dolus neque lata culpa neque fraus heredis
+            convincetur, omissa iurisiurandi facultate iudex de veritate cognoscet,
+            quae etiam argumentis liquidis investigari potest. * ANT. A. SEVERO.
+            *&lt;A 212 PP. XI K. OCT. DUOBUS ASPRIS CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3175-Dd1e129">
+               <head xml:id="azsw2e-d1e3175-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e3175-d1e133">
+                  <ref xml:id="azsw2e-d1e3175-Rd1e135">Imperator
+            Antoninus</ref> Summa sententia comprehensa, quam cessantibus curatoribus
+            quondam tuis iudex secutus iurisiurandi a te prolati religionem in
+            condemnationem deduxit, minui pacto non potuit. * ANT. A. PRISCIANO
+            MIL. *&lt;A 215 PP. K. IUL. LAETO II ET CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3175-Dd1e140">
+               <head xml:id="azsw2e-d1e3175-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e3175-d1e144">
+                  <ref xml:id="azsw2e-d1e3175-Rd1e146">Imperator
+            Gordianus</ref>  Alio iure est tutor, alio heres eius. Tutor enim inventarium
+            ceteraque instrumenta si non proferat, in litem iusiurandum adversus
+            se potest admittere: at enim heres eius ita demum, si reperta in hereditate
+            dolo malo non exhibeat </p>
+               <p xml:id="azsw2e-d1e3175-d1e149" n="1">
+            Sed cum adversus ipsum tutorem litem contestatam esse dicatis,
+            transferentibus in heredes eius actionem praeses provinciae partes
+            suas exhibebit non ignorans, nisi exhibeantur instrumenta, quatenus
+            iuxta formam constitutionum partes suas debeat moderari. * GORD. A.
+            MUCIANO. *&lt;A 238 PP. VII K. OCT. PIO ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3175-Dd1e153">
+               <head xml:id="azsw2e-d1e3175-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e3175-d1e157">
+                  <ref xml:id="azsw2e-d1e3175-Rd1e159">Imperatores
+            Diocletianus, Maximianus</ref> Licet adversus heredes ob non factum
+            inventarium iusiurandum in actione tutelae praetermitti placuerit,
+            iudicem tamen velut ex dolo tutoris aliis indiciis instructum adversus
+            eos ferre sententiam convenit. * DIOCL. ET MAXIM. AA. ET CC. ARTEMIDORO.
+            *&lt;A 294 S. VIII K. IAN. NICOMEDIAE CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

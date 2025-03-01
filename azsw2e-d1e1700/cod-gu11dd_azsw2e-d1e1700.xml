@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 32</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 32</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1700"><!-- azsw2e-l3t32 -->
+            <head xml:id="azsw2e-d1e1700-Hd1e101">Titulus 32</head>
+            <head xml:id="azsw2e-d1e1700-Hd1e103" type="question-title">De rei vindicatione</head>
+            <div xml:id="azsw2e-d1e1700-Dd1e106">
+               <head xml:id="azsw2e-d1e1700-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1700-d1e110">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e112">Imperatores
+            Severus, Antoninus</ref>  Etiam per alienum servum bona fide possessum
+            ex re eius qui eum possidet vel ex operis servi adquiri dominium vel
+            obligationem placuit. Quare tu quoque si bona fide possedisti eundem
+            servum et ex nummis tuis mancipia eo tempore comparavit, potes secundum
+            iuris formam uti defensionibus tuis </p>
+               <p xml:id="azsw2e-d1e1700-d1e115" n="1">
+            Mancipium autem alienum mala fide possidenti nihil potest
+            adquirere, sed qui tenet non tantum ipsum, sed etiam operas eius nec
+            non ancillarum partum et animalium fetus reddere cogitur. * SEV. ET
+            ANT. AA. CAECILIAE. *&lt;A 210 PP. III NON. MAI. EBORACI FAUSTINO
+            ET RUFO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e119">
+               <head xml:id="azsw2e-d1e1700-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e1700-d1e123">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e125">Imperatores
+            Severus, Antoninus</ref>  Si inferiorem partem aedificii, quae solum
+            contingit, ad te pertinere probare potes, eam, quam vicinus imposuit,
+            accessisse dominio tuo non ambigitur. </p>
+               <p xml:id="azsw2e-d1e1700-d1e128" n="1">
+            Sed et id, quod in solo tuo aedificatum est, quoad in eadem
+            causa manet, iure ad te pertinet. Si vero fuerit dissolutum, materia
+            eius ad pristinum dominium redit, sive bona fide sive mala fide aedificium
+            extructum sit, si non donandi animo aedificia alieno solo imposita
+            sint * SEV. ET ANT. AA. ARISTAENETO. *&lt;A 213 PP. XII K. NOV. ANTONINO
+            A. IIII ET BALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e132">
+               <head xml:id="azsw2e-d1e1700-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e1700-d1e136">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e138">Imperator
+            Alexander Severus</ref>  Mater tua vel maritus fundum tuum invita vel
+            ignorante te vendere iure non potuit, sed rem tuam a possessore vindicare
+            etiam non oblato pretio poteris.</p>
+               <p xml:id="azsw2e-d1e1700-d1e141" n="1">
+            Sin autem postea de ea venditione consensisti vel alio modo
+            proprietatem eius amisisti, adversus emptorem quidem nullam habes
+            actionem, adversus venditricem vero de pretio negotiorum gestorum
+            exercere non prohiberis.* ALEX. A. DOMNINAE. *&lt;A 222 PP.
+            III K. NOV. ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e146">
+               <head xml:id="azsw2e-d1e1700-Hd1e148">4</head>
+               <p xml:id="azsw2e-d1e1700-d1e150">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e152">Imperator
+            Gordianus</ref> Adversus eos, qui a malae fidei possessoribus fundum
+            bona fide comparaverunt, ita tibi actio competit, si prius, quam usucapionem
+            implerent vel longae possessionis praescriptionem adipiscerentur,
+            dominium ad te pervenerit. * GORD. A. MUNIANO MIL. *&lt;A 238 PP.
+            XII K. NOV. PIO ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e156">
+               <head xml:id="azsw2e-d1e1700-Hd1e158">5</head>
+               <p xml:id="azsw2e-d1e1700-d1e160">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e162">Imperator
+            Gordianus</ref>  Domum, quam ex matris successione ad te pertinere
+            et ab adversa parte iniuria occupatam esse ostenderis, praeses provinciae
+            cum pensionibus quas percepit aut percipere poterat et omni causa
+            damni dati restitui iubebit.</p>
+               <p xml:id="azsw2e-d1e1700-d1e165" n="1">
+            Eius autem quod impendit rationem haberi non posse merito
+            rescriptum est, cum malae fidei possessores eius quod in rem alienam
+            impendunt, non eorum negotium gerentes quorum res est, nullam habeant
+            repetitionem, nisi necessarios sumptus fecerint: sin autem utiles,
+            licentia eis permittitur sine laesione prioris status rei eos auferre.
+            * GORD. A. HERASIANO. *&lt;A 239 PP. II ID. FEBR. GORDIANO A. ET AVIOLA
+            CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e169">
+               <head xml:id="azsw2e-d1e1700-Hd1e171">6</head>
+               <p xml:id="azsw2e-d1e1700-d1e173">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e175">Imperator
+            Gordianus</ref> Si ea pecunia quam deposueras is apud quem collocata
+            fuerat sibi possessiones comparavit ipsique traditae sunt, tibi vel
+            omnes tradi vel quasdam compensationis causa ab invito eo in te conferri
+            iniuriosum est. * GORD. A. AUSTRONIO MIL. *&lt;A 239 PP. V ID. IUL.
+            GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e179">
+               <head xml:id="azsw2e-d1e1700-Hd1e181">7</head>
+               <p xml:id="azsw2e-d1e1700-d1e183">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e185">Imperator
+            Philippus</ref> Partum ancillae matris sequi condicionem nec statum
+            in hac specie patris considerari explorati iuris est. * PHILIPP. A.
+            ET PHILIPP. C. AURELIO ANTONIO. *&lt;A 245 PP. XIIII K. NOV. PHILIPPO
+            A. ET TITIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e189">
+               <head xml:id="azsw2e-d1e1700-Hd1e191">8</head>
+               <p xml:id="azsw2e-d1e1700-d1e193">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e195">Imperator
+            Philippus</ref> Si, ut proponis, pars diversa pecunia tua quaedam
+            nomine suo comparavit, praeses provinciae utilem vindicationem obtentu
+            militiae tibi eo nomine impertiri desideranti partes aequitatis non
+            negabit. Idem mandati quoque seu negotiorum gestorum actionem inferenti
+            tibi iurisdictionem praebebit * PHILIPP. A. ET C. PHILIPPO MIL. *&lt;A
+            246 PP. II NON. MART. PRAESENTE ET ALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e199">
+               <head xml:id="azsw2e-d1e1700-Hd1e201">9</head>
+               <p xml:id="azsw2e-d1e1700-d1e203">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e205">Imperatores
+            Carus, Carinus, Numerianus</ref> Doce ancillam, de qua supplicas,
+            dotalem fuisse in notione praesidis: quo patefacto indubium erit vindicari
+            ab uxore tua nequivisse. * CARUS CARINUS ET NUMER. AAA. ANTONIO. *&lt;A
+            283 PP. III K. MART. CARO ET CARINO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e210">
+               <head xml:id="azsw2e-d1e1700-Hd1e212">10</head>
+               <p xml:id="azsw2e-d1e1700-d1e214">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e216">Imperatores
+            Diocletianus, Maximianus</ref> Cum super vernis mancipiis nulla instrumenta
+            te habere adseveres, in iudicio, in quo negotium coeptum esse proponitur,
+            id quod in precem contulisti postulare debuisti. Iudex enim non ignorat
+            servorum dominia etiam citra instrumentorum exhibitionem aliis probationibus
+            vel ipsorum interrogatione posse ostendi * DIOCL. ET MAXIM. AA. IANUARIO.
+            *&lt;A 290 PP. VIII ID. FEBR. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e220">
+               <head xml:id="azsw2e-d1e1700-Hd1e222">11</head>
+               <p xml:id="azsw2e-d1e1700-d1e224">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e226">Imperatores
+            Diocletianus, Maximianus</ref>  Si quis sciens agrum alienum sevit
+            vel plantas imposuit, postquam eae radicibus terram fuerint amplexae,
+            solo cedere rationis est. Domini enim magis segetem vel plantas quam
+            per huiusmodi factum solum suum facit </p>
+               <p xml:id="azsw2e-d1e1700-d1e229" n="1">
+            Sane eum, qui bona fide possidens haec fecerit, per doli
+            mali exceptionem contra vindicantem dominium servare sumptus iuris
+            auctoritate significatum est. * DIOCL. ET MAXIM. AA. ET CC.GAIANO.
+            *&lt;A 293 D. IIII K. MART. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e233">
+               <head xml:id="azsw2e-d1e1700-Hd1e235">12</head>
+               <p xml:id="azsw2e-d1e1700-d1e237">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e239">Imperatores
+            Diocletianus, Maximianus</ref> Incivile atque inusitatum est quod
+            postulas, ut mancipium, quod tradidisti et hoc modo dominium eius
+            transtulisti, invito eo ex nostro rescripto tibi adsignetur. Unde
+            intellegis semel ancilla emptoris facta filios etiam postea natos
+            eius dominium sequi, cuius mater eorum eo tempore fuit. Sane de pretio,
+            si non te hoc probatum fuerit recepisse, conveni adversarium tuu *
+            DIOCL. ET MAXIM. AA. ET CC. ALEXANDRO. *&lt;A 293 D. VI ID. APRIL.
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e243">
+               <head xml:id="azsw2e-d1e1700-Hd1e245">13</head>
+               <p xml:id="azsw2e-d1e1700-d1e247">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e249">Imperatores
+            Diocletianus, Maximianus</ref> Ordinarii iuris est, ut mancipiorum
+            orta quaestione prius exhibitis mancipiis de possessione iudicetur
+            ac tunc demum proprietatis causa ab eodem iudice decidatur. * DIOCL.
+            ET MAXIM. AA. ET CC. EYTYCHIO. *&lt;A 293 D. ID. APRIL. AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e253">
+               <head xml:id="azsw2e-d1e1700-Hd1e255">14</head>
+               <p xml:id="azsw2e-d1e1700-d1e257">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e259">Imperatores
+            Diocletianus, Maximianus</ref> Cum a matre domum filii te sciente
+            comparasse proponas, adversus eum dominium vindicantem, si matri non
+            successit, nulla te exceptione tueri potes. Quod si venditricis obtinet
+            hereditatem, doli mali exceptione, pro qua portione ad eum hereditas
+            pertinet, uti non prohiberis * DIOCL. ET MAXIM. AA. ET CC. SEPTIMAE.
+            *&lt;A 293 D. III K. IUL. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e263">
+               <head xml:id="azsw2e-d1e1700-Hd1e265">15</head>
+               <p xml:id="azsw2e-d1e1700-d1e267">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e269">Imperatores
+            Diocletianus, Maximianus</ref>  Quotiens duobus in solidum praedium
+            iure distrahitur, manifesti iuris est eum, cui priori traditum est,
+            in detinendo dominio esse potiorem. </p>
+               <p xml:id="azsw2e-d1e1700-d1e272" n="1">
+            Si igitur antecedenti tempore possessionem emisse ac pretium
+            exsolvisse apud praesidem provinciae probaveris, obtentu non datorum
+            instrumentorum expelli te possessione non patietur. </p>
+               <p xml:id="azsw2e-d1e1700-d1e275" n="2">
+            Erit sane in arbitrio tuo pretium quod dedisti cum usuris
+            recipere, ita tamen, ut perceptorum fructuum et sumptuum ratio habeatur:
+            cum et si ex causa donationis utrique dominium rei vindicetis, eum,
+            cui priori possessio soli tradita est, haberi potiorem convenit. *
+            DIOCL. ET MAXIM. AA. ET CC. AURELIO PROCULINO. *&lt;A 293 D. XV K.
+            OCT. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e280">
+               <head xml:id="azsw2e-d1e1700-Hd1e282">16</head>
+               <p xml:id="azsw2e-d1e1700-d1e284">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e286">Imperatores
+            Diocletianus, Maximianus</ref> Si in area communi domum aliquis extruxit,
+            hanc vobis communem iuris fecit ratio. Cuius portionem ab eo, qui
+            bona fide possidens aedificavit, si velis vindicare, sumptus offerre
+            debes, ne doli mali possis exceptione submoveri * DIOCL. ET MAXIM.
+            AA. ET CC. IANUARIO. *&lt;A 293 D. ID. NOV. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e290">
+               <head xml:id="azsw2e-d1e1700-Hd1e292">17</head>
+               <p xml:id="azsw2e-d1e1700-d1e294">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e296">Imperatores
+            Diocletianus, Maximianus</ref> Si fundum vestrum, vobis per denuntiationem
+            admonentibus volentem ad emptionem accedere, quod distrahentis non
+            fuerit, non recte is contra quem preces funditis comparavit vel alio
+            modo mala fide contraxit, tam fundum vestrum constitutum probantibus
+            quam fructus, quos eum mala fide percepisse fuerit probatum, aditus
+            praeses provinciae restitui iubebit. * DIOCL. ET MAXIM. AA. ET CC.
+            SABINO. *&lt;A 293 D. XII K. DEC. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e300">
+               <head xml:id="azsw2e-d1e1700-Hd1e302">18</head>
+               <p xml:id="azsw2e-d1e1700-d1e304">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e306">Imperatores
+            Diocletianus, Maximianus</ref> Re tua apud aliquem manente proprietatis
+            error nihil tibi nocere potuit, nisi alia contra te causa intervenerit.
+            * DIOCL. ET MAXIM. AA. ET CC. CLARO. *&lt;A 293 D. VIIII K. IAN. AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e310">
+               <head xml:id="azsw2e-d1e1700-Hd1e312">19</head>
+               <p xml:id="azsw2e-d1e1700-d1e314">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e316">Imperatores
+            Diocletianus, Maximianus</ref> Indicia cetera, quae iure non respuuntur,
+            non minorem probationis quam instrumenta continent fidem: quo iure,
+            si de proprietate domus ambigis negotiumque integrum est, uti non
+            prohiberis. * DIOCL. ET MAXIM. AA. ET CC. CALLISTRATO. *&lt;A 293
+            VIII K. IAN. SIRMI. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e320">
+               <head xml:id="azsw2e-d1e1700-Hd1e322">20</head>
+               <p xml:id="azsw2e-d1e1700-d1e324">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e326">Imperatores
+            Diocletianus, Maximianus</ref> Non servum, quem res tuas detinere
+            adseveras, sed eius dominum de rebus repetendis conveniendum esse
+            perspicis. * DIOCL. ET MAXIM. AA. ET CC. QUARTILLAE. *&lt;A 294 VI
+            K. MART. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e330">
+               <head xml:id="azsw2e-d1e1700-Hd1e332">21</head>
+               <p xml:id="azsw2e-d1e1700-d1e334">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e336">Imperatores
+            Diocletianus, Maximianus</ref> A possidentibus vindicata mancipia,
+            quorum dominium ad vos pertinere intenditis, si, posteaquam impleveritis
+            intentionem, haec non restituantur, iurisiurandi sollemnitate secuta
+            condemnatio procedere debet. * DIOCL. ET MAXIM. AA. ET CC. HERODI.
+            *&lt;A 294 D. VI ID. OCT. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e341">
+               <head xml:id="azsw2e-d1e1700-Hd1e343">22</head>
+               <p xml:id="azsw2e-d1e1700-d1e345">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e347">Imperatores
+            Diocletianus, Maximianus</ref> Certum est mala fide possessores omnes
+            fructus solere cum ipsa re praestare, bona fide vero extantes, post
+            litis autem contestationem universos. * DIOCL. ET MAXIM. AA. ET CC.
+            DIODOTO. *&lt;A 294 D. III K. NOV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e351">
+               <head xml:id="azsw2e-d1e1700-Hd1e353">23</head>
+               <p xml:id="azsw2e-d1e1700-d1e355">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e357">Imperatores
+            Diocletianus, Maximianus</ref> Si mancipium tuum per vim vel furtum
+            ablatum alii ex nulla iusta causa distraxerunt, vindicanti tibi dominium
+            solvendi pretii nulla necessitas inrogatur. * DIOCL. ET MAXIM. AA.
+            ET CC. MAGNIFERO. *&lt;A 294 D. XVI K. DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e361">
+               <head xml:id="azsw2e-d1e1700-Hd1e363">24</head>
+               <p xml:id="azsw2e-d1e1700-d1e365">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e367">Imperatores
+            Diocletianus, Maximianus</ref> Nullo iusto titulo praecedente possidentes
+            ratio iuris quaerere prohibet dominium. Idcirco cum etiam usucapio
+            cesset, intentio dominii non absumitur: unde hoc casu postliminio
+            reverso citra beneficium actionis rescissoriae directa permanet integra
+            vindicatio * DIOCL. ET MAXIM. AA. ET CC. IULIANO. *&lt;A 294 D. XVI
+            K. DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e371">
+               <head xml:id="azsw2e-d1e1700-Hd1e373">25</head>
+               <p xml:id="azsw2e-d1e1700-d1e375">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e377">Imperatores
+            Diocletianus, Maximianus</ref> Sollemnibus pensionibus rei pro alio
+            satisfacientem non interveniente venditione solutionis causa minime
+            dominum facit. * DIOCL. ET MAXIM. AA. ET CC. EUGNOMIO. *&lt;A 294
+            D. XVI K. DEC. NICOMEDIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e381">
+               <head xml:id="azsw2e-d1e1700-Hd1e383">26</head>
+               <p xml:id="azsw2e-d1e1700-d1e385">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e387">Imperatores
+            Diocletianus, Maximianus</ref> Morae litis causam possessoris non
+            instruunt ad inducendam longae possessionis praescriptionem, quae
+            post litem contestatam in praeteritum aestimatur. * DIOCL. ET MAXIM.
+            AA. ET CC. HELIODORO. *&lt;A 294 D. X ID. DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e391">
+               <head xml:id="azsw2e-d1e1700-Hd1e393">27</head>
+               <p xml:id="azsw2e-d1e1700-d1e395">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e397">Imperatores
+            Diocletianus, Maximianus</ref> Servum emptor non traditum sibi praesentem
+            vindicare non potest. * DIOCL. ET MAXIM. AA. ET CC. PHILADELPHO. *&lt;A
+            294 D. XVIII K. IAN. NICOMEDIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1700-Dd1e402">
+               <head xml:id="azsw2e-d1e1700-Hd1e404">28</head>
+               <p xml:id="azsw2e-d1e1700-d1e406">
+                  <ref xml:id="azsw2e-d1e1700-Rd1e408">Imperatores
+            Diocletianus, Maximianus</ref> Res alienas possidens, licet iustam
+            causam nullam habeat tenendi, non nisi suam intentionem implenti restituere
+            cogitur. * DIOCL. ET MAXIM. AA. ET CC. SOPATRO. *&lt;A 294 D. VIII
+            K. IAN. CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

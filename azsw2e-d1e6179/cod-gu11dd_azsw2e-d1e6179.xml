@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 51</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 51</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6179"><!-- azsw2e-l9t51 -->
+            <head xml:id="azsw2e-d1e6179-Hd1e101">Titulus 51</head>
+            <head xml:id="azsw2e-d1e6179-Hd1e103" type="question-title">De sententiam passis et restitutis</head>
+            <div xml:id="azsw2e-d1e6179-Dd1e106">
+               <head xml:id="azsw2e-d1e6179-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6179-d1e110">
+                  <ref xml:id="azsw2e-d1e6179-Rd1e112">Imperator
+            Antoninus</ref> Restituo te in integrum provinciae tuae. Ut autem
+            scias, quid sit in integrum: honoribus et ordini tuo et omnibus ceteris
+            * ANT. A. CUM SALUTATUS AB OCLATINIO ADVENTO ET OPELLIO MACRINO PP.
+            PP. CLARISS. VIRIS, ITEM AMICIS ET PRINCIPAL. OFFICIORUM ET UTR. ORD.
+            VIRIS ET PROCESSISSET, OBLATUS EST EI IULIANUS LICINIANUS AB A&lt;XX
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6179-Dd1e116">
+               <head xml:id="azsw2e-d1e6179-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6179-d1e120">
+                  <ref xml:id="azsw2e-d1e6179-Rd1e122">Imperator
+            Antoninus</ref> Cum patrem tuum in metallum damnatum fuisse proponas
+            eiusque bona merito a fisco occupata sunt, non ideo, quod ex indulgentia
+            mea poena tantummodo metalli liberatus esset, etiam bonorum restitutionem
+            impetravit, nisi speciale beneficium super hoc fuerit impetratum.
+            * ANT. A. QUIETO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6179-Dd1e126">
+               <head xml:id="azsw2e-d1e6179-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e6179-d1e130">
+                  <ref xml:id="azsw2e-d1e6179-Rd1e132">Imperator
+            Alexander Severus</ref>  Si debitor poenam sententiae passus est, quam
+            bonorum ademptio secuta est, quamvis postea civitati Romanae restitutus
+            non totam substantiam, sed aliquid ex indulgentia principis ut haberet
+            impetravit, aeris tamen alieni ex praecedente tempore poena liberatus
+            est. </p>
+               <p xml:id="azsw2e-d1e6179-d1e135" n="1">
+            Sin vero partem bonorum accepit, pro rata portione eius tenetur.
+            Quod si ob pecuniam debitam fisco bona eius occupata sunt, mansit
+            una cum fideiussoribus propriis creditoribus obligatus * ALEX. A.
+            STRATONICIANO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6179-Dd1e140">
+               <head xml:id="azsw2e-d1e6179-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e6179-d1e144">
+                  <ref xml:id="azsw2e-d1e6179-Rd1e146">Imperator
+            Alexander Severus</ref> Tutor filiorum, quorum te bonorum possessionem
+            accepisse dicis, in metallum damnatus et postea ex indulgentia generali
+            regressus, quamquam locupletior sit, actione tutelae administratae
+            tibi non tenetur, si non gratia sententiae facta specialiter statum
+            pristinum cum bonis recuperaverit. * ALEX. A. VALENTINAE. *&lt;A XXX
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6179-Dd1e150">
+               <head xml:id="azsw2e-d1e6179-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e6179-d1e154">
+                  <ref xml:id="azsw2e-d1e6179-Rd1e156">Imperator
+            Alexander Severus</ref> Si ademptis bonis in insulam datus sis, quamvis
+            ex indulgentia communi redisti, actiones tamen, quascumque habuisti,
+            remanent in causa bonorum publicatorum, nec ex ordine est quod petis,
+            ut contra heredes tutorum actiones tibi praestentur. * ALEX. A. IULIANO.
+            *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6179-Dd1e160">
+               <head xml:id="azsw2e-d1e6179-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e6179-d1e164">
+                  <ref xml:id="azsw2e-d1e6179-Rd1e166">Imperator
+            Gordianus</ref> In insulam filio deportato hacque ratione vinculo
+            paternae potestatis exempto, si postea ex indulgentia divi alexandri,
+            ut proponis, reditus in patrium solum praecedensque dignitas restituta
+            sit, potestas tamen patria repetita non videtur. * GORD. A. FABIANO.
+            *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6179-Dd1e170">
+               <head xml:id="azsw2e-d1e6179-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e6179-d1e174">
+                  <ref xml:id="azsw2e-d1e6179-Rd1e176">Imperator
+            Philippus</ref> Generalis indulgentia nostra reditum exsulibus seu
+            deportatis tribuit, non etiam loca militiae pridem adempta concessit
+            neque integram atque illibatam existimationem reservavit. * PHILIPP.
+            A. ET PHILIPP. C. CASSIO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6179-Dd1e180">
+               <head xml:id="azsw2e-d1e6179-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e6179-d1e184">
+                  <ref xml:id="azsw2e-d1e6179-Rd1e186">Imperatores
+            Valerianus, Gallienus. </ref>Frustra adhuc servum esse tui iuris existimas,
+            qui in metallum datus poena eius postea liberatus est. Per huiusmodi
+            enim indulgentiae occasionem integrari dominium prius non placuit.
+            Verum idcirco tamen impune tibi eum praeses provinciae iniuriosum
+            esse non patietur. Quod si quid rerum tuarum tenet, procurator vobis
+            iudex erit: fisci enim coepit esse mancipi * VALER. ET GALLIEN. AA.
+            SELEUCO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6179-Dd1e190">
+               <head xml:id="azsw2e-d1e6179-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e6179-d1e194">
+                  <ref xml:id="azsw2e-d1e6179-Rd1e196">Imperatores
+            Diocletianus, Maximianus</ref> Si pater vester in insulam deportatus
+            generali indulgentia restitutus est nec, ut liberos in potestatem
+            reciperet, specialiter impetravit, in dubium non venit hereditatis
+            commodum per vos ei adquiri, quos sententia contra eum prolata patres
+            familias effecit, nequaquam potuisse. * DIOCL. ET MAXIM. AA. RESTITUTAE
+            ET ALIIS. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6179-Dd1e201">
+               <head xml:id="azsw2e-d1e6179-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e6179-d1e205">
+                  <ref xml:id="azsw2e-d1e6179-Rd1e207">Imperatores
+            Diocletianus, Maximianus</ref> Cum indulgentia nostra interveniente
+            sis reversus ad lares tuos, frustra vereris, ne ex adnotatione praesidis
+            quae iam abolita est calumniam patiaris. * DIOCL. ET MAXIM. AA. DEMETRIO.
+            *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6179-Dd1e211">
+               <head xml:id="azsw2e-d1e6179-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e6179-d1e215">
+                  <ref xml:id="azsw2e-d1e6179-Rd1e217">Imperatores
+            Diocletianus, Maximianus</ref> Casus eius, qui fundi moverat quaestionem,
+            et ex benignitate nostra facta cum bonis restitutio statum pristinum
+            causae non immutavit. * DIOCL. ET MAXIM. AA. ET CC. PHILIPPO. *&lt;A
+            XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6179-Dd1e221">
+               <head xml:id="azsw2e-d1e6179-Hd1e223">12</head>
+               <p xml:id="azsw2e-d1e6179-d1e225">
+                  <ref xml:id="azsw2e-d1e6179-Rd1e227">Imperatores
+            Diocletianus, Maximianus</ref> Si deportationis sententiae veniam
+            indulgentia nostra consecuta recepit substantiam, se protegere sceleris
+            poena contra creditores, quo minus iure debitum solvat, improbe conatur.
+            * DIOCL. ET MAXIM. AA. ET CC. TRYPHONI. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6179-Dd1e231">
+               <head xml:id="azsw2e-d1e6179-Hd1e233">13</head>
+               <p xml:id="azsw2e-d1e6179-d1e235">
+                  <ref xml:id="azsw2e-d1e6179-Rd1e237">Imperator
+            Constantinus</ref>  In quaestione testamenti, quod deportati filius
+            remeante patre fecisset, remotis ulpiani atque pauli notis papiniani
+            placet valere sententiam, ut in patris sit filius potestate, cui dignitas
+            ac bona restituta sunt. </p>
+               <p xml:id="azsw2e-d1e6179-d1e240" n="1">
+            Ita tamen, ut gesta per filium, cuius consilia legitima aetas
+            firmaverat, rata sint eodem in potestate patria redeunte, ne eorum
+            rescissio efficiat, quod est maxime absurdum, eodem tempore nec in
+            patris nec in sua quemquam fuisse potestate.</p>
+               <p xml:id="azsw2e-d1e6179-d1e243" n="2">
+            Minores enim aetate iure quicquam agere prohibentur. Quibus
+            si damnato patre tutor datus est, necesse est, ut ab officio suo recedat
+            regresso eo, quem non solum nomine redire, sed etiam officium suum
+            nulla pravitate corruptum liberis praebere oportet, ut eorum bona
+            tueatur et augeat </p>
+               <p xml:id="azsw2e-d1e6179-d1e246"> 
+            Nam si patria potestate ad corrumpendi atque effundendi patrimonii
+            licentiam abutetur, ut furioso ac dementi, item prodigo, libidinum
+            omnium vitiorumque servo non est eorum pecunia committenda. </p>
+               <p xml:id="azsw2e-d1e6179-d1e249"> 
+            Ab administratione fugiat neque tutor esse desinat omniaque
+            minoris dispendia suis ipse damnis praestet. </p>
+               <p xml:id="azsw2e-d1e6179-d1e251"> 
+            Sententia vero deportationis nullo patrem praeiudicio deminuat.
+            Quem si comperta integritas ut natura, ita officio liberis restituerit,
+            ei gubernacula rerum tradenda sunt, cuius ad imitationem publici iuris
+            provisa custodia est. Quae nisi bonis patribus detur, luctuosior erit
+            reditus quam discessum. </p>
+               <p xml:id="azsw2e-d1e6179-d1e253" n="3">
+            Ideoque tantum ad restitutionem indulgentia valeat, quantum
+            ad correctionem sententia valuit, utque deportationis ipsum per se
+            nomen rerum omnium spoliatio est , ita indulgentiae restitutio bonorum
+            ac dignitatis uno nomine amissorum omnium sit recuperatio. Et filii
+            emancipationem a patribus officiis petant, ut libertatem non damnationis,
+            sed lenitatis paternae testem habeant. * CONST. A. AD MAXIMUM PU.
+            *&lt;A 321 D. XVIII K. OCT. SIRMI CRISPO II
+            ET CONSTANTINO II CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

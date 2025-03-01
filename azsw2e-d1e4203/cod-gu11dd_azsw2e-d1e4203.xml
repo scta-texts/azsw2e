@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 8</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 8</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4203"><!-- azsw2e-l7t8 -->
+            <head xml:id="azsw2e-d1e4203-Hd1e101">Titulus 8</head>
+            <head xml:id="azsw2e-d1e4203-Hd1e103" type="question-title">De servo pignori dato manumisso</head>
+            <div xml:id="azsw2e-d1e4203-Dd1e106">
+               <head xml:id="azsw2e-d1e4203-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4203-d1e110">
+                  <ref xml:id="azsw2e-d1e4203-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Licet dotale mancipium vir qui solvendo
+            est possit manumittere, tamen si te pignori quoque datum mulieri apparuerit,
+            invita ea non posse libertatem adsequi non ambigitur. * SEV. ET ANT.
+            AA. PROCULO. *&lt;A 205 PP. XII K. MAI. ANTONINO A II ET GETA II CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4203-Dd1e116">
+               <head xml:id="azsw2e-d1e4203-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4203-d1e120">
+                  <ref xml:id="azsw2e-d1e4203-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Libertas a debitore fisci servo data,
+            qui pignori non est ex conventione speciali, sed tantum privilegio
+            fisci obligatus, non aliter infirmatur, quam si hoc fraudis consilio
+            effectum detegatur. * SEV. ET ANT. AA. ABASCANTO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4203-Dd1e126">
+               <head xml:id="azsw2e-d1e4203-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4203-d1e130">
+                  <ref xml:id="azsw2e-d1e4203-Rd1e132">Imperatores
+            Severus, Antoninus</ref> Ab eo, qui bona sua pignori obligavit,
+            quae habet quaeque habiturus esset, posse servis libertatem dari certum
+            est. Non idem iuris est in his servis, qui pignoris iure specialiter
+            traditi vel obligati sunt * SEV. ET ANT. AA. ANTONIO. *&lt;A 209 PP.
+            III K. IAN. POMPEIANO ET AVITO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4203-Dd1e137">
+               <head xml:id="azsw2e-d1e4203-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4203-d1e141">
+                  <ref xml:id="azsw2e-d1e4203-Rd1e143">Imperator
+            Alexander Severus</ref> Si, ut proponis, consentiente
+            creditore, cui pignoris iure cum aliis mancipiis obligatus fuisti,
+            a debitore manumissus es, potuisti ad libertatem pervenire. *
+            ALEX. A. SABINIANO. *&lt;A 222 PP. VI ID. MAI. ALEXANDRO A. CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4203-Dd1e147">
+               <head xml:id="azsw2e-d1e4203-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e4203-d1e151">
+                  <ref xml:id="azsw2e-d1e4203-Rd1e153">Imperator
+            Alexander Severus</ref> Si creditoribus satisfactum
+            fuerit, ancillae, quae pignori obligatae a debitore manumissae erant,
+            liberae fiunt. Nam ipse manumissor si fraudem se fecisse creditoribus,
+            ut revocet libertates, audeat dicere, audiri non debet nec heredes
+            eius * ALEX. A. EXTRICATIANO. *&lt;A 223 PP. III K. IUN. MAXIMO
+            II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4203-Dd1e157">
+               <head xml:id="azsw2e-d1e4203-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e4203-d1e161">
+                  <ref xml:id="azsw2e-d1e4203-Rd1e163">Imperator
+            Alexander Severus</ref> Si tutor tuus de pecunia
+            tua servos emptos manumisit, quoniam huiusmodi servi sicut ceterae
+            res pupillaribus pecuniis emptae iure pignoris ex constitutione divorum
+            parentium meorum obligati sunt favore pupillorum, liberi facti non
+            sunt. * ALEX. A. AUCTORI. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4203-Dd1e167">
+               <head xml:id="azsw2e-d1e4203-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e4203-d1e171">
+                  <ref xml:id="azsw2e-d1e4203-Rd1e173">Imperator
+            Gordianus</ref> Sive cum nupsisses mancipia in dotem dedisti, sive
+            post datam dotem de pecunia dotis maritus tuus quaedam comparavit,
+            iuris rationibus dominia eorum ad eum pervenerunt. Ideoque frustra
+            quaestionem super statu manumissorum conaris inferre, qui eius facti,
+            qui comparavit vel in dotem accepit, ab eo iure potuerunt manumitti
+            * GORD. A. IULIANAE. *&lt;&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

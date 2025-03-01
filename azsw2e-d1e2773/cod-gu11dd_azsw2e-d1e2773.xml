@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 17</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 17</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2773"><!-- azsw2e-l5t17 -->
+            <head xml:id="azsw2e-d1e2773-Hd1e101">Titulus 17</head>
+            <head xml:id="azsw2e-d1e2773-Hd1e103" type="question-title">De repudiis et iudicio de moribus sublato</head>
+            <div xml:id="azsw2e-d1e2773-Dd1e106">
+               <head xml:id="azsw2e-d1e2773-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2773-d1e110">
+                  <ref xml:id="azsw2e-d1e2773-Rd1e112">Imperator
+            Alexander Severus</ref> Matrimonium quidem deportatione vel aqua et
+            igni interdictione non solvitur, si casus, in quem maritus incidit,
+            non mutet uxoris adfectionem. Ideoque dotis actio ipso iure non competit,
+            sed indotatam esse eam, cuius laudandum propositum est, nec ratio
+            aequitatis nec exempla permittunt * ALEX. A. AVITIANAE. *&lt;A 229
+            PP.NON.NOV.ALEXANDRO A.III ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2773-Dd1e116">
+               <head xml:id="azsw2e-d1e2773-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2773-d1e120">
+                  <ref xml:id="azsw2e-d1e2773-Rd1e122">Imperatores
+            Valerianus, Gallienus</ref> Liberum est filiae tuae, si sponsum suum
+            post tres peregrinationis annos expectandum sibi ultra non putat,
+            omissa spe huius coniunctionis matrimonium facere, ne opportunum nubendi
+            tempus amittat, cum posset nuntium remittere, si praesente eo consilium
+            mutare voluisset. * VALER. ET GALLIEN. AA. ET VALER. C. PAULINAE.
+            *&lt;A 259 PP.VII K. APRIL. AEMILIANO ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2773-Dd1e126">
+               <head xml:id="azsw2e-d1e2773-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2773-d1e130">
+                  <ref xml:id="azsw2e-d1e2773-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref>  Dubium non est omnia omnino, quae consilio
+            recte geruntur, iure meritoque effectu et firmitate niti. </p>
+               <p xml:id="azsw2e-d1e2773-d1e135" n="1">
+            Quare si tu dotem pro muliere dedisti et ex morte eius repetitionem
+            stipulatus es, circumscribendi autem tui causa ficto repudio matrimonium
+            brevi tempore rescissum est, res dotales, quas ante nuptias obtulisti,
+            praeses provinciae recipere te non dubitabit. </p>
+               <p xml:id="azsw2e-d1e2773-d1e138" n="2">
+            Certum est enim daturum operam moderatorem provinciae, ut,
+            quae contra fas gesta sunt, fructum calliditatis obtinere non possint,
+            cum nobis huiusmodi commenta displiceant. </p>
+               <p xml:id="azsw2e-d1e2773-d1e141" n="3">
+            Imaginarios enim nuntios ( id est repudia) nullius esse momenti,
+            sive nuptiis fingant se renuntiasse sive sponsalibus, etiam veteribus
+            iuris auctoribus placuit. * DIOCL. ET MAXIM. AA. TULLIO. *&lt;A 290
+            D. II K.SEPT.TIBERIADE IPSIS AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2773-Dd1e146">
+               <head xml:id="azsw2e-d1e2773-Hd1e148">4</head>
+               <p xml:id="azsw2e-d1e2773-d1e150">
+                  <ref xml:id="azsw2e-d1e2773-Rd1e152">Imperatores
+            Diocletianus, Maximianus</ref> Filiae divortium in potestate matris
+            non est. * DIOCL. ET MAXIM. AA. ET CC. PISONI. *&lt;A 294 D. III K.
+            IAN. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2773-Dd1e156">
+               <head xml:id="azsw2e-d1e2773-Hd1e158">5</head>
+               <p xml:id="azsw2e-d1e2773-d1e160">
+                  <ref xml:id="azsw2e-d1e2773-Rd1e162">Imperatores
+            Diocletianus, Maximianus</ref>  Dissentientis patris, qui initio consensit
+            matrimonio, cum marito concordante uxore filia familias ratam non
+            haberi voluntatem divus Marcus pater noster religiosissimus imperator
+            constituit, nisi magna et iusta causa interveniente hoc pater fecerit.
+            </p>
+               <p xml:id="azsw2e-d1e2773-d1e165" n="1">
+            Invitam autem ad maritum redire nulla iuris praecepit constitutio.
+            </p>
+               <p xml:id="azsw2e-d1e2773-d1e168" n="2">
+            Emancipatae vero filiae pater divortium in arbitrio suo non
+            habet. * DIOCL. ET MAXIM. AA. ET CC. SCYRIONI. *&lt;A 294 D. V K.
+            SEPT. NICOMEDIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2773-Dd1e172">
+               <head xml:id="azsw2e-d1e2773-Hd1e174">6</head>
+               <p xml:id="azsw2e-d1e2773-d1e176">
+                  <ref xml:id="azsw2e-d1e2773-Rd1e178">Imperatores
+            Diocletianus, Maximianus</ref> Licet repudii libellus non fuerit traditus
+            vel cognitus marito, dissolvitur matrimonium. * DIOCL. ET MAXIM. AA.
+            ET CC. PHOEBO. *&lt;A 294 D. XVIII K. IAN. NICOMEDIAE CC. CONSS. &gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2773-Dd1e182">
+               <head xml:id="azsw2e-d1e2773-Hd1e184">7</head>
+               <p xml:id="azsw2e-d1e2773-d1e186">
+                  <ref xml:id="azsw2e-d1e2773-Rd1e188">Imperator
+            Constantinus</ref>  Uxor, quae in militiam profecto marito post interventum
+            annorum quattuor nullum sospitatis eius potuit habere indicium atque
+            ideo de nuptiis alterius cogitavit nec tamen ante nupsit, quam libello
+            ducem super hoc suo voto convenit, non videtur nuptias inisse furtivas
+            nec dotis amissionem sustinere nec capitali poenae esse obnoxia, quae
+            post tam magni temporis iugitatem non temere nec clanculo, sed publice
+            contestatione deposita nupsisse firmatur. </p>
+               <p xml:id="azsw2e-d1e2773-d1e191" n="1">
+            Ideoque observandum est, ut, si adulterii suspicio nulla
+            sit nec coniunctio furtiva detegitur, nullum periculum ab his quorum
+            coniugio erant copulatae vereantur, cum, si conscientia maritalis
+            tori furtim esset violata, disciplinae ratio poenam congruam flagitaret.
+            * CONSTANT. A. AD DELMATIUM. *&lt;A 337 D...... NAISSO FELICIANO ET
+            TITIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2773-Dd1e195">
+               <head xml:id="azsw2e-d1e2773-Hd1e197">8</head>
+               <p xml:id="azsw2e-d1e2773-d1e199">
+                  <ref xml:id="azsw2e-d1e2773-Rd1e201">Imperatores
+            Theodosius, Valentinianus</ref>  Consensu licita matrimonia posse contrahi,
+            contracta non nisi misso repudio solvi praecipimus. Solutionem etenim
+            matrimonii difficiliorem debere esse favor imperat liberorum </p>
+               <p xml:id="azsw2e-d1e2773-d1e204" n="1">
+            Causas autem repudii hac saluberrima lege apertius designamus.
+            Sicut enim sine iusta causa dissolvi matrimonia iusto limite prohibemus,
+            ita adversa necessitate pressum vel pressam, quamvis infausto, attamen
+            necessario auxilio cupimus liberari </p>
+               <p xml:id="azsw2e-d1e2773-d1e207" n="2">
+            Si qua igitur maritum suum adulterum aut homicidam vel veneficum
+            vel certe contra nostrum imperium aliquid molientem vel falsitatis
+            crimine condemnatum invenerit, si sepulchrorum dissolutorem, si sacris
+            aedibus aliquid subtrahentem, si latronem vel latronum susceptorem
+            vel abactorem aut plagiarium vel ad contemptum sui domi suae ipsa
+            inspiciente cum impudicis mulieribus ( quod maxime etiam castas exasperat)
+            coetum ineuntem, si suae vitae veneno aut gladio vel alio simili modo
+            insidiantem, si se verberibus, quae ab ingenuis aliena sunt, adficientem
+            probaverit, tunc repudii auxilio uti necessariam ei permittimus libertatem
+            et ca usas discidii legibus comprobare. </p>
+               <p xml:id="azsw2e-d1e2773-d1e210" n="3">
+            Vir quoque pari fine claudetur nec licebit ei sine causis
+            apertius designatis propriam repudiare iugalem, nec ullo modo expellat
+            nisi adulteram, nisi veneficam aut homicidam aut plagiariam aut sepulchrorum
+            dissolutricem aut ex sacris aedibus aliquid subtrahentem aut latronum
+            fautricem aut extraneorum virorum se ignorante vel nolente convivia
+            appetentem aut ipso invito sine iusta et probabili causa foris scilicet
+            pernoctantem, nisi circensibus vel theatralibus ludis vel harenarum
+            spectaculis in ipsis locis, in quibus haec adsolent celebrari, se
+            prohibente gaudentem, nisi sui veneno vel gladio aut alio simili modo
+            insidiatricem, vel contra nostrum imperium aliquid machinantibus consciam,
+            seu falsitatis se crimini immiscentem invenerit, aut manus audaces
+            sibi probaverit ingerentem: tunc enim necessariam ei discedendi permittimus
+            facultatem et causas discidii legibus comprobare. </p>
+               <p xml:id="azsw2e-d1e2773-d1e214" n="4">
+            Haec nisi vir vel mulier observaverint, ultrici providentissimae
+            legis poena plectentur. Nam mulier si contempta lege repudium mittendum
+            esse temptaverit, suam dotem et ante nuptias donationem amittat nec
+            intra quinquennium nubendi habeat denuo potestatem: aequum est enim
+            eam interim carere conubio, quo se monstravit indignam </p>
+               <p xml:id="azsw2e-d1e2773-d1e217"> 
+            Quod si praeter haec nupserit, erit ipsa quidem infamis,
+            conubium vero illud nolumus nuncupari: insuper etiam arguendi hoc
+            ipsum volenti concedimus libertatem. </p>
+               <p xml:id="azsw2e-d1e2773-d1e219"> 
+            Si vero causam probaverit intentatam, tunc eam et dotem recuperare
+            et ante nuptias donationem lucro habere aut legibus vindicare censemus
+            et nubendi post annum ei, ne quis de prole dubitet, permittimus facultatem.
+            </p>
+               <p xml:id="azsw2e-d1e2773-d1e221" n="5">
+            Virum etiam, si mulierem interdicta arguerit attemptantem,
+            tam dotem quam ante nuptias donationem sibi habere seu vindicare uxoremque,
+            si velit, statim ducere hac iusta definitione sancimus. Sin autem
+            aliter uxori suae renuntiare voluerit, dotem redhibeat et ante nuptias
+            donationem amittat </p>
+               <p xml:id="azsw2e-d1e2773-d1e224" n="6">
+            Servis scilicet seu ancillis puberibus, si crimen adulterii
+            vel maiestatis ingeritur, tam viri quam mulieris ad examinandam causam
+            repudii, quo veritas aut facilius eruatur aut liquidius detegatur,
+            si tamen alia documenta defecerint, quaestionibus subdendis. Super
+            plagis etiam, prout dictum est, illatis ab alterutro commovendis easdem
+            probationes ( quoniam non facile quae domi geruntur per alienos poterunt
+            confiteri) volumus observari</p>
+               <p xml:id="azsw2e-d1e2773-d1e227" n="7">
+            Si vero filio seu filiis, filia seu filiabus extantibus repudium
+            missum est, omne quidquid ex nuptiis lucratum est filio seu filiis,
+            filiae seu filiabus post mortem accipientis servari, id est si pater
+            temere repudium miserit, donationem ante nuptias a matre servari,
+            si mater, dotem ipsam eidem vel eisdem filio seu filiae patre moriente
+            dimitti censemus: patri videlicet vel matri in scribendis filiis heredibus,
+            unum seu unam vel omnes si scribere vel uni ex his donare velit, electione
+            servata. </p>
+               <p xml:id="azsw2e-d1e2773-d1e231"> 
+            Nec ullam alienandi seu supponendi memoratas res permittimus
+            facultatem: sed si aliquid ex isdem rebus defuerit, ab heredibus seu
+            earum detentatoribus, si tamen non ipsos heredes scripserit aut scripti
+            filii non adierint, praecipimus resarciri, ut etiam hoc modo inconsulti
+            animi ad repudium mittendum detrimento retrahantur. </p>
+               <p xml:id="azsw2e-d1e2773-d1e233" n="8">
+            Pactiones sane, si quae adversus praesentia scita nostrae
+            maiestatis fuerint attemptandae, tamquam legum contrarias nullam habere
+            volumus firmitatem. * THEODOS. ET VALENTIN. AA. HORMISDAE PP. *&lt;A
+            449 D.V ID.IAN.PROTOGENE ET ASTERIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2773-Dd1e237">
+               <head xml:id="azsw2e-d1e2773-Hd1e239">9</head>
+               <p xml:id="azsw2e-d1e2773-d1e241">
+                  <ref xml:id="azsw2e-d1e2773-Rd1e243">Imperator
+            Anastasius</ref> Si constante matrimonio communi consensu tam mariti
+            quam mulieris repudium sit missum, quo nulla causa continetur, quae
+            consultissimae constitutioni divae memoriae Theodosii et Valentiniani
+            inserta est, licebit mulieri non quinquennium expectare, sed post
+            annum ad secundas nuptias convolare. * ANASTAS. A. THEODORO. *&lt;A
+            497 D.XV K. MART. ANASTASIO A. II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2773-Dd1e248">
+               <head xml:id="azsw2e-d1e2773-Hd1e250">10</head>
+               <p xml:id="azsw2e-d1e2773-d1e252">
+                  <ref xml:id="azsw2e-d1e2773-Rd1e254">Imperator
+            Justinianus</ref> In causis iam dudum specialiter definitis, ex quibus
+            recte mittuntur repudia, illam addimus, ut, si maritus uxori ab initio
+            matrimonii usque ad duos continuos annos computandos coire minime
+            propter naturalem imbecillitatem valeat, possit mulier vel eius parentes
+            sine periculo dotis amittendae repudium marito mittere, ita tamen,
+            ut ante nuptias donatio eidem marito servetur. * IUST. A. MENAE PP.
+            *&lt;A 528 D. III ID. DEC. DN. IUSTINIANO A. PP.II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2773-Dd1e258">
+               <head xml:id="azsw2e-d1e2773-Hd1e260">11</head>
+               <p xml:id="azsw2e-d1e2773-d1e262">
+                  <ref xml:id="azsw2e-d1e2773-Rd1e264">Imperator
+            Justinianus</ref>  Iubemus, ut, quicumque mulierem cum voluntate parentium
+            aut, si parentes non habuerit, sua voluntate maritali adfectu in matrimonium
+            acceperit, etiamsi dotalia instrumenta non intercesserint nec dos
+            data fuerit, tamquam si cum instrumentis dotalibus tale matrimonium
+            processisset, firmum coniugium eorum habeatur: non enim dotibus, sed
+            adfectu matrimonia contrahuntur. </p>
+               <p xml:id="azsw2e-d1e2773-d1e267" n="1">
+            Si quis autem eam, quam sine dote uxorem acceperat, a coniugio
+            suo repellere voluerit, non alias ei hoc facere licebit, nisi talis
+            culpa intercesserit, quae a nostris legibus condemnatur. </p>
+               <p xml:id="azsw2e-d1e2773-d1e270"> 
+            Si vero sine culpa eam reiecerit vel ipse talem culpam contra
+            innocentem mulierem commiserit, compellatur ei quartam partem propriae
+            substantiae pro rata portione persolvere, ut, si quidem quadringentarum
+            librarum auri vel amplius vir substantiam habeat, centum libras auri
+            mulieri praestet et nihil amplius, etsi quantamcumque substantiam
+            possideat: sin vero minus quadringentis libris auri puta substantia
+            eius fuerit, tunc quarta pars computatione facta purae substantiae
+            eius usque ad minimam quantitatem mulieri detur. </p>
+               <p xml:id="azsw2e-d1e2773-d1e272"> 
+            Eodem modo servando et in mulieribus, quae indotatae constitutae
+            sine culpa mariti constitutionibus cognita eos repudiaverint vel ipsae
+            culpam innocenti marito praebuerint, ut ex utraque parte aequa lance
+            et aequitas et poena servetur. </p>
+               <p xml:id="azsw2e-d1e2773-d1e275"> 
+            Hoc lucro quartae partis filiis quidem non extantibus ipsis
+            viro et mulieri competenti et ab his quo modo voluerint disponendo,
+            filiis autem et deinceps personis ex eodem matrimonio intervenientibus
+            eis servando ad similitudinem dotis et propter nuptias donationis
+            per omnia, quae super his statuta sunt. </p>
+               <p xml:id="azsw2e-d1e2773-d1e277" n="2">
+            Inter culpas autem uxoris constitutionibus enumeratas et
+            has addimus, si forte uxor sua ope vel ex industria abortum fecerit,
+            vel ita luxuriosa est, ut commune lavacrum viris libidinis causa habere
+            audeat, vel, dum est in matrimonio, alium maritum fieri sibi conata
+            fuerit. </p>
+               <p xml:id="azsw2e-d1e2773-d1e280"> 
+            Et in his enim causis locum habere constitutiones sancimus,
+            quae de culpa tam mariti quam uxoris loquuntur, ut, quemadmodum dos
+            et donatio propter nuptias perit, ita et mulieres indotatae in quartam
+            partem, quam et viris et mulieribus ex hac lege destinavimus, amissionis
+            periculum sustineant. </p>
+               <p xml:id="azsw2e-d1e2773-d1e282"> 
+            Iudicio de moribus, quod antea quidem in antiquis legibus
+            positum erat, non autem frequentabatur, penitus abolito: omnibus etenim
+            causis requisitis et perlectis, quas antiquitas introducebat, nihil
+            validum praeter eas, quas anteriores constitutiones et praesens dispositio
+            introduxit, invenimus. * IUST. A. HERMOGENI MAG. OFF. *&lt;A 533 D.XV
+            K.DEC.CONSTANTINOPOLI DN. IUSTINIANO PP. A. III CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2773-Dd1e285">
+               <head xml:id="azsw2e-d1e2773-Hd1e287">12</head>
+               <p xml:id="azsw2e-d1e2773-d1e289"><!-- greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

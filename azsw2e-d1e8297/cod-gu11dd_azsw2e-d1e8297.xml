@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 33</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 33</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8297"><!-- azsw2e-l12t33 -->
+            <head xml:id="azsw2e-d1e8297-Hd1e101">Titulus 33</head>
+            <head xml:id="azsw2e-d1e8297-Hd1e103" type="question-title">Qui militare possunt vel non et de servis ad militiam vel dignitatem
+            adspirantibus et ut nemo duplici militia vel dignitate et militia
+            simul utatur</head>
+            <div xml:id="azsw2e-d1e8297-Dd1e106">
+               <head xml:id="azsw2e-d1e8297-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8297-d1e110">
+                  <ref xml:id="azsw2e-d1e8297-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Si militiae nomen dare vultis, offerte vos
+            his qui probandi ius habent. Non autem ignoratis eos, qui litis causa
+            militiam appetierunt, postulantibus adversariis solvi sacramento solere
+            * SEV. ET ANT. AA. ANTONIO SUO SALUTEM. *&lt;A X&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8297-Dd1e116">
+               <head xml:id="azsw2e-d1e8297-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e8297-d1e120">
+                  <ref xml:id="azsw2e-d1e8297-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> Non tantum decurionum filiis, sed omnibus
+            in fraudem civilium munerum nomina armatae militiae dantibus fraudem
+            prodesse displicuit. * DIOCL. ET MAXIM. AA. VALERIO MIL. *&lt;A X&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8297-Dd1e126">
+               <head xml:id="azsw2e-d1e8297-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e8297-d1e130">
+                  <ref xml:id="azsw2e-d1e8297-Rd1e132">Imperatores
+            Arcadius, Honorius</ref> Cura pervigili observare debebit sublimitas
+            tua, ne coloni vel saltuenses aut ultro se offerentes ad militiam
+            suscipiantur armatam aut cogantur inviti. * ARCAD. ET HONOR. AA. PULCHRO
+            MAG. UTR. MIL. *&lt;A X &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8297-Dd1e137">
+               <head xml:id="azsw2e-d1e8297-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e8297-d1e141">
+                  <ref xml:id="azsw2e-d1e8297-Rd1e143">Imperator
+            Leo</ref> Omnes omnino curialis vel cohortalis condicionis constituti
+            nullam armatam militiam in posterum adripiant. * LEO A. DIOSCORO PP.
+            *&lt;A 472 ? &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8297-Dd1e147">
+               <head xml:id="azsw2e-d1e8297-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e8297-d1e151">
+                  <ref xml:id="azsw2e-d1e8297-Rd1e153">Imperator
+            Justinus</ref>  Eis quidem, quibus indultum hactenus demonstratur,
+            quo binis aut ternis pluribusve mereantur cingulis non coniunctis
+            e prisca consuetudine, sed absectis atque discrepantibus, detur electio,
+            quem retinendum sibi potius censeant, quem deserendum cognoscant,
+            ut in eo quod optaverint firmiter maneant, eo quod despexerint sine
+            dubitatione reppellantur. </p>
+               <p xml:id="azsw2e-d1e8297-d1e156" n="1">
+            In posterum vero nemini prorsus facultas pateat eodem tempore
+            plus quam unius ordinis nomen adfectare, interdicendis in commune
+            cunctis ut dictum est binis pluribusve militiis, nec dignitatem coniungere
+            cuilibet alii cingulo concedendis, ut et qui supplicandum de re vetita
+            nobis existimaverint, poena decem librarum auri pro temeritate quamvis
+            infructuosa plectantur, et qui susceperint iussionem augustam per
+            subreptionem elicitam, quod nonnumquam contingit, decem librarum auri
+            multa feriantur: scriniis etiam nec non officiis, quorum haec intersit,
+            si non restiterint et hanc pragmaticam legem obiecerint, decem librarum
+            auri dispe ndio puniendis. </p>
+               <p xml:id="azsw2e-d1e8297-d1e159"> 
+            Si quid autem contra haec perpetretur, sciant omnes, quod
+            extra concessum admissum est aut actum fuerit vel notis conscriptum
+            publicis, simile habeatur, ac si nec impetratum nec pronuntiatum omnino
+            nec insertum esset ullis matriculis. </p>
+               <p xml:id="azsw2e-d1e8297-d1e161" n="2">
+            Scituris etiam omnibus, qui merentes in ordinibus armatis
+            sive civilibus administrandas provincias seu regendos quoslibet numeros
+            vel iam sunt seu de cetero fuerint iussione nostra sortiti et, ut
+            servetur eis gradus, augusta promeriti sanctione, parem indulgendam
+            sibi licentiam, postquam deposuerint sollicitudinem, aut in priore
+            cingulo protinus persistendi, nullo vindicando titulo dignitatis,
+            quem sollicitudo media praestiterint, aut retinendi splendorem, quem
+            adquisierint administrationis obtentu, verum priore cingulo desistendi.
+            </p>
+               <p xml:id="azsw2e-d1e8297-d1e165" n="3">
+            Monente tamen innata nobis clementia liberum esse cunctis
+            prospeximus, si militia, qua decedendum est, inter eas habetur, quas
+            volentibus licet distrahere, et in alios eam conferendi et pretia
+            consequendi, prout in isdem agminibus consuevit hactenus. </p>
+               <p xml:id="azsw2e-d1e8297-d1e168" n="4">
+            Excipiendis videlicet nec deducendis in hanc perpetuo conservandam
+            legem pragmaticam eis, qui binas militias simul compositas et sociali
+            nexas consortio fuerint adsecuti, ut in viris dicatissimis scholaribus
+            atque candidatis fieri moris est nec non in viris devotis laterculensibus
+            et pragmaticariis vel a secretis contigit, quos memorialium etiam
+            aut agentum in rebus adornat cingulus, et si qui simili stipendiorum
+            iunguntur copula. * IUSTINUS A. LICINIO MAG. OFF. *&lt;A 524 D. VIII
+            K. IAN. CONSTANTINOPOLI IUSTINO A. ITERUM ET OPILIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8297-Dd1e172">
+               <head xml:id="azsw2e-d1e8297-Hd1e174">6</head>
+               <p xml:id="azsw2e-d1e8297-d1e176">
+                  <ref xml:id="azsw2e-d1e8297-Rd1e178">Imperator
+            Justinianus</ref>  Super servis, qui postea ad quandam militiam adspirare
+            temptaverint vel scientibus vel ignorantibus dominis, praecipimus,
+            si quidem ignorantibus his eam meruerint, licere dominis adire competentem
+            iudicem et suam ignorantiam eo, quod contrarium minime probatur, ostendere
+            eoque modo spoliatos eos militia in suum dominium trahere: sin vero
+            scientibus his servi militaverint, cadere quidem eos non tantum dominio
+            eorum, sed etiam omni patronatus iure, illos vero ingenuos effectos,
+            si quidem utiles ad militiam eis datam visi fuerint, in ea durare,
+            sin vero minime idonei sint, ea privari. </p>
+               <p xml:id="azsw2e-d1e8297-d1e181" n="1">
+            Super illis autem servis, qui iam militarunt et adhuc in
+            eadem militia perseverant, licentiam dominis damus intra triginta
+            dierum spatium ab eo tempore connumerandorum, quo praesens sanctio
+            divulgata fuerit, vel nostram adire clementiam vel competentes iudices
+            et suam innocentiam commendare eosque in suum recipere dominium. </p>
+               <p xml:id="azsw2e-d1e8297-d1e184" n="2">
+            Quo tempore transacto simili modo tam dominio quam omni patronatus
+            iure cadere eos necesse est. * IUST. A. MENAE PP. *&lt;A 529 D. VIII
+            ID. APRIL. CONSTANTINOPOLI DECIO CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8297-Dd1e188">
+               <head xml:id="azsw2e-d1e8297-Hd1e190">7</head>
+               <p xml:id="azsw2e-d1e8297-d1e192">
+                  <ref xml:id="azsw2e-d1e8297-Rd1e194">Imperator
+            Justinianus</ref>  Si quis servum suum dignitatem habere, quemadmodum
+            militiam, fuerit passus, spolietur et dominio servi et iure, quod
+            pervenit ad patronos. </p>
+               <p xml:id="azsw2e-d1e8297-d1e197" n="1">
+            Cui enim ferendum est homines a nostra manu donationes accipientes
+            adhuc inter servos haberi et forte cum suis dominis nostram purpuram
+            adorantes? </p>
+               <p xml:id="azsw2e-d1e8297-d1e200" n="2">
+            In his itaque casibus, in quibus non militia, sed dignitas
+            volentibus dominis servis adquiritur, eadem iura reserventur, quae
+            antea posita sunt, ne videatur nostra sanctio aliquid habere imperfectum.
+            </p>
+               <p xml:id="azsw2e-d1e8297-d1e203" n="3">
+            Sciant autem domini ad exemplum praeteritae nostrae constitutionis,
+            quae de huiusmodi servis loquitur, quod, nisi hoc intra triginta dies,
+            ex quo hoc eis fuerit notum, manifestaverint et competentem iudicem
+            adierint et spoliare eos dignitatibus curaverint, dominium eorum et
+            ius patronatus amittant, nobis deliberantibus, postquam dominio fuerint
+            servi liberati et inter ingenuos connumerati, si oportet eos habere
+            dignitatem vel ea quasi indignos spoliari. * IUST. A. IOHANNI PP.
+            *&lt;A 531 D. K. SEPT. POST CONSULATUM LAMPADII ET ORESTIS VV. CC.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8297-Dd1e207">
+               <head xml:id="azsw2e-d1e8297-Hd1e209">8</head>
+               <p xml:id="azsw2e-d1e8297-d1e211"><!-- greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

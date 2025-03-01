@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 35</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 35</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6564"><!-- azsw2e-l10t35 -->
+            <head xml:id="azsw2e-d1e6564-Hd1e101">Titulus 35</head>
+            <head xml:id="azsw2e-d1e6564-Hd1e103" type="question-title">Quando et quibus debetur quarta pars ex bonis decurionum et de modo
+            distributionis eorum</head>
+            <div xml:id="azsw2e-d1e6564-Dd1e106">
+               <head xml:id="azsw2e-d1e6564-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6564-d1e110">
+                  <ref xml:id="azsw2e-d1e6564-Rd1e112">Imperatores
+            Theodosius, Valentinianus</ref> Si decurionum consortio sit alienus
+            qui curiali successit, competentis eidem iuris ( sive ex asse sive
+            ex parte heres sit bonorumve possessor) partem quartam iure optimo
+            a curia peti decernimus. * THEODOS. ET VALENTIN. AA. FLORENTIO PP.
+            *&lt;A 428 D.V ID.IUN.CONSTANTINOPOLI FELICE ET TAURO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6564-Dd1e116">
+               <head xml:id="azsw2e-d1e6564-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6564-d1e120">
+                  <ref xml:id="azsw2e-d1e6564-Rd1e122">Imperator
+            Zeno</ref>  Meminimus nuper emissa lege divali portionem quartam de
+            facultatibus curialium fati munus implentium, ex qualibet novissima
+            voluntate vel ab intestato etiam ad quemcumque praeterquam si ad filios
+            curiales deferantur, curiarum deputasse corporibus. Sed multi tamquam
+            corrumpendi totius patrimonii occasione captata uniuscuiusque rei
+            sibi particulam vindicando adeo totas dilacerant facultates, ut, dum
+            participibus relictarum opum nocere cupiant, sua quoque iura praecipitent
+            </p>
+               <p xml:id="azsw2e-d1e6564-d1e125" n="1">
+            Quorum nimiam licentiam provida dispositione frenantes ipsis
+            quidem curialibus occupandi sua auctoritate res mortui copiam denegamus:
+            heres autem, ad quem ab intestato vel ex postrema voluntate directis
+            vel fideicommissariis verbis decurrit hereditas, omne patrimonium
+            quod relictum est in partes quattuor dividi procuret, ut, rebus totis
+            in sortitum casumque deductis vel curiae quadrantis vel heredi vel
+            fideicommissario per universitatem dodrantis electio ex sortis felicitate
+            contingat. </p>
+               <p xml:id="azsw2e-d1e6564-d1e128"> 
+            Ita scilicet et praefati successores et curia promiscui rerum
+            dominii liberabuntur incommodo. Naturale quippe vitium est neglegi,
+            quod communiter possidetur, utque se nihil habere, qui non totum habeat,
+            arbitretur, denique suam quoque partem corrumpi patiatur, dum invidet
+            alienae </p>
+               <p xml:id="azsw2e-d1e6564-d1e130" n="2">
+            Sed ubi quarta pars bonorum mortui curiae debet offerri,
+            immobiles quidem res, quae nec latere facile possunt nec quicquam
+            si divulgentur officiunt, sub adspectu etiam curialium aestimari dividique
+            concedimus: mobiles autem res vel se moventes vel instrumenta, vel
+            si quid etiam in huiusmodi iure consistat, in medium proferri divulgarique
+            non patimur, sed iuratis successoribus, cum apud se diligenter aestimaverint,
+            quae quantique sint pretii facultates, credi oportere decernimus.
+            Quid enim tam durum tamque inhumanum est, quam publicatione pompaque
+            rerum familiarium et paupertatis detegi vilitatem et invidiae patere
+            divitias </p>
+               <p xml:id="azsw2e-d1e6564-d1e134" n="3">
+            In exigendis vero debitis, si pretium, quod pro quarta parte
+            actionum curiae competit, successores praestare noluerint, cautionibus
+            iurata fide prolatis in medium unusquisque a debitoribus convenientem
+            sibi exigat portionem: eque diverso aes alienum, si cui defunctus
+            fuerat obligatus, tam idem successores quam curia pro sua sorte restituere
+            compellentur. </p>
+               <p xml:id="azsw2e-d1e6564-d1e137" n="4">
+            Quod si saepe dicti successores sacramentum sibi crediderint
+            excusandum, tum vero ad similitudinem rerum immobilium diligentior
+            curialibus omnium rerum indago praebebitur, scilicet ut universis
+            mortui facultatibus in aperto propositis vel aestimatio rerum vel
+            divisio sub praesentia curialium celebretur. </p>
+               <p xml:id="azsw2e-d1e6564-d1e140" n="5">
+            In omnibus autem casibus, ubi quarta pars curiae competit,
+            transactiones interpositas firmas illibatasque manere decernimus.
+            </p>
+               <p xml:id="azsw2e-d1e6564-d1e143" n="6">
+            Ad filiorum vero curialium vel nepotum ac pronepotum, scilicet
+            decurionum, similitudinem, ad quos integras opes pervenire censuimus,
+            filiam quin etiam neptem proneptemve principali eiusdem civitatis,
+            unde pater avus vel proavus oritur, nuptam rerum vel ab intestato
+            vel ex dispositione ultimae voluntatis quaesitarum integrum nullaque
+            parte minutum dominium habere sancimus. </p>
+               <p xml:id="azsw2e-d1e6564-d1e146" n="7">
+            Quod si post parentum obitum inveniantur innuptae vel viduae,
+            in impuberibus quidem post transactam pubertatem, in aliis vero, quae
+            pubertatem excesserint, vel etiam in viduis post mortem parentis triennium
+            dumtaxat volumus expectari, ut interim quarta portio suspensa aut
+            apud eam, si in matrimonio curialis eiusdem civitatis fuerit collocata,
+            perpetuo iure permaneat vel, si intra id temporis alienum eadem curia
+            sortiatur maritum penitusve nupta non fuerit, memorata pars totius
+            substantiae curiae cum triennii tam urbanorum quam rusticorum praediorum
+            dumtaxat fructibus addicatur: ita tamen, ut sacramenti tam de quantitate
+            quam de aestimatione rerum mobilium deque actionibus inferendis excipiendisve,
+            sicut in extraneis personis dictum est, ratio conservetur. </p>
+               <p xml:id="azsw2e-d1e6564-d1e149" n="8">
+            Sed et si mater mortui vel avia tempore, quo filius neposve
+            moritur, in coniugio eiusdem civitatis curialis inventa fuerit, ne
+            ipsas quidem patimur quartae portionis subire iacturam. </p>
+               <p xml:id="azsw2e-d1e6564-d1e153" n="9">
+            Extraneum quin etiam heredem propinquitatis quidem iure discretum,
+            curiae tamen eiusdem civitatis obnoxium supra dictae portionis dispendio
+            liberamus. * ZENO A. APOLLONIO PP. *&lt;A
+            443 D.VIII ID.MART.CONSTANTINOPOLI POST CONSULATUM DIOSCURI ET EUDOXII
+            VV.CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6564-Dd1e157">
+               <head xml:id="azsw2e-d1e6564-Hd1e159">3</head>
+               <p xml:id="azsw2e-d1e6564-d1e161">
+                  <ref xml:id="azsw2e-d1e6564-Rd1e163">Imperator
+            Justinianus</ref>  Si quis curialibus muniis obnoxius, uno forte vel
+            pluribus filiis vel filiabus derelictis, filio quidem vel filiis suae
+            substantiae partem minimam dereliquerit , eam tamen, quae excludere
+            eos de inofficiosi querella potest, aliis autem suam substantiam dereliquit,
+            ut ex hac patrimonii distributione ad filium quidem vel filios curiales
+            minima pars substantiae remaneat, totum autem curiale munus masculis
+            immineat, sive filii sive nepotes sint vel pronepotes, curiali tamen
+            condicioni obnoxii: sancimus huiusmodi iniquitatem resecari et non
+            minus quarta portione in masculos posse testatorem transmittere, sive
+            unus est filius sive plures, nulla deminutione ex permixtione sororum
+            eis facienda, ut non solum corporibus, sed etiam substantiis laborantes
+            possint curiales habere consortium. </p>
+               <p xml:id="azsw2e-d1e6564-d1e166" n="1">
+            Ad hoc sancimus, si quis curialis filiabus pluribus derelictis
+            ab hac luce fuerit subtractus, quarum una curiali eiusdem nupserit
+            civitatis, aliis filiabus, quae ad huiusmodi vota non migraverint,
+            vel extraneis in reliquam partem heredibus derelictis, non videri
+            curiae ex sententia legis theodosianae ad apollonium scriptae satisfieri:
+            sed omnino quartam partem patrimonii curia consequatur, sive uni filiae,
+            quae curialibus nuptiis copulata sit, deputanda sive ex aliis heredibus
+            colligenda, filia procul dubio que curiali nupsit immuni ab huiusmodi
+            quartae datione servanda, cum per maritum eius quantum ad ipsius personam
+            curiae sit satisfactum: et hoc observari non solum si ultimo elogio
+            condito testator curialis decesserit, sed etiam si intestato diem
+            suum obierit. </p>
+               <p xml:id="azsw2e-d1e6564-d1e169" n="2">
+            Sed si quid minus fuerit vel minime derelictum, hoc modis
+            omnibus filio curiali vel filiae, quae nupta est eiusdem civitatis
+            decurioni, ex substantia patris curialis vel deputari vel adimpleri:
+            nullo obstaculo curiae opponendo, si secundum praedictam legem filius
+            nepos pronepos pater avus proavus curiali morienti fuerint derelicti,
+            qui nexibus curialibus ex quacumque vel dignitate vel occasione fuerint
+            absoluti: in hoc etenim theodosianae legi apertissime volumus esse
+            derogatum. </p>
+               <p xml:id="azsw2e-d1e6564-d1e172" n="3">
+            Et generaliter definimus ex omni causa neque masculos liberos
+            neque filias copulatas matrimonio curialis minus quarta parentis substantiae
+            habere, vel non extantibus filiis vel filiabus, sed aliis heredibus
+            ipsam curiam secundum anteriores leges quartae curialis morientis
+            habere solacium. * IU ST. A. MENAE PP. *&lt;A 528 D.K.IUN.CONSTANTINOPOLI IUSTINIANO
+            A.II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6564-Dd1e177">
+               <head xml:id="azsw2e-d1e6564-Hd1e179">4</head>
+               <p xml:id="azsw2e-d1e6564-d1e181"><!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e6564-Dd1e185">
+               <head xml:id="azsw2e-d1e6564-Hd1e187">5</head>
+               <p xml:id="azsw2e-d1e6564-d1e189"><!-- Greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

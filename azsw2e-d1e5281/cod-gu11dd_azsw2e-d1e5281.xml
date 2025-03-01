@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 29</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 29</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5281"><!-- azsw2e-l8t29 -->
+            <head xml:id="azsw2e-d1e5281-Hd1e101">Titulus 29</head>
+            <head xml:id="azsw2e-d1e5281-Hd1e103" type="question-title">Si vendito pignore agatur</head>
+            <div xml:id="azsw2e-d1e5281-Dd1e106">
+               <head xml:id="azsw2e-d1e5281-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5281-d1e110">
+                  <ref xml:id="azsw2e-d1e5281-Rd1e112">Imperator
+            Alexander Severus</ref>  Praeses provinciae aditus, si probatum fuerit
+            tuum creditorem, cui ius distrahendi pignora fuit, dolo malo fundum
+            vendidisse, quanti tua interest restituere tibi eundem creditorem
+            iubebit. </p>
+               <p xml:id="azsw2e-d1e5281-d1e115" n="1">
+            Quod si de bonis creditoris condemnati solvi pecunia non
+            potuerit et probatum fuerit emptorem mala fide emisse, offerenti pecuniam
+            cum usuris, quanti fundus veniit, restituere tibi fundum cum fructibus
+            malae fidei emptorem iubebit. * ALEX. A. AGRIPPAE. *&lt;A 222 PP.
+            K. SEPT. ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5281-Dd1e119">
+               <head xml:id="azsw2e-d1e5281-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e5281-d1e123">
+                  <ref xml:id="azsw2e-d1e5281-Rd1e125">Imperator
+            Alexander Severus</ref> Servos, quos nullo iure a creditore venisse
+            dicis, pater tuus vel tu, si hereditas eius ad te pertinet, a possessoribus
+            petere potes. Quod si usucapti sunt, petat pater tuus pretium eorum
+            a creditore, qui non iure eos servos vendidit * ALEX. A. AEMILIO.
+            *&lt;A 222 PP. III K. IAN. ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5281-Dd1e129">
+               <head xml:id="azsw2e-d1e5281-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e5281-d1e133">
+                  <ref xml:id="azsw2e-d1e5281-Rd1e135">Imperator
+            Alexander Severus</ref> Si uxor tua praesidi probaverit, cum aureos
+            triginta deberet, servos suos amplioris pretii per gratiam aureis
+            viginti creditorem venumdedisse eumque solvendo non fuisse, iubebit
+            emptores recepto pretio restituere servos. * ALEX. A. CLAUDIO. *&lt;A
+            223 PP. XVI K. OCT. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5281-Dd1e140">
+               <head xml:id="azsw2e-d1e5281-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e5281-d1e144">
+                  <ref xml:id="azsw2e-d1e5281-Rd1e146">Imperator
+            Gordianus</ref> Cum contra bonam fidem venditionem obligatae possessionis
+            a creditore factam adleges, non observatis, quae in distrahendis pignoribus
+            celebrari consueverunt, adito praeside provinciae experire actione
+            competenti non tantum adversus creditorem, verum etiam adversus possessorem,
+            si fraudem eum participasse cum creditore potueris docere, ut revocatis,
+            quae mala fide gesta constiterit, et fructuum ratio et damni quod
+            inrogatum apparuerit haberi possit. * GORD. A. EUDEMO. *&lt;A 240
+            PP. K. APRIL. SABINO II ET VENUSTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5281-Dd1e150">
+               <head xml:id="azsw2e-d1e5281-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e5281-d1e154">
+                  <ref xml:id="azsw2e-d1e5281-Rd1e156">Imperatores
+            Diocletianus, Maximianus</ref> Si creditore pignus priusquam ei satisfieret
+            distrahente non per collusionem emptor comparavit, successor eius
+            de superfluo, non emptoris heres, qui rem possidet, conveniendus est.
+            * DIOCL. ET MAXIM. AA. ET CC. NONNAE. *&lt;A 294 S. XVI K. IAN. NICOMEDIAE
+            CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

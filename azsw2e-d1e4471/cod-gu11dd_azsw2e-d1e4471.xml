@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 32</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 32</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4471"><!-- azsw2e-l7t32 -->
+            <head xml:id="azsw2e-d1e4471-Hd1e101">Titulus 32</head>
+            <head xml:id="azsw2e-d1e4471-Hd1e103" type="question-title">De adquirenda et retinenda possessione</head>
+            <div xml:id="azsw2e-d1e4471-Dd1e106">
+               <head xml:id="azsw2e-d1e4471-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4471-d1e110">
+                  <ref xml:id="azsw2e-d1e4471-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Per liberam personam ignoranti quoque adquiri
+            possessionem et, postquam scientia intervenerit, usucapionis condicionem
+            inchoari posse tam ratione utilitatis quam iuris pridem receptum est.
+            * SEV. ET ANT. AA. ATTICO. *&lt;A 196 PP. VI K. DEC. DEXTRO II ET
+            PRISCO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4471-Dd1e116">
+               <head xml:id="azsw2e-d1e4471-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4471-d1e120">
+                  <ref xml:id="azsw2e-d1e4471-Rd1e122">Imperator
+            Alexander Severus</ref> Minus instructus est, qui te sollicitum reddidit,
+            quasi in vacuam possessionem eius, quod per procuratorem emisti, non
+            sis inductus, cum ipse proponas diu te in possessione fuisse omniaque
+            ut dominum gessisse. Licet enim instrumento non sit comprehensum,
+            quod tibi tradita sit possessio, ipsa tamen rei veritate id consecutus
+            es, si sciente venditore in possessione fuisti * ALEX. A. GAURO. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4471-Dd1e126">
+               <head xml:id="azsw2e-d1e4471-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4471-d1e130">
+                  <ref xml:id="azsw2e-d1e4471-Rd1e132">Imperator
+            Decius</ref> Donatarum rerum a quacumque persona infanti vacua possessio
+            tradita corpore quaeritur. Quamvis enim sint auctorum sententiae dissentientes,
+            tamen consultius videtur interim, licet animi plenus non fuisset adfectus,
+            possessionem per traditionem esse quaesitam: alioquin, sicuti viri
+            consultissimi Papiniani responso continetur, ne quidem per tutorem
+            possessio infanti poterit adquiri * DEC. A. RUFO. *&lt;A 250 PP. V
+            K. APRIL. DECIO A. II ET GRATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4471-Dd1e137">
+               <head xml:id="azsw2e-d1e4471-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4471-d1e141">
+                  <ref xml:id="azsw2e-d1e4471-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Licet possessio nudo animo adquiri
+            non possit, tamen solo animo retineri potest. Si igitur desertam praediorum
+            possessionem non derelinquendi adfectione transacto tempore non coluisti,
+            sed ex metus necessitate culturam eorum distulisti, praeiudicium tibi
+            ex transmissi temporis iniuria generari non potest * DIOCL. ET MAXIM.
+            AA. NEPOTIANAE. *&lt;A 290 PP. K. AUG. IPSIS IIII ET III AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4471-Dd1e147">
+               <head xml:id="azsw2e-d1e4471-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e4471-d1e151">
+                  <ref xml:id="azsw2e-d1e4471-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Cum nemo causam sibi possessionis mutare
+            possit proponasque colonum nulla extrinsecus accedente causa ex colendi
+            occasione ad iniquae venditionis vitium esse prolapsum, praeses provinciae
+            inquisita fide veri domini tui ius convelli non sinet. * DIOCL. ET
+            MAXIM. AA. MENNONI. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4471-Dd1e157">
+               <head xml:id="azsw2e-d1e4471-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e4471-d1e161">
+                  <ref xml:id="azsw2e-d1e4471-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Si nulla iusta ex causa ingressum agrum
+            sive vineas eum cuius meministi praeses reppererit nec ulla praescriptione
+            vestra interpellatur petitio, restituere te possessioni cum omni causa
+            non dubitabit. * DIOCL. ET MAXIM. AA. ET CC. VALERIO. *&lt;A 293 S.
+            ID. APRIL. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4471-Dd1e167">
+               <head xml:id="azsw2e-d1e4471-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e4471-d1e171">
+                  <ref xml:id="azsw2e-d1e4471-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Improba possessio firmum titulum possidendi
+            nullum praestare potest. Unde ingredientem in vacuam possessionem
+            alieni fundi non consentiente domino vel actore, qui eius rei concedendi
+            potestatem habuit, causam iustam possessionis adipisci non potuisse
+            certum est * DIOCL. ET MAXIM. AA. ET CC. ASYNCRITO. *&lt;A 293 PP.
+            V ID. DEC. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4471-Dd1e177">
+               <head xml:id="azsw2e-d1e4471-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e4471-d1e181">
+                  <ref xml:id="azsw2e-d1e4471-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Per procuratorem utilitatis causa possessionem
+            et, si proprietas ab hac separari non possit, dominium etiam quaeri
+            placuit. * DIOCL. ET MAXIM. AA. ET CC. CYRILLO. *&lt;A 294 PP. XVIII
+            K. MART. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4471-Dd1e187">
+               <head xml:id="azsw2e-d1e4471-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e4471-d1e191">
+                  <ref xml:id="azsw2e-d1e4471-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Nec ex vera venditione possessionem,
+            quam non fuerat emptor adeptus, improbe retinere potest: ac multo
+            minus is, qui adseveratione falsa velut emptor, cum sine obligatione
+            pignoris pecuniam mutuo dedisset, fundum inrumpens alienum retinendi
+            iustam habet causam. * DIOCL. ET MAXIM. AA. ET CC. SERGIO. *&lt;A
+            294 PP. III NON. APRIL. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4471-Dd1e198">
+               <head xml:id="azsw2e-d1e4471-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e4471-d1e202">
+                  <ref xml:id="azsw2e-d1e4471-Rd1e204">Imperator
+            Constantinus</ref> Nemo ambigit possessionis duplicem esse rationem,
+            aliam quae iure consistit, aliam quae corpore, utramque autem ita
+            demum esse legitimam, cum omnium adversariorum silentio ac taciturnitate
+            firmetur: interpellatione vero et controversia progressa non posse
+            eum intellegi possessorem, qui, licet corpore teneat, tamen ex interposita
+            contestatione et causa in iudicium deducta super iure possessionis
+            vacillet ac dubitet. * CONST. A. AD MATERNUM. *&lt;A 314 P. XI K.
+            FEBR. TRIVERIS VOLUSIANO ET ANNIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4471-Dd1e208">
+               <head xml:id="azsw2e-d1e4471-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e4471-d1e212">
+                  <ref xml:id="azsw2e-d1e4471-Rd1e214">Imperatores
+            Arcadius, Honorius</ref> Vitia possessionum a maioribus contracta
+            perdurant et successorem auctoris sui culpa comitatur. * ARCAD. ET
+            HONOR. AA. PETRONIO VIC. HISPANIARUM. *&lt;A 397 D. XV K. IAN. MEDIOLANO
+            CAESARIO ET ATTICO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4471-Dd1e218">
+               <head xml:id="azsw2e-d1e4471-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e4471-d1e222">
+                  <ref xml:id="azsw2e-d1e4471-Rd1e224">Imperator
+            Justinianus</ref>  Ex libris sabinianis quaestionem in divinas nostri
+            numinis aures relatam tollentes definimus, ut sive servus sive procurator
+            vel colonus vel inquilinus vel quispiam alius, per quem licentia est
+            nobis possidere, corporaliter nactam possessionem cuiuscumque rei
+            eam derelinquerit vel alii prodiderit, desidia forte vel dolo, ut
+            locus aperiatur alii eandem possessionem detinere, nihil penitus domino
+            praeiudicium generetur, ne ex aliena malignitate alienum damnum emergat,
+            sed et ipse, si liberae condicionis est, competentibus actionibus
+            subiugetur, omni iactura ab eo restituenda domino rei vel ei, circa
+            quem neglegenter vel dolose versatus est. </p>
+               <p xml:id="azsw2e-d1e4471-d1e227" n="1">
+            Sin autem necdum sub manibus procuratoris vel coloni vel
+            inquilini vel servi possessio facta est, sed eam accipere desidia
+            vel dolo supersedit, tunc ipse qui eum transmisit ex mala sua electione
+            praeiudicium circa possessionem patiatur, ex memoratarum personarum
+            vel machinatione vel neglegentia accedens. </p>
+               <p xml:id="azsw2e-d1e4471-d1e230" n="2">
+            Hoc etenim tantummodo sancimus, ut dominus nullo modo aliquod
+            discrimen sustineat ab his quos transmiserit, non ut etiam lucrum
+            sibi per eos adquirat, cum et antiqua regula, quae definivit deteriorem
+            condicionem per servum domini nullo fieri modo, tunc locum habet,
+            cum de damno dominus periclitetur, non cum sibi lucrum per servum
+            adquiri desiderat: salva videlicet et in hoc casu domino rei vel ei,
+            qui ad eam detinendam praefatas transmiserit personas, adversus eas
+            omni actione, si qua ex legibus ei competit servata. * IUST. A. IOHANNI
+            PP. *&lt;A 531 - 532 &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 75</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 75</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7888"><!-- azsw2e-l11t75 -->
+            <head xml:id="azsw2e-d1e7888-Hd1e101">Titulus 75</head>
+            <head xml:id="azsw2e-d1e7888-Hd1e103" type="question-title">De privilegiis domus Augustae vel rei privatae et quarum collationum
+            excusationem habent</head>
+            <div xml:id="azsw2e-d1e7888-Dd1e106">
+               <head xml:id="azsw2e-d1e7888-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7888-d1e110">
+                  <ref xml:id="azsw2e-d1e7888-Rd1e112">Imperator
+            Constantius</ref> Privatas possessiones nostras ab universis muneribus
+            sordidis placet esse immunes, neque earum conductores nec colonos
+            vel ad extraordinaria munera vel superindictiones aliquas conveniri.
+            * CONSTANTIUS A. AD ITALICUM. *&lt;A 343 D. VIII K. FEBR. BONONIAE
+            PLACIDO ET ROMULO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7888-Dd1e116">
+               <head xml:id="azsw2e-d1e7888-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7888-d1e120">
+                  <ref xml:id="azsw2e-d1e7888-Rd1e122">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Rem privatam nostram levandorum
+            provincialium causa canonicas necessitates ea condicione, qua cunctos,
+            volumus sustinere. * VALENTIN. VALENS ET GRAT. AAA. AD CLAUDIUM. *&lt;A
+            368-370 &gt; </p>
+               <p xml:id="azsw2e-d1e7888-d1e125" n="1">
+            Sed excessit occasio iussionem, quandoquidem non locis solitis
+            frumenta quae ex diversis sunt saltibus convehenda trahantur, sed
+            eo usque portentur, quo grave atque damnosum est provehere. &lt;A
+            368-370 &gt; </p>
+               <p xml:id="azsw2e-d1e7888-d1e128" n="2">
+            Proinde spectata sinceritas tua rem eandem in isdem locis
+            implere faciat proprias functiones, quibus antea frumenta praebebat.
+            &lt;A 368-370 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7888-Dd1e132">
+               <head xml:id="azsw2e-d1e7888-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e7888-d1e136">
+                  <ref xml:id="azsw2e-d1e7888-Rd1e138">Imperatores
+            Arcadius, Honorius</ref> Pro tironibus in corporibus postulatis pretia
+            conferri ex fundis perpetuariis nostrae rei privatae praecipimus.
+            * ARCAD. ET HONOR. AA. MINERVIO COM. RER. PRIVAT. *&lt;A 397-398 &gt;
+            </p>
+               <p xml:id="azsw2e-d1e7888-d1e141"> .
+            </p>
+               <p xml:id="azsw2e-d1e7888-d1e143">
+                  <ref xml:id="azsw2e-d1e7888-Rd1e145">Imperatores
+            Honorius, Theodosius</ref>  Absit, ut nos instructionem viae
+            publicae et pontium stratarumque opera titulis magnorum principum
+            dedicata inter sordida munera numeremus. </p>
+               <p xml:id="azsw2e-d1e7888-d1e148" n="1">
+            Igitur ad instructiones reparationesque itinerum pontiumque
+            nullum genus hominum nulliusque dignitatis ac venerationis meritis
+            cessare oportet. </p>
+               <p xml:id="azsw2e-d1e7888-d1e152" n="2">
+            Domos etiam divinas tam laudabili titulo libenter adscribimus.*
+            HONOR. ET THEODOS. AA. ASCLEPIODOTO PP. *&lt;A 423 D. XV K. MART.
+            CONSTANTINOPOLI ASCLEPIODOTO ET MARINIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7888-Dd1e157">
+               <head xml:id="azsw2e-d1e7888-Hd1e159">5</head>
+               <p xml:id="azsw2e-d1e7888-d1e161">
+                  <ref xml:id="azsw2e-d1e7888-Rd1e163">Imperatores
+            Theodosius, Valentinianus</ref> Excepto patrimonio pietatis nostrae,
+            cuius quidem reditus necessitatibus publicis frequentissime deputamus,
+            universos possessores functiones in superindicticiis titulis absque
+            ullius beneficii exceptione agnoscere oportere censemus. * THEODOS.
+            ET VALENTIN. AA. FLAVIANO PP. *&lt;A 431 D. III K. MAI. RAVENNAE BASSO
+            ET ANTIOCHO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

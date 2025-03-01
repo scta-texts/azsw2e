@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 1</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 1</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e701"><!-- azsw2e-l2t1 -->
+            <head xml:id="azsw2e-d1e701-Hd1e101">Titulus 1</head>
+            <head xml:id="azsw2e-d1e701-Hd1e103" type="question-title">De edendo.</head>
+            <div xml:id="azsw2e-d1e701-Dd1e106">
+               <head xml:id="azsw2e-d1e701-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e701-d1e110">
+                  <ref xml:id="azsw2e-d1e701-Rd1e112">Imperator
+            Antoninus</ref> Ipse dispice, quemadmodum pecuniam, quam deposuisse
+            te dicis, deberi tibi probes. Nam quod desideras, ut rationes suas adversaria tua exhibeat, id ex
+            causa ad iudicis officium pertinere solet. * ANT. A. MANILIO.
+            *&lt;A155 PP. IIII K. OCT. SABINIANO II ET SEVERO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e701-Dd1e116">
+               <head xml:id="azsw2e-d1e701-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e701-d1e120">
+                  <ref xml:id="azsw2e-d1e701-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Is, apud quem res
+            agitur, acta publica tam criminalia quam civilia exhiberi inspicienda
+            ad investigandam veritatis fidem iubebit. * SEV. ET ANT. AA. FAUSTO.
+            *&lt;A 194 PP. NON. IUL. SEVERO A. ET ALBINO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e701-Dd1e126">
+               <head xml:id="azsw2e-d1e701-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e701-d1e130">
+                  <ref xml:id="azsw2e-d1e701-Rd1e132">Imperatores
+            Severus, Antoninus</ref> Edita actio speciem futurae litis
+            demonstrat, quam emendari vel mutari licet, prout edicti perpetui
+            monet auctoritas vel ius reddentis decernit aequitas. * SEV. ET ANT.
+            AA. VALENTI. *&lt;A 202 D. III K. SEPT. SEVERO III ET ANTONINO AA.
+            CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e701-Dd1e137">
+               <head xml:id="azsw2e-d1e701-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e701-d1e141">
+                  <ref xml:id="azsw2e-d1e701-Rd1e143">Imperator
+            Antoninus</ref> Qui accusare volunt, probationes
+            habere debent, cum neque iuris neque aequitatis ratio permittat, ut
+            alienorum instrumentorum inspiciendorum potestas fieri debeat. Actore
+            enim non probante qui convenitur, etsi nihil ipse praestarit, obtineat.
+            * ANT. A. EPAPHRODITO. *&lt;A 212 PP. V ID. MART.
+            DUOBUS ASPRIS CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e701-Dd1e147">
+               <head xml:id="azsw2e-d1e701-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e701-d1e151">
+                  <ref xml:id="azsw2e-d1e701-Rd1e153">Imperator
+            Alexander Severus</ref> Non est novum eum
+            a quo petitur pecunia implorare rationes creditoris, ut fides constare
+            possit. * ALEX. A. VALENTINIANAE. *&lt;A 223 PP. VII ID. MART. MAXIMO
+            II ET AELIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e701-Dd1e157">
+               <head xml:id="azsw2e-d1e701-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e701-d1e161">
+                  <ref xml:id="azsw2e-d1e701-Rd1e163">Imperator
+            Alexander Severus</ref> Iustum est desiderium
+            eius a quo petitur, licet nomine publico, ut rationibus publicis exhibitis
+            constet, quantum sub nomine suo solutum sit. * ALEX. A. URIANO.
+            *&lt;A 223 PP. XVI K. DEC. MAXIMO II ET AELIANO
+            CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e701-Dd1e167">
+               <head xml:id="azsw2e-d1e701-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e701-d1e171">
+                  <ref xml:id="azsw2e-d1e701-Rd1e173">Imperator
+            Alexander Severus</ref> Procurator privatae
+            rationis instrumentorum, quae communia tibi esse dicis cum fisco,
+            describendorum facultatem secundum morem fieri iubebit: et si quando
+            res exegerit ad fidem petitionis tuae apud alium iudicem praebendam
+            aliquid eorum proferri, desiderante eo qui convenitur, ut id fiat,
+            praecipiet. * ALEX. A. VALENTI. *&lt;A 225
+            PP. X K. MART. FUSCO ET DEXTRO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e701-Dd1e177">
+               <head xml:id="azsw2e-d1e701-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e701-d1e181">
+                  <ref xml:id="azsw2e-d1e701-Rd1e183">Imperator
+            Alexander Severus</ref> Et quae a divo Antonino patre et quae
+            a me rescripta sunt, cum iuris et aequitatis rationibus congruunt.
+            Nec enim diversa sunt vel discrepantia, quod multum intersit, ex parte
+            eius, qui aliquid petit quique doli exceptione submoveri ab intentione
+            petitionis suae potest, rationes promi reus desideret, quibus se posse
+            instruere contendit ( quod utique ipsa rei aequitatis suadet), an
+            vero ab eo a quo aliquid petitur actor desideret rationes exhiberi,
+            quando hoc casu non oportet originem petitionis ex instrumentis eius
+            qui convenitur fundari. * ALEX. A. FLORO. *&lt;A
+            225 PP. K. OCT. FUSCO ET DEXTRO CONSS.&gt;
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 7</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 7</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8007"><!-- azsw2e-l12t7 -->
+            <head xml:id="azsw2e-d1e8007-Hd1e101">Titulus 7</head>
+            <head xml:id="azsw2e-d1e8007-Hd1e103" type="question-title">De primicerio et secundocerio et notariis</head>
+            <div xml:id="azsw2e-d1e8007-Dd1e106">
+               <head xml:id="azsw2e-d1e8007-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8007-d1e110">
+                  <ref xml:id="azsw2e-d1e8007-Rd1e112">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Praecipua est nostrae pietatis
+            intentio circa notariorum nomen: atque ideo, si umquam huius ordinis
+            viri laborem quiete mutaverint vel senectute posuerint seu cum alia
+            dignitate post hanc qualibet usi sunt, non omittant prioris vocabulum
+            militiae, sed compendium sequentis honoris adsumant.</p>
+               <p xml:id="azsw2e-d1e8007-d1e115" n="1">
+            Et si quis ex officio vel praecipue sublimitatis tuae temerarius
+            ad census discussiones peraequationes, aliam denique ullam rem inquietator
+            extiterit, officium suum noverit vel levis culpae offensione detecta
+            gravis multae discrimine fatigandum et numerariorum corpus extincto
+            iniuriae auctore minuendum.* GRAT. VALENTIN. ET THEODOS. AAA.
+            EUTROPIO PP. *&lt;A 380 D.XVII K.IUL.THESSALONICAE GRATIANO V ET THEODOSIO
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8007-Dd1e119">
+               <head xml:id="azsw2e-d1e8007-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e8007-d1e123">
+                  <ref xml:id="azsw2e-d1e8007-Rd1e125">Imperator
+            Zeno</ref>  Praeclaram nobilemque militiam spectabilium tribunorum
+            notariorum, quo gloriosis obsequiis nonnihil rei publicae commodatis
+            adferunt et decoris, diversis beneficiorum titulis muniendam credidimus
+            et augendam. </p>
+               <p xml:id="azsw2e-d1e8007-d1e128" n="1">
+            Nam biennales metas viro spectabili pro tempore primicerio
+            agendis numeris duximus statuendas. </p>
+               <p xml:id="azsw2e-d1e8007-d1e131" n="2">
+            Hos autem tribunos, qui suis negotiis occupati minime sacrum
+            palatium curaverint frequentandum, nisi intra annale spatium revertantur,
+            quamvis commeatus iura praetendunt, pro absentia quidem unius anni
+            unius gradus, si vero duobus annis afuerint, duorum, si tribus, trium,
+            si quattuor, similiter quattuor graduum subire iacturam his qui inferiores
+            eis fuerint postponendos. </p>
+               <p xml:id="azsw2e-d1e8007-d1e134" n="3">
+            Qui vero per quinquennium integrum se repraesentare cessaverint,
+            exemptos matricula tantum nomine tribunorum, nec vero ordine perpotiri,
+            his in hunc modum dispositis vacationem census discullionis peraequationes
+            et cuiuslibet alterius rei habituros. </p>
+               <p xml:id="azsw2e-d1e8007-d1e138" n="4">
+            Illud praecipue privisionem nostram flagitare perspeximus,
+            ne per ambitionem aut gratiam aut cuiuslibet occasionis obtentu vel
+            laborum seu sollicitudinum specie publicorum cuiquam liceat aliquando
+            graduum seriem conturbare et temporum ratione calcata dudum militantibus
+            anteferri et, quae longis prolixisque stipendiis defensa iam pollicetur
+            senectus, gratiosa festinatione subripere. </p>
+               <p xml:id="azsw2e-d1e8007-d1e141" n="5">
+            Hoc etiam adiciendo, ut primicerius post depositam publicam
+            numerorum sollicitudinem, ac si ipsam gessisset administrationem,
+            cuius consequitur dignitatem, magistri officiorum pro antiqua consuetudine
+            infulas sortiatur, omnibus vacantibus quamvis tempore praecedentibus
+            praeponendus. * ZENO A. HILARIANO MAG. OFF. *&lt;A
+            XXX &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 71</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 71</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4907"><!-- azsw2e-l7t71 -->
+            <head xml:id="azsw2e-d1e4907-Hd1e101">Titulus 71</head>
+            <head xml:id="azsw2e-d1e4907-Hd1e103" type="question-title">Qui bonis cedere possunt</head>
+            <div xml:id="azsw2e-d1e4907-Dd1e106">
+               <head xml:id="azsw2e-d1e4907-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4907-d1e110">
+                  <ref xml:id="azsw2e-d1e4907-Rd1e112">Imperator
+            Alexander Severus</ref> Qui bonis cesserint, nisi solidum creditor
+            receperit, non sint liberati. In eo enim tantum hoc beneficium eis
+            prodest, ne iudicati detrahantur in carcerem * ALEX. A. IRENAEO. *&lt;A
+            223 PP. X K. DEC. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4907-Dd1e116">
+               <head xml:id="azsw2e-d1e4907-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4907-d1e120">
+                  <ref xml:id="azsw2e-d1e4907-Rd1e122">Imperator
+            Philippus</ref> Si quantitatem, quam ( licet rei publicae) condemnatus
+            debebas, inferre paratus es, frustra vereris, ne verbum bonorum cessionis
+            temere a te prolatum privare te necdum distractis facultatibus iuris
+            rationibus possit. * PHILIPP. A. ET PHILIPP. C. ABASCANTO. *&lt;A
+            245 PP. XVI K. FEBR. PHILIPPO A. ET TITIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4907-Dd1e126">
+               <head xml:id="azsw2e-d1e4907-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4907-d1e130">
+                  <ref xml:id="azsw2e-d1e4907-Rd1e132">Imperatores
+            Valerianus, Gallienus</ref> Si pater tuus bonis cessit propter onera
+            civilia, ipsius facultates oportet inquiri, non patrimonium, quod
+            tibi emancipatae quaesitum dicis, inquietari. Quod ut fiat, implorare
+            aequitatem praesidis debes * VALER. ET GALLIEN. AA. ET VALER. NOBILISSIMUS
+            C. LENILLAE. *&lt;A 259 PP. XIII K. DEC. AEMILIANO ET BASSO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4907-Dd1e137">
+               <head xml:id="azsw2e-d1e4907-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4907-d1e141">
+                  <ref xml:id="azsw2e-d1e4907-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref>  Legis Iuliae de bonis cedendis beneficium
+            constitutionibus divorum nostrorum parentium ad provincias porrectum
+            esse, ut cessio bonorum admittatur, notum est: non tamen creditoribus
+            sua auctoritate dividere haec bona et iure dominii tenere, sed venditionis
+            remedio, quatenus substantia patitur, indemnitati suae consulere permissum
+            est. </p>
+               <p xml:id="azsw2e-d1e4907-d1e146" n="1">
+            Cum itaque contra iuris rationem res iure dominii teneas
+            eius qui bonis cessit creditorem te dicens, longi temporis praescriptione
+            petitorem submoveri non posse manifestum est. Quod si non bonis eum
+            cessisse, sed res suas in solutum tibi dedisse monstretur, praeses
+            provinciae poterit de proprietate tibi accommodare notionem. 
+            * DIOCL. ET MAXIM. AA. ET CC. CHILONI. *&lt; &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4907-Dd1e150">
+               <head xml:id="azsw2e-d1e4907-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e4907-d1e154">
+                  <ref xml:id="azsw2e-d1e4907-Rd1e156">Imperatores
+            Diocletianus, Maximianus</ref> Propter honorem municipalem vel munus
+            bonis cedentium invidiosam admitti cessionem minime convenit, sed
+            his obnoxios pro modo substantiae fungi. * DIOCL. ET MAXIM. AA. ET
+            CC. MYRONI. *&lt; &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4907-Dd1e160">
+               <head xml:id="azsw2e-d1e4907-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e4907-d1e164">
+                  <ref xml:id="azsw2e-d1e4907-Rd1e166">Imperator
+            Theodosius</ref> In omni cessione bonorum ex qualibet causa facienda
+            scrupulositate priorum legum explosa professio sola quaerenda est.
+            Idem dixit * IN OMNI CESSIONE SUFFICIT VOLUNTATIS SOLA PROFESSIO.
+            * THEODOS. A. APUD ACTA: DIXIT: *&lt;A 386 D.K.MAI.HONORIO NP.ET EUODIO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4907-Dd1e170">
+               <head xml:id="azsw2e-d1e4907-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e4907-d1e174">
+                  <ref xml:id="azsw2e-d1e4907-Rd1e176">Imperator
+            Justinianus</ref> Cum et filii familias possint habere substantias,
+            quae patribus adquiri vetitae sunt, nec non peculium vel castrense
+            vel quod patre volente possident, quare cessio bonorum eis deneganda
+            sit? cum, etsi nihil in suo censu hi qui in potestate sunt parentum
+            habeant, tamen, ne patiantur iniuriam, debet bonorum cessio admitti.
+            Si enim et pater familias admittendus est propter iniuriarum timorem
+            ad cessionis flebile veniens adiutorium, quare filiis familias utriusque
+            sexus hoc ius denegamus? cum apertissimi iuris est et inter patres
+            familias et alieno iuri subiectos, si quid postea eis pinguius accesserit,
+            hoc iterum usque ad modum debiti posse a creditoribus legitimo modo
+            avelli * IUST. A. IULIANO PP. *&lt;A 531 D. X K. MART. CONSTANTINOPOLI
+            POST CONSULATUM LAMPADII ET ORESTIS VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4907-Dd1e180">
+               <head xml:id="azsw2e-d1e4907-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e4907-d1e184">
+                  <ref xml:id="azsw2e-d1e4907-Rd1e186">Imperator
+            Justinianus</ref>  Cum solito more a nostra maiestate petitur, ut ad
+            miserabilis cessionis bonorum homines veniant auxilium et electio
+            detur creditoribus vel quinquennale spatium eis indulgere vel bonorum
+            accipere cessionem, salva eorum videlicet existimatione et omni corporali
+            cruciatu semoto: quotidie dubitabatur, si quidam ex creditoribus voluerint
+            quinquennales dare indutias, alii autem iam nunc cessionem accipere
+            velint, qui audiendi sunt. </p>
+               <p xml:id="azsw2e-d1e4907-d1e189" n="1">
+            In tali itaque dubitatione minime putamus esse ambiguum,
+            quod sentimus et quod humaniorem sententiam pro duriore elegimus.
+            Et sancimus, ut vel ex cumulo debiti vel ex numero creditorum causa
+            iudicetur </p>
+               <p xml:id="azsw2e-d1e4907-d1e192" n="2">
+            Et si quidem unus creditor aliis omnibus gravior in summa
+            debiti inveniatur, ut omnibus in unum coadunatis et debitis eorum
+            computatis ipse alios antecellat, ipsius sententia obtineat, sive
+            indulgere tempus sive cessionem accipere desiderat. </p>
+               <p xml:id="azsw2e-d1e4907-d1e195" n="3">
+            Si vero plures quidem sint creditores, ex diversis autem
+            quantitatibus, et nunc amplior debiti cumulus minori summae praeferantur,
+            sive par sive discrepans numerus est creditorum, cum non ex frequentissimo
+            ordine feneratorum, sed ex quantitate debiti causa trutinatur. </p>
+               <p xml:id="azsw2e-d1e4907-d1e199" n="4">
+            Pari autem quantitate debiti invenienda, dispari vero creditorum
+            numero, tunc amplior pars creditorum obtineat, ut, quod pluribus placeat,
+            hoc statueretur. </p>
+               <p xml:id="azsw2e-d1e4907-d1e202" n="5">
+            Sin vero undique aequalitas emergat tam debiti quam numeri
+            creditorum, tunc eos anteponi, qui ad humaniorem declinant sententiam
+            non cessionem exigentes, sed indutias.</p>
+               <p xml:id="azsw2e-d1e4907-d1e205" n="6">
+            Nulla quidem differentia inter hypothecarios et alios creditores
+            quantum ad hanc electionem observanda: in rebus autem officio iudicis
+            partiendis suam vim singulis creditoribus habentibus, quam eis legum
+            praestabit regula. </p>
+               <p xml:id="azsw2e-d1e4907-d1e208" n="7">
+            Nullo praeiudicio creditorum cuidam ex quinquennii dilatione
+            circa temporalem praescriptionem generando. * IUST. A. IOHANNI PP.
+            *&lt;A 531 - 532&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

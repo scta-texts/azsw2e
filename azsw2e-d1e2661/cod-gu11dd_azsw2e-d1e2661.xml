@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 7</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 7</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2661"><!-- azsw2e-l5t7 -->
+            <head xml:id="azsw2e-d1e2661-Hd1e101">Titulus 7</head>
+            <head xml:id="azsw2e-d1e2661-Hd1e103" type="question-title">Si quacumque praeditus potestate vel ad eum pertinentes ad suppositarum
+            iurisdictioni suae adspirare temptaverint nuptias</head>
+            <div xml:id="azsw2e-d1e2661-Dd1e106">
+               <head xml:id="azsw2e-d1e2661-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2661-d1e110">
+                  <ref xml:id="azsw2e-d1e2661-Rd1e112">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Si quis ordinaria vel qualibet
+            praeditus potestate circa nuptias invitis ipsis vel parentibus contrahendas,
+            sive pupillae sive apud patres virgines sive viduae erunt, sive et
+            iuris sui viduae, denique cuiuscumque sortis, occasione potestatis
+            utatur et minacem favorem suum invitis his, quorum utilitas agitur,
+            exhibere aut exhibuisse detegitur, hunc, licet prohibitas nuptias
+            non peregerit, attamen pro tali conamine multae librarum auri decem
+            obnoxium statuimus et, cum honore abierit, peractam dignitatem usurpare
+            prohibemus, tali scilicet poena, ut, si circa honorem eum, quo male
+            usus est, vindicandum statutis nostris parere noluerit, eam provinciam,
+            in qua sibi usurpaverit, habitare per iuge biennium non sinatur. </p>
+               <p xml:id="azsw2e-d1e2661-d1e115" n="1">
+            Illo videlicet adiciendo, ut et in potestate adhuc constituto
+            liceat personae , quam huiusmodi ambitu circumire temptaverit, confestim
+            contestatione proposita cum sua suorumque domo iurisdictionem eius
+            evitare, curaturis hoc uniuscuiusque civitatis defensoribus et eiusdem
+            iudicis apparitoribus. </p>
+               <p xml:id="azsw2e-d1e2661-d1e118" n="2">
+            Et quidem si haec pravitas ordinarii iudicis erit, universa
+            eius domus ratio atque omnia vel civilia vel criminalia negotia, quamdiu
+            idem in administratione fuerit, vicario competant. </p>
+               <p xml:id="azsw2e-d1e2661-d1e121" n="3">
+            Sin autem vicarius vel similis potestatis vim in huiusmodi
+            contrahendo matrimonio molietur, vicissim ordinarius iudex intercessor
+            existat. </p>
+               <p xml:id="azsw2e-d1e2661-d1e125" n="4">
+            Sin erunt uterque suspecti, ad illustrem praefecturam specialiter
+            talium domorum , quamdiu idem administraverit, tuitio pertineat. *
+            GRAT. VALENTIN. ET THEODOS. AAA. NEOTERIO PP. *&lt;A 380 D. XV K.
+            IUL. THE SSALONICAE GRATIANO V ET THEODOSIO AA. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

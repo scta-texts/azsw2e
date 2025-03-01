@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 18</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 18</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2041"><!-- azsw2e-l4t18 -->
+            <head xml:id="azsw2e-d1e2041-Hd1e101">Titulus 18</head>
+            <head xml:id="azsw2e-d1e2041-Hd1e103" type="question-title">De constituta pecunia</head>
+            <div xml:id="azsw2e-d1e2041-Dd1e106">
+               <head xml:id="azsw2e-d1e2041-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2041-d1e110">
+                  <ref xml:id="azsw2e-d1e2041-Rd1e112">Imperator
+            Gordianus</ref> Si pro alieno debito te soluturum constituisti, pecuniae
+            constitutae actio non solum adversus te, sed etiam adversus heredes
+            tuos perpetuo competit. * GORD. A. FELICI. *&lt;A 294 D. VII K. IUL.
+            SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2041-Dd1e116">
+               <head xml:id="azsw2e-d1e2041-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2041-d1e120">
+                  <ref xml:id="azsw2e-d1e2041-Rd1e122">Imperator
+            Justinianus</ref>  Recepticia actione cessante, quae sollemnibus verbis
+            composita inusitato recessit vestigio, necessarium nobis visum est
+            magis pecuniae constitutae naturam ampliare. </p>
+               <p xml:id="azsw2e-d1e2041-d1e125" n="1">
+            Cum igitur praefata actio, id est pecuniae constitutae, in
+            his tantummodo a veteribus conclusa est, ut exigeret res quae in pondere
+            numero mensura sunt, in aliis autem rebus nullam haberet communionem
+            et neque in omnibus casibus longaeva sit constituta, sed in speciebus
+            certis annali spatio concluderetur, et dubitaretur, si pro debito
+            sub condicione vel in diem constituto eam possibile est fieri et si
+            pure constituta pecunia contracta valeret, hac apertissima lege definimus,
+            ut liceat omnibus constituere non solum res quae pondere numero mensura
+            sunt, sed etiam alias omnes sive mobiles sive immobiles sive se moventes
+            sive instrumenta vel alias quascumque res, quas in stipulationem possunt
+            homines deducere: et neque sit in quocumque casu annalis, sed ( sive
+            pro se quis constituat sive pro alio) sit et ipsa in tali vitae mensura,
+            in qua omnes personales sunt actiones, id est in annorum metis triginta:
+            et liceat pro debito puro vel in diem vel condicionali constitui:
+            et non absimilem penitus stipulationi habeat dignitatem, suis tamen
+            naturalibus privilegiis minime defraudata: sed et heredibus et contra
+            heredes competat, ut neque recepticiae actiones neque alio indigeat
+            res publica in huiusmodi casibus adminiculo, sed sit pecuniae constitutae
+            actio per nostram constitutionem sibi in omnia sufficiens, ita tamen,
+            ut hoc ei inhaereat, ut pro debito fiat constitutum ( cum secundum
+            antiquam recepticiam actionem exigebatur et si quid non fuerat debitum),
+            cum satis absurdum et tam nostris temporibus quam iustis legibus contrarium
+            est permittere per actionem recepticiam res indebitas consequi et
+            iterum multas proponere condictiones, quae et pecunias indebitas et
+            promissiones corrumpi et restitui definiunt. </p>
+               <p xml:id="azsw2e-d1e2041-d1e128"> 
+            Ut non erubescat igitur tale legum iurgium, hoc tantummodo
+            constituatur, quod debitum est, et omnia, quae de recepticia in diversis
+            libris legislatorum posita sunt, aboleantur et sit pecunia constituta
+            omnes casus complectens, qui et per stipulationem possint explicari.
+            </p>
+               <p xml:id="azsw2e-d1e2041-d1e130"> 
+            Et neminem moveat, quod sub nomine pecuniae etiam omnes res
+            exigi definimus, cum et in antiquis libris prudentium, licet pecunia
+            constituta nominabatur, tamen non pecuniae tantum per eam exigebantur,
+            sed omnes res quae pondere numero mensura constitutae sunt. </p>
+               <p xml:id="azsw2e-d1e2041-d1e133"> 
+            Sed et possibile est omnes res in pecuniam converti. Si enim
+            certa domus vel certus ager vel certus homo vel alia res quae expressa
+            est in constituendis rebus ponatur, quid distat a nomine ipsius pecuniae
+            </p>
+               <p xml:id="azsw2e-d1e2041-d1e135"> 
+            Sed ut et subtilitati eorum satisfiat, qui non sensum, sed
+            vana nominum vocabula amplecti desiderant, ita omnes res veniant in
+            constitutam, tamquam fuisset ipsa pecunia constituta, cum etiam veteres
+            pecuniae appellatione omnes res significari definiunt et huiusmodi
+            vocabulum et in libris iuris auctorum et in alia antiqua prudentia
+            manifestissime inventum est. </p>
+               <p xml:id="azsw2e-d1e2041-d1e137" n="2">
+            His videlicet, quae argenti distractores et alii negotiatores
+            indefense constituerint, in sua firmitate secundum morem usque adhuc
+            obtinentem durantibus. * IUST. A. IULIANO PP. *&lt;A 531 D. X K. MART.
+            CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTAE VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2041-Dd1e141">
+               <head xml:id="azsw2e-d1e2041-Hd1e143">3</head>
+               <p xml:id="azsw2e-d1e2041-d1e145">
+                  <ref xml:id="azsw2e-d1e2041-Rd1e147">Imperator
+            Justinianus</ref> Divi hadriani epistulam, quae de periculo dividendo
+            inter mandatores et fideiussores loquitur, locum habere et in his
+            qui pecunias pro aliis simul constituunt necessarium est: aequitatis
+            enim ratio diversas species actionis excludere nullo modo debet. *
+            IUST. A. IOHANNI PP. *&lt;A 531 D. K. NOV. CONSTANTINOPOLI POST CONSULATUM
+            LAMPADII ET ORESTAE VV. CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

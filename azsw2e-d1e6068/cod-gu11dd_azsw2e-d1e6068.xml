@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 41</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 41</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6068"><!-- azsw2e-l9t41 -->
+            <head xml:id="azsw2e-d1e6068-Hd1e101">Titulus 41</head>
+            <head xml:id="azsw2e-d1e6068-Hd1e103" type="question-title">De quaestionibus</head>
+            <div xml:id="azsw2e-d1e6068-Dd1e106">
+               <head xml:id="azsw2e-d1e6068-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6068-d1e110">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e112">Imperatores
+            Severus, Antoninus</ref>  Quaestionem de servis contra dominos haberi
+            non oportet, exceptis adulterii criminibus, item fraudati census accusationibus
+            et crimine maiestatis, quod ad salutem principis pertinet.</p>
+               <p xml:id="azsw2e-d1e6068-d1e115" n="1">
+            In ceteris autem, quamquam ea, quae servus contra dominum
+            dixit, iudicaturi sententiam formare non debeant, tamen si aliis quoque
+            probationibus fides veritatis investigetur, praescriptionis invidia
+            evanescit. </p>
+               <p xml:id="azsw2e-d1e6068-d1e118" n="2">
+            In pecuniariis vero causis nec inopia probationum servos
+            contra dominum interrogari posse manifestum est.* SEV. ET ANT.
+            AA. SPICIO ANTIGONO. *&lt;A 196 PP.K.IAN.DEXTRO ET PRISCO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e122">
+               <head xml:id="azsw2e-d1e6068-Hd1e124">2</head>
+               <p xml:id="azsw2e-d1e6068-d1e126">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e128">Imperatores
+            Severus, Antoninus</ref> Insolitum est et grave exemplo audiri servos
+            adversus tutores vel matrem dominorum suorum, nisi tutelae agatur.
+            * SEV. ET ANT. AA. CATULO. *&lt;A 204 PP.III ID.SEPT.CILONE ET LIBONE
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e132">
+               <head xml:id="azsw2e-d1e6068-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e6068-d1e136">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e138">Imperator
+            Antoninus</ref> Primum servi alieni interrogabuntur. Si praestita
+            fuerint ex tanto scelere argumenta, ut videantur accedere ad verisimilia
+            causae crimina, ipsa quoque mulier torquebitur: neque enim aegre feret,
+            si torqueatur, quae venenis viscera hominis extinxit * ANT. A. CUM
+            COGNITIONALITER AUDISSET, DIXIT: *&lt;A 216 PP.VII K.APRIL.SABINO
+            ET ANULLINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e143">
+               <head xml:id="azsw2e-d1e6068-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e6068-d1e147">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e149">Imperator
+            Antoninus</ref> Sicuti convictis confessisque ad societatem scelerum
+            vocantibus eos, a quibus apprehensi custoditive sunt, facile credi
+            non oportet, ita, si evidentibus rationibus post commissum communiter
+            facinus ad evitandam de se sententiam id fecisse fuerint probati,
+            publicae vindictae non sunt subtrahendi. * ANT. A. PARS EX RESCRIPTO
+            *&lt;A 216 PP.V K.APRIL.SABINO ET ANULLINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e153">
+               <head xml:id="azsw2e-d1e6068-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e6068-d1e157">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e159">Imperator
+            Alexander Severus</ref> Nec si mors testatoris vindicanda est, quaestioni
+            indiscrete subiciuntur hi, qui libertatem supremo iudicio acceperunt.
+            * ALEX. A. RESPECTO. *&lt;A 224 PP.VI ID.MART.IULIANO ET CRISPINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e163">
+               <head xml:id="azsw2e-d1e6068-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e6068-d1e167">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e169">Imperator
+            Gordianus</ref> Pridem placuit domestica servorum seu libertorum propriorum
+            vel maternorum interrogatione in causis ad dominos vel patronos pertinentibus
+            abstinendum esse, ut neque pro his neque adversus eos in capitalibus
+            vel pecuniariis quaestionibus veritatis vim obtinere possit, quod
+            in confessionem ab eis fuerit deductum. * GORD. A. HERODIANO. *&lt;A
+            240 PP.VII ID.MAI.SABINO ET VENUSTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e173">
+               <head xml:id="azsw2e-d1e6068-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e6068-d1e177">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e179">Imperatores
+            Diocletianus, Maximianus</ref> Servos, qui proprii indubitate iuris
+            tui probabuntur, ad interrogationem nec offerente te produci sineremus:
+            tantum abest, ut et invita te contra dominam vocem rumpere cogantur.
+            * DIOCL. ET MAXIM. AA. URBANAE. *&lt;A 286 PP.K.NOV.MAXIMO II ET AQUILINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e183">
+               <head xml:id="azsw2e-d1e6068-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e6068-d1e187">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e189">Imperatores
+            Diocletianus, Maximianus</ref>  Milites neque tormentis neque plebeiorum
+            poenis in causis criminum subiungi concedimus, etiamsi non emeritis
+            stipendiis videantur esse dimissi, exceptis scilicet his, qui ignominiose
+            sunt soluti. Quod et in filiis militum et veteranorum servabitur </p>
+               <p xml:id="azsw2e-d1e6068-d1e192" n="1">
+            Oportet autem iudices nec in his criminibus, quae publicorum
+            iudiciorum sunt, in investigatione veritatis a tormentis initium sumere,
+            sed argumentis primum verisimilibus probabilibusque uti. </p>
+               <p xml:id="azsw2e-d1e6068-d1e195" n="2">
+            Et si his veluti certis indiciis ducti investigandae veritatis
+            gratia ad tormenta putaverint esse veniendum, tunc id demum facere
+            debebunt, si personarum condicio pateretur. Hac enim ratione etiam
+            universi provinciales nostri fructum ingenitae nobis benevolentiae
+            consequentur * DIOCL. ET MAXIM. AA. AD SALLUSTIANUM PRAES. *&lt; PP.
+            S. DIE ET CONSULE.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e199">
+               <head xml:id="azsw2e-d1e6068-Hd1e201">9</head>
+               <p xml:id="azsw2e-d1e6068-d1e203">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e205">Imperatores
+            Diocletianus, Maximianus</ref> Super statu ingenuitatis per omnia
+            interrogationum et quaestionum vestigia decurrendum est, ne alieni
+            forte sordidae stirpis splendidis et ingenuis natalibus audeant subrogari,
+            vel propria ac debita per compositam quaestionem quibus competit successio
+            denegetur. * DIOCL. ET MAXIM. AA. ET CC. AD CHARISIUM PRAES. SYRIAE.
+            *&lt;A 290 D.VI ID.MAI.HEMESA IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e210">
+               <head xml:id="azsw2e-d1e6068-Hd1e212">10</head>
+               <p xml:id="azsw2e-d1e6068-d1e214">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e216">Imperatores
+            Diocletianus, Maximianus</ref> Cum testamentum falsum esse proponas,
+            ad illuminandam veritatem servos hereditarios, etsi libertas eis ab
+            eo qui se heredem esse adfirmat praestita est, etiam per tormenta
+            interrogari constitutionibus principum est permissum. * DIOCL. ET
+            MAXIM. AA. PTOLEMAEO. *&lt;A 290 PP.VI K.SEPT.IPSIS IIII ET III AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e220">
+               <head xml:id="azsw2e-d1e6068-Hd1e222">11</head>
+               <p xml:id="azsw2e-d1e6068-d1e224">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e226">Imperatores
+            Diocletianus, Maximianus</ref>  Divo marco placuit eminentissimorum
+            quidem necnon etiam perfectissimorum virorum usque ad pronepotes liberos
+            plebeiorum poenis vel quaestionibus non subici, si tamen propioris
+            gradus liberos, per quos id privilegium ad ulteriorem gradum transgreditur,
+            nulla violati pudoris macula adspergit. </p>
+               <p xml:id="azsw2e-d1e6068-d1e229" n="1">
+            In decurionibus autem et filiis eorum hoc observari vir prudentissimus
+            domitius ulpianus in publicarum disputationum libris ad perennem scientiae
+            memoriam refert. * DIOCL. ET MAXIM. AA. BOETHO. *&lt;A 290 PP.V K.DEC.IPSIS
+            IIII ET III AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e233">
+               <head xml:id="azsw2e-d1e6068-Hd1e235">12</head>
+               <p xml:id="azsw2e-d1e6068-d1e237">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e239">Imperatores
+            Diocletianus, Maximianus</ref> Quotiens de dominio mancipiorum tractatur,
+            si aliis probationibus veritas illuminari non possit, de se ipsa esse
+            cum tormentis interroganda iuris auctores probant. * DIOCL. ET MAXIM.
+            AA. ASPRO. *&lt;A 291 PP.III ID.MAI.SIRMI TIBERIANO ET DIONE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e243">
+               <head xml:id="azsw2e-d1e6068-Hd1e245">13</head>
+               <p xml:id="azsw2e-d1e6068-d1e247">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e249">Imperatores
+            Diocletianus, Maximianus</ref> Hoc, quod placet, si de hereditate
+            quaeratur, hereditarios servos interrogari, tibi opitulari non potest.
+            Ibi enim, dum de dominio incertum est, ad quem ex hereditate pertineat,
+            merito per interrogationem hereditarii servi ad veritatis indaginem
+            perveniatur. Tu autem adseverando servum communem esse non dubitas
+            portionem ad eum pertinere, contra quem interrogari eum cupis: quae
+            res quaestionem ab eo haberi non permittit, cum nec communis servus
+            adversus dominum, qui non occidisse socium suum dicatur, interrogari
+            possi * DIOCL. ET MAXIM. AA. ET CC. PHILIPPAE. *&lt;A 293 S.III K.MAI.HERACLIAE
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e253">
+               <head xml:id="azsw2e-d1e6068-Hd1e255">14</head>
+               <p xml:id="azsw2e-d1e6068-d1e257">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e259">Imperatores
+            Diocletianus, Maximianus</ref> Servos non solum pro dominis, sub quorum
+            dominio sunt constituti, sed nec pro his quorum antea fuerunt interrogari
+            posse constat. * DIOCL. ET MAXIM. AA. ET CC. CONSTANTIO. *&lt;A 294
+            S.VIII ID.APRIL.CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e263">
+               <head xml:id="azsw2e-d1e6068-Hd1e265">15</head>
+               <p xml:id="azsw2e-d1e6068-d1e267">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e269">Imperatores
+            Diocletianus, Maximianus</ref> Interrogari servos de facto suo non
+            solum in criminali causa, sed etiam in pecuniaria ( veluti quando
+            per eum depositi vel commodati nomine vel in aliis causis legibus
+            cognitis res aliis praestitae sunt) posse non ambigitur. * DIOCL.
+            ET MAXIM. AA. ET CC.MAXIMO. * &lt;A 294 S.V ID.APRIL.CC.CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e274">
+               <head xml:id="azsw2e-d1e6068-Hd1e276">16</head>
+               <p xml:id="azsw2e-d1e6068-d1e278">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e280">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Decuriones sive ob alienum
+            sive ob suum debitum exsortes omnino earum volumus esse poenarum,
+            quas fidiculae et tormenta constituunt. Quod quidem capitale iudici
+            erit, si in contumeliam ordinis exitiumque temptetur </p>
+               <p xml:id="azsw2e-d1e6068-d1e283" n="1">
+            Maiestatis tantummodo reos et quae nefanda dictu sunt conscios
+            aut molientes ex ordine municipali maneat tam cruenta condicio. *
+            VALENTIN. VALENS ET GRAT. AAA. AD ANTONIUM PP.GALLIARUM. *&lt;A 376
+            D.XV K.OCT.TREVIRIS VALENTE V ET VALENTINIANO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e287">
+               <head xml:id="azsw2e-d1e6068-Hd1e289">17</head>
+               <p xml:id="azsw2e-d1e6068-d1e291">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e293">Imperatores
+            Arcadius, Honorius</ref>  Nihil sibi deflectens a iustitia indignatio
+            cognitorum, nihil venalis exigentium terror in eas, quae aut innocentia
+            securae aut principalis sunt honore munitae, intellegat licere personas
+            ad inferendas iniurias corporales. Habeat hanc mercedem laboris multorum
+            munerum testimoniis commendata devotio </p>
+               <p xml:id="azsw2e-d1e6068-d1e296" n="1">
+            Idem est et si munia decurionatus quis deposuit: nam et ipse
+            propter pristinam dignitatem quaestionem non patitur. * ARCAD. ET
+            HONOR. AA. MESSALAE PP. *&lt;A 399 D.XII K.SEPT.THEODORO CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6068-Dd1e300">
+               <head xml:id="azsw2e-d1e6068-Hd1e302">18</head>
+               <p xml:id="azsw2e-d1e6068-d1e304">
+                  <ref xml:id="azsw2e-d1e6068-Rd1e306">Imperator
+            Justinianus</ref> De tormentis hereditariorum servorum sancimus, nullo
+            discrimine secundum anteriores leges et constitutiones interposito,
+            sive de iure hereditatis aliqua moveatur inter heredes quaestio sive
+            de corporibus tantum hereditariis sive de utroque eorum, servos de
+            corporibus tantum hereditariis interrogari: et licere servos eos tantummodo,
+            qui res regendas detinent, sive in servitute relicti sunt sive libertatem
+            adipisci per ultimam testatoris voluntatem praecepti sunt, in quaestionem
+            rerum hereditariarum deduci et ex his ea quae occultata sunt revelari:
+            prius sacramento super his a nobis statuto praestando. * IUST. A.
+            DEMOSTHENI PP. *&lt;A 529 D.XV K.OCT.CHALCEDONE DECIO VC.CONS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

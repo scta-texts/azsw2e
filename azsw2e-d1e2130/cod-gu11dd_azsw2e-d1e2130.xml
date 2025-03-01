@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 26</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 26</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2130"><!-- azsw2e-l4t26 -->
+            <head xml:id="azsw2e-d1e2130-Hd1e101">Titulus 26</head>
+            <head xml:id="azsw2e-d1e2130-Hd1e103" type="question-title">Quod cum eo qui in aliena est potestate negotium gestum esse dicitur,
+            vel de peculio seu quod iussu aut de in rem verso.</head>
+            <div xml:id="azsw2e-d1e2130-Dd1e106">
+               <head xml:id="azsw2e-d1e2130-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2130-d1e110">
+                  <ref xml:id="azsw2e-d1e2130-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Cum filius familias tutor aut curator datur,
+            pater tutelae vel negotiorum gestorum iudicio de peculio et de in
+            rem verso conveniendus est. Quod si voluntate eius filius decurio
+            sit creatus et a magistratibus tutor constitutus, pater in solidum
+            satisfacere cogitur, cum id onus exemplo ceterorum munerum civilium
+            inductum intellegatur * SEV. ET ANT. AA. AELIO. *&lt;A 196 D. VII
+            ID. NOV. DEXTRO II ET PRISCO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2130-Dd1e116">
+               <head xml:id="azsw2e-d1e2130-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2130-d1e120">
+                  <ref xml:id="azsw2e-d1e2130-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Eius rei nomine, quae cum filio familias
+            contracta est sive sua voluntate sive eius in cuius potestate fuit,
+            sive in peculium ipsius sive in rem patris ea pecunia redacta est,
+            et si paterna hereditate abstinuit, actionem nisi in id quod facere
+            possit non dari perpetui edicti interpretatione declaratum est. *
+            SEV. ET ANT. AA. ANNIO. *&lt;A 196 PP. VIII K. DEC. DEXTRO II ET PRISCO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2130-Dd1e126">
+               <head xml:id="azsw2e-d1e2130-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2130-d1e130">
+                  <ref xml:id="azsw2e-d1e2130-Rd1e132">Imperator
+            Antoninus</ref> Etiam si non mandante neque subscribente neque iubente
+            domina pecuniam mutuam servo priscae dedisses, tamen ea quantitas
+            si in rem dominae eius iustis erogationibus versa est, de in rem verso
+            apud suum iudicem eam conveni, consecuturus secundum iuris formam
+            id quod tibi deberi apparuerit. * ANT. A. ARTEMONI. *&lt;A 215 D.
+            III K. IUL. LAETO II ET CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2130-Dd1e137">
+               <head xml:id="azsw2e-d1e2130-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2130-d1e141">
+                  <ref xml:id="azsw2e-d1e2130-Rd1e143">Imperator
+            Antoninus</ref> Si ex contractu patris iussu eius pecuniam accepisti
+            teque eius hereditate abstines, frustra vereris, ne a creditoribus
+            eius conveniaris. * ANT. A. LEONTIO. *&lt;A 216 D. V K. IAN. SABINO
+            ET ANULLINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2130-Dd1e147">
+               <head xml:id="azsw2e-d1e2130-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e2130-d1e151">
+                  <ref xml:id="azsw2e-d1e2130-Rd1e153">Imperator
+            Alexander Severus</ref> Nulla res prohibet filios familias, si pro
+            aliis maiores viginti quinque annis fideiusserint, actione adversus
+            eos competenti teneri. Sed si dumtaxat de peculio tecum agatur, defensionibus,
+            si quae tibi competunt, uteris * ALEX. A. ASCLEPIADI. *&lt;A 223 PP.
+            VI ID. DEC. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2130-Dd1e157">
+               <head xml:id="azsw2e-d1e2130-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e2130-d1e161">
+                  <ref xml:id="azsw2e-d1e2130-Rd1e163">Imperatores
+            Valerianus, Gallienus</ref> Si servus tuus sine permissu tuo accepta
+            pecunia mutua in usurarum vicem habitandi facultatem concessit, nullo
+            iure adversarius tuus hospitium ex hac causa sibi vindicat, cum te
+            servi factum non obligaverit: et ingrediens rem tuam contra vim eius
+            auctoritate competentis iudicis protegeris. * VALER. ET GALLIEN. AA.
+            ET VALER. NOB. C. MATRONAE. *&lt;A 259 D. XII K. IUL. AEMILIANO ET
+            BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2130-Dd1e167">
+               <head xml:id="azsw2e-d1e2130-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e2130-d1e171">
+                  <ref xml:id="azsw2e-d1e2130-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref>  Ei, qui servo alieno dat mutuam pecuniam,
+            quamdiu superest servus, item post mortem eius intra annum de peculio
+            contra dominum competere actionem vel, si in rem domini haec versa
+            sit quantitas, post annum etiam esse honorariam non est ambigui iuris.
+            </p>
+               <p xml:id="azsw2e-d1e2130-d1e176" n="1">
+            Quapropter si quidem in rem domini versa pecunia est, heredes
+            eius convenire potes de ea summa, quae in rem ipsius processit. </p>
+               <p xml:id="azsw2e-d1e2130-d1e179" n="2">
+            Si vero hoc probari non potest, consequens est, ut superstite
+            quidem servo dominum de peculio convenias vel, si iam servus rebus
+            humanis exemptus est vel distractus seu manumissus nec annus excessit,
+            de peculio quondam adversus eum experiri possis. </p>
+               <p xml:id="azsw2e-d1e2130-d1e182" n="3">
+            Alioquin si cum libero rem agente eius, cuius precibus meministi,
+            contractum habuisti et eius personam elegisti, pervides contra dominum
+            nullam te habuisse actionem, nisi vel in rem eius pecunia processit
+            vel hunc contractum ratum habuit. * DIOCL. ET MAXIM. AA. ET CC. CRESCENTI.
+            *&lt;A 293 D. NON. APRIL. BYZANTII AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2130-Dd1e186">
+               <head xml:id="azsw2e-d1e2130-Hd1e188">8</head>
+               <p xml:id="azsw2e-d1e2130-d1e190">
+                  <ref xml:id="azsw2e-d1e2130-Rd1e192">Imperatores
+            Diocletianus, Maximianus</ref> Si ex alio contractu, non ex illicita
+            mutui datione debitor extitisti vel quod patrem tuum in fide suscepisti,
+            tam in patris positus potestate iure teneris quam etiam morte genitoris
+            tui iuris effectus: et si quidem patris heres extitisti, in solidum,
+            alioquin in quantum facere potes, secundum edicti formam. Sed et si
+            emancipatione tui iuris factus es, similiter conveniri te posse debes
+            intellegere * DIOCL. ET MAXIM. AA. ET CC. ISIDORO. *&lt;A 293 D. VI
+            ID. APRIL. BYZANTII AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2130-Dd1e196">
+               <head xml:id="azsw2e-d1e2130-Hd1e198">9</head>
+               <p xml:id="azsw2e-d1e2130-d1e200">
+                  <ref xml:id="azsw2e-d1e2130-Rd1e202">Imperatores
+            Diocletianus, Maximianus</ref> Si mandator pro filio tuo extitisti
+            vel iussu tuo cum eo quem in potestate tunc habuisti contractum est,
+            intellegis et sorti et usuris te parere oportere, si te his omnibus
+            obligasti, ut res quae pignoris iure detinentur liberari possint.
+            Quod si fideiussor creditae pecuniae intercessisti, teneri te ex ea
+            obligatione explorati iuris est * DIOCL. ET MAXIM. AA. ET CC. DIOGENIO.
+            *&lt;A 294 D. III K. MAI. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2130-Dd1e207">
+               <head xml:id="azsw2e-d1e2130-Hd1e209">10</head>
+               <p xml:id="azsw2e-d1e2130-d1e211">
+                  <ref xml:id="azsw2e-d1e2130-Rd1e213">Imperatores
+            Diocletianus, Maximianus</ref>  Si liberam peculii administrationem
+            habentes equas cum fetu de peculio servi venumdederunt, reprobandi
+            contractum dominus nullam habet facultatem. </p>
+               <p xml:id="azsw2e-d1e2130-d1e216" n="1">
+            Quod si non habentes liberam peculii administrationem rem
+            dominicam eo ignorante distraxerunt, neque dominium, quod non habent,
+            in alium transferre possunt neque condicionem eorum servilem scientibus
+            possessionis iustum adferunt initium: unde non immerito nec temporis
+            praescriptionem huiusmodi possessoribus prodesse manifestum est, ideoque
+            res mobiles ementes etiam furti actione tenentur. * DIOCL. ET MAXIM.
+            AA. ET CC. APHRODISIO. *&lt;A 294 D. V NON. OCT. SIRMI CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2130-Dd1e220">
+               <head xml:id="azsw2e-d1e2130-Hd1e222">11</head>
+               <p xml:id="azsw2e-d1e2130-d1e224">
+                  <ref xml:id="azsw2e-d1e2130-Rd1e226">Imperatores
+            Diocletianus, Maximianus</ref> Cum ancilla contrahenti, quam iure
+            non obligari constat, adversus dominum in quantum locupletius eius
+            peculium factum est ea superstite ac post mortem intra utilem annum
+            dandam actionem non ambigitur. * DIOCL. ET MAXIM. AA. ET CC. ATTALO.
+            *&lt;A 294 D. PRID. K. DEC. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2130-Dd1e230">
+               <head xml:id="azsw2e-d1e2130-Hd1e232">12</head>
+               <p xml:id="azsw2e-d1e2130-d1e234">
+                  <ref xml:id="azsw2e-d1e2130-Rd1e236">Imperatores
+            Diocletianus, Maximianus</ref> Dominum per servum obligari non posse
+            ac tantum de peculio ( deducto scilicet, quod naturaliter servus domino
+            debet) eius creditoribus dari actionem vel, si quid in rem eius versum
+            probetur, de in rem verso edicto perpetuo declaratur. * DIOCL. ET
+            MAXIM. AA. ET CC. VICTORI. *&lt;A 294 D. XIII K. FEBR. SIRMI CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2130-Dd1e240">
+               <head xml:id="azsw2e-d1e2130-Hd1e242">13</head>
+               <p xml:id="azsw2e-d1e2130-d1e244">
+                  <ref xml:id="azsw2e-d1e2130-Rd1e246">Imperatores
+            Honorius, Theodosius</ref>  Dominos ita constringi manifestum est actione
+            praetoria, quae apellatur quod iussu, si certam numerari praeceperint
+            servo actorive pecuniam. </p>
+               <p xml:id="azsw2e-d1e2130-d1e249" n="1">
+            Igitur in perpetuum edictali lege sancimus, ut, qui servo
+            colono conductori procuratori actorive possessionis pecuniam mutuam
+            det, sciat dominos possessionum cultoresve terrarum obligari non posse.
+            </p>
+               <p xml:id="azsw2e-d1e2130-d1e252" n="2">
+            Neque familiares epistulas, quibus homines plerumque commendant
+            absentem, in id trahere convenit, ut pecuniam, quam non rogatus fuerat,
+            impendisse pro praediis mentiatur, cum, nisi specialiter ut pecuniam
+            praestet a domino fuerit postulatus , idem dominus teneri non possit.
+            </p>
+               <p xml:id="azsw2e-d1e2130-d1e255" n="3">
+            Creditaque quantitate multari volumus creditores, si huiusmodi
+            personis non iubente domino nec fideiussoribus specialiter acceptis
+            fuerit credita pecunia. </p>
+               <p xml:id="azsw2e-d1e2130-d1e259" n="4">
+            Sane creditori licentiam damus, ut, si liber a rationibus
+            quas gerebat fuerit inventus actor servus procuratorve praediorum,
+            utilis actio pateat de peculio. * HONOR. ET THEODOS. AA. IOHANNI PP.
+            *&lt;A 422 D. V ID. IUL. RAVENNAE HONORIO XIII ET THEODOSIO X AA.
+            CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

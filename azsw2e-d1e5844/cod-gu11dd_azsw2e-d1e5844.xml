@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 21</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 21</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5844"><!-- azsw2e-l9t21 -->
+            <head xml:id="azsw2e-d1e5844-Hd1e101">Titulus 21</head>
+            <head xml:id="azsw2e-d1e5844-Hd1e103" type="question-title">Ad legem Viselliam</head>
+            <div xml:id="azsw2e-d1e5844-Dd1e106">
+               <head xml:id="azsw2e-d1e5844-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5844-d1e110">
+                  <ref xml:id="azsw2e-d1e5844-Rd1e112">Imperatores
+            Diocletianus, Maximianus</ref>  Lex Visellia libertinae condicionis
+            homines persequitur, si ea quae ingenuorum sunt circa honores et dignitates
+            ausi fuerint attemptare vel decurionatum adripere, nisi iure aureorum
+            anulorum impetrato a principe sustentantur. Tunc enim quoad vivunt
+            imaginem, non statum ingenuitatis obtinent et sine periculo ingenuorum
+            etiam officia peragunt publica.</p>
+               <p xml:id="azsw2e-d1e5844-d1e115" n="1">
+            Qui autem libertinus se dicit ingenuum, tam de operis civiliter
+            quam etiam lege Visellia criminaliter poterit perurgueri: in curiam
+            autem se immiscens damno quidem cum infamia adficitur: muneribus vero
+            personalibus in patria patroni, quae congruunt huiusmodi hominibus,
+            singulos pro viribus adstrictos esse non dubium est. * DIOCL. ET MAXIM.
+            AA. ET CC.BACCHO. *&lt;A 300 ? PP.II ID.FEBR.ANTIOCHIAE CC.CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

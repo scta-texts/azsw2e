@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 49</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 49</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2387"><!-- azsw2e-l4t49 -->
+            <head xml:id="azsw2e-d1e2387-Hd1e101">Titulus 49</head>
+            <head xml:id="azsw2e-d1e2387-Hd1e103" type="question-title">De actionibus empti et venditi</head>
+            <div xml:id="azsw2e-d1e2387-Dd1e106">
+               <head xml:id="azsw2e-d1e2387-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2387-d1e110">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e112">Imperator
+            Antoninus</ref> Adversus eum, cui agrum vendidisti, venditi iudicio
+            consiste: nec enim tibi in rem actio cum emptore, qui personaliter
+            tibi sit obligatus, competit. * ANT. A. AELIANAE. *&lt;A 215 PP. IIII
+            ID. IUN. LAETO ITERUM ET CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e116">
+               <head xml:id="azsw2e-d1e2387-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2387-d1e120">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e122">Imperatores
+            Valerianus, Gallienus</ref>  Venditi actionem ad recipiendum residuum
+            pretium intendere adversario tuo poteris.</p>
+               <p xml:id="azsw2e-d1e2387-d1e125" n="1">
+            Nec quod in compensationem venerit, quasi et tu invicem deberes,
+            id obesse tibi poterit, si in bonae fidei contractu, in quo maiores
+            etiam viginti quinque annis officio iudicis in iis quae dolo commissa
+            sunt adiuvantur, iusto errore te ductum vel fraude adversarii captum,
+            quasi debitum id esset, quod re vera non debebatur, pepigisse monstraveris.
+            </p>
+               <p xml:id="azsw2e-d1e2387-d1e128" n="2">
+            Fructus quoque perceptos ante venditionem contractam, quos,
+            cum venditioni non accessissent, eundem emptorem invasisse proponis,
+            eodem iudicio reposces.* VALER. ET GALLIEN. AA. ET VALER. C.
+            FLAVIO DOMITIANO. *&lt;A 259 PP. ID. MART. AEMILIANO ET BASSO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e132">
+               <head xml:id="azsw2e-d1e2387-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e2387-d1e136">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e138">Imperatores
+            Diocletianus, Maximianus</ref> Ex arrali pacto personalis dumtaxat
+            paciscentibus actio praeparatur. * DIOCL. ET MAXIM. AA. SERAPODORO.
+            *&lt;A 290 PP. IIII ID. IUL. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e143">
+               <head xml:id="azsw2e-d1e2387-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e2387-d1e147">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e149">Imperatores
+            Diocletianus, Maximianus</ref> Si traditio rei venditae iuxta emptionis
+            contractum procacia venditoris non fiat , quanti interesse compleri
+            emptionem fuerit arbitratus praeses provinciae, tantum in condemnationis
+            taxationem deducere curabit. * DIOCL. ET MAXIM. AA. MUCIANO. *&lt;A
+            290 PP. VIII ID. SEPT. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e153">
+               <head xml:id="azsw2e-d1e2387-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e2387-d1e157">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e159">Imperatores
+            Diocletianus, Maximianus</ref> Curabit praeses provinciae compellere
+            emptorem, qui nactus possessionem fructus percepit, partem pretii
+            quam penes se habet cum usuris restituere, quas et perceptorum fructuum
+            ratio et minoris aetatis favor, licet nulla mora intercesserit, generavit.
+            * DIOCL. ET MAXIM. AA. ET CC. DECIMO CAPLUSIO. *&lt;A 290 PP. XII
+            K. OCT. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e163">
+               <head xml:id="azsw2e-d1e2387-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e2387-d1e167">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e169">Imperatores
+            Diocletianus, Maximianus</ref> Venditi actio, si non ab initio aliud
+            convenit, non facile ad rescindendam perfectam venditionem, sed ad
+            pretium exigendum competit. * DIOCL. ET MAXIM. AA. ET CC. NERATIO.
+            *&lt;A 293 S. VI ID. APRIL. BYZANTII AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e173">
+               <head xml:id="azsw2e-d1e2387-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e2387-d1e177">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e179">Imperatores
+            Diocletianus, Maximianus</ref> Si servos distraxisti ac pretium de
+            peculio eorum, quod ad te pertinebat, nesciens unde solveretur accepisti,
+            consequens est integram te pretii actionem habere, cum proprii venditoris
+            nummi soluti non praestant emptori liberationem. * DIOCL. ET MAXIM.
+            AA. ET CC. DIODORO. *&lt;A 293 S. XVII K. MAI. MELANTHIADE AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e183">
+               <head xml:id="azsw2e-d1e2387-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e2387-d1e187">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e189">Imperatores
+            Diocletianus, Maximianus</ref>  Si pater tuus venum portionem suam
+            dedit nec induxit in vacuam possessionem praedii, ius omne penes se
+            eum retinuisse certum est. Neque enim velut traditionis factae vectigal
+            exsolutum, si simulatum factum intercessit, veritatem mutare potuit
+            </p>
+               <p xml:id="azsw2e-d1e2387-d1e192" n="1">
+            Quapropter aditus praeses provinciae, si animadverterit in
+            vacuam possessionem neque patrem tuum neque successores eius emptorem
+            vel heredes ipsius quocumque loco factos induxisse, non dubitabit
+            nihil esse translatum pronuntiare. Et si te ex empto ad inducendum
+            in vacuam possessionem perspexerit conveniri, aestimabit, an pretium
+            sit exsolutum: ac si reppererit non esse satis pretio factum, hoc
+            restitui tibi providebit * DIOCL. ET MAXIM. AA. ET CC. AURELIO EUSEBIO.
+            *&lt;A 293 S. V K. MAI. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e196">
+               <head xml:id="azsw2e-d1e2387-Hd1e198">9</head>
+               <p xml:id="azsw2e-d1e2387-d1e200">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e202">Imperatores
+            Diocletianus, Maximianus</ref> Si minor a venditore sive sciente sive
+            ignorante dicebatur capitatio praedii venditi et maior inventa sit,
+            in tantum convenitur, quanto, si scisset emptor ab initio, minus daret
+            pretii. Sin vero huiusmodi onus et gravamen functionis cognovisset,
+            nullam adversus venditorem habet actionem * DIOCL. ET MAXIM. AA. ET
+            CC. AURELIAE ZANIAE ANTIPATRAE. *&lt;A 293 S. XV K. IUN. PHILIPPOPOLI
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e207">
+               <head xml:id="azsw2e-d1e2387-Hd1e209">10</head>
+               <p xml:id="azsw2e-d1e2387-d1e211">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e213">Imperatores
+            Diocletianus, Maximianus</ref> Cum venditorem carnis fide conventionis
+            rupta tempore placito hanc non exhibuisse proponas, empti actione
+            eum quanti interest tua tunc tibi praestitam fuisse apud praesidem
+            provinciae convenire potes. * DIOCL. ET MAXIM. AA. ET CC. TITIO ATTALO.
+            *&lt;A 293 S. XVII K. IAN. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e217">
+               <head xml:id="azsw2e-d1e2387-Hd1e219">11</head>
+               <p xml:id="azsw2e-d1e2387-d1e221">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e223">Imperatores
+            Diocletianus, Maximianus</ref> Si ancillam tibi ex causa venditionis
+            traditam venditor manumisit, libertatem alienae factae praestare non
+            potuit. Quod si post venditionem ante traditionem manumisit, pleno
+            iure dominus constitutus civem romanam facere non prohibebatur: tibi
+            personali propter ruptam fidem contra venditorem actione competente
+            * DIOCL. ET MAXIM. AA. ET CC. FLAVIAE EUCARPIAE. *&lt;A 293 S. X K.
+            IAN. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e227">
+               <head xml:id="azsw2e-d1e2387-Hd1e229">12</head>
+               <p xml:id="azsw2e-d1e2387-d1e231">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e233">Imperatores
+            Diocletianus, Maximianus</ref> Sicut periculum vini mutati, quod certum
+            fuerat comparatum, ad emptorem, ita commodum aucti pretii pertinet.
+            Utque hoc verum est, sic certae qualitatis ac mensurae distracto vino
+            fidem placitis servandam convenit: quo non restituto non pretii quantitatis,
+            sed quanti interest empti competit actio * DIOCL. ET MAXIM. AA. ET
+            CC. EGI CRISPINO.*&lt;A 294 S. PRID. NON. FEBR. SIRMI CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e237">
+               <head xml:id="azsw2e-d1e2387-Hd1e239">13</head>
+               <p xml:id="azsw2e-d1e2387-d1e241">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e243">Imperatores
+            Diocletianus, Maximianus</ref> Fructus post perfectum iure contractum
+            emptoris spectare personam convenit, ad quem et functionum gravamen
+            pertinet: venditorque pretium tantum ac, si moram intercessisse probetur,
+            usuras officio iudicis exigere potest. * DIOCL. ET MAXIM. AA. ET CC.
+            FLAVIO ALEXANDRO. *&lt;A 294 S. IIII NON. DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e247">
+               <head xml:id="azsw2e-d1e2387-Hd1e249">14</head>
+               <p xml:id="azsw2e-d1e2387-d1e251">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e253">Imperatores
+            Diocletianus, Maximianus</ref> Emptor servorum recte de his tradendis
+            et de eorum fuga itemque sanitate erronesque non esse aut noxa solutus
+            repromitti sibi recte postulat. * DIOCL. ET MAXIM. AA. ET CC. AURELIO
+            RUSONI. *&lt;A 294 S. V K. DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e257">
+               <head xml:id="azsw2e-d1e2387-Hd1e259">15</head>
+               <p xml:id="azsw2e-d1e2387-d1e261">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e263">Imperatores
+            Diocletianus, Maximianus</ref> Ultra modum tritici distracti citra
+            pactum in solutione mora non facta nihil emptor exigere potest. *
+            DIOCL. ET MAXIM. AA. ET CC. AURELIO ANTONINO AELIANO. *&lt;A 294 S.
+            XV K. IAN. NICOMEDIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e268">
+               <head xml:id="azsw2e-d1e2387-Hd1e270">16</head>
+               <p xml:id="azsw2e-d1e2387-d1e272">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e274">Imperatores
+            Diocletianus, Maximianus</ref> Post perfectam venditionem fetus quidem
+            pecorum emptori, venditori vero sumptus, si quos bona fide fecerit,
+            restitui debere notissimum est. * DIOCL. ET MAXIM. AA. ET CC. AURELIO
+            CYRILLO. *&lt;A 294 S. VIII K. IAN. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2387-Dd1e278">
+               <head xml:id="azsw2e-d1e2387-Hd1e280">17</head>
+               <p xml:id="azsw2e-d1e2387-d1e282">
+                  <ref xml:id="azsw2e-d1e2387-Rd1e284">Imperatores
+            Diocletianus, Maximianus</ref> Expulsos vos de fundo per violentiam
+            a nerone, quem habere ius in eo negatis, profitentes nullam vobis
+            adversus eum, ex cuius venditione fundum possidetis, actionem competere
+            probatis. Igitur ad instar interdicti seu actionis promissae experiendum
+            esse perspicitis * DIOCL. ET MAXIM. AA. ET CC. HERMIANO ET HERMIPPO.
+            *&lt;&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

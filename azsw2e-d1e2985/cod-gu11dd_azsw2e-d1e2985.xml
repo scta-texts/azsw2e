@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 36</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 36</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2985"><!-- azsw2e-l5t36 -->
+            <head xml:id="azsw2e-d1e2985-Hd1e101">Titulus 36</head>
+            <head xml:id="azsw2e-d1e2985-Hd1e103" type="question-title">In quibus causis tutorem habenti tutor vel curator dari potest</head>
+            <div xml:id="azsw2e-d1e2985-Dd1e106">
+               <head xml:id="azsw2e-d1e2985-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2985-d1e110">
+                  <ref xml:id="azsw2e-d1e2985-Rd1e112">Imperator
+            Antoninus</ref>  Si in locum eius tutoris ad tempus dati estis, qui
+            rei publicae causa aberat, isque iam finito munere quod ei iniunctum
+            est abesse desiit, quin ad eius officium curamque pertineant negotia
+            pupillae, ambigere non debetis. </p>
+               <p xml:id="azsw2e-d1e2985-d1e115" n="1">
+            Sed consultius feceritis, si praesidem provinciae virum clarissimum
+            adieritis, ut is ad administrationem tutelae compellatur. * ANT. A.
+            TIBERIANO ET RUFO. *&lt;A 213 PP. VIII K. AUG. ANTONINO A. IIII ET
+            BALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2985-Dd1e119">
+               <head xml:id="azsw2e-d1e2985-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e2985-d1e123">
+                  <ref xml:id="azsw2e-d1e2985-Rd1e125">Imperator
+            Alexander Severus</ref> Potuit quidem et debuit competens iudex in
+            locum excusati curatoris, licet pupillus alios quoscumque haberet
+            tutores, dare. Quamvis autem curator cum aliis in locum eius substitutus
+            sis, tamen periculo administrationis ultra pubertatis tempora non
+            adstringeris * ALEX. A. VALENTINO. *&lt;A 228 PP. V ID. IUN. MODESTO
+            ET PROBO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2985-Dd1e129">
+               <head xml:id="azsw2e-d1e2985-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e2985-d1e133">
+                  <ref xml:id="azsw2e-d1e2985-Rd1e135">Imperator
+            Alexander Severus</ref> Propter late diffusum ( id est in diversis
+            locis constitutum) patrimonium, vel quod solus administrationi non
+            sufficias, an tibi tutelam administranti adiungi aliquos curatores
+            oporteat, praeses provinciae, si te non sufficientem deprehenderit,
+            aestimabit. * ALEX. A. HYLAE. *&lt;A 231 PP. VIII ID. DEC. POMPEIANO
+            ET PELIGNO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2985-Dd1e140">
+               <head xml:id="azsw2e-d1e2985-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e2985-d1e144">
+                  <ref xml:id="azsw2e-d1e2985-Rd1e146">Imperatores
+            Valerianus, Gallienus. </ref>Licet tutorem habenti tutor dari non potest,
+            tamen certis ex causis alius idoneus substitui sententia competentis
+            iudicis solet, id est in locum suspecti, qui convictus ac remotus
+            est, et in locum excusati vel defuncti vel relegati tutoris. * VALER.
+            ET GALLIEN. AA. EUPLOIO. *&lt;A 260 PP. ID. MART. SAECULARE II ET
+            DONATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2985-Dd1e150">
+               <head xml:id="azsw2e-d1e2985-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e2985-d1e154">
+                  <ref xml:id="azsw2e-d1e2985-Rd1e156">Imperatores
+            Diocletianus, Maximianus</ref>  Cum ob augmentum facultatum curatores
+            adiungi solent, non prius tutores dati administratione eorum liberantur.
+            </p>
+               <p xml:id="azsw2e-d1e2985-d1e159" n="1">
+            Sane si is qui administravit tempore finitae tutelae fuit
+            solvendo, secuti temporis periculum ad te pertinere non potuisse manifestum
+            est. * DIOCL. ET MAXIM. AA. ET CC. ZENONI. *&lt;A 294 D. III K. APRIL.
+            CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

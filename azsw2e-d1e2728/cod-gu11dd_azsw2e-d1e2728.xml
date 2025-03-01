@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 13</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 13</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2728"><!-- azsw2e-l5t13 -->
+            <head xml:id="azsw2e-d1e2728-Hd1e101">Titulus 13</head>
+            <head xml:id="azsw2e-d1e2728-Hd1e103" type="question-title">De rei uxoriae actione in ex stipulatu actionem transfusa et de natura
+            dotibus praestita</head>
+            <div xml:id="azsw2e-d1e2728-Dd1e106">
+               <head xml:id="azsw2e-d1e2728-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2728-d1e110">
+                  <ref xml:id="azsw2e-d1e2728-Rd1e112">Imperator
+            Justinianus</ref>  Rem in praesenti non minimam adgredimur, sed in
+            omni paene corpore iuris effusam, tam super rei uxoriae actione quam
+            ex stipulatu, earum communiones et differentias resecantes et in unum
+            tramitem ex stipulatu actionis totum rei uxoriae ius, quod dignum
+            esse valere censemus, concludentes. </p>
+               <p xml:id="azsw2e-d1e2728-d1e115" n="1">
+            Rei uxoriae itaque actione sublata sancimus omnes dotes per
+            ex stipulatu actionem exigi, sive scripta fuerit stipulatio sive non,
+            ut intellegatur re ipsa stipulatio esse subsecuta. </p>
+               <p xml:id="azsw2e-d1e2728-d1e118"> 
+            Eodemque modo et si inutiliter facta est stipulatio: adiuvari
+            enim eam magis quam evanescere oportet. Si enim, cum una in instrumento
+            stipulatio valida inveniatur, et aliis inutilibus suam noscitur praestare
+            fortitudinem, quare non ex nostra lege huiusmodi stipulationibus robur
+            accedat legitimum? est enim consentaneum nobis, qui censemus, et ubi
+            supposita stipulatio non est, intellegi eam fuisse adhibitam, multo
+            magis etiam, si inutilis est, validam eam effici </p>
+               <p xml:id="azsw2e-d1e2728-d1e120"> 
+            Et ut plenius dotibus subveniatur, quemadmodum in administratione
+            pupillarium rerum et in aliis multis iuris articulis tacitas hypothecas
+            inesse accipimus, ita et in huiusmodi actione damus ex utroque latere
+            hypothecam, sive ex parte mariti pro restitutione dotis sive ex parte
+            mulieris pro ipsa dote praestanda vel rebus dotalibus evictis, sive
+            ipsae principales personae dotes dederint, vel promiserint vel susceperint,
+            sive aliae pro his personae, et dos sive adventicia sive profecticia
+            sit secundum veteris iuris nominationem. </p>
+               <p xml:id="azsw2e-d1e2728-d1e123"> 
+            Ita enim et imperitia hominum et rusticitas nihil eis possit
+            adferre praeiudicium, cum nos illis et ignorantibus et nescientibus
+            in hoc casu nostram induximus providentiam. Si enim et stipulationes
+            et hypothecae inesse dotibus intelleguntur et inutiles stipulationes
+            emendantur, sic in posterum causa invaniatur valida et perfecta, quasi
+            omnibus dotalibus instrumentis a prudentissimis iuris confectis </p>
+               <p xml:id="azsw2e-d1e2728-d1e125"> 
+            Et nemo putet nos haec sancire in his tantummodo dotibus,
+            quae instrumentis receptae sunt: nihil enim prohibet, etsi sine scriptis
+            dos vel detur vel promittatur vel suscipiatur, simili modo intellegi
+            factam stipulationem et hypothecam ex utraque parte, quasi fuerit
+            scripta. Et natura quidem ex stipulatu actionis haec intellegatur,
+            re uxoria in posterum cessante </p>
+               <p xml:id="azsw2e-d1e2728-d1e127" n="2">
+            Sed etsi non ignoramus ex stipulatu actionem stricto iure
+            esse vallatam et non ex bona fide descendere, tamen, quia novam naturam
+            de dote stipulatio sibi invenit, accommodetur ei a natura rei uxoriae
+            etiam bonae fidei beneficium. </p>
+               <p xml:id="azsw2e-d1e2728-d1e130"> 
+            Et omnes quidem eventus, quos dos ex stipulatu habet, maneat
+            pro sui natura exercens: si quid autem optimum ex rei uxoriae actione
+            invenimus, hoc in praesenti specialiter ei addimus, ut sit et nova
+            ista ex stipulatu quam composuimus et non propria tantum, sed etiam
+            veteris actionis pulchritudine decorata. </p>
+               <p xml:id="azsw2e-d1e2728-d1e132" n="3">
+            Primum itaque quid naturale sit ex stipulatu actionis, exponatur,
+            et ita, si quid ex actione rei uxoriae supervenerit, addatur. </p>
+               <p xml:id="azsw2e-d1e2728-d1e135"> 
+            Sciendum itaque est edictum praetoris, quod de alterutro
+            introductum est, in ex stipulatu actione cessare, ut uxor et a marito
+            relicta accipiat et dotem consequatur, nisi specialiter pro dote ei
+            maritus ea dereliquit, cum manifestissimum est testatorem, qui non
+            hoc addidit, voluisse eam utrumque consequi. </p>
+               <p xml:id="azsw2e-d1e2728-d1e138" n="4">
+            Maneat ex stipulatu actionis ius ad successores et sine mora
+            transmissionis incorruptum. </p>
+               <p xml:id="azsw2e-d1e2728-d1e141" n="5">
+            Taceat in ea retentionum verbositas. Quid enim opus est inducere
+            ob mores retentionem alio auxilio ex constitutionibus introducto </p>
+               <p xml:id="azsw2e-d1e2728-d1e144"> 
+            Vel ex qua causa ob res donatas retentio introducatur, cum
+            sit donatori facultas per actionem in rem directam vel per utilem
+            vel per condictionem suo iuri mederi? </p>
+               <p xml:id="azsw2e-d1e2728-d1e146"> 
+            Sed nec retentio ob res amotas necessaria est, cum pateat
+            omnibus maritis rerum amotarum iudicium. </p>
+               <p xml:id="azsw2e-d1e2728-d1e148"> 
+            Sileat ob liberos retentio, cum ipse naturalis stimulus parentes
+            ad liberorum suorum educationem hortatur. </p>
+               <p xml:id="azsw2e-d1e2728-d1e150"> 
+            Ne varium genus culpae mariti contra uxores excogitent, ut
+            possint eadem retentione contra eas uti, cum iam etiam imperialibus
+            constitutionibus statutum sit, si culpa mulieris dissolutum fuerit
+            matrimonium, quid fieri oportet. </p>
+               <p xml:id="azsw2e-d1e2728-d1e153"> 
+            Sed nec ob impensas in res dotis factas retentio satis esse
+            nobis videtur idonea. Cum enim necessariae quidem expensae dotis minuunt
+            quantitates, utiles autem expensae non aliter in rei uxoriae actione
+            detinebantur, nisi ex voluntate mulieris, non ab re est, si quidem
+            voluntas mulieris intercedat, mandati actionem a nostra auctoritate
+            marito contra uxorem indulgeri, quatenus possit per hanc hoc quod
+            utiliter impensum est observari: vel si non intercedat mulieris voluntas,
+            utiliter tamen res gesta est, negotiorum gestorum adversus eam sufficit
+            actio </p>
+               <p xml:id="azsw2e-d1e2728-d1e155"> 
+            Quod si voluptariae sunt, licet voluntate eius expensae,
+            deductio operis quod fecit, sine laesione tamen prioris speciei, marito
+            relinquatur, ut sit omnium retentionum expeditus tractatus et ex stipulatu
+            actio merito secundum sui naturam nullam accipiat retentionem. </p>
+               <p xml:id="azsw2e-d1e2728-d1e157" n="6">
+            Illo procul dubio in ex stipulatu actione servando, ut, si
+            decesserit mulier constante matrimonio, dos non in lucrum mariti cedat
+            nisi ex quibusdam pactionibus, sed ad heredes mulieris ex stipulatu
+            actio secundum sui naturam transmittatur, sive expressa fuerit sive
+            ex hac lege inesse intellegatur. </p>
+               <p xml:id="azsw2e-d1e2728-d1e160" n="7">
+            Cum autem in exactione dotis ex stipulatu quidem actio naturaliter
+            restitutionem dotis a parte mariti uxori ilico et in solidum fieri
+            iubebat, rei uxoriae autem annua bima trima die in his quae pondere
+            numero mensura consistunt exactionem pollicebatur, et non in solidum,
+            sed quantum maritus facere potest, si non dolo malo suam deminuit
+            substantiam, in hac parte rudem figuram ex stipulatu damus actioni,
+            ut, si matrimonium fuerit dissolutum nullo pacto adhibito, in tantum
+            quidem maritus condemnetur, in quantum facere potest, quia hoc aequissimum
+            est et reverentiae debitum maritali, si non dolo malo versatus est:
+            cautione videlicet ab eo exponenda, quod, si ad meliorem fortunam
+            pervenerit, etiam quod minus persolvit, hoc restituere procuret. </p>
+               <p xml:id="azsw2e-d1e2728-d1e163"> 
+            Exactio autem dotis celebretur non annua bima trima die,
+            sed omnimodo intra annum in rebus mobilibus vel se moventibus vel
+            incorporalibus: ceteris videlicet rebus quae solo continentur ilico
+            restituendis, quod commune utriusque fuerat actionis. </p>
+               <p xml:id="azsw2e-d1e2728-d1e165"> 
+            Sin autem supersederit res mobiles vel se moventes vel incorporales
+            post annale tempus restituere vel ceteras res statim post dissolutum
+            matrimonium, etiam usuras aestimationis omnium rerum, quae extra immobiles
+            sunt, usque ad tertiam partem centesimae ex bona fidei introducendas
+            maritus praestet: fructibus videlicet immobilium rerum parti mulieris
+            ex tempore dissoluti matrimonii praestandis, similique modo pensionibus
+            vel vecturis navium sive iumentorum vel operis servorum vel quaestu
+            civilium annonarum et aliis quae sunt eis similia parti mulieris restituendis.
+            </p>
+               <p xml:id="azsw2e-d1e2728-d1e168" n="8">
+            Igitur et in sequenti capitulo sua ex stipulatu actio utatur
+            natura, ut, si mulier a marito fuerit heres instituta et legis falcidiae
+            ratio emerserit, etiam dotis debitum liceat ei sicuti alia debita
+            ex substantia mariti subtrahere et sic quartam partem deducere. </p>
+               <p xml:id="azsw2e-d1e2728-d1e171" n="9">
+            Cumque ex stipulatu actio in his casibus quos enumeravimus
+            propriam habeat naturam, necessarium est in sequenti tractatu ea exponere,
+            quae vel communia sunt utriusque actionis, quae in solam ex stipulatu
+            actionem colligi oportet, vel propria quidem rei uxoriae actionis,
+            exinde autem ex stipulatu actioni accommodanda. </p>
+               <p xml:id="azsw2e-d1e2728-d1e174"> 
+            Itaque partus dotalium ancillarum, id est quae aestimatae
+            non sunt, vel quae servi dotales ex quacumque causa nisi ex re mariti
+            vel operis suis adquisierint, ad mulierem pertinere utraque actio
+            similiter voluit. </p>
+               <p xml:id="azsw2e-d1e2728-d1e176"> 
+            Fetus autem iumentorum et omnia quae fructuum nomine continentur
+            ad lucrum mariti pertineant pro tempore matrimonii, sive aestimata
+            sive non aestimata sint. </p>
+               <p xml:id="azsw2e-d1e2728-d1e178"> 
+            Sed et novissimi anni, in quo matrimonium solvitur, fructus
+            pro rata temporis portione debere utrique parti adsignari commune
+            utriusque actionis est, in rebus scilicet non aestimatis. Aestimatarum
+            enim rerum maritus quasi emptor et commodum sentiat et dispendium
+            subeat et periculum expectet </p>
+               <p xml:id="azsw2e-d1e2728-d1e180"> 
+            Cautione videlicet defensionis in specie, in qua dotem suae
+            uxoris vel nurus in familiae herciscundae iudicio praecipuam filius
+            defuncti detrahit, secundum propriam naturam ex stipulatu actionis
+            coheredibus suis praestanda. </p>
+               <p xml:id="azsw2e-d1e2728-d1e183"> 
+            Videamus igitur, quali incremento ei de rei uxoriae actione
+            accedente formare decet ex stipulatu actionem. Cumque iuris certi
+            et indubitati est, si parens per virilem sexum adscendens dote pro
+            filia vel nepte praestita emancipaverit eam vel ipse decesserit, in
+            rei uxoriae actione dotem omnimodo ad mulierem pertinere, etsi fuerit
+            exheredata ( quod non erat in ex stipulatu actione: ibi etenim velut
+            aliae actiones in omnes heredes actio dividebatur), aequissimum nobis
+            visum est et in ex stipulatu actione mulierem dotem suam praecipuam
+            accipere, etsi emancipata vel exheredata sit vel cum aliis heredibus
+            scripta </p>
+               <p xml:id="azsw2e-d1e2728-d1e185"> 
+            Quo a nobis recepto et aliae multae species promptum accipiunt
+            exitum, cum dos possit et de inofficioso actionem excludere, maxime
+            si sufficit ad quartam, et in collationem ferri, si intestatus pater
+            familias decesserit, et testamento facto, quando hoc testator dixerit.
+            Quae omnia ex stipulatu actio a rei uxoriae actione accipit </p>
+               <p xml:id="azsw2e-d1e2728-d1e187"> 
+            Accedit ei et alia species a rei uxoriae actione. Si quando
+            etenim extraneus dotem dabat nulla stipulatione vel pacto pro restitutione
+            eius in suam personam facto, quisquis is fuerat, mulier habebat rei
+            uxoriae actionem: quod antea in ex stipulatu actione non erat. Stipulatione
+            autem vel pacto interposito stipulator vel is qui paciscebatur habebat
+            vel ex stipulatu vel praescriptis verbis civilem actione </p>
+               <p xml:id="azsw2e-d1e2728-d1e189"> 
+            In praesenti autem non sic esse volumus, sed si non specialiter
+            extraneus dotem dando in suam personam dotem stipulatus est vel pactum
+            fecerit, tunc praesumatur mulier ipsa stipulationem fecisse, ut ei
+            dos ex huiusmodi casu accedat. </p>
+               <p xml:id="azsw2e-d1e2728-d1e191"> 
+            Neque enim in hac specie volumus videri extraneum tacitam
+            stipulationem fecisse, ne, quod pro mulieribus introduximus, hoc adversus
+            mulieres convertatur. Immo magis in huiusmodi dotibus, quae ab extraneis
+            dantur vel promittuntur, ipsa mulier videatur fecisse tacitam stipulationem,
+            nisi expressim extraneus sibi dotem reddi pactus fuerit vel stipulatus,
+            cum donasse magis mulieri quam sibi aliquid ius servasse extraneus
+            non stipulando videtur </p>
+               <p xml:id="azsw2e-d1e2728-d1e193"> 
+            Extraneum autem intellegimus omnem citra parentem per virilem
+            sexum adscendentem et in potestate dotandam personam habentem: parenti
+            enim tacitam ex stipulatu actionem donamus. </p>
+               <p xml:id="azsw2e-d1e2728-d1e196"> 
+            Et hoc ex rei uxoriae actione simili modo ex stipulatu actioni
+            accommodandum est. Si quando etenim post solutum matrimonium dos a
+            patre petebatur, si quidem rei uxoriae fuerat actio, non poterat solus
+            pater sine consensu filiae suae agere : et si necdum actione mota
+            ab hac luce fuerat subtractus et si lis contestata esset, ad filiam
+            quasi proprium patrimonium dos revertebatur </p>
+               <p xml:id="azsw2e-d1e2728-d1e198"> 
+            Quod non erat in ex stipulatu actione: ibi enim et solus
+            exactionem habebat consensu filiae non expectato et, si decedebat,
+            ad suos heredes transmittebat. Sed rei uxoriae ius et in ex stipulatu
+            actionem transponere satis humanum, satis pium, satis utile matrimoniis
+            est </p>
+               <p xml:id="azsw2e-d1e2728-d1e200"> 
+            Et cum lex Iulia fundi dotalis Italici alienationem prohibebat
+            fieri a marito non consentiente muliere, hypothecam autem nec si mulier
+            consentiebat, interrogati sumus, si oportet huiusmodi sanctionem non
+            super italicis tantummodo fundis, sed pro omnibus locum habere. </p>
+               <p xml:id="azsw2e-d1e2728-d1e202"> 
+            Placet itaque nobis eandem observationem non tantum in italicis
+            fundis, sed etiam in provincialibus extendi. Cum autem hypothecam
+            etiam ex hac lege donavimus, sufficiens habet remedium mulier, et
+            si maritus fundum alienare voluerit </p>
+               <p xml:id="azsw2e-d1e2728-d1e204"> 
+            Sed ne ex consensu mulieris hypothecae eius minuantur, necessarium
+            est et in hac parte mulieribus subvenire hoc tantummodo addito, ut
+            fundum dotalem non solum hypothecae titulo dare nec consentiente muliere
+            maritus possit, sed nec alienare, ne fragilitate naturae suae in repentinam
+            deducatur inopiam. </p>
+               <p xml:id="azsw2e-d1e2728-d1e206"> 
+            Licet enim anastasiana lex de consentientibus mulieribus
+            vel suo iuri renuntiantibus loquitur, tamen eam intellegi oportet
+            in res mariti vel dotis quidem, aestimatas autem, in quibus dominium
+            et periculum mariti est: in fundo autem inaestimato, qui et dotalis
+            proprie nuncupatur, maneat ius intactum, ex lege quidem Iulia imperfectum,
+            ex nostra autem auctoritate plenum atque in omnibus terris effusum
+            et non tantum italicis et sola hypotheca conclusum. </p>
+               <p xml:id="azsw2e-d1e2728-d1e209"> 
+            Illud etiam generaliter praesenti addere sanctioni necessarium
+            esse duximus, ut, si qua pacta intercesserint vel pro restitutione
+            dotis vel pro tempore vel pro usuris vel pro alia quacumque causa,
+            quae nec contra leges nec contra constitutiones sunt, ea observentur.
+            </p>
+               <p xml:id="azsw2e-d1e2728-d1e211"> 
+            Sin autem repudio matrimonium fuerit dissolutum, omnia iura,
+            quae ex Theodosiana vel nostra lege descendunt, immutilata custodiantur.
+            </p>
+               <p xml:id="azsw2e-d1e2728-d1e213"> 
+            Simili modo ea, quae Anastasianae legi pro his quae bona
+            gratia separantur enumerata sunt, firma illibataque permaneant. </p>
+               <p xml:id="azsw2e-d1e2728-d1e215"> 
+            Et generaliter quidquid sacratissimis constitutionibus vel
+            libris prudentium cautum est, quod non contrarium huic legi inveniatur,
+            et hoc in sua maneat firmitate et ex stipulatu actioni adgregetur,
+            licet in re uxoria tractatum est. </p>
+               <p xml:id="azsw2e-d1e2728-d1e217"> 
+            Quae omnia in his tantummodo dotibus locum habere censemus,
+            quae post hanc legem datae fuerint vel promissae vel etiam sine scriptis
+            habitae: instrumenta enim iam confecta viribus suis carere non patimur,
+            sed suum expectare eventum. * IUST. A. AD POP. URB. CONSTANTINOPOLITANAE
+            ET UNIVERSOS PROVINCIALES.*&lt;A 530 D.K.NOV.LAMPADIO ET ORESTE CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

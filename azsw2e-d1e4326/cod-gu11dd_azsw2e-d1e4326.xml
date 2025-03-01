@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 19</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 19</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4326"><!-- azsw2e-l7t19 -->
+            <head xml:id="azsw2e-d1e4326-Hd1e101">Titulus 19</head>
+            <head xml:id="azsw2e-d1e4326-Hd1e103" type="question-title">De ordine cognitionum</head>
+            <div xml:id="azsw2e-d1e4326-Dd1e106">
+               <head xml:id="azsw2e-d1e4326-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4326-d1e110">
+                  <ref xml:id="azsw2e-d1e4326-Rd1e112">Imperator
+            Alexander Severus</ref> Cum et ipse confessus es status controversiam
+            pati, qua ratione postulas, priusquam de condicione constaret tua,
+            accusandi tibi tribui potestatem contra eum, qui te servum esse contendit?
+            cum igitur, sicut adlegas, statu generis fretus es , iuxta ius ordinarium
+            praesidem pete, qui cognita prius liberali causa ex eventu iudicii,
+            quid de crimine statuere debeat, non dubitabit. * ALEX. A. VITALIO.
+            *&lt;A 223 PP. V ID. M... MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4326-Dd1e116">
+               <head xml:id="azsw2e-d1e4326-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4326-d1e120">
+                  <ref xml:id="azsw2e-d1e4326-Rd1e122">Imperator
+            Alexander Severus</ref> Si de hereditate et libertate controversia
+            est, prius agi causa libertatis debet. Sed si de hereditate agetur,
+            ordinanda quidem est causa libertatis, sed sufficit ei, qui libertate
+            utitur, ad victoriam de hereditate secundum se pronuntiatum * ALEX.
+            A. GALLIAE. *&lt;A 223 PP. V ID. AUG. MAXIMO II ET AELIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4326-Dd1e126">
+               <head xml:id="azsw2e-d1e4326-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4326-d1e130">
+                  <ref xml:id="azsw2e-d1e4326-Rd1e132">Imperator
+            Alexander Severus</ref> Si crimen aliquod inferatur ei, quam ingenuam
+            esse dicis, ante liberalis causa suo ordine agi debet, cognitionem
+            suam praeside praebente, quoniam necesse est ante sciri, si delictum
+            probatum fuerit, ut in liberam et ingenuam an ut in ancillam constitui
+            oportet. * ALEX. A. VALERIANO. *&lt;A 223 PP. VI K. DEC. MAXIMO II
+            ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4326-Dd1e137">
+               <head xml:id="azsw2e-d1e4326-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4326-d1e141">
+                  <ref xml:id="azsw2e-d1e4326-Rd1e143">Imperator
+            Gordianus</ref>  Si status controversiam pateris, lite prius liberali
+            terminata, si pro te fuerit pronuntiatum, agere etiam adversus eum,
+            qui se dominum tuum esse contendit, non prohiberis. </p>
+               <p xml:id="azsw2e-d1e4326-d1e146" n="1">
+            Quod si ideo te ab accusatione elidet, quasi servum non proprium
+            sed alienum, liberale quidem iudicium cessat, causae autem examinatio
+            apud eum qui iudicat ostendet, utrumne accusatio induci debeat propter
+            statum personae, an evanescat. * GORD. A. MENEDEMO. *&lt;A 239 D.
+            X K. DEC. GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4326-Dd1e150">
+               <head xml:id="azsw2e-d1e4326-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e4326-d1e154">
+                  <ref xml:id="azsw2e-d1e4326-Rd1e156">Imperatores
+            Diocletianus, Maximianus</ref> Cum status quaestionem tibi moveri
+            et te debita velle petere commemores, ordinarium est prius sollemnibus
+            interpositis, si hoc iuris admiserit ratio, causam liberalem apud
+            praesidem provinciae decidi, ut, si liber fueris vel servus non esse
+            pronuntiatus, tunc tibi iure debita restitui iubeat, cum hoc incerto,
+            utrumne tibi libero constituto an domino tuo, si servum te sententia
+            declaraverit, debeatur, ad solutionem debitorem tuum urgueri non oporteat.
+            * DIOCL. ET MAXIM. AA. ET CC. ALPHEO. *&lt;A 293 S. PRID. K. MAI.
+            BERACI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4326-Dd1e160">
+               <head xml:id="azsw2e-d1e4326-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e4326-d1e164">
+                  <ref xml:id="azsw2e-d1e4326-Rd1e166">Imperatores
+            Diocletianus, Maximianus</ref> Si res tuas raptas vel amotas esse
+            dicis ab his, quos servos tuos esse contendis , hique in libertatem
+            proclamaverunt, causa liberalis prius adversus eos et tunc damni dati
+            rerumque amotarum lis apud praesidem provinciae contestanda est, ut,
+            si quidem liberi vel servi non esse pronuntientur, tunc demum damni
+            dati et amotarum rerum procedere possit adhibita probatione condemnatio,
+            si vero secus, quaestio rerum amotarum evanescat. * DIOCL. ET MAXIM.
+            AA. ET CC. ALEXANDRIAE. *&lt;A 293 D. III K. IAN. SIRMI AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4326-Dd1e170">
+               <head xml:id="azsw2e-d1e4326-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e4326-d1e174">
+                  <ref xml:id="azsw2e-d1e4326-Rd1e176">Imperator
+            Constantinus</ref>  Si quando negotium status fuerit exortum, si ab
+            eius parte qui dicitur servus aliquid dicatur dominus abripuisse,
+            prius considerari placet, utrum de possessione servitutis in libertatem
+            reclamandum putet an vero ex possessione libertatis in servitutem
+            vocatur.</p>
+               <p xml:id="azsw2e-d1e4326-d1e179" n="1">
+            Ac si eum de obsequiis servilibus libertatem constiterit
+            flagitare, ante decidi status convenit causam atque ita praeberi direptorum
+            negotiorum, si res exegerit , audientiam.</p>
+               <p xml:id="azsw2e-d1e4326-d1e182" n="2">
+            Quod si ei qui ad servitutem vocatur quicquam direptum esse
+            memoretur, universa quae constiterit ablata ita demum reddi convenit
+            ei, qui servus esse contenditur , si modo salvam rem futuram per idoneos
+            fideiussores promiserit.</p>
+               <p xml:id="azsw2e-d1e4326-d1e185" n="3">
+            Nam si tales non potuerit dare, tunc ea convenit, de quibus
+            in iudicio tractabitur, sequestrari in eum diem, in quo controversia
+            sopietur, ita ut ex isdem, si alia facultas esse non poterit, tantum
+            litis sumptibus et alimoniae hominis subministretur, quantum moderato
+            iudicis arbitrio fuerit aestimatum. </p>
+               <p xml:id="azsw2e-d1e4326-d1e189" n="4">
+            ( 1) cum autem necdum lite de statu mota res ab aliquo direptae
+            sint et sententia de restituenda possessione rerum lata ille, ne sententiae
+            satisfieret, de statu controversiam movit, necessitatem habebit et
+            sine satisdatione easdem res reddere et tunc causam liberalem secundum
+            iuris ordinem exercere. * CONST. A. AD BASSUM. *&lt;A 317 - 319? &gt;
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

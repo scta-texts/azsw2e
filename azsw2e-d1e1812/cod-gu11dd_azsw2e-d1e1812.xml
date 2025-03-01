@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 42</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 42</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1812"><!-- azsw2e-l3t42 -->
+            <head xml:id="azsw2e-d1e1812-Hd1e101">Titulus 42</head>
+            <head xml:id="azsw2e-d1e1812-Hd1e103" type="question-title">Ad exhibendum</head>
+            <div xml:id="azsw2e-d1e1812-Dd1e106">
+               <head xml:id="azsw2e-d1e1812-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1812-d1e110">
+                  <ref xml:id="azsw2e-d1e1812-Rd1e112">Imperator
+            Alexander Severus</ref> Si dominium ancillae, de qua agis, ad matrem
+            tuam pertinuit nec iure a patre tuo venumdata est eiusque proprietatem
+            tibi vindicare paratus es, praeses provinciae exhiberi eam iubebit,
+            ut apud iudicem de rei veritate quaeratur. * ALEX. A. CRESCENTI MIL.
+            *&lt;A 222 PP. K. MAI. ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1812-Dd1e116">
+               <head xml:id="azsw2e-d1e1812-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e1812-d1e120">
+                  <ref xml:id="azsw2e-d1e1812-Rd1e122">Imperator
+            Alexander Severus</ref> Si criminis alicuius reus servus postulatur,
+            per ad exhibendum actionem produci a domino, non celari debet. * ALEX.
+            A. SYRO. *&lt;A 222 PP. XI K. DEC. ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1812-Dd1e126">
+               <head xml:id="azsw2e-d1e1812-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e1812-d1e130">
+                  <ref xml:id="azsw2e-d1e1812-Rd1e132">Imperator
+            Alexander Severus</ref> Neque ad exhibendum actio neque proprietatis
+            vindicatio, si nunc competit, propterea perempta est, quod aliquando
+            adversus te ad exhibendum actione aliter pronuntiatum est, quia commutatione
+            litis alia res esse incipit. * ALEX. A. FELICISSIMAE. *&lt;A 223 PP.
+            K. SEPT. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1812-Dd1e137">
+               <head xml:id="azsw2e-d1e1812-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e1812-d1e141">
+                  <ref xml:id="azsw2e-d1e1812-Rd1e143">Imperator
+            Alexander Severus</ref> Non ignorabit iudex, instrumenta tui iuris,
+            quae penes diversam partem fuisse probaveris, si ab eisdem non exhibeantur,
+            iurisiurandi in litem facultatem deferri tibi oportere. * ALEX. A.
+            FLACCILLAE. *&lt;A 230 PP. III K. MART. AGRICOLA ET CLEMENTE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1812-Dd1e147">
+               <head xml:id="azsw2e-d1e1812-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e1812-d1e151">
+                  <ref xml:id="azsw2e-d1e1812-Rd1e153">Imperator
+            Gordianus</ref> Ad exhibendum actione non tantum eum qui possidet,
+            sed etiam eum teneri, qui dolo fecit, quominus exhiberet, merito tibi
+            a non contemnendae auctoritatis iuris consulto modestino responsum
+            est. * GORD. A. SABINIANO MIL. *&lt;A 239 PP. II ID. FEBR. GORDIANO
+            A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1812-Dd1e157">
+               <head xml:id="azsw2e-d1e1812-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e1812-d1e161">
+                  <ref xml:id="azsw2e-d1e1812-Rd1e163">Imperator
+            Philippus</ref> Instrumenta ad ius tuum pertinentia partem diversam
+            invasisse adseverans, si quidem crimen intendis, sollemnibus accusationibus
+            impletis fidem adseverationi tuae fac, sin vero ad exhibendum intendis,
+            iudiciorum more experire. * PHILIPP. A. POLEMONIDI. *&lt;A 244 PP.
+            II ID. MART. PEREGRINO ET AEMILIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1812-Dd1e167">
+               <head xml:id="azsw2e-d1e1812-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e1812-d1e171">
+                  <ref xml:id="azsw2e-d1e1812-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Exhibitionis necessitatis tenetur,
+            qui facultatem habens culpam vel dolum in explendo praecepto committit,
+            ita ut, qui rem deteriorem exhibuit, aequitas exhibitionis proficiat,
+            ut, quamvis ad exhibendum agi non potest, in factum tamen actio contra
+            eum detur. * DIOCL. ET MAXIM. AA. VITALIANO. *&lt;A 286 PP. XVI K.
+            IUN. MAXIMO II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1812-Dd1e177">
+               <head xml:id="azsw2e-d1e1812-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e1812-d1e181">
+                  <ref xml:id="azsw2e-d1e1812-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref>  Si res tuas commodavit aut deposuit
+            is, cuius precibus meministi, adversus tenentem ad exhibendum vel
+            vindicatione uti potes.</p>
+               <p xml:id="azsw2e-d1e1812-d1e186" n="1">
+            Quod si pactus sit, ut tibi restituantur, si quidem ei qui
+            deposuit successisti, iure hereditario depositi actione uti non prohiberis:
+            si vero nec civili nec honorario iure ad te hereditas eius pertinet,
+            intellegis nullam te ex eius pacto contra quem supplicas actionem
+            stricto iure habere: utilis autem tibi propter aequitatis rationem
+            dabitur depositi actio.* DIOCL. ET MAXIM. AA. ET CC. PHOTINO.
+            *&lt;A 293 S. V K. MAI. HERACLIAE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1812-Dd1e190">
+               <head xml:id="azsw2e-d1e1812-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e1812-d1e194">
+                  <ref xml:id="azsw2e-d1e1812-Rd1e196">Imperatores
+            Diocletianus, Maximianus</ref> Si ex quocumque contractu apud praesidem
+            provinciae iure debitum cui oportuerat te reddidisse probaveris, chirographa
+            tua, ex quibus iam nihil peti potest, et instrumenta ad eum contractum
+            pertinentia tibi naturaliter liberationem consecuto exhiberi ac reddi
+            iubebit. * DIOCL. ET MAXIM. AA. ET CC. FAUSTINO. *&lt;A 294 S. VIII
+            K. SEPT. CC. CONSS.&gt;
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

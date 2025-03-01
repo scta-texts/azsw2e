@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 56</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 56</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4739"><!-- azsw2e-l7t56 -->
+            <head xml:id="azsw2e-d1e4739-Hd1e101">Titulus 56</head>
+            <head xml:id="azsw2e-d1e4739-Hd1e103" type="question-title">Quibus res iudicata non nocet</head>
+            <div xml:id="azsw2e-d1e4739-Dd1e106">
+               <head xml:id="azsw2e-d1e4739-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4739-d1e110">
+                  <ref xml:id="azsw2e-d1e4739-Rd1e112">Imperator
+            Alexander Severus</ref> Si neque mandasti fratri tuo defensionem rei
+            tuae neque quod gestum est ratum habuisti, praescriptio rei iudicatae
+            tibi non oberit. Et ideo non prohiberis causam tuam agere sine praeiudicio
+            rerum iudicatarum * ALEX. A. MASCULINO. *&lt;A 222 PP. NON.MAI.ALEXANDRO
+            A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4739-Dd1e116">
+               <head xml:id="azsw2e-d1e4739-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4739-d1e120">
+                  <ref xml:id="azsw2e-d1e4739-Rd1e122">Imperator
+            Gordianus</ref> Res inter alios iudicatae neque emolumentum adferre
+            his, qui iudicio non interfuerunt, neque praeiudicium solent inrogare.
+            Ideoque nepti tuae praeiudicare non potest, quod adversus coheredem
+            eius iudicatum est, si nihil adversus ipsam statutum est * GORD. A.
+            ATHENIO. *&lt;A 239 PP.V ID.IUL.GORDIANO A.ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4739-Dd1e126">
+               <head xml:id="azsw2e-d1e4739-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4739-d1e130">
+                  <ref xml:id="azsw2e-d1e4739-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Iuris manifestissimi est et in accusationibus
+            his, qui congressi iudicio non sunt, officere non posse, si quid forte
+            praeiudicii videatur oblatum. * DIOCL. ET MAXIM. AA. HONORATO. *&lt;A
+            289 PP.XIIII K.SEPT.BASSO ET QUINTILIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4739-Dd1e137">
+               <head xml:id="azsw2e-d1e4739-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4739-d1e141">
+                  <ref xml:id="azsw2e-d1e4739-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Nec in simili negotio res inter alios
+            actas absenti praeiudicare saepe constitutum est. * DIOCL. ET MAXIM.
+            AA. ET CC. SOTERIANO. *&lt;A 294 S.III K.DEC.CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

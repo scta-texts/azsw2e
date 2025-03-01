@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 57</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 57</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4052"><!-- azsw2e-l6t57 -->
+            <head xml:id="azsw2e-d1e4052-Hd1e101">Titulus 57</head>
+            <head xml:id="azsw2e-d1e4052-Hd1e103" type="question-title">Ad senatus consultum Orfitianum</head>
+            <div xml:id="azsw2e-d1e4052-Dd1e106">
+               <head xml:id="azsw2e-d1e4052-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4052-d1e110">
+                  <ref xml:id="azsw2e-d1e4052-Rd1e112">Imperator
+            Alexander Severus</ref> Si intestatae mulieris consanguinei existant
+            et mater et filia, ad solam filiam ex senatus consulto Orfitiano hereditas
+            pertinet. * ALEX. A. EUANGELO. *&lt;A 225 PP.XV K.FEBR.FUSCO II ET
+            DEXTRO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4052-Dd1e116">
+               <head xml:id="azsw2e-d1e4052-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4052-d1e120">
+                  <ref xml:id="azsw2e-d1e4052-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref>  Non pro numero superstitum mortis matris
+            tempore, sed succedentium materna scinditur hereditas. </p>
+               <p xml:id="azsw2e-d1e4052-d1e125" n="1">
+            Quapropter si mater vestra te et uno fratre emancipatis,
+            duobus autem aliis in patria positis potestate superstitibus diem
+            functa est et hi, qui in potestate patris fuerant, priusquam maternam
+            hereditatem sibi quaererent, rebus humanis exempti sunt, inter duos
+            tantum viriles non ambigitur factas portiones. * DIOCL. ET MAXIM.
+            AA. ET CC. METRODORAE. *&lt;A 293 S.VII K.APRIL.SIRMI AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4052-Dd1e129">
+               <head xml:id="azsw2e-d1e4052-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e4052-d1e133">
+                  <ref xml:id="azsw2e-d1e4052-Rd1e135">Imperatores
+            Diocletianus, Maximianus</ref> Matri intestatae defunctae secundum
+            Orfitianum senatus consultum citra bonorum possessionem filia pro
+            herede gerendo succedere non prohibetur. * DIOCL. ET MAXIM. AA. ET
+            CC. IULIANAE. *&lt;A 293 S.XII K.NOV.AA. CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4052-Dd1e140">
+               <head xml:id="azsw2e-d1e4052-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e4052-d1e144">
+                  <ref xml:id="azsw2e-d1e4052-Rd1e146">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Quotiens de emancipati
+            filii filiaeve successione tractatur, filiis ex his genitis deferatur
+            intacta pro solido successio neque ulla defunctae patri matrique concedatur
+            intestatae successionis hereditas. * GRAT. VALENTIN. ET THEODOS. AAA.
+            AD HILARIANUM PP. *&lt;A 383 D. XI K. MART. MEDIOLANI MEROBAUDE II
+            ET SATURNINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4052-Dd1e150">
+               <head xml:id="azsw2e-d1e4052-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e4052-d1e154">
+                  <ref xml:id="azsw2e-d1e4052-Rd1e156">Imperator
+            Justinianus</ref>  Si qua illustris mulier filium ex iustis nuptiis
+            procreaverit et alterum spurium habuerit, cui pater incertus sit,
+            quemadmodum res maternae ad eos perveniant, sive tantummodo ad liberos
+            iustos sive ad spurios, dubitabatur. </p>
+               <p xml:id="azsw2e-d1e4052-d1e159" n="1">
+            Sancimus itaque, ut neque ex testamento neque ab intestato
+            neque a liberalitate inter vivos habita iustis liberis existentibus
+            aliquid penitus ab illustribus matribus ad spurios perveniat, cum
+            in mulieribus ingenuis et illustribus, quibus castitatis observatio
+            praecipuum debitum est, et nominari spurios satis iniuriosum, satis
+            acerbum et nostris temporibus indignum esse iudicamus et hanc legem
+            ipsi pudicitiae, quam semper colendam censemus, merito dedicamus.
+            </p>
+               <p xml:id="azsw2e-d1e4052-d1e162" n="2">
+            Sin autem concubina liberae condicionis constituta filium
+            vel filiam ex licita consuetudine ad hominem liberum habita procreaverit,
+            eos etiam cum legitimis liberis ad materna venire bona, quae ea iure
+            legitimo et in suo patrimonio possidet, nulla invidia est. * IUST.
+            A. DEMOSTHENI PP. *&lt;A 529 D. XV K. OCT. CHALCEDONE DECIO VC. CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4052-Dd1e166">
+               <head xml:id="azsw2e-d1e4052-Hd1e168">6</head>
+               <p xml:id="azsw2e-d1e4052-d1e170">
+                  <ref xml:id="azsw2e-d1e4052-Rd1e172">Imperator
+            Justinianus</ref>  Quidam ancillae suae per fideicommissum libertatem
+            reliquit, eo autem, a quo libertas relicta est, moram in libertate
+            praestanda faciente peperit ancilla. Et esse quidem ingenuum puerum
+            vel puellam, qui post moram nati sunt, omnes veteris iuris auctores
+            consentiunt, dubitabatur autem inter eos, si matri morienti potest
+            succedere </p>
+               <p xml:id="azsw2e-d1e4052-d1e175" n="1">
+            Huiusmodi itaque dubitationem eorum decidentes ulterius eam
+            procedere non patimur, sed sancimus eandem matris progeniem heredem
+            ab intestato posse ei existere, salvo iure legitimo ex auctoritate
+            senatus consulti Orfitiani proli servando et tam matre ex senatus
+            consulto Tertulliano quam prole ex Orfitiano senatus consulto invicem
+            ad suas hereditates venientibus. * IUST. A. IULIANO PP. *&lt;A 530
+            D.K.OCT.CONSTANTINOPOLI LAMPADIO ET ORESTE VV.CC.CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

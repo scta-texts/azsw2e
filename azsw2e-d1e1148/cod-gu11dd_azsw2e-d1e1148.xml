@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 41</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 41</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1148"><!-- azsw2e-l2t41 -->
+            <head xml:id="azsw2e-d1e1148-Hd1e101">Titulus 41</head>
+            <head xml:id="azsw2e-d1e1148-Hd1e103" type="question-title">Qui et adversus quos in integrum restitui non possunt.</head>
+            <div xml:id="azsw2e-d1e1148-Dd1e106">
+               <head xml:id="azsw2e-d1e1148-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1148-d1e110">
+                  <ref xml:id="azsw2e-d1e1148-Rd1e112">Imperator
+            Alexander Severus</ref>  In consilio quidem cognoscentis de restitutione
+            in integrum esse oportet, num is, qui se minorem annis laesum esse
+            dicat, diligens pater familias fuerit actibusque publicis industrium
+            se docuerit, ut lapsum eum per aetatem verisimile non sit. </p>
+               <p xml:id="azsw2e-d1e1148-d1e115" n="1">
+            Verum si causa cognita circumventus deprehendatur, propter
+            hoc solum velut praescriptione a solito auxilio removeri non debet,
+            quod urguentibus patriae necessitatibus decurio minor annis creatus
+            sit vel propagandae suboli liberorum educatione prospexerit. * ALEX.
+            A. CONONIDI. *&lt;A 232 PP. X K. OCT. LUPO ET MAXIMO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e1148-Dd1e119">
+               <head xml:id="azsw2e-d1e1148-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e1148-d1e123">
+                  <ref xml:id="azsw2e-d1e1148-Rd1e125">Imperator
+            Justinianus</ref> Cum apud veteres dubitabatur, an liberi parentes
+            suos vel liberti patronos in querimoniam deducere possint quasi non
+            rite in eos versatos, et quidam existimabant nullam esse contra huiusmodi
+            personas in integrum restitutionem, pondere naturali vel patronali
+            reverentia huiusmodi petulantiae refragante, nisi vel ex magna causa
+            vel adversus turpem eorum personam, alii autem personarum quidem vel
+            causae distinctionem respuendam esse censuerunt, tunc autem tantummodo
+            dandam esse restituionem putaverunt, cum minor ex sua simplicitate
+            se deceptum, non ex dolo patris vel patroni circumscriptum esse dicat:
+            quod, ut maneat in omnibus honor parentibus et patrono vel patronae
+            illibatus atque intactus, sancimus nullo modo neque adversus parentes
+            utriusque sexus neque adversus patronum vel patro nam dari restitutionem.
+            Nam personarum reverentia omnem eis excludit restitutionem, cum procul
+            dubio est etiam ipsas personas cavere, ne quid suae opinioni contrarium
+            existat * IUST. A. IOHANNI PP. *&lt;A 531 D. K. SEPT. CONSTANTINOPOLI
+            POST CONSULATUM LAMPADII ET ORESTAE VV. CC.&gt;
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

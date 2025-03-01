@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 40</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 40</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8375"><!-- azsw2e-l12t40 -->
+            <head xml:id="azsw2e-d1e8375-Hd1e101">Titulus 40</head>
+            <head xml:id="azsw2e-d1e8375-Hd1e103" type="question-title">De metatis et epidemeticis</head>
+            <div xml:id="azsw2e-d1e8375-Dd1e106">
+               <head xml:id="azsw2e-d1e8375-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8375-d1e110">
+                  <ref xml:id="azsw2e-d1e8375-Rd1e112">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Si quis mensorum nostrorum
+            manum, qua deputatas singulis quibusque domus enotant et postibus
+            hospitaturi nomen adscribunt, delere non dubitaverit, ad instar falsi
+            reus ex hac auctoritate teneatur. * VALENTIN. THEODOS. ET ARCAD. AAA.
+            THEODOTO MAG. OFF. *&lt;A 393 D.VI K.NOV.CONSTANTINOPOLI THEODOSIO
+            A.III ET ABUNDANTIO VC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8375-Dd1e116">
+               <head xml:id="azsw2e-d1e8375-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e8375-d1e120">
+                  <ref xml:id="azsw2e-d1e8375-Rd1e122">Imperatores
+            Arcadius, Honorius</ref>  In qualibet vel nos ipsi urbe fuerimus vel
+            ii qui nobis militant commorentur, omni tam mensorum quam etiam hospitum
+            iniquitate submota duas dominus propriae domus, tertia hospiti deputata,
+            eatenus intrepidus ac securus possideat portiones , ut in tres domus
+            divisae partes primam eligendi dominus habeat facultatem, secundam
+            hospes quam voluerit exsequatur, tertia domino relinquenda. Plenum
+            enim aequitate atque iustitia est, ut, qui aut successione fruitur
+            aut empto vel extructione gaudet, electam praecipue iudicio suam rem
+            teneat et relictam. </p>
+               <p xml:id="azsw2e-d1e8375-d1e125" n="1">
+            Ergasteria vero, quae mercimoniis deputantur, ad praedictam
+            divisionis iniuriam non vocentur, sed quieta sint et libera et ab
+            omni hospitum iniuria defensata solis dominis conductoribusque deserviant.
+            Sane si stabulum, ut adsolet, militari viro in tertia domus parte
+            defuerit, ex ergasteriis, nisi id dominus qualibet occasione providerit,
+            pro animalium numero vel domus qualitate deputabitur. </p>
+               <p xml:id="azsw2e-d1e8375-d1e128" n="2">
+            Illustribus sane viris non tertiam partem domus, sed mediam
+            hospitalitatis gratia deputari decernimus: ea dumtaxat condicione
+            servata, ut alter ex his quilibet, quive maluerit, divisionem arbitraria
+            aequitate faciat, alter eligendi habeat optionem. </p>
+               <p xml:id="azsw2e-d1e8375-d1e131" n="3">
+            Et firmissimum perpetuo quod iussimus perseveret, ita ut
+            triginta libras auri qui illustri sunt praediti dignitate fisco nostro
+            se illaturos esse cognoscant, ceteri vero militia sciant se esse privandos,
+            si generale praeceptum amplius usurpando quam iussimus reprehensibili
+            temeritate violaverint. * ARCAD. ET HONOR. AA. HOSIO MAG. OFF. *&lt;A
+            398 D.VIII ID.FEBR.CONSTANTINOPOLI HONORIO IIII ET EUTYCHIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8375-Dd1e135">
+               <head xml:id="azsw2e-d1e8375-Hd1e137">3</head>
+               <p xml:id="azsw2e-d1e8375-d1e139">
+                  <ref xml:id="azsw2e-d1e8375-Rd1e141">Imperatores
+            Arcadius, Honorius</ref> Cunctos iudices scire volumus a praetoriis
+            ordinariorum iudicum his praesentibus abstinendum. * ARCAD. ET HONOR.
+            AA. VINCENTIO PP. *&lt;A 400 D.XVI K.FEBR.MEDIOLANI STILICHONE ET
+            AURELIANO VV.CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8375-Dd1e146">
+               <head xml:id="azsw2e-d1e8375-Hd1e148">4</head>
+               <p xml:id="azsw2e-d1e8375-d1e150">
+                  <ref xml:id="azsw2e-d1e8375-Rd1e152">Imperatores
+            Arcadius, Honorius</ref> Fabricensium domibus ubique constitutis omnem
+            molestiam hospitum praecipimus amoveri, quo et Antiochensibus et ceterarum
+            civitatum fabricis similis domorum excusatio praebeatur, absente scilicet
+            sacro comitatu. * ARCAD. ET HONOR. AA. AEMILIANO MAG. OFF. *&lt;A
+            400 D.XI K.FEBR. CONSTANTINOPOLI STILICHONE ET AURELIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8375-Dd1e156">
+               <head xml:id="azsw2e-d1e8375-Hd1e158">5</head>
+               <p xml:id="azsw2e-d1e8375-d1e160">
+                  <ref xml:id="azsw2e-d1e8375-Rd1e162">Imperatores
+            Honorius, Theodosius</ref>  Devotum possessorem ab omni inquietudine
+            liberamus. </p>
+               <p xml:id="azsw2e-d1e8375-d1e165" n="1">
+            Primo igitur omnium ad nullum praedium publicum vel privatum
+            domus nostrae vel cuiuscumque iuris nullus metator accedat, si a quoquam
+            fuerit destinatus. </p>
+               <p xml:id="azsw2e-d1e8375-d1e168"> 
+            Licentiam enim domino actori ipsique plebi serenitas nostra
+            commisit, ut eum, qui praeparandi gratia ad possessionem venerit,
+            expellendi habeat facultatem nec crimen aliquod pertimescat, cum sibi
+            arbitrium ultionis suae sciat esse concessum: recteque sacrilegium
+            prior arceat, qui primus invenerit. </p>
+               <p xml:id="azsw2e-d1e8375-d1e170"> 
+            Administrantem vero eiusque officii proceres, quorum praecepto
+            inhibitam personam ad agrum aliquem destinaverit, in tempore proscribi
+            debere censuimus. </p>
+               <p xml:id="azsw2e-d1e8375-d1e173" n="2">
+            Solam sane hospitalitatem sub hac observatione concedimus,
+            ut nihil ab hospite, quod vel hominum vel animalium pastui necessarium
+            creditur, postuletur, omniumque sit acceleratum iter atque continuum
+            nec ulli liceat residere, ne diuturnitas commanentium ulla ex parte
+            praedium vexet. </p>
+               <p xml:id="azsw2e-d1e8375-d1e176" n="3">
+            Decem etiam librarum auri multa ferietur, quisquis administrator
+            togatus apparitor ullus aut militans vel iter agens ullo in loco aliquid
+            ab hospite postulaverit. </p>
+               <p xml:id="azsw2e-d1e8375-d1e179" n="4">
+            In tantum enim inhiberi sceleratum morem iubemus, ut ipsis
+            quoque praebentibus impunitum esse non patiamur, si quid sponte contra
+            praeceptum nostrum probati fuerint obtulisse. * HONOR. ET THEODOS.
+            AA. IOHANNI PP. *&lt;A 413 D. PRID. ID. IUN. RAVENNAE POST CONSULATUM
+            HONORII VIIII ET THEODOSII V AA.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8375-Dd1e183">
+               <head xml:id="azsw2e-d1e8375-Hd1e185">6</head>
+               <p xml:id="azsw2e-d1e8375-d1e187">
+                  <ref xml:id="azsw2e-d1e8375-Rd1e189">Imperatores
+            Honorius, Theodosius</ref> Africae hoc prospectum est, ut infausta
+            hospitalitatis praebitio tolleretur nec balneum quisquam a domino
+            aedium postulet. * HONOR. ET THEODOS. AA. HADRIANO PP. *&lt;A 414
+            D. V NON. MART. RAVENNAE CONSTANTIO ET CONSTANTE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8375-Dd1e193">
+               <head xml:id="azsw2e-d1e8375-Hd1e195">7</head>
+               <p xml:id="azsw2e-d1e8375-d1e197">
+                  <ref xml:id="azsw2e-d1e8375-Rd1e199">Imperatores
+            Honorius, Theodosius</ref> Devotissimos milites ex procinctu redeuntes
+            vel proficiscentes ad bella muri novi sacratissimae urbis singulae
+            turres in pedeplanis suis suscipiant. * HONOR. ET THEODOS. AA. EUSTATHIO
+            PP. *&lt;A 422 D. V NON. MART. CONSTANTINOPOLI HONORIO XIII ET THEODOSIO
+            X AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8375-Dd1e203">
+               <head xml:id="azsw2e-d1e8375-Hd1e205">8</head>
+               <p xml:id="azsw2e-d1e8375-d1e207">
+                  <ref xml:id="azsw2e-d1e8375-Rd1e209">Imperatores
+            Theodosius, Valentinianus</ref> Archiatros nostri palatii nec non
+            urbis Romae et magistros litterarum pro necessariis artibus et liberalibus
+            disciplinis nec non picturae professores, si modo ingenui sunt, hospitali
+            molestia quoad vivent liberari praecipimus. * THEODOS. ET VALENTIN.
+            AA. HELIONI MAG. OFF. *&lt;A 427 D. XIIII K. SEPT. HIERIO ET ARDABURIO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8375-Dd1e213">
+               <head xml:id="azsw2e-d1e8375-Hd1e215">9</head>
+               <p xml:id="azsw2e-d1e8375-d1e217">
+                  <ref xml:id="azsw2e-d1e8375-Rd1e219">Imperatores
+            Theodosius, Valentinianus</ref>  Omnes, qui metata in suis domibus
+            praestant, sive hospitia praebuerint metatoribus seu quolibet pacto
+            satis eis fecerint, nullam vel pensionis vel discussionis domus gratia
+            molestiam sustinere cogantur. </p>
+               <p xml:id="azsw2e-d1e8375-d1e222" n="1">
+            Deinde neminem volumus cuiuslibet loci vel ordinis in hac
+            florentissima urbe domum propriam excusantem metatum sibi in alienis
+            aedibus privilegio militiae vindicare. Quod et in provinciis observari
+            oportet. </p>
+               <p xml:id="azsw2e-d1e8375-d1e225" n="2">
+            Ceteris vero, quibus illustris dignitas sub cingulo vel citra
+            cingulum pro solo honore delata est, excusandarum aedium licentiam
+            penitus denegamus. </p>
+               <p xml:id="azsw2e-d1e8375-d1e228" n="3">
+            Hoc iuris in his etiam praecipimus observari, quos ipsa quidem
+            administrationis condicio spectabiles novit, honor tamen additus a
+            nostra liberalitate reddit illustres. </p>
+               <p xml:id="azsw2e-d1e8375-d1e232" n="4">
+            Scituris omnibus, quod si quis, cum cingulo perfruatur et
+            excusationem ita propriae domus impetraverit, ut a pensione etiam
+            portionis tertiae sit immunis, et militiae causa metatum in alienis
+            domibus sibi crediderit vindicandum, si quidem honore praeditus excusationis
+            ius habeat, carebit legum privilegiis, quas fraudare conatus est:
+            si vero inter eos quibus nulla suffragatur dignitas numeretur, centum
+            librarum auri sacratissimis largitionibus pendendarum illatione multabitur.
+            * THEODOS. ET VALENTIN. AA. NOMO MAG. OFF. *&lt;A 444 D. XVII K. FEBR.
+            CONSTANTINOPOLI THEODOSIO A. XVIII CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8375-Dd1e237">
+               <head xml:id="azsw2e-d1e8375-Hd1e239">10</head>
+               <p xml:id="azsw2e-d1e8375-d1e241">
+                  <ref xml:id="azsw2e-d1e8375-Rd1e243">Imperatores
+            Valentinianus, Marcianus</ref>  Hac lege sancimus, ut, si quis consularem
+            et patriciam meruerit dignitatem, tres domos proprias dum superest
+            habeat hospitum immunitate securas, heredes vero eius filii aut pater
+            aut mater nepotes aut frater aut soror aut uxor duarum domorum suarum
+            excusatione potiantur. </p>
+               <p xml:id="azsw2e-d1e8375-d1e246" n="1">
+            Si quis vero consulatu tantummodo gloriatur, duas semis domos
+            suas immunes habeat: post fata vero eius memorati heredes unam semis
+            domum suam habeant nullis hospitiis praegravatam. </p>
+               <p xml:id="azsw2e-d1e8375-d1e249" n="2">
+            Pari privilegio perfruatur cum memoratis heredibus, qui solius
+            patriciae dignitatis sine consulatu decoratur insignibus. </p>
+               <p xml:id="azsw2e-d1e8375-d1e252" n="3">
+            Praefectorii vero nec non et magistri militum duas domus
+            suas habeant quoad vixerint hospitibus liberatas: heredes vero eorum
+            memorati unam defendant domum suam simili excusatione munitam. </p>
+               <p xml:id="azsw2e-d1e8375-d1e256" n="4">
+            Magistri vero officiorum vel quaestores unam semis domum
+            suam quoad vixerint habeant hospitum onere liberatam: heredes vero
+            eorum praedicti unam ab hospitibus iure defendant. </p>
+               <p xml:id="azsw2e-d1e8375-d1e259" n="5">
+            Comites autem domesticorum et protectorum et sacrarum largitionum
+            et privatarum et vir spectabilis primicerius notariorum singulas domus
+            suas ab hospitum gravamine dum vivunt gaudeant esse securas: memorati
+            vero heredes eorum mediam partem unius domus suae sciant excusatione
+            muniri, residuae vero dimidiae partis tertiam portionem hospitibus
+            deputandam esse cognoscant. </p>
+               <p xml:id="azsw2e-d1e8375-d1e262" n="6">
+            Si qui illustres honorarias dignitates quascumque sine actu
+            caelitus impetrarunt , aequo animo suas domus hospitibus post hanc
+            legem pandant pro tertia quae legibus praefinita est portione: exceptis
+            videlicet ergasteriis, quae in plateis vel angiportis esse noscuntur.
+            </p>
+               <p xml:id="azsw2e-d1e8375-d1e265" n="7">
+            Quod in omnibus domibus quae hospitales sunt observari iubemus:
+            ita ut nemo vel ex sacro rescripto vel ex divina adnotatione seu pragmatica
+            sanctione contra hanc legem uti possit excusationis auxilio. </p>
+               <p xml:id="azsw2e-d1e8375-d1e268" n="8">
+            His omnibus, quae per hanc legem constituimus, in hac aeterna
+            urbe observandis. * VALENTIN. ET MARCIAN. AA. .... MAG. OFF. *&lt;
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8375-Dd1e272">
+               <head xml:id="azsw2e-d1e8375-Hd1e274">11</head>
+               <p xml:id="azsw2e-d1e8375-d1e276">
+                  <ref xml:id="azsw2e-d1e8375-Rd1e278">Imperator
+            Zeno</ref> Decem post primicerium tribunos in domibus, quas in hac
+            regia urbe possident, metatorum iussimus vacationem mereri. * ZENO
+            A. ILLYRICIANO MAG. OFF. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8375-Dd1e282">
+               <head xml:id="azsw2e-d1e8375-Hd1e284">12</head>
+               <p xml:id="azsw2e-d1e8375-d1e286"><!-- greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

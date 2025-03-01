@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 19</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 19</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5822"><!-- azsw2e-l9t19 -->
+            <head xml:id="azsw2e-d1e5822-Hd1e101">Titulus 19</head>
+            <head xml:id="azsw2e-d1e5822-Hd1e103" type="question-title">De sepulchro violato</head>
+            <div xml:id="azsw2e-d1e5822-Dd1e106">
+               <head xml:id="azsw2e-d1e5822-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5822-d1e110">
+                  <ref xml:id="azsw2e-d1e5822-Rd1e112">Imperator
+            Gordianus</ref> Res religioni destinatas, quin immo religionis effectas,
+            scientes qui contigerint et emere et distrahere non dubitaverint,
+            tametsi iure venditio non subsistat, laesae tamen religionis in crimen
+            inciderunt. * GORD. A. ZENONI. *&lt;A 240 PP.III K.MART.SABINO II
+            ET VENUSTO CONSS.. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5822-Dd1e116">
+               <head xml:id="azsw2e-d1e5822-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5822-d1e120">
+                  <ref xml:id="azsw2e-d1e5822-Rd1e122">Imperator
+            Constantius</ref> Si servus in demoliendis sepulchris fuerit apprehensus,
+            si id sine domini scientia faciat, metallo addicetur, si vero domini
+            auctoritate vel iussione urguetur, relegatione plectetur. Et si forte
+            detractum aliquid de sepulchris ad domum eius villamque provectum
+            reperietur, villa sive domus aut aedificium quodcumque erit fisci
+            viribus vindicetur * CONSTANTIUS A. AD TITIANUM PU. *&lt;A 340 D.VII
+            K.IUL.MEDIOLANI ACYNDINO ET PROCULO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5822-Dd1e126">
+               <head xml:id="azsw2e-d1e5822-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5822-d1e130">
+                  <ref xml:id="azsw2e-d1e5822-Rd1e132">Imperator
+            Constantius</ref> Si quis sepulchrum laesurus attigerit, locorum iudices
+            si hoc vindicare neglexerint, non minus nota quam viginti librarum
+            auri in sepulchrorum violatores statuta poena grassetur, ut eam largitionibus
+            nostris inferre cogantur. * CONSTANTIUS A. AD LIMENIUM PP. *&lt;A
+            349 D.V K.APRIL.LIMENIO ET CATULLINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5822-Dd1e137">
+               <head xml:id="azsw2e-d1e5822-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e5822-d1e141">
+                  <ref xml:id="azsw2e-d1e5822-Rd1e143">Imperator
+            Constantius</ref>  Qui sepulchra violant, domus ut ita dixerim defunctorum,
+            geminum videntur facinus perpetrare: nam et sepultos spoliant destruendo
+            et vivos polluunt fabricando. </p>
+               <p xml:id="azsw2e-d1e5822-d1e146" n="1">
+            Si quis igitur de sepulchro abstulerit saxa vel marmora vel
+            columnas aliamve quamcumque materiam, fabricandi gratia sive id fecerit
+            venditurus, decem pondo auri cogatur fisco inferre, sive quis propria
+            sepulchra defendens hanc in iudicium querellam detulerit sive quicumque
+            alius accusaverit vel officium nuntiaverit. </p>
+               <p xml:id="azsw2e-d1e5822-d1e149" n="2">
+            Quae poena priscae severitati accedit: nihil enim derogatum
+            est illi supplicio, quod sepulchra violantibus videtur impositum.
+            </p>
+               <p xml:id="azsw2e-d1e5822-d1e152" n="3">
+            Huic autem poenae subiacebunt et qui corpora sepulta aut
+            reliquias contrectaverint. * CONSTANTIUS A. AD POP. *&lt;A 357 D.ID.IUN.MEDIOLANI
+            CONSTANTIO A.VIIII ET IULIANO C.II CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5822-Dd1e156">
+               <head xml:id="azsw2e-d1e5822-Hd1e158">5</head>
+               <p xml:id="azsw2e-d1e5822-d1e160">
+                  <ref xml:id="azsw2e-d1e5822-Rd1e162">Imperator
+            Julianus</ref>  Pergit audacia ad busta diem functorum et aggeres consecratos,
+            cum et lapidem hinc movere et terram sollicitare et cespitem vellere
+            proximum sacrilegio maiores semper habuerunt: sed et ornamenta quaedam
+            tricliniis aut porticibus auferri de sepulchris. </p>
+               <p xml:id="azsw2e-d1e5822-d1e165" n="1">
+            Quibus primis consulentes, ne in piaculum incidant contaminata
+            religione bustorum, hoc fieri prohibemus poena sacrilegii cohibentes.
+            * IUL. A. AD POP. *&lt;A 363 D.PRID.ID.FEBR.ANTIOCHIAE IULIANO A.IIII
+            ET SALLUSTIO CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5822-Dd1e169">
+               <head xml:id="azsw2e-d1e5822-Hd1e171">6</head>
+               <p xml:id="azsw2e-d1e5822-d1e173">
+                  <ref xml:id="azsw2e-d1e5822-Rd1e175">Imperator
+            Justinus</ref> Cum sit iniustum et nostris alienum temporibus iniuriam
+            fieri reliquiis defunctorum ab his, qui debitorem sibi esse mortuum
+            dicendo debitumque exigendo sepulturam eius impediunt, ne in posterum
+            eadem iniuria procederet cogendis his ad quos funus mortui pertinet
+            sua iura perdere, ea quidem, quae mortuo posito ante sepulturam eius
+            facta fuerint vel exigendo quod debitum esse dicitur vel confessiones
+            aliquas aut fideiussorem aut pignora capiendo, penitus amputari praecipimus:
+            redditis vero pignoribus vel pecuniis quae solutae sunt vel absolutis
+            fideiussoribus et generaliter omnibus sine ulla innovatione in pristinum
+            statum reducendis principale negotium ex integro disceptari: eum vero,
+            qui in huiusmodi deprehensus fuerit flagitio, quinquaginta libras
+            auri dependere vel, si minus idoneus sit ad persolvendum, suo corpore
+            sub competenti iudice poenas luere. * IUSTINUS A. THEODOTO PU. *&lt;A
+            526 D.K.DEC.CONSTANTINOPOLI OLYBRIO VC.CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

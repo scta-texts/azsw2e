@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 64</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 64</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2554"><!-- azsw2e-l4t64 -->
+            <head xml:id="azsw2e-d1e2554-Hd1e101">Titulus 64</head>
+            <head xml:id="azsw2e-d1e2554-Hd1e103" type="question-title">De rerum permutatione et de praescriptis verbis actione</head>
+            <div xml:id="azsw2e-d1e2554-Dd1e106">
+               <head xml:id="azsw2e-d1e2554-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2554-d1e110">
+                  <ref xml:id="azsw2e-d1e2554-Rd1e112">Imperator
+            Gordianus</ref> Si, cum patruus tuus venalem possessionem haberet,
+            pater tuus pretii nomine, licet non taxata quantitate, aliam possessionem
+            dedit, idque quod comparavit non iniuria iudicis nec patris tui culpa
+            evictum est, ad exemplum ex empto actionis non immerito id quod tua
+            interest, si in patris iura successisti, consequi desideras. At enim
+            si, cum venalis possessio non esset, permutatio facta est idque, quod
+            ab adversario praestitum est, evictum est, quod datum est ( si hoc
+            elegeris) cum ratione restitui postulabis * GORD. A. THRASEAE MIL.
+            *&lt;A 238 D. VIII ID. NOV. PIO ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2554-Dd1e116">
+               <head xml:id="azsw2e-d1e2554-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2554-d1e120">
+                  <ref xml:id="azsw2e-d1e2554-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> Permutationem re ipsa utpote bonae
+            fidei constitutam, sicut commemoras, vicem emptionis obtinere non
+            incogniti iuris est. * DIOCL. ET MAXIM. AA. PRIMITIVAE. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2554-Dd1e126">
+               <head xml:id="azsw2e-d1e2554-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2554-d1e130">
+                  <ref xml:id="azsw2e-d1e2554-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Ex placito permutationis re nulla secuta
+            constat nemini actionem competere, nisi stipulatio subiecta ex verborum
+            obligatione quaesierit partibus actionem. * DIOCL. ET MAXIM. AA. ET
+            CC. BARCIO LEONTIO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2554-Dd1e137">
+               <head xml:id="azsw2e-d1e2554-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2554-d1e141">
+                  <ref xml:id="azsw2e-d1e2554-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref>  Cum precibus tuis expresseris placitum
+            inter te et alium permutationis intercessisse eumque fundum a te datum
+            vendidisse, contra emptorem quidem te nullam habere actionem perspicis,
+            cum ab eo susceperit dominium, cui te tradidisse titulo permutationis
+            non negasti. </p>
+               <p xml:id="azsw2e-d1e2554-d1e146" n="1">
+            Secundum fidem autem placiti, si stipulatio subsecuta est,
+            successores eius, cum quo contractum habuisti, convenire non prohiberis:
+            si vero nulla stipulatio intercessit, praescriptis verbis actione,
+            ut vel fides placiti servetur tibi vel, quod alterius accipiendi fundi
+            gratia dedisti, causa non secuta restituatur. * DIOCL. ET MAXIM. AA.
+            ET CC. LEONTIO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2554-Dd1e150">
+               <head xml:id="azsw2e-d1e2554-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e2554-d1e154">
+                  <ref xml:id="azsw2e-d1e2554-Rd1e156">Imperatores
+            Diocletianus, Maximianus</ref> Quoniam adseris patrem tuum ei contra
+            quem preces fundis ea condictione dedisse fundum, ut invicem domum
+            certam acciperet, aditus praeses provinciae placitis eum parere vel,
+            si causam, propter quam fundus datus est, sequi non perspexerit, condictionis
+            ratione datum restituere, sicut postulas, iubebit. * DIOCL. ET MAXIM.
+            AA. ET CC. THEODOLANAE. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2554-Dd1e160">
+               <head xml:id="azsw2e-d1e2554-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e2554-d1e164">
+                  <ref xml:id="azsw2e-d1e2554-Rd1e166">Imperatores
+            Diocletianus, Maximianus</ref> Rebus certa lege traditis, si huic
+            non pareatur, praescriptis verbis incertam civilem dandam actionem
+            iuris auctoritas demonstrat. * DIOCL. ET MAXIM. AA. ET CC. PROTOGENI.
+            *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2554-Dd1e170">
+               <head xml:id="azsw2e-d1e2554-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e2554-d1e174">
+                  <ref xml:id="azsw2e-d1e2554-Rd1e176">Imperatores
+            Diocletianus, Maximianus</ref> Emptionem rebus fieri non posse pridem
+            placuit. Igitur cum frumenti certam modiationem Callimacho et Acamato
+            te dedisse, ut tibi repraesentent olei designatum pondus adseveres,
+            si placitis citra stipulationis sollemnitatem non exhibeant fidem,
+            quantum dedisti, causa non secuta condicere pro desiderio tuo potes
+            * DIOCL. ET MAXIM. AA. ET CC. TIMOTHEO. *&lt;A 294 S. XIII K. NOV.
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2554-Dd1e180">
+               <head xml:id="azsw2e-d1e2554-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e2554-d1e184">
+                  <ref xml:id="azsw2e-d1e2554-Rd1e186">Imperatores
+            Diocletianus, Maximianus</ref> Ea lege rebus donatis candido, ut quod
+            placuerat menstruum seu annuum tibi praestaret, cum huiusmodi conventio
+            non nudi pacti nomine censeatur, sed rebus propriis dictae legis substantia
+            muniatur, ad implendum placitum, sicut postulas, praescriptis verbis
+            tibi competit actio. * DIOCL. ET MAXIM. AA. ET CC. PAULINAE. *&lt;A
+            294 S. NON. DEC. NICOMEDIAE CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

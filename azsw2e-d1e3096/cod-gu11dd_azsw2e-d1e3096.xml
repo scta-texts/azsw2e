@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 46</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 46</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3096"><!-- azsw2e-l5t46 -->
+            <head xml:id="azsw2e-d1e3096-Hd1e101">Titulus 46</head>
+            <head xml:id="azsw2e-d1e3096-Hd1e103" type="question-title">Si mater indemnitatem promiserit</head>
+            <div xml:id="azsw2e-d1e3096-Dd1e106">
+               <head xml:id="azsw2e-d1e3096-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3096-d1e110">
+                  <ref xml:id="azsw2e-d1e3096-Rd1e112">Imperator
+            Alexander Severus</ref> Suo potius periculo magistratus tutores quos
+            petisti dederunt, quam tu contra sexus condicionem alicui ex ea obligatione
+            obstricta es, quod tuo periculo tutores filiis tuis dari postulasti.
+            * ALEX. A. BRUTTIAE. *&lt;A 234 PP. III ID. MART. MAXIMO II ET URBANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3096-Dd1e116">
+               <head xml:id="azsw2e-d1e3096-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3096-d1e120">
+                  <ref xml:id="azsw2e-d1e3096-Rd1e122">Imperator
+            Philippus</ref> Quaedam pupillorum vestrorum a matre itemque avo paterno
+            administrata eorumque nomine indemnitatem vobis promissam esse adseveratis.
+            Quae si ita sunt et idem pupilli legitimae aetatis effecti non adversus
+            matrem suam itemque avum, sed contra vos congredi malunt, non immerito
+            indemnitatem ab his praestari desiderabitis, quos et administrationem
+            suo periculo pridem suscepisse proponitis * PHILIPP. A. ET PHILIPP.
+            C. ASCLEPIADI ET MENANDRO. *&lt;A 246 PP. IIII ID. IUL. PRAESENTE
+            ET ALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3096-Dd1e126">
+               <head xml:id="azsw2e-d1e3096-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3096-d1e130">
+                  <ref xml:id="azsw2e-d1e3096-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Ob tutorem non idoneum a matre petitum
+            frustra vobis eam teneri contenditis, cum non, nisi specialiter eius
+            periculo dari decreto fuisset comprehensum, ex ea obligatione obstricta
+            est. * DIOCL. ET MAXIM. AA. ET CC. GAIANO. *&lt;A 293 S. K. DEC. AA.
+            CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

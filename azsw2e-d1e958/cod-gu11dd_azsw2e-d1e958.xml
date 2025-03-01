@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 24</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 24</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e958"><!-- azsw2e-l2t24 -->
+            <head xml:id="azsw2e-d1e958-Hd1e101">Titulus 24</head>
+            <head xml:id="azsw2e-d1e958-Hd1e103" type="question-title">Si tutor vel curator intervenerit.</head>
+            <div xml:id="azsw2e-d1e958-Dd1e106">
+               <head xml:id="azsw2e-d1e958-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e958-d1e110">
+                  <ref xml:id="azsw2e-d1e958-Rd1e112">Imperator
+            Antoninus</ref> Si iam puberes utriusque sexus parentium hereditatem
+            adistis, sed etiam nunc in ea aetate estis, ut eo, quod paternae hereditati
+            vos obligastis, in integrum restitutionis auxilium accipere debeatis,
+            adite per procuratores vestros praesidem provinciae. Quod si legitimam
+            aetatem implestis idque tempus, quo in integrum restitui possitis,
+            excessit, curatores vestros, si adversus eos nondum experti estis,
+            iudicio secundum formam iuris convenite. * ANT. A. MARCIANAE. *&lt;A
+            215 PP. II NON. APRIL. LAETO ET CEREALE CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e958-Dd1e116">
+               <head xml:id="azsw2e-d1e958-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e958-d1e120">
+                  <ref xml:id="azsw2e-d1e958-Rd1e122">Imperator
+            Alexander Severus</ref> Minoribus annis viginti quinque etiam in his,
+            quae praesentibus tutoribus vel curatoribus in iudicio vel extra iudicium
+            gesta fuerint, in integrum restitutionis auxilium superesse, si circumventi
+            sunt, placuit. * ALEX. A. MARCIANAE. *&lt;A XXX &gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e958-Dd1e126">
+               <head xml:id="azsw2e-d1e958-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e958-d1e130">
+                  <ref xml:id="azsw2e-d1e958-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Etiam in his, quae minorum tutores
+            vel curatores male gessisse probari possunt, licet personali actione
+            a tutore vel curatore suum consequi possint, in integrum restitutionis
+            auxilium eisdem minoribus dari iam pridem placuit. * DIOCL. ET MAXIM.
+            AA. NICOMEDI. *&lt;A 286 D. IIII NON. MAI. MAXIMO II ET AQUILINO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e958-Dd1e137">
+               <head xml:id="azsw2e-d1e958-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e958-d1e141">
+                  <ref xml:id="azsw2e-d1e958-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Si creditor non vestram personam, sed
+            curatorum secutus cum ipsis contractum habuit et ab ipsis stipulatus
+            est, nullam ei prorsus adversus vos actionem competere manifestum
+            est. * DIOCL. ET MAXIM. AA. ET CC. ISIDORO. *&lt;A 293 V K. MAI. HERACLIAE
+            AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e958-Dd1e147">
+               <head xml:id="azsw2e-d1e958-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e958-d1e151">
+                  <ref xml:id="azsw2e-d1e958-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Etiam tutoribus vel curatoribus distrahentibus
+            vel alias contrahentibus minores tam restitui rebus propriis quam
+            tutorum vel curatorum damna sequi, nullo eis praeiudicio per electionem
+            generando, placuit. * DIOCL. ET MAXIM. AA. ET CC. VALENTINO. *&lt;A
+            294 VI ID. DEC. CC. CONSS.&gt;
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

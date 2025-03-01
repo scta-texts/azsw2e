@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 49</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 49</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6721"><!-- azsw2e-l10t49 -->
+            <head xml:id="azsw2e-d1e6721-Hd1e101">Titulus 49</head>
+            <head xml:id="azsw2e-d1e6721-Hd1e103" type="question-title">De quibus muneribus vel praestationibus nemini liceat se excusare.</head>
+            <div xml:id="azsw2e-d1e6721-Dd1e106">
+               <head xml:id="azsw2e-d1e6721-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6721-d1e110">
+                  <ref xml:id="azsw2e-d1e6721-Rd1e112">Imperatores
+            Honorius, Theodosius</ref>  Comparationi transvectionique specierum
+            universi sine ullo privilegio coartentur ad necessitates Illyricianas:
+            nam in his dumtaxat titulis nullum sub quodam cessare privilegii velamento
+            censemus. </p>
+               <p xml:id="azsw2e-d1e6721-d1e115" n="1">
+            Sed sub hac condicione, cum tempus exegerit, huiusmodi collationi
+            succumbant, ut non tantum requiratur idoneus, verum universi pro portione
+            suae possessionis iugationisque ad haec munia coartentur, et a summis
+            sarcina ad infimos usque decurrat. * HONOR. ET THEODOS. AA. HERCULIO
+            PP. *&lt;A 408 D. III ID. APRIL. CONSTANTINOPOLI BASSO ET PHILIPPO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6721-Dd1e119">
+               <head xml:id="azsw2e-d1e6721-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e6721-d1e123">
+                  <ref xml:id="azsw2e-d1e6721-Rd1e125">Imperatores
+            Theodosius, Valentinianus</ref> Cum ad felicissimam expeditionem numinis
+            nostri omnium provincialium per loca, qua iter adripimus, debeant
+            nobis ministeria exhiberi, neminem ab angariis vel parangariis vel
+            plaustris vel quolibet munere penitus excusari praecipimus, sed omnes,
+            sive ad divinam nostram domum sive ad venerabilis augustae vel ad
+            sacrosanctas ecclesias vel quaslibet illustres domos pertinent, nec
+            lege pragmatica nec divina adnotatione sacrove oraculo excusatos indictionibus
+            magnificae tuae sedis tempore nostrae expeditionis oboedire decernimus.
+            * THEODOS. ET VALENTIN. AA. AD TAURUM PP. *&lt;A 445 D. XIII K. MART.
+            CONSTANTINOPOLI VALENTINIANO A. VI ET NOMO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6721-Dd1e129">
+               <head xml:id="azsw2e-d1e6721-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e6721-d1e133">
+                  <ref xml:id="azsw2e-d1e6721-Rd1e135">Imperator
+            Leo</ref> Hac providentissima lege statuimus omni excusatione cessante
+            nullaque persona vel dignitate penitus excepta, in quibuscumque locis
+            administrationi sublimitatis tuae commissis opus exegerit, murorum
+            constructionem seu comparationem frumenti aliarumque specierum sine
+            ullo impedimento, prout commodum atque necessarium magnitudo tua perspexerit,
+            fieri. * LEO A. DIOSCORO PP. *&lt;A 472 ? &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

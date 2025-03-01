@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 42</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 42</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5426"><!-- azsw2e-l8t42 -->
+            <head xml:id="azsw2e-d1e5426-Hd1e101">Titulus 42</head>
+            <head xml:id="azsw2e-d1e5426-Hd1e103" type="question-title">De solutionibus et liberationibus</head>
+            <div xml:id="azsw2e-d1e5426-Dd1e106">
+               <head xml:id="azsw2e-d1e5426-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5426-d1e110">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e112">Imperator
+            Antoninus</ref> In potestate eius est, qui ex pluribus contractibus
+            pecuniam debet, tempore solutionis exprimere, in quam causam reddat.
+            Quod si debitor id non fecit, convertitur electio ad eum qui accepit.
+            Si neuter voluntatem suam expressit, prius in usuras id quod solvitur,
+            deinde in sortem accepto feretu * ANT. A. ARISTAENETAE. *&lt;A 212
+            PP. PRID. NON. IUN. DUOBUS ASPRIS CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e116">
+               <head xml:id="azsw2e-d1e5426-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5426-d1e120">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e122">Imperator
+            Alexander Severus</ref> Liberari fideiussores, quotiens fiscus tam
+            creditori quam debitori, licet diversis stationibus, succedit, ius
+            certum est. Quod et in tua persona procuratores mei custodient * ALEX.
+            A. BASSAE. *&lt;A 232 S. K. IUN. LUPO ET MAXIMO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e126">
+               <head xml:id="azsw2e-d1e5426-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5426-d1e130">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e132">Imperator
+            Gordianus</ref> Si, cum servus liberam peculii administrationem haberet,
+            mutuam pecuniam ab eo accepisti, eique ante ademptum peculium vel
+            priusquam ademptum cognosceres eam exsolvisti, ea solutione liberatus
+            es. * GORD. A. APOLLONIO. *&lt;A 238 PP. V K. OCT. PIO ET PONTIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e137">
+               <head xml:id="azsw2e-d1e5426-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e5426-d1e141">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e143">Imperator
+            Gordianus</ref> Nihil interest, utrum creditori pecuniam mutuam solveris,
+            an ex eius voluntate servo numeraveris. Nec enim ex eo, quod creditor
+            in fatum concessit, priusquam instrumenta redderet, evacuatae obligationis
+            vires reparari queunt * GORD. A. RUFINAE. *&lt;A 238 PP. PRID. ID.
+            OCT. PIO ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e147">
+               <head xml:id="azsw2e-d1e5426-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e5426-d1e151">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e153">Imperator
+            Gordianus</ref> Nulla tibi adversus creditorem alienum actio superest
+            eo, quod debitam ei quantitatem offerens ius obligationis in te transferri
+            desideras, cum ab eo te nomen comparasse non suggeras, licet solutione
+            ab alio facta nomine debitoris evanescere soleat obligatio. * GORD.
+            A. CELSO. *&lt;A 238 PP. VII K. NOV. PIO ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e157">
+               <head xml:id="azsw2e-d1e5426-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e5426-d1e161">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e163">Imperator
+            Gordianus</ref> Si inter patrem tuum eosque, quos debitores esse dicebas,
+            non de dubia lite transactio facta est, sed parte tantummodo recuperata
+            universum se recepisse cavit nec de superfluo eos qui verbis obligati
+            erant per acceptilationem liberavit nec donationis causa id factum
+            est, exuberantis debiti integra ei repetitio competit. * GORD. A.
+            ALEXANDRO. *&lt;A 239 PP. III ID. FEBR. GORDIANO A. ET AVIOLA CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e167">
+               <head xml:id="azsw2e-d1e5426-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e5426-d1e171">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e173">Imperator
+            Philippus</ref> Eius quantitatis, cuius petitionem ratio compensationis
+            excludit, usuram non posse reposci manifestum est. * PHILIPP. A. ET
+            PHILIPP. C. ANTIOCHO. *&lt;A 244 PP. VI K. AUG. PEREGRINO ET AEMILIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e177">
+               <head xml:id="azsw2e-d1e5426-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e5426-d1e181">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e183">Imperator
+            Philippus</ref> Usuras, quae quotannis in urbe numerandae sunt, promittere
+            alio loco dependi nisi ex iusta causa exempli ratio minime sinit.
+            * PHILIPP. A. ET C. RUFO. *&lt;A 245 PP. V ID. MAI. PHILIPPO A. ET
+            TITIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e187">
+               <head xml:id="azsw2e-d1e5426-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e5426-d1e191">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Obsignatione totius debitae pecuniae
+            sollemniter facta liberationem contingere manifestum est. Sed ita
+            demum oblatio debiti liberationem parit, si eo loco, quo debetur solutio,
+            fuerit celebrata * DIOCL. ET MAXIM. AA. CASSIO. *&lt;A 286 PP. V ID.
+            MAI. MAXIMO II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e198">
+               <head xml:id="azsw2e-d1e5426-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e5426-d1e202">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> Successores eius, qui maior quinque
+            et viginti annis in solutum pro debito iure mancipia dedit, haec revocare
+            non posse constat. * DIOCL. ET MAXIM. AA. ET CC. AMBROSIO. *&lt;A
+            293 S. V ID. APRIL. BYZANTII AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e208">
+               <head xml:id="azsw2e-d1e5426-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e5426-d1e212">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e214">Imperatores
+            Diocletianus, Maximianus</ref> Cum maritum tuum a debitoribus tuis
+            minoris viginti et quinque annis constitutae velut ex causa tibi debiti
+            aliquas accepisse quantitates nec tamen te consensum commodasse significes,
+            nullum tibi potuit praeiudicium fieri, nisi factam solutionem post
+            maiorem aetatem ratam feceris. * DIOCL. ET MAXIM. AA. ET CC. CAPITOLINAE.
+            *&lt;A 293 S. V K. MAI. HERACLIAE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e218">
+               <head xml:id="azsw2e-d1e5426-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e5426-d1e222">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e224">Imperatores
+            Diocletianus, Maximianus</ref> Invito vel ignorante creditore qui
+            solvit alii, non se liberat obligatione. Quod si hoc vel mandante
+            vel ratum habente eo fecerit, non minus liberationem consequitur,
+            quam si eidem creditori solvisset * DIOCL. ET MAXIM. AA. ET CC. EUTYCHO.
+            *&lt;A 293 S. III ID. MAI. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e228">
+               <head xml:id="azsw2e-d1e5426-Hd1e230">13</head>
+               <p xml:id="azsw2e-d1e5426-d1e232">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e234">Imperatores
+            Diocletianus, Maximianus</ref> Si obligatum ex causa mandati non per
+            stipulationem facta novatione, post acceptilatione liberasti, sed
+            tantum receptam ex eadem causa debitam quantitatem falso scripsisti,
+            figmento veritatis extingui non potuit obligatio. * DIOCL. ET MAXIM.
+            AA. ET CC. PHILOTIMO. *&lt;A 293 S. VII K. IUN. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e238">
+               <head xml:id="azsw2e-d1e5426-Hd1e240">14</head>
+               <p xml:id="azsw2e-d1e5426-d1e242">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e244">Imperatores
+            Diocletianus, Maximianus</ref> Pecuniae solutae professio collata
+            instrumento maiorem gestae rei probationem continet, quam si chirographum
+            acceptae mutuae pecuniae fuisset redditum. * DIOCL. ET MAXIM. AA.
+            ET CC. CUTAE. *&lt;A 293 S. V ID. IUL. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e248">
+               <head xml:id="azsw2e-d1e5426-Hd1e250">15</head>
+               <p xml:id="azsw2e-d1e5426-d1e252">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e254">Imperatores
+            Diocletianus, Maximianus</ref> Quod debitori tuo chirographum redditum
+            contra voluntatem tuam adseveres, nihil de iure tuo deminutum est.
+            Quibuscumque itaque argumentis iure proditis hanc obligationem tibi
+            probanti eum per huiusmodi factum liberationem minime consecutum iudex
+            ad solutionem iure debiti compellet * DIOCL. ET MAXIM. AA. ET CC.
+            QUARTIONI. *&lt;A 293 S. V K. SEPT. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e259">
+               <head xml:id="azsw2e-d1e5426-Hd1e261">16</head>
+               <p xml:id="azsw2e-d1e5426-d1e263">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e265">Imperatores
+            Diocletianus, Maximianus</ref> Eum, a quo mutuam sumpsisti pecuniam,
+            in solutum nolentem suscipere nomen debitoris tui compelli iuris ratio
+            non permittit. * DIOCL. ET MAXIM. AA. ET CC. CHARIDEMO. *&lt;A 293
+            S. XV K. NOV. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e269">
+               <head xml:id="azsw2e-d1e5426-Hd1e271">17</head>
+               <p xml:id="azsw2e-d1e5426-d1e273">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e275">Imperatores
+            Diocletianus, Maximianus</ref> Manifesti iuris est tam alio pro debitore
+            solvente quam rebus pro numerata pecunia consentiente creditore datis
+            tolli comparatam obligationem. * DIOCL. ET MAXIM. AA. ET CC. CASSIO.
+            *&lt;A 293 S. K. DEC. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e279">
+               <head xml:id="azsw2e-d1e5426-Hd1e281">18</head>
+               <p xml:id="azsw2e-d1e5426-d1e283">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e285">Imperatores
+            Diocletianus, Maximianus</ref> Inquisitio veritatis tolli non potuit,
+            quod chirographa, quae fecerat procurator tuus, recepta tibique restituta
+            ab ipsius herede proponas cum subscriptione procuratoris significante,
+            quod nihil creditoribus debeatur, cum nihil prohibeat et creditoribus
+            satisfactum et non vestrae pecuniae, sed ipsius, cui negotium gerendum
+            mandaveras, processisse solutionem. * DIOCL. ET MAXIM. AA. ET CC.
+            DOMITIO APHOBIO. *&lt;A 294 S. ID. FEBR. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e289">
+               <head xml:id="azsw2e-d1e5426-Hd1e291">19</head>
+               <p xml:id="azsw2e-d1e5426-d1e293">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e295">Imperatores
+            Diocletianus, Maximianus</ref> Si, actore tam mutuis pecuniis dandis
+            quam debitis recipiendis praeposito, in hoc quod susceperas eius dominae
+            per ipsum fecisti satis, instrumentum inane solutione celebrata nihil
+            tibi nocere potest. Aliter enim solventes servo de actione domini
+            liberare se minime possunt * DIOCL. ET MAXIM. AA. ET CC. DIOGENI.
+            *&lt;A 294 S. V ID. OCT. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e299">
+               <head xml:id="azsw2e-d1e5426-Hd1e301">20</head>
+               <p xml:id="azsw2e-d1e5426-d1e303">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e305">Imperatores
+            Diocletianus, Maximianus</ref> Si operas certi servi pecunia sumpta
+            creditorem sibi in debitum compensare placuit, his secundum conventionis
+            fidem praestitis de mancipio restituendo pacti tenor servari debet.
+            * DIOCL. ET MAXIM. AA. ET CC. EUCRATIDI. *&lt;A 294 S. V K. NOV. HADRIANOPOLI
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e309">
+               <head xml:id="azsw2e-d1e5426-Hd1e311">21</head>
+               <p xml:id="azsw2e-d1e5426-d1e313">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e315">Imperatores
+            Diocletianus, Maximianus</ref> Interest multum, utrumne spe futurae
+            numerationis suscepisse te quod instrumento continetur scripsisti,
+            an accepta minore quantitate tantum quantum lectio probat in scriptura
+            conferri placuit. Nam superiori quidem casu residui petitio debiti
+            manet integra, posteriori vero consensu transactionis finitis stare
+            convenit * DIOCL. ET MAXIM. AA. ET CC. RUFO. *&lt;A 294 S. III NON.
+            DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e320">
+               <head xml:id="azsw2e-d1e5426-Hd1e322">22</head>
+               <p xml:id="azsw2e-d1e5426-d1e324">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e326">Imperatores
+            Diocletianus, Maximianus</ref> Inductum ( id est cancellatum) nec
+            ne sit chirographum, vestrum solutionem semel debiti factam ei, qui
+            exigendi potestatem habuit, probantium nihil interest. * DIOCL. ET
+            MAXIM. AA. ET CC. GRATO. *&lt;A 294 S. V ID. DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e330">
+               <head xml:id="azsw2e-d1e5426-Hd1e332">23</head>
+               <p xml:id="azsw2e-d1e5426-d1e334">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e336">Imperatores
+            Diocletianus, Maximianus</ref> Si litterarum auxanonis contemplatione,
+            quas ad aristonem de numeranda tibi pecunia dederat, recepisse scripsisti
+            debitum ab aristone, mandato non impleto, cum petitio debiti manet
+            integra, nihil legitimam exactionem impedire potest. * DIOCL. ET MAXIM.
+            AA. ET CC. VATIO. *&lt;A 294 S. XV K. IAN. NICOMEDIAE CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e340">
+               <head xml:id="azsw2e-d1e5426-Hd1e342">24</head>
+               <p xml:id="azsw2e-d1e5426-d1e344">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e346">Imperatores
+            Diocletianus, Maximianus</ref> Cum pro pecunia quam acceperas secundum
+            placitum euandro te fundum dedisse profitearis, eius industriam vel
+            eventum meliorem tibi, non ipsi prodesse, contrarium non postulaturus,
+            si minoris distraxisset, non iusta petis. * DIOCL. ET MAXIM. AA. ET
+            CC. RUFINO. *&lt;A 294 S. VII K. IAN. NICOMEDIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5426-Dd1e350">
+               <head xml:id="azsw2e-d1e5426-Hd1e352">25</head>
+               <p xml:id="azsw2e-d1e5426-d1e354">
+                  <ref xml:id="azsw2e-d1e5426-Rd1e356">Imperatores
+            Diocletianus, Maximianus</ref> Solutionem adseveranti probationis
+            onus incumbit: quo facto chirographum condicere potest. * DIOCL. ET
+            MAXIM. AA. ET CC. ANTELLIANO. *&lt;A 294 S. III K. IAN. NICOMEDIAE
+            CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

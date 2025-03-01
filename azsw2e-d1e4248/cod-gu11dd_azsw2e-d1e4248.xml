@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 12</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 12</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4248"><!-- azsw2e-l7t12 -->
+            <head xml:id="azsw2e-d1e4248-Hd1e101">Titulus 12</head>
+            <head xml:id="azsw2e-d1e4248-Hd1e103" type="question-title">Qui non possunt ad libertatem pervenire</head>
+            <div xml:id="azsw2e-d1e4248-Dd1e106">
+               <head xml:id="azsw2e-d1e4248-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4248-d1e110">
+                  <ref xml:id="azsw2e-d1e4248-Rd1e112">Imperatores
+            Severus, Antoninus</ref>  Cum divus pater meus
+            constituerit a praesidibus provinciarum vel qui coercendorum maleficiorum
+            potestatem habent in perpetua vincula damnatos ad libertatem produci
+            non posse, hi, qui intra tempora poenae liberi et heredes esse iussi
+            sunt aut legatum fideicommissumve acceperunt, neque libertatem adipisci
+            nec quicquam eorum quae his data sunt capere possunt. </p>
+               <p xml:id="azsw2e-d1e4248-d1e115" n="1">
+            Quod si poenae tempus compleverint, iam omni vinculo exsoluti
+            et quasi ad pristinam vel simplicem servitutis condicionem redacti
+            et libertatem et si qua testamentis dominorum illo tempore defunctorum
+            acceperunt, sine ulla quaestione praeteritae poenae consequantur.
+            * SEV. ET ANT. AA. TORQUATO. *&lt;A 161? D.
+            XVI K. IUL. IPSIS ANTONINO ET VERO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4248-Dd1e119">
+               <head xml:id="azsw2e-d1e4248-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e4248-d1e123">
+                  <ref xml:id="azsw2e-d1e4248-Rd1e125">Imperatores
+            Valerianus, Gallienus</ref>  Is quidem, qui testamento vetitus est
+            manumitti, ad libertatem non potest pervenire.</p>
+               <p xml:id="azsw2e-d1e4248-d1e128" n="1">
+            Sed in proposito interest, utrumne eos, quos cum filio educatos
+            esse testator expresserit, propter familiare ministerium et usum filiorum
+            necessarium et venire et manumitti noluerit, an quasi male meritis
+            poenam inrogaverit. </p>
+               <p xml:id="azsw2e-d1e4248-d1e131" n="2">
+            Nam priore casu, morte eius cui consulebatur obsequi necessitate
+            finita, libertas potest pervenire, posteriore id, quod poenae causa
+            in servos statutum est, necesse est vires suas obtinere, quando divis
+            parentibus meis placuerit eiusmodi testamentorum leges perpetuam servitutem
+            male meritis servis inrogare, ut nec per suppositum emptorem ad libertatem
+            produci possint.* VALER. ET GALLIEN. AA. THEODORO. *&lt;&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

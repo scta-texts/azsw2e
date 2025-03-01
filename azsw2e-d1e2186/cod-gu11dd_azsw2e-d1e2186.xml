@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 31</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 31</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2186"><!-- azsw2e-l4t31 -->
+            <head xml:id="azsw2e-d1e2186-Hd1e101">Titulus 31</head>
+            <head xml:id="azsw2e-d1e2186-Hd1e103" type="question-title">De compensationibus</head>
+            <div xml:id="azsw2e-d1e2186-Dd1e106">
+               <head xml:id="azsw2e-d1e2186-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2186-d1e110">
+                  <ref xml:id="azsw2e-d1e2186-Rd1e112">Imperator
+            Antoninus</ref> Et senatus censuit et saepe rescriptum est compensationi
+            in causa fiscali ita demum locum esse, si eadem statio quid debeat
+            quae petit. Hoc iuris propter confusionem diversorum officiorum tenaciter
+            servandum est. Si quid autem tibi ex ea statione cuius mentionem fecisti
+            deberi constiterit, quam primum recipie * ANT. A. DIANENSI. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2186-Dd1e116">
+               <head xml:id="azsw2e-d1e2186-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2186-d1e120">
+                  <ref xml:id="azsw2e-d1e2186-Rd1e122">Imperator
+            Antoninus</ref> Ex causa quidem iudicati solutum repeti non potest,
+            eapropter nec compensatio eius admitti potest. Eum vero, qui iudicati
+            convenitur, compensationem pecuniae sibi debitae implorare posse nemini
+            dubium est * ANT. A. CLAUDIO ET ASCLEPIADI. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2186-Dd1e126">
+               <head xml:id="azsw2e-d1e2186-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2186-d1e130">
+                  <ref xml:id="azsw2e-d1e2186-Rd1e132">Imperator
+            Alexander Severus</ref> In ea, quae rei publicae te debere fateris,
+            compensari ea, quae ab eadem tibi debentur, is cuius de ea re notio
+            est iubebit, si neque ex kalendario neque ex vectigalibus neque ex
+            frumenti vel olei publici pecunia neque tributorum neque alimentorum
+            neque eius, quae statutis sumptibus servit, neque fideicommissi civitatis
+            debitor sis. * ALEX. A. AETRIO CAPITONI. *&lt;A 223 PP. K. OCT. MAXIMO
+            II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2186-Dd1e137">
+               <head xml:id="azsw2e-d1e2186-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2186-d1e141">
+                  <ref xml:id="azsw2e-d1e2186-Rd1e143">Imperator
+            Alexander Severus</ref> Si constat pecuniam invicem deberi, ipso iure
+            pro soluto compensationem haberi oportet ex eo tempore, ex quo ab
+            utraque parte debetur, utique quoad concurrent quantitates, eiusque
+            solius, quod amplius apud alterum est, usurae debentur, si modo petitio
+            earum subsistit. * ALEX. A. FLAVIO ET LUCIANO. *&lt;A 229 D. XVII
+            K. OCT. ALEXANDRO A. III ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2186-Dd1e147">
+               <head xml:id="azsw2e-d1e2186-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e2186-d1e151">
+                  <ref xml:id="azsw2e-d1e2186-Rd1e153">Imperator
+            Alexander Severus</ref> Etiam si fideicommissum tibi ex eius bonis
+            deberi constat, cui debuisse te minorem quantitatem dicis, aequitas
+            compensationis usurarum excludit computationem, petitio autem eius,
+            quod amplius tibi deberi probaveris, sola relinquitur. * ALEX. A.
+            HONORATAE. *&lt;A 229 PP.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2186-Dd1e157">
+               <head xml:id="azsw2e-d1e2186-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e2186-d1e161">
+                  <ref xml:id="azsw2e-d1e2186-Rd1e163">Imperator
+            Alexander Severus</ref> Neque scriptura, qua cautum est accepta quae
+            negas tradita, obligare te contra fidem veritatis potuit et compensationis
+            aequitatem iure postulas. Non enim prius exsolvi, quod debere te constiterit,
+            aequum est, quam petitioni mutuae responsum fuerit, eo magis, quod
+            ea te persequi dicis, quae a muliere divortii causa amota quereris
+            * ALEX. A. POLYDEUCAE. *&lt;A 229 PP. XVI K. DEC. ALEXANDRO A. III
+            ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2186-Dd1e167">
+               <head xml:id="azsw2e-d1e2186-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e2186-d1e171">
+                  <ref xml:id="azsw2e-d1e2186-Rd1e173">Imperator
+            Alexander Severus</ref> Si ex venditione pretium venditori debetur,
+            compensationis ratio opponitur. Adversus fiscum enim solum emptores
+            petitioni pretii compensationem obicere prohibentur * ALEX. A. FLAVIO
+            AUSONIO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2186-Dd1e177">
+               <head xml:id="azsw2e-d1e2186-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e2186-d1e181">
+                  <ref xml:id="azsw2e-d1e2186-Rd1e183">Imperator
+            Gordianus</ref> Si propter fructus ex possessione tua perceptos vitricus
+            tuus debitor tibi constitutus est, cum id, quod a matre tua legatum
+            est, a te petere coeperit, mutuo debitae quantitatis apud eum qui
+            super ea re iudicaturus est compensationem non immerito obicies. *
+            GORD. A. AURELIO EMERITO MIL. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2186-Dd1e187">
+               <head xml:id="azsw2e-d1e2186-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e2186-d1e191">
+                  <ref xml:id="azsw2e-d1e2186-Rd1e193">Imperator
+            Gordianus</ref> Eius, quod non ei debetur qui convenitur, sed alii,
+            compensatio fieri non potest. * GORD. A. LICINIAE EUCTEMONIDI. *&lt;PP.
+            ID. IAN.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2186-Dd1e198">
+               <head xml:id="azsw2e-d1e2186-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e2186-d1e202">
+                  <ref xml:id="azsw2e-d1e2186-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> Quoniam liberum fundum distractum proponis,
+            post vero, veluti praecedente emptionem obligatione, certum quid solvisse,
+            si debitum a te apud praesidem provinciae petatur, compensationem
+            eius quod indebite solvisti potes opponere. * DIOCL. ET MAXIM. AA.
+            ET CC. IULIO NICANDRO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2186-Dd1e208">
+               <head xml:id="azsw2e-d1e2186-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e2186-d1e212">
+                  <ref xml:id="azsw2e-d1e2186-Rd1e214">Imperatores
+            Diocletianus, Maximianus</ref> Si tutores pupillis officio magistratus
+            urguente nominastis ac pro his propter onus primipili pecuniam solvistis,
+            superstitiosam geritis sollicitudinem, ne ab ipsis conventi hanc eis
+            imputare minime possitis vel a vobis quicquam amplius exigatur, si
+            tantum, quantum eis tutores debuerunt, vel vos nomine ipsorum maiorem
+            quantitatem dedisse probetur. * DIOCL. ET MAXIM. AA. ET CC. CLAUDIO
+            IULIO ET PAULO.*&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2186-Dd1e218">
+               <head xml:id="azsw2e-d1e2186-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e2186-d1e222">
+                  <ref xml:id="azsw2e-d1e2186-Rd1e224">Imperatores
+            Diocletianus, Maximianus</ref> Invicem debiti compensatione habita,
+            si quid amplius debeas, solvens vel accipere creditore nolente offerens
+            et consignatum deponens de pignoribus agere potes. * DIOCL. ET MAXIM.
+            AA. ET CC. LUCIO CORNELIANO. *&lt;A 294 PP. XVII K. IAN. NICOMEDIAE
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2186-Dd1e228">
+               <head xml:id="azsw2e-d1e2186-Hd1e230">13</head>
+               <p xml:id="azsw2e-d1e2186-d1e232">
+                  <ref xml:id="azsw2e-d1e2186-Rd1e234">Imperatores
+            Diocletianus, Maximianus</ref> Si velut in id debitum, quod sollemnium
+            publicarum pensitationum debueras nomine , compensaturo tibi nihil
+            petiturum postea muciano scripsisti, redditis quae venerant in compensationem
+            non indebiti soluti repetitio, sed ante debiti competit exactio. *
+            DIOCL. ET MAXIM. AA. ET CC. AURELIO BASSO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2186-Dd1e238">
+               <head xml:id="azsw2e-d1e2186-Hd1e240">14</head>
+               <p xml:id="azsw2e-d1e2186-d1e242">
+                  <ref xml:id="azsw2e-d1e2186-Rd1e244">Imperator
+            Justinianus</ref>  Compensationes ex omnibus actionibus ipso iure fieri
+            sancimus nulla differentia in rem vel personalibus actionibus inter
+            se observanda. </p>
+               <p xml:id="azsw2e-d1e2186-d1e247" n="1">
+            Ita tamen compensationes obici iubemus, si causa ex qua compensatur
+            liquida sit et non multis ambagibus innodata, sed possit iudici facilem
+            exitum sui praestare. Satis enim miserabile est post multa forte variaque
+            certamina, cum res iam fuerit approbata, tunc ex altera parte, quae
+            iam paene convicta est, opponi compensationem iam certo et indubitato
+            debito et moratoriis ambagibus spem condemnationis excludi. Hoc itaque
+            iudices observent et non procliviores in admittendas compensationes
+            existant nec molli animo eas suscipiant, sed iure stricto utentes
+            , si invenerint eas maiorem et ampliorem exposcere indaginem, eas
+            quidem alii iudicio reservent, litem autem pristinam iam paene expeditam
+            sententia terminali componant: excepta actione depositi secundum nostram
+            sanctionem, in qua nec com pensationi locum esse disposuimu </p>
+               <p xml:id="azsw2e-d1e2186-d1e250" n="2">
+            Possessionem autem alienam perperam occupantibus compensatio
+            non datur. * IUST. A. IOHANNI PP. *&lt;A 531 D. K. NOV. CONSTANTINOPOLI
+            POST CONS. LAMPADII ET ORESTIS VV. CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

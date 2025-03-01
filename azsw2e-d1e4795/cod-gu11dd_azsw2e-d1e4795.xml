@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 61</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 61</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4795"><!-- azsw2e-l7t61 -->
+            <head xml:id="azsw2e-d1e4795-Hd1e101">Titulus 61</head>
+            <head xml:id="azsw2e-d1e4795-Hd1e103" type="question-title">De relationibus</head>
+            <div xml:id="azsw2e-d1e4795-Dd1e106">
+               <head xml:id="azsw2e-d1e4795-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4795-d1e110">
+                  <ref xml:id="azsw2e-d1e4795-Rd1e112">Imperator
+            Constantinus</ref>  Si quis iudicum duxerit esse referendum, nihil
+            inter partes pronuntiet, sed magis super quo haesitandum putaverit,
+            nostram consulat scientiam aut, si tulerit sententiam, minime postea,
+            ne a se provocetur, relatione promissa terreat litigantes, sciens,
+            quod, si hoc fecerit, nihilo minus iure appellationum res agitabitur.
+            </p>
+               <p xml:id="azsw2e-d1e4795-d1e115" n="1">
+            Sed nec ad nos mittatur aliquid, quod plena instructionem
+            indigeat. </p>
+               <p xml:id="azsw2e-d1e4795-d1e118" n="2">
+            Quotiens autem ad nostram scientiam iudex se polliceatur
+            relaturum, consultationis exemplum litigatoribus ilico edi apud acta
+            iubeat, ut, si cui forte relatio minus plena vel contraria videatur,
+            is refutatorias preces similiter apud acta sine aliqua frustratoria
+            dilatione offerat. * CONST. A. PROFUTURO PRAEF. ANNONAE. *&lt;A 319
+            D.IIII ID.FEBR.SIRMIO CONSTANTINO A. ET LICINIO C. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4795-Dd1e122">
+               <head xml:id="azsw2e-d1e4795-Hd1e124">2</head>
+               <p xml:id="azsw2e-d1e4795-d1e126">
+                  <ref xml:id="azsw2e-d1e4795-Rd1e128">Imperatores
+            Valentinianus, Valens</ref> Super delictis provincialium numquam rectores
+            provinciarum ad scientiam principum putent esse referendum, nisi ediderint
+            prius consultationis exemplum. Quippe tunc demum relationibus plena
+            maturitas est, cum vel adlegationibus refelluntur vel probantur adsensu
+            * VALENTIN. ET VALENS AA. AD VIVENTIUM PP. *&lt;A 368 D.III K.IAN.TREVIRIS
+            VALENTINIANO ET VALENTE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4795-Dd1e132">
+               <head xml:id="azsw2e-d1e4795-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e4795-d1e136">
+                  <ref xml:id="azsw2e-d1e4795-Rd1e138">Imperatores
+            Valentinianus, Valens</ref> Si quando ratio aut necessitas est in
+            negotiis nostra iudicia requirendi expectandique responsa, omnem omnino
+            causam relationis series comprehendat, ut recitata consultatione,
+            quae ita est dirigenda, propemodum actorum recensione non opus sit:
+            actis etiam necessario sociandis. * VALENTIN. ET VALENS AA. AD APODEMIUM.
+            *&lt;A 369 D.VI ID.MAI.TREVIRIS VALENTINIANO NP.ET VICTORE CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

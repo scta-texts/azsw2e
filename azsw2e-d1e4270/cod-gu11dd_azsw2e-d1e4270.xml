@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 14</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 14</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4270"><!-- azsw2e-l7t14 -->
+            <head xml:id="azsw2e-d1e4270-Hd1e101">Titulus 14</head>
+            <head xml:id="azsw2e-d1e4270-Hd1e103" type="question-title">De ingenuis manumissis</head>
+            <div xml:id="azsw2e-d1e4270-Dd1e106">
+               <head xml:id="azsw2e-d1e4270-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4270-d1e110">
+                  <ref xml:id="azsw2e-d1e4270-Rd1e112">Imperator
+            Alexander Severus</ref> Si ingenuum te et
+            testamento manumissum esse dicas, apud suos iudices causam agere debes,
+            si tamen iustum contradictorem habes, id est eum, qui se patronum
+            tuum esse dicit, memor senatum censuisse, ut, qui post manumissionem
+            originem repetierint, ea quae de domo manumissoris habent ibi relinquant.
+            In qua causa etiam legata ut liberto data esse iuris prudentibus placuit
+            * ALEX. A. PHILETO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4270-Dd1e116">
+               <head xml:id="azsw2e-d1e4270-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4270-d1e120">
+                  <ref xml:id="azsw2e-d1e4270-Rd1e122">Imperator
+            Gordianus</ref> Ingenuam natam neque nutrimentorum
+            sumptus neque servitutis obsequium faciunt ancillam neque manumissio
+            libertinam. * GORD. A. POMPEIAE. *&lt;A 240 PP. V ID. MAI.
+            SABINO II ET VENUSTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4270-Dd1e126">
+               <head xml:id="azsw2e-d1e4270-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4270-d1e130">
+                  <ref xml:id="azsw2e-d1e4270-Rd1e132">Imperator
+            Philippus</ref> Si aviam tuam manumissam postea ingenuam sollemniter
+            constitit statumque eius iustae sententiae tuetur auctoritas, filios
+            eius quamvis ante sententiam susceptos ingenuam libertatem non immerito
+            flagitare, si cum peritioribus tractatum habuisses, facile cognosceres.
+            * PHILIPP. A. FELIC. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4270-Dd1e137">
+               <head xml:id="azsw2e-d1e4270-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4270-d1e141">
+                  <ref xml:id="azsw2e-d1e4270-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Cum cognatum
+            tuum ingenuum, factum Palmyrene factionis dominatione velut captivum,
+            distractum esse dicas, praeses provinciae ingenuitatis suae reddi
+            eum efficiet. * DIOCL. ET MAXIM. AA. ET CC. AGRIPPAE. *&lt;A 293 S. IIII ID. IAN. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4270-Dd1e147">
+               <head xml:id="azsw2e-d1e4270-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e4270-d1e151">
+                  <ref xml:id="azsw2e-d1e4270-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref>  Defamari statum
+            ingenuorum seu errore seu malignitate quorundam periniquum est, praesertim
+            cum adfirmes diu praesidem unum atque alterum interpellatum a te vocitasse
+            diversam partem, ut contradictionem faceret, si defensionibus suis
+            confideret. </p>
+               <p xml:id="azsw2e-d1e4270-d1e156" n="1">
+            Unde constat merito rectorem provinciae commotum adlegationibus
+            tuis sententiam dedisse, ne de cetero inquietudinem sustineres. </p>
+               <p xml:id="azsw2e-d1e4270-d1e159" n="2">
+            Si igitur adhuc diversa pars perseverat in eadem obstinatione,
+            aditus praeses provinciae ab iniuria temperari praecipiet. *
+            DIOCL. ET MAXIM. AA. ET CC. CRESCENTI. *&lt;A 293 D. PRID. NON. APRIL. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4270-Dd1e163">
+               <head xml:id="azsw2e-d1e4270-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e4270-d1e167">
+                  <ref xml:id="azsw2e-d1e4270-Rd1e169">Imperatores
+            Diocletianus, Maximianus</ref> Scientis condicionem liberum non posse
+            fieri servum evidentissimi iuris est. Cum igitur proponas patrem pupillorum,
+            quorum precibus fecisti mentionem, velut liberum te penes se habuisse,
+            ministerium, licet in actu longi temporis, non praecedente vero titulo,
+            quibus dominia quaeri solent, mutare tuam condicionem minime potuit
+            * DIOCL. ET MAXIM. AA. ET CC. DIONYSIO. *&lt;A 293 S. VII K. MAI.
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4270-Dd1e173">
+               <head xml:id="azsw2e-d1e4270-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e4270-d1e177">
+                  <ref xml:id="azsw2e-d1e4270-Rd1e179">Imperatores
+            Diocletianus, Maximianus</ref> Si te ac filios tuos ingenuos esse
+            constat, natalium veritas vos tuetur. Nam qui servitutis moverat quaestionem,
+            apud acta causae renuntiando ad ingenuitatis probationem nec nocere
+            quicquam nec prodesse potest * DIOCL. ET MAXIM. AA. ET CC. MATRONAE.
+            *&lt;A 293 S. XV K. IUL. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4270-Dd1e183">
+               <head xml:id="azsw2e-d1e4270-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e4270-d1e187">
+                  <ref xml:id="azsw2e-d1e4270-Rd1e189">Imperatores
+            Diocletianus, Maximianus</ref> Ingenui nascuntur, libertini manumissione
+            tantum constituuntur: pactum autem nec servis nec libertinis ingenuitatem
+            adsignat nec his, qui transactioni non consenserunt, quicquam praeiudicare
+            potest. * DIOCL. ET MAXIM. AA. ET CC. CALLIMORPHO.
+            *&lt;A 293 S. IIII K. IAN. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4270-Dd1e193">
+               <head xml:id="azsw2e-d1e4270-Hd1e195">9</head>
+               <p xml:id="azsw2e-d1e4270-d1e197">
+                  <ref xml:id="azsw2e-d1e4270-Rd1e199">Imperatores
+            Diocletianus, Maximianus</ref>  Libertina matre procreatam ingenuis
+            nasci natalibus evidentis ac manifesti iuris est. </p>
+               <p xml:id="azsw2e-d1e4270-d1e202" n="1">
+            Cum igitur te matre libertina editam, dehinc ab hostibus
+            captam postliminio reversam proponas et nunc tibi servitutis moveri
+            quaestionem, consequens est adiri praesidem provinciae, qui de causa
+            liberali cognoscet iure laturus sententiam, sciens neque huiusmodi
+            matris condicionem neque captivitatem reversis de statu pristino quicquam
+            posse detrahere. * DIOCL. ET MAXIM. AA. ET CC. POTAMONI. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4270-Dd1e207">
+               <head xml:id="azsw2e-d1e4270-Hd1e209">10</head>
+               <p xml:id="azsw2e-d1e4270-d1e211">
+                  <ref xml:id="azsw2e-d1e4270-Rd1e213">Imperatores
+            Diocletianus, Maximianus</ref> Ad recognoscendos singulos nomina comparata
+            publico consensu, ob celandos natales ingenuis si mutentur, minime
+            nocet, natosque, licet in ministerio servitutis, liberae condicionis
+            non servos possessio, sed status ingenuos edi perficit. * DIOCL. ET
+            MAXIM. AA. ET CC. ATHENODORAE. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4270-Dd1e217">
+               <head xml:id="azsw2e-d1e4270-Hd1e219">11</head>
+               <p xml:id="azsw2e-d1e4270-d1e221">
+                  <ref xml:id="azsw2e-d1e4270-Rd1e223">Imperatores
+            Diocletianus, Maximianus</ref> Si vestram
+            possessionem nullus praecessit titulus, sed ingenui constituti operas
+            mercede placita locastis, nec statui quicquam vestro derogatum est
+            nec ad conventionis implendam fidem sollemniter agere prohibemini.
+            * DIOCL. ET MAXIM. AA. ET CC. MAXIMAE. *&lt;A 294 S. NON MART.
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4270-Dd1e227">
+               <head xml:id="azsw2e-d1e4270-Hd1e229">12</head>
+               <p xml:id="azsw2e-d1e4270-d1e231">
+                  <ref xml:id="azsw2e-d1e4270-Rd1e233">Imperatores
+            Diocletianus, Maximianus</ref> Ad mutandum liberae statum commissum
+            plagii nihil promovet, sed abductam natales, quibus nata est, post
+            hunc etiam casum obtinere convenit. * DIOCL. ET MAXIM. AA. ET CC.
+            QUIETAE. *&lt;A 294 S. III K. DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4270-Dd1e237">
+               <head xml:id="azsw2e-d1e4270-Hd1e239">13</head>
+               <p xml:id="azsw2e-d1e4270-d1e241">
+                  <ref xml:id="azsw2e-d1e4270-Rd1e243">Imperatores
+            Diocletianus, Maximianus</ref> Ingenuum se contendendo nec probando
+            non amittit libertinitatem. * DIOCL. ET MAXIM. AA. ET CC. MENANDRO.
+            *&lt;A 294 S. VII ID. DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4270-Dd1e247">
+               <head xml:id="azsw2e-d1e4270-Hd1e249">14</head>
+               <p xml:id="azsw2e-d1e4270-d1e251">
+                  <ref xml:id="azsw2e-d1e4270-Rd1e253">Imperatores
+            Diocletianus, Maximianus</ref> Status ingenuae ex eo solo, quod velut
+            ancilla sponsaliorum nomine data proponitur, praeiudicari nulla ratione
+            potest. * DIOCL. ET MAXIM. AA. ET CC. ARISTOTELI. *&lt;A 294 S. VII
+            K. IAN. CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

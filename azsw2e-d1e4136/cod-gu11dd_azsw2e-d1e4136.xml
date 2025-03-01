@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 2</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 2</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4136"><!-- azsw2e-l7t2 -->
+            <head xml:id="azsw2e-d1e4136-Hd1e101">Titulus 2</head>
+            <head xml:id="azsw2e-d1e4136-Hd1e103" type="question-title">De testamentaria manumissione</head>
+            <div xml:id="azsw2e-d1e4136-Dd1e106">
+               <head xml:id="azsw2e-d1e4136-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4136-d1e110">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Si codicillos maior viginti annis
+            fecisset, confirmationis tempus libertati non nocere certum est: nec
+            enim potestas iuris, sed iudicii consideratur. * SEV. ET ANT. AA.
+            PRIMO. *&lt;APROPOSITA.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4136-Dd1e116">
+               <head xml:id="azsw2e-d1e4136-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4136-d1e120">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Ex testamento defuncti libertates praestari
+            non possunt hereditate non adita, vel si rei memoria propter crimen
+            quod morte non intercidit damnata est. * SEV. ET ANT. AA. PHILETO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4136-Dd1e126">
+               <head xml:id="azsw2e-d1e4136-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4136-d1e130">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e132">Imperatores
+            Severus, Antoninus</ref> Libertas testamento
+            data adita hereditate contingit, et si heres scriptus per in integrum
+            restitutionem abstinuerit hereditate, nihil ea res libertati obest.
+            * SEV. ET ANT. AA. EUPHROSYNAE. *&lt;A 207 S. XVII K. MAI.
+            APRO ET MAXIMO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4136-Dd1e137">
+               <head xml:id="azsw2e-d1e4136-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4136-d1e141">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e143">Imperatores
+            Severus, Antoninus</ref>  Cum testamento directam
+            libertatem pater tuus sit consecutus, quamvis ei heres extiteris,
+            frustra tamen, rationes quas tempore servitutis gessit ut reddas,
+            compelleris, cum non ea condicione acceperit libertatem. </p>
+               <p xml:id="azsw2e-d1e4136-d1e146" n="1">
+            Is autem, cui libertas sive fideicommissaria sive directa,
+            si rationes reddidisset, relicta est, ante reliqua illata et ea, quae
+            malo consilio amota sunt, ad libertatem non potest pervenire: sin
+            autem non debitor ex rationibus fuerit repertus, post aditam hereditatem
+            quasi puram libertatem consequitur. * SEV. ET ANT. AA. ANCHILAO.
+            *&lt;A 215 PROPOSITA VII K. DEC. LAETO II ET CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4136-Dd1e150">
+               <head xml:id="azsw2e-d1e4136-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e4136-d1e154">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e156">Imperator
+            Alexander Severus</ref> In fraudem creditorum
+            testamento datae libertates, quamvis debitori heres qui solvendo est
+            extiterit, per legem aeliam sentiam non valent. * ALEX. A. QUINTIANO.
+            *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4136-Dd1e160">
+               <head xml:id="azsw2e-d1e4136-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e4136-d1e164">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e166">Imperator
+            Gordianus</ref> Si hereditas eius, a quo testamento
+            dicis te esse manumissum, ob aes alienum spernitur ab heredibus, conservandae
+            libertatis gratia non iniusta ratione creditoribus hereditariis satis
+            offerens iudicium testatoris servari tibi postulabis, maxime cum id
+            etiam a divo marco consultissimo principe sit constitutum: quod in
+            extranea quoque persona observari oportet. * GORD. A. PISISTRATO.
+            *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4136-Dd1e170">
+               <head xml:id="azsw2e-d1e4136-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e4136-d1e174">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e176">Imperator
+            Gordianus</ref> Contra voluntatem matris tuae
+            libertatem in eum conferre, quem illa liberum fieri prohibuit, non
+            debes, ne videaris iura pietatis violare. * GORD. A. .TAE. *&lt;A
+            240 PP. X K. FEBR. SABINO II ET VENUSTO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4136-Dd1e180">
+               <head xml:id="azsw2e-d1e4136-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e4136-d1e184">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e186">Imperator
+            Philippus</ref> Cum testator libertatem tempore nuptiarum filii sui
+            vel filiae servo dari iussit , non tempus praestandae libertati praestituit,
+            sed potius condicioni locum fecit, ut non insecutis nuptiis libertas
+            iure posci non possit. * PHILIPP. A. ET PHILIPP. C. GEMELLO. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4136-Dd1e190">
+               <head xml:id="azsw2e-d1e4136-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e4136-d1e194">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e196">Imperatores
+            Carus, Carinus, Numerianus</ref> Servo tuo defunctus, licet te heredem
+            scripsisse proponatur, tamen directam libertatem dare non potuit:
+            iure enim directo libertatem servis alienis dare nemo potest. * CARUS
+            CARINUS ET NUMER. AAA. MAURO. *&lt;A 283 PP. VI ID.
+            NOV. CARO ET CARINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4136-Dd1e201">
+               <head xml:id="azsw2e-d1e4136-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e4136-d1e205">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e207">Imperatores
+            Diocletianus, Maximianus</ref> Directis verbis iure data libertate
+            non sola impositione pilei, sed adita hereditate, si nulla iuris impediat
+            constitutio, liberti constituuntur. * DIOCL. ET MAXIM. AA. ET CC.
+            GERMANO. *&lt;A 293&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4136-Dd1e211">
+               <head xml:id="azsw2e-d1e4136-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e4136-d1e215">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e217">Imperatores
+            Diocletianus, Maximianus</ref> Si iure non substitit testamentum,
+            in hoc nec libertates ( cum non fuisse additum, ut pro codicillis
+            scriptum valeret, proponas) recte datas constabit. * DIOCL. ET MAXIM.
+            AA. ET CC. LAURINAE. *&lt;A 293 PP. SUB DIE XVI K. APRIL.
+            SIRMI AA. CONSS.&gt; </p>
+               <p xml:id="azsw2e-d1e4136-d1e220"> </p>
+               <p xml:id="azsw2e-d1e4136-d1e222">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e224">Imperatores
+            Diocletianus, Maximianus</ref>  Si heredes iure
+            facto testamento sollemniter adierint hereditatem, ex testamento tibi
+            libertas quaesita post colludentibus tam scriptis heredibus quam ab
+            intestato vindicantibus successionem adimi non potuit. </p>
+               <p xml:id="azsw2e-d1e4136-d1e227"> 
+            Quod si sponte repudiaverunt sibi delatam successionem, omnia
+            quae testamento fuerant scripta defecisse convenit. </p>
+               <p xml:id="azsw2e-d1e4136-d1e230"> 
+            Si vero, ut vos fraudarent libertate, collusisse eos praeses
+            animadverterit, secundum haec quae divus pius antoninus constituit
+            libertatibus consuli providebit. * DIOCL. ET MAXIM. AA. ET
+            CC. RHIZO. *&lt;A 293 S. K. DEC. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4136-Dd1e233">
+               <head xml:id="azsw2e-d1e4136-Hd1e235">13</head>
+               <p xml:id="azsw2e-d1e4136-d1e237">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e239">Imperatores
+            Diocletianus, Maximianus</ref> Statuliberis
+            datam libertatem adimi ab herede non posse certum est: nec alienatio
+            nec usucapio statulibero, quominus existente condicione libertatem
+            consequatur, nocere potest. * DIOCL. ET MAXIM. AA. ET CC. MARTIALI.
+            *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4136-Dd1e243">
+               <head xml:id="azsw2e-d1e4136-Hd1e245">14</head>
+               <p xml:id="azsw2e-d1e4136-d1e247">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e249">Imperatores
+            Theodosius, Valentinianus</ref> Directas libertates graecis verbis
+            liceat in testamentis relinquere, ut ita libertates directae datae
+            videantur, ac si legitimis verbis eas testator dari iussisset. * THEODOS.
+            ET VALENTIN. AA. FLORENTIO PP. *&lt;A 439 D. PRID. ID. SEPT. CONSTANTINOPOLI
+            THEODOSIO A. XVII ET FESTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4136-Dd1e253">
+               <head xml:id="azsw2e-d1e4136-Hd1e255">15</head>
+               <p xml:id="azsw2e-d1e4136-d1e257">
+                  <ref xml:id="azsw2e-d1e4136-Rd1e259">Imperator
+            Justinianus</ref>  Cum constitutio divi Marci declarat, si quis testamento
+            condito vel sine testamento moriens, ut locus fiat ab intestato successioni,
+            libertates reliquerit, nemo autem adire vult defuncti hereditatem
+            eo, quod suspecta esse videtur, et si fuerint libertates forsitan
+            et sine scriptis fideicommissariae relictae, licere vel cuilibet extraneo
+            vel uni ex servis, qui et ipse libertate donatus est et pro sua periclitatur
+            condicione, adire hereditatem sub hac condicione et satisdatione,
+            quod et creditoribus omnibus satisfaciat et libertates imponat his,
+            quibus voluerit testator, variae dubitationes ex hac constitutione
+            emerserunt. </p>
+               <p xml:id="azsw2e-d1e4136-d1e262" n="1">
+            Nam si res hereditariae herede minime invento venierint an
+            et post venditionem earundem rerum possibile est vel servum vel quemlibet
+            alium adire et recuperare quidem ab emptoribus res, satisfacere autem
+            creditoribus et libertatibus, quaerebatur. </p>
+               <p xml:id="azsw2e-d1e4136-d1e265"> 
+            Et licet divus Severus semel rebus venditis hoc non admisit,
+            nobis tamen Ulpiani sententia admonente placuit maxime propter libertates,
+            ne depereant, et post venditionem rerum annale remedium dare divi
+            Marci constitutioni, intra quod et creditoribus omnibus satisfiat
+            et emptores nihil novi patiantur, qui annalem saepe sentiebant rescissionem,
+            et licere servo, qui libertate donatus est, vel alii cuidam extraneo
+            vel ante venditionem rerum vel post venditionem, intra annale tamen
+            tempus, adire hereditatem et res recuperare, prius satisdatione danda,
+            ut tam creditoribus quam libertatibus satisfaciat. </p>
+               <p xml:id="azsw2e-d1e4136-d1e267"> 
+            ( 1) Sin autem libertatibus quidem omnibus satisfacere quis
+            polliceatur, creditoribus autem non in solidum, sed in partem solvere
+            creditum, illi autem huiusmodi pactionem admiserint, sancimus et in
+            huiusmodi casu consultissimi principis locum habere constitutionem
+            et eum modis omnibus admittendum censemus, maxime cum ex voluntate
+            creditorum hoc interponitur: nolentibus etenim creditoribus admitti
+            talem petitionem nullo concedimus modo.</p>
+               <p xml:id="azsw2e-d1e4136-d1e270" n="2">
+            Si vero quidam ex servis libertatem amplexi fuerint, alii
+            autem censuerint esse respuendam, et in hunc casum extendenda est
+            divi Marci oratio et procul dubio et in hac specie audiendus est petitor
+            hereditatis et maneat liberum arbitrium servorum, sive ad libertatem
+            venire volunt sive in servitutem remanere. </p>
+               <p xml:id="azsw2e-d1e4136-d1e273"> 
+            Licet enim Romanam civitatem recusare nemini servorum licet,
+            tamen in hoc casu, ne propter quorundam indevotionem alii maneant
+            in servitute, volentibus quidem omnibus servis licere in libertatem
+            pervenire, nolentibus autem quibusdam vel recusantibus spontaneam
+            servitutem imminere oportet et, quem patronum habere noluerint, dominum
+            suum, forsitan et acerbum, sentiant. </p>
+               <p xml:id="azsw2e-d1e4136-d1e275" n="3">
+            Sin vero non omnes libertates adimplere pollicitus fuerit,
+            sed certum numerum servorum ex his, qui ad libertatem venire iussi
+            sunt, melius est, si quidem res hereditariae sufficiunt ad implendos
+            creditores, etiam omnibus servis dare libertatem, etsi hoc non pollicitus
+            est. Si autem deest in exsolvendis creditoribus, humanius est, ut
+            saltim pauci veniant ad libertatem. </p>
+               <p xml:id="azsw2e-d1e4136-d1e278" n="4">
+            Sed hoc quidem antiquis dubitationibus remedium invenimus.
+            Bellissimam autem repletionem praefatae constitutioni donantes sancimus:
+            si non unus veniat hereditatis petitor, sed plures, si quidem uno
+            momento uterque vel ampliores, omnibus detur licentia communiter hereditatem
+            adire, prius satisdatione ab omnibus danda, ut creditoribus et libertatibus
+            satisfaciant. </p>
+               <p xml:id="azsw2e-d1e4136-d1e281"> 
+            Sin autem per intervalla temporum hoc fiat, qui primus veniat
+            habeat praerogativam, si etiam satisdationem praestare potest: illo
+            enim cessante hoc facere alii gradatim secundum tempora petitionis
+            succedant. Et hoc intra annale tempus observetur. </p>
+               <p xml:id="azsw2e-d1e4136-d1e283" n="5">
+            Sin autem uno pollicente quosdam liberos facere, non autem
+            totos, alius emerserit satisdationem paratus idoneam praestare, quod
+            omnibus creditoribus et omnibus libertatibus satisfaciat, aequissimum
+            est eum admitti, ut omnes libertates indistincte celebrentur. Quod
+            privilegium damus non solum servo, qui libertate donatus est, sed
+            etiam ei, cui nulla libertas relicta est, ut aliquid venustum eveniat,
+            ut per eum, cui libertas relicta non est, aliis libertas imponatur.
+            </p>
+               <p xml:id="azsw2e-d1e4136-d1e287" n="6">
+            Sed si quidem, antequam prior hereditarias res et libertatem
+            accipiat, hoc eveniat, secundo petitori vel tertio vel deinceps ampliores
+            libertates pollicentibus fieri locum censemus. </p>
+               <p xml:id="azsw2e-d1e4136-d1e290" n="7">
+            Sin autem iam rebus servo, qui primus petiit hereditatem,
+            datis et libertatibus ab eo quibusdam servis hereditariis impositis
+            quidam alius servus hereditarius vel liber extraneus hoc facere maluerit,
+            licebit quidem ei hoc impetrare et sub maioribus pollicitationibus
+            et satisdationibus hereditatem accipere: sed prior in libertate petitor
+            maneat, licet res ab eo abstrahantur. His omnibus intra annum secundum
+            quod dictum est celebrandis, ex quo prior petitor iudicem adierit.
+            * IUST. A. IOHANNI PP. *&lt;A 531 - 532&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

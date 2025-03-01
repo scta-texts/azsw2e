@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 42</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 42</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6643"><!-- azsw2e-l10t42 -->
+            <head xml:id="azsw2e-d1e6643-Hd1e101">Titulus 42</head>
+            <head xml:id="azsw2e-d1e6643-Hd1e103" type="question-title">De muneribus patrimoniorum</head>
+            <div xml:id="azsw2e-d1e6643-Dd1e106">
+               <head xml:id="azsw2e-d1e6643-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6643-d1e110">
+                  <ref xml:id="azsw2e-d1e6643-Rd1e112">Imperator
+            Antoninus</ref> Civilia munera per ordinem pro modo fortunarum sustinenda
+            sunt. * ANT. A. PHILOGYRIO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6643-Dd1e116">
+               <head xml:id="azsw2e-d1e6643-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6643-d1e120">
+                  <ref xml:id="azsw2e-d1e6643-Rd1e122">Imperator
+            Antoninus</ref> Munera, quae patrimoniis publicae utilitatis gratia
+            indicuntur, ab omnibus subeunda sunt. * ANT. A. MATERNO. *&lt;A XXX
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6643-Dd1e126">
+               <head xml:id="azsw2e-d1e6643-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e6643-d1e130">
+                  <ref xml:id="azsw2e-d1e6643-Rd1e132">Imperator
+            Alexander Severus</ref> Qui immunitatem munerum publicorum consecuti
+            sunt, onera patrimoniorum sustinere debent. In quibus causis et hospites
+            recipiendi sunt * ALEX. A. ATILIO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6643-Dd1e137">
+               <head xml:id="azsw2e-d1e6643-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e6643-d1e141">
+                  <ref xml:id="azsw2e-d1e6643-Rd1e143">Imperatores
+            Valerianus, Gallienus</ref> Non videtur abhorrere ratione sententia,
+            qua praeses provinciae equos curules alere non personarum, sed patrimonii
+            esse decrevit. Et tamen si iniqua esset, omisso a te appellationis
+            auxilio necessario permanet * VALER. ET GALLIEN. AA. NERONI. *&lt;A
+            XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6643-Dd1e147">
+               <head xml:id="azsw2e-d1e6643-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e6643-d1e151">
+                  <ref xml:id="azsw2e-d1e6643-Rd1e153">Imperatores
+            Carus, Carinus, Numerianus</ref> Neque tempore aetatis neque numero
+            liberorum a muneribus quae patrimoniorum sunt excusationem quis habere
+            potest. * CARUS CARINUS ET NUMER. AAA. ANTEPISTO. *&lt;A XXX &gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6643-Dd1e157">
+               <head xml:id="azsw2e-d1e6643-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e6643-d1e161">
+                  <ref xml:id="azsw2e-d1e6643-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Professio et desiderium tuum inter
+            se discrepant. Nam cum philosophum te esse proponas, vinceris avaritiae
+            caecitate et onera quae patrimonio tuo iniunguntur solus recusare
+            conaris. Quod frustra te facere ceterorum exemplo poteris edocer *
+            DIOCL. ET MAXIM. AA. POLYMNESTRO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6643-Dd1e167">
+               <head xml:id="azsw2e-d1e6643-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e6643-d1e171">
+                  <ref xml:id="azsw2e-d1e6643-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Etiam minores aetate patrimoniorum
+            muneribus subiugari solent. Unde intellegis te frustra plenam immunitatem
+            desiderare, cum munera quae impensas exigunt subire te necesse sit
+            * DIOCL. ET MAXIM. AA. ALEXANDRO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6643-Dd1e177">
+               <head xml:id="azsw2e-d1e6643-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e6643-d1e181">
+                  <ref xml:id="azsw2e-d1e6643-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Nec protostasiae vel sacerdotii vel
+            decaprotiae munera corporalia sunt, sed tantum patrimonii esse non
+            ambigitur. * DIOCL. ET MAXIM. AA. ET CC. LONGINO. *&lt;A XXX &gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6643-Dd1e187">
+               <head xml:id="azsw2e-d1e6643-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e6643-d1e191">
+                  <ref xml:id="azsw2e-d1e6643-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Patrimoniorum munera mulieres etiam
+            sustinere debent. * DIOCL. ET MAXIM. AA. ET CC.MARCIAE. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6643-Dd1e198">
+               <head xml:id="azsw2e-d1e6643-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e6643-d1e202">
+                  <ref xml:id="azsw2e-d1e6643-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> Quantum ad extraordinarias indictiones
+            pertinet, praesidibus significamus, ut omnes possessores ceterosque
+            sciant conveniri debere, quandoquidem ea patrimonii munera esse constet
+            meritoque ab omnibus agnosci debeant, quo facilius obsequiis publicis
+            pareatur. * DIOCL. ET MAXIM. AA. ET CC. EXEMPL. SACR. LITT. AD PRAEFECTOS.*&lt;X&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

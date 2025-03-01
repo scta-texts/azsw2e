@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 21</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 21</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e924"><!-- azsw2e-l2t21 -->
+            <head xml:id="azsw2e-d1e924-Hd1e101">Titulus 21</head>
+            <head xml:id="azsw2e-d1e924-Hd1e103" type="question-title">De in integrum restitutione minorum viginti quinque annis.</head>
+            <div xml:id="azsw2e-d1e924-Dd1e106">
+               <head xml:id="azsw2e-d1e924-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e924-d1e110">
+                  <ref xml:id="azsw2e-d1e924-Rd1e112">Imperator
+            Alexander Severus</ref> Illud inspiciendum est, num inofficiosi querellae
+            vel palam vel tacita dissimulatione sit renuntiatum. Nec hoc autem
+            in personam tuam cadere posse auxilium quod aetati impertitur ostendit.
+            * ALEX. A. PLOTIANAE. *&lt;A 223 D. V ID. IUL. MAXIMO II ET AELIANO
+            CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e924-Dd1e116">
+               <head xml:id="azsw2e-d1e924-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e924-d1e120">
+                  <ref xml:id="azsw2e-d1e924-Rd1e122">Imperator
+            Alexander Severus</ref> Eo tempore, quo soror tua auxilio iuvabatur
+            aetatis, si patris intestati bonorum possessionem accipere debuit,
+            licet quinque filios superstites habuerit, non tamen ideo minus ad
+            edicti praerogativam pertinet, scilicet si nunc per aetatem beneficium
+            restitutionis largitur. * ALEX. A. ALEXANDRO. *&lt;A 238 PP. VIII
+            ID. AUG. PIO ET PONTIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e924-Dd1e126">
+               <head xml:id="azsw2e-d1e924-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e924-d1e130">
+                  <ref xml:id="azsw2e-d1e924-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Si curatorem habens minor quinque et
+            viginti annis post pupillarem aetatem res venum dedisti, hunc contractum
+            servari non oportet, cum non absimilis ei habeatur minor curatorem
+            habens, cui a praetore curatore dato bonis interdictum est. Si vero
+            sine curatore constitutus contractum fecisti, implorare in integrum
+            restitutionem, si necdum tempora praefinita excesserint, causa cognita
+            non prohiberis * DIOCL. ET MAXIM. AA. ET CC. ATTIANO. *&lt;A 293 D.
+            XIIII K. MAI. HERACLIAE AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e924-Dd1e137">
+               <head xml:id="azsw2e-d1e924-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e924-d1e141">
+                  <ref xml:id="azsw2e-d1e924-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Si minorem te quinque et viginti annis
+            fuisse, cum contraheres, ostenderis, et tempora restitutionis praestituta
+            excessisse ab adversario tuo comprobatum non fuerit, praeses provinciae
+            in integrum restitutionis dare tibi auxilium debeat. * DIOCL. ET MAXIM.
+            AA. ET CC. ISIDORO. *&lt;A 293 D. V K. MAI. HERACLIAE AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e924-Dd1e147">
+               <head xml:id="azsw2e-d1e924-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e924-d1e151">
+                  <ref xml:id="azsw2e-d1e924-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref>  Minoribus in integrum restitutio, in
+            quibus se captos probare possunt, etsi dolus adversarii non probetur,
+            competit. </p>
+               <p xml:id="azsw2e-d1e924-d1e156" n="1">
+            Ante impletum etiam quintum et vicesimum annum de his, in
+            quibus se minores captos existimant, posse in integrum restitutionem
+            implorare certissimi iuris est. * DIOCL. ET MAXIM. AA. ET CC. RUFO.
+            *&lt;A 293 D. V K. MAI. HERACLIAE AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e924-Dd1e160">
+               <head xml:id="azsw2e-d1e924-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e924-d1e164">
+                  <ref xml:id="azsw2e-d1e924-Rd1e166">Imperatores
+            Diocletianus, Maximianus</ref> Si intra aetatem, cui succurri solet,
+            in integrum restitutionis lis inchoata est nec ei a te renuntiatum
+            est, mors eius, contra quem haec fuerat implorata, fraudi tibi esse
+            non potest. * DIOCL. ET MAXIM. AA. ET CC. SENTENTIAE. *&lt;A 294 D.
+            V K. MAI. SIRMI CC. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e924-Dd1e170">
+               <head xml:id="azsw2e-d1e924-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e924-d1e174">
+                  <ref xml:id="azsw2e-d1e924-Rd1e176">Imperatores
+            Diocletianus, Maximianus</ref> De tutela avunculi eiusdemque tutoris,
+            cui falso aetate probata praestitisti liberationem, quem ignarum aetatis
+            tuae non fuisse tam officium tutelae quam sanguinis proximitas arguit,
+            si necdum statutum tempus excessit, ex causa in integrum restitutionis
+            heredes eius convenire potes. * DIOCL. ET MAXIM. AA. ET CC. SEVERAE.
+            *&lt;A 294 D. XI K. AUG. CC. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e924-Dd1e180">
+               <head xml:id="azsw2e-d1e924-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e924-d1e184">
+                  <ref xml:id="azsw2e-d1e924-Rd1e186">Imperatores
+            Honorius, Theodosius</ref> Minoribus in his, quae vel praetermiserint
+            vel ignoraverint, innumeris auctoritatibus constat esse consultum.
+            * HONOR. ET THEODOS. AA. IULIANO PROCONS. AFRICAE. *&lt;A 414 D. PRID.
+            NON. MART. RAVENNAE CONSTANTIO VC. CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e924-Dd1e190">
+               <head xml:id="azsw2e-d1e924-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e924-d1e194">
+                  <ref xml:id="azsw2e-d1e924-Rd1e196">Imperator
+            Zeno</ref> Non videtur circumscriptus esse minor, qui iure sit usus
+            communi. * ZENO A. AELIANO PP. *&lt;A 480 D. K. IAN. BASILIO CONS.&gt;
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

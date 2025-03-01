@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 65</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 65</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7777"><!-- azsw2e-l11t65 -->
+            <head xml:id="azsw2e-d1e7777-Hd1e101">Titulus 65</head>
+            <head xml:id="azsw2e-d1e7777-Hd1e103" type="question-title">De collatione fundorum patrimonialium et emphyteuticorum</head>
+            <div xml:id="azsw2e-d1e7777-Dd1e106">
+               <head xml:id="azsw2e-d1e7777-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7777-d1e110">
+                  <ref xml:id="azsw2e-d1e7777-Rd1e112">Imperator
+            Constantinus</ref> Emphyteuticarii possessores, qui mansuetudinis
+            nostrae beneficio ad extraordinaria minime devocantur munera, sicut
+            ceteri provinciales obsequium suum muniendis itineribus impendant.
+            Nulla enim ratione debent ab hoc, quod in commune omnibus profuturum
+            est, seiungi * CONST. A. AD PROCULUM PROCONS. AFRICAE. *&lt;A 319
+            PP.NON.MAI.KARTHAGINE CONSTANTINO A.V ET LICINIO C.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7777-Dd1e116">
+               <head xml:id="azsw2e-d1e7777-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7777-d1e120">
+                  <ref xml:id="azsw2e-d1e7777-Rd1e122">Imperator
+            Constantinus</ref> Patrimoniales fundos extraordinariis oneribus vel
+            mediae aut tertiae portionis obsequiis fatigari non convenit, cum
+            eosdem et auri speciem et frumenti plurimum modum constet persolvere:
+            ita ut, qui violare statuta temptaverit, puniatur. * CONST. A. AD
+            CATULLINUM PROCONS. AFRICAE. *&lt;A 319 PP. VI K. SEPT. CARTHAGINI
+            CONSTANTINO A. V ET LICINIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7777-Dd1e126">
+               <head xml:id="azsw2e-d1e7777-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e7777-d1e130">
+                  <ref xml:id="azsw2e-d1e7777-Rd1e132">Imperator
+            Julianus</ref> Omnes, qui patrimoniales fundos sive communiter sive
+            ex asse retinent, pro his conveniendi sunt ad universorum munerum
+            ad eosdem fundos pertinentium pro rata portione vel in solidum functiones,
+            sicut unumquemque privatorum necessitas publicae pensitationis adstringit.
+            * IUL. A.*&lt;A 362 D. V K. APRIL. MAMERTINO ET NEVITTA CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7777-Dd1e137">
+               <head xml:id="azsw2e-d1e7777-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e7777-d1e141">
+                  <ref xml:id="azsw2e-d1e7777-Rd1e143">Imperatores
+            Valentinianus, Valens</ref>  Placuit, ut emphyteuticorum fundorum patrimonialiumque
+            possessores, quo voluerint tempore et quantum habuerint pensionis
+            paratum ( dummodo non amplius quam in tribus per singulos annos vicibus)
+            officio rationalis adsignent ac de suscepto ab eodem securitatem eodem
+            die pro more percipiant, modo ut intra ianuariarum iduum diem omnis
+            summa ratiociniis publicis inferatur: gravissimae poenae subdendo
+            officio, si cuiquam quolibet anni tempore ( dummodo nequaquam numerum
+            trinae illationis excedat) solutionem facere gestienti negaverit susceptionis
+            officium, vel si moram fecerit in chirographo securitatis edendo.
+            </p>
+               <p xml:id="azsw2e-d1e7777-d1e146" n="1">
+            Super quo possessores apud curatores vel magistratus aut
+            quicumque in locis fuerint, qui conficiendorum actorum habeant potestatem,
+            conveniet contestari, ut et de officii insolentia constet, in quod
+            exercenda vindicta est, et his possit esse consultum.* VALENTIN. ET
+            VALENS AA. AD GERMANIANUM COM. SACR. LARG. *&lt;A 366&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7777-Dd1e150">
+               <head xml:id="azsw2e-d1e7777-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e7777-d1e154">
+                  <ref xml:id="azsw2e-d1e7777-Rd1e156">Imperatores
+            Arcadius, Honorius</ref>  Per omnes provincias patrimonialium fundorum
+            ab ordinariis iudicibus canon exigatur, et quidquid exactum fuerit,
+            dirigatur. </p>
+               <p xml:id="azsw2e-d1e7777-d1e159" n="1">
+            Sciant vero memorati iudices nihil sibi ex privatae rei canone
+            vel ex eo, quod ex isdem titulis contigerit, ad necessitates alias
+            transferendum, nisi malint gravissima severitate eorum licentiam coerceri.
+            * ARCAD. ET HONOR. AA. MESSALAE PP. *&lt;A 399 D. XVI K. IUN. MEDIOLANI
+            THEODORO CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

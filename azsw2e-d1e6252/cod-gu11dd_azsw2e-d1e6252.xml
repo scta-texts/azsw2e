@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 6</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 6</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6252"><!-- azsw2e-l10t6 -->
+            <head xml:id="azsw2e-d1e6252-Hd1e101">Titulus 6</head>
+            <head xml:id="azsw2e-d1e6252-Hd1e103" type="question-title">De his qui ex publicis rationibus mutuam pecuniam acceperunt</head>
+            <div xml:id="azsw2e-d1e6252-Dd1e106">
+               <head xml:id="azsw2e-d1e6252-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6252-d1e110">
+                  <ref xml:id="azsw2e-d1e6252-Rd1e112">Imperatores
+            Valentinianus, Valens</ref> Si quis ab exactoribus tabulariis arcariis
+            officiisve rationum fenebrem pecuniam sumpserit, detectus in eodem
+            ad quadrupli poenam ex hac auctoritate teneatur. * VALENTIN. ET VALENS
+            AA. AD PROBUM PP. *&lt;A 368 VEL 370 D.IIII ID.MART.TREVIRIS VALENTINIANO
+            ET VALENTE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6252-Dd1e116">
+               <head xml:id="azsw2e-d1e6252-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6252-d1e120">
+                  <ref xml:id="azsw2e-d1e6252-Rd1e122">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Sciant omnes accipiendi
+            mutuo ex largitionibus sacris auri non patere cuiquam facultatem.
+            </p>
+               <p xml:id="azsw2e-d1e6252-d1e125" n="1">
+            Quod si quis aurum ex nostro aerario privatis commodis profuturum
+            occulte aut cautionis aut sponsionis fide ut debitor redditurus sine
+            nostra auctoritate acceperit, ablatis bonis omnibus perpetuae deportationis
+            subdetur exilio. </p>
+               <p xml:id="azsw2e-d1e6252-d1e128" n="2">
+            Is etiam, qui ex memoratis thesauris sub specie publici creditoris
+            aurum cuiquam commodarit ac dederit, capitali sententia subiugetur.
+            * GRAT. VALENTIN. ET THEODOS. AAA. PALLADIO COM. SACR. LARG. *&lt;A
+            381 D.XII K.AUG.HERACLEAE EUCHERIO ET SYAGRIO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

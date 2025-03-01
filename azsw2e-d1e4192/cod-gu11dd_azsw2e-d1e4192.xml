@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 7</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 7</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4192"><!-- azsw2e-l7t7 -->
+            <head xml:id="azsw2e-d1e4192-Hd1e101">Titulus 7</head>
+            <head xml:id="azsw2e-d1e4192-Hd1e103" type="question-title">De servo communi manumisso</head>
+            <div xml:id="azsw2e-d1e4192-Dd1e106">
+               <head xml:id="azsw2e-d1e4192-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4192-d1e110">
+                  <ref xml:id="azsw2e-d1e4192-Rd1e112">Imperator
+            Justinianus</ref>  In communes servos eorumque libertatem et quando
+            cuidam domino pars libertatem imponentis adcrescit nec ne, et maxime
+            inter milites, qui huiusmodi imponunt libertatem, multa ambiguitas
+            exorta est apud veteres iuris auctores. </p>
+               <p xml:id="azsw2e-d1e4192-d1e115" n="1">
+            Et inventa est constitutio apud Marcianum in institutionibus
+            divi severi, per quam idem imperator disposuit necessitatem imponi
+            heredi militis comparare partem socii et servum libertate donare.
+            </p>
+               <p xml:id="azsw2e-d1e4192-d1e118"> 
+            Sed et alia constitutio Severi et Antonini principum reperta
+            est, ex qua generaliter necessitas imponebatur socio partem suam socio
+            vendere, quatenus libertas servo imponatur, licet nihil lucri ex substantia
+            socii morientis alii socio accedat, pretio videlicet arbitrio praetoris
+            constituendo, secundum ea, quae et Ulpianus libro sexto fideicommissorum
+            et Paulus libro tertio fideicommissorum refert, ubi et hoc relatum
+            est, quod Sextus Caecilius iuris antiqui conditor definivit socium
+            per praetorem compelli suam partem vendere, quatenus liber servus
+            efficiatur: quod et Marcellus apud Iulianum in eius digestis notat:
+            hocque et Marcellum, cum Iulianum notaret, rettulisse palam est. </p>
+               <p xml:id="azsw2e-d1e4192-d1e120"> 
+            His itaque apud veteres iuris auctores inventis decidentes
+            tales altercationes generaliter sancimus, ut nulla inducatur differentia
+            militis seu privati in servis communibus, sed in omnibus communibus
+            famulis, sive inter vivos sive in ultima dispositione libertatem quis
+            legitimam imponere communi servo voluerit, hoc faciat, necessitatem
+            habente socio vendere partem suam, quantam in servo possidet, sive
+            dimidiam sive tertiam sive quantamcunque, et si plures sint socii,
+            uno ex his libertatem imponere cupiente alios omnes necessitatem habere
+            partes suas, quas in servo possident, vendere ipsi, qui libertatem
+            servo imponere desiderat, vel heredi eius ( licet ipse communis servus
+            institutus sit), si hoc moriturus dixerit, ita tamen, ut omnimodo
+            ipse qui partes alias comparavit vel heredes ei us libertatem imponant.
+            </p>
+               <p xml:id="azsw2e-d1e4192-d1e123" n="2">
+            Sin autem socius vel socii recusaverint pretium accipere,
+            licentiam ei damus offerre hoc per publicas personas et sigillo impresso
+            in aedem sacram deponere et sic habere facultatem servum libertate
+            donare et eum habere plenissimam libertatem et civitate Romana perfrui
+            et nullum timere ex sociis. Sibi etenim imputent, si, cum liceret
+            lucrari pretium, hoc accipere differunt </p>
+               <p xml:id="azsw2e-d1e4192-d1e126" n="3">
+            Sed ne circa peculium servi aliqua fuerit dubitatio, peculium
+            eius in omnes socios pertinere iubemus ex partibus, pro quibus quisque
+            et dominium servi possidet : licentia concedenda ei, qui libertatem
+            moriens imponit, etiam eius peculium quod ei attingit liberto concedere.
+            Iura autem patronatus procul dubio pro suo ordine ad eum venire qui
+            libertatem donavit </p>
+               <p xml:id="azsw2e-d1e4192-d1e129" n="4">
+            Sin autem servus ratiociniis suppositus sit, ne ratiocinia
+            pereant vel libertas impediatur, praesidem provinciae vel competentem
+            iudicem tempus statuere, intra quod debet ratiociniis ante factis
+            et debitis, quae ex his apparuerit, redditis ita ad libertatem venire.
+            </p>
+               <p xml:id="azsw2e-d1e4192-d1e132" n="5">
+            Ne autem quantitas servilis pretii sit incerta, sed manifesta,
+            sancimus servi pretium sive ancillae, si nulla arte sunt imbuti, viginti
+            solidis taxari, his videlicet, qui usque ad decimum annum suae venerunt
+            aetatis, in decem tantummodo solidis ponendis: sin autem aliqua arte
+            praediti sunt exceptis notariis et medicis, usque ad triginta solidos
+            pretium eorum redigi sive in masculis sive in feminis. </p>
+               <p xml:id="azsw2e-d1e4192-d1e135"> 
+            Sin autem notarius sit vel medicus sive masculus sive femina,
+            notarius quidem usque ad quinquaginta, medicus autem usque ad sexaginta
+            taxetur. </p>
+               <p xml:id="azsw2e-d1e4192-d1e137"> 
+            Sin vero eunuchi sint servi communes maiores decem annis,
+            si quidem sine arte sint, in quinquaginta solidos computentur, sin
+            autem artifices, usque ad septuaginta: minores etenim decem annis
+            eunuchos non amplius triginta solidis aestimari volumus. </p>
+               <p xml:id="azsw2e-d1e4192-d1e140"> 
+            Et eorum partem competentem socii accipientes libertatem
+            eis per competentes iudices imponere compellentur. </p>
+               <p xml:id="azsw2e-d1e4192-d1e142" n="6">
+            Sin autem, uno ex sociis libertatem sive imponere sive relinquere
+            servo cupiente et pretium dante alter vel alteri ex his ipsi velle
+            dixerint libertatem imponere et pretium dare, melior quidem causa
+            erit eius, qui primus ad hanc rationem pietatis perveniet. </p>
+               <p xml:id="azsw2e-d1e4192-d1e145"> 
+            Si tamen sub obtentu libertatis et ipsi ad haec prosiluerint,
+            tunc iudicem competentem omnes compellere sine pretio ei libertatem
+            imponere: peculio quidem in omnes secundum partem dominii distribuendo,
+            iura autem patronatus secundum sui naturam omnibus qui libertatem
+            imposuerunt aequaliter habentibus. </p>
+               <p xml:id="azsw2e-d1e4192-d1e147" n="7">
+            Ius enim adcrescendi, quod antiqua iura in communibus servis
+            manumittendis introducebant, nullius esse momenti nec in posterum
+            frequentari penitus concedimus. * IUST. A. IULIANO
+            PP. *&lt;A 530 D. K. AUG. LAMPADIO ET ORESTE VV. CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4192-Dd1e151">
+               <head xml:id="azsw2e-d1e4192-Hd1e153">2</head>
+               <p xml:id="azsw2e-d1e4192-d1e155">
+                  <ref xml:id="azsw2e-d1e4192-Rd1e157">Imperator
+            Justinianus</ref>  Cum apud omnes iuris peritos
+            hoc placitum est, ut servus communis apud unumquemque dominum partim
+            sit proprius partim alienus, ut ex hac causa possit et ipse legato
+            honorari et ipse legari, huiusmodi incidit quaestio. </p>
+               <p xml:id="azsw2e-d1e4192-d1e160" n="1">
+            Duo vel plures domini communem servum habebant, sed unus
+            ex his ipsi servo suam partem quam in eo habebat legavit. Et
+            semel accepta dubitationis occasione hoc vetustas in magnum extollit
+            certamen </p>
+               <p xml:id="azsw2e-d1e4192-d1e163" n="2">
+            Cum igitur nos sensum huiusmodi legati crebra indagatione
+            adgredientes duplicem esse eum opinamur: aut enim putavit testator
+            liberum fieri posse ex parte servum, qui huiusmodi legatum ei reliquit,
+            aut, si hoc minime cogitavit, adfectu socii fecit, ut ei adquiratur,
+            heredes autem suos eundem servum possidere minime voluit, ut sit manifestum
+            a suo patrimonio penitus esse eum alienatum: in tali itaque comparatione
+            nos, qui fautores libertatis sumus, sic ambiguam testatoris interpretamur
+            voluntatem, tamquam si voluit eum libertate in suam partem donare.
+            </p>
+               <p xml:id="azsw2e-d1e4192-d1e166" n="3">
+            Et cum iam de communibus servis manumittendis statuimus,
+            quid in huiusmodi casibus fieri oportet, ex illius sanctionis tenore
+            et huiusmodi species sit definita. Fiat itaque liber, ex parte quidem
+            testatoris secundum eius voluntatem, ex altera autem parte ex nostra
+            definitione, pretio secundum praedictae constitutionis tenorem vel
+            sociis ab herede praestando vel, si accipere noluerint, tam offerendo
+            quam signando et periculo eorum deponendo, cum sat abundeque imperiale
+            est humaniorem sententiam pro durioribus sequi * IUST. A. IULIANO
+            PP. *&lt;A 530 D. CONSTANTINOPOLI XV K. DEC. LAMPADIO ET ORESTE VV.
+            CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

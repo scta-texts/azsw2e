@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 35</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 35</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8320"><!-- azsw2e-l12t35 -->
+            <head xml:id="azsw2e-d1e8320-Hd1e101">Titulus 35</head>
+            <head xml:id="azsw2e-d1e8320-Hd1e103" type="question-title">De re militari</head>
+            <div xml:id="azsw2e-d1e8320-Dd1e106">
+               <head xml:id="azsw2e-d1e8320-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8320-d1e110">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e112">Imperator
+            Antoninus</ref> Stipendia et donativa temporis, quo apud hostes fuisse
+            te dicis, restitui tibi postliminio regresso restitutoque non iure
+            desideras. * ANT. A. ANNAEO MIL. *&lt;A X&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e116">
+               <head xml:id="azsw2e-d1e8320-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e8320-d1e120">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e122">Imperator
+            Antoninus</ref> Viginti stipendia si implestis, sordida munera militiae
+            vobis non indicentur. * ANT. A. MIL. COHORTIS PRIMAE. *&lt;A XXX &gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e126">
+               <head xml:id="azsw2e-d1e8320-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e8320-d1e130">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e132">Imperator
+            Antoninus</ref> Milites ignominia missi, cum infamia notantur, nullis
+            honoribus, qui integrae dignitatis hominibus deferri solent, uti possunt.
+            Habeant autem morandi ubi velint potestatem, praeterquam in eis locis,
+            quibus specialiter arcentur * ANT. A. IULIANO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e137">
+               <head xml:id="azsw2e-d1e8320-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e8320-d1e141">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e143">Imperator
+            Alexander Severus</ref> Defunctorum in desertione bona confiscari
+            divus Marcus et Antoninus pater meus constituit. * ALEX. A. ATTICO.
+            *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e147">
+               <head xml:id="azsw2e-d1e8320-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e8320-d1e151">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e153">Imperator
+            Gordianus</ref>  Cum adlegatis septem annos in desertione egisse maritum
+            sororis vestrae et indulgentia nostra esse restitutum, non recte desideratis,
+            ut id tempus, ac si in castris fuerit, habeatur. </p>
+               <p xml:id="azsw2e-d1e8320-d1e156" n="1">
+            Proinde excepto eo tempore, quod ad desertores pertinet,
+            restitutus nostra indulgentia residuo militare debebit: ideoque nec
+            stipendia temporis, quo in desertione fuerit, exigere poterit. * GORD.
+            A. VALENTINO ET ALIIS MIL. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e160">
+               <head xml:id="azsw2e-d1e8320-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e8320-d1e164">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e166">Imperator
+            Gordianus</ref> Semel causaria missis militibus instauratio non solet
+            concedi obtentu recuperatae valitudinis melioris, quando non temere
+            dimittantur, nisi quos constet medicis denuntiantibus et iudice competente
+            diligenter etiam investigante vitium contraxisse. * GORD. A. BRUTO
+            MIL. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e170">
+               <head xml:id="azsw2e-d1e8320-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e8320-d1e174">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e176">Imperator
+            Gordianus</ref> Frustra vereris, ne nota, quae propter delictum militare
+            intercessit, existimationem tuam iam veterani laesisse videatur, maxime
+            cum nec ex eo delicto, quod et in paganorum potest cadere personam,
+            notatos milites post missionem placuerit esse famosos. * GORD. A.
+            DOMNO VETERANO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e180">
+               <head xml:id="azsw2e-d1e8320-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e8320-d1e184">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e186">Imperator
+            Philippus</ref> Causaria missus nulla existimationis macula adspergitur.
+            * PHILIPP. A. ET PHILIPP. C. MACCIO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e190">
+               <head xml:id="azsw2e-d1e8320-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e8320-d1e194">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e196">Imperator
+            Constantinus</ref> Si quis barbaris scelerata factione facultatem
+            depraedationis in romanos dederit, vel si quis alio modo factam diviserit,
+            vivus amburatur. * CONST. A. ET C. AELIO PP. *&lt;A 323 D. IIII K.
+            MAI. SEVERO ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e201">
+               <head xml:id="azsw2e-d1e8320-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e8320-d1e205">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e207">Imperator
+            constans</ref> Quicumque militum ex nostra auctoritate familias suas
+            ad se venire meruerint, non amplius quam coniugia liberos, servos
+            etiam de peculio castrensi emptos neque adscriptos censibus ad eosdem
+            excellentia tua dirigi faciat. * CONSTANS A. TITIANO PP. *&lt;A 349
+            D. III K. IUN. LIMENIO ET CATULLINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e211">
+               <head xml:id="azsw2e-d1e8320-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e8320-d1e215">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e217">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Tribuni vel milites nullam
+            evagandi per possessiones habeant facultatem: cum signis propriis
+            in mansionibus solitis ac publicis maneant: aut si quis tam necessaria
+            scita contempserit, de eo ac tribuno eius ad nostram scientiam rectorum
+            ac defensorum relationibus protinus referatur, quatenus severissime
+            in eos animadvertatur. * GRAT. VALENTIN. ET THEODOS. AAA. CYNEGIO
+            PP. *&lt;A 384 D. IIII ID. APRIL. CONSTANTINOPOLI RICOMERE ET CLEARCHO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e221">
+               <head xml:id="azsw2e-d1e8320-Hd1e223">12</head>
+               <p xml:id="azsw2e-d1e8320-d1e225">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e227">Imperatores
+            Theodosius, Arcadius, Honorius</ref> Cum supra virentes fluminum ripas
+            omnis legionum multitudo consistit, id provida auctoritate decernimus,
+            ut nullus omnino immundo fimo sorditatis fluentis commune poculum
+            polluat, neve abluendo equorum sudore deproperus publicos oculos nudatus
+            incestet, sed procul a cunctorum obtutibus in inferioribus partibus
+            fluviorum hoc ipsum faciat. * THEODOS. ARCAD. ET HONOR. AAA. RICOMERI
+            COM. ET MAG. UTR. MIL.*&lt;A 391 D. VI K. IUN. VINCENTIAE TATIANO
+            ET SYMMACHO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e231">
+               <head xml:id="azsw2e-d1e8320-Hd1e233">13</head>
+               <p xml:id="azsw2e-d1e8320-d1e235">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e237">Imperatores
+            Arcadius, Honorius</ref>  Nemo miles ex his, qui praesentes divino
+            obsequio nostrae clementiae deputati sunt et qui in hac esse urbe
+            praesente comitatu concessi sunt quive de aliis numeris vel legionibus
+            sunt, vel sibi vacet vel aliena obsequia sine nutu principali peragere
+            audeat. Qui autem in huiusmodi facinore fuerint convicti, militia
+            exuti poenas consentaneas luere compellantur: ii autem, qui in privato
+            obsequio militem retinere fuerint reperti, quinque libris auri multae
+            nomine feriantur. </p>
+               <p xml:id="azsw2e-d1e8320-d1e240" n="1">
+            Sin vero quisquam missus a numero vel a tribuno ad comitatum
+            serenitatis nostrae pervenerit ( aliter enim eos hoc facere vetamus),
+            ilico se viris illustribus comitibus, sub quorum regimine constituti
+            sunt, offerre festinet et causas profectionis exponat, ut et responsum
+            caeleste mereatur et citam remeandi accipiat facultatem. </p>
+               <p xml:id="azsw2e-d1e8320-d1e243" n="2">
+            Si quos autem milites per provincias relictis propriis numeris
+            passim vagari praesides earum cognoverint, correptos faciant custodiri,
+            donec de his clementiae nostrae auribus intimetur et, quid fieri oporteat,
+            decernamus. * ARCAD. ET HONOR. AA. ROMULIANO PU. *&lt;A 398
+            D. K. FEBR. CONSTANTINOPOLI HONORIO A. IIII ET EUTYCHIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e247">
+               <head xml:id="azsw2e-d1e8320-Hd1e249">14</head>
+               <p xml:id="azsw2e-d1e8320-d1e251">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e253">Imperatores
+            Arcadius, Honorius</ref>  Contra publicam utilitatem nolumus a numeris
+            ad alios numeros milites nostros transferri. Sciant igitur comites
+            vel duces, quibus regendae militiae cura commissa est, non solum de
+            comitatensibus ac palatinis numeris ad alios numeros milites transferri
+            non licere, sed ne ipsis quidem seu de comitatensibus legionibus seu
+            de riparensibus castricianis ceterisque cuiquam eorum transferendi
+            militem copiam attributam, nisi hoc Augusta maiestas publicae utilitatis
+            gratia fieri iusserit: quia honoris augmentum non ambitione, sed labore
+            ad unumquemque convenit devenire. </p>
+               <p xml:id="azsw2e-d1e8320-d1e256" n="1">
+            Quod si contra fecerint, per singulos milites singulas auri
+            libras a se noverint exigendas. * ARCAD. ET HONOR. AA. STILICHONI
+            MAG. MIL. *&lt;A 400 D.XIIII K.APRIL.MEDIOLANI STILICHONE ET AURELIANO
+            CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e260">
+               <head xml:id="azsw2e-d1e8320-Hd1e262">15</head>
+               <p xml:id="azsw2e-d1e8320-d1e264">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e266">Imperator
+            Leo</ref>  Milites, qui a re publica armantur et aluntur, solis debent
+            publicis utilitatibus occupari nec agrorum cultui et custodiae animalium
+            vel mercimoniorum quaestui, sed propriae muniis insudare militiae.
+            </p>
+               <p xml:id="azsw2e-d1e8320-d1e269" n="1">
+            Nullam praeterea ex militibus posthac praedictis obsequiis
+            vacare magnitudo tua patiatur, sed frequentes esse in numero suo iubeat,
+            ut armorum quotidiano exercitio ad bella se praeparent.</p>
+               <p xml:id="azsw2e-d1e8320-d1e272" n="2">
+            Quod si quis ex militaribus iudicibus ullos militum tam divinis
+            quam regiis vel privatis domibus ac possessionibus diversisque aliis
+            obsequiis contra interdictum serenitatis nostrae crediderit deputandos,
+            sciat ab eo, qui contra vetitum fecerit, et ab eo, qui ausus accipere
+            militem fuerit, per singulos milites singulas libras auri protinus
+            exigendas. * LEO A. ASPARI MAG. MIL. *&lt;A 458 D.PRID.NON.IUL.CONSTANTINOPOLI
+            LEONE A.CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e277">
+               <head xml:id="azsw2e-d1e8320-Hd1e279">16</head>
+               <p xml:id="azsw2e-d1e8320-d1e281">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e283">Imperator
+            Leo</ref> Militares viros civiles curas adripere prohibemus, aut si
+            aliquam huiusmodi sollicitudinem forte susceperint, et militia statim
+            et privilegiis omnibus denudari decernimus: formidantibus his motum
+            nostrae serenitatis, qui temeritate saluberrimis statutis obviam ire
+            temptaverint. * LEO A. DIOSCORO PP. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e287">
+               <head xml:id="azsw2e-d1e8320-Hd1e289">17</head>
+               <p xml:id="azsw2e-d1e8320-d1e291">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e293">Imperator
+            Zeno</ref>  Neminem in ullo numero equitum vel peditum vel in quolibet
+            limite sine nostri numinis sacra probatoria in posterum sociari concedimus,
+            consuetudine quae hactenus tenuit antiquata, quae magisteriae potestati
+            vel ducibus probatorias militum facere vel militibus adiungere licentiam
+            tribuebat, ut ii tantum in numeris vel in limitibus militent, qui
+            a nostra divinitate probatorias consequuntur. </p>
+               <p xml:id="azsw2e-d1e8320-d1e296" n="1">
+            Viros autem eminentissimos pro tempore magistros militum
+            nec non etiam viros spectabiles duces, si supplere numeros pro his
+            qui fatalibus sortibus decrescent necessarium esse putaverint, veritate
+            discussa per suggestionem suam nostrae mansuetudini declarare, qui
+            et quanti et in quo numero vel limite debeant subrogari, ut ita demum,
+            prout nostrae sederit maiestati, divina subnotatione subnixi militiam
+            sortiantur; officio, quod tuae sublimitatis actibus obsecundat, centum
+            librarum auri dispendio feriendo, si ex aliqua parte, quae statuit
+            nostra serenitas, fuerint violata. * ZENO A. MARCIANO MAG. MIL. *&lt;A
+            472? &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8320-Dd1e300">
+               <head xml:id="azsw2e-d1e8320-Hd1e302">18</head>
+               <p xml:id="azsw2e-d1e8320-d1e304">
+                  <ref xml:id="azsw2e-d1e8320-Rd1e306">Imperator
+            Anastasius</ref>  Tam collatores et provinciales quam fortissimos milites
+            prout oportet gubernari minimeque laesionem aliquam seu dispendium
+            perpeti properantes necessarium esse perspeximus dicatissimos milites,
+            qui de diversis praesentalibus numeris per Orientis partes noscuntur
+            consistere, virorum spectabilium ducum iussionibus oboedire, ut, quidquid
+            emerserit, quod pro communi securitate curandum est, hoc protinus
+            utpote militari praesidio in proximis locis constituto competens possit
+            mereri remedium: ita videlicet, ut etiam agentibus causas tam criminaliter
+            quam civiliter praefati milites iam non apud magnificam magisteriam
+            per orientem potestatem vel ex sententiis seu praeceptionibus eius,
+            sed per interlocutiones seu dispositiones tam excelsae tuae sedis,
+            sub cuius iurisdictione consistunt, quam eorundem ducum respondeant.
+            </p>
+               <p xml:id="azsw2e-d1e8320-d1e309" n="1">
+            Eo scilicet observando, ut ad responsum, qui de officio tuae
+            sublimitatis huc usque ad praedictam magisteriam per orientem potestatem
+            moris erat destinari, viris spectabilibus ducibus inhaesurus mittatur
+            tam per se quam per adiutores suos eosdem iudices observare et iussiones
+            eorum implere curaturus: licentia ei non deneganda, etiam ad responsum,
+            qui de officio alterius viri excelsi magistri militum praesentalis
+            pro hac nostra dispositione destinatur, in locis, in quibus apparitionis
+            tuae sublimitatis ad responsum non contigerit reperiri, suam sollicitudinem
+            pro emergentibus maxime causis peragere. </p>
+               <p xml:id="azsw2e-d1e8320-d1e312"> 
+            Cuius etiam illi qui de altero officio mittendus est praebemus
+            facultatem, ut non tantum per adiutores suos, id est ad responsum,
+            sed etiam invicem se adiuvando nec publicis nec privatis causis vel
+            exsecutionibus abesse videantur. </p>
+               <p xml:id="azsw2e-d1e8320-d1e314"> 
+            Ad singulos etenim duces ad responsum de apparitionibus vestris
+            non prospeximus oportere destinari, ne per multitudinem eorum qualibet
+            machinatione damna contra milites nostros augeri contingat. </p>
+               <p xml:id="azsw2e-d1e8320-d1e317" n="2">
+            Ut autem omnifariam tam publicae commoditati quam fortissimis
+            prospiciatur militibus, sportularum nihilo minus exactionem merito
+            censuimus moderandam. Et iubemus nec ipsis ad responsum nec adiutoribus
+            eorum pro criminalibus seu civilibus causis, etsi ex publicis causis
+            descendere vel ad publicam causam pertinere dicantur, licere aliquid
+            plus quam unum solidum a singulis vel nolentibus vel spontanea voluntate
+            offerentibus suscipere militibus, ita ut, si universitas numeri seu
+            principiorum monenda sit, duplicata quantitate tantummodo sportulas
+            accipiant: in his etenim causis nec plures quam duos primates, quorum
+            nomina semel ac primum gestis intervenientibus fuerint publicata,
+            patimur conveniri, syndico videlicet, prout consuetudo deposcit legibusque
+            cautum est, ordinando .</p>
+               <p xml:id="azsw2e-d1e8320-d1e320"> 
+            Hoc quoque adiecto, ut pro omnibus quibuslibet expensis ingressus
+            in iudicio duciano faciendi unum tantum solidum nihilque amplius milites
+            vel syndici litigantes dependere compellantur, ut huiusmodi solacium
+            ad commodum ad responsum et eius adiutorum et exceptorum proficiat:
+            nihil sibi usurpare vel suo nomine poscere vel viris devotis principibus,
+            qui ducianum observant iudicium, vel duciana apparitione de praefatis
+            litibus concedendis: ita videlicet, ut super litis expensis in personis
+            etiam eorum, quicumque milites pulsare maluerint, eadem forma servetur.
+            </p>
+               <p xml:id="azsw2e-d1e8320-d1e322" n="3">
+            Erit autem arbitrii atque aestimationis virorum spectabilium
+            ducum pro qualitate negotiorum vel quantitate, quae devotissimis militibus
+            ab adversariis eorum ingeritur, vel suam audientiam interponere litigiis
+            vel eorum discussionem dicatissimis principiis seu arbitris in locis
+            degentibus committere. </p>
+               <p xml:id="azsw2e-d1e8320-d1e325" n="4">
+            Quibus viris spectabilibus ducibus et eos observantibus ad
+            responsum seu adiutoribus eorum curae sit, si quando ad eosdem duces
+            milites fuerint arcessiti vel de locis in quibus constituti sunt movere
+            praecepti, ne quolibet modo curiales seu collatores quibusdam adficiantur
+            dispendiis, ita scilicet, ut pro militibus inspiciendis, quandocumque
+            voluerint viri spectabiles duces etiam praesentales devotissimos milites
+            adhibere, non immodicam multitudinem eorum tempore pacis convocare
+            procurent. </p>
+               <p xml:id="azsw2e-d1e8320-d1e328" n="5">
+            Sin vero etiam necessitate poscente milites ad alia perveniant
+            loca, laesionibus contra curiales seu collatores nihilo minus modis
+            omnibus abstineant. </p>
+               <p xml:id="azsw2e-d1e8320-d1e331"> 
+            Et si tam eundo quam redeundo triginta tantum dies oportet
+            eos proficisci, ipsi suas expensas sibi praebendas collatoribus seu
+            curialibus minime praegravandis suscipere non cessent: sin autem ulteriore
+            tempore in aliis locis necesse sit eos commorari, expensas eis ulterioris
+            ut dictum est temporis, ad quae pervenerint loca, ministrari. </p>
+               <p xml:id="azsw2e-d1e8320-d1e334" n="6">
+            Quoniam vero comperimus quosdam temerario atque iniquo proposito
+            anteriore tempore certos e memoratis militibus tam in iudicio sublimitatis
+            tuae quam apud excelsam magisteriam per orientem potestatem in accusationem
+            deduxisse et eos eodem tempore ad diversa quoque protraxisse iudicia
+            diversasque super isdem personis isdemque causis et negotiis prolatas
+            fuisse sententias, ne postea nihilo minus tantae contra milites nostros
+            insidiae tantaque confusio querellis, quas eis ingeri contingit, generetur,
+            nemini licere apud sedem magnitudinis tuae accusatione contra militem
+            seu milites praesentales deposita conventioneque oblata eundem vel
+            eosdem milites criminaliter seu civiliter per iussionem virorum spectabilium
+            ducum inquietare, antequam negotium ex priore actione prioreque conventione
+            finem legitimum sortiatur. </p>
+               <p xml:id="azsw2e-d1e8320-d1e337"> 
+            Idemque versa vice observari, ut, si quidam miles seu milites
+            praesentales iussione viri spectabilis ducis incusati ac moniti fuerint,
+            licentia denegetur agenti postulationem seu accusationem in iudicio
+            tuae sublimitatis contra eundem militem vel eosdem milites deponere.
+            </p>
+               <p xml:id="azsw2e-d1e8320-d1e339"> 
+            Nec si eundem vel eosdem tam criminaliter quam civiliter
+            obnoxios esse firmaverit, facultatem eidem agenti superesse separatis
+            intentionibus suis pro criminalibus quidem iudicium tuae celsitudinis,
+            pro civilibus autem viri spectabilis ducis seu versa vice occupare.
+            </p>
+               <p xml:id="azsw2e-d1e8320-d1e341" n="7">
+            Si quis vero ad huiusmodi tam audacissimum tamque aequitati
+            contrarium conamen prosiluerit, eum pro pecuniariis quidem negotiis
+            iactura litis et damnorum quae vitio eius contigerunt solutione percelli,
+            pro criminalibus autem quasi calumniatorem convictum legum aculeos
+            sentire. </p>
+               <p xml:id="azsw2e-d1e8320-d1e344" n="8">
+            Dispositiones autem ante latas non ad imminuendam potestatem
+            magisteriae per orientem administrationis, sed pro tuitione locorum
+            ac securitate publica noscimur praestitisse, cum non dubium sit ipsos
+            etiam duces, quibus fortissimi praesentales milites parare praecepti
+            sunt, sub eadem excelsa potestate esse constitutos. * ANASTAS. A.
+            IOHANNI MAG. MIL. PRAESENTALIUM. *&lt;A 492 D. K. IAN. CONSTANTINOPOLI
+            ANASTASIO A. ET RUFO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

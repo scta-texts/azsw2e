@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 48</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 48</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6710"><!-- azsw2e-l10t48 -->
+            <head xml:id="azsw2e-d1e6710-Hd1e101">Titulus 48</head>
+            <head xml:id="azsw2e-d1e6710-Hd1e103" type="question-title">De excusationibus munerum</head>
+            <div xml:id="azsw2e-d1e6710-Dd1e106">
+               <head xml:id="azsw2e-d1e6710-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6710-d1e110">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e112">Imperatores
+            Carus, Carinus, Numerianus</ref> Etiam ii, qui nostra procurasse monstrantur,
+            muneribus civilibus quae dignitati eorum congruunt fungi debent. *
+            CARUS CARINUS ET NUMER. AAA. DEMETRIO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e116">
+               <head xml:id="azsw2e-d1e6710-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6710-d1e120">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> Certis dignitatibus data a nobis indulgentia
+            est munerum civilium et personalium, id est his, qui aut ex protectoribus
+            sunt aut ex praepositis. Ii ergo ad munera personalia aut civilia
+            non vocabuntur * DIOCL. ET MAXIM. AA. PARS ID. FEBR.. IND. FIRMINO
+            ET APOLLINARIO ET CET. PRINCIPAL. ANTIOCHENSIUM ADSTANTIBUS SABINUS
+            DIXIT:... DIOCL.:*&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e126">
+               <head xml:id="azsw2e-d1e6710-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e6710-d1e130">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Tutelae sollicitudo a muneribus civilibus
+            non excusat, utpote nec tres simul iniunctae diversarum domuum eiusmodi
+            beneficium praestent. * DIOCL. ET MAXIM. AA. MARINO. *&lt;A XXX &gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e137">
+               <head xml:id="azsw2e-d1e6710-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e6710-d1e141">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Hydraulae munerum civilium immunitatem
+            sibi iure concessam probare minime possunt. * DIOCL. ET MAXIM. AA.
+            ATTALO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e147">
+               <head xml:id="azsw2e-d1e6710-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e6710-d1e151">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Procuratores absentium rei publicae
+            causa munerum civilium vacationem non habent. * DIOCL. ET MAXIM. AA.
+            ET CC. MARCELLINO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e157">
+               <head xml:id="azsw2e-d1e6710-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e6710-d1e161">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Veneratoribus immunitas ab hanc professionem
+            solam nullo iure concessa probari potest. * DIOCL. ET MAXIM. AA. ET
+            CC. GAIO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e167">
+               <head xml:id="azsw2e-d1e6710-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e6710-d1e171">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e173">Imperator
+            Constantius</ref> Negotiantes vestiarios linteones purpurarios et
+            parthicarios, qui devotioni nostrae deserviunt, visum est secundum
+            veterem consuetudinem ab omni munere immunes esse. * CONSTANTIUS A.
+            AD CATULINUM VIC. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e177">
+               <head xml:id="azsw2e-d1e6710-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e6710-d1e181">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e183">Imperator
+            Constantius</ref>  Placet nullum omnino iudicem de cetero provincialibus
+            inferendum aliquid indicere, ut ea tantum sedulo cunctorum studio
+            pensitentur, quae canonis instituti forma complectitur vel nostra
+            clementia decernit inferenda vel delegatione sollemniter sanciente
+            vel epistulis praecedentibus. </p>
+               <p xml:id="azsw2e-d1e6710-d1e186" n="1">
+            Sed si quid urguere forsitan coeperit, referri ad celsitudinem
+            tuam statuimus et auctore te fieri et eo persoluto referri ad scientiam
+            nostram, ut nobis iubentibus roboretur. </p>
+               <p xml:id="azsw2e-d1e6710-d1e189" n="2">
+            Si quis autem usurpatoria temeritate amplius aliquid fuerit
+            conatus exigere, obnoxius quadrupli repetitione teneatur. </p>
+               <p xml:id="azsw2e-d1e6710-d1e192" n="3">
+            Quae severitas iussionis ad ordinariorum iudicum officiorumque
+            terrorem debebit excurrere, ut, si eorum vel gratiosa coniventia vel
+            ignobili dissimulatione temeritas admiserit curialis, eos quoque damni
+            simplicis poena castiget. * CONSTANTIUS A. AD TAURUM PP. *&lt;A 357
+            D. K. APRIL. MEDIOLANI CONSTANTIO A. VIIII ET IULIANO C. II CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e196">
+               <head xml:id="azsw2e-d1e6710-Hd1e198">9</head>
+               <p xml:id="azsw2e-d1e6710-d1e200">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e202">Imperatores
+            Valentinianus, Valens, Gratianus</ref> Illud convenit praecaveri,
+            ne quis hanc, quae personalis est functio, pretio putet esse taxandam.
+            * VALENTIN. VALENS ET GRAT. AAA. AD CLAUDIUM PROCONS. AFRICAE = *&lt;A
+            368 VEL 370 D. K. DEC. TRIVERIS VALENTINIANO ET VALENTE AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e207">
+               <head xml:id="azsw2e-d1e6710-Hd1e209">10</head>
+               <p xml:id="azsw2e-d1e6710-d1e211">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e213">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Privatae rei nostrae privilegiis
+            permanentibus nihil extra ordinem praedia iure perpetuo consignata
+            sustineant, neque adiectis saepius ac praeter primum delegationis
+            canonem postulatis adficiantur impendiis, quandoquidem neque aurario
+            canoni sub privilegiis aestimato aliquid ex ea iubentibus nobis praebitionum
+            diversitate decutitur, et pari cum ceteris aestimari sorte non convenit,
+            quos praeter annonarias functiones aestimata perpetuo pensitationum
+            praerogativa nexuerint. * GRAT. VALENTIN. ET THEODOS. AAA. AD HYPATIUM
+            PP. *&lt;A 382 PP. KARTHAGINE ID. APRIL. POST CONSULATUM SYAGRII ET
+            EUCHERII.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e217">
+               <head xml:id="azsw2e-d1e6710-Hd1e219">11</head>
+               <p xml:id="azsw2e-d1e6710-d1e221">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e223">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Eos, qui cum honore comitum
+            nomine magistrorum memoriae praefuerint vel epistulis vel libellis,
+            item eos, qui ibidem peragendis signandisque responsis nostrae mansuetudini
+            obsecundant, omnium civilium munerum fieri iubemus exsortes. </p>
+               <p xml:id="azsw2e-d1e6710-d1e226" n="1">
+            Igitur qui ex eo gradu palatio nostro abscesserint, adesse
+            sibi competentia privilegia glorientur: qui vero superioribus dignitatibus
+            creverint, nihilo minus huius loci privilegia praesto sibi fuisse
+            laetentur.* GRAT. ET VALENTIN. ET THEODOS. AAA. AD SYAGRIUM PP. *&lt;A
+            382 LECTA III K. SEPT. CAPUAE ANTONIO ET SYAGRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e230">
+               <head xml:id="azsw2e-d1e6710-Hd1e232">12</head>
+               <p xml:id="azsw2e-d1e6710-d1e234">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e236">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Maximarum culmina dignitatum,
+            consistoriani quoque comites, notarii etiam nostri et cubicularii
+            omnes atque ex cubiculariis ab omnibus sordidis muneribus vindicentur.
+            </p>
+               <p xml:id="azsw2e-d1e6710-d1e239" n="1">
+            Ceteros autem, palatina vel militari intra palatium praerogativa
+            munitos ita demum privilegium simile contineat, si prioribus statutis
+            se ad eiusmodi exceptionem docuerint pertinere, ut non singulis indulta
+            personis, sed in commune dignitati vel corpori huiusmodi beneficia
+            doceantur fuisse concessa: circa rhetores atque grammaticos eruditionis
+            utriusque vetusto more durante. </p>
+               <p xml:id="azsw2e-d1e6710-d1e242" n="2">
+            Sordidorum vero munerum talis exceptio sit, ut patrimoniis
+            dignitatum superius digestarum nec conficiendi pollinis cura mandetur
+            aut panis excoctio aut obsequium pistrini, nec paraveredorum huiusmodi
+            viris aut parangariarum praebitio mandetur, exceptis his, quibus ex
+            more raeticus limes includitur, vel expeditionis illyricae pro necessitate
+            vel tempore utilitas adiuvatur. </p>
+               <p xml:id="azsw2e-d1e6710-d1e245" n="3">
+            Operarum atque artificum diversorum, excoquendae etiam calcis
+            obsequia nulla de talibus adiumenta poscantur: materiam lignorum atque
+            tabulata exceptorum virorum patrimonia non praebeant: carbonis quoque
+            nisi eum, quem moneta sollemniter vel fabricatio secundum veterem
+            morem poscit armorum, ab huiusmodi viris praebitio desistat: publicis
+            vel sacris aedibus construendis atque reparandis, capituli atque temonis
+            necessitas nulla mandetur: legatis atque adlectis sumptus possessio
+            huiusmodi privilegiis munita non conferat. </p>
+               <p xml:id="azsw2e-d1e6710-d1e249" n="4">
+            Hoc tamen his patrimoniis prosit, quae dignitatem proprio
+            videntur nomine possidere. </p>
+               <p xml:id="azsw2e-d1e6710-d1e252" n="5">
+            Etiam eos, qui simili honore functi sunt, generali praerogativa
+            a praebitione sordidorum munerum vindicamus. * GRAT. VALENTIN. ET
+            THEODOS. AAA. AD HYPATIUM PP. *&lt;A 382 D. V ID. DEC. ANTONIO ET
+            SYAGRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e256">
+               <head xml:id="azsw2e-d1e6710-Hd1e258">13</head>
+               <p xml:id="azsw2e-d1e6710-d1e260">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e262">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Sordidorum munerum excusatio
+            delata personis ad heredem successoremve transire non potest. Neque
+            enim potest esse perpetuum, quod non rebus, sed personis contemplatione
+            dignitatis atque militiae indulsisse nos constat * GRAT. VALENTIN.
+            ET THEODOS. AAA. ET ARCAD. A. AD NEOTERIUM PP.*&lt;A 385 D. XVIII
+            K. MAI. MEDIOLANI ARCADIO A. ET BAUTONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e266">
+               <head xml:id="azsw2e-d1e6710-Hd1e268">14</head>
+               <p xml:id="azsw2e-d1e6710-d1e270">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e272">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Eam legem, quam de extraordinariis
+            sordidisque muneribus expressis vocabulis functionum et insignibus
+            dignitatum sine ulla ambage praescripsimus, ita circa eos , in quos
+            nostra munera redundarunt, servandam esse praecipimus, ut isdem beneficiis
+            non quamdiu militaverint, sed quamdiu vixerint perfruantur. * VALENTIN.
+            THEODOS. ET ARCAD. AAA. TATIANO PP. *&lt;A 391 D. XI K. APRIL. MEDIOLANI
+            TATIANO ET SYMMACHO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e276">
+               <head xml:id="azsw2e-d1e6710-Hd1e278">15</head>
+               <p xml:id="azsw2e-d1e6710-d1e280">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e282">Imperatores
+            Arcadius, Honorius</ref>  Evidenter atque absolute iubemus, ne fundi
+            ad patrimonium nostrum pertinentes, seu conductionis titulo seu perpetuo
+            iure teneantur, aliquid praeter ordinem superindicti vel pretii petiti
+            nomine vel de sordidis quibuscumque muneribus agnoscant. Nam hoc et
+            a divis principibus impetratum est et a nostra serenitate reparatum
+            </p>
+               <p xml:id="azsw2e-d1e6710-d1e285" n="1">
+            Quisquis igitur iudicum contra fecerit, quinque pondo auri
+            de facultatibus, alia de officiis suis, totidem et de facultatibus,
+            alia de officiis suis, totidem et de curialibus, qui exsequi male
+            iussa festinant, noverit eruenda. * ARCAD. ET HONOR. AA. AD MESSIANUM
+            COM. RER. PRIVAT. *&lt;A 395 D. XVII K. IUL. MEDIOLANI OLYBRIO ET
+            PROBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6710-Dd1e290">
+               <head xml:id="azsw2e-d1e6710-Hd1e292">16</head>
+               <p xml:id="azsw2e-d1e6710-d1e294">
+                  <ref xml:id="azsw2e-d1e6710-Rd1e296">Imperatores
+            Arcadius, Honorius</ref> Ab illustribus personis sordida munera et
+            extraordinariae necessitatis damna removemus. * ARCAD. ET HONOR. AA.
+            ET THEODOS. A. MELITIO PP. *&lt;A 412 D. XV K. MART. RAVENNAE HONORIO
+            VIIII ET THEODOSIO V AA. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

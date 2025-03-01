@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 24</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 24</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4382"><!-- azsw2e-l7t24 -->
+            <head xml:id="azsw2e-d1e4382-Hd1e101">Titulus 24</head>
+            <head xml:id="azsw2e-d1e4382-Hd1e103" type="question-title">De senatus consulto Claudiano tollendo</head>
+            <div xml:id="azsw2e-d1e4382-Dd1e106">
+               <head xml:id="azsw2e-d1e4382-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4382-d1e110">
+                  <ref xml:id="azsw2e-d1e4382-Rd1e112">Imperator
+            Justinianus</ref>  Cum in nostris temporibus, in quibus multos labores
+            pro libertate subiectorum sustinuimus, satis esse impium credidimus
+            quasdam mulieres libertate sua fraudari et, quod ab hostium ferocitate
+            contra naturalem libertatem inductum est, hoc a libidine nequissimorum
+            hominum inferri, claudianum senatus consultum et omnem eius observationem
+            circa denuntiationes et iudicium sententias conquiescere in posterum
+            volumus, ne, quae libera constituta est, vel semel decepta vel infelici
+            cupidine capta vel alio quocumque modo contra natalium suorum ingenuitatem
+            deducatur in servitutem et sit pessimum dedecus cognationis suae fulgori,
+            ut, quae forsitan decoratos dignitatibus habeat cognatos, haec in
+            alienum cadat dominium et dominum pertimescat forsitan cognatis suis
+            inferiorem. Quod et in libertis observari oportet: semel etenim libertate
+            potitam per tale dedecus in servitutem reduci religio temporum meorum
+            nullo patitur modo. </p>
+               <p xml:id="azsw2e-d1e4382-d1e115" n="1">
+            Sed ne servi vel adscripticii putent sibi impunitum esse
+            tale conamen, quod maxime in adscripticios verendum est, ne liberarum
+            mulierum nuptiis ab his excogitatis paulatim huiusmodi hominum condicio
+            decrescat, sancimus, si quid tale fuerit vel a servo vel adscripticio
+            perpetratum, liberam habere potestatem dominium eius sive per se sive
+            per praesidem provinciae talem servum vel adscripticium castigatione
+            competenti corrigere et abstrahere a tali muliere. Quod si neglexerit,
+            sciat in suum damnum huiusmodi desidiam reversuram. * IUST. A. HERMOGENI
+            MAG. OFF. *&lt;A 531-534 &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 4</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 4</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5001"><!-- azsw2e-l8t4 -->
+            <head xml:id="azsw2e-d1e5001-Hd1e101">Titulus 4</head>
+            <head xml:id="azsw2e-d1e5001-Hd1e103" type="question-title">Unde vi</head>
+            <div xml:id="azsw2e-d1e5001-Dd1e106">
+               <head xml:id="azsw2e-d1e5001-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5001-d1e110">
+                  <ref xml:id="azsw2e-d1e5001-Rd1e112">Imperatores
+            Diocletianus, Maximianus</ref> Recte possidenti ad defendendam possessionem,
+            quam sine vitio tenebat, inculpatae tutelae moderatione illatam vim
+            propulsare licet. * DIOCL. ET MAXIM. AA. ET CC. THEODORO. *&lt;A 290 PP. XV K. DEC. IPSIS IIII ET III AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5001-Dd1e116">
+               <head xml:id="azsw2e-d1e5001-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5001-d1e120">
+                  <ref xml:id="azsw2e-d1e5001-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> Vi pulsos restituendos esse interdicti
+            exemplo, si necdum annus excessit, certissimi iuris est, et heredes
+            teneri in tantum, quantum ad eos pervenit. * DIOCL. ET MAXIM. AA.
+            ET CC. ALEXANDRO. *&lt;A 293 S. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5001-Dd1e126">
+               <head xml:id="azsw2e-d1e5001-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5001-d1e130">
+                  <ref xml:id="azsw2e-d1e5001-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Auctoritatem vobis rescripti nostri
+            tenendae possessionis, quam vos per violentiam adeptas profitemini,
+            commodari nimis improbe postulatis. * DIOCL. ET MAXIM. AA. ET CC.
+            ULPIAE ET PROCLINAE. *&lt;A 294 S. VIII ID. APRIL.
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5001-Dd1e137">
+               <head xml:id="azsw2e-d1e5001-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e5001-d1e141">
+                  <ref xml:id="azsw2e-d1e5001-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Si de possessione
+            vi deiectus es, eum et legis iuliae vis privatae reum postulare et
+            ad instar interdicti unde vi convenire potes, quo reum causam omnem
+            praestare, in qua fructus etiam, quos vetus possessor percipere potuit,
+            non quos praedo percepit, venire non ambigitur. * DIOCL. ET
+            MAXIM. AA. ET CC. HYGINO. *&lt;A 294 S. IIII ID. APRIL. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5001-Dd1e147">
+               <head xml:id="azsw2e-d1e5001-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e5001-d1e151">
+                  <ref xml:id="azsw2e-d1e5001-Rd1e153">Imperator
+            Constantinus</ref> Invasor locorum poena teneatur
+            legitima, si tamen vi loca eundem invasisse constiterit. Nam si per
+            errorem aut incuriam domini loca ab aliis possessa sunt, sine poena
+            possessio restitui debet * CONSTANT. A. AD TERTULLIANUM. *&lt;A
+            330 D. VI K. MART. GALLICANO ET SYMMACHO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5001-Dd1e157">
+               <head xml:id="azsw2e-d1e5001-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e5001-d1e161">
+                  <ref xml:id="azsw2e-d1e5001-Rd1e163">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Meminerint cuncti, sive
+            vulgato rescripto mansuetudinis nostrae sive sententia cuiuslibet
+            iudicis utantur in causis, conveniendos dominos locorum esse aut,
+            si forte defuerint, actores eorum ad insinuandas sententias procuratoresque
+            quaerendos, ne inde iniuriarum nascatur occasio, unde iura nascuntur.
+            Quod si praecepta nostra implere neglexerint, omni negotio, de quo
+            iurgare coeperant, privabuntur. </p>
+               <p xml:id="azsw2e-d1e5001-d1e166" n="1">
+            Sin autem habito plerumque colludio curatores vel tutores
+            minorum his rem debitam ea occasione pervadant, ut pupillis vel adultis
+            iurgandi copia et fructus adimatur, his eatenus subvenimus, ut eosdem
+            non atterat damno culpa temeritatis alienae, sed ilico quidem possessio
+            ei a quo est ablata reddatur, curatores autem vel tutores aeterna
+            deportatione punitos bonorum quoque publicatio persequatur. * GRAT.
+            VALENTIN. ET THEODOS. AAA. PANCRATIO PU. *&lt;A 382 D. PRID. NON. APRIL. ANTONIO ET SYAGRIO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5001-Dd1e170">
+               <head xml:id="azsw2e-d1e5001-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e5001-d1e174">
+                  <ref xml:id="azsw2e-d1e5001-Rd1e176">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Si quis in tantam furoris pervenit audaciam, ut possessionem rerum
+            apud fiscum vel apud homines quoslibet constitutarum ante eventum
+            iudicialis arbitrii violenter invaserit, dominus quidem constitutus
+            possessionem quam abstulit restituat possessori et dominium eiusdem
+            rei amittat: sin vero alienarum rerum possessionem invasit, non solum
+            eam possidentibus reddat, verum etiam aestimationem earundem rerum
+            restituere compellatur. * VALENTIN. THEODOS. ET ARCAD. AAA.
+            AD MESSIANUM COM. RER. PRIVAT.*&lt;A 389 D. XVII K. IUL. TREVIRIS
+            TIMASIO ET PROMOTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5001-Dd1e180">
+               <head xml:id="azsw2e-d1e5001-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e5001-d1e184">
+                  <ref xml:id="azsw2e-d1e5001-Rd1e186">Imperatores
+            Arcadius, Honorius</ref> Momentariae possessionis
+            interdictum, quod non semper ad vim publicam pertinet vel privatam,
+            mox audiri, interdum etiam sine inscriptione, meretur. * ARCAD. ET
+            HONOR. AA. PASIPHILO. *&lt;A 395 D. VIII K. IAN. MEDIOLANI OLYBRIO
+            ET PROBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5001-Dd1e190">
+               <head xml:id="azsw2e-d1e5001-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e5001-d1e194">
+                  <ref xml:id="azsw2e-d1e5001-Rd1e196">Imperator
+            Zeno</ref> Si quando vis iudicio fuerit patefacta,
+            dein super rebus abreptis vel invasis vel damno tempore impetus quaestio
+            proponatur, si non potuerit qui vim sustinuit quae perdidit singula
+            comprobare, taxatione ab iudice facta pro personarum atque negotii
+            qualitate, sacramento aestimationem rerum quas perdidit manifestet
+            nec ei liceat ultra taxationem ab iudice factam iurare: et quod huiusmodi
+            iureiurando dato fuerit declaratum, iudicem condemnare oportet. *
+            ZENO A. SEBASTIANO PP. *&lt;A 477 D. ID. DEC. CONSTANTINOPOLI
+            POST CONSULATUM ARMATI VC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5001-Dd1e201">
+               <head xml:id="azsw2e-d1e5001-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e5001-d1e205">
+                  <ref xml:id="azsw2e-d1e5001-Rd1e207">Imperator
+            Zeno</ref>  Non ab re est, quemadmodum possessionis alienae invasores
+            tam vetus quam praesens sacra constitutio censuit puniendos, nec conductoribus
+            et possessionis alienae detentoribus impune procedere, si locatoribus
+            forte vel possessionem rerum suarum, quam apud alios precario modo
+            esse concesserant, recuperare secundum leges volentibus, cum nulla
+            sibimet cognita legibus adlegatio competeret, duxerint resistendum,
+            et non protinus, id est non expectato iudiciorum ordine, alienam possessionem
+            recte eam recuperantibus cedere patiantur. </p>
+               <p xml:id="azsw2e-d1e5001-d1e210" n="1">
+            Eos namque iubemus pro tanta suae iniquitatis impudentia,
+            si cognitionis iudiciariae eventu fuerint condemnati, rei, cuius possessionem
+            sponte restituere usque ad definitivam sententiam minime passi sunt,
+            aestimationem victrici parti una cum ipsa re praebere compelli. * ZENO A. SEBASTIANO PP. *&lt;A 484 D. V K. APRIL. CONSTANTINOPOLI
+            THEODORICO CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5001-Dd1e214">
+               <head xml:id="azsw2e-d1e5001-Hd1e216">11</head>
+               <p xml:id="azsw2e-d1e5001-d1e218">
+                  <ref xml:id="azsw2e-d1e5001-Rd1e220">Imperator
+            Justinianus</ref>  Cum quaerebatur inter illyricianam
+            advocationem, quid fieri oporteret propter eos, qui vacuam possessionem
+            absentium sine iudiciali sententia detinuerunt, quia veteres leges
+            nec unde vi interdictum nec quod vi aut clam vel aliam quandam actionem
+            ad recipiendam talem possessionem definiebant, violentia in ablatam
+            possessionem minime praecedente, nisi domino tantummodo in rem actionem
+            exercere permittentes: nos non concedentes aliquem alienas res vel
+            possessiones per suam auctoritatem usurpare sancimus talem possessorem
+            ut praedonem intellegi et generali iurisdictione ea teneri, quae pro
+            restituenda possessione contra huiusmodi personas veteribus declarata
+            est legibus. Ridiculum etenim est dicere vel audire, quod per ignorantiam
+            alienam rem aliquis quasi propriam occupaverit.</p>
+               <p xml:id="azsw2e-d1e5001-d1e223" n="1">
+            Omnes autem scire debent, quod non suum est, hoc ad alios
+            modis omnibus pertinere, cum talis dispositio in furti actione iam
+            dudum veteribus legibus definita est dicentibus: si quis alienam rem
+            adversus domini voluntatem attigerit, furti actione tenetur. </p>
+               <p xml:id="azsw2e-d1e5001-d1e226" n="2">
+            His videlicet, quae super recipienda possessione a nobis
+            disposita sunt, locum habentibus, si non ex die, ex quo possessio
+            detenta est, triginta annorum excesserunt curricula.* IUST. A. IOHANNI PP. *&lt;A 532 D. XV K. NOV. CONSTANTINOPOLI
+            POST CONSULATUM LAMPADII ET ORESTIS VV. CC. ANNO SECUNDO.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

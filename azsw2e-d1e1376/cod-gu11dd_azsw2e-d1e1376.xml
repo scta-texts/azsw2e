@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 3</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 3</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1376"><!-- azsw2e-l3t3 -->
+            <head xml:id="azsw2e-d1e1376-Hd1e101">Titulus 3</head>
+            <head xml:id="azsw2e-d1e1376-Hd1e103" type="question-title">De pedaneis iudicibus.</head>
+            <div xml:id="azsw2e-d1e1376-Dd1e106">
+               <head xml:id="azsw2e-d1e1376-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1376-d1e110">
+                  <ref xml:id="azsw2e-d1e1376-Rd1e112">Imperator
+            Gordianus</ref> Procuratori nostro non vice praesidis agenti dandi
+            iudices inter privatas personas non competere facultatem manifestum
+            est: et ideo si, ut adlegatis, inter privatas personas is cuius meministis
+            arbitros dandos putavit, sententia ab eis prolata nullo iure subsistit.
+            * GORD. A. VICANIS. *&lt;A 242 PP. K. FEBR. ATTICO
+            ET PRAETEXTATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1376-Dd1e116">
+               <head xml:id="azsw2e-d1e1376-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e1376-d1e120">
+                  <ref xml:id="azsw2e-d1e1376-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref>  Placet nobis praesides de his causis,
+            in quibus, quod ipsi non possent cognoscere, antehac pedaneos iudices
+            dabant, notionis suae examen adhibere, ita tamen ut , si vel per occupationes
+            publicas vel propter causarum multitudinem omnia huiusmodi negotia
+            non potuerint cognoscere, iudices dandi habeant potestatem. </p>
+               <p xml:id="azsw2e-d1e1376-d1e125" n="1">
+            (Quod non ita accipi convenit, ut etiam in his causis, in
+            quibus solebant ex officio suo cognoscere, dandi iudices licentia
+            permissa credatur: quod usque adeo in praesidum cognitione retinendum
+            est, ut eorum iudicia non deminuta videantur): dum tamen de ingenuitate,
+            super qua poterant et ante cognoscere, et de libertinitate praesides
+            ipsi diiudicent. * DIOCL. ET MAXIM. AA. ET CC. DICUNT: *&lt;A 294
+            D. XV K. AUG. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1376-Dd1e129">
+               <head xml:id="azsw2e-d1e1376-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e1376-d1e133">
+                  <ref xml:id="azsw2e-d1e1376-Rd1e135">Imperatores
+            Diocletianus, Maximianus</ref> Placet, ut iudicibus, si quos gravitas
+            tua disceptatores dederit, insinues, ut delegata sibi negotia lata
+            sententia determinent: nec in his causis, in quibus pronuntiare debent
+            et possunt, facultatem sibi remittendi patere ad iudicium praesidale
+            cognoscant, maxime cum, et si iudicatio alicui litigatorum parti iniusta
+            videatur, interponendae provocationis potestas a sententia ex omni
+            causa prolata libera litigatoribus tribuatur. * DIOCL. ET MAXIM. AA.
+            ET CC. LITT. AD SERAPIONEM. *&lt;A 294 D. VIII K.
+            APRIL. ANTIOCHIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1376-Dd1e140">
+               <head xml:id="azsw2e-d1e1376-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e1376-d1e144">
+                  <ref xml:id="azsw2e-d1e1376-Rd1e146">Imperatores
+            Diocletianus, Maximianus</ref> Placuit, quotiens
+            pedanei iudices dati post litem contestatam vel ad aliud iudicium
+            necessario dirigantur vel publicae utilitatis ratione in alias provincias
+            profiscantur vel diem obierint atque his rationibus negotiis coeptis
+            finis non possit adhiberi, alium in locum eorum iudicem tribui qui
+            negotium examinet, ne eiusmodi casibus intervenientibus impedimentum
+            aliquod in persequendis litibus adferatur. * DIOCL. ET MAXIM.
+            AA. ET CC. FIRMINO. *&lt;A 303 D. X K. DEC. DECHIOPPE DIOCLETIANO
+            VIII ET MAXIMIANO VII AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1376-Dd1e150">
+               <head xml:id="azsw2e-d1e1376-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e1376-d1e154">
+                  <ref xml:id="azsw2e-d1e1376-Rd1e156">Imperator
+            Julianus</ref> Quaedam sunt negotia, in quibus
+            superfluum est moderatorem expectare provinciae: ideoque pedaneos
+            iudices, hoc est qui negotia humiliora disceptent, constituendi damus
+            praesidibus potestatem. * IUL. A. SECUNDO PP. *&lt;A 362 D.
+            V K. AUG. ANTIOCHIAE MAMERTINO ET NEVITTA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1376-Dd1e160">
+               <head xml:id="azsw2e-d1e1376-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e1376-d1e164"><!-- Greek --></p>
+               <p xml:id="azsw2e-d1e1376-d1e167">
+                  <ref xml:id="azsw2e-d1e1376-Rd1e169">Imperator
+            Zeno</ref> * ZENON A. *&lt;A 486 VEL 487 &gt;
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

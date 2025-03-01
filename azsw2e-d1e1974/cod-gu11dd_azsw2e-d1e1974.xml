@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 12</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 12</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1974"><!-- azsw2e-l4t12 -->
+            <head xml:id="azsw2e-d1e1974-Hd1e101">Titulus 12</head>
+            <head xml:id="azsw2e-d1e1974-Hd1e103" type="question-title">Ne uxor pro marito vel maritus pro uxore vel mater pro filio conveniatur.</head>
+            <div xml:id="azsw2e-d1e1974-Dd1e106">
+               <head xml:id="azsw2e-d1e1974-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1974-d1e110">
+                  <ref xml:id="azsw2e-d1e1974-Rd1e112">Imperatores
+            Diocletianus, Maximianus</ref> Frustra disputas de contractibus cum
+            marito tuo habitis, utrumne iure steterit an minime, cum tibi sufficiat,
+            si proprio nomine nullum contractum habuisti, quominus pro marito
+            tuo conveniri possis, quod nec, si sponte pro eo intercessisses, quicquam
+            a te propter senatus consultum exigi iure potuisset. * DIOCL. ET MAXIM.
+            AA. ASCLEPIODOTAE. *&lt;A 287 D. PRID. ID. APRIL. DIOCLETIANO III
+            ET MAXIMIANO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1974-Dd1e116">
+               <head xml:id="azsw2e-d1e1974-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e1974-d1e120">
+                  <ref xml:id="azsw2e-d1e1974-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> Ob maritorum culpam uxores inquietari
+            leges uetant. Proinde rationalis noster, si res quae a fisco occupatae
+            sunt dominii tui esse probaveris, ius publicum sequetur * DIOCL. ET
+            MAXIM. AA. TERENTIAE. *&lt;A 287 D. III NON. SEPT. DIOCLETIANO ET
+            MAXIMIANO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1974-Dd1e126">
+               <head xml:id="azsw2e-d1e1974-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e1974-d1e130">
+                  <ref xml:id="azsw2e-d1e1974-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Cum te possessiones non in dotem pro
+            filia tua dedisse, sed ad sustentandam eam extra dotis causam filiae
+            tuae praedia adsignasse proponas, civilium munerum vel onerum municipalium
+            obtentu ex persona mariti eius, quomodo matres ex persona filiorum
+            interpellari non possunt, cum neque maritum pro uxoris obligatione
+            conveniri posse constat, nisi ipse pro ea se obnoxium fecit. Certissimum
+            enim est ex alterius contractu neminem obligari * DIOCL. ET MAXIM.
+            AA. ET CC. CARPOPHORO. *&lt;A 293 III ID. SEPT. SIRMI AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1974-Dd1e137">
+               <head xml:id="azsw2e-d1e1974-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e1974-d1e141">
+                  <ref xml:id="azsw2e-d1e1974-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Cum te ideo ex persona filii tui commemores
+            conveniri, quod pro debitis eius aliquid intulisse videaris, defensionibus
+            tuis uti apud eum, cuius super ea re notio est, minime prohiberis,
+            ut is ad solutionem alieni debiti urgueri te non patiatur. * DIOCL.
+            ET MAXIM. AA.ET CC. PHILOTERAE. *&lt;A 301 D. X K. SEPT. TITIANO ET
+            NEPOTIANO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

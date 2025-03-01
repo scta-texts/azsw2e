@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 3</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 3</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3460"><!-- azsw2e-l6t3 -->
+            <head xml:id="azsw2e-d1e3460-Hd1e101">Titulus 3</head>
+            <head xml:id="azsw2e-d1e3460-Hd1e103" type="question-title">De operis libertorum.</head>
+            <div xml:id="azsw2e-d1e3460-Dd1e106">
+               <head xml:id="azsw2e-d1e3460-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3460-d1e110">
+                  <ref xml:id="azsw2e-d1e3460-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Si tempore manumissionis
+            operae tibi impositae sunt, scis te eas praestare debere. Solet autem
+            inter patronos et libertos convenire, ut pro operis aliquid praestetur,
+            licet pretium non possit, nisi quando propter inopiam pro alimentis
+            id extra ordinem peti necessitas suaserit, cum, etsi operae non erant
+            impositae, defectis tamen facultatibus patroni alere eum cogebaris
+            * SEV. ET ANT. AA. ROMANO. *&lt;A 204 PP. III K. IAN. CILONE ET LIBONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3460-Dd1e116">
+               <head xml:id="azsw2e-d1e3460-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3460-d1e120">
+                  <ref xml:id="azsw2e-d1e3460-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Manumissionis causa
+            traditus neque in servitutem deduci a manumissore potest neque impositas
+            operas praestare cogitur. * SEV. ET ANT. AA. EUTYCHETI. *&lt;A
+            205 PP. VI K. MAI. GETA II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3460-Dd1e126">
+               <head xml:id="azsw2e-d1e3460-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3460-d1e130">
+                  <ref xml:id="azsw2e-d1e3460-Rd1e132">Imperatores
+            Severus, Antoninus</ref> Qui nummis acceptis
+            ab extraneo servum suum manumisit et pro operis pecuniam ab eo accepit,
+            sive fuerant operae impositae sive non fuerant, ut indebita soluta
+            reddere cogitur. * SEV. ET ANT. AA. QUINTIANO. *&lt;A 206 PP.
+            K. NOV. ALBINO ET AEMILIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3460-Dd1e137">
+               <head xml:id="azsw2e-d1e3460-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e3460-d1e141">
+                  <ref xml:id="azsw2e-d1e3460-Rd1e143">Imperator
+            Antoninus</ref> Si quam pecuniam tibi a liberto tuo ex venditione
+            operarum deberi probaveris, restitui tibi a liberto tuo praeses iubebit
+            ( ex hoc enim liberam testamenti factionem libertus habet), modo si
+            non onerandae libertatis gratia emissam cautionem probabitur. * ANT. A. VALERIANO. *&lt;A 212 PP. XIIII K. MAI. DUOBUS ASPRIS
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3460-Dd1e147">
+               <head xml:id="azsw2e-d1e3460-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e3460-d1e151">
+                  <ref xml:id="azsw2e-d1e3460-Rd1e153">Imperator
+            Antoninus</ref> Mater tua ab eo, quem ex causa fideicommissi manumisit,
+            operas impositas petere non potest, nisi eius tantummodo temporis,
+            quo eum ante manumisit, quam dies fideicommissae libertatis existeret.
+            Sed nisi ei honorem patronis debitum exhibuerit,
+            adeat competentem iudicem pro modo admissi vindicaturum * ANT. A.
+            TERENTIO. *&lt;A 212 PP. III ID. MAI. DUOBUS ASPRIS CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3460-Dd1e157">
+               <head xml:id="azsw2e-d1e3460-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e3460-d1e161">
+                  <ref xml:id="azsw2e-d1e3460-Rd1e163">Imperator
+            Alexander Severus</ref> Liberti libertaeque
+            defunctorum operas neque extraneis heredibus patronorum debent neque
+            maritis patronarum. * ALEX. A. CAECILIO. *&lt;A 222 PP. K. NOV. ALEXANDRO
+            A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3460-Dd1e167">
+               <head xml:id="azsw2e-d1e3460-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e3460-d1e171">
+                  <ref xml:id="azsw2e-d1e3460-Rd1e173">Imperator
+            Alexander Severus</ref>  Nec patronis pro operis
+            mercedem accipere licet, quamvis, si indictae operae praestitae non
+            sint, ad pecuniae exactionem obsequii non praestiti aestimatio convertatur.
+            </p>
+               <p xml:id="azsw2e-d1e3460-d1e176" n="1">
+            Qui autem duos filios in potestate vel diversis temporibus
+            habuit, lege iulia de maritandis ordinibus obligatione operarum liberatur.
+            * ALEX. A. MINICIO. *&lt;A 224 D. XII K. IUN. IULIANO ET CRISPINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3460-Dd1e180">
+               <head xml:id="azsw2e-d1e3460-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e3460-d1e184">
+                  <ref xml:id="azsw2e-d1e3460-Rd1e186">Imperator
+            Alexander Severus</ref> Si tuis nummis emptus
+            es ab eo a quo manumissus es, nec operas ei debes neque puniri ab
+            eo utpote ingratus potes: patronum tamen tuum esse negari non oportet.
+            * ALEX. A. AUGUSTINO. *&lt;A 224 D. III ID. SEPT. IULIANO ET CRISPINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3460-Dd1e190">
+               <head xml:id="azsw2e-d1e3460-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e3460-d1e194">
+                  <ref xml:id="azsw2e-d1e3460-Rd1e196">Imperator
+            Alexander Severus</ref> Libertae tuae ducendo
+            eam uxorem dignitatem auxisti, et ideo non est cogenda operas tibi
+            praestare, cum possis legis beneficio contentus esse, quod invito
+            te iuste non possit alii nubere. * ALEX. A. LAETORIO. *&lt;A
+            225 D. X K. MART. FUSCO ET DEXTRO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3460-Dd1e201">
+               <head xml:id="azsw2e-d1e3460-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e3460-d1e205">
+                  <ref xml:id="azsw2e-d1e3460-Rd1e207">Imperator
+            Alexander Severus</ref> Titius si, cum testamentum
+            faceret, servo suo libertatem cum condicione hac dedit: " gaium
+            servum meum a die mortis meae annis tribus peractis manumitti volo,
+            ita ut praestet heredibus meis, sicut me vivo praestabat", et
+            cum idem servus testatori diurnum quiddam praestabat et post mortem
+            eius usque ad diem praestandae libertatis etiam heredibus praestiterat,
+            manifestum est, quod adeptus libertatem ad eandem praestationem compelli
+            non possit. * ALEX. A. HERCULIANO. *&lt;A
+            225 D. VII ID. AUG. FUSCO ET DEXTRO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3460-Dd1e211">
+               <head xml:id="azsw2e-d1e3460-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e3460-d1e215">
+                  <ref xml:id="azsw2e-d1e3460-Rd1e217">Imperator
+            Gordianus</ref>  Quod ex liberta muliere nascitur, ingenuum est. </p>
+               <p xml:id="azsw2e-d1e3460-d1e220" n="1">
+            Is autem, qui libertate sua nubenti commodavit adsensum,
+            quamvis operas ab ea exigere non possit, iura patronatus non amittit.
+            * GORD. A. AFRICANO. *&lt;A 238 PP.III NON.AUG.PIO ET PONTIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3460-Dd1e224">
+               <head xml:id="azsw2e-d1e3460-Hd1e226">12</head>
+               <p xml:id="azsw2e-d1e3460-d1e228">
+                  <ref xml:id="azsw2e-d1e3460-Rd1e230">Imperatores
+            Diocletianus, Maximianus</ref> Qui manumittuntur, liberum ubi voluerint
+            commorandi arbitrium habent nec a patronorum filiis, quibus solam
+            reverentiam debent, ad serviendi necessitatem redigi possunt, nisi
+            ingrati probentur, cum neque cum patrono habitare libertos iura compellunt.
+            * DIOCL. ET MAXIM. AA. ET CC. VENERIAE. *&lt;A 293 S.VIIII K.IUN.IPSIS
+            AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3460-Dd1e234">
+               <head xml:id="azsw2e-d1e3460-Hd1e236">13</head>
+               <p xml:id="azsw2e-d1e3460-d1e238">
+                  <ref xml:id="azsw2e-d1e3460-Rd1e240">Imperatores
+            Valentinianus, Valens, Gratianus</ref> In redhibitione operarum maneat
+            poena eum, qui alienum libertum recipiendum esse duxerit. * VALENTIN.
+            VALENS ET GRAT. AAA. AD PROBUM PP. *&lt;A
+            371 D.III ID.IUL.GRATIANO A.II ET PROBO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

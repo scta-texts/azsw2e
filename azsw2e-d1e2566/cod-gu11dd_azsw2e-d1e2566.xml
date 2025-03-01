@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 65</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 65</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2566"><!-- azsw2e-l4t65 -->
+            <head xml:id="azsw2e-d1e2566-Hd1e101">Titulus 65</head>
+            <head xml:id="azsw2e-d1e2566-Hd1e103" type="question-title">De locato et conducto</head>
+            <div xml:id="azsw2e-d1e2566-Dd1e106">
+               <head xml:id="azsw2e-d1e2566-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2566-d1e110">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e112">Imperator
+            Antoninus</ref> Dominus horreorum periculum vis maioris vel effracturam
+            latronum conductori praestare non cogitur. His cessantibus si quid
+            extrinsecus ex depositis rebus inlaesis horreis perierit, damnum depositarum
+            rerum sarciri debet * ANT. A. IULIO AGRIPPINO. *&lt;A 213 PP. PRID.
+            NON. IAN. ANTONINO A. IIII ET BALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e116">
+               <head xml:id="azsw2e-d1e2566-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2566-d1e120">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e122">Imperator
+            Antoninus</ref> Adversus eos, a quibus extruenda aedificia conduxisti,
+            ex conducto actione consistens eo iudicio quod est bonae fidei debitum
+            cum usuris solitis consequeris. * ANT. A. EPIDIO EPICTETO. *&lt;A
+            213 PP. K. IUL. ROMAE ANTONINO A. IIII ET BALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e126">
+               <head xml:id="azsw2e-d1e2566-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2566-d1e130">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e132">Imperator
+            Antoninus</ref> Diaetae, quam te conductam habere dicis, si pensionem
+            domino insulae solvis, invitum te expelli non oportet, nisi propriis
+            usibus dominus esse necessariam eam probaverit aut corrigere domum
+            maluerit aut tu male in re locata versatus es. * ANT. A. FLAVIO CALLIMORPHO.
+            *&lt;A 214 PP. VIII ID. IAN. MESSALA ET SABINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e137">
+               <head xml:id="azsw2e-d1e2566-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2566-d1e141">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e143">Imperator
+            Alexander Severus</ref>  Et divi Pii et Antonini litteris certa forma
+            est, ut domini horreorum effractorum eiusmodi querellas deferentibus
+            custodes exhibere necesse habeant nec ultra periculo subiecti sint.
+            </p>
+               <p xml:id="azsw2e-d1e2566-d1e146" n="1">
+            Quod vos quoque adito praeside provinciae impetrabitis. Qui
+            si maiorem animadversionem exigere rem deprehenderit, ad Domitium
+            Ulpianum praefectum praetorio et parentem meum reos remittere curabit
+            </p>
+               <p xml:id="azsw2e-d1e2566-d1e149" n="2">
+            Sed qui domini horreorum nominatim etiam custodiam repromiserunt,
+            fidem exhibere debent. * ALEX. A. ARRIO SABINO. *&lt;A 222 PP. K.
+            DEC. ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e153">
+               <head xml:id="azsw2e-d1e2566-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e2566-d1e157">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e159">Imperator
+            Alexander Severus</ref> Certi iuris est ea, quae voluntate dominorum
+            coloni in fundum conductum induxerint, pignoris iure dominis praediorum
+            teneri. Quando autem domus locatur, non est necessaria in rebus inductis
+            vel illatis scientia domini: nam ea quoque pignoris iure tenentur
+            * ALEX. A. AURELIO PETRONIO. *&lt;A 223 PP. K. MART. MAXIMO II ET
+            AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e163">
+               <head xml:id="azsw2e-d1e2566-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e2566-d1e167">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e169">Imperator
+            Alexander Severus</ref> Nemo prohibetur rem quam conduxit fruendam
+            alii locare, si nihil aliud convenit. * ALEX. A. LUCILIO VICTORINO.
+            *&lt;A 224 PP. V K. MART. IULIANO ET CRISPINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e173">
+               <head xml:id="azsw2e-d1e2566-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e2566-d1e177">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e179">Imperator
+            Alexander Severus</ref> Si, cum Hermes vectigal octavarum in quinquennium
+            conduceret, fidem tuam obligasti posteaque spatio eius temporis expleto,
+            cum idem Hermes in conductionem ut idoneus detinerentur, non consensisti,
+            sed cautionem tibi reddi postulasti, non oportere te posterioris temporis
+            periculo adstringi competens iudex non ignorabit. * ALEX. A. SEPTIMIO
+            TERENTIANO MIL. *&lt;A 227 PP. V ID. IAN. ALBINO ET MAXIMO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e183">
+               <head xml:id="azsw2e-d1e2566-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e2566-d1e187">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e189">Imperator
+            Alexander Severus</ref> Licet certis annuis quantitatibus fundum conduxeris,
+            si tamen expressum non est in locatione aut mos regionis postulat,
+            ut, si qua labe tempestatis vel alio caeli vitio damna accidissent,
+            ad onus tuum pertinerent, et quae evenerunt sterilitates ubertate
+            aliorum annorum repensatae non probabuntur, rationem tui iuxta bonam
+            fidem haberi recte postulabis, eamque formam qui ex appellatione cognoscet
+            sequetur. * ALEX. A. SABINIANO HYGINO. *&lt;A 231 PP. K. AUG. POMPEIANO
+            ET PELIGNO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e193">
+               <head xml:id="azsw2e-d1e2566-Hd1e195">9</head>
+               <p xml:id="azsw2e-d1e2566-d1e197">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e199">Imperator
+            Alexander Severus</ref> Emptori quidem fundi necesse non est stare
+            colonum, cui prior dominus locavit, nisi ea lege emit. Verum si probetur
+            aliquo pacto consensisse, ut in eadem conductione maneat, quamvis
+            sine scripto, bonae fidei iudicio ei quod placuit parere cogitur *
+            ALEX. A. AURELIO FUSCO MIL. *&lt;A 234 PP. VII ID. SEPT. MAXIMO II
+            ET URBANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e204">
+               <head xml:id="azsw2e-d1e2566-Hd1e206">10</head>
+               <p xml:id="azsw2e-d1e2566-d1e208">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e210">Imperator
+            Gordianus</ref> Viam veritatis ignoras in conductionibus non succedere
+            heredes conductoris existimans, cum, sive perpetua conductio est,
+            etiam ad heredes transmittatur, sive temporalis, intra tempora locationis
+            heredi quoque onus contractus incumbat. * GORD. A. POMPONIO SABINO.
+            *&lt;A 239 D. VIII K. MART. GORDIANO ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e214">
+               <head xml:id="azsw2e-d1e2566-Hd1e216">11</head>
+               <p xml:id="azsw2e-d1e2566-d1e218">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e220">Imperator
+            Philippus</ref> Invitos conductores seu heredes eorum post tempora
+            locationis impleta non esse retinendos saepe rescriptum est. * PHILIPP.
+            A. AURELIO THEODORO. *&lt;A 244 PP. VI ID. AUG. PEREGRINO ET AEMILIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e224">
+               <head xml:id="azsw2e-d1e2566-Hd1e226">12</head>
+               <p xml:id="azsw2e-d1e2566-d1e228">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e230">Imperator
+            Philippus</ref> Damnum, quod per adgressuram latronum in possessionibus
+            locatis rei tuae illatum esse proponis, a domina earundem possessionum,
+            quam nullius criminis ream facere te dicis, sarciri nulla ratione
+            desideras. * PHILIPP. A. ET PHILIPP. C. AURELIO NICAE. *&lt;A 245
+            PP. IIII K. NOV. PHILIPPO A. ET TITIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e234">
+               <head xml:id="azsw2e-d1e2566-Hd1e236">13</head>
+               <p xml:id="azsw2e-d1e2566-d1e238">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e240">Imperatores
+            Valerianus, Gallienus</ref>  Si divisa conductio fuit et in singulis
+            pro partibus facta, alieno nomine conveniri vos non oportet. Si autem
+            omnes qui conducebant in solidum locatori sunt obligati, ius ei competens
+            conveniendi quem velit non debeat auferri </p>
+               <p xml:id="azsw2e-d1e2566-d1e243" n="1">
+            Habetis sane vos facultatem locatori offerendi debitum et,
+            ut transferantur in vos ea, quae ob hanc conductionem ab his quorum
+            nomine inquietamini obligata sunt, postulandi. * VALER. ET GALLIEN.
+            AA. ET VALER. C. AURELIO HERACLIDAE. *&lt;A 259 PP. VIII ID. MART.
+            AEMILIANO ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e247">
+               <head xml:id="azsw2e-d1e2566-Hd1e249">14</head>
+               <p xml:id="azsw2e-d1e2566-d1e251">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e253">Imperatores
+            Valerianus, Gallienus</ref> Si hi, qui a vobis redemerant frumentum
+            et hordeum annonae inferendum, accepta pecunia fidem fefellerunt,
+            ex locato agere cum his potestis. * VALER. ET GALLIEN. AA. ET C. AURELIO
+            IULIO. *&lt;A 259 PP. VIII K. IAN. AEMILIANO ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e257">
+               <head xml:id="azsw2e-d1e2566-Hd1e259">15</head>
+               <p xml:id="azsw2e-d1e2566-d1e261">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e263">Imperatores
+            Valerianus, Gallienus</ref> Si fundo a locatore expulsa es, agere
+            ex conducto potes poenamque, quam praestari rupta conventionis fide
+            placuit, exigere ac retinere potes. * VALER. ET GALLIEN. AA. ET C.
+            AURELIAE EUPHROSYNAE. *&lt;A 259 PP. ID. AUG. AEMILIANO ET BASSO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e268">
+               <head xml:id="azsw2e-d1e2566-Hd1e270">16</head>
+               <p xml:id="azsw2e-d1e2566-d1e272">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e274">Imperatores
+            Valerianus, Gallienus</ref> Legem quidem conductionis servari oportet
+            nec pensionum nomine amplius quam convenit reposci. Sin autem tempus,
+            in quo locatus fundus fuerat, sit exactum et in eadem locatione conductor
+            permanserit, tacito consensu eandem locationem una cum vinculo pignoris
+            renovare videtur * VALER. ET GALLIEN. AA. ET C. AURELIO TIMOTHEO.
+            *&lt;A 260 PP. IIII K. AUG. SAECULARE II ET DONATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e278">
+               <head xml:id="azsw2e-d1e2566-Hd1e280">17</head>
+               <p xml:id="azsw2e-d1e2566-d1e282">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e284">Imperatores
+            Diocletianus, Maximianus</ref> Praeses provinciae ea quae ex locatione
+            debentur exsolvi sine mora curabit, non ignarus ex locato et conducto
+            actionem, cum sit bonae fidei, post moram usuras legitimas admittere.
+            * DIOCL. ET MAXIM. AA. HOSTILIO HECTARIO. *&lt;A 290 PP. XV K. APRIL.
+            DIOCLETIANO IIII ET MAXIMIANO III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e288">
+               <head xml:id="azsw2e-d1e2566-Hd1e290">18</head>
+               <p xml:id="azsw2e-d1e2566-d1e292">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e294">Imperatores
+            Diocletianus, Maximianus</ref> Excepto tempore, quo edaci lucustarum
+            pernicie sterilitatis vitium incessit, sequentis temporis fructus,
+            quos tibi iuxta praeteritam consuetudinem deberi constiterit, reddi
+            tibi praeses provinciae iubebit. * DIOCL. ET MAXIM. AA. ANNIO URSINO.
+            *&lt;A 290 PP. XI K. OCT. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e298">
+               <head xml:id="azsw2e-d1e2566-Hd1e300">19</head>
+               <p xml:id="azsw2e-d1e2566-d1e302">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e304">Imperatores
+            Diocletianus, Maximianus</ref> Circa locationes atque conductiones
+            maxime fides contractus servanda est, si nihil specialiter exprimatur
+            contra consuetudinem regionis. Quod si alii remiserunt contra legem
+            contractus atque regionis consuetudinem pensiones, hoc aliis praeiudicium
+            non possit adferre * DIOCL. ET MAXIM. AA. ET CC. IULIO VALENTINO.
+            *&lt;A 293 S. V K. MAI. HERACLEAE AA. CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e308">
+               <head xml:id="azsw2e-d1e2566-Hd1e310">20</head>
+               <p xml:id="azsw2e-d1e2566-d1e312">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e314">Imperatores
+            Diocletianus, Maximianus</ref> Qui rem propriam conduxit existimans
+            alienam, dominium non transfert, sed inefficacem conductionis contractum
+            facit. * DIOCL. ET MAXIM. AA. ET CC. AURELIO CARPOPHORO. *&lt;A 293
+            S. III K. MART. HERACLEAE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e318">
+               <head xml:id="azsw2e-d1e2566-Hd1e320">21</head>
+               <p xml:id="azsw2e-d1e2566-d1e322">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e324">Imperatores
+            Diocletianus, Maximianus</ref> Si olei certa ponderatione fructus
+            anni locasti, de contractu bonae fidei habito propter hoc solum, quod
+            alter maiorem obtulit ponderationem, recedi non oportet. * DIOCL.
+            ET MAXIM. AA. ET CC. ANTONIAE. *&lt;A 293 D. VIII ID. OCT. SIRMI AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e329">
+               <head xml:id="azsw2e-d1e2566-Hd1e331">22</head>
+               <p xml:id="azsw2e-d1e2566-d1e333">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e335">Imperatores
+            Diocletianus, Maximianus</ref> Si hi, contra quos supplicas, facta
+            locatione temporis certi suas tibi locaverint operas, quatenus bona
+            fides patitur, causa cognita competens iudex conventionem servari
+            iubebit. * DIOCL. ET MAXIM. AA. ET CC. PAPINIANO. *&lt;A 293 &gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e339">
+               <head xml:id="azsw2e-d1e2566-Hd1e341">23</head>
+               <p xml:id="azsw2e-d1e2566-d1e343">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e345">Imperatores
+            Diocletianus, Maximianus</ref> Ad probationem rei propriae sive defensionem
+            non sufficit locatio ei facta, qui post de dominio coeperit contendere,
+            cum nescientia dominii proprii et errantis nullum habeat consensum
+            : sed ex eventu, si victus fuerit, contractus locationis non constitisse
+            magis declaratur. Nemo enim sibi iure possessionem mutare potest *
+            DIOCL. ET MAXIM. AA. ET CC. AURELIO PRISCO. *&lt;A 293 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e349">
+               <head xml:id="azsw2e-d1e2566-Hd1e351">24</head>
+               <p xml:id="azsw2e-d1e2566-d1e353">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e355">Imperatores
+            Diocletianus, Maximianus</ref> Contractus locationis conductionisque
+            non intervenientibus etiam instrumentis ratus habeatur : secundum
+            quod heredes conductoris, etsi non intervenerint instrumenta, non
+            uxorem convenire debes. Sane de posteriore tempore, quo conductricem
+            ipsam proponis fuisse, adesse fidem precibus tuis probans pensiones
+            integras ab ea pete * DIOCL. ET MAXIM. AA. ET CC. AURELIO ANTONINO.
+            *&lt;A 293 PP. VIII K. IAN AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e359">
+               <head xml:id="azsw2e-d1e2566-Hd1e361">25</head>
+               <p xml:id="azsw2e-d1e2566-d1e363">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e365">Imperatores
+            Diocletianus, Maximianus</ref> Si quis conductionis titulo agrum vel
+            aliam quamcumque rem accepit ; possessionem debet prius restituere
+            et tunc de proprietate litigare. * DIOCL. ET MAXIM. AA. ET CC. AURELIO
+            EPAGATHO. *&lt;A 293 III K. IAN. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e369">
+               <head xml:id="azsw2e-d1e2566-Hd1e371">26</head>
+               <p xml:id="azsw2e-d1e2566-d1e373">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e375">Imperatores
+            Diocletianus, Maximianus</ref> Si conductionis implestis fidem, eius
+            rei gratia factum instrumentum evanuit. Quod si quid vestrum in fundo
+            fuit vel vi direptum est, hoc restitui vobis praeses provinciae iubebit
+            * DIOCL. ET MAXIM. AA. ET CC. AURELIO OPILIONI ET HERMIO. *&lt;A 294
+            D. III K. MAI. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e379">
+               <head xml:id="azsw2e-d1e2566-Hd1e381">27</head>
+               <p xml:id="azsw2e-d1e2566-d1e383">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e385">Imperatores
+            Diocletianus, Maximianus</ref> Si tibi quae pro colonis conducti praedii
+            prorogasti dominus fundi stipulanti dare spopondit, competens iudex
+            reddi tibi iubebit. Nam si conventio placiti fine stetit, ex nudo
+            pacto perspicis actionem iure nostro nasci non potuisse * DIOCL. ET
+            MAXIM. AA. ET CC. MAXIMIANO AGOPODI. *&lt;A 294 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e390">
+               <head xml:id="azsw2e-d1e2566-Hd1e392">28</head>
+               <p xml:id="azsw2e-d1e2566-d1e394">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e396">Imperatores
+            Diocletianus, Maximianus</ref> In iudicio tam locati quam conducti
+            dolum et custodiam, non etiam casum, cui resisti non potest, venire
+            constat. * DIOCL. ET MAXIM. AA. ET CC. TUSCIANO NEONI. *&lt;A 294
+            D. XV K. OCT. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e400">
+               <head xml:id="azsw2e-d1e2566-Hd1e402">29</head>
+               <p xml:id="azsw2e-d1e2566-d1e404">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e406">Imperatores
+            Diocletianus, Maximianus</ref> Cum conductorem aedificia, quae suscepit
+            integra, destruxisse proponas, haec heredes etiam eius praeses provinciae
+            instaurare aedificiorum inter vos habita ratione iubebit. * DIOCL.
+            ET MAXIM. AA. ET CC. AURELIO IULIANO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e410">
+               <head xml:id="azsw2e-d1e2566-Hd1e412">30</head>
+               <p xml:id="azsw2e-d1e2566-d1e414">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e416">Imperatores
+            Theodosius, Valentinianus</ref> Curialis neque procurator neque conductor
+            alienarum rerum nec fideiussor aut mandator conductoris existat. Alioquin
+            nullam obligationem neque locatori neque conductori ex huiusmodi contractu
+            competere sancimus * THEODOS. ET VALENTIN. AA. FLORENTIO PP. *&lt;A
+            439 D. VII ID. APRIL. CONSTANTINOPOLI THEODOSIO A. XVII ET FESTO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e420">
+               <head xml:id="azsw2e-d1e2566-Hd1e422">31</head>
+               <p xml:id="azsw2e-d1e2566-d1e424">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e426">Imperator
+            Leo</ref> Milites nostros alienarum rerum conductores seu procuratores
+            aut fideiussores vel mandatores conductorum fieri prohibemus, ne omisso
+            armorum usu ad opus rurestre se conferant et vicinis graves praesumptione
+            cinguli militaris existant. Armis autem, non privatis negotiis occupentur,
+            ut numeris et signis suis iugiter inhaerentes rem publicam, a qua
+            aluntur, ab omni bellorum necessitate defendant * LEO A. ASPARI MAG.
+            MIL. *&lt;A 458 D. PRID. NON. IUL. CONSTANTINOPOLI LEONE A. CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e430">
+               <head xml:id="azsw2e-d1e2566-Hd1e432">32</head>
+               <p xml:id="azsw2e-d1e2566-d1e434">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e436">Imperator
+            Zeno</ref>  Ne cui liceat, qui aliquam domum alienam vel locum aut
+            ergasterium nomine conductionis accepit, alteri, qui post eum domini
+            voluntate ad eandem conductionem accessit, litem inferre, quasi rem
+            illicitam aut agenti damnosam temptaverit, sed patere facultatem dominis
+            domos suas vel ergasteria vel loca cui voluerint locandi, ipsis nihilo
+            minus qui conduxerint ab omni super hoc molestia liberis conservandis
+            : nisi forte pacta per scripturam specialiter inita cum dominis vel
+            cum his qui postea conduxerunt, legibus videlicet cognita, agentis
+            intentionibus suffragantur. </p>
+               <p xml:id="azsw2e-d1e2566-d1e439" n="1">
+            Quod si quis huiusmodi controversiam sacris iussionibus interdictam
+            crediderit commovendam, si privatus est, acriter caesus exilii subeat
+            poenam, si militat, decem librarum auri dispendio feriatur. * ZENO
+            A. ADAMANTIO PU. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e443">
+               <head xml:id="azsw2e-d1e2566-Hd1e445">33</head>
+               <p xml:id="azsw2e-d1e2566-d1e447">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e449">Imperator
+            Zeno</ref> Conductores rerum alienarum seu alienam cuiuslibet rei
+            possessionem precario detinentes seu heredes eorum, si non eam dominis
+            recuperare volentibus restituerint, sed litem usque ad definitivam
+            sententiam expectaverint, non solum rem locatam, sed etiam aestimationem
+            eius victrici parti ad similitudinem invasoris alienae possessionis
+            praebere compellantur. * ZENO A. SEBASTIANO PP. *&lt;A 484 D. V K.
+            APRIL. CONSTANTINOPOLI THEODERICO CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e454">
+               <head xml:id="azsw2e-d1e2566-Hd1e456">34</head>
+               <p xml:id="azsw2e-d1e2566-d1e458"><!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e2566-Dd1e462">
+               <head xml:id="azsw2e-d1e2566-Hd1e464">35</head>
+               <p xml:id="azsw2e-d1e2566-d1e466">
+                  <ref xml:id="azsw2e-d1e2566-Rd1e468">Imperator
+            Justinianus</ref>  Licet retro principes multa de militibus, qui alienas
+            possessiones vel domus conductionis titulo procurandas suscipiunt,
+            sanxisse manifestum est, tamen quia res sic est contempta, ut neque
+            interminationis sacratissimae constitutionis milites memores ad huiusmodi
+            sordida audeant venire ministeria et relictis studiis publicis signisque
+            victricibus ad conductiones alienarum rerum prosilire et armorum atrocitatem
+            non in hostes ostendere, sed contra vicinos et forsitan adversus ipsos
+            miseros colonos, quos procurandos susceperunt, convertere, necessarium
+            duximus ad hanc sacratissimam venire constitutionem altius et plenius
+            huiusmodi causam corrigentes. </p>
+               <p xml:id="azsw2e-d1e2566-d1e471" n="1">
+            Iubemus itaque omnes omnino, qui sub armis militant, sive
+            maiores sive minores ( milites autem appellamus eos, qui tam sub excelsis
+            magistris militum tolerare noscuntur militiam quam in undecim devotissimis
+            scholis taxati sunt, nec non eos , qui sub diversis optionibus foederatorum
+            nomine sunt decorati) saltem in posterum ab omni conductione alienarum
+            rerum temperare scituros, quod ex ipso contractus initio sine aliquo
+            facto vel aliqua sententia cadant militia et non sit regressus eis
+            ad pristinum gradum neque a beneficio imperiali neque a consensu vel
+            permissu iudicis, sub quo tolerandam sortiti sunt militiam : ne, dum
+            alienas res conductionis titulo esse gubernandas existimant, suas
+            militias suamque opinionem amittant, ex militibus pagani, ex decoratis
+            infames constituti: et quod post huiusmodi conductionem, quam penitus
+            interdiximus, a publico susceperint, et hoc sine aliqua mora vel procrastinatione
+            reddere compellantur. </p>
+               <p xml:id="azsw2e-d1e2566-d1e474" n="2">
+            Scituris et ipsis, qui suas facultates post hanc legem eis
+            ad conductionem permiserint nostra lege eorum conamine violata, quod
+            nulla eis exactio contra eos concedatur, ut, qui alieni appetens constitutos
+            militem procuratorem elegerit, et suis cadat reditibus. </p>
+               <p xml:id="azsw2e-d1e2566-d1e477" n="3">
+            Pateat autem omnibus huiusmodi copia apud competentes iudices
+            accusationis, ut, qui in hac causa delator existat, laudandus magis
+            quam vituperandus intellegatur : poena, quam contra milites nostrorum
+            praeceptorum contemptores et ipsos, qui eis conductionem rerum ad
+            se pertinentium permiserint, statuimus, in futuris causis obtinente.
+            * IUST. A. AD SENATUM. *&lt;&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

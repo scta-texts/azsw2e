@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 5</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 5</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2639"><!-- azsw2e-l5t5 -->
+            <head xml:id="azsw2e-d1e2639-Hd1e101">Titulus 5</head>
+            <head xml:id="azsw2e-d1e2639-Hd1e103" type="question-title">De incestis et inutilibus nuptiis</head>
+            <div xml:id="azsw2e-d1e2639-Dd1e106">
+               <head xml:id="azsw2e-d1e2639-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2639-d1e110">
+                  <ref xml:id="azsw2e-d1e2639-Rd1e112">Imperator
+            Alexander Severus</ref> Liberta eademque uxor tua, si a te invito
+            discessit, conubium cum alio non habet , si modo uxorem eam habere
+            velis. * ALEX. A. AMPHIGENI. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2639-Dd1e116">
+               <head xml:id="azsw2e-d1e2639-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2639-d1e120">
+                  <ref xml:id="azsw2e-d1e2639-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> Neminem, qui sub dicione sit romani
+            nominis, binas uxores habere posse vulgo patet, cum et in edicto praetoris
+            huiusmodi viri infamia notati sint. Quam rem competens iudex inultam
+            esse non patietur * DIOCL. ET MAXIM. AA. SEBASTIANAE. *&lt;A 285 PP.
+            III ID. DEC. DIOCLETIANO A. II ET ARISTOBULO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2639-Dd1e126">
+               <head xml:id="azsw2e-d1e2639-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2639-d1e130">
+                  <ref xml:id="azsw2e-d1e2639-Rd1e132">Imperator
+            Constantinus</ref>  Cum ancillis non potest esse conubium: nam ex huiusmodi
+            contubernio servi nascuntur. </p>
+               <p xml:id="azsw2e-d1e2639-d1e135" n="1">
+            Ideoque praecipimus, ne decuriones in gremia potentissimarum
+            domorum libidine servarum ducente confugiant. Si enim decurio clam
+            actoribus atque procuratoribus nescientibus alienae fuerit servae
+            coniunctus, et mulierem in metallum trudi per sententiam iudicis iubemus
+            et ipsum decurionem in insulam deportari, omnibus bonis eius civitati,
+            cuius curialis fuerat, mancipandis, si patria potestate fuerit liberatus
+            nullosque habeat liberos vel parentes vel etiam propinquos, qui secundum
+            legum ordinem ad eius successionem vocantur </p>
+               <p xml:id="azsw2e-d1e2639-d1e138" n="2">
+            Quod si actores vel procuratores loci, in quo flagitium admissum
+            est, fuerunt conscii vel compertum facinus promere noluerunt, metallo
+            eos convenit implicari. </p>
+               <p xml:id="azsw2e-d1e2639-d1e141" n="3">
+            Si vero dominus hoc fieri permisit vel postea cognitum celavit,
+            si quidem in agro id factum est, fundus cum mancipiis et pecoribus
+            ceterisque rebus. Quae cultui rustico sustinentur, fisci viribus vindicetur:
+            si vero in civitate id factum est, dimidiam bonorum omnium partem
+            praecipimus confiscari poenam augentes, quoniam intra domesticos parietes
+            scelus admissum est, quod noluit mox cognitum publicare * CONST. A.
+            PATROCLO. *&lt;A 319 D. K. IUL. AQUILEIAE CONSTANTINO A. V ET LICINIO
+            C. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2639-Dd1e146">
+               <head xml:id="azsw2e-d1e2639-Hd1e148">4</head>
+               <p xml:id="azsw2e-d1e2639-d1e150">
+                  <ref xml:id="azsw2e-d1e2639-Rd1e152">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref>  Qui contra legum praecepta
+            vel contra mandata constitutionesque principum nuptias forte contraxerit,
+            nihil ex eodem matrimonio, sive ante nuptias donatum sive deinceps
+            quoquo modo datum fuerit, consequatur, idque totum, quod ab alterius
+            liberalitate in alterum processerit, ut indigno indignaeve sublatum
+            fisco vindicari sancimus: </p>
+               <p xml:id="azsw2e-d1e2639-d1e155" n="1">
+            Exceptis tam feminis quam viris, qui aut errore acrissimo,
+            non adfectato insimulatove, neque ex causa vili decepti sunt aut aetatis
+            lubrico lapsi. </p>
+               <p xml:id="azsw2e-d1e2639-d1e158" n="2">
+            Quos tamen ita demum legis nostrae laqueis eximi placuit,
+            si aut errore comperto, aut ubi ad legitimos pervenerint annos, coniunctionem
+            huiuscemodi sine ulla recrastinatione diremerint. * VALENTIN. THEODOS.
+            ET ARCAD. AAA. AD ANDROMACHUM COM. RER. PRIVAT.*&lt;D. VII K. MART.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2639-Dd1e162">
+               <head xml:id="azsw2e-d1e2639-Hd1e164">5</head>
+               <p xml:id="azsw2e-d1e2639-d1e166">
+                  <ref xml:id="azsw2e-d1e2639-Rd1e168">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Fratris uxorem ducendi vel
+            duabus sororibus coniungendi penitus licentiam submovemus, nec dissoluto
+            quocumque modo coniugio. * VALENTIN. THEODOS. ET ARCAD. AAA. CYNEGIO
+            PP. *&lt;A 393 D.... K. DEC. CONSTANTINOPOLI THEODOSIO A. III ET ABUNDANTIO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2639-Dd1e172">
+               <head xml:id="azsw2e-d1e2639-Hd1e174">6</head>
+               <p xml:id="azsw2e-d1e2639-d1e176">
+                  <ref xml:id="azsw2e-d1e2639-Rd1e178">Imperatores
+            Arcadius, Honorius</ref>  Si quis incesti vetitique coniugii sese nuptiis
+            funestavit, proprias quamdiu vixerit teneat facultates, sed neque
+            uxorem neque filios ex ea editos habere credatur. </p>
+               <p xml:id="azsw2e-d1e2639-d1e181" n="1">
+            Nihil prorsus praedictis nec per interpositam quidem personam
+            vel donet superstes vel mortuus derelinquat. </p>
+               <p xml:id="azsw2e-d1e2639-d1e184" n="2">
+            Dos si qua forte sollemniter aut data aut promissa fuerit,
+            iuxta ius antiquum fisci nostri commodis cedat. </p>
+               <p xml:id="azsw2e-d1e2639-d1e187" n="3">
+            Testamento suo extraneis nihil relinquat, sed sive testato
+            sive intestato legibus ei et iure succedant, si qui forte ex iusto
+            et legitimo matrimonio editi fuerint, hoc est de descendentibus filius
+            filia nepos neptis pronepos proneptis, de ascendentibus pater mater
+            avus avia, de latere frater soror patruus amita. </p>
+               <p xml:id="azsw2e-d1e2639-d1e191" n="4">
+            Testandi sane ita demum habeat facultatem, ut his tantum
+            personis pro iuris ac legum quod voluerit arbitrio relinquat, quas
+            succedere imperialis praecepti tenore mandavimus: ita tamen, ut hereditate
+            defuncti penitus arceatur, si quis ex his quos memoravimus in contrahendis
+            incestis nuptiis consilium inisse monstrabitur, successuro in locum
+            illius, qui post eum gradum proximus invenitur. </p>
+               <p xml:id="azsw2e-d1e2639-d1e194" n="5">
+            Ea sane, quae de viris cavimus, etiam de feminis, quae praedictorum
+            sese consortiis commaculaverint, custodiantur. </p>
+               <p xml:id="azsw2e-d1e2639-d1e197" n="6">
+            Memoratis vero personis non extantibus fisco locus pateat.
+            * ARCAD. ET HONOR. AA. EUTYCHIANO PP. *&lt;A 396 D. VI ID. DEC. CONSTANTINOPOLI
+            ARCADIO IIII ET HONORIO III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2639-Dd1e201">
+               <head xml:id="azsw2e-d1e2639-Hd1e203">7</head>
+               <p xml:id="azsw2e-d1e2639-d1e205">
+                  <ref xml:id="azsw2e-d1e2639-Rd1e207">Imperatores
+            Valentinianus, Marcianus</ref>  Humilem vel abiectam feminam minime
+            eam iudicamus intellegi, quae, licet pauper, ab ingenuis tamen parentibus
+            nata sit. </p>
+               <p xml:id="azsw2e-d1e2639-d1e210" n="1">
+            Unde licere statuimus senatoribus et quibuscumque amplissimis
+            dignitatibus praeditis, ex ingenuis natas quamvis pauperes in matrimonium
+            sibi adsciscere, nullam que inter ingenuas ex divitiis et opulentiore
+            fortuna esse distantiam. </p>
+               <p xml:id="azsw2e-d1e2639-d1e213" n="2">
+            Humiles vero abiectasque personas eas tantummodo mulieres
+            esse censemus: ancillam ancillae filiam, libertam, libertae filiam,
+            scaenicam vel scaenicae filiam, tabernariam vel tabernarii vel lenonis
+            aut harenarii filiam, aut eam quae mercimoniis publice praefuit: ideoque
+            huiusmodi inhibuisse nuptias senatoribus harum feminarum, quas nunc
+            enumeravimus. * VALENTIN. ET MARCIAN. AA. PALLADIO PP. *&lt;A 454
+            D. PRID. NON. APRIL. CONSTANTINOPOLI AETIO ET STUDIO VV. CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2639-Dd1e217">
+               <head xml:id="azsw2e-d1e2639-Hd1e219">8</head>
+               <p xml:id="azsw2e-d1e2639-d1e221">
+                  <ref xml:id="azsw2e-d1e2639-Rd1e223">Imperator
+            Zeno</ref> Licet quidam aegyptiorum idcirco mortuorum fratrum sibi
+            coniuges matrimonio copulaverint, quod post illorum mortem mansisse
+            virgines dicebantur, arbitrati scilicet, quod certis legum conditoribus
+            placuit, cum corpore non convenerint, nuptias re non videri contractas,
+            et huiusmodi conubia tunc temporis celebrata firmata sunt, tamen praesenti
+            lege sancimus, si quae huiusmodi nuptiae contractae fuerint, earumque
+            contractores et ex his progenitos antiquarum legum tenori subiacere
+            nec ad exemplum aegyptiorum, de quibus superius dictum est, eas videri
+            fuisse firmatas vel esse firmandas. * ZENO A. EPINICO PP. *&lt;A 475
+            D. K. SEPT. CONSTANTINOPOLI POST CONSULATUM LEONIS IUNIORIS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2639-Dd1e227">
+               <head xml:id="azsw2e-d1e2639-Hd1e229">9</head>
+               <p xml:id="azsw2e-d1e2639-d1e231">
+                  <ref xml:id="azsw2e-d1e2639-Rd1e233">Imperator
+            Zeno</ref> Ab incestis nuptiis universi qui nostro reguntur imperio
+            noverint temperandum. Nam rescripta quoque omnia vel pragmaticas formas
+            aut constitutiones impias, quae quibusdam personis tyrannidis tempore
+            permiserunt scelesto contubernio matrimonii nomen imponere, ut fratris
+            filiam vel sororis et eam, quae cum fratre quondam nuptiali iure habitaverat,
+            uxorem legitimam turpissimo consortio liceret amplecti, aut ut alia
+            huiusmodi committerentur, viribus carere decernimus, ne dissimulatione
+            culpabili nefanda licentia roboretur * ZENO A. SEBASTIANO PP. *&lt;A
+            476-484 &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 36</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 36</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6576"><!-- azsw2e-l10t36 -->
+            <head xml:id="azsw2e-d1e6576-Hd1e101">Titulus 36</head>
+            <head xml:id="azsw2e-d1e6576-Hd1e103" type="question-title">De imponenda lucrativis descriptione</head>
+            <div xml:id="azsw2e-d1e6576-Dd1e106">
+               <head xml:id="azsw2e-d1e6576-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6576-d1e110">
+                  <ref xml:id="azsw2e-d1e6576-Rd1e112">Imperatores
+            Theodosius, Valentinianus</ref>  Descriptionis onere siliquarum quattuor,
+            quas ex lucrativis iugationibus tantum, non humanis vel animalium
+            censibus neque mobilibus rebus iubemus indici, etsi curiales non sit,
+            maiores ac posteros liberamus, ut, si pater avus vel proavus filio
+            nepoti pronepotive vel filiae nepti proneptive ( nec interest, nuptae
+            sint curialibus nec ne) postrema voluntate vel inter vivos etiam donatione
+            quicquam de suis opibus largiatur, memoratae descriptionis cesset
+            indictio: eque diverso ut, si posteriores ad maiores praedicta sibi
+            consanguinitate devinctos praefatis titulis suas conferant facultates,
+            nullius accessione gravaminis huiusmodi liberalitas oneretur: ita
+            enim necessariis sibi coniunctisque personis sub liberalitatis appellatione
+            debitum naturale persolvitur. </p>
+               <p xml:id="azsw2e-d1e6576-d1e115" n="1">
+            Cuius auctoritatem iuris pariter valere sancimus, et si ab
+            intestato succedant praefiniti sibi generis ordine sociati: ex his
+            enim successionibus maxime debiti potius solutio quam muneris oblatio
+            comprobatur, quae non largientibus etiam dominis ipsa propinquitatis
+            serie deferuntur. </p>
+               <p xml:id="azsw2e-d1e6576-d1e118" n="2">
+            Ceteri vero, licet quadam inter se cognatione iungantur,
+            numquam tamen curiale praedium sine praedicto onere lucrabuntur, nisi
+            is forte, cui lucro res cesserit, eiusdem civitatis ordini sit obstrictus,
+            qui, licet inter extraneos numeretur, vacuum tamen ea functione quod
+            datum est consequatur: nam cum personae condicio non mutetur, nec
+            rei quidem statum convenit immutari. </p>
+               <p xml:id="azsw2e-d1e6576-d1e121" n="3">
+            ( 1) lucravitas vero res eas tantum volumus appellari atque
+            praedictae descriptionis gravamen excipere, quae hereditatis legati
+            fideicommissi iure mortis causa donatione vel cuiuslibet postremae
+            voluntatis arbitrio ad quempiam delabuntur. </p>
+               <p xml:id="azsw2e-d1e6576-d1e125" n="4">
+            Inter vivos etiam donatio simplici liberalitate confecta
+            lucrativae merebitur et nomen et sarcinam. Si vero vel socer futurus
+            filii nepotis vel pronepotis sponsae adfinitatis coeundae causa donaverit,
+            vel parens etiam filiam neptem vel proneptem curiali seu extraneo
+            nubentem dotaverit, licet casus eventu res eius cui data est vertatur
+            ad lucrum, nec inter lucrativas numerabitur nec descriptionis oneri
+            subiacebit. Nec enim iuris optimi est matrimonium, cum tot tantisque
+            suis difficultatibus opprimatur, adventiciis etiam cumulare ponderibunt. 
+            </p>
+               <p xml:id="azsw2e-d1e6576-d1e128" n="5">
+            Res vero, quae memoratis causis lucrativae semel nomen exordiumque
+            sortita est, licet ab eo qui susceperit ad alterum emptionis vel cuiuscumque
+            contractus iure migraverit, cum praedicto descriptionis gravamine
+            procul dubio transferetur, ut vel sciens sibi imputet, qui accepit
+            oneratam, vel, si ignoraverit, quod interest consequatur: contraque
+            si cuiuslibet contractus exordio lucrativae nomen evaserit, etsi postea
+            lucri titulo in dominatum alicuius ceciderit, sarcinam memoratae descriptionis
+            effugiet. </p>
+               <p xml:id="azsw2e-d1e6576-d1e131" n="6">
+            Nulla enim in huiuscemodi causis confusionis intercedit occasio,
+            si ad primordium tituli posterior quoque formetur eventus, nisi forte
+            res decurionis, quae ad eum cuiuslibet mercimonii iure pervenerit,
+            ad alterum fuerit postrema eius voluntate vel ab intestato vel inter
+            vivos donatione translata: tunc enim, quia semel in personam cecidit
+            principalis, veterum titulorum nequaquam ratione perspecta condicionem
+            et onus merebitur lucrativae. * THEODOS. ET VALENTIN. AA. APOLLONIO
+            PP. *&lt;A 442 D.VII ID.MART.CONSTANTINOPOLI POST CONSULATUM DIOSCURI
+            ET EUDOXII VV.CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

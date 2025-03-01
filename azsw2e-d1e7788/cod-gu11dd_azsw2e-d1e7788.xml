@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 66</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 66</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7788"><!-- azsw2e-l11t66 -->
+            <head xml:id="azsw2e-d1e7788-Hd1e101">Titulus 66</head>
+            <head xml:id="azsw2e-d1e7788-Hd1e103" type="question-title">De fundis rei privatae et saltibus divinae domus</head>
+            <div xml:id="azsw2e-d1e7788-Dd1e106">
+               <head xml:id="azsw2e-d1e7788-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7788-d1e110">
+                  <ref xml:id="azsw2e-d1e7788-Rd1e112">Imperatores
+            Constantius, Constans</ref> Universi cognoscant has possessiones quas
+            de fisco nostro comparaverunt seu comparant, nullo a nobis iure retrahi,
+            sed propria firmitate possessas etiam ad posteros suos dominii perpetui
+            durabilitate dimitti. * CONSTANTIUS ET CONSTANS AA. EDICTUM AD HELIOPOLITANOS.
+            *&lt;A 341 D. PRID. ID. FEBR.ANTIOCHIAE MARCELLINO ET PROBINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7788-Dd1e116">
+               <head xml:id="azsw2e-d1e7788-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7788-d1e120">
+                  <ref xml:id="azsw2e-d1e7788-Rd1e122">Imperatores
+            Valentinianus, Valens</ref>  Ii, quos commoditas privatae rei praediorum
+            ad ea postulanda sollicitat, adeant tuae dicationis officium et modum
+            suae deliberationis indicent per libellos certumque habeant pro unaquaque
+            villa, cum eo onere vel forma cui nunc habetur obnoxia ad novi domini
+            iura migraverit, ut, si quid adiecerit sumptus cura sollertia, quidquid
+            mancipiorum vel pecoris adcreverit, capitationis aut canonis augmenta
+            non patiatur, sed solis dominis heredibusque dominorum sit cessura
+            felicitas. </p>
+               <p xml:id="azsw2e-d1e7788-d1e125" n="1">
+            Si quis autem in annis singulis non solverit debitum, ex
+            re ipsius, quod in reliquis remansisse claruerit, sine aliquibus dependere
+            cogetur indutiis. </p>
+               <p xml:id="azsw2e-d1e7788-d1e128" n="2">
+            Sane si quem postea minus idoneum factum esse constabit nec
+            ita ut expedit rationem reddere pensionis, res, quas ex nostris rebus
+            acceperat, ad alium idoneum iure quo sanximus transferentur: nec tamen
+            decoctoris cuiusque reliquis qui novus accedit onerari. * VALENTIN.
+            ET VALENS AA. AD FLORIANUM COM. RER. PRIVAT. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7788-Dd1e132">
+               <head xml:id="azsw2e-d1e7788-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e7788-d1e136">
+                  <ref xml:id="azsw2e-d1e7788-Rd1e138">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Quicumque possessionem
+            rei privatae nostrae acceptam suo nomine vel iure perpetuo vel titulo
+            conductionis ei crediderit esse tradendam, qui pensare utilitatem
+            patrimonii nostri solvendo non valeat, is pro eo quem succedaneum
+            subrogavit perpetuae solutioni statuatur obnoxius. * GRAT. VALENTIN.
+            ET THEODOS. AAA. AD HESPERIUM PROCONS. AFRICAE.*&lt;A 376?&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7788-Dd1e143">
+               <head xml:id="azsw2e-d1e7788-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e7788-d1e147">
+                  <ref xml:id="azsw2e-d1e7788-Rd1e149">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Universi fundi templorum
+            ad rationalium rei privatae sollicitudinem curamque pertineant atque
+            ab his anniversariis solutionibus postulatis peculiari, ut semper
+            fuit, studio defendantur. * GRAT. VALENTIN. ET THEODOS. AAA. AD NEBRIDIUM
+            COM. RER. PRIVAT.*&lt;A 382-384 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7788-Dd1e153">
+               <head xml:id="azsw2e-d1e7788-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e7788-d1e157">
+                  <ref xml:id="azsw2e-d1e7788-Rd1e159">Imperatores
+            Gratianus, Valentinianus, Theodosius, Arcadius</ref>  Usus aquae, quae
+            fundorum nostrorum utilitatibus serviebat, plurimorum dicitur usurpatione
+            sublatus, idque procuratorum coniventia vel dissimulatione perfectum
+            , ut agrorum fertilitas destituta nullos fructus cultoribus praestet.
+            </p>
+               <p xml:id="azsw2e-d1e7788-d1e162" n="1">
+            Quia igitur satis iniustum est statum florentis ante patrimonii
+            aridae sitis molestia fatigari, ad meatus pristinos universum aquae
+            modum temporis praescriptione submota praecipimus revocari. * GRAT.
+            VALENTIN. ET THEODOS. ET ARCAD. AAAA. AD NEBRIDIUM COM. RER. PRIVAT.*&lt;A
+            383-384 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7788-Dd1e166">
+               <head xml:id="azsw2e-d1e7788-Hd1e168">6</head>
+               <p xml:id="azsw2e-d1e7788-d1e170">
+                  <ref xml:id="azsw2e-d1e7788-Rd1e172">Imperatores
+            Arcadius, Honorius</ref> Eum, qui curiae vel collegio vel burgis ceterisque
+            corporibus per triginta annos sine interpellatione servierit, res
+            dominica vel intentio privata non inquietabit, si colonatus vel inquilinatus
+            quaestionem movere temptaverit: sed in curia vel in corpore, in quo
+            servierit, remaneat. * ARCAD. ET HONOR. AA. VINCENTIO PP. GALLIARUM.
+            *&lt;A 400 D. III K. IUL. MEDIOLANI STILICHONE ET AURELIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7788-Dd1e176">
+               <head xml:id="azsw2e-d1e7788-Hd1e178">7</head>
+               <p xml:id="azsw2e-d1e7788-d1e180">
+                  <ref xml:id="azsw2e-d1e7788-Rd1e182">Imperatores
+            Theodosius, Valentinianus</ref>  Nemo dempto canone ad comparationem
+            dominicae possessionis accedat. </p>
+               <p xml:id="azsw2e-d1e7788-d1e185" n="1">
+            Quod si quis in posterum ad interdictum contractum accesserit,
+            eum volumus pretia perdere fundos reddere fructus redhibere perpetuo
+            nec expensarum vel melioratae rei fructuum exactioni compensationem
+            opponere nec temporis sibimet contra nostra commoda praescriptione,
+            excepto vetustatis auxilio, blandiri. </p>
+               <p xml:id="azsw2e-d1e7788-d1e188" n="2">
+            Palatinum etiam officium, si quoquo modo contractus eiusmodi
+            fuerit celebratus vel si talem petitionem instruxerit, quinquaginta
+            pondo auri poenae nomine inferre privato nostrae mansuetudinis aerario.
+            </p>
+               <p xml:id="azsw2e-d1e7788-d1e191" n="3">
+            Nulla liberalitate nostrae clementiae, nulla sanctione contra
+            tanta rei privatae commoda valitura, licet adnotatio vel divina pragmatica
+            sit, quae contra vetita canonem vendere concedit vel poenam palatino
+            remittit officio. * THEODOS. ET VALENTIN. AA. AD EUDOXIUM COM. RER.
+            PRIVAT. *&lt;A 440 D. XIII K. IUN. CONSTANTINOPOLI ANATOLIO VC. CONS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

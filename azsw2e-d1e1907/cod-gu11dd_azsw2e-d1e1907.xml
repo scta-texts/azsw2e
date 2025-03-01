@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 6</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 6</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1907"><!-- azsw2e-l4t6 -->
+            <head xml:id="azsw2e-d1e1907-Hd1e101">Titulus 6</head>
+            <head xml:id="azsw2e-d1e1907-Hd1e103" type="question-title">De condictione ob causam datorum</head>
+            <div xml:id="azsw2e-d1e1907-Dd1e106">
+               <head xml:id="azsw2e-d1e1907-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1907-d1e110">
+                  <ref xml:id="azsw2e-d1e1907-Rd1e112">Imperator
+            Antoninus</ref> Pecuniam quam te ob dotem accepisse pactumque interpositum
+            ( ut fieri, cum iure matrimonium contrahitur, adsolet) proponis: impediente
+            quocumque modo iuris auctoritate matrimonium constare nullam de dote
+            actionem habet et propterea pecuniam, quam eo nomine accepisti, iure
+            condictionis restituere debes et pactum, quod ita interpositum est,
+            perinde ac si interpositum non esset haberi oportet. * ANT. A. CALLISTHENI.
+            *&lt;A 215 PP. VI K. AUG. LAETO II ET CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1907-Dd1e116">
+               <head xml:id="azsw2e-d1e1907-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e1907-d1e120">
+                  <ref xml:id="azsw2e-d1e1907-Rd1e122">Imperator
+            Alexander Severus</ref> Si, ut proponis, pater tuus ea lege sorori
+            tuae praedia ceterque quorum meministi donavit, ut creditoribus ipsa
+            satisfaceret ac, si placita observata non essent, donatio resolveretur,
+            eaque contra fidem negotii gesti versata est, non est iniquum actionem
+            condictionis ad repetitionem rerum donatarum tibi qui patri successisti
+            decerni. * ALEX. A. ASCLEPIADI. *&lt;A 227 PP. XIIII K. DEC. ALBINO
+            ET MAXIMO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1907-Dd1e126">
+               <head xml:id="azsw2e-d1e1907-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e1907-d1e130">
+                  <ref xml:id="azsw2e-d1e1907-Rd1e132">Imperatores
+            Valerianus, Gallienus</ref> Ea lege in vos collata donatio, ut neutri
+            alienandae suae portionis facultas ulla competeret, id efficit, ne
+            alteruter eorum dominium prorsus alienaret, vel ut donatori vel heredi
+            eius condictio, si non fuerit condicio servata, quaeratur. * VALER.
+            ET GALLIEN. AA. AURELIO ET ALEXANDRO. *&lt;A 257 PP. K. APRIL. VALERIANO
+            IIII ET GALLIENO III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1907-Dd1e137">
+               <head xml:id="azsw2e-d1e1907-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e1907-d1e141">
+                  <ref xml:id="azsw2e-d1e1907-Rd1e143">Imperatores
+            Valerianus, Gallienus</ref> Si, cum exiguam pecuniam re vera susciperes,
+            longe maiorem te accepisse cavisti eo, quod tibi patrocinium adversarius
+            repromitteret, cum dicas fidem promissi non secutam, ut libereris
+            obligatione eius, quod non acceptum propter speratum patrocinium spopondisti,
+            per condictionem consequeris. * VALER. ET GALLIEN. AA. ET VALER. C.
+            AEMILIAE. *&lt;A 259 PP. V K. MAI. AEMILIANO ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1907-Dd1e147">
+               <head xml:id="azsw2e-d1e1907-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e1907-d1e151">
+                  <ref xml:id="azsw2e-d1e1907-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Si militem ad negotium tuum procuratorem
+            fecisti, cum hoc legibus interdictum sit, ac propter hoc pecuniam
+            ei numerasti, quidquid ob causam datum est, causa non secuta restitui
+            tibi competens iudex curae habebit. * DIOCL. ET MAXIM. AA. MARTIALI.
+            *&lt;A 290 PP. X K. OCT. IPSIS IIII ET III CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1907-Dd1e157">
+               <head xml:id="azsw2e-d1e1907-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e1907-d1e161">
+                  <ref xml:id="azsw2e-d1e1907-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Cum ancillam patrem vestrum ei, contra
+            quem supplicastis, dedisse proponatis, interest multum, utrumne donandi
+            animo dedit, an ob manumittendam filiam, quam ancillam existimabat,
+            cum perfecta quidem donatio revocari non possit, causa vero dandi
+            non secuta repetitio competat. * DIOCL. ET MAXIM. AA. ET CC. CURIONI
+            ET PLOTIONI. *&lt;A 293 S. II ID. MAI. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1907-Dd1e167">
+               <head xml:id="azsw2e-d1e1907-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e1907-d1e171">
+                  <ref xml:id="azsw2e-d1e1907-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Si repetendi, quod donabas uxori eius,
+            quem ad proficiscendum tecum huiusmodi liberalitate provocare proposueras,
+            nullam addidisti condicionem, remanet integra donatio, cum levitati
+            perfectam donationem revocare cupientium iure occurratur. * DIOCL.
+            ET MAXIM. AA. ET CC. GERONTIO. *&lt;A 293 S. VII K. SEPT. AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1907-Dd1e177">
+               <head xml:id="azsw2e-d1e1907-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e1907-d1e181">
+                  <ref xml:id="azsw2e-d1e1907-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Dictam legem donationi, si non impossibilem
+            contineat causam, ab eo qui hanc suscepit non impletam condictioni
+            facere locum iuris dictat disciplina. Quapropter si titulo liberalitatis
+            res tuas in sponsam conferendo certam dixisti legem, nec huic illa,
+            cum posset, paruit, successores ipsius de repetendis quae dederas,
+            si hoc tibi placuerit, convenire non prohiberis * DIOCL. ET MAXIM.
+            AA. ET CC. FLAVIANO. *&lt;A 294 S. III ID. FEBR. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1907-Dd1e187">
+               <head xml:id="azsw2e-d1e1907-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e1907-d1e191">
+                  <ref xml:id="azsw2e-d1e1907-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Si liber constitutus, ut filiae tuae
+            manumittantur, aliquid dedisti, causa non secuta de hoc tibi restituendo
+            condictio competit. Nam si quid servus de peculio domino dederit,
+            contra eum nullam actionem habere potest: sed dominum, qui semel accipere
+            pecuniam pro libertate passus est, aditus rector provinciae hortabitur
+            salva reverentia ( favore scilicet libertatis) placito suo stare *
+            DIOCL. ET MAXIM. AA. ET CC. BIBULO. *&lt;A 294 S. III ID. FEBR. SIRMI
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1907-Dd1e198">
+               <head xml:id="azsw2e-d1e1907-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e1907-d1e202">
+                  <ref xml:id="azsw2e-d1e1907-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> Pecuniam a te datam, licet causa, pro
+            qua data est, non culpa accipientis, sed fortuito casu secuta non
+            est, minime repeti posse certum est. * DIOCL. ET MAXIM. AA. ET CC.
+            CONONIANAE. *&lt;A 294 S. III NON. DEC. NICOMEDIAE CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1907-Dd1e208">
+               <head xml:id="azsw2e-d1e1907-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e1907-d1e212">
+                  <ref xml:id="azsw2e-d1e1907-Rd1e214">Imperatores
+            Diocletianus, Maximianus</ref> Advocationis causa datam pecuniam,
+            si per eos qui acceperant, quominus susceptam fidem impleant, stetisse
+            probetur, restituendam esse convenit. * DIOCL. ET MAXIM. AA. ET CC.
+            STRATONICAE. *&lt;A 294 S. XVII K. IAN. CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 41</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 41</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7509"><!-- azsw2e-l11t41 -->
+            <head xml:id="azsw2e-d1e7509-Hd1e101">Titulus 41</head>
+            <head xml:id="azsw2e-d1e7509-Hd1e103" type="question-title">De spectaculis et scaenicis et lenonibus</head>
+            <div xml:id="azsw2e-d1e7509-Dd1e106">
+               <head xml:id="azsw2e-d1e7509-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7509-d1e110">
+                  <ref xml:id="azsw2e-d1e7509-Rd1e112">Imperatores
+            Valens, Gratianus, Valentinianus</ref> Non invidemus, sed potius cohortamur
+            amplectenda felicis populi studia, gymnici ut agonis spectacula reformentur.
+            Verumtamen cum primates viri populi studiis ac voluptatibus grati
+            esse cupiant, promptius permittimus, ut integra sit voluptas, quae
+            volentium celebretur impensis * VALENS GRAT. ET VALENTIN. AAA. AD
+            HESPERIUM PROCONS. AFRICAE. *&lt;A 376 D.VI ID.MART.TRIVERIS VALENTE
+            V ET VALENTINIANO AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7509-Dd1e116">
+               <head xml:id="azsw2e-d1e7509-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7509-d1e120">
+                  <ref xml:id="azsw2e-d1e7509-Rd1e122">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Quisquis equosus, quos
+            vel serenitas nostra vel ordinarii consules tribuunt voluptatibus,
+            ad commodum compendiumque privatum abduxerit, unius librae auri condemnatione
+            multetur. * GRAT. VALENTIN. ET THEODOS. AAA. AD VALERIANUM PU. *&lt;A
+            381 D.VIII K.MAI.TRIVERIS EUCHERIO ET SYAGRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7509-Dd1e126">
+               <head xml:id="azsw2e-d1e7509-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e7509-d1e130">
+                  <ref xml:id="azsw2e-d1e7509-Rd1e132">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Eos qui agitandi munus
+            exercent illustris auctoritas tua nullis praeter circense certamen
+            adfici noverit oportere suppliciis. * GRAT. VALENTIN. ET THEODOS.
+            AAA. AD VALERIANUM PU. *&lt;A 381 D.VIII ID.MAI.EUCHERIO ET SYAGRIO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7509-Dd1e137">
+               <head xml:id="azsw2e-d1e7509-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e7509-d1e141">
+                  <ref xml:id="azsw2e-d1e7509-Rd1e143">Imperatores
+            Theodosius, Arcadius, Honorius</ref>  Si qua in publicis porticibus
+            vel in his civitatum locis, in quibus nostrae solent imagines consecrari,
+            pictura pantomimum veste humili et rugosis sinibus agitatorem aut
+            vilem offerat histrionem, ilico revellatur neque umquam posthac liceat
+            in loco honesto inhonestas adnotare personas.</p>
+               <p xml:id="azsw2e-d1e7509-d1e146" n="1">
+            In aditu vero circi vel in theatri proscaeniis ut collocentur,
+            non vetamus.* THEODOS. ARCAD. ET HONOR. AAA. RUFINO PP. *&lt;A
+            394 D.III K.IUL.HERACLEAE ARCADIO A.III ET HONORIO A.II CONSS. &gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7509-Dd1e150">
+               <head xml:id="azsw2e-d1e7509-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e7509-d1e154">
+                  <ref xml:id="azsw2e-d1e7509-Rd1e156">Imperatores
+            Honorius, Theodosius</ref> Nemo iudicum ex quamcumque civitate in
+            aliud oppidum vel ex provinciae solo equos curules aurigas bestias
+            histriones cives temptet traducere, ne, dum popularibus plausibus
+            intemperanter serviunt, et publicarum rerum statum fatigent et festivitatem
+            impediant in cunctis oppidis celebrandam: ita ut, si quis hanc violaverit
+            iussionem, poena teneatur ea, quae legum violatores persequitur. *
+            HONOR. ET THEODOS. AA. ANTHEMIO PP. *&lt;A 409 D.VIII ID.AUG.CONSTANTINOPOLI
+            HONORIO VIII ET THEODOSIO III AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7509-Dd1e160">
+               <head xml:id="azsw2e-d1e7509-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e7509-d1e164">
+                  <ref xml:id="azsw2e-d1e7509-Rd1e166">Imperatores
+            Theodosius, Valentinianus</ref>  Lenones patres et dominos, qui suis
+            filiabus vel ancillis peccandi necessitatem imponunt, nec iure frui
+            dominii nec tanti criminis patimur libertate gaudere. </p>
+               <p xml:id="azsw2e-d1e7509-d1e169" n="1">
+            Igitur tali placet eos indignatione subduci, ne potestatis
+            iure frui valeant neve quid eis ita possit adquiri. Sed ancillis filiabusque,
+            si velint, conductisve pro paupertate personis, quas sors damnavit
+            humilior, episcoporum liceat, iudicum etiam defensorumque implorato
+            suffragio omni miseriarum necessitate absolvi, ita ut, si insistendum
+            eis lenones esse crediderint vel peccandi ingerant necessitatem invitis,
+            non amittant solum eam quam habuerant potestatem, sed proscripti poenae
+            mancipentur exilii metallis addicendi publicis: quae minor poena est,
+            quam si praecepto lenonis cogatur quispiam coitionis sordes ferre,
+            quas nolit. * THEODOS. ET VALENTIN. AA. FLORENTIO PP. *&lt;A 428 D.XI
+            K.MAI.FELICE ET TAURO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7509-Dd1e173">
+               <head xml:id="azsw2e-d1e7509-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e7509-d1e177"><!-- greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

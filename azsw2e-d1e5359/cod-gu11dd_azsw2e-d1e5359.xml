@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 36</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 36</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5359"><!-- azsw2e-l8t36 -->
+            <head xml:id="azsw2e-d1e5359-Hd1e101">Titulus 36</head>
+            <head xml:id="azsw2e-d1e5359-Hd1e103" type="question-title">De litigiosis</head>
+            <div xml:id="azsw2e-d1e5359-Dd1e106">
+               <head xml:id="azsw2e-d1e5359-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5359-d1e110">
+                  <ref xml:id="azsw2e-d1e5359-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Cum creditor pignus vendit, non potest videri
+            litigiosae rei emptio contrahi, etsi debitor interdicat, ne venditio
+            perficiatur. * SEV. ET ANT. AA. PAULINAE. *&lt;A 207 PP. K. MAI. APRO
+            ET MAXIMO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5359-Dd1e116">
+               <head xml:id="azsw2e-d1e5359-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5359-d1e120">
+                  <ref xml:id="azsw2e-d1e5359-Rd1e122">Imperator
+            Constantinus</ref> Lite pendente actiones, quae in iudicium deductae
+            sunt, vel res, pro quibus actor a reo detentis intendit, in coniunctam
+            personam vel extraneam donationibus vel emptionibus vel quibuslibet
+            aliis contractibus minime transferri ab eodem actore liceat, tamquam
+            si nihil factum sit, lite nihilo minus peragenda. * CONST. A. AD PROVINCIALES.
+            *&lt;A 331 D. K. AUG. BASSO ET ABLABIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5359-Dd1e126">
+               <head xml:id="azsw2e-d1e5359-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5359-d1e130">
+                  <ref xml:id="azsw2e-d1e5359-Rd1e132">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Quicumque rem litigiosam
+            vel ambiguum chirographum, quodlibet denique mobile vel immobile fisco
+            nostro vel potentiori seu aliis personis in testamento sive codicillo
+            legaverit fideive commiserit aut per hereditatem reliquerit, nullam
+            fiscus noster vel alia persona licentiam habeat iurgiorum, nec iudicium
+            subeat, sed aestimatio eius litis ineatur praestanda his, quibus actiones
+            vel res litigiosae relictae sunt. </p>
+               <p xml:id="azsw2e-d1e5359-d1e135" n="1">
+            Eandem litem ipsi heredes peragant, suarum actionum periculo
+            ea quae litigiosa relicta fuerant vindicantes. </p>
+               <p xml:id="azsw2e-d1e5359-d1e138" n="2">
+            Quod et de chirographis placet, ut heredes relictorum fisco
+            vel aliis personis praesentem pecuniam numerent et iudicio eos, quos
+            obnoxios existimant, persequantur.* GRAT. VALENTIN. ET THEODOS. AAA.
+            TATIANO PP. *&lt;A 380 D. XV K. IUL. THESSALONICAE GRATIANO V ET THEODOSIO
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5359-Dd1e143">
+               <head xml:id="azsw2e-d1e5359-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e5359-d1e147">*
+            *&lt;a 501 xiii k. ian. Constantinopoli Pompeio et Avieno conss.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5359-Dd1e150">
+               <head xml:id="azsw2e-d1e5359-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e5359-d1e154">
+                  <ref xml:id="azsw2e-d1e5359-Rd1e156">Imperator
+            Justinianus</ref>  Censemus, ut, si quis lite pendente vel actiones
+            vel res quas possidet ad alium quendam transtulerit sive scientem
+            sive ignorantem, vitio litigiosi contractus subiacere: distinctione
+            quadam inter contrahentes observanda, ut, si quis sciens vel ad venditiones
+            vel donationes seu ad alios contractus accesserit, cognoscat se compellendum
+            non tantum rem redhibere, sed etiam pretio eius privari, non ut lucro
+            cedat ei qui rem alienavit, sed ut etiam alia tanta quantitas ab eo
+            fisci viribus inferatur: </p>
+               <p xml:id="azsw2e-d1e5359-d1e159" n="1">
+            Sin autem ignorans rem litigiosam emerit vel per aliam speciem
+            contractus eam acceperit, tunc irrita rei alienatione facta pretium
+            cum alia tertia parte recipiat. Iustum est etenim propter dolosam
+            mentem et absconditam machinationem, cum non emptori manifestaverit
+            rem in iudicium deductam fuisse, tertia parte pretii, sicut iam disposuimus,
+            eum puniri </p>
+               <p xml:id="azsw2e-d1e5359-d1e162" n="2">
+            Tali videlicet poena non solum in aliis contractibus, verum
+            etiam in donationibus porrigenda, ut vera aestimatione facta, cum
+            pretii datio non est, rem ad alium transferens multetur: omnibus instrumentis,
+            quae super hoc constituuntur, nullam vim obtinentibus. </p>
+               <p xml:id="azsw2e-d1e5359-d1e165" n="3">
+            Exceptis videlicet huius sanctionis dispositione his, qui
+            vel dotis nomine vel ante nuptias donationis vel transactionis aut
+            divisionis rerum hereditariarum factae vel per legati vel fideicommissi
+            causam tales res vel actiones dederint vel acceperint. * IUST. A.
+            IOHANNI PP. *&lt;A 532 D. XV K. NOV. CONSTANTINOPOLI POST CONSULATUM
+            LAMPADII ET ORESTIS VV. CC. ANNO SECUNDO.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

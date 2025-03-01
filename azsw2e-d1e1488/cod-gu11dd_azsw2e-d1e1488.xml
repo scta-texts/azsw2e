@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 13</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 13</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1488"><!-- azsw2e-l3t13 -->
+            <head xml:id="azsw2e-d1e1488-Hd1e101">Titulus 13</head>
+            <head xml:id="azsw2e-d1e1488-Hd1e103" type="question-title">De iurisdictione omnium iudicum et de foro competenti</head>
+            <div xml:id="azsw2e-d1e1488-Dd1e106">
+               <head xml:id="azsw2e-d1e1488-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1488-d1e110">
+                  <ref xml:id="azsw2e-d1e1488-Rd1e112">Imperatores
+            Severus, Antoninus</ref>  Non quidem fuit iudex procurator noster in
+            lite privatorum: sed cum ipsi eum iudicem elegeritis et is consentientibus
+            adversariis sententiam tulerit, intellegitis vos adquiescere debere
+            rei ex consensu vestro iudicatae, cum et procurator iudicandi potestatem
+            inter certas habeat personas, et vos incongruum eum esse vobis iudicem
+            scientes tamen audientiam eius elegistis. </p>
+               <p xml:id="azsw2e-d1e1488-d1e115" n="1">
+            Quod et in aliis similibus iudiciis tam in actionem proponentis
+            quam in exceptionem opponentis persona locum habebit. * SEV. ET ANT.
+            AA. SEVERO ET ALIIS. *&lt;A 214 D. II ID. IAN. MESSALA ET SABINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1488-Dd1e119">
+               <head xml:id="azsw2e-d1e1488-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e1488-d1e123">
+                  <ref xml:id="azsw2e-d1e1488-Rd1e125">Imperatores
+            Diocletianus, Maximianus</ref> Iuris ordinem converti postulas, ut
+            non actor rei forum, sed reus actoris sequatur: nam ubi domicilium
+            habet reus vel tempore contractus habuit, licet hoc postea transtulerit,
+            ibi tantum eum conveniri oportet. * DIOCL. ET MAXIM. AA. ET CC. ALEXANDRO.
+            *&lt;A 293 PP. VI K. SEPT. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1488-Dd1e129">
+               <head xml:id="azsw2e-d1e1488-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e1488-d1e133">
+                  <ref xml:id="azsw2e-d1e1488-Rd1e135">Imperatores
+            Diocletianus, Maximianus</ref> Privatorum consensus iudicem non facit
+            eum, qui nulli praeest iudicio, nec quod is statuit rei iudicatae
+            continet auctoritatem. * DIOCL. ET MAXIM. AA. ET CC. IUDAE. *&lt;A
+            293 S. VI K. IAN. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1488-Dd1e140">
+               <head xml:id="azsw2e-d1e1488-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e1488-d1e144">
+                  <ref xml:id="azsw2e-d1e1488-Rd1e146">Imperator
+            Constantinus</ref> Nemo post litem contestatam ordinariae sedis declinet
+            examen, nec prius praefecti praetorio aut comitis orientis vel alterius
+            spectabilis iudicis imploret auxilium, sed appellatione legibus facta
+            ad sacrum auditorium veniat. * CONST. A. AD UNIVERSOS PROVINCIALES.
+            *&lt;A 331 PP. K. OCT. BASSO ET ABLABIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1488-Dd1e150">
+               <head xml:id="azsw2e-d1e1488-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e1488-d1e154">
+                  <ref xml:id="azsw2e-d1e1488-Rd1e156">Imperatores
+            Arcadius, Honorius</ref>  In criminali negotio rei forum accusator
+            sequatur. </p>
+               <p xml:id="azsw2e-d1e1488-d1e159" n="1">
+            Is vero, qui suam causam sive criminalem sive civilem sine
+            caelesti oraculo in vetito vocabit examine aut exsecutionem poposcerit
+            militarem, actor quidem propositi negotii actione multetur, reus vero
+            pro condemnato habeatur: et tribuni sive vicarii capitalem sibi animadversionem
+            subeundam esse cognoscant, si vel suam vel militum exsecutionem interdictam
+            praebuerint. * ARCAD. ET HONOR. AA. VINCENTIO PP. GALLIARUM. *&lt;A
+            397 D. XV K. IAN. MEDIOLANI CAESARIO ET ATTICO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1488-Dd1e163">
+               <head xml:id="azsw2e-d1e1488-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e1488-d1e167">
+                  <ref xml:id="azsw2e-d1e1488-Rd1e169">Imperatores
+            Honorius, Theodosius</ref> Magisteriae potestati inter militares viros
+            vel privato actore in reum militarem etiam civilium quaestionum audiendi
+            concedimus facultatem, praesertim cum id ipsum e re esse litigantium
+            videatur constetque militarem reum nisi a suo iudice nec exhiberi
+            posse nec, si in culpa fuerit, coerceri. * HONOR. ET THEODOS. AA.
+            ANTHEMIO PP. *&lt;A 413 D. V K. MAI. CONSTANTINOPOLI LUCIO VC. CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1488-Dd1e173">
+               <head xml:id="azsw2e-d1e1488-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e1488-d1e177">
+                  <ref xml:id="azsw2e-d1e1488-Rd1e179">Imperator
+            Anastasius</ref>  Periniquum et temerarium esse perspicimus eos, qui
+            professiones aliquas seu negotiationes exercere noscuntur, iudicum,
+            ad quos earundem professionum seu negotiationum cura pertinet, iurisdictionem
+            et praeceptiones declinare conari. </p>
+               <p xml:id="azsw2e-d1e1488-d1e182" n="1">
+            Quapropter iubemus huiusmodi hominibus nec cuiuslibet militiae
+            seu cinguli vel dignitatis praerogativam in hac parte suppetere, sed
+            eos, qui statutis in quacumque militia connumerati sunt vel fuerint
+            seu dignitatem aliquam praetendunt, sine quadam fori praescriptione
+            his iudicibus tam in publicis quam in privatis causis oboedire compelli,
+            ad quorum sollicitudinem professionis seu negotiationis , quam praeter
+            militiam, ut dictum est, exercent, gubernatio videtur respicere, ita
+            tamen, ut ipsis nihilo minus iudicibus, sub quorum iurisdictione militia
+            seu dignitas eorum constituta est, procul dubio respondeant. </p>
+               <p xml:id="azsw2e-d1e1488-d1e185" n="2">
+            His videlicet, quicumque contra eius tenorem venire temptaverint,
+            militiae cingulo seu dignitatis honore pro tali conamine spoliandis.
+            * ANASTAS. A. CONSTANTINO PP. *&lt;A 502 D. XV K. MART. CONSTANTINOPOLI
+            PROBO ET AVIENO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

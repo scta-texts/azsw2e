@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 22</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 22</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5855"><!-- azsw2e-l9t22 -->
+            <head xml:id="azsw2e-d1e5855-Hd1e101">Titulus 22</head>
+            <head xml:id="azsw2e-d1e5855-Hd1e103" type="question-title">Ad legem Corneliam de falsis</head>
+            <div xml:id="azsw2e-d1e5855-Dd1e106">
+               <head xml:id="azsw2e-d1e5855-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5855-d1e110">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e112">Imperator
+            Antoninus</ref> Si partus subiecti crimen diversae parti obicitis,
+            causa capitalis in tempus pubertatis pueri differri non debuit, sicut
+            iam pridem mihi et divo Severo patri meo placuit. Neque enim verisimile
+            est eam quae arguitur non ex fide causam suam defensuram, cum periculum
+            capitis subeat * ANT. A. SEVERINO. *&lt;A 212 PP.NON.MART.DUOBUS ASPRIS
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e116">
+               <head xml:id="azsw2e-d1e5855-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5855-d1e120">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e122">Imperator
+            Alexander Severus</ref> Satis aperte divorum parentum meorum rescriptis
+            declaratum est, cum morandae solutionis gratia a debitore falsi crimen
+            obicitur, nihilo minus salva exsecutione criminis debitorem ad solutionem
+            compelli oportere. * ALEX. A. VALERIO. *&lt;A 223 PP.III NON.MAI.MAXIMO
+            II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e126">
+               <head xml:id="azsw2e-d1e5855-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5855-d1e130">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e132">Imperator
+            Alexander Severus</ref> Maiorem severitatem exigit, ut merita eorum
+            qui falsis rescriptionibus utuntur digna poena coerceantur. Sed qui
+            deceptus est per alium, si suam innocentiam probat et eum a quo accepit
+            exhibet, se liberat * ALEX. A. MAXIMO. *&lt;A 227 PP.IIII K.IAN.ALBINO
+            ET MAXIMO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e137">
+               <head xml:id="azsw2e-d1e5855-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e5855-d1e141">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e143">Imperator
+            Alexander Severus</ref> Licet ex tabulis, quas sub nomine patris tui
+            uxorem eius, id est novercam tuam, subrepto vero testamento falsas
+            protulisse adlegas, cum crimen admissum ignores, legatum adscriptum
+            tibi consecutus sis, tamen non impedieris accusationem contra eam
+            impletis sollemnibus instituere. * ALEX. A. CASSIO. *&lt;A 227 PP.XI
+            K.IAN.ALBINO ET MAXIMO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e147">
+               <head xml:id="azsw2e-d1e5855-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e5855-d1e151">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e153">Imperator
+            Alexander Severus</ref> Falsi quidem crimen vel aliud capitale movere
+            vos matri vestrae secta mea non patitur. Sed ea res pecuniarium compendium
+            non aufert. Si enim de fide scripturae , unde eadem mater vestra fideicommissum
+            sibi vindicat, dubitatio est, inquiri fides veritatis etiam sine metu
+            criminis potes * ALEX. A. PETRONIO. *&lt;A 230 PP. III K. SEPT. AGRICOLA
+            ET CLEMENTE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e157">
+               <head xml:id="azsw2e-d1e5855-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e5855-d1e161">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e163">Imperator
+            Philippus</ref> Qui falsas tabulas dixerit nec tenuerit, ad defuncti
+            iudicium adspirare non potest. * PHILIPP. A. ET PHILIPP. C. ULPIO.
+            *&lt;A 245 PP. XV K. APRIL. PHILIPPO A. ET TITIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e167">
+               <head xml:id="azsw2e-d1e5855-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e5855-d1e171">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e173">Imperatores
+            Valerianus, Gallienus</ref> Ipse significas, cum primo adversarii
+            instrumenta protulerunt, fidem eorum te habuisse suspectam. Facta
+            igitur transactione difficile est, ut is qui provinciam regit velut
+            falsum, cui semel adquievisti, tibi accusare permittat * VALER. ET
+            GALLIEN. AA. ET VALER. C. HELIODORO. *&lt;A 258 PP. III K. IUL. TUSCO
+            ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e177">
+               <head xml:id="azsw2e-d1e5855-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e5855-d1e181">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e183">Imperatores
+            Valerianus, Gallienus</ref> Si falsos codicillos ab his contra quos
+            supplicas factos esse contendis, non ideo accusationem evadere possunt,
+            quod se illis negent uti. Nam illis prodest instrumenti usu abstinere,
+            qui non ipsi machinatores falsi esse dicuntur et quos periculo solus
+            usus adstrinxerit. Qui autem compositis per scelus codicillis in severitatem
+            legis corneliae inciderunt, non possunt defensiones eius recusando
+            crimen evitar * VALER. ET GALLIEN. AA. ET C. MARINO. *&lt;A 259 PP.
+            III K. IUL. AEMILIANO ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e187">
+               <head xml:id="azsw2e-d1e5855-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e5855-d1e191">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e193">Imperatores
+            Carinus, Numerianus</ref>  Si docueris apud praesidem provinciae ab
+            intestato te heredem eius extitisse, qui codicillos scripserat, ordinarium
+            est, ut in hereditatis possessione constitutus fideicommissa praebeas,
+            quae iure relicta sunt, nisi consilium est codicillos falsos arguere.
+            </p>
+               <p xml:id="azsw2e-d1e5855-d1e196" n="1">
+            Quod si criminaliter coeptum interventu indulgentiae sopitum
+            est, habes tamen residuam indagnationem, potest de fide scripturae
+            civiliter quaeri. * CARINUS ET NUMER. AA. MESSIO. *&lt;A 284 PP. III
+            K. APRIL. CARINO II ET NUMERIANO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e201">
+               <head xml:id="azsw2e-d1e5855-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e5855-d1e205">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e207">Imperatores
+            Diocletianus, Maximianus</ref> Cum suppositi partus crimen patrui
+            tui uxori moveas, apud rectorem provinciae instituta accusatione id
+            proba. * DIOCL. ET MAXIM. AA. LEGITIMO. *&lt;A 285 PP. XI K. OCT.
+            DIOCLETIANO A. II ET ARISTOBULO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e211">
+               <head xml:id="azsw2e-d1e5855-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e5855-d1e215">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e217">Imperatores
+            Diocletianus, Maximianus</ref> Si lis pecuniaria apud pedaneos iudices
+            remissa est, etiam de fide instrumenti civiliter apud eos iuxta responsum
+            viri prudentissimi pauli requiretur. * DIOCL. ET MAXIM. AA. ISIDORO.
+            *&lt;A 287 PP.X K.IUL.DIOCLETIANO III ET MAXIMIANO AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e221">
+               <head xml:id="azsw2e-d1e5855-Hd1e223">12</head>
+               <p xml:id="azsw2e-d1e5855-d1e225">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e227">Imperatores
+            Diocletianus, Maximianus</ref> Querella falsi temporalibus praescriptionibus
+            non excluditur nisi viginti annorum exceptione, sicut cetera quoque
+            fere crimina. * DIOCL. ET MAXIM. AA. ET CC.PRIMO. *&lt;A 293 S.VI
+            ID.AUG.VIMINACIO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e231">
+               <head xml:id="azsw2e-d1e5855-Hd1e233">13</head>
+               <p xml:id="azsw2e-d1e5855-d1e235">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e237">Imperatores
+            Diocletianus, Maximianus</ref> Qui veluti praesentem scripsisse res
+            recepisse suas, cum absens esset, conscripsit, non ignoranti quicquam
+            aufert, sed se criminis obligat periculo. * DIOCL. ET MAXIM. AA. ET
+            CC. MARCO. *&lt;A 293 PP.VI K.IAN.SIRMI AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e241">
+               <head xml:id="azsw2e-d1e5855-Hd1e243">14</head>
+               <p xml:id="azsw2e-d1e5855-d1e245">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e247">Imperatores
+            Diocletianus, Maximianus</ref> Eum, qui celavit vel amovit testamentum,
+            committere crimen falsi publice notum est. * DIOCL. ET MAXIM. AA.
+            ET CC. GENTIANAE. *&lt;A 293 S.III K.IAN.SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e251">
+               <head xml:id="azsw2e-d1e5855-Hd1e253">15</head>
+               <p xml:id="azsw2e-d1e5855-d1e255">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e257">Imperatores
+            Diocletianus, Maximianus</ref> Si creditor colludens cum debitore
+            suo tibi praedium venumdedit, falsum commisit et tibi nihil officit,
+            sed se magis criminis accusationi fecit obnoxium. * DIOCL. ET MAXIM.
+            AA. ET.CC RUFO. *&lt;A 294 S.XIII K.FEBR.CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e262">
+               <head xml:id="azsw2e-d1e5855-Hd1e264">16</head>
+               <p xml:id="azsw2e-d1e5855-d1e266">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e268">Imperatores
+            Diocletianus, Maximianus</ref> De fide testamenti querenti duplex
+            via litigandi tributa est. Quamvis itaque per procuratorem accusationem
+            persequi non potes, disceptatione privata tamen de eius fide queri
+            non prohiberis, cum reus ita conventus non tantum ab alio iuste, sed
+            etiam eo qui civiliter egit sollemniter accusari possit * DIOCL. ET
+            MAXIM. AA. ET CC. FORTUNATO. *&lt;A 294 S.VIII ID.FEBR.SIRMI CC.CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e272">
+               <head xml:id="azsw2e-d1e5855-Hd1e274">17</head>
+               <p xml:id="azsw2e-d1e5855-d1e276">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e278">Imperatores
+            Diocletianus, Maximianus</ref>  Sicut falsi testamenti vel codicillorum
+            scriptura temporis intervallo firmari non potest, ita vera quae iure
+            subsistit non evanescit. </p>
+               <p xml:id="azsw2e-d1e5855-d1e281" n="1">
+            Si itaque de fide delicti vel per accusationem vel per privatum
+            iudicium quereris, rector provinciae tunc demum eos exhiberi de quibus
+            interrogatio fieri potest iubebit, si prius ceteris indiciis fuerit
+            commotus. * DIOCL. ET MAXIM. AA. ET CC. MENELAO. *&lt;A 294 S.III
+            ID.FEBR.SIRMI CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e285">
+               <head xml:id="azsw2e-d1e5855-Hd1e287">18</head>
+               <p xml:id="azsw2e-d1e5855-d1e289">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e291">Imperatores
+            Diocletianus, Maximianus</ref> Ex initio falsi commissi iusta possessio
+            non paratur. Unde contra eos, quos de dominio fundi tecum contendere
+            proponis, accusationem instituere potes * DIOCL. ET MAXIM. AA. ET
+            CC. MAXIMO. *&lt;A 294 S.III NON.MART.CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e295">
+               <head xml:id="azsw2e-d1e5855-Hd1e297">19</head>
+               <p xml:id="azsw2e-d1e5855-d1e299">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e301">Imperatores
+            Diocletianus, Maximianus</ref>  Etsi ad te negotium pertinuit, etiam
+            atque etiam tecum deliberare debueras, ne improbam institueres accusationem,
+            hoc instrumentum falsum in quo subscripseras arguere contendens. </p>
+               <p xml:id="azsw2e-d1e5855-d1e304" n="1">
+            At cum mulieribus in aliena causa falsi non sit concessum
+            accusare, tu autem haec eadem praedia te prius alii donasse proponas,
+            fieri tibi facultatem accusandi contra iuris postulas formam. * DIOCL.
+            ET MAXIM. AA. ET CC. COSMIAE. *&lt;A 294 S.VIII ID.MART.CC.CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e308">
+               <head xml:id="azsw2e-d1e5855-Hd1e310">20</head>
+               <p xml:id="azsw2e-d1e5855-d1e312">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e314">Imperatores
+            Diocletianus, Maximianus</ref> Nec exemplum precum editionis aliter
+            per errorem scriptum, cum non nisi dolo falsum committentes crimini
+            subiugentur, cognitionem dati iudicis moratur. * DIOCL. ET MAXIM.
+            AA. ET CC. RUFINO. *&lt;A 294 S.XI K.NOV.DOROSTOLI CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e318">
+               <head xml:id="azsw2e-d1e5855-Hd1e320">21</head>
+               <p xml:id="azsw2e-d1e5855-d1e322">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e324">Imperator
+            Constantinus</ref>  Si quis decurio testamentum vel codicillos aut
+            aliquam deficientis scripserit voluntatem vel conscribendis publicis
+            privatisque instrumentis praebuerit officium, si falsi quaestio moveatur,
+            decurionatus honore seposito quaestioni, si ita poposcerit causa,
+            subdatur. </p>
+               <p xml:id="azsw2e-d1e5855-d1e327" n="1">
+            Sed non statim desinit esse decurio, qui in huiusmodi facto
+            fuerit : quantum enim ad municipales pertinet necessitates, decurio
+            permanet: quantum ad rem gestam et veritatem reserandam uti decurionatus
+            honore non poterit. </p>
+               <p xml:id="azsw2e-d1e5855-d1e330" n="2">
+            Nec vero is, qui ante fuerit tabellio, ad eludendam quaestionem
+            super his quae ante conscripsit factus decurio defendi hac poterit
+            dignitate, quoniam scripturae veritas, si res poposcerit, per ipsum
+            debet probari auctorem. * CONST. A. MAECILIO HILARIANO CORRECTORI
+            LUCANIAE ET BRITTIORUM. *&lt;A 316 D.III K.FEBR.SABINO ET RUFINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e335">
+               <head xml:id="azsw2e-d1e5855-Hd1e337">22</head>
+               <p xml:id="azsw2e-d1e5855-d1e339">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e341">Imperator
+            Constantinus</ref>  Ubi falsi examen inciderit, tunc acerrima fiat
+            indago argumentis testibus scripturarum collatione aliisque vestigiis
+            veritatis. </p>
+               <p xml:id="azsw2e-d1e5855-d1e344" n="1">
+            Ne accusatori tantum quaestio incumbat nec probationis ei
+            tota necessitas indicatur, sed inter utramque personam sit iudex medius
+            nec ulla interlocutione divulget quae sentiat, sed tamquam ad imitationem
+            relationis, quae solum audiendi mandat officium, praebeat notionem,
+            postrema sententia quid sibi liqueat proditurus. </p>
+               <p xml:id="azsw2e-d1e5855-d1e347" n="2">
+            Ultimum autem finem strepitus criminalis compendioso spatio
+            limitamus, quem litigantem disceptantemque fas non sit excedere, cuius
+            exordium nascetur auspicio testatae actionis apud iudicem competentem:
+            capitali post probationem supplicio, si id exigat magnitudo commissi,
+            vel deportatione ei qui falsum commiserit imminente. * CONST. A. AD
+            MAXIMUM PU. *&lt;A 320 PP.VIII K.APRIL.IN FORO TRAIANI CONSTANTINO
+            A.VI ET CONSTANTINO C.CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e351">
+               <head xml:id="azsw2e-d1e5855-Hd1e353">23</head>
+               <p xml:id="azsw2e-d1e5855-d1e355">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e357">Imperatores
+            Valens, Gratianus, Valentinianus</ref>  Damus licentiam litigantibus,
+            si apud iudicem proferatur scriptura, de qua oritur aliqua disputatio,
+            utrum de falso criminaliter statuat, qui dubitet de instrumenti fide,
+            experiri an civiliter. </p>
+               <p xml:id="azsw2e-d1e5855-d1e360" n="1">
+            Quod si expetens vindictam falsi crimen intenderit, tunc
+            quaestione civili per sententiam terminata criminis fiat indago, ut,
+            si quis tabulas testamenti chirographa testationesque nec non etiam
+            rationes privatas vel publicas, pacta et epistulas vel ultimas voluntates,
+            donationes venditiones, vel si quid prolatum aliud instituere conabitur,
+            habeat accusandi facultatem. </p>
+               <p xml:id="azsw2e-d1e5855-d1e363" n="2">
+            Civilis autem inquisitionis inter utrasque partes confligentium
+            lenior examinatio procedat, cum iudex, qui praeerit quaestioni, intentiones
+            actoris falsas et convicta crimina reorum ex legibus poenis competentibus
+            possit ulcisci. * VALENS GRAT. ET VALENTIN. AAA. AD MAXIMINUM PP.
+            *&lt;A 376 PP.XVI K.MAI.ROMAE VALENTE V ET VALENTINIANO AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5855-Dd1e367">
+               <head xml:id="azsw2e-d1e5855-Hd1e369">24</head>
+               <p xml:id="azsw2e-d1e5855-d1e371">
+                  <ref xml:id="azsw2e-d1e5855-Rd1e373">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Praebemus licentiam, ut
+            civiliter sive criminaliter, ut actor elegerit, super prolatis codicillis
+            vel aliis instrumentis requiratur et incumbat probatio fidei instrumenti
+            ei primitus, qui scripturam obtulerit, deinde ei, qui stricta instantia
+            falsum arguere paratus est. * VALENTIN. THEODOS. ET ARCAD. AAA. PROCULO
+            PU. *&lt;A 389 D.MEDIOLANI X.K.FEBR.TIMASIO ET PROMOTO CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

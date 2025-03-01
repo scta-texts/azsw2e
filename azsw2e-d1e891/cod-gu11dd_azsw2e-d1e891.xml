@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 18</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 18</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e891"><!-- azsw2e-l2t18 -->
+            <head xml:id="azsw2e-d1e891-Hd1e101">Titulus 18</head>
+            <head xml:id="azsw2e-d1e891-Hd1e103" type="question-title">De negotiis gestis.</head>
+            <div xml:id="azsw2e-d1e891-Dd1e106">
+               <head xml:id="azsw2e-d1e891-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e891-d1e110">
+                  <ref xml:id="azsw2e-d1e891-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Cum tutores filiorum tuorem suspectos faceres
+            eisdemque tutores seu curatores peteres, munere pietatis fungebaris:
+            quae causa non admittit negotiorum gestorum actionem, ut sumptus,
+            quos in ea lite fecisti, repetere possis, cum etiam, si quis pro adfectione
+            eos petere potest. * SEV. ET ANT. AA. SOPATRAE. *&lt;A 196 PP. III
+            NON. OCT. DEXTRO ET PRISCO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e116">
+               <head xml:id="azsw2e-d1e891-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e891-d1e120">
+                  <ref xml:id="azsw2e-d1e891-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Contra impuberes quoque, si negotia eorum
+            urguentibus necessitatis rationibus utiliter gerantur, in quantum
+            locupletiores facti sunt, dandam actionem ex utilitate ipsorum receptum
+            est. Quae tibi quoque iure decernetur, quod sumptus in pupillum, quem
+            romae tutorum petendorum gratia duxisti, fecisse te adlegas, si non
+            matertera eiusdem se facere paratam propriis impendiis ostenderit.
+            * SEV. ET ANT. AA. RUFINAE. *&lt;A 197 PP. XV K. FEBR. LATERANO ET
+            RUFINO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e126">
+               <head xml:id="azsw2e-d1e891-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e891-d1e130">
+                  <ref xml:id="azsw2e-d1e891-Rd1e132">Imperatores
+            Severus, Antoninus</ref> Sive pro fratre coherede pecuniam solvisti,
+            negotiorum gestorum actione experiri potes, sive pignoris liberandi
+            gratia debitum universum solvere coactus es, actionem eandem habebis
+            vel iudicio familiae herciscundae, si non est inter vos redditum,
+            eam quantitatem adsequeris. * SEV. ET ANT. AA. HADRIANO. *&lt;A 199
+            PP. VIII K. FEBR. ANULLINO ET FRONTONE CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e137">
+               <head xml:id="azsw2e-d1e891-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e891-d1e141">
+                  <ref xml:id="azsw2e-d1e891-Rd1e143">Imperatores
+            Severus, Antoninus</ref> Qui pupillae negotia tutoris mandato suscepit,
+            pro tutore negotia non videtur gessisse, sed negotiorum gestorum actione
+            pupillae tenebitur. * SEV. ET ANT. AA. CLAUDIO. *&lt;A 201 PP. III
+            NON. DEC. FABIANO ET MUCIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e147">
+               <head xml:id="azsw2e-d1e891-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e891-d1e151">
+                  <ref xml:id="azsw2e-d1e891-Rd1e153">Imperatores
+            Severus, Antoninus</ref> Officio nec minus obsequio liberti functus
+            negotiorum gestorum actionem contra patroni filias pupillas habere
+            non potes. * SEV. ET ANT. AA. TROPHIMO . *&lt;A 203 PP. XIII K. IUL.
+            GETA ET PLAUTIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e157">
+               <head xml:id="azsw2e-d1e891-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e891-d1e161">
+                  <ref xml:id="azsw2e-d1e891-Rd1e163">Imperatores
+            Severus, Antoninus</ref> Curatorem tibi quidem patris testamento datum
+            dicis: quod non potest videri iure factum. Quod si, ut proponis, administrationi
+            se miscuit, negotiorum gestorum actio tam adversus eum quam contra
+            heredes eius tibi competit. * SEV. ET ANT. AA. GALLO. *&lt;A 207 PP.
+            APRO ET MAXIMO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e167">
+               <head xml:id="azsw2e-d1e891-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e891-d1e171">
+                  <ref xml:id="azsw2e-d1e891-Rd1e173">Imperator
+            Antoninus</ref> Si ab eo, qui negotia tua gessit, heres ex duabus
+            unciis institutus es, etiamsi adeas hereditatem, in reliquis decem
+            unciis adversus coheredem competit tibi petitio, si quam adversus
+            defunctum habuisti actionem. * ANT. A. EUPHRATAE. *&lt;A 216 PP. VI
+            ID. MART. ROMAE SABINO II ET ANULLINO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e177">
+               <head xml:id="azsw2e-d1e891-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e891-d1e181">
+                  <ref xml:id="azsw2e-d1e891-Rd1e183">Imperator
+            Antoninus</ref> Adversus eos, qui negotia tua gesserunt, negotiorum
+            gestorum iudicio civiliter consiste: nec tibi oberit, si propter occupationes
+            militares eam litem tardius fuisses exsecutus, cum hoc genus actionis
+            longi temporis praescriptione excludi non possit. * ANT. A. SEVERO.
+            *&lt;A 218 PP. VI K. AUG. ANTONINO A. ET ADVENTO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e187">
+               <head xml:id="azsw2e-d1e891-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e891-d1e191">
+                  <ref xml:id="azsw2e-d1e891-Rd1e193">Imperator
+            Antoninus</ref> Si pecuniam a debitore tuo iulianus exegit eamque
+            solutionem ratam habuisti, habes adversus eum negotiorum gestorum
+            actionem. * ANT. A. SALLUSTIO. *&lt;A 217 PP. VIII K. MART. PRAESENTE
+            ET EXTRICATO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e198">
+               <head xml:id="azsw2e-d1e891-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e891-d1e202">
+                  <ref xml:id="azsw2e-d1e891-Rd1e204">Imperator
+            Alexander Severus</ref> Si servum alienum non inutilem domino constitutum
+            aegrum curastis et negotium utiliter gessistis, competenti vobis actione
+            sumptus recuperare potestis. * ALEX. A. SECUNDO ET ALIIS. *&lt;A 222
+            PP. XII K. DEC. ALEXANDRO A. CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e208">
+               <head xml:id="azsw2e-d1e891-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e891-d1e212">
+                  <ref xml:id="azsw2e-d1e891-Rd1e214">Imperator
+            Alexander Severus</ref> Alimenta quidem, quae filiis tuis praestitisti,
+            reddi tibi non iusta ratione postulas, cum id exigente materna pietate
+            feceris. Si quid autem in rebus eorum utiliter et probabili more impendisti,
+            si non et hoc materna liberalitate, sed recipiendi animo fecisse ostenderis,
+            id negotiorum gestorum actione consequi potes. * ALEX. A. HERENNIAE.
+            *&lt;A 227 PP. XII K. FEBR. ALBINO ET MAXIMO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e218">
+               <head xml:id="azsw2e-d1e891-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e891-d1e222">
+                  <ref xml:id="azsw2e-d1e891-Rd1e224">Imperator
+            Alexander Severus</ref> Si filius pro patre suo debitum solvit, nullam
+            actionem ob eam solutionem habet, sive in potestate patris, cum solveret,
+            fuit, sive sui iuris constitutus donandi animo pecuniam dedit. Si
+            igitur pater tuus sui iuris constitutus pro patre suo negotium gerens
+            non praecedente mandato debitum eius solvit, negotiorum gestorum agere
+            cum patruis tuis potes. * ALEX. A. THEOPHILO. *&lt;A 230 PP. K. AUG.
+            AGRICOLA ET CLEMENTE CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e228">
+               <head xml:id="azsw2e-d1e891-Hd1e230">13</head>
+               <p xml:id="azsw2e-d1e891-d1e232">
+                  <ref xml:id="azsw2e-d1e891-Rd1e234">Imperator
+            Alexander Severus</ref> Quod in uxorem tuam aegram erogasti, non a
+            socero repetere, sed adfectioni tuae debes expendere. In funus sane
+            eius si quid eo nomine quasi recepturus erogasti, patrem, ad quem
+            dos rediit, iure convenis. * ALEX. A. AQUILAE. *&lt;A 230 PP. VIII
+            K. NOV. AGRICOLA ET CLEMENTE CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e238">
+               <head xml:id="azsw2e-d1e891-Hd1e240">14</head>
+               <p xml:id="azsw2e-d1e891-d1e242">
+                  <ref xml:id="azsw2e-d1e891-Rd1e244">Imperator
+            Alexander Severus</ref> Si mandatum solius mariti secutus tam ipsius
+            quam uxoris eius negotia gessisti, tam tibi quam mulieri invicem negotiorum
+            gestorum competit actio. Ipsi sane qui mandavit adversus te mandati
+            actio est: sed et tibi adversus eum contraria, si quid forte supererogasti.
+            * ALEX. A. RUFO. *&lt;A 234 PP. X K. MART. MAXIMO II ET URBANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e248">
+               <head xml:id="azsw2e-d1e891-Hd1e250">15</head>
+               <p xml:id="azsw2e-d1e891-d1e252">
+                  <ref xml:id="azsw2e-d1e891-Rd1e254">Imperator
+            Gordianus</ref> Si paterna adfectu privignas tuas aluisti seu mercedes
+            pro his aliquas magistris expendisti, eius erogationis tibi nulla
+            repetitio est. Quod si ut repetiturus ea, quae in sumptum misisti,
+            aliquid erogasti, negotiorum tibi gestorum intendenda actio est. *
+            GORD. A. MUCIANO. *&lt;A 239 PP. VI ID. IUL. GORDIANO A. ET AVIOLA
+            CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e259">
+               <head xml:id="azsw2e-d1e891-Hd1e261">16</head>
+               <p xml:id="azsw2e-d1e891-d1e263">
+                  <ref xml:id="azsw2e-d1e891-Rd1e265">Imperatores
+            gallus, volus.</ref> Si negotium sororis tuae gerens pro ea tributa
+            solvisti, vel mandante ea vel rogante id fecisti, negotiorum gestorum
+            actione vel mandati id, quod solvisse te constiterit, recipere poteris.
+            * GALLUS ET VOLUS. AA. EUTYCHIANO. *&lt;A 252 PP. XI K. MAI. GALLO
+            ET VOLUSIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e269">
+               <head xml:id="azsw2e-d1e891-Hd1e271">17</head>
+               <p xml:id="azsw2e-d1e891-d1e273">
+                  <ref xml:id="azsw2e-d1e891-Rd1e275">Imperatores
+            Diocletianus, Maximianus</ref> Curatoris etiam successores negotiorum
+            gestorum utili conventos actione tam dolum quam latam culpam praestare
+            debere nec ad eos officium administrationis transire ideoque nullam
+            alienandi eos res adultae potestatem habere convenit. * DIOCL. ET
+            MAXIM. AA. ET CC. CLAUDIAE. *&lt;A 293 D. XIII K. IAN. SIRMI AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e279">
+               <head xml:id="azsw2e-d1e891-Hd1e281">18</head>
+               <p xml:id="azsw2e-d1e891-d1e283">
+                  <ref xml:id="azsw2e-d1e891-Rd1e285">Imperatores
+            Diocletianus, Maximianus</ref> Ob negotium alienum gestum sumptuum
+            factorum usuras praestari fides bona suasit: quo iure contra eos etiam,
+            quorum te necessitate compulsum negotium gessisse proponis, per iudicium
+            negotiorum gestorum uteris. * DIOCL. ET MAXIM. AA. ET CC. POMPONIO.
+            *&lt;A 293 D. VIIII K. IAN. AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e289">
+               <head xml:id="azsw2e-d1e891-Hd1e291">19</head>
+               <p xml:id="azsw2e-d1e891-d1e293">
+                  <ref xml:id="azsw2e-d1e891-Rd1e295">Imperatores
+            Diocletianus, Maximianus</ref> Ab uno herede pro solido re veluti
+            communi venumdata de pretio coheres venditoris negotiorum gestorum
+            ratam faciens venditionem agere potest. * DIOCL. ET MAXIM. AA. ET
+            CC. ALEXANDRO. *&lt;A 294 D. ID. FEBR. SIRMI CC. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e299">
+               <head xml:id="azsw2e-d1e891-Hd1e301">20</head>
+               <p xml:id="azsw2e-d1e891-d1e303">
+                  <ref xml:id="azsw2e-d1e891-Rd1e305">Imperatores
+            Diocletianus, Maximianus</ref>  Tutori vel curatori similis non habetur,
+            qui citra mandatum negotium alienum sponte gerit, quippe superioribus
+            quidem muneris necessitas administrationis finem , huic autem propria
+            voluntas facit ac satis abunde sufficit, si cui vel in paucis amici
+            labore consulatur. </p>
+               <p xml:id="azsw2e-d1e891-d1e308" n="1">
+            Secundum quae super his quidem, quae nec tutor nec curator
+            constitutus ultro quis administravit, cum non tantum dolum et latam
+            culpam, sed et levem praestare necesse habeat, a te conveniri potest
+            et ea, quae tibi ab eo deberi patuerit, cum usuris compelletur reddere.
+            </p>
+               <p xml:id="azsw2e-d1e891-d1e311" n="2">
+            De ceteris vero, quae ab aliis tui constituta iuris detenta
+            exacta non sunt, ab hoc, qui nec agendi quidem propter exceptionis
+            obstaculum facultatem habere potuit, exigi non potest: et idcirco
+            adversus eos, quos res tuas tenere dicis, detorquere tuas petitiones
+            debes. * DIOCL. ET MAXIM. AA. ET CC. OCTAVIAE. *&lt;A 294 D. VIII
+            K. MAI. SIRMI CC. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e315">
+               <head xml:id="azsw2e-d1e891-Hd1e317">21</head>
+               <p xml:id="azsw2e-d1e891-d1e319">
+                  <ref xml:id="azsw2e-d1e891-Rd1e321">Imperatores
+            Diocletianus, Maximianus</ref> Si cognati tui servos suos manumiserunt,
+            hoc, quod eos administrasse res vestras contendis, eorum impedimentum
+            libertati fieri non potuit. Quin autem ex actu praecedenti post manumissionem,
+            si utriusque temporis administratio non conexa, sed separata sit,
+            conveniri non posse procul dubio sit * DIOCL. ET MAXIM. AA. ET CC.
+            MITRAE. *&lt;A 294 D. VI K. OCT. VIMINACII CC. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e326">
+               <head xml:id="azsw2e-d1e891-Hd1e328">22</head>
+               <p xml:id="azsw2e-d1e891-d1e330">
+                  <ref xml:id="azsw2e-d1e891-Rd1e332">Imperatores
+            Diocletianus, Maximianus</ref> Negotium gerentes alienum non interveniente
+            speciali pacto casum fortuitum praestare non compelluntur. * DIOCL.
+            ET MAXIM. AA. ET CC. EULOGIO. *&lt;A 294 D. XI K. DEC. CC. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e336">
+               <head xml:id="azsw2e-d1e891-Hd1e338">23</head>
+               <p xml:id="azsw2e-d1e891-d1e340">
+                  <ref xml:id="azsw2e-d1e891-Rd1e342">Imperatores
+            Diocletianus, Maximianus</ref> Negotiis gestis non in rem, sed in
+            personam est actio. * DIOCL. ET MAXIM. AA. ET CC. THEODORO. *&lt;A
+            294 D. XII K. DEC. NICOMEDIAE CC. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e891-Dd1e346">
+               <head xml:id="azsw2e-d1e891-Hd1e348">24</head>
+               <p xml:id="azsw2e-d1e891-d1e350">
+                  <ref xml:id="azsw2e-d1e891-Rd1e352">Imperator
+            Justinianus</ref>  Si quis nolente et specialiter prohibente domino
+            rerum administrationi earum sese immiscuit, apud magnos auctores dubitabatur,
+            si pro expensis, quae circa res factae sunt, talis negotiorum gestor
+            habeat aliquam adversus dominum actionem. </p>
+               <p xml:id="azsw2e-d1e891-d1e355" n="1">
+            Quam quibusdam pollicentibus directam vel utilem, aliis negantibus,
+            in quibus et salvius iulianus fuit, haec decidentes sancimus, si contradixerit
+            dominus et eum res suas administrare prohibuerit, secundum iuliani
+            sententiam nullam esse adversus eum contrariam actionem, scilicet
+            post denuntiationem, quam ei dominus transmiserit nec concedens ei
+            res eius attingere, licet res bene ab eo gestae sint. </p>
+               <p xml:id="azsw2e-d1e891-d1e358" n="2">
+            Quid enim, si dominus adspexerit ab administratore multas
+            expensas utiliter factas et tunc dolosa adsimulatione habita eum prohibuerit,
+            ut neque anteriores expensas praestet? quod nullo patimur modo: sed
+            ex quo die attestatio ad eum facta est vel in scriptis vel sine scriptis,
+            sub testificatione tamen aliarum personarum, ex eo die pro faciendis
+            meliorationibus nullam ei actionem competere, super anterioribus autem,
+            si utiliter factae sunt, habere eum actionem contra dominum concedimus
+            sua natura currentem. * IUST. A. IULIANO PP. *&lt;A 530 D. XV K. DEC.
+            CONSTANTINOPOLI LAMPADIO ET ORESTE CONSS.&gt;
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

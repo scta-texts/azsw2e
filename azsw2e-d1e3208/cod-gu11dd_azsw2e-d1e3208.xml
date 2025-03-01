@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 56</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 56</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3208"><!-- azsw2e-l5t56 -->
+            <head xml:id="azsw2e-d1e3208-Hd1e101">Titulus 56</head>
+            <head xml:id="azsw2e-d1e3208-Hd1e103" type="question-title">De usuris pupillaribus</head>
+            <div xml:id="azsw2e-d1e3208-Dd1e106">
+               <head xml:id="azsw2e-d1e3208-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3208-d1e110">
+                  <ref xml:id="azsw2e-d1e3208-Rd1e112">Imperator
+            Antoninus</ref> Tutorem vel curatorem pecuniae, quam in usus suos
+            convertit, legitimas usuras praestare debere olim placuit. * ANT.
+            A. PRAESENTINO. *&lt;A 213 PP. NON. IUN. ANTONINO A. IIII ET BALBINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3208-Dd1e116">
+               <head xml:id="azsw2e-d1e3208-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3208-d1e120">
+                  <ref xml:id="azsw2e-d1e3208-Rd1e122">Imperator
+            Alexander Severus</ref> Eius, quod ex causa tutelae debetur, usuras
+            praestari oportere dubium non est, quamvis aliis pro participe muneris
+            necessitas solutionis inrogetur, quia id non alias contingit, quam
+            si cessatio contutoris in suspecto faciendo imputari possit. * ALEX.
+            A. AMPLIATO. *&lt;A 224 PP. XIII K. IUL. IULIANO ET CRISPINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3208-Dd1e126">
+               <head xml:id="azsw2e-d1e3208-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3208-d1e130">
+                  <ref xml:id="azsw2e-d1e3208-Rd1e132">Imperator
+            Alexander Severus</ref> Si pecuniam pupillarem neque idoneis hominibus
+            credere neque in emptionem possessionum convertere potuisti, non ignorabit
+            iudex usuras eius a te exigi non oportere. * ALEX. A. VITALIO. *&lt;A
+            228 PP. ID. APRIL. MODESTO ET PROBO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3208-Dd1e137">
+               <head xml:id="azsw2e-d1e3208-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e3208-d1e141">
+                  <ref xml:id="azsw2e-d1e3208-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref>  Pupillus agere vobiscum actione tutelae
+            compelli non potest. </p>
+               <p xml:id="azsw2e-d1e3208-d1e146" n="1">
+            Verum adversus futuram calumniam et ut, si quid ei debetis,
+            cursus eius inhibeatur usurarum, denuntiationibus frequenter interpositis
+            ad iudicium eum provocate ac, si rem dissimulatione proferat, actis
+            apud praesidem provinciae factis voluntatis vestrae rationem declarate:
+            quo facto tam vobis ipsis quam securitati filiorum vestrorum consulatis.
+            </p>
+               <p xml:id="azsw2e-d1e3208-d1e149" n="2">
+            Quod et in curatoribus locum habet. * DIOCL. ET MAXIM. AA.
+            ET CC. AURELIO. *&lt;A 294 PP. III ID. FEBR. SIRMI CC. CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

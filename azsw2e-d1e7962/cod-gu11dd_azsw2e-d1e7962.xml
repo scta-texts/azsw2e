@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 3</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 3</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7962"><!-- azsw2e-l12t3 -->
+            <head xml:id="azsw2e-d1e7962-Hd1e101">Titulus 3</head>
+            <head xml:id="azsw2e-d1e7962-Hd1e103" type="question-title">De consulibus et non spargendis ab his pecuniis et de praefectis et
+            magistris militum et patriciis</head>
+            <div xml:id="azsw2e-d1e7962-Dd1e106">
+               <head xml:id="azsw2e-d1e7962-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7962-d1e110">
+                  <ref xml:id="azsw2e-d1e7962-Rd1e112">Imperatores
+            Theodosius, Valentinianus</ref>  Antiquitus statutum est consularibus
+            viris ceteros quidem honoratos ipsius trabeae summitate, pares vero
+            infulis consideratione tantum temporis anteire. </p>
+               <p xml:id="azsw2e-d1e7962-d1e115" n="1">
+            Quis enim in uno eodemque genere dignitatis prior esse debuerat,
+            nisi qui prior meruit dignitatem? cum posterior, et si eiusdem honoris
+            praetendat auspicia, cedere tamen illius temporis consuli debeat,
+            quo ipse non fuerit. </p>
+               <p xml:id="azsw2e-d1e7962-d1e118" n="2">
+            Hoc observando et si iterata vice fastigia consulatus aliquis
+            adscenderit: repetiti etenim fasces virtutes saepe meriti comprobant,
+            non augent, quia nihil est altius dignitate. </p>
+               <p xml:id="azsw2e-d1e7962-d1e121" n="3">
+            Quod si quis prior consul posteriori consuli eidemque patricio
+            posthabitus patriciatum postea consequatur, vinci eum oportet qui
+            prior meruit patriciatum, postquam iste honore patriciae dignitatis
+            decoratus est. * THEODOS. ET VALENTIN. AA. AD SENATUM
+            URB. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7962-Dd1e125">
+               <head xml:id="azsw2e-d1e7962-Hd1e127">2</head>
+               <p xml:id="azsw2e-d1e7962-d1e129">
+                  <ref xml:id="azsw2e-d1e7962-Rd1e131">Imperatores
+            Valentinianus, Marcianus</ref>  Ordinem consulatus
+            ad antiquam reduximus sanctionem, ut sellam nostram honoris merito,
+            non rapiendi studio populorum agmina sectarentur ac lucrandi cupiditate
+            deposita venerabilem parentum habitum et felicissima antiquitatis
+            ornamenta conspicerent. </p>
+               <p xml:id="azsw2e-d1e7962-d1e134" n="1">
+            Hoc ego exemplo etiam ceteros procedere consules volumus
+            nec expendere eos sine effectu patimur. </p>
+               <p xml:id="azsw2e-d1e7962-d1e137" n="2">
+            Cessante ergo ista spargendi vilitate amplissimi consules
+            procedentes deinceps abstineant hoc errore perdendi, optimoque consilio
+            operi necessario proficiat, quod erat incompetenter proiciendum. </p>
+               <p xml:id="azsw2e-d1e7962-d1e140" n="3">
+            Ad instaurationem itaque aquaeductuum huius amplissimae urbis
+            centena pondo auri praestentur per singulos consulatus, ut et consul
+            patriae se dedisse noverit et data notum sit mansura esse perpetuo.
+            * VALENTIN. ET MARCIAN. AA. SPORACIO COM. DOMEST. ET CONS.*&lt;A 452 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7962-Dd1e144">
+               <head xml:id="azsw2e-d1e7962-Hd1e146">3</head>
+               <p xml:id="azsw2e-d1e7962-d1e148">
+                  <ref xml:id="azsw2e-d1e7962-Rd1e150">Imperator
+            Zeno</ref>  Nemini ad sublimen patriciatus honorem, qui ceteris omnibus
+            anteponitur, adscendere liceat, nisi prius aut consulatus honore potiatur
+            aut praefecturae praetorio vel illyrici vel urbis administrationem
+            aut magistri militum aut magistri officiorum, in actu videlicet positus,
+            gessisse noscatur, ut huiusmodi tantum personis sive adhuc administrationem
+            gerendo seu postea liceat ( quando hoc nostrae sederit maiestati)
+            patriciam consequi dignitatem. </p>
+               <p xml:id="azsw2e-d1e7962-d1e153" n="1">
+            Quoniam vero gloriosissimae huic urbi, quae caput orbis terrarum
+            est, omnifariam credimus consulendum, universos, qui posthac honorarii
+            consulatus insignibus principali munificentia decorantur, centum auri
+            libras ad reficiendum aquaeductum publicum ministrare censemus ad
+            similitudinem eorum, qui per annale tempus consularium editione munerum
+            gloriantur. Nam ipsis quoque expedit, ut florentissima civitas centum
+            auri librarum munificentia sustentata honorarium quoque sentiat consulatum.
+            * ZENO A. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7962-Dd1e158">
+               <head xml:id="azsw2e-d1e7962-Hd1e160">4</head>
+               <p xml:id="azsw2e-d1e7962-d1e162">
+                  <ref xml:id="azsw2e-d1e7962-Rd1e164">Imperator
+            Zeno</ref>  Sancimus viris excellentissimis conaularibus omnibus, qui
+            iam facti sunt vel postea fuerint, procedendi quoque et re ipsa per
+            annum gerendi consulatus, impetrato videlicet principali iudicio,
+            legitimam tribui facultatem, ita ut acta quam meruerint processione
+            non novum aliquid vel quod nondum habeant adipisci, sed consulatus
+            ius, quod semel eis consularitas detulerat, processionis iterasse
+            beneficio videantur et adoranda nostra purpura vel in consequendis
+            cunctis consulum honoribus et privilegiis ex anteriore tempore provectionis
+            ordinem sibimet noverint vindicandum. </p>
+               <p xml:id="azsw2e-d1e7962-d1e167" n="1">
+            Hoc etiam observando, ut huiusmodi consul nec centum libras
+            auri aquaeductibus huius inclitae civitatis pro tenore sacrae constitutionis
+            praebendas, quas cum esset consularis praestiterat, consul postea
+            creatus persolvere denuo compellatur. * ZENO A. SEBASTIANO
+            PP. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7962-Dd1e171">
+               <head xml:id="azsw2e-d1e7962-Hd1e173">5</head>
+               <p xml:id="azsw2e-d1e7962-d1e175">
+                  <ref xml:id="azsw2e-d1e7962-Rd1e177">Imperator
+            Justinianus</ref>  Sancimus viros excelsos patricios, quos in
+            huiusmodi dignitatis apicem augusta maiestatis rettulerit, ilico ab
+            imperialibus codicillis praestitis patres familias effici ac potestate
+            liberari paterna, ne bideantur, qui a nobis loco patris honorantur,
+            alieno iuri esse subiecti. </p>
+               <p xml:id="azsw2e-d1e7962-d1e180" n="1">
+            Quis enim patiatur patrem quidem posse per emancipationis
+            modum suis nexibus filium relaxare, imperatoriam autem celsitudinem
+            non valere eum quem sibi patrem elegit ab aliena eximere potestate?
+            ne, si contrarium approbetur, per quamcumque machinationem imperialis
+            maiestas minui videatur. </p>
+               <p xml:id="azsw2e-d1e7962-d1e183" n="2">
+            Et hoc quidem raro contingere satis certum est: nemo enim
+            facile respexit filium familias in patriciatus honorem provectum,
+            quemadmodum in consulibus haec res usitata est. </p>
+               <p xml:id="azsw2e-d1e7962-d1e186" n="3">
+            Sed ne quid in parte temporis tale eveniat et sine legibus
+            inveniatur, ideo haec nobis visa sunt sancienda. * IUST. A. IOHANNI PP. *&lt;A 531-533&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

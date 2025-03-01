@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 55</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 55</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2454"><!-- azsw2e-l4t55 -->
+            <head xml:id="azsw2e-d1e2454-Hd1e101">Titulus 55</head>
+            <head xml:id="azsw2e-d1e2454-Hd1e103" type="question-title">Si servus exportandus veneat</head>
+            <div xml:id="azsw2e-d1e2454-Dd1e106">
+               <head xml:id="azsw2e-d1e2454-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2454-d1e110">
+                  <ref xml:id="azsw2e-d1e2454-Rd1e112">Imperatores
+            Severus, Antoninus</ref>  Lege venditionis exportata mancipia sub denuntiatione
+            manus iniciendae libertatem ab emptore, vel qui successit in locum
+            eius, antequam fides rumpatur, accipere possunt. </p>
+               <p xml:id="azsw2e-d1e2454-d1e115" n="1">
+            Quae tamen fisco post manumissionem vindicantur et in perpetuam
+            servitutem eadem lege veneunt, cum in his civitatibus conversantur,
+            quas contrahentes exceperant. </p>
+               <p xml:id="azsw2e-d1e2454-d1e118" n="2">
+            Ante manumissionem iniciendae manus facultas non denegatur
+            atque ideo non petuntur in publicum. * SEV. ET ANT. AA. PETRONIAE
+            FLAVILLAE. *&lt;A 200 PP. XV K. OCT. SEVERO A. II ET VICTORINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2454-Dd1e122">
+               <head xml:id="azsw2e-d1e2454-Hd1e124">2</head>
+               <p xml:id="azsw2e-d1e2454-d1e126">
+                  <ref xml:id="azsw2e-d1e2454-Rd1e128">Imperatores
+            Severus, Antoninus</ref> Si, ut manus iniectionem haberes, cavisti
+            tibi, iure tuo uti potes. Quod si hoc omisisti et poenam stipulatus
+            es, homo quidem fisco commissus est, tu vero nactus ex stipulatu actionem.
+            In omnibus tamen quaeritur, an domini voluntate in locum prohibitum
+            veneri * SEV. ET ANT. AA. SEZO NEDYMO. *&lt;A 200 PP. VII K. NOV.
+            SEVERO A. II ET VICTORINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2454-Dd1e132">
+               <head xml:id="azsw2e-d1e2454-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e2454-d1e136">
+                  <ref xml:id="azsw2e-d1e2454-Rd1e138">Imperator
+            Alexander Severus</ref> Ancilla, quae exportanda venit nec exportata
+            est, sed ab emptore in eadem civitate morante empta et manumissa est,
+            adversus legem venditionis libera fieri non potuit: et ideo aditus
+            a te procurator meus partibus suis fungetur. * ALEX. A. NOVIO LIBERTO.
+            *&lt;A 223 PP. IIII ID. MART. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2454-Dd1e143">
+               <head xml:id="azsw2e-d1e2454-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e2454-d1e147">
+                  <ref xml:id="azsw2e-d1e2454-Rd1e149">Imperator
+            Alexander Severus</ref>  Moveor, quod te a servis tuis dominum eorum
+            venisse adfirmas sub ea lege, ne in patria moreris, et ab eo, cui
+            te prior emptor vendiderat, manumissum esse dicis. </p>
+               <p xml:id="azsw2e-d1e2454-d1e152" n="1">
+            Quare competens iudex adversus eum, quem praesentem esse
+            dicis, cognitionem suam praebebit et, si veritas accusationi aderit,
+            exsecrabile delictum in exemplum capitali poena vindicabit. </p>
+               <p xml:id="azsw2e-d1e2454-d1e155" n="2">
+            Sed quoad usque probaveris quae intendis, status tuus esse
+            videtur, qui in te post manumissionem deprehenditur. * ALEX. A. AURELIOPAPIAE.
+            *&lt;A 224 PP. XI K. IUL. IULIANO ET CRISPINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2454-Dd1e159">
+               <head xml:id="azsw2e-d1e2454-Hd1e161">5</head>
+               <p xml:id="azsw2e-d1e2454-d1e163">
+                  <ref xml:id="azsw2e-d1e2454-Rd1e165">Imperator
+            Alexander Severus</ref> Qui exportandus a domino de civitate sua venit,
+            nec in urbe roma morari debet: qui autem de provincia certa, nec in
+            italia. Si itaque contra legem constitutam factum probare potes, utere
+            iure, quod propterea tibi competit * ALEX. A. SEXTIANO SERAPIONI.
+            *&lt;A 225 PP. VII K. FEBR. FUSCO II ET DEXTRO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

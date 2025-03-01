@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 30</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 30</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3762"><!-- azsw2e-l6t30 -->
+            <head xml:id="azsw2e-d1e3762-Hd1e101">Titulus 30</head>
+            <head xml:id="azsw2e-d1e3762-Hd1e103" type="question-title">De iure deliberandi et de adeunda vel adquirenda hereditate</head>
+            <div xml:id="azsw2e-d1e3762-Dd1e106">
+               <head xml:id="azsw2e-d1e3762-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3762-d1e110">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e112">Imperator
+            Antoninus</ref> Si a patre emancipata eo defuncto bonorum possessionem
+            non agnovisti, frustra vereris, ne hereditati paternae sis obligata,
+            quod servum eius nullo iure manumisisti resque et mancipia quaedam
+            propter funeris impensas distraxisti. * ANT. A. TITIAE. *&lt;A 214
+            PP. K. IUL. MESSALA ET SABINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e116">
+               <head xml:id="azsw2e-d1e3762-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3762-d1e120">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e122">Imperator
+            Alexander Severus</ref> Cum debitum paternum te exsolvisse adlegas
+            pro portione hereditaria, agnovisse te hereditatem defuncti non ambigitur.
+            * ALEX. A. FLORENTINO MIL. *&lt;A 223 PP. VI ID. FEBR. MAXIMO II ET
+            AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e126">
+               <head xml:id="azsw2e-d1e3762-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3762-d1e130">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e132">Imperator
+            Gordianus</ref>  Si fratris tui filius mortis tempore in patris sui
+            fuit potestate, sive ex asse heres institutus est, etiam clausis tabulis
+            heres potuit existere, sive ex parte, nihilo minus statim suus heres
+            ei extitit nec eapropter, quod intra paucos dies mortis patris sui
+            concessit in fatum, tu ad eiusdem fratris tui potes accedere successionem.
+            </p>
+               <p xml:id="azsw2e-d1e3762-d1e135" n="1">
+            Quod si, cum sui iuris esset, ante aditam hereditatem decessit
+            tuque fratri tuo legitimus heres extitisti seu intra tempora edicto
+            praefinita bonorum possessionem agnovisti: quae facultatum sunt vel
+            quae ab alio iniuria detinentur, praesidis diligentia tibi restituentur.
+            * GORD. A. FLORENTINO MIL. *&lt;A 241 PP. XV K. SEPT. GORDIANO A.
+            II ET POMPEIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e140">
+               <head xml:id="azsw2e-d1e3762-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e3762-d1e144">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e146">Imperator
+            Decius</ref> Filio familias delata hereditate si pater pro herede
+            voluntate filii gessit, sollemnitati iuris satisfactum videri saepe
+            rescriptum est. * DEC. A. ATHENAIDI. *&lt;A 250 PP. X K. MART. DECIO
+            A. ET GRATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e150">
+               <head xml:id="azsw2e-d1e3762-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e3762-d1e154">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e156">Imperatores
+            Valerianus, Gallienus. </ref>Potuit pupillus pro herede tutore
+            auctore gerendo consequi successionem, sed ipsius actus et voluntas
+            fuit necessaria. Nam si quid nesciente eo tutor egit, illi hereditatem
+            non potuit adquirere * VALER. ET GALLIEN. AA. PAULO. *&lt;A 257 PP.
+            XVI K. IUL. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e160">
+               <head xml:id="azsw2e-d1e3762-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e3762-d1e164">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e166">Imperatores
+            Diocletianus, Maximianus</ref> Si avia tua patrem tuum ex duabus unciis
+            scripsit heredem, et sola animi destinatione pater tuus heres fieri
+            poterat. Igitur si testamento suo easdem uncias ad te petinere decrevit,
+            apud rectorem provinciae duarum unciarum ius persequi poteris * DIOCL.
+            ET MAXIM. AA. PHILIPPAE. *&lt;A 290 PP. XVI K. AUG. SIRMI IPSIS IIII
+            ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e170">
+               <head xml:id="azsw2e-d1e3762-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e3762-d1e174">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e176">Imperatores
+            Diocletianus, Maximianus</ref> Quoniam sororem tuam prius defunctam
+            esse proponis, quam cognosceret, an a fratre sibi aliquid hereditatis
+            fuisset relictum, manifestum atque evidens est, antequam pro herede
+            gereret vel bonorum possessionem admiserit, defunctam successionem
+            eam non potuisse ad heredes suos transmittere. * DIOCL. ET MAXIM.
+            AA. ET CC. EUSEBIO. *&lt;A 293 PP. K. MAI. THIRALLI AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e180">
+               <head xml:id="azsw2e-d1e3762-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e3762-d1e184">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e186">Imperatores
+            Diocletianus, Maximianus</ref> Licet in continenti sui heredes se
+            paternis non miscuerint bonis, tamen ignorantes delatam sibi esse
+            hereditatem longi temporis praescriptione, quominus hanc recte vindicent,
+            excludi non possunt. * DIOCL. ET MAXIM. AA. ET CC. CLAUDIO. *&lt;A
+            293 S. XVII K. IAN. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e190">
+               <head xml:id="azsw2e-d1e3762-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e3762-d1e194">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e196">Imperatores
+            Diocletianus, Maximianus</ref> Si curatoris tui quondam testamento
+            iure facto vel ab intestato legitima delata successio est, hoc casu
+            ei qui non repudiavit hereditatem eam licet adire. Rector igitur aditus
+            provinciae, si hereditati necdum sunt obligati, eos an heredes sint
+            interrogare debebit ac, si tempus ad deliberandum petierint, moderatum
+            statuet * DIOCL. ET MAXIM. AA. ET CC. PLATONI. *&lt;A 293 S. XVI K.
+            IAN. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e201">
+               <head xml:id="azsw2e-d1e3762-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e3762-d1e205">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e207">Imperatores
+            Diocletianus, Maximianus</ref> Si te bonis paternis maior quinque
+            et viginti annis miscuisti, neque inopia patris te excusat neque vis
+            fratris portionem tuam vel testamentum eripientis arcere te exactione
+            creditorum, qui iure civili pro hereditaria te portione conveniunt,
+            potest. * DIOCL. ET MAXIM. AA. ET CC. SABINAE. *&lt;A 294 S. XVI K.
+            IAN. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e211">
+               <head xml:id="azsw2e-d1e3762-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e3762-d1e215">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e217">Imperatores
+            Diocletianus, Maximianus</ref> Renitente te pater tuus, in cuius fuisti
+            potestate, neque spem delatae tibi legitimae quaerendae successionis
+            absumere neque hereditarios manumittendo servos his praestare libertatem
+            potuit. * DIOCL. ET MAXIM. AA. ET CC. PHILUMENAE. *&lt;A 294 S. VI
+            ID. FEBR. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e221">
+               <head xml:id="azsw2e-d1e3762-Hd1e223">12</head>
+               <p xml:id="azsw2e-d1e3762-d1e225">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e227">Imperatores
+            Diocletianus, Maximianus</ref> Puberem agnoscentem bonorum possessionem,
+            posteaquam ei fuit hereditas delata, pro herede gerere non ambigitur.
+            * DIOCL. ET MAXIM. AA. ET CC. ANTONIO. *&lt;A 294 S. III K. DEC. CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e231">
+               <head xml:id="azsw2e-d1e3762-Hd1e233">13</head>
+               <p xml:id="azsw2e-d1e3762-d1e235">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e237">Imperatores
+            Diocletianus, Maximianus</ref> Suum heredem omissa bonorum possessione
+            paternam successionem obtinere potuisse certi iuris est. * DIOCL.
+            ET MAXIM. AA. ET CC. ARCHEPOLIDI. *&lt;A 294 S. III ID. DEC. NICOMEDIAE
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e241">
+               <head xml:id="azsw2e-d1e3762-Hd1e243">14</head>
+               <p xml:id="azsw2e-d1e3762-d1e245">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e247">Imperatores
+            Diocletianus, Maximianus</ref> Si sorori suae frater tuus civili vel
+            honorario successit iure, licet res ex eius descendentes bonis non
+            probetur tenuisse, heres tamen effectus contra possidentes experiri
+            potest. * DIOCL. ET MAXIM. AA. ET CC. FLAVIAE. *&lt;A 294 S. D. XVIIII
+            K. IAN. NICOMEDIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e251">
+               <head xml:id="azsw2e-d1e3762-Hd1e253">15</head>
+               <p xml:id="azsw2e-d1e3762-d1e255">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e257">Imperator
+            Constantius</ref> Non est dubium, si, priusquam filius iussu patris
+            adierit hereditatem, propriae potestatis effectus est, arbitrio suo
+            eundem hanc sibi potuisse quaerere. * CONSTANTIUS A. AD LEONTIUM COM.
+            ORIENTIS. *&lt;A 349 D. VIII ID. APRIL. LIMENIO ET CATULINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e262">
+               <head xml:id="azsw2e-d1e3762-Hd1e264">16</head>
+               <p xml:id="azsw2e-d1e3762-d1e266">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e268">Imperatores
+            Arcadius, Honorius</ref> Nec emere nec donatum adsequi nec damnosam
+            quisque hereditatem adire compellitur. * ARCAD. ET HONOR. AA. ENNODIO.
+            *&lt;A 395 D. VII K. IAN. OLYBRIO ET PROBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e272">
+               <head xml:id="azsw2e-d1e3762-Hd1e274">17</head>
+               <p xml:id="azsw2e-d1e3762-d1e276">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e278">Imperatores
+            Arcadius, Honorius</ref> Cretionum scrupulosam sollemnitatem hac lege
+            penitus amputari decernimus. * ARCAD. ET HONOR. AA. ET THEODOS. A.
+            ANTHEMIO PP. *&lt;A 407 D. XVI K. APRIL. CONSTANTINOPOLI HONORIO VII
+            ET THEODOSIO II AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e282">
+               <head xml:id="azsw2e-d1e3762-Hd1e284">18</head>
+               <p xml:id="azsw2e-d1e3762-d1e286">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e288">Imperatores
+            Theodosius, Valentinianus</ref>  Si infanti, id est minori septem annis,
+            in potestate patris vel avi vel proavi constituto vel constitutae
+            hereditas sit derelicta vel ab intestato delata a matre vel linea
+            ex qua mater descendit vel aliis quibuscumque personis, licebit parentibus
+            eius sub quorum potestate est adire eius nomine hereditatem vel bonorum
+            possessionem petere. </p>
+               <p xml:id="azsw2e-d1e3762-d1e291" n="1">
+            Sed si hoc parens neglexerit et in memorata aetate infans
+            decesserit, tunc parentem quidem superstitem omnia ex quacumque successione
+            ad eundem infantem devoluta iure patrio quasi iam infanti quaesita
+            capere. </p>
+               <p xml:id="azsw2e-d1e3762-d1e294" n="2">
+            Parente vero non subsistente, si quidem post eius obitum
+            tutor infanti sit vel datus fuerit, posse eum etiam adhuc infante
+            pupillo constituto nomine eius adire hereditatem sive vivo parente
+            sive post mortem eius ad eum devolutam vel bonorum possessionem petere
+            et eo modo eidem infanti hereditatem quaerere. </p>
+               <p xml:id="azsw2e-d1e3762-d1e297" n="3">
+            Sin vero vel non sit tutor vel, cum sit, ea facere neglexerit,
+            tunc eodem infante in ea aetate defuncto omnes hereditates ad eum
+            devolutas et non agnitas ita intellegi, quasi ab initio non essent
+            ad eum delatae, et eo modo ad illas personas perveniant, quae vocabantur,
+            si minime hereditas infanti fuisset delata. Ea vero, quae de infante
+            in potestate parentium constituto statuimus, locum habebunt et si
+            quacumque causa sui iuris idem infans inveniatur </p>
+               <p xml:id="azsw2e-d1e3762-d1e301" n="4">
+            Sin autem septem annos aetatis pupillus excesserit et priore
+            parente mortuo in pupillari aetate fati munus impleverit, ea obtinere
+            praecipimus, quae veteribus legibus continentur, nulla dubietate relicta,
+            quin pupillus post impletos septem annos suae aetatis ipse adire hereditatem
+            vel possessionem bonorum petere consentiente parente, si sub eius
+            potestate sit, vel cum tutoris auctoritate, si sui iuris sit, poterit
+            vel, si non habeat tutorem, adire praetorem et eius decreto hoc ius
+            consequi. * THEODOS. ET VALENTIN. AA. AD SENATUM. *&lt;A 426 D. VIII
+            ID. NOV. RAVENNAE THEODOSIO XII ET VALENTINIANO II AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e305">
+               <head xml:id="azsw2e-d1e3762-Hd1e307">19</head>
+               <p xml:id="azsw2e-d1e3762-d1e309">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e311">Imperator
+            Justinianus</ref>  Cum antiquioribus legibus et praecipue in quaestionibus
+            iulii pauli invenimus filios familias paternam hereditatem deliberantes
+            posse et in suam posteritatem hanc transmittere, et aliis quibusdam
+            adiectis, quae in huiusmodi persona praecipua sunt: eam deliberationem
+            et in omnes successores sive cognatos sive extraneos duximus esse
+            protelandam. </p>
+               <p xml:id="azsw2e-d1e3762-d1e314" n="1">
+            Ideoque sancimus: si quis vel ex testamento vel ab intestato
+            vocatus deliberationem meruerit vel hoc quidem non fecerit, non tamen
+            successioni renuntiaverit, ut ex hac causa deliberare videatur, sed
+            nec aliquid gesserit, quod aditionem vel pro herede gestionem inducit,
+            praedictum arbitrium in successionem suam transmittat, ita tamen,
+            ut unius anni spatiis eadem transmissio fuerit conclusa. </p>
+               <p xml:id="azsw2e-d1e3762-d1e317" n="2">
+            Et si quidem is, qui sciens hereditatem sibi esse vel ab
+            intestato vel ex testamento delatam deliberatione minime petita intra
+            annale tempus decesserit, hoc ius ad suam successionem intra annale
+            tempus extendat. </p>
+               <p xml:id="azsw2e-d1e3762-d1e320" n="3">
+            Si enim ipse, postquam testamentum fuerit insinuatum, vel
+            ab intestato vel ex testamento vel aliter ei cognitum sit heredem
+            eum vocatum fuisse, annali tempore translapso nihil fecerit, ex quo
+            vel adeundam vel renuntiandam hereditatem manifestaverit, is cum successione
+            sua ab huiusmodi beneficio excludatur. </p>
+               <p xml:id="azsw2e-d1e3762-d1e324" n="4">
+            Sin autem instante annali tempore decesserit, reliquum tempus
+            pro adeunda hereditate suis successoribus sine aliqua dubietate relinquat,
+            quo completo nec heredibus eius alius regressus in hereditatem habendam
+            servabitur. * IUST. A. DEMOSTHENI PP. *&lt;A 529 RECITATA SEPTIMO
+            IN NOVO CONSISTORIO PALATII IUSTINIANI. D. III K. NOV. DECIO VC. CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e328">
+               <head xml:id="azsw2e-d1e3762-Hd1e330">20</head>
+               <p xml:id="azsw2e-d1e3762-d1e332">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e334">Imperator
+            Justinianus</ref>  Quidam elogio condito heredem scripsit in certas
+            uncias et post certa verba testamenti eunem in alias uncias vel tantas
+            vel quantascumque et tertio vel in aliam partem hereditatis vel quendam
+            unciarum modum, ille autem unam institutionem vel duas admittens unam
+            vel duas vel quantascumque respuendas esse censuit: quaerebatur apud
+            veteres, si hoc ei facere permittitur. </p>
+               <p xml:id="azsw2e-d1e3762-d1e337" n="1">
+            Similique modo dubitabatur, si impuberem quis filium suum
+            heredem ex parte instituit et quendam extraneum in aliam partem, quem
+            pupillariter substituit, et postquam testator decessit, pupillus quidem
+            patri heres extitit, extraneus autem hereditatem adiit, et postea
+            adhuc in prima aetate pupillus constitutus ab hac luce subtractus
+            est et pupillaris substitutio locum sibi vindicavit: cumque substitutus
+            eandem partem admittere noluit, quaesitum est, si potest iam heres
+            ex principali testamento factus pupillarem substitutionem repudiare.
+            </p>
+               <p xml:id="azsw2e-d1e3762-d1e340" n="2">
+            Utramque igitur dubitationem simul decidendam esse censemus:
+            placuit etenim nobis sive in institutionibus sive in pupillari substitutione,
+            ut vel omnia admittantur vel omnia repudientur et necessitas imponatur
+            heredi particulari facto vel aliam aut alias partes hereditatis admittere
+            vel etiam substitutionem pupillarem. * IUST. A. IOHANNI PP. *&lt;A
+            531 D. PRID. K. MAI. CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTIS
+            VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e344">
+               <head xml:id="azsw2e-d1e3762-Hd1e346">21</head>
+               <p xml:id="azsw2e-d1e3762-d1e348">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e350">Imperator
+            Justinianus</ref>  Cum aliquis scripsit heredem eum, qui de sua condicione
+            ei qui dominium eius vindicabat in iudicio adversabatur, is autem
+            qui dominum sese dicebat adire eum hereditatem imperabat, ut adquisitio
+            hereditatis per eum celebretur, indignatus est quasi domino ei parere.
+            Dubitatio veteribus exorta est, si qua poena ei imponitur huiusmodi
+            insolentiae</p>
+               <p xml:id="azsw2e-d1e3762-d1e353" n="1">
+            Veteres in multas retrahuntur sententias, sed nos eorum discordiam
+            sic esse decidendam censemus, ut distinctio subtilis causae imponatur.
+            </p>
+               <p xml:id="azsw2e-d1e3762-d1e356" n="2">
+            Et si quidem ita scripta est institutio: " illum servum
+            illius heredem instituo" , quia apertissimum est intuitu domini
+            esse institutionem conscriptam, necesse est omnimodo per competentem
+            iudicem eum compelli adire quidem hereditatem et eam adquirere, nulli
+            autem ex postfacto subici gravamini, si liber pronuntietur, sed omne
+            sive lucrum sive damnum ad eum redundare qui in servitutem eum trahebat
+            et denegari ei et adversus eum omnes hereditarias actiones, nullo
+            ex hoc ei praeiudicio generando. </p>
+               <p xml:id="azsw2e-d1e3762-d1e359" n="3">
+            Sin autem quasi liber institutus est nulla domini vel servi
+            mentione in institutione habita, tunc nullo compelli modo eum adire
+            hereditatem nec denegari ei liberale iudicium, sed et hereditatem
+            per suum ius decurrere et liberale iudicium suam expectare sententiam
+            sive agente eo sive pulsato, ut, si quidem servus pronuntietur, tunc
+            domino suo hereditatem adquirat, sin autem liber, eam adipiscatur,
+            si adire maluerit. * IUST. A. IOHANNI PP. *&lt;A 531 D. II K. MAI.
+            CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTIS VV. CC.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e3762-Dd1e364">
+               <head xml:id="azsw2e-d1e3762-Hd1e366">22</head>
+               <p xml:id="azsw2e-d1e3762-d1e368">
+                  <ref xml:id="azsw2e-d1e3762-Rd1e370">Imperator
+            Justinianus</ref>  Scimus iam duas esse promulgatas a nostra clementia
+            constitutiones, unam quidem de his, qui deliberandum pro hereditate
+            sibi delata existimaverunt, aliam autem de improvisis debitis et incertu
+            exitu per diversas species eis imposito. Sed etiam veterem constitutionem
+            non ignoramus, quam divus gordianus ad platonem scripsit de militibus,
+            qui per ignorantiam hereditatem adierint, quatenus pro his tantummodo
+            rebus conveniantur, quas in hereditate defuncti invenerint, ipsorum
+            autem bona a creditoribus hereditariis non inquietentur: cuius sensus
+            ad unam praefatarum constitutionum a nobis redactus est. Arma etenim
+            magis quam iura scire milites sacratissimus legislator existimavi
+            </p>
+               <p xml:id="azsw2e-d1e3762-d1e373" n="1">
+            Ex omnibus itaque istis unam legem colligere nobis apparuit
+            esse humanum et non solum milites adiuvare huiusmodi beneficio, sed
+            etiam ad omnes hoc extendere, non tantum si improvisum emerserit debitum,
+            sed etiam si onerosam quis inveniat esse quam adierit hereditatem.
+            Ita enim nec satis necessarium deliberationis erit auxilium, nisi
+            hominibus formidolosis, qui et ea timent, quae nulla digna sunt suspicione
+            </p>
+               <p xml:id="azsw2e-d1e3762-d1e376"> 
+            Cum igitur hereditas ad quendam sive ex testamento sive ab
+            intestato fuerit delata, sive ex asse sive ex parte, si quidem recta
+            via adire maluerit hereditatem et spe certissima hoc fecerit vel sese
+            immiscuerit, ut non postea eam repudiet, nullo indiget inventario,
+            cum omnibus creditoribus suppositus est, utpote hereditate ei ex sua
+            voluntate infixa. </p>
+               <p xml:id="azsw2e-d1e3762-d1e378"> 
+            Similique modo, si non titubante animo respuendam vel abstinendam
+            esse crediderit hereditatem, ei apertissime intra trium mensuum spatium,
+            ex quo ei cognitum fuerit scriptum se esse vel vocatum heredem, renuntiet
+            nullo nec inventario faciendo nec alio circuitu expectando, et sit
+            alienus huiusmodi hereditate, sive onerosa sive lucrosa sit. </p>
+               <p xml:id="azsw2e-d1e3762-d1e381" n="2">
+            Sin autem dubius est, utrumne admittenda sit nec ne defuncti
+            hereditas, non putet sibi esse necessariam deliberationem, sed adeat
+            hereditatem vel sese immisceat, omni tamen modo inventarium ab ipso
+            conficiatur, ut intra triginta dies, post apertas tabulas vel postquam
+            nota ei fuerit apertura tabularum vel delatam sibi ab intestato hereditatem
+            cognoverit numerandos, exordium capiat inventarium super his rebus,
+            quas defunctus mortis tempore habebat. </p>
+               <p xml:id="azsw2e-d1e3762-d1e384"> 
+            Et hoc inventarium intra alios sexaginta dies modis omnibus
+            impleatur sub praesentia tabulariorum ceterorumque, qui ad huiusmodi
+            confectionem necessarii sunt. </p>
+               <p xml:id="azsw2e-d1e3762-d1e386"> 
+            Subscriptionem tamen supponere heredem necesse est, significantem
+            et quantitatem rerum et quod nulla malignitate circa eas ab eo facta
+            vel facienda res apud eum remanent, vel si ignarus sit litterarum
+            vel scribere praepeditur, speciali tabulario ad hoc solum adhibendo,
+            ut pro eo litteras supponat, venerabili signo antea manu heredis praeposito,
+            testibus videlicet adsumendis, qui heredem cognoscunt et iubenti ei
+            tabularium pro se subscribere interfuerint. </p>
+               <p xml:id="azsw2e-d1e3762-d1e388" n="3">
+            Sin autem locis, in quibus res hereditariae vel maxima pars
+            earum posita est, heredes abesse contigerit, tunc eis unius anni spatium
+            a morte testatoris numerandum damus ad huiusmodi inventarii consummationem:
+            sufficit enim praefatum tempus, etsi longissimo spatio distant, tamen
+            dare eis facultatem inventarii conscribendi vel per se vel per instructos
+            procuratores in locis ubi res positae sunt mittendos. </p>
+               <p xml:id="azsw2e-d1e3762-d1e391" n="4">
+            Et si praefatam observationem inventarii faciendi solidaverint,
+            et hereditatem sine periculo habeant et legis falcidiae adversus legatarios
+            utantur beneficio, ut in tantum hereditariis creditoribus teneantur,
+            in quantum res substantiae ad eos devolutae valeant. </p>
+               <p xml:id="azsw2e-d1e3762-d1e394"> 
+            Et eis satisfaciant, qui primi veniant creditores, et, si
+            nihil reliquum est, posteriores venientes repellantur et nihil ex
+            sua substantia penitus heredes amittant, ne, dum lucrum facere sperant,
+            in damnum incidant. Sed si legatarii interea venerint, et eis satisfaciant
+            ex hereditate defuncti vel ex ipsis rebus vel ex earum forsitan venditione 
+            </p>
+               <p xml:id="azsw2e-d1e3762-d1e397" n="5">
+            Sin vero creditores, qui ex post emensum patrimonium necdum
+            completi sunt, superveniant, neque ipsum heredem inquietare concedantur
+            neque eos qui ab eo comparaverunt res, quarum pretia in legata vel
+            fideicommissa vel alios creditores processerunt: licentia creditoribus
+            non deneganda adversus legatarios venire et vel hypothecis vel indebiti
+            condictione uti et haec quae acceperint recuperare, cum satis absurdum
+            est creditoribus quidem suum ius persequentibus legitimum auxilium
+            denegari, legatariis vero, qui pro lucro certant, suas partes legem
+            accomodare. </p>
+               <p xml:id="azsw2e-d1e3762-d1e400" n="6">
+            Sin vero heredes res hereditarias creditoribus hereditariis
+            pro debito dederint in solutum vel per dationem pecuniarum satis eis
+            fecerint, liceat aliis creditoribus, qui ex anterioribus veniunt hypothecis,
+            adversus eos venire et a posterioribus creditoribus secundum leges
+            eas abstrahere vel per hypothecariam actionem vel per condictionem
+            ex lege, nisi voluerint debitum eis offerre. </p>
+               <p xml:id="azsw2e-d1e3762-d1e403" n="7">
+            Contra ipsum tamen heredem, secundum quod saepius dictum
+            est, qui quantitatem rerum hereditarium expenderit, nulla actio extendatur.
+            </p>
+               <p xml:id="azsw2e-d1e3762-d1e406" n="8">
+            Sed nec adversus emptores rerum hereditariarum, quas ipse
+            vendidit pro solvendis debitis vel legatis, venire alii concedatur,
+            cum satis anterioribus creditoribus a nobis provisum est vel ad posteriores
+            creditores vel ad legatarios pervenientibus et suum ius persequentibus.
+            </p>
+               <p xml:id="azsw2e-d1e3762-d1e409" n="9">
+            In computatione autem patrimonii damus ei excipere et retinere,
+            quidquid in funus expendit vel in testamenti insinuationem vel inventarii
+            confectionem vel in alias necessarias causas hereditatis approbaverit
+            sese persolvisse. Sin vero et ipse aliquas contra defunctum habebat
+            actiones, non eae confundantur, sed similem aliis creditoribus per
+            omnia habeat fortunam, temporum tamen praerogativa inter creditores
+            servanda </p>
+               <p xml:id="azsw2e-d1e3762-d1e412"> 
+            Licentia danda creditoribus seu legatariis vel fideicommissariis,
+            si maiorem putaverint esse substantiam a defuncto derelictam, quam
+            heres in inventario scripsit, quibus voluerint legitimis modis quod
+            superfluum est approbare, vel per tormenta forsitan servorum hereditariorum
+            secundum anteriorem nostram legem, quae de quaestione servorum loquitur,
+            vel per sacramentum illius, si aliae probationes defecerint, ut undique
+            veritate exquisita neque lucrum neque damnum aliquod heres ex huiusmodi
+            sentiat hereditate: illo videlicet observando, ut, si ex hereditate
+            aliquid heredes subripuerint vel celaverint vel amovendum curaverint,
+            postquam fuerint convicti, in duplum hoc restituere vel hereditatis
+            quantitati computare compellantur. </p>
+               <p xml:id="azsw2e-d1e3762-d1e415"> 
+            Donec tamen inventarium conscribitur, vel si res praesto
+            sint, intra tres menses , vel si afuerint, intra annale spatium secundum
+            anteriorem distinctionem, nulla erit licentia neque creditoribus neque
+            legatariis vel fideicommissariis eos inquietare vel ad iudicium vocare
+            vel res hereditarias quasi ex hypothecarum auctoritate vindicare,
+            sed sit hoc spatium ipso iure pro deliberatione heredibus concessum,
+            nullo scilicet ex hoc intervallo creditoribus hereditariis circa temporalem
+            praescriptionem praeiudicio generando. </p>
+               <p xml:id="azsw2e-d1e3762-d1e417"> 
+            Sin vero, postquam adierint vel sese immiscuerint, praesentes
+            vel absentes inventarium facere distulerint, et datum iam a nobis
+            tempus ad inventarii confectionem effluxerit, tunc ex eo ipso, quod
+            inventarium secundum formam praesentis constitutionis non fecerunt,
+            et heredes esse omnimodo intellegantur et debitis hereditariis in
+            solidum teneantur nec legis nostrae beneficio perfruantur, quam contemnendam
+            esse censuerunt.</p>
+               <p xml:id="azsw2e-d1e3762-d1e419"> 
+            Et haec quidem de his sancimus, qui deliberationem nullam
+            petendam curaverint, quam putamus quidem penitus post hanc legem esse
+            supervacuam et debere ei derogari: cum enim liceat et adire hereditatem
+            et sine damno ab ea discedere ex praesentis legis auctoritate, quis
+            locus deliberationi relinquitur? </p>
+               <p xml:id="azsw2e-d1e3762-d1e421"> 
+            Sed quia quidam vel vana formidine vel callida machinatione
+            pro deliberando nobis supplicandum esse necessarium existimant, quatenus
+            eis liceat annale tempus tergiversari et hereditatem inspicere et
+            alias contra eam machinationes excogitare et eandem deliberationem
+            flebilibus adsertionibus repetita prece saepius accipere: ne quis
+            nos putaverit antiquitatis penitus esse contemptores, indulgemus quidem
+            eis petere deliberationem vel a nobis vel a nostris iudicibus, non
+            tamen amplius ab imperiali quidem culmine uno anno, a nostris vero
+            iudicibus novem mensibus, ut neque ex imperiali largitate aliud tempus
+            eis indulgeatur, sed et, si fuerit datum, pro nihilo habeatur: semel
+            enim et non saepius eam peti concedimus. </p>
+               <p xml:id="azsw2e-d1e3762-d1e423"> 
+            Sin autem hoc aliquis fecerit et inventarium conscripserit
+            ( necesse enim est omnimodo deliberantes inventarium cum omni subtilitate
+            facere), non liceat ei post tempus praestitutum, si non recusaverit
+            hereditatem, sed adire maluerit, nostrae legis uti beneficio, sed
+            in solidum secundum antiqua iura omnibus creditoribus teneatur. </p>
+               <p xml:id="azsw2e-d1e3762-d1e425"> 
+            Cum enim gemini tramites inventi sunt, unus quidem ex anterioribus,
+            qui deliberationem dederunt, alter autem rudis et novus a nostro numine
+            repertus, per quem et adeuntes sine damno conservantur, electionem
+            ei damus vel nostram constitutionem eligere et beneficium eius sentire
+            vel, si eam aspernandam existimaverit et ad deliberationis auxilium
+            convolaverit, eius effectum habere: et si non intra datum tempus recusaverit
+            hereditatem, omnibus in solidum debitis hereditariis teneatur et non
+            secundum modum parimonii, sed etsi exiguus sit census hereditatis,
+            tamen quasi heredem eum in totum obligari, et sibi imputet, qui pro
+            novo bene ficio vetus elegit gravamen. </p>
+               <p xml:id="azsw2e-d1e3762-d1e428"> 
+            Et ideo et in ipsam deliberationis dationem et divinum rescriptum
+            super hoc promulgandum hoc adici volumus, ut sciant omnes, quod omnimodo
+            post petitam deliberationem, si adierint vel pro herede gesserint
+            vel non recusaverint hereditatem, omnibus in solidum hereditariis
+            oneribus teneantur. </p>
+               <p xml:id="azsw2e-d1e3762-d1e430"> 
+            Si quis autem temerario proposito deliberationem quidem petierit,
+            inventarium autem minime conscripserit et vel adierit hereditatem
+            vel minime eam repudiaverit , non solum creditoribus in solidum teneatur,
+            sed etiam legis Falcidiae beneficio minime utatur.</p>
+               <p xml:id="azsw2e-d1e3762-d1e432"> 
+            Quod si post deliberandum recusaverit inventario minime conscripto,
+            tunc res hereditatis creditoribus vel his qui ad hereditatem vocantur
+            legibus reddere compelletur, quantitate earum sacramento res accipientium
+            manifestanda, cum taxatione tamen ab iudice statuenda. </p>
+               <p xml:id="azsw2e-d1e3762-d1e434"> 
+            Notissimum autem est ex hac constitutione, quae omnes casus
+            continet, nostris constitutionibus iam pro eisdem capitulis promulgatis
+            esse derogatum, quarum alteri et Gordianae constitutionis sensus continebatur.
+            </p>
+               <p xml:id="azsw2e-d1e3762-d1e436"> 
+            Cum enim ampliore tractatu habito melior exitus inventus
+            est et tribus constitutionibus in unum congregatis unus apparet et
+            in milites et in alios omnes iuris probabilis articulus, quapropter
+            ex anterioribus inquietari nostro subiectos imperio patimur? scilicet
+            ut milites, etsi propter simplicitatem praesentis legis subtilitatem
+            non observaverint, in tantum tamen teneantur, quantum in hereditate
+            invenerint. Quam patres conscripti, in huiusmodi casibus in posterum
+            obtinere sancimus * IUST. A. AD SENATUM. *&lt;A 531 D.V K.DEC.POST
+            CONSULATUM LAMPADII ET ORESTIS VV.CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

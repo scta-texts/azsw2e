@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 3</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 3</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e723"><!-- azsw2e-l2t3 -->
+            <head xml:id="azsw2e-d1e723-Hd1e101">Titulus 3</head>
+            <head xml:id="azsw2e-d1e723-Hd1e103" type="question-title">De pactis.</head>
+            <div xml:id="azsw2e-d1e723-Dd1e106">
+               <head xml:id="azsw2e-d1e723-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e723-d1e110">
+                  <ref xml:id="azsw2e-d1e723-Rd1e112">Imperator
+            Severus</ref> Condicionis incertum inter fratres non iniquis rationibus
+            conventione finitum est. Cum igitur verbis fideicommissi petitum a
+            patre tuo profitearis, ut, si vita sine liberis decederet, hereditatem
+            licinio frontoni restitueret, pactum eo tempore de sextante frontoni
+            dando, cum liberos philinus non sustulerat, interpositum non idcirco
+            potest iniquum videri, quod facta, sicut placuit, divisione diem suum
+            te filio eius superstite functus est. * SEV. A. PHILINO.
+            *&lt;A 200 PP. VII K. DEC. SEVERO A. II ET VICTORINO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e116">
+               <head xml:id="azsw2e-d1e723-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e723-d1e120">
+                  <ref xml:id="azsw2e-d1e723-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Post venditionem
+            hereditatis a te factam, si creditores contra emptores actiones suas
+            movisse probare potueris eosque eas spontanea suscepisse voluntate,
+            exceptione taciti pacti non inutiliter defenderis. * SEV. ET
+            ANT. AA. CLAUDIO. *&lt;A 202 PP. PRID. ID. FEBR.
+            SEVERO III ET ANTONINO AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e126">
+               <head xml:id="azsw2e-d1e723-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e723-d1e130">
+                  <ref xml:id="azsw2e-d1e723-Rd1e132">Imperatores
+            Severus, Antoninus</ref> Servus creditoris
+            meliorem causam domini facere potest: in deterius autem reformare
+            novo pacto non potest obligationem recte constitutam. * SEV. ET ANT.
+            AA. RESTITUTO. *&lt;A 202 PP. VIII K. APRIL. SEVERO III ET
+            ANTONINO AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e137">
+               <head xml:id="azsw2e-d1e723-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e723-d1e141">
+                  <ref xml:id="azsw2e-d1e723-Rd1e143">Imperatores
+            Severus, Antoninus</ref> Postquam liti de praedio motae renuntiasti,
+            causam finitam instaurari posse nulla ratio permittit. * SEV. ET ANT.
+            AA. VALERIAE. *&lt;A 206 PP. IIII ID. FEBR. ALBINO ET AEMILIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e147">
+               <head xml:id="azsw2e-d1e723-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e723-d1e151">
+                  <ref xml:id="azsw2e-d1e723-Rd1e153">Imperator
+            Antoninus</ref> Creditori tuo si partem pecuniae
+            exsolvisti, de parte vero non petenda inter te et eum convenit ob
+            causas negotiaque eius tuo patrocinio fideque defensa, ea obligatione
+            partim iure civili partim honorario liberatus es. Nam exceptio
+            perpetua pacti conventi vel doli residui petitionem repellit, cum
+            et solutum per ignorantiam repeti potuisset. * ANT. A. DEMAGORAE.
+            *&lt;A 213 PP. VIII K. AUG. ROMAE ANTONINO A. IIII ET BALBINO
+            CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e157">
+               <head xml:id="azsw2e-d1e723-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e723-d1e161">
+                  <ref xml:id="azsw2e-d1e723-Rd1e163">Imperator
+            Antoninus</ref> Pacta, quae contra leges constitutionesque vel contra
+            bonos mores fiunt, nullam vim habere indubitati iuris est. *
+            ANT. A. IULIAE BASILIAE. *&lt;A 213 PP.
+            V K. AUG. ANTONINO A. IIII ET BALBINO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e167">
+               <head xml:id="azsw2e-d1e723-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e723-d1e171">
+                  <ref xml:id="azsw2e-d1e723-Rd1e173">Imperator
+            Antoninus</ref> Debitori tuo si heres extitisti, actio, quam contra
+            eum habuisti, adita hereditate confusa est. Sed si eam hereditatem,
+            posteaquam in iudicio obtinuisti, ei tradidisti, quem sententia superaveras,
+            ea condicione pactoque, ut tam ceteris creditoribus quam tibi in eo,
+            quod tibi deberetur, si eam hereditatem non adisses, satisfaceret,
+            pacti conventionisque fides servanda est. Quae si non servatur, ex
+            stipulatu, si modo pacto subiecta est, actio dabitur. *
+            ANT. A. IULIO MAXIMO. *&lt;A 213 PP. III K. AUG. ANTONINO A.
+            IIII ET BALBINO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e177">
+               <head xml:id="azsw2e-d1e723-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e723-d1e181">
+                  <ref xml:id="azsw2e-d1e723-Rd1e183">Imperator
+            Alexander Severus</ref> Cum, posteaquam adversarius
+            matris tuae victus esset, matrem tuam circumvenerit, ut ei caveret
+            nullam se controversiam de servis moturam, id pactum mala fide factum
+            irritum est, et cum ex ea conventione cum matre tua agi coeperit,
+            iudex eam liberabit. * ALEX. A. AURELIO DIONYSIO. *&lt;A 222 PP. PRID. ID. SEPT. ALEXANDRO A. CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e187">
+               <head xml:id="azsw2e-d1e723-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e723-d1e191">
+                  <ref xml:id="azsw2e-d1e723-Rd1e193">Imperator
+            Alexander Severus</ref> Si pascenda pecora
+            partiaria ( id est ut fetus eorum portionibus, quibus placuit, inter
+            dominum et pastorem dividantur) apollinarem suscepisse probabitur,
+            fidem pacto praestare per iudicem compelletur. * ALEX. A. MUCATRAULI.
+            *&lt;A 222 PP. IIII K. OCT. ALEXANDRO A. CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e198">
+               <head xml:id="azsw2e-d1e723-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e723-d1e202">
+                  <ref xml:id="azsw2e-d1e723-Rd1e204">Imperator
+            Alexander Severus</ref> Legem, quam dixisti,
+            cum dotem pro alumna dares, servari oportet, nec obesse tibi potuit,
+            quod dici solet ex pacto actionem non nasci: tunc enim hoc iure utimur,
+            cum pactum nudum est: alioquin cum pecunia datur et aliquid de reddenda
+            ea convenit, utilis est condictio. * ALEX. A. NICAE. *&lt;A 227 PP. IIII K. OCT. ALEXANDRO A. CONS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e208">
+               <head xml:id="azsw2e-d1e723-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e723-d1e212">
+                  <ref xml:id="azsw2e-d1e723-Rd1e214">Imperator
+            Alexander Severus</ref> Ex conventione quidem,
+            qua pactam novercam tuam cum patre tuo dicis, cum fundum in dotem
+            daret, ut et tributa ipsa agnosceret et creditoribus, quibus fuerant
+            praedia obligata, usuras solveret, actio tibi adversus eam competere
+            non potest, et si pactum in stipulationem deductum probetur. Sed si
+            fundus aestimatus ita, ut pars instrumenti significat, in dotem datus
+            est, ex vendito actio, ut placitis stetur, competit. * ALEX.
+            A. CAPITONI. *&lt;A 229 PP. NON. DEC. IPSO A. III ET DIONE II CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e218">
+               <head xml:id="azsw2e-d1e723-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e723-d1e222">
+                  <ref xml:id="azsw2e-d1e723-Rd1e224">Imperator
+            Alexander Severus</ref> Pacta novissima servari
+            oportere tam iuris quam ipsius rei aequitas postulat. Quapropter si
+            conventione quae praecessit diversa pars usuram se non esse consensit,
+            et maxime si, ut proponis, id etiam apud acta praesidis adseveravit,
+            actionem, quae super prima conventione fuerat, exercere non prohiberis.
+            * ALEX. A. FLACCILLAE. *&lt;A 230 PP. III K. MART. AGRICOLA
+            ET CLEMENTE CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e228">
+               <head xml:id="azsw2e-d1e723-Hd1e230">13</head>
+               <p xml:id="azsw2e-d1e723-d1e232">
+                  <ref xml:id="azsw2e-d1e723-Rd1e234">Imperator
+            Maximinus</ref> In bonae fidei contractibus ita demum ex pacto actio
+            competit, si ex continenti fiat: nam quod postea placuit, id non petitionem,
+            sed exceptionem parit. * MAXIMINUS A. MARINO. *&lt;A
+            236 PP. V ID. IAN. MAXIMINO A. ET AFRICANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e238">
+               <head xml:id="azsw2e-d1e723-Hd1e240">14</head>
+               <p xml:id="azsw2e-d1e723-d1e242">
+                  <ref xml:id="azsw2e-d1e723-Rd1e244">Imperator
+            Gordianus</ref> Si pacto, quo poenam adversarium tuum promisisse proponis,
+            si placito non stetisset, stipulatio subiecta est, ex stipulatu agens
+            vel id quod in conventionem devenerat, ut fiat, consequeris vel poenam
+            stipulatione comprehensam more iudiciorum exiges. Nam bona adversarii tui in te transferri citra sollemnem ordinem frustra
+            deprecaris. * GORD. A. CAECILIO MIL. *&lt;A 241 PP. K. APRIL. GORDIANO
+            A. II ET POMPEIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e248">
+               <head xml:id="azsw2e-d1e723-Hd1e250">15</head>
+               <p xml:id="azsw2e-d1e723-d1e252">
+                  <ref xml:id="azsw2e-d1e723-Rd1e254">Imperatores
+            Valerianus, Gallienus. </ref>Pactum, quod dotali instrumento comprehensum
+            est, ut, si pater vita fungeretur, ex aequa portione ea quae nubebat
+            cum fratre heres patri suo esset, neque ullam obligationem contrahere
+            nec libertatem testamenti faciendi mulieris patri potuit auferre.
+            * VALER. ET GALLIEN. AA. ET VALER. NOBIL. C. PACTUMEIO. *&lt;A 259 PP. X K. MART. AEMILIANO ET
+            BASSO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e259">
+               <head xml:id="azsw2e-d1e723-Hd1e261">16</head>
+               <p xml:id="azsw2e-d1e723-d1e263">
+                  <ref xml:id="azsw2e-d1e723-Rd1e265">Imperatores
+            Diocletianus, Maximianus</ref> Cum proponas filios testamento scriptos
+            heredes rogatos esse, ut qui primus rebus humanis eximeretur, alteri
+            portionem hereditatis restitueret, quoniam precariam substitutionem
+            fratrum consensu remissam adseris, fideicommissi persecutio cessat.
+            * DIOCL. ET MAXIM. AA. DIAPHANTO. *&lt;A 286 PP.
+            IIII ID. FEBR. MAXIMO II ET AQUILINO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e269">
+               <head xml:id="azsw2e-d1e723-Hd1e271">17</head>
+               <p xml:id="azsw2e-d1e723-d1e273">
+                  <ref xml:id="azsw2e-d1e723-Rd1e275">Imperatores
+            Diocletianus, Maximianus</ref> Pactum, quod bona fide interpositum
+            docebitur, et si scriptura non existente aliis probationibus rei gestae
+            veritas comprobari potest, praeses provinciae secundum ius custodiri
+            efficiet. * DIOCL. ET MAXIM. AA. DEXIMACHO. *&lt;A
+            286 PP. VIIII K. IUL. MAXIMO II ET AQUILINO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e279">
+               <head xml:id="azsw2e-d1e723-Hd1e281">18</head>
+               <p xml:id="azsw2e-d1e723-d1e283">
+                  <ref xml:id="azsw2e-d1e723-Rd1e285">Imperatores
+            Diocletianus, Maximianus</ref> Si creditores vestros ex parte debiti
+            admisisse quemquam vestrum pro sua persona persolventem probaveritis,
+            aditus rector provinciae pro sua gravitate, ne alter pro altero exigatur,
+            providebit. * DIOCL. ET MAXIM. AA. IULIO ET AEMILIO. *&lt;A 287 PP. VII ID. IAN. DIOCLETIANO III ET MAXIMIANO AA.COMSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e289">
+               <head xml:id="azsw2e-d1e723-Hd1e291">19</head>
+               <p xml:id="azsw2e-d1e723-d1e293">
+                  <ref xml:id="azsw2e-d1e723-Rd1e295">Imperatores
+            Diocletianus, Maximianus</ref> Licet inter privatos huiusmodi scriptum,
+            quo comprehenditur, ut is qui supervixerit alterius rebus potiatur,
+            nec donationis quidem mortis causa gestae efficaciter speciem ostendat,
+            tamen cum voluntas militum, quae super ultimo vitae spiritu deque
+            familiaris rei decreto quoquo modo contemplatione mortis in scripturam
+            deducitur, vim postremi iudicii obtineat proponasque te ac fratrem
+            tuum ad discrimen proelii pergentes ob communem mortis fortunam invicem
+            pactos esse, ut ad eum, qui superstes fuisset, res eius, cui casus
+            finem vitae attulisset, pertinerent, existente condicione intellegitur
+            ex fratris tui iudicio, quod principalium constitutionum prompto favore
+            firmatur, etiam rerum eius compendium ad te de latum esse. * DIOCL.
+            ET MAXIM. AA. VICTORIANO MIL. *&lt;A 290 PP. XIII K. DEC. SIRMI IPSIS
+            IIII ET III AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e299">
+               <head xml:id="azsw2e-d1e723-Hd1e301">20</head>
+               <p xml:id="azsw2e-d1e723-d1e303">
+                  <ref xml:id="azsw2e-d1e723-Rd1e305">Imperatores
+            Diocletianus, Maximianus</ref> Traditionibus et usucapionibus dominia
+            rerum, non nudis pactis transferuntur. * DIOCL. ET MAXIM. AA. ET CC.
+            MARTIALI. *&lt;A 293 PP. K. IAN. AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e309">
+               <head xml:id="azsw2e-d1e723-Hd1e311">21</head>
+               <p xml:id="azsw2e-d1e723-d1e313">
+                  <ref xml:id="azsw2e-d1e723-Rd1e315">Imperatores
+            Diocletianus, Maximianus</ref> Cum proponas inter vos sine scriptura
+            placuisse fratrum tuorum successiones aequis ex partibus dividi, et
+            transactionis causa probari possit hanc intercessisse conventionem,
+            exceptione te tueri potes, si possides: quod si adversarius tuus teneat,
+            ex hoc placito nullam actionem esse natam, si tibi stipulatione non
+            prospexisti, debes intellegere: nec adversario tuo transactione uti
+            concedendum, nisi ea quae placita sunt paratus est adimplere. * DIOCL.
+            ET MAXIM. AA. ET CC. EUSEBIO. *&lt;A 293 PP. K. MAI. THIRALLO AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e320">
+               <head xml:id="azsw2e-d1e723-Hd1e322">22</head>
+               <p xml:id="azsw2e-d1e723-d1e324">
+                  <ref xml:id="azsw2e-d1e723-Rd1e326">Imperatores
+            Diocletianus, Maximianus</ref> Pactum curatoris recipere minorem quantitatem
+            paciscentis adultae aetatis suffragium, ne noceat, efficiet. Tutores
+            enim et curatores exigentes pupillis et adultis debitum, non etiam
+            remittentes praestant obligationis liberationem. * DIOCL. ET MAXIM.
+            AA. ET CC. ARCHELAO. *&lt;A 293 PP. XVII K. DEC. SIRMI AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e330">
+               <head xml:id="azsw2e-d1e723-Hd1e332">23</head>
+               <p xml:id="azsw2e-d1e723-d1e334">
+                  <ref xml:id="azsw2e-d1e723-Rd1e336">Imperatores
+            Diocletianus, Maximianus</ref> Filius paciscendo
+            vel debitum accipiendo nihil detrahit patris obligationi. *
+            DIOCL. ET MAXIM. AA. ET CC.HONORATO. *&lt;A 293 PP. XVII K. DEC. SIRMI AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e340">
+               <head xml:id="azsw2e-d1e723-Hd1e342">24</head>
+               <p xml:id="azsw2e-d1e723-d1e344">
+                  <ref xml:id="azsw2e-d1e723-Rd1e346">Imperatores
+            Diocletianus, Maximianus</ref> Si actionem
+            legati vel fideicommissi, quam adversus heredes mariti quondam tui
+            habuisti, te adfectione heredum aliis remisisse probetur, exceptionem
+            pacti contra debitores instituenti actiones nocere tibi minime posse
+            intellegis. * DIOCL. ET MAXIM. AA. ET CC.DOMNAE. *&lt;A 293
+            PP. XVII K. IAN. SIRMI AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e350">
+               <head xml:id="azsw2e-d1e723-Hd1e352">25</head>
+               <p xml:id="azsw2e-d1e723-d1e354">
+                  <ref xml:id="azsw2e-d1e723-Rd1e356">Imperatores
+            Diocletianus, Maximianus</ref> Debitorum pactionibus
+            creditorum petitio nec tolli nec mutari potest. * DIOCL. ET MAXIM.
+            AA. ET CC. EUHEMERO. *&lt;A 294 S. IIII K. MAI. SIRMI CC. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e360">
+               <head xml:id="azsw2e-d1e723-Hd1e362">26</head>
+               <p xml:id="azsw2e-d1e723-d1e364">
+                  <ref xml:id="azsw2e-d1e723-Rd1e366">Imperatores
+            Diocletianus, Maximianus</ref> Pactum successorum debitoris ex lege
+            duodecim tabularum aes alienum hereditarium pro portionibus quaesitis
+            singulis ipso iure divisum in solidum unum obligare creditori non
+            potest: quod et in honorario succedentibus iure locum habebit. De
+            chirographis itaque communibus exhibendis cum coherede vel non perfectis
+            in divisione placitis convenire quanti tua interest potes. * DIOCL.
+            ET MAXIM. AA. ET CC. CORNELIAE. *&lt;A 294 PP. III ID. OCT. VARIANI CC. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e370">
+               <head xml:id="azsw2e-d1e723-Hd1e372">27</head>
+               <p xml:id="azsw2e-d1e723-d1e374">
+                  <ref xml:id="azsw2e-d1e723-Rd1e376">Imperatores
+            Diocletianus, Maximianus</ref> Petens ex stipulatione, quae placiti
+            servandi causa secuta est, seu antecessit pactum seu post statim interpositum
+            sit, recte secundum se ferri sententiam postulat. * DIOCL. ET MAXIM.
+            AA. ET CC. AURELIO CHRESIMO. *&lt;A 294 S. VI ID. NOV. HERACLEAE CC. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e381">
+               <head xml:id="azsw2e-d1e723-Hd1e383">28</head>
+               <p xml:id="azsw2e-d1e723-d1e385">
+                  <ref xml:id="azsw2e-d1e723-Rd1e387">Imperatores
+            Diocletianus, Maximianus</ref> Si certis annis quod nudo pacto convenerat
+            datum fuit, ad praestandum in posterum indebitum solutum obligare
+            non potuit eum qui pactum fecit, nisi placitis stipulatio intercessit.
+            * DIOCL. ET MAXIM. AA. ET CC. LEONTIO. *&lt;A 294 S. III NON. DEC.
+            BURTUDIZI CC. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e391">
+               <head xml:id="azsw2e-d1e723-Hd1e393">29</head>
+               <p xml:id="azsw2e-d1e723-d1e395">
+                  <ref xml:id="azsw2e-d1e723-Rd1e397">Imperator
+            Justinianus</ref>  Si quis in conscribendo instrumento sese confessus
+            fuerit non usurum fori proscriptione propter cingulum militiae suae
+            vel dignitatis vel etiam sacerdotii praerogativam, licet ante dubitabatur,
+            sive oportet eandem scripturam tenere et eum qui hoc pactus est non
+            debere adversus suam conventionem venire, vel licentiam ei praestari
+            decedere quidem a scriptura, suo autem iure uti: sancimus nemini licere
+            adversus pacta sua venire et contrahentes decipere. </p>
+               <p xml:id="azsw2e-d1e723-d1e400" n="1">
+            Si enim ipso edicto praetoris pacta conventa, quae neque
+            contra leges nec dolo malo inita sunt, omnimodo observanda sunt, quare
+            et in hac causa pacta non valent, cum alia regula est iuris antiqui
+            omnes licentiam habere his quae pro se introducta sunt renuntiare?
+            </p>
+               <p xml:id="azsw2e-d1e723-d1e403" n="2">
+            Omnes itaque iudices nostri hoc in litibus observent, et
+            huiusmodi observatio et ad pedaneos iudices et ad compromissarios
+            et arbitros electos perveniat scituros, quod, si neglexerint, etiam
+            litem suam facere intellegantur. * IUST. A. IOHANNI PP. *&lt;A 531
+            D. K. SEPT. CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTAE VV.
+            CC.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e723-Dd1e407">
+               <head xml:id="azsw2e-d1e723-Hd1e409">30</head>
+               <p xml:id="azsw2e-d1e723-d1e411">
+                  <ref xml:id="azsw2e-d1e723-Rd1e413">Imperator
+            Justinianus</ref>  De quaestione tali a caesariensi advocatione interrogati
+            sumus: si duabus vel pluribus personis spes alienae fuerat hereditatis
+            ex cognatione forte ad eos devolvendae, pactaque inter eos inita sunt
+            pro adventura hereditate, quibus specialiter declarabatur, si ille
+            mortuus fuerit et hereditas ad eos perveniat, certos modos in eadem
+            hereditate observari, vel si forte ad quosdam ex his hereditatis commodum
+            pervenerit, certas pactiones evenire. Et dubitabatur, si huiusmodi
+            pacta servari oportet. </p>
+               <p xml:id="azsw2e-d1e723-d1e416" n="1">
+            Faciebat autem eis quaestionem, quia adhuc superstite eo,
+            de cuius hereditate sperabatur, huiusmodi pactio processit et quia
+            non sunt ita confecta, quasi omnimodo hereditate ad eos perventura,
+            sed sub duabus condicionibus composita sunt, si ille fuerit mortuus
+            et si ad hereditatem vocentur hi qui pactionem fecerunt.</p>
+               <p xml:id="azsw2e-d1e723-d1e419" n="2"> Sed
+            nobis omnes huiusmodi pactiones odiosae videntur et plenae tristissimi
+            et periculosi eventus. Quare enim quodam vivente et ignorante de rebus
+            eius quidam paciscentes convenerunt. </p>
+               <p xml:id="azsw2e-d1e723-d1e422" n="3">
+            Secundum veteres itaque regulas sancimus omnimodo huiusmodi
+            pacta, quae contra bonos mores inita sunt, repelli et nihil ex his
+            pactionibus observari, nisi ipse forte, de cuius hereditate pactum
+            est, voluntatem suam eis accommodaverit et in ea usque ad extremum
+            vitae spatium perseveraverit: tunc etenim sublata acerbissima spe
+            licebit eis illo sciente et iubente huiusmodi pactiones servare. </p>
+               <p xml:id="azsw2e-d1e723-d1e426" n="4">
+            Quod etiam anterioribus legibus et constitutionibus non est
+            incognitum, licet a nobis clarius est introductum. Iubemus etenim
+            neque donationes talium rerum neque hypothecas penitus esse admittendas
+            neque alium quendam contractum, cum in alienis rebus contra domini
+            voluntatem aliquid fieri vel pacisci secta temporum meorum non patitur.
+            * IUST. A. IOHANNI PP. *&lt;A 531 D. K. NOV. CONSTANTINOPOLI POST
+            CONSULATUM LAMPADII ET ORESTAE VV.CC.&gt;
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

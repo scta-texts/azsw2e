@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 58</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 58</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4063"><!-- azsw2e-l6t58 -->
+            <head xml:id="azsw2e-d1e4063-Hd1e101">Titulus 58</head>
+            <head xml:id="azsw2e-d1e4063-Hd1e103" type="question-title">De legitimis heredibus</head>
+            <div xml:id="azsw2e-d1e4063-Dd1e106">
+               <head xml:id="azsw2e-d1e4063-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4063-d1e110">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e112">Imperator
+            Alexander Severus</ref> In successione titulo consanguinitatis vel
+            in bonorum possessione, quae proximitatis nomine competit, tam fratres
+            quam sorores pari iure esse, licet non eadem matre susceptae sunt,
+            ius certum est. Nec huic derogatur, quod amitas vestras ab avo vestro
+            dotatas fuisse proponitis * ALEX. A. CASSIO ET HERMIONAE. *&lt;A 223
+            PP.NON.MAI.MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4063-Dd1e116">
+               <head xml:id="azsw2e-d1e4063-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4063-d1e120">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e122">Imperator
+            Alexander Severus</ref> Si eius, quae vos heredes instituit, patri
+            non quaesistis hereditatem posteaque mortuo patre ac repudiata eius
+            hereditate defunctae successionem agnovistis, ea, quae bonorum sunt
+            defunctae, ab his separari, quae patris vestri fuerunt, praeses provinciae
+            non ignorabit. * ALEX. A. TATIANAE ET ALIIS. *&lt;A 239 PP.VI ID.APRIL.GORDIANO
+            A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4063-Dd1e126">
+               <head xml:id="azsw2e-d1e4063-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4063-d1e130">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e132">Imperator
+            Decius</ref>  Consanguinitatis iure et feminas ad intestatorum successionem
+            admitti posse explorati iuris est. </p>
+               <p xml:id="azsw2e-d1e4063-d1e135" n="1">
+            Proinde cum fratris tui intestato mortui ad te consanguinitatis
+            iure hereditas pertineat, nulla ratione alterius fratris tui filii
+            ad eandem successionem adspirare desiderant: nam et cessante iure
+            agnationis in persona omnium praetorii iuris beneficio ad te potius,
+            quae secundum gradum obtines, hereditas pertinet quam ad fratris tui
+            filios, qui tertio gradu constituti sunt. * DEC. A. ASCLEPIODOTAE.
+            *&lt;A 250 PP. II NON. DEC. DECIO A. ET GRATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4063-Dd1e140">
+               <head xml:id="azsw2e-d1e4063-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e4063-d1e144">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e146">Imperatores
+            Diocletianus, Maximianus</ref> Si aut nullum testamentum nepos patrui
+            tui ordinavit aut intra quattuordecim annos constitutus fecit et agnationis
+            iure successio eius tibi delata est, etiam citra bonorum possessionis
+            subsidium legitimo iure subnixus es. * DIOCL. ET MAXIM. AA. CAECILIO.
+            *&lt;A 290 PP. ID. IUL. IPSIS AA. IIII ET III CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4063-Dd1e150">
+               <head xml:id="azsw2e-d1e4063-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e4063-d1e154">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e156">Imperatores
+            Diocletianus, Maximianus</ref> Ad intestati successionem agnationis
+            iure quam proximitatis venientes haberi potiores certum est. * DIOCL.
+            ET MAXIM. AA. ET CC. CYRILLAE. *&lt;A 293 SUPPOSITA XVI K. IUL. SIRMI
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4063-Dd1e160">
+               <head xml:id="azsw2e-d1e4063-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e4063-d1e164">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e166">Imperatores
+            Diocletianus, Maximianus</ref> Defuncto, suis extantibus heredibus
+            et abstinentibus vel repudiantibus hereditatem, frater iure consanguinitatis
+            succedere potest. * DIOCL. ET MAXIM. AA. ET CC. CLAUDIANAE. *&lt;A
+            293 S. PRID. K. IAN. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4063-Dd1e170">
+               <head xml:id="azsw2e-d1e4063-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e4063-d1e174">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e176">Imperatores
+            Diocletianus, Maximianus</ref> Patruo ac materterae tertio constitutis
+            gradu non pariter intestati successio defertur, sed patris frater
+            agnationis iure sorori matris anteponitur. * DIOCL. ET MAXIM. AA.
+            ET CC. AMMIANO. *&lt;A 294 S. XVII K. MART. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4063-Dd1e180">
+               <head xml:id="azsw2e-d1e4063-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e4063-d1e184">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e186">Imperatores
+            Diocletianus, Maximianus</ref> Si his, de quorum successione agitur,
+            apud hostes defunctis secundum legis corneliae beneficium iure agnationis
+            adita hereditate vel petita bonorum possessione successisti, substantiam
+            eorum vindicare non prohiberis. * DIOCL. ET MAXIM. AA. ET CC. SILANO.
+            *&lt;A 293 S. NON. IUL. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4063-Dd1e190">
+               <head xml:id="azsw2e-d1e4063-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e4063-d1e194">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e196">Imperatores
+            Diocletianus, Maximianus</ref> In successione intestatae sororem quam
+            avum maternum haberi potiorem non ambigitur. * DIOCL. ET MAXIM. AA.
+            ET CC. DAMAGORAE. *&lt;A 294 S. VI K. IUL. NICOMEDIAE CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4063-Dd1e201">
+               <head xml:id="azsw2e-d1e4063-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e4063-d1e205">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e207">Imperatores
+            Theodosius, Valentinianus</ref> Sciant, qui ad successionem vocantur
+            pupilli mortui, si defuncto eius patre tutorem ei secundum leges non
+            petierint intra annum, omnem eis sive ab intestato sive iure substitutionis
+            successionem eius, si impubes moritur, denegandam. * THEODOS. ET VALENTIN.
+            AA. FLORENTIO PP. *&lt;A 439 D. VI ID. IUL. CONSTANTINOPOLI THEODOSIO
+            A. XVII ET FESTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4063-Dd1e211">
+               <head xml:id="azsw2e-d1e4063-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e4063-d1e215">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e217">Imperator
+            Anastasius</ref> Si ab eo, qui ex sacro rescripto secundum nostram
+            constitutionem fieri postulaverit emancipationem liberorum, petitum
+            sit, quatenus ei, qui emancipandus emancipandave est, minime legitima
+            iura per emancipationem extinguantur, eadem iura tam emancipato vel
+            emancipatae contra personas alias hoc modo sibi coniunctas quam aliis
+            itidem contra eum vel eam in hereditatibus vel successionibus et tutelis
+            nec non ceteris serventur intacta. * ANASTAS. A. CONSTANTINO PP. *&lt;A
+            502 D. XV K. AUG. CONSTANTINOPOLI PROBO ET AVIENO IUNIORE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4063-Dd1e221">
+               <head xml:id="azsw2e-d1e4063-Hd1e223">12</head>
+               <p xml:id="azsw2e-d1e4063-d1e225">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e227">Imperator
+            Justinianus</ref>  Si maior quinquagenaria partum ediderit, si debet
+            huiusmodi suboles suo patri sua constitui et hereditatem eius nancisci,
+            a Caesariana advocatione interrogati sumus. </p>
+               <p xml:id="azsw2e-d1e4063-d1e230" n="1">
+            Et sancimus, licet mirabilis huiusmodi partus invenitur et
+            raro contingit, nihil tamen eorum, quae probabiliter a natura noscuntur
+            esse producta, respui, sed omne ius, quod ex quacumque lege liberis
+            praestitum est, hoc merum atque immutilatum huiusmodi filiis vel filiabus
+            servari in omnibus successionibus sive ex testamento sive ab intestato.
+            </p>
+               <p xml:id="azsw2e-d1e4063-d1e233" n="2">
+            Et summatim non absimiles aliis fiant, quos similes natura
+            effecit, maxime cum et anteriore nostra lege huiusmodi nuptias permisimus,
+            impares eas videri minime concedentes. * IUST. A. IOHANNI PP. *&lt;A
+            532 D. IIX K. NOV. CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTIS
+            VV. CC. ANNO SECUNDO.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4063-Dd1e237">
+               <head xml:id="azsw2e-d1e4063-Hd1e239">13</head>
+               <p xml:id="azsw2e-d1e4063-d1e241">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e243">Imperator
+            Justinianus</ref>  De emancipatis filiis, qui sacro rescripto patribus
+            impertito hoc a suis genitoribus meruerunt, dubitatum est. Cum enim
+            Anastasiana lex iura fratribus legitima noscitur servare, si quis
+            ex his sine testamento et liberis decesserit, utrumne ad fratrem vel
+            sororem eius successio devolvatur an ad superstitem patrem, dubitabatur.
+            </p>
+               <p xml:id="azsw2e-d1e4063-d1e246" n="1">
+            Huiusmodi dubitationem compendioso responso duximus esse
+            finiendam ideoque sancimus ad similitudinem maternarum rerum aliarumque,
+            de quibus a nobis iam lex posita est, et huiusmodi hereditatem iure
+            quidem dominii ad fratres vel sorores pervenire in totum, usum fructum
+            autem eius patri totum, sive torum priorem servaverit sive ad secundas
+            migraverit nuptias, adquiri, sive per sacrum oraculum emancipatio
+            procedat sive alio legitimo modo a sacris paternis fuerint absoluti.
+            </p>
+               <p xml:id="azsw2e-d1e4063-d1e249" n="2">
+            Cum enim et pater utitur usu fructu et votum eius est ad
+            alios filios suas res pervenire, quapropter, cum ex lege anastasiana
+            in alium articulum fratribus prospectum est, non a nobis in hac specie
+            plenius eis subvenitur, ut pater habeat usum fructum, fratres autem
+            vel sorores dominium rerum relictarum? </p>
+               <p xml:id="azsw2e-d1e4063-d1e252" n="3">
+            Exceptis maternis rebus, in quibus, si ex eadem matre fratres
+            vel sorores sunt, eos solos vocari oportet: sin autem non supersint,
+            tunc ad similitudinem aliarum rerum in totam fraternitatem dominium
+            earum cedere, ut sit apertissimus in omnibus tractatus et non per
+            differentiam personarum vel rerum vacillare noscatur. * IUST. A. IOHANNI
+            PP. *&lt;A 531 D. K. NOV. CONSTANTINOPOLI POST CONSULATUM LAMPADII
+            ET ORESTIS VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4063-Dd1e256">
+               <head xml:id="azsw2e-d1e4063-Hd1e258">14</head>
+               <p xml:id="azsw2e-d1e4063-d1e260">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e262">Imperator
+            Justinianus</ref>  Lege duodecim tabularum bene Romano generi prospectum
+            est, quae unam consonantiam tam in maribus quam in feminis legitimis
+            et in eorum successionibus nec non libertis observandam esse existimavit,
+            nullo discrimine in successionibus habito, cum natura utrumque corpus
+            edidit, ut maneat suis vicibus immortale et alterum alterius auxilio
+            egeat, ut uno semoto et alterum corrumpatur. </p>
+               <p xml:id="azsw2e-d1e4063-d1e265" n="1">
+            Sed posteritas, dum nimia utitur subtilitate, non piam induxit
+            differentiam, sicut Iulius Paulus in ipso principio libri singularis,
+            quem ad senatus consultum Tertullianum fecit, apertissime docuit.
+            </p>
+               <p xml:id="azsw2e-d1e4063-d1e268" n="2">
+            Qui enim ferendum est ab intestato successionibus suas quidem
+            filias ad similitudinem masculae subolis in parentis vocari successionem
+            et iterum germanas iure consanguinitatis eandem sibi vindicare praerogativam,
+            deinceps autem legitimas feminarum personas, si iura consanguinitatis
+            non possident, a successione legitima repelli, cum maribus eadem successio
+            pateat? </p>
+               <p xml:id="azsw2e-d1e4063-d1e271" n="3">
+            Quare enim patris soror non ad successionem filii fratris
+            sui una cum masculis vocatur, sed aliud ius in amita, aliud in patruis
+            observatur? vel qua ratione fratris filius ad successionem patrui
+            vocatur, germana autem eius ab eadem successione recluditur? </p>
+               <p xml:id="azsw2e-d1e4063-d1e275" n="4">
+            Huiusmodi itaque legis antiquae reverentiam et nos anteponi
+            novitati legis censemus et sancimus omnes legitimas personas, id est
+            per virilem sexum descendentes, sive masculini sive feminini generis
+            sint, simili modo ad iura successionis legitimae ad successionem intestatorum
+            vocari secundum gradus sui praerogativam non ideo excludendas, quia
+            consanguinitatis iura secundum germanae observationem non habent.
+            </p>
+               <p xml:id="azsw2e-d1e4063-d1e278" n="5">
+            Cum enim unius sanguinis iura remanent per virilem sexum
+            incorrupta, quare naturae offendimus et legitimo iuri derogamus? cum
+            et aliam maximam iniuriam res in se continet plerisque quasi vulnus
+            intestinum incognitum. Cum enim ad earum mulierum successionem masculi
+            iure agnationis vocantur, quis patiatur earum quidem hereditatem ad
+            eos legitimo iure deferri, ipsas vero neque invicem sibi neque masculis
+            posse eodem iure succedere, sed propter hoc solum puniri, quod feminae
+            natae sunt, et paterno vitio ( si hoc vitium est) prolem innocentem
+            gravari</p>
+               <p xml:id="azsw2e-d1e4063-d1e281" n="6">
+            ( 1) in his igitur casibus legem duodecim tabularum sequentes
+            et novum ius novissimo iure corrigentes etiam unum gradum pietatis
+            intuitu transferri ab iure cognationis in legitimam volumus successionem,
+            ut non solum fratris filius et filia secundum quod iam definivimus
+            ad successionem patrui sui vocentur, sed etiam germanae consanguineae
+            vel sororis uterinae filius et filia soli et non deinceps personae
+            una cum his ad iura avunculi sui perveniant, et mortuo eo, qui patruus
+            quidem est fratris sui filiis, avunculus autem sororis suae suboli,
+            simili modo ab utroque latere succedatur, tamquam si omnes legitimo
+            iure veniant, scilicet ubi frater et soror superstites non sunt. His
+            etenim personis praecedentibus et hereditatem admittentibus ceteri
+            gradus remanent penitus semoti </p>
+               <p xml:id="azsw2e-d1e4063-d1e284" n="7">
+            Illo procul dubio observando, ut successio non ad stirpes,
+            sed in capita dividatur et is gradus in ordinem legitimum transferatur:
+            ceteris omnibus successionibus secundum ius usque ad praesens tempus
+            observatum in suo statu manentibus. </p>
+               <p xml:id="azsw2e-d1e4063-d1e287" n="8">
+            Si qui autem casus iam evenerunt, secundum quod pristina
+            iura volebant, eorum fiat distributio. * IUST. A. IOHANNI PP. *&lt;A
+            531 D. V K. DEC. POST CONSULATUM LAMPADII ET ORESTIS VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4063-Dd1e291">
+               <head xml:id="azsw2e-d1e4063-Hd1e293">15</head>
+               <p xml:id="azsw2e-d1e4063-d1e295">
+                  <ref xml:id="azsw2e-d1e4063-Rd1e297">Imperator
+            Justinianus</ref>  Meminimus antea divinam promulgasse constitutionem,
+            per quam ad vestigia legis duodecim tabularum totam progeniem ex legitima
+            subole descendentem sive masculinam sive femininam legitimo iure hereditatem
+            adipisci sanximus, ut, quemadmodum ipsis a legitimis succeditur, ita
+            et ipsae legitimarum personarum amplectantur successionem. </p>
+               <p xml:id="azsw2e-d1e4063-d1e300" n="1">
+            In qua constitutione unum gradum ex cognatis in ius legitimum
+            reduximus, id est germanae filios et filias et sororis uterinae filios
+            ac filias: quam constitutionem in suo robore permanere censemus, cum
+            et in nostris institutionibus tenor eius a nobis relatus est. </p>
+               <p xml:id="azsw2e-d1e4063-d1e303"> 
+            Sed subtiliore tractatu habito necessarium duximus, et si
+            quid ex praetoria iurisdictione frugi inventum est, et hoc cum perfectissima
+            definitione posito nostras leges ampliari. </p>
+               <p xml:id="azsw2e-d1e4063-d1e305"> 
+            Cum igitur praetor filium emancipatum, licet subtili iure
+            capite fuerat deminutus, attamen in patris successione sine ulla deminutione
+            vocare manifestissimus est, non eodem autem iure ad fratrum suorum
+            successionem ab eo vocabatur, sed nec filii eius iure legitimo suis
+            patruis succedebant, necessarium duximus hoc primum corrigere et legem
+            Anastasianam iusto incremento perfectam ostendere, ut emancipatus
+            filius et filia non solum in paternis bonis ad suorum similitudinem
+            succedant, sed etiam in fratrum vel sororum suarum successione, sive
+            omnes emancipati sint sive permixti sui cum emancipatis, aequo iure
+            invicem sibi succedant et non secundum legem Anastasianam parte aliqua
+            deminuta. Et haec quidem de fi liis emancipatis sancire bellissimum
+            nobis visum est </p>
+               <p xml:id="azsw2e-d1e4063-d1e308" n="2">
+            Sed nec fratrem vel sororem uterinos concedimus in cognationis
+            loco relinqui. Cum enim tam proximo gradu sunt, merito eos sine ulla
+            differentia, tamquam si consanguinei fuerant, cum legitimis fratribus
+            et sororibus vocandos esse sancimus, ut secundo gradu constituti et
+            legitima successione digni reperti aliis omnibus, qui sunt ulterioris
+            gradus, licet legitimi sint, praecellant. Et haec quidem de secundi
+            gradus successione satis abundeque nobis cum summa utilitate disposita
+            sunt. </p>
+               <p xml:id="azsw2e-d1e4063-d1e311" n="3">
+            Cum autem tertio gradui ex transversa linea fuerit locus,
+            ubi patruis et filiis fratrum et sororum locum antiquitas dedicavit,
+            una cum illis tam emancipati fratris quam emancipatae sororis filium
+            tantummodo et filiam, sive emancipatos sive suos patribus constitutos,
+            et neminem alium ulterius, nec non fratris uterini et sororis germanae
+            vel uterinae filium et filiam tantummodo ex legitima linea invicem
+            vocari censemus, sicut iam sanximus, ut omnes, qui vel ab antiquo
+            iure vel a nostra liberalitate in legitimorum quidem positi sunt praerogativa,
+            eodem autem tertio gradu sunt, simili iure vocentur. </p>
+               <p xml:id="azsw2e-d1e4063-d1e314"> 
+            Successionis videlicet iure et in hac parte servando, ut,
+            si qui ex secundo gradu vocati renuntiaverint hereditati et noluerint
+            eam adire nullusque alius sit in secundo gradu, qui succedere et potest
+            et vult, tunc hi, quos praesenti lege enumeravimus ex tertio gradu,
+            in locum recusantium succedant. </p>
+               <p xml:id="azsw2e-d1e4063-d1e316"> 
+            Illo etiam observando, ut successio non ad stirpes, sed in
+            capita dividatur: ceteris omnibus successionibus secundum ius usque
+            ad praesens tempus observatum procedentibus et nullo ex cognatis supra
+            memoratos gradus ad iuris agnaticii formam redigendo, sed suum ordinem
+            suamque proximitatem tenente incorruptam. </p>
+               <p xml:id="azsw2e-d1e4063-d1e318" n="4">
+            Quas autem personas ex iure cognationis in legitimas successiones
+            transveximus, eas et tutelae gravamini vicissim supponimus, scilicet
+            si et masculi sint et perfectae aetatis secundum nostrae constitutionis
+            tenorem, ut non solum lucrum sentiant, sed etiam gravamini subiugentur.
+            </p>
+               <p xml:id="azsw2e-d1e4063-d1e321" n="5">
+            Si qui autem casus iam evenerunt et per iudicialem sententiam
+            vel amicalem transactionem sopiti sunt, nullam sentiant ex hac lege
+            retractationem. * IUST. A. IOHANNI PP. *&lt;A 534 D. ID. OCT. CONSTANTINOPOLI
+            DN. IUSTINIANO A. PP. IIII ET PAULINO VC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

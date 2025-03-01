@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 12</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 12</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7185"><!-- azsw2e-l11t12 -->
+            <head xml:id="azsw2e-d1e7185-Hd1e101">Titulus 12</head>
+            <head xml:id="azsw2e-d1e7185-Hd1e103" type="question-title">Nulli licere in frenis et equestribus sellis et in balteis margaritas
+            et smaragdos et hyacinthos aptare et de artificibus palatinis</head>
+            <div xml:id="azsw2e-d1e7185-Dd1e106">
+               <head xml:id="azsw2e-d1e7185-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7185-d1e110">
+                  <ref xml:id="azsw2e-d1e7185-Rd1e112">Imperator
+            Leo</ref>  Nulli prorsus liceat in frenis et equestribus sellis vel
+            in balteis suis margaritas et smaragdos et hyacinthos aptare posthac
+            vel inserere. Aliis autem gemmis frena et equestres sellas et balteos
+            suos privatos exornare permittimus. De curcumis vero omnem prorsus
+            qualiumcumque gemmarum habitum praecipimus submoveri. Fibulis quoque
+            in chlamydibus his utantur, quae solo auro et arte pretiosae sunt.
+            Si quis autem contra interdictum pietatis meae fecerit, sciat se continuo
+            quinquaginta libris auri esse multant. </p>
+               <p xml:id="azsw2e-d1e7185-d1e115" n="1">
+            Nulli praeterea privatorum liceat ( exceptis scilicet ornamentis
+            matronalibus et tam muliebrium quam virilium anulorum habitu) aliquid
+            ex auro et gemmis quod ad cultum et ornatum imperatorium pertinet
+            facere neque illud sub hoc colore et praetextu praeparare, quod velit
+            clementiae principali velut aliquod munus offerre: pietas enim mea
+            huiusmodi dona non expetit neque regium sibi offerri a privatis cultum
+            requirit. </p>
+               <p xml:id="azsw2e-d1e7185-d1e118" n="2">
+            Sane si quis posthac aliquid contra vetitum huiusmodi sanctionis
+            effecerit et offerenda clementiae meae ornamenta, quae usibus regiis
+            deputata sunt, gemmis auroque decorata ausus fuerit praeparare, centum
+            librarum auri condemnatione sciat se esse feriendum, capitali quoque
+            subdendum esse supplicio: ornamenta enim regia intra aulam meam fieri
+            a palatinis artificibus debent, non passim in privatis domibus vel
+            officiis parari.</p>
+               <p xml:id="azsw2e-d1e7185-d1e121" n="3">
+            Unde summa severitate sancimus, ut quod in cultu ornatuque
+            nostro sacrum et adoptabile est, id facere temeritas privata non audeat.
+            </p>
+               <p xml:id="azsw2e-d1e7185-d1e125" n="4">
+            Si quis sane contra vetitum tranquillitatis meae aliquid
+            fecerit, definitam superius multam ab his per officia palatinorum
+            exigi et sacris largitionibus nostris iubemus inferri. * LEO A. LEONTICO.
+            *&lt;A XXX &gt;
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

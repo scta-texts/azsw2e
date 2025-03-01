@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 25</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 25</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7330"><!-- azsw2e-l11t25 -->
+            <head xml:id="azsw2e-d1e7330-Hd1e101">Titulus 25</head>
+            <head xml:id="azsw2e-d1e7330-Hd1e103" type="question-title">De annonis civilibus</head>
+            <div xml:id="azsw2e-d1e7330-Dd1e106">
+               <head xml:id="azsw2e-d1e7330-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7330-d1e110">
+                  <ref xml:id="azsw2e-d1e7330-Rd1e112">Imperatores
+            Theodosius, Arcadius, Honorius</ref>  Annonas publicas non tam titulis
+            dignitatum quam singulorum viritim meritis attributas divi Constantini
+            liberalitate sat claruit. </p>
+               <p xml:id="azsw2e-d1e7330-d1e115" n="1">
+            Ideoque nihil ex his scholarum nomine vindicetur, sed pro
+            uniuscuiusque merito quae sunt concessa serventur, ut, quicumque perceptarum
+            annonarum emolumenta vel in heredes proprios iure sanguinis transfuderunt
+            vel in extraneos distractionis titulo transscripserunt, maneat, quod
+            gestum est vel hereditatis merito vel alienationis arbitrio. * THEODOS.
+            ARCAD. ET HONOR. AAA. PROCULO PU. *&lt;A 392 D. VII K. IUL. CONSTANTINOPOLI
+            ARCADIO A. II ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7330-Dd1e119">
+               <head xml:id="azsw2e-d1e7330-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e7330-d1e123">
+                  <ref xml:id="azsw2e-d1e7330-Rd1e125">Imperatores
+            Theodosius, Arcadius, Honorius</ref>  Centum viginti quinque modios
+            frumenti praeter solitum canonem per singulos dies de praesenti sexta
+            indictione ex die kalendarum ianuariarum nomine parapeteumatis de
+            horreis publicis huius almae urbis insita nostrae pietatis liberalitate
+            tribuimus, datis sacris apicibus ad sublimissimam quoque per orientem
+            praefecturam, quibus possit et modum nostrae donationis agnoscere
+            et incunctanter praebere quae iussimus. </p>
+               <p xml:id="azsw2e-d1e7330-d1e128" n="1">
+            Quam modiationem iugiter et in perpetuum civibus nostris
+            debere conferri valitura in aevum hac lege sancimus. * THEODOS. ARCAD.
+            ET HONOR. AAA. TATIANO PP. *&lt;A 392 &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

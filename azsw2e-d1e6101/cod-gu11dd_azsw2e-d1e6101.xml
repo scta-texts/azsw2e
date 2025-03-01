@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 44</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 44</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6101"><!-- azsw2e-l9t44 -->
+            <head xml:id="azsw2e-d1e6101-Hd1e101">Titulus 44</head>
+            <head xml:id="azsw2e-d1e6101-Hd1e103" type="question-title">Ut intra certum tempus criminalis quaestio terminetur</head>
+            <div xml:id="azsw2e-d1e6101-Dd1e106">
+               <head xml:id="azsw2e-d1e6101-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6101-d1e110">
+                  <ref xml:id="azsw2e-d1e6101-Rd1e112">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Quisquis accusator reum
+            in iudicium sub inscriptione detulerit, si intra certum tempus accusationem
+            coeptam persequi supersederit vel, quod est contumacius, ultimo die
+            adesse neglexerit, quarta bonorum omnium parte multatus aculeos consultissimae
+            legis incurrat, scilicet manente infamia, quam veteres iusserant sanctiones.
+            * VALENTIN. THEODOS. ET ARCAD. AAA. DESIDERIO VIC. *&lt;A 385 D.IIII
+            ID.IUL.TREVIRIS ARCADIO A.ET BAUTONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6101-Dd1e116">
+               <head xml:id="azsw2e-d1e6101-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6101-d1e120">
+                  <ref xml:id="azsw2e-d1e6101-Rd1e122">Imperatores
+            Honorius, Theodosius</ref>  Noverint iudices cuilibet culmini honorive
+            praesidentes, necessariis utrique parti, si petantur, dilationibus
+            non negatis praecedentibus scilicet inscriptionibus, intra certum
+            tempus criminales causas limitandas: quo emenso subeat accusator,
+            quia destitit, poenam legibus constitutam, et si persona vilior fuerit,
+            cui damnum famae non sit iniuria, poenam patiatur exilii, nisi forte
+            intra statuti temporis metas consensus partium abolitionem poposcerit.
+            </p>
+               <p xml:id="azsw2e-d1e6101-d1e125" n="1">
+            In iudicum autem debet esse diligentia, ut, si nulla rationabilis
+            a reo vel accusatore dilatio postuletur, urgueant talium causarum
+            notionem non expectatis moris. * HONOR. ET THEODOS. AA. CAECILIANO
+            PP. *&lt;A 409 D.XII K.FEBR.RAVENNAE HONORIO VIII ET THEODOSIO III
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6101-Dd1e129">
+               <head xml:id="azsw2e-d1e6101-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e6101-d1e133">
+                  <ref xml:id="azsw2e-d1e6101-Rd1e135">Imperator
+            Justinianus</ref> Criminales causas omnimodo intra duos annos a contestatione
+            litis connumerandos finiri censemus nec ulla occasione ad ampliora
+            produci tempora, sed post bienii excessum minime ulterius lite durante
+            accusatum absolvi, scientibus iudicibus eorumque officiis, quod, si
+            litigatoribus admonentibus ipsis litis introductionem vel examinationem
+            distulerint, poena vicenarum librarum auri ferientur. * IUST. A. MENAE.
+            PP. *&lt;A 529 D.K.APRIL.DECIO VC.CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

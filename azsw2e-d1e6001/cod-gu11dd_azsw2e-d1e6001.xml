@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 35</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 35</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6001"><!-- azsw2e-l9t35 -->
+            <head xml:id="azsw2e-d1e6001-Hd1e101">Titulus 35</head>
+            <head xml:id="azsw2e-d1e6001-Hd1e103" type="question-title">De iniuriis</head>
+            <div xml:id="azsw2e-d1e6001-Dd1e106">
+               <head xml:id="azsw2e-d1e6001-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6001-d1e110">
+                  <ref xml:id="azsw2e-d1e6001-Rd1e112">Imperator
+            Alexander Severus</ref> Nec servis quidem alienis licet facere iniuriam.
+            * ALEX. A. SYRO. *&lt;A 222 PP. XI K. DEC. ALEXANDRO A. CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6001-Dd1e116">
+               <head xml:id="azsw2e-d1e6001-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6001-d1e120">
+                  <ref xml:id="azsw2e-d1e6001-Rd1e122">Imperator
+            Alexander Severus</ref> Iniuriarum actio tibi duplici ex causa competit,
+            cum et maritus in uxoris pudore et pater in existimatione filiorum
+            propriam iniuriam pati intelleguntur. * ALEX. A. DAVO. *&lt;A 230
+            PP. PRID. IDUS MAIAS AGRICOLA ET CLEMENTE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6001-Dd1e126">
+               <head xml:id="azsw2e-d1e6001-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e6001-d1e130">
+                  <ref xml:id="azsw2e-d1e6001-Rd1e132">Imperator
+            Gordianus</ref> Si non es nuntiator, vereri non debes, ne eapropter,
+            quod iniuriae faciendae gratia quidam te veluti delatorem esse dixerunt,
+            opinio tua maculata sit. Quin immo adversus eos, quos minuendae opinionis
+            tuae causa aliquid confecisse comperietur, more solito iniuriarum
+            iudicio experiri potes * GORD. A. DONATO. *&lt;A 239 PP. II ID. IUL.
+            GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6001-Dd1e137">
+               <head xml:id="azsw2e-d1e6001-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e6001-d1e141">
+                  <ref xml:id="azsw2e-d1e6001-Rd1e143">Imperatores
+            Valerianus, Gallienus</ref> Atrocem sine dubio iniuriam esse factam
+            manifestum est, si tibi illata est, cum esses in sacerdotio et dignitatis
+            habitum et ornamenta proferres: et ideo vindictam potes eo nomine
+            exsequi. * VALER. ET GALLIEN. AA. ET VALER. C. VINDI. *&lt;A 259 PP.
+            II... AEMILIANO ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6001-Dd1e147">
+               <head xml:id="azsw2e-d1e6001-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e6001-d1e151">
+                  <ref xml:id="azsw2e-d1e6001-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Si non convicii consilio te aliquid
+            iniuriosum dixisse probare potes, fides veri a calumnia te defendit.
+            Si in rixa inconsulto calore prolapsus homicidii convicium obiecisti
+            et ex eo die annus excessit, cum iniuriarum actio annuo tempore praescripta
+            sit, ob iniuriae admissum conveniri non potes * DIOCL. ET MAXIM. AA.
+            VICTORINO. *&lt;A 290 PP. VI ID. IUL. IPSIS IIII ET III AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6001-Dd1e157">
+               <head xml:id="azsw2e-d1e6001-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e6001-d1e161">
+                  <ref xml:id="azsw2e-d1e6001-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Cum nec patronos iniuriam facere libertis
+            iuris aequitas permittat, proponasque patronae heredes eum, qui libertatem
+            a defuncta acceperat, iniuriis adficere, curabit praeses provinciae
+            contumeliam heredum compescere. * DIOCL. ET MAXIM. AA. FLAVIANO. *&lt;A
+            290 PP. ID. IUL. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6001-Dd1e167">
+               <head xml:id="azsw2e-d1e6001-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e6001-d1e171">
+                  <ref xml:id="azsw2e-d1e6001-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Iniuriarum causa non publici iudicii,
+            sed privati continet querellam. * DIOCL. ET MAXIM. AA. ET CC. PAENENTIANO.
+            *&lt;A 293 S. ID. FEBR. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6001-Dd1e177">
+               <head xml:id="azsw2e-d1e6001-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e6001-d1e181">
+                  <ref xml:id="azsw2e-d1e6001-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Dominum pro atroci iniuria, quam servus
+            eius passus est, edicti perpetui actione proposita, qua damni etiam
+            haberi rationem verbis evidenter exprimitur, agere posse convenit.
+            * DIOCL. ET MAXIM. AA. ET CC. MARCIANO. *&lt;A 294 S. XV K. NOV. CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6001-Dd1e187">
+               <head xml:id="azsw2e-d1e6001-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e6001-d1e191">
+                  <ref xml:id="azsw2e-d1e6001-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Qui liberos infamandi gratia dixerunt
+            servos, iniuriarum conveniri posse non ambigitur. * DIOCL. ET MAXIM.
+            AA. ET CC. NONNAE. *&lt;A 294 S. VI K. DEC. NICOMEDIAE CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6001-Dd1e198">
+               <head xml:id="azsw2e-d1e6001-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e6001-d1e202">
+                  <ref xml:id="azsw2e-d1e6001-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> Si quidem aviam tuam ancillam infamandi
+            causa rei publicae civitatis comanensium dixit zenodorus ac recessit,
+            iniuriarum actione statim conveniri potest. Nam si perseveret in causa
+            facultatem habens agendi, super hac deferri querellam ac tunc demum,
+            si non esse serva fuerit pronuntiata, postulari convenit * DIOCL.
+            ET MAXIM. AA. ET CC. PAULO. *&lt;A 294 S. XV K. IAN. NICOMEDIAE CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6001-Dd1e208">
+               <head xml:id="azsw2e-d1e6001-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e6001-d1e212">
+                  <ref xml:id="azsw2e-d1e6001-Rd1e214">Imperator
+            Zeno</ref> Si quando iniuriarum actio, quam inter privata delicta
+            veteris iuris auctores connumerant, a quibuslibet illustribus viris,
+            militantibus seu sine cingulo constitutis, vel uxoribus eorum vel
+            liberis masculini sexus vel filiabus, superstitibus videlicet patribus
+            aut maritis illustribus, vel si adversus aliquam huiusmodi personam
+            criminaliter forte movetur, ipsos quidem, qui super iniuria queruntur,
+            inscribere aliaque omnia, quae in huiusmodi causis de more procedunt,
+            sollemniter observare decernimus: licere autem illustri accusatori
+            vel reo, uxori vel liberis masculini sexus seu filiae itidem illustris
+            superstitis causam iniuriarum in quocumque iudicio competenti per
+            procuratorem criminaliter suscipere vel movere, sententiam iudice
+            contra eum qui procuratorem dederit, etsi ipse non adesset iudiciis
+            nec causam per procuratorem diceret, legibus prolaturo: ita tamen,
+            ut nullus alius idem sibi audeat vindicare vel a nostro numine postulare:
+            sed in ceteris mos iudiciorum qui hactenus obtinuit et in posterum
+            servetur intactus. * ZENO A. ALEXANDRO VIRO ILLUSTRI. *&lt;A 478 D.
+            V NON. CONSTANTINOPOLI ILLO VC. CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

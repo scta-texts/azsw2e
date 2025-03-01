@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 66</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 66</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2577"><!-- azsw2e-l4t66 -->
+            <head xml:id="azsw2e-d1e2577-Hd1e101">Titulus 66</head>
+            <head xml:id="azsw2e-d1e2577-Hd1e103" type="question-title">De emphyteutico iure</head>
+            <div xml:id="azsw2e-d1e2577-Dd1e106">
+               <head xml:id="azsw2e-d1e2577-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2577-d1e110">
+                  <ref xml:id="azsw2e-d1e2577-Rd1e112">Imperator
+            Zeno</ref> Ius emphyteuticarium neque conductionis neque alienationis
+            esse titulis addicendum, sed hoc ius tertium sit constitutum ab utriusque
+            memoratorum contractuum societate seu similitudine separatum, conceptionem
+            definitionemque habere propriam et iustum esse validumque contractum,
+            in quo cuncta, quae inter utrasque contrahentium partes super omnibus
+            vel etiam fortuitis casibus pactionibus scriptura interveniente habitis
+            placuerint, firma illibataque perpetua stabilitate modis omnibus debeant
+            custodiri : ita ut, si interdum ea, quae fortuitis casibus sicut eveniunt,
+            pactorum non fuerint conventione concepta, si quidem tanta emerserit
+            clades, quae prorsus ipsius etiam rei quae per emphyteusin data est
+            facit interitum, hoc non emphyteuticario, cui nihil reliquum mansit,
+            sed rei domino, qui, quod fatalitate ingruebat, etiam nullo intercedente
+            contractu habiturus fuerat, imputetur : sin vero particulare vel aliud
+            leve damnum contigerit, ex quo non ipsa rei penitus laedatur substantia,
+            hoc emphyteuticarius suis partibus non dubitet adscribendum. * ZENO
+            A. SEBASTIANO PP. *&lt;A 476 - 484 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2577-Dd1e116">
+               <head xml:id="azsw2e-d1e2577-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2577-d1e120">
+                  <ref xml:id="azsw2e-d1e2577-Rd1e122">Imperator
+            Justinianus</ref>  In emphyteuticariis contractibus sancimus, si quidem
+            aliae pactiones in emphyteuticis instrumentis fuerint conscriptae,
+            easdem et in aliis omnibus capitulis observari et de reiectione eius,
+            qui emphyteusin suscepit, si solitam pensionem vel publicarum functionum
+            apochas non praestiterit. </p>
+               <p xml:id="azsw2e-d1e2577-d1e125" n="1">
+            Sin autem nihil super hoc capitulo fuerit pactum, sed per
+            totum triennium neque pecunias solverit neque apochas domino tributorum
+            reddiderit, volenti ei licere eum a praediis emphyteuticariis repellere
+            : nulla ei adlegatione nomine meliorationis vel eorum quae emponemata
+            dicuntur vel poenae opponenda, sed omnimodo eo, si dominus voluerit,
+            repellendo neque praetendente, quod non est super hac causa inquietatus,
+            cum neminem oportet conventionem vel admonitionem expectare, sed ultro
+            sese offerre et debitum spontanea voluntate persolvere, secundum quod
+            et anteriore lege nostri numinis generaliter cautum est. </p>
+               <p xml:id="azsw2e-d1e2577-d1e128" n="2">
+            Ne autem ex hac causa dominis facultas oriatur emphyteutas
+            suos repellere et reditum minime velle suscipere, ut ex huiusmodi
+            machinatione triennio elapso suo iure is qui emphyteusin suscepit
+            cadat, licentiam ei concedimus attestatione praemissa pecunias offere
+            hisque obsignatis et secundum legem depositis minime deiectionis timere
+            periculum. * IUST. A. DEMOSTHENI PP. *&lt;A 529 D. XV K. OCT. CHALCEDONE
+            DECIO VC. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2577-Dd1e132">
+               <head xml:id="azsw2e-d1e2577-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e2577-d1e136">
+                  <ref xml:id="azsw2e-d1e2577-Rd1e138">Imperator
+            Justinianus</ref>  Cum dubitabatur, utrum emphyteuta debeat cum domini
+            voluntate suas meliorationes, quae Graeco vocabulo emponemata dicuntur,
+            alienare vel ius emphyteuticum in alium transferre, an eius expectare
+            consensum, sancimus, si quidem emphyteuticum instrumentum super hoc
+            casu aliquas pactiones habeat, eas observari : sin autem nullo modo
+            huiusmodi pactio posita est vel forte instrumentum emphyteuseos perditum
+            est, minime licere emphyteutae sine consensu domini suas meliorationes
+            aliis vendere vel ius emphyteuticum transferre. </p>
+               <p xml:id="azsw2e-d1e2577-d1e141" n="1">
+            Sed ne hac occasione accepta domini minime concedant emphyteutas
+            suos accipere pretia meliorationum quae invenerint, sed eos deludant
+            et ex hoc commodum emphyteutae depereat, disponimus attestationem
+            domino transmitti et praedicere, quantum pretium ab alio re vera accipit.
+            </p>
+               <p xml:id="azsw2e-d1e2577-d1e144" n="2">
+            Et si quidem dominus hoc dare maluerit et tantam praestare
+            quantitatem, quantam ipsa veritate emphyteuta ab alio accipere potest,
+            ipsum dominum omnimodo haec comparare :</p>
+               <p xml:id="azsw2e-d1e2577-d1e147" n="3">
+            Sin autem duorum mensuum spatium fuerit emensum et dominus
+            hoc facere noluerit, licentia emphyteutae detur, ubi voluerit, et
+            sine consensu domini suas meliorationes vendere, his tamen personis,
+            quae non solent in emphyteuticis contractibus vetari ad huiusmodi
+            venire emptionem : necessitatem autem habere dominos, si aliis melioratio
+            secundum praefatum modum vendita sit, accipere emphyteutam vel, ius
+            emphyteuticum ad personas non prohibitas sed concessas et idoneas
+            ad solvendum emphyteuticum canonem transponere si emphyteuta maluerit,
+            non contradicere, sed novum emphyteutam in possessionem suscipere,
+            non per conductorem nec per procuratorem, sed ipsos dominos per se
+            vel per litteras suas vel, si hoc non potu erint vel noluerint, per
+            depositionem in hac quidem civitate apud virum clarissimum magistrum
+            censuum vel praesentibus tabulariis per attestationem, in provinciis
+            autem per praesides vel defensores celebrandam. </p>
+               <p xml:id="azsw2e-d1e2577-d1e151" n="4">
+            Et ne avaritia tenti domini magnam molem pecuniarum propter
+            hoc efflagitent, quod usque ad praesens tempus perpetrari cognovimus,
+            non amplius eis liceat pro subscriptione vel depositione nisi quinquagesimam
+            partem pretii vel aestimationis loci, qui ad aliam personam transfertur,
+            accipere. </p>
+               <p xml:id="azsw2e-d1e2577-d1e154" n="5">
+            Sin autem novum emphyteutam vel emptorem meliorationis suscipere
+            minime dominus maluerit et attestatione facta intra duos menses hoc
+            facere supersederit, licere emphyteutae et non consentientibus dominis
+            ad alios ius suum vel emponemata transferre. </p>
+               <p xml:id="azsw2e-d1e2577-d1e157" n="6">
+            Sin autem aliter fuerit versatus, quam nostra constitutio
+            disposuit, iure emphyteutico cadat. * IUST. A. IULIANO PP. *&lt;A
+            530 D. XV K. APRIL. CONSTANTINOPOLI LAMPADIO ET ORESTE VV. CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2577-Dd1e162">
+               <head xml:id="azsw2e-d1e2577-Hd1e164">4</head>
+               <p xml:id="azsw2e-d1e2577-d1e166"><!-- Greek -->
+
+          </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

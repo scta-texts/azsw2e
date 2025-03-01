@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 34</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 34</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6553"><!-- azsw2e-l10t34 -->
+            <head xml:id="azsw2e-d1e6553-Hd1e101">Titulus 34</head>
+            <head xml:id="azsw2e-d1e6553-Hd1e103" type="question-title">De praediis curialium sine decreto non alienandis</head>
+            <div xml:id="azsw2e-d1e6553-Dd1e106">
+               <head xml:id="azsw2e-d1e6553-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6553-d1e110">
+                  <ref xml:id="azsw2e-d1e6553-Rd1e112">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref>  Si
+            quis decurionum vel rustica praedia vel urbana venditor necessitate
+            coactus addicit, interpellet iudicem competentem omnesque causas singillatim
+            quibus strangulatur exponat et ita demum distrahendae possessionis
+            facultatem accipiat, si alienationis necessitatem probaverit. Infirma
+            enim erit vinditio, si haec fuerit forma neglecta </p>
+               <p xml:id="azsw2e-d1e6553-d1e115" n="1">
+            Ita enim fiet, ut nec immoderatus venditor nec emptor, cuiuscumque
+            sit condicionis, inveniatur iniustus. Denique nihil erit postmodum,
+            quo venditor vel circumventum se insidiis vel oppressum potentia comparatoris
+            queri debeat, quandoquidem sub fide actorum et de necessitate distrahentis
+            et de voluntate patuerit comparantis</p>
+               <p xml:id="azsw2e-d1e6553-d1e118" n="2">
+            Quod si quis contra vetitum occultis molitionibus per suppositas
+            fraude personas cuiuslibet loci, quem tamen decurio distrahat, comparator
+            extiterit, sciat se pretio quod dedit esse privandum et locum quem
+            comparavit cum fructibus esse restituendum. * VALENTIN. THEODOS. ET
+            ARCAD. AAA. CYNEGIO PP. *&lt;A 386 D.VIII K.DEC.CONSTANTINOPOLI HONORIO NP.ET
+            EUODIO CONSS.&gt; </p>
+               <p xml:id="azsw2e-d1e6553-d1e121"> </p>
+               <p xml:id="azsw2e-d1e6553-d1e124">
+                  <ref xml:id="azsw2e-d1e6553-Rd1e126">Imperatores
+            Theodosius, Valentinianus</ref>  Nec venditio
+            rei hereditariae curiae adquisitae aut debitoris hereditarii qui solverit
+            liberatio aliter admittenda est, nisi apud acta totius vel maioris
+            partis ordinis intercedente decreto ineundi contractus vel dissolvendae
+            obligationis causa probetur. </p>
+               <p xml:id="azsw2e-d1e6553-d1e129"> 
+            Ita enim id quod ex ea redigitur ad praediorum iubemus comparationem
+            expendi, quorum reditus omnes, sicut dictum est, eiusdem curiae publicis
+            muneribus, quae solacio egere constiterit, iustissime servabuntur:
+            ex consensu omnium et maxime ditiorum, vel idonea fideiussione oblata
+            conductoribus eligendis. * THEODOS. ET VALENTIN. AA. FLORENTINO
+            PP. *&lt;A 428 D.V ID.IUN.CONSTANTINOPOLI FELICE ET TAURO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6553-Dd1e132">
+               <head xml:id="azsw2e-d1e6553-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e6553-d1e136">
+                  <ref xml:id="azsw2e-d1e6553-Rd1e138">Imperator
+            Zeno</ref>  Curiales vendere quidem res immobiles vel mancipia rustica
+            prohibemus sine interpositione decreti: donationes vero vel permutationes
+            vel quoslibet alios etiam sine decreto permittimus celebrare contractus,
+            quoniam et sacrae constitutiones, quae super hoc a retro principibus
+            latae sunt, in plurimis suis partibus de pretio non redhibendo locutae
+            sunt, ut ex hoc apertissime detur intellegi solum emptionis decurionibus
+            sine decreto interdictum fuisse contractum. </p>
+               <p xml:id="azsw2e-d1e6553-d1e141" n="1">
+            Cum tamen venditione intercedente, ut dictum est, decretum
+            agitur, nihil eos vel qui ab his comparant dispendium, cuiuscumque
+            personae vel causae vel theatralis liberalitatis nomine, quod frequenter
+            fieri dicitur, sustinere decernimus, ne ex tabella decretum recitari,
+            sed curialium vel maioris partis curiae relatione currente sine ulla
+            malignitate referentium vel damno contrahentium ad confrimandam emptionem
+            competentis iudicis proferri sententiam. * ZENO A.
+            SEBASTIANO PP. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6553-Dd1e145">
+               <head xml:id="azsw2e-d1e6553-Hd1e147">4</head>
+               <p xml:id="azsw2e-d1e6553-d1e149"><!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e6553-Dd1e154">
+               <head xml:id="azsw2e-d1e6553-Hd1e156">5</head>
+               <p xml:id="azsw2e-d1e6553-d1e158"><!-- Greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

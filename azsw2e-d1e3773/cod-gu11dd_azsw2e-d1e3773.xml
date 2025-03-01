@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 31</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 31</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3773"><!-- azsw2e-l6t31 -->
+            <head xml:id="azsw2e-d1e3773-Hd1e101">Titulus 31</head>
+            <head xml:id="azsw2e-d1e3773-Hd1e103" type="question-title">De repudianda vel abstinenda hereditate</head>
+            <div xml:id="azsw2e-d1e3773-Dd1e106">
+               <head xml:id="azsw2e-d1e3773-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3773-d1e110">
+                  <ref xml:id="azsw2e-d1e3773-Rd1e112">Imperator
+            Antoninus</ref> Si paterna hereditate te abstinuisse constiterit et
+            non ut heredem in domo, sed ut inquilinum vel custodem vel ex alia
+            iusta ratione habitasse liquido fuerit probatum, ex persona patris
+            conveniri te procurator meus prohibebit. * ANT. A. MUCIANO. *&lt;A
+            214 PP.ID.IUL.MESSALA ET SABINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3773-Dd1e116">
+               <head xml:id="azsw2e-d1e3773-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3773-d1e120">
+                  <ref xml:id="azsw2e-d1e3773-Rd1e122">Imperator
+            Antoninus</ref> Si paterna hereditate abstinuisti, non ideo, quod
+            a creditoribus fundos comparasti, si modo id bona fide fecisti, a
+            posterioribus, qui sub isdem obligationibus pecuniam crediderint,
+            iure conveniris. * ANT. A. SEVERO. *&lt;A 215 PP.V K.IUL.LAETO II
+            ET CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3773-Dd1e126">
+               <head xml:id="azsw2e-d1e3773-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3773-d1e130">
+                  <ref xml:id="azsw2e-d1e3773-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Suus heres exceptione pacti, qui testamentum
+            iniustum adseverans postea nihil se de paterna successione petiturum
+            non ex causa donationis, sed transigendi animo in iure professus est,
+            cum respuere quaesitam nequiret hereditatem et transactio nullo dato
+            vel retento seu promisso minime procedat, submoveri non potest. *
+            DIOCL. ET MAXIM. AA. ET CC. THEODOTIANO. *&lt;A 294 SINE DIE ET CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3773-Dd1e137">
+               <head xml:id="azsw2e-d1e3773-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e3773-d1e141">
+                  <ref xml:id="azsw2e-d1e3773-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Sicut maior quinque et viginti annis,
+            antequam adeat, delatam repudians successionem post quaerere non potest,
+            ita quaesitam renuntiando nihil agit, sed ius quod habuit retinet
+            nec, quod confessos pro iudicatis habere placuit, ad vocem repudiantis
+            hereditatem, sed ad certam quantitatem deberi confitentem pertinet.
+            * DIOCL. ET MAXIM. AA. ET CC. MODESTINO MIL. *&lt;A 293 S.V K.IAN.SIRMI
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3773-Dd1e147">
+               <head xml:id="azsw2e-d1e3773-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e3773-d1e151">
+                  <ref xml:id="azsw2e-d1e3773-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Pupillorum repudiatio delatae hereditatis
+            sine tutore auctore facta nihil eis nocet. * DIOCL. ET MAXIM. AA.
+            ET CC. CLAUDIANAE. *&lt;A 293 S.PRID.K.IAN.SIRMI AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3773-Dd1e157">
+               <head xml:id="azsw2e-d1e3773-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e3773-d1e161">
+                  <ref xml:id="azsw2e-d1e3773-Rd1e163">Imperator
+            Justinianus</ref>  Si quis suus recusaverit paternam hereditatem, deinde
+            maluerit eam adire, cum fuerat indistincte ei permissum, donec res
+            paternae in eodem statu manent, hoc facere et post multum tempus licebat
+            ei ad eandem hereditatem redire, hoc corrigentes sancimus, si quidem
+            res iam venumdatae sint, ut nullus aditus ei ad hereditatem reservetur:
+            quod et antiquitas observabat. </p>
+               <p xml:id="azsw2e-d1e3773-d1e166" n="1">
+            Sin autem res alienatae non sint, si quidem maior annis constitutus
+            est et tempora restitutionis nulla ei supersint, intra trium annorum
+            spatium tantummodo huiusmodi ei detur licentia. </p>
+               <p xml:id="azsw2e-d1e3773-d1e169" n="2">
+            Sin autem vel minor est vel in utili tempore constitutus,
+            tunc post completum quadriennium, quod spatium pro utili anno qui
+            restitutionibus dabatur praestitum est, aliud triennium ei indulgeri,
+            intra quod potest rebus in suo statu manentibus adire hereditatem
+            et suam abdicationem revocare. </p>
+               <p xml:id="azsw2e-d1e3773-d1e172" n="3">
+            Quo tempore transacto nullus aditus penitus ad paternam hereditatem
+            ei reservetur, nisi forte adhuc in minore aetate eo constituto res
+            venditae sunt. Tunc etenim per in integrum restitutionem non denegatur
+            ei adire hereditatem et res recuperare et creditoribus paternis satisfacere
+            * IUST. A. IOHANNI PP. *&lt;A 532 D. XV K. NOV. CONSTANTINOPOLI POST
+            CONSULATUM LAMPADII ET ORESTIS VV. CC. ANNO SECUNDO.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

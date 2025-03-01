@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 43</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 43</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7531"><!-- azsw2e-l11t43 -->
+            <head xml:id="azsw2e-d1e7531-Hd1e101">Titulus 43</head>
+            <head xml:id="azsw2e-d1e7531-Hd1e103" type="question-title">De aquaeductu</head>
+            <div xml:id="azsw2e-d1e7531-Dd1e106">
+               <head xml:id="azsw2e-d1e7531-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7531-d1e110">
+                  <ref xml:id="azsw2e-d1e7531-Rd1e112">Imperator
+            Constantinus</ref>  Possessores, per quorum fines formarum meatus transeunt,
+            ab extraordinariis oneribus volumus esse immunes, ut eorum opera aquarum
+            ductus sordibus oppleti mundentur, nec ad aliud superindictae rei
+            onus isdem possessoribus attinendis, ne circa res alias occupati repurgium
+            formarum facere non occurrant. </p>
+               <p xml:id="azsw2e-d1e7531-d1e115" n="1">
+            Quod si neglexerint, amissione possessionum multabuntur:
+            nam fiscus eius praedium obtinebit, cuius neglegentia perniciem formae
+            congesserit. </p>
+               <p xml:id="azsw2e-d1e7531-d1e118" n="2">
+            Praeterea scire eos oportet, per quorum praedia aquaeductus
+            commeat, ut dextra laevaque de ipsis formis quindecim pedibus intermissis
+            arbores habeant: observante officio iudicis, ut, si quo tempore pullulaverint,
+            excidantur, ne earum radices fabricam formae corrumpant. * CONST.
+            A. AD MAXIMILIANUM CONSULAREM AQUARUM. *&lt;A 330 D.XV K.IUN.GALLICANO
+            ET SYMMACHO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7531-Dd1e122">
+               <head xml:id="azsw2e-d1e7531-Hd1e124">2</head>
+               <p xml:id="azsw2e-d1e7531-d1e126">
+                  <ref xml:id="azsw2e-d1e7531-Rd1e128">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Si quis de cetero vetiti
+            furoris audacia florentissimae urbis commoda voluerit mutilare aquam
+            ad suum fundum ex aquaeductu publico derivando, sciat eundem fundum
+            fiscalis tituli proscriptione signatum privatis rebus nostris adgregandum.
+            * VALENTIN. THEODOS. ET ARCAD. AAA. PANCRATIO PU. *&lt;A 389 D.VIII.
+            . . CONSTANTINOPOLI TIMASIO ET PROMOTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7531-Dd1e132">
+               <head xml:id="azsw2e-d1e7531-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e7531-d1e136">
+                  <ref xml:id="azsw2e-d1e7531-Rd1e138">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref>  Eos, qui aquae copiam vel
+            olim vel nunc per nostra indulta meruerunt, usum aut ex castellis
+            aut ex ipsis formis iubemus elicere neque earum fistularum quas matrices
+            vocant cursum ac soliditatem attemptare vel ab ipso aquaeductu trahere.
+            </p>
+               <p xml:id="azsw2e-d1e7531-d1e141" n="1">
+            Quod si quis aliter fecerit, non solum id quod prius iure
+            beneficii fuerat consecutus amittat, verum pro condicione quoque personae
+            severissima poena plectetur. * VALENTIN. THEODOS. ET ARCAD. AAA. ALBINO
+            PU.ROMAE. *&lt;A 389 D.V K.SEPT.ROMAE.TIMASIO ET PROMOTO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7531-Dd1e146">
+               <head xml:id="azsw2e-d1e7531-Hd1e148">4</head>
+               <p xml:id="azsw2e-d1e7531-d1e150">
+                  <ref xml:id="azsw2e-d1e7531-Rd1e152">Imperatores
+            Arcadius, Honorius</ref> Usum aquae veterem longoque dominio constitutum
+            singulis civibus manere censemus nec ulla novatione turbari, ita tamen,
+            ut quantitatem singuli, quam veteri licentia percipiunt, more usque
+            in praesentem diem perdurante percipiant: mansura poena in eos, qui
+            ad inrigationes agrorum vel hortorum delicias furtivis aquarum meatibus
+            abutuntur. * ARCAD. ET HONOR. AA. ASTERIO COM. ORIENTIS. *&lt;A 397
+            D.K.NOV.CAESARIO ET ATTICO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7531-Dd1e156">
+               <head xml:id="azsw2e-d1e7531-Hd1e158">5</head>
+               <p xml:id="azsw2e-d1e7531-d1e160">
+                  <ref xml:id="azsw2e-d1e7531-Rd1e162">Imperatores
+            Theodosius, Valentinianus</ref> Si quis per divinam liberalitatem
+            meruerit ius aquae, non viris clarissimis rectoribus provinciarum,
+            sed tuae praecellentissimae sedi caelestes apices intimare debebit:
+            condemnatione contra illum qui preces moderatoribus insinuare conatur
+            quinquaginta librarum auri et contra universos administratores qui
+            rescriptum per subreptionem elicitum suscipere moliuntur proponenda,
+            apparitoribus nihilo minus eorundem virorum clarissimorum provinciae
+            moderatorum animadversionibus pro vigore tui culminis subiugandis:
+            et amplissima tua sede dispositura, quid in publicis thermis, quid
+            in nympheis pro abundantia civium convenit deputari, quid his personis,
+            quibus nostra perennitas indulsit, ex aqua superflua debeat impertiri.
+            * THEODOS. ET VALENTIN. AA. CYRO PP. *&lt;A 440-441 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7531-Dd1e166">
+               <head xml:id="azsw2e-d1e7531-Hd1e168">6</head>
+               <p xml:id="azsw2e-d1e7531-d1e170">
+                  <ref xml:id="azsw2e-d1e7531-Rd1e172">Imperatores
+            Theodosius, Valentinianus</ref>  Omnis servitus aquarum aquaeductus
+            hadriani sive domorum sive possessionum sive suburbanorum sive balneorum
+            vel per divinos adfatus intimatos in quolibet iudicio vel per usurpationem
+            impertitos penitus exprobretur: maluimus etenim praedictum aquaeductum
+            nostri palatii publicarum thermarum ac nymphaeorum commoditatibus
+            inservire. Et decernimus hanc dispositionem modis omnibus in posterum
+            servari, nemini licentia tribuenda ab eodem aquaeductu precibus oblatis
+            usum aquae petere vel eum audere perforare: scientibus his, qui qualibet
+            ratione putaverint ad huiusmodi molimen accedere, vel officio, si
+            ausum fuerit instruere vel minus instructis precibus parere, centena
+            pondo auri multae nomine fiscalibus rationibus se esse illaturos.
+            </p>
+               <p xml:id="azsw2e-d1e7531-d1e175" n="1">
+            Super his sancimus sulcum publicum aquarum nullis intra decem
+            pedes arboribus coartari, sed ex utroque latere decempedale spatium
+            integrum illibatumque servari. </p>
+               <p xml:id="azsw2e-d1e7531-d1e178" n="2">
+            Praeterea de plumbeis fistulis ducentibus ad thermas, quae
+            achillis nuncupantur, quas providentia tuae magnificentiae factas
+            esse cognovimus, eandem formam servari censemus. </p>
+               <p xml:id="azsw2e-d1e7531-d1e181" n="3">
+            Etenim memoratas fistulas thermis tantum et nymphaeis, quibus
+            eminentia tua deputaverit, volumus inservire: facultate praebenda
+            tuae sublimitatis apparitoribus circumeundi sine formidine domus suburbana
+            balnea ad requirendum, ne qua deceptio vel suppressio vel insidiae
+            contra publicam utilitatem a quoquam penitus attemptetur. * THEODOS.
+            ET VALENTIN. AA. CYRO PP. *&lt;A 440?&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7531-Dd1e185">
+               <head xml:id="azsw2e-d1e7531-Hd1e187">7</head>
+               <p xml:id="azsw2e-d1e7531-d1e189">
+                  <ref xml:id="azsw2e-d1e7531-Rd1e191">Imperatores
+            Theodosius, Valentinianus</ref> Ad reparationem aquaeductus huius
+            almae urbis omnia vectigalia, quae colligi possunt ex universis scalis
+            huius inclitae urbis et ex operariis qui cyzicenii dicuntur, ad refectionem
+            eiusdem aquaeductus procedere: illo videlicet observando, ut nemo
+            eorum qui ius aquae possident quamcumque descriptionem sustineat:
+            nam exsecrabile videtur domos huius almae urbis aquam habere venalem.
+            * THEODOS. ET VALENTIN. AA. EUTYCHIANO PP. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7531-Dd1e195">
+               <head xml:id="azsw2e-d1e7531-Hd1e197">8</head>
+               <p xml:id="azsw2e-d1e7531-d1e199">
+                  <ref xml:id="azsw2e-d1e7531-Rd1e201">Imperator
+            Zeno</ref>  Hac lege sancimus, ut si quis amplissimam praefecturam
+            gubernans aurum aquaeductui deputatum ad alterum quodlibet opus non
+            aquaeductibus vel aquae publicae competens extruendum vel curandum
+            putaverit convertendum, de suis facultatibus eandem summam aquaeductus
+            titulo repensare cogatur. </p>
+               <p xml:id="azsw2e-d1e7531-d1e204" n="1">
+            Separatus vero arcarius aurum aquaeductus suscipiat gloriosissimorum
+            consulum liberalitate vel ex aliis titulis ad aquas publicas pertinentibus
+            collectum vel postea colligendum. * ZENO A. ADAMANTIO PU. *&lt;A XXX
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7531-Dd1e208">
+               <head xml:id="azsw2e-d1e7531-Hd1e210">9</head>
+               <p xml:id="azsw2e-d1e7531-d1e212">
+                  <ref xml:id="azsw2e-d1e7531-Rd1e214">Imperator
+            Zeno</ref> Diligenter investigari decernimus, qui publici ab initio
+            fontes vel, cum essent ab initio privati, postquam publice usum praebuerunt,
+            ad privatorum usum conversi sunt, sive sacris apicibus per subreptionem
+            impetratis, ac multo amplius si auctoritate illicita nec appetito
+            colore sacri oraculi huiusmodi aliquid pertemptatum fuisse dignoscitur,
+            ut ius suum regiae civitati restituatur et, quod publicum fuerit aliquando,
+            minime sit privatum, sed ad communes usus recurrat: sacris oraculis
+            vel pragmaticis sanctionibus adversus commoditatem urbis quibusdam
+            impertitis iure cassandis nec longi temporis praescriptione ad circumscribenda
+            civitatis iura profutura. * ZENO A. SPORACIO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7531-Dd1e219">
+               <head xml:id="azsw2e-d1e7531-Hd1e221">10</head>
+               <p xml:id="azsw2e-d1e7531-d1e223">
+                  <ref xml:id="azsw2e-d1e7531-Rd1e225">Imperator
+            Zeno</ref>  Decernimus, ne quid a quacumque persona qualibet dignitate
+            praedita contra munuscularios aquaeductus vel fontes publicos qui
+            ad aquaeductus confluunt pertemptetur. </p>
+               <p xml:id="azsw2e-d1e7531-d1e228" n="1">
+            Sed et si quis clam vel palam auctoritate confisus de isdem
+            paragogiis vel fontibus aquam transduxerit vel clandestinis insidiis
+            forte subripuerit, publicis aquaeductibus eam restituere compellatur.
+            </p>
+               <p xml:id="azsw2e-d1e7531-d1e231" n="2">
+            Hoc etiam praecipimus, ne in posterum a quolibet iuxta eosdem
+            aquaeductus plantari qualescumque arbores possint, ne ex stirpibus
+            labefactentur parietes aquaeductuum, quod antiquis etiam constitutionibus
+            interdictum esse dignoscitur. </p>
+               <p xml:id="azsw2e-d1e7531-d1e234" n="3">
+            Scientibus universis, quod in posterum super huiusmodi commissis
+            suburbanum vel praedium vel balneum vel aquae mola vel hortus, ad
+            cuius usum aqua publica fuerit derivata, vel si quid ex his iuxta
+            aquaeductum positum ad eum pertinet, qui plantavit arbores aquaeductibus
+            noxias, ad quemcumque pertineat locum vel hominem vel domum, proscriptionis
+            titulo subiacebit et fisci viribus vindicabitur: nulli super huiusmodi
+            poena nec per sacros apices venia tribuenda. </p>
+               <p xml:id="azsw2e-d1e7531-d1e238" n="4">
+            Universos autem aquarios vel aquarum custodes, quos hydrophylacas
+            nominant, qui omnium aquaeductuum huius regiae urbis custodiae deputati
+            sunt, singulis manibus eorum felici nomine nostrae pietatis impresso
+            signari decernimus, ut huiusmodi adnotatione manifesti sint omnibus
+            nec a procuratoribus domorum vel quolibet alio ad usus alios avellantur
+            vel angariarum vel operarum nomine teneantur. </p>
+               <p xml:id="azsw2e-d1e7531-d1e241" n="5">
+            Quod si quem ex isdem aquariis mori contigerit, eum nihilo
+            minus qui in locum defuncti subrogatur signo eodem notari praecipimus,
+            ut militiae quodammodo sociati excubiis aquae custodiendae incessanter
+            inhaereant nec muneribus aliis occupentur. * ZENO A. SPONTIO. *&lt;A
+            XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7531-Dd1e245">
+               <head xml:id="azsw2e-d1e7531-Hd1e247">11</head>
+               <p xml:id="azsw2e-d1e7531-d1e249">
+                  <ref xml:id="azsw2e-d1e7531-Rd1e251">Imperator
+            Anastasius</ref> Divinam dispositionem ab inclitae recordationis principe
+            theodosio super his, qui aquam sibi de publicis aquaeductibus seu
+            fontibus praeberi desiderant, promulgatam hac etiam lege in sua firmitate
+            durare sancimus, quatenus nemo vel in hac sacratissima civitate vel
+            in provinciis sine divinis apicibus de sacro epistularum scrinio more
+            solito edendis et iudicio tuae celsitudinis vel aliis quorum interest
+            intimatis vel intimandis aquam de publico aquaeductu seu fonte trahere
+            permittatur: his, quicumque nostra iussa violaverint seu violari concesserint,
+            denarum librarum auri condemnatione aliaque gravissima indignatione
+            feriendis. * ANASTAS. A. SERGIO PP. *&lt;A XXX &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

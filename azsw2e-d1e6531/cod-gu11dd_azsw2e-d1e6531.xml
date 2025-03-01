@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 32</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 32</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6531"><!-- azsw2e-l10t32 -->
+            <head xml:id="azsw2e-d1e6531-Hd1e101">Titulus 32</head>
+            <head xml:id="azsw2e-d1e6531-Hd1e103" type="question-title">De decurionibus et filiis eorum et qui decuriones habentur quibus
+            modis a fortuna curiae liberentur</head>
+            <div xml:id="azsw2e-d1e6531-Dd1e106">
+               <head xml:id="azsw2e-d1e6531-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6531-d1e110">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e112">Imperatores
+            Valerianus, Gallienus</ref> Si, cum te pater decurionem esse voluisset,
+            illo in rebus humanis agente honor tibi iste delatus est, tenetur
+            quidem etiam heredes eius rei publicae ( nam in hac parte vice fideiussoris
+            pater accipitur), sed non ante nisi tuis rebus excussis. * VALER.
+            ET GALLIEN. AA. ET VALER. C. CAESONI. *&lt;A 259 PP. V K. DEC. AEMILIANO
+            ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e116">
+               <head xml:id="azsw2e-d1e6531-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6531-d1e120">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> Observare magistratus oportebit, ut
+            decurionibus sollemniter in curiam convocatis nominationem ad certa
+            munera faciant eamque statim in notitiam eius qui fuerit nominatus
+            per officialem publicum perferre curent, habituro appellandi, si voluerit,
+            atque agendi facultatem apud praesidem causam suam iure consueto:
+            quem si constiterit nominari minime debuisse, sumptus litis eidem
+            a nominatore restitui oportebit. * DIOCL. ET MAXIM. AA. EXEMPL. SACR.
+            LITT.*&lt;A XXX SINE DIE ET CONSULE.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e126">
+               <head xml:id="azsw2e-d1e6531-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e6531-d1e130">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Cum decurionatus honorem sponte susceperis,
+            albo eximi, licet annosum te esse dicis, non potes. * DIOCL. ET MAXIM.
+            AA. IULIO.*&lt;A 285 PP. ID. NOV. DIOCLETIANO A.II ET ARISTOBULO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e137">
+               <head xml:id="azsw2e-d1e6531-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e6531-d1e141">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Cum adoptivum filium ex adoptantis
+            dignitate decurionis filium effici nulla dubitatio est, pro atrocibus
+            iniuriis eum, quem ad vicem naturalis pignoris tibi adscribebas, a
+            praeside provinciae illicitis corporis cruciatibus adfici non oportuit
+            hocque congruenti poena coercebitur. * DIOCL. ET MAXIM. AA. CASSIANO.*&lt;A
+            285 PP. XII K. DEC. DIOCLETIANO A. II ET ARISTOBULO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e147">
+               <head xml:id="azsw2e-d1e6531-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e6531-d1e151">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Filios in potestate patris positos
+            ad munera seu honores non posse devocari falso tibi persuasum est.
+            Sane si ad nominationem filii consensum non accommodaveris, ob administrationem
+            ipsius minime conveniri poteris * DIOCL. ET MAXIM. AA. ALEXANDRO.*&lt;A
+            286 PP. VI ID.... MAXIMO II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e157">
+               <head xml:id="azsw2e-d1e6531-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e6531-d1e161">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Expertes litterarum decurionis munera
+            peragere non prohibent iura. * DIOCL. ET MAXIM. AA. ET CC. LEONTIO.*&lt;A
+            293 D. VIII K. MAI. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e167">
+               <head xml:id="azsw2e-d1e6531-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e6531-d1e171">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Licet indivisa bona fratres habent,
+            nihilo minus tamen singuli suo nomine civilibus tenentur muneribus.
+            * DIOCL. ET MAXIM. AA. ET CC. DIOGENIANO.*&lt;A 293 PP. IIII ID. MAI.
+            PAULINO IPSIS AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e177">
+               <head xml:id="azsw2e-d1e6531-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e6531-d1e181">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Infamia, quae tibi abominanda est,
+            non etiam amissionis oculorum casus quaesitum adimit honorem. * DIOCL.
+            ET MAXIM. AA. ET CC. PLATONIANO.*&lt;A 294 D. XVI K. FEBR. NICOMEDIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e187">
+               <head xml:id="azsw2e-d1e6531-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e6531-d1e191">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> In albo decurionum perscriptis patrem
+            non habenti filios anteferri constitit. * DIOCL. ET MAXIM. AA. ET
+            CC. AURELIO.*&lt;A 294 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e198">
+               <head xml:id="azsw2e-d1e6531-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e6531-d1e202">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> Si ultra septuagesimum annum aetatis
+            patrem tuum esse praeses provinciae perspexerit, eum personalium munerum
+            vacatione perfrui providebit. * DIOCL. ET MAXIM. AA. ET CC. AURELIO.*&lt;A
+            294 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e208">
+               <head xml:id="azsw2e-d1e6531-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e6531-d1e212">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e214">Imperatores
+            Diocletianus, Maximianus</ref> Uxorem pro marito decurione conveniri
+            non posse procul dubio est. * DIOCL. ET MAXIM. AA. ET CC. MAXIMO.*&lt;A
+            294 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e218">
+               <head xml:id="azsw2e-d1e6531-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e6531-d1e222">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e224">Imperatores
+            Diocletianus, Maximianus</ref> Nec infames immunitatem habere, cum
+            hoc privilegii, non notae sit, convenit. * DIOCL. ET MAXIM. AA. ET
+            CC. ZOTICO.*&lt;A 293 D. V K. DEC. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e228">
+               <head xml:id="azsw2e-d1e6531-Hd1e230">13</head>
+               <p xml:id="azsw2e-d1e6531-d1e232">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e234">Imperatores
+            Diocletianus, Maximianus</ref> A muneribus
+            decurionatus nec sententia praesidis in perpetuum nec anni quinquaginta
+            nec podagrae valitudo praestat excusationem. * DIOCL. ET MAXIM.
+            AA. ET CC. PROTO.*&lt;A XXXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e238">
+               <head xml:id="azsw2e-d1e6531-Hd1e240">14</head>
+               <p xml:id="azsw2e-d1e6531-d1e242">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e244">Imperator
+            Constantinus</ref> Nemo iudex aliquem suo arbitrio de curia
+            liberet. Nam si quis fuerit eiusmodi infortunio depravatus, ut debeat
+            sublevari, de eius nomine ad nostram scientiam referri oportet, ut
+            certo temporis spatio civilium munerum ei vacatio porrigatur * CONST.
+            A. AD EUAGRIUM. *&lt;A 313 PP. ID. MART. CONSTANTINO
+            A. III ET LICINIO III CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e248">
+               <head xml:id="azsw2e-d1e6531-Hd1e250">15</head>
+               <p xml:id="azsw2e-d1e6531-d1e252">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e254">Imperator
+            Constantinus</ref> Universos decuriones volumus a tabellionum officiis
+            temperare. * CONST. A. HILARIANO CORRECTORI LUCANIAE ET BRITTIORUM.
+            *&lt;A 316 D. III K. FEBR. SABINO ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e259">
+               <head xml:id="azsw2e-d1e6531-Hd1e261">16</head>
+               <p xml:id="azsw2e-d1e6531-d1e263">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e265">Imperator
+            Constantinus</ref> Si quis decurio vel propriae rei causa vel rei
+            publicae cogatur nostrum adire comitatum, is non ante discedat, quam
+            insinuato iudici desiderio profiscendi licentiam consequatur. Quod
+            si pro sua audacia parvi aliquis hanc fecerit iussionem, indignationem
+            competentem sortiatur * CONST. A. AD HILARIANUM PROCONS. AFRICAE.
+            *&lt;A 324 PP. VII ID. IUL. CARTHAGINE CRISPO III ET CONSTANTINO III
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e269">
+               <head xml:id="azsw2e-d1e6531-Hd1e271">17</head>
+               <p xml:id="azsw2e-d1e6531-d1e273">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e275">Imperator
+            Constantinus</ref> Qui derelicta curia militaverit, revocetur ad curiam.
+            * CONST. A. AD EUAGRIUM PP. *&lt;A 326 D. XVI K. IUN. CONSTANTINO
+            A. VII ET CONSTANTIO C. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e279">
+               <head xml:id="azsw2e-d1e6531-Hd1e281">18</head>
+               <p xml:id="azsw2e-d1e6531-d1e283">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e285">Imperator
+            Constantinus</ref>  Si ad magistratum nominati aufugerint, requirantur
+            et, si pertinaci animo latere potuerint, his ipsorum bona permittantur,
+            qui praesenti tempore in locum eorum ad duumviratus munera vocabuntur,
+            ita ut, si postea reperti fuerint, biennio integro onera duumviratus
+            cogantur agnoscere. </p>
+               <p xml:id="azsw2e-d1e6531-d1e288" n="1">
+            Omnes enim, qui obsequia publicorum munerum declinare temptaverint,
+            simili condicione teneri oportet. * CONST. A. *&lt;A 329 D. III K. OCT. SERDICAE CONSTANTINO A.
+            VIII ET CONSTANTIO IIII CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e292">
+               <head xml:id="azsw2e-d1e6531-Hd1e294">19</head>
+               <p xml:id="azsw2e-d1e6531-d1e296">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e298">Imperator
+            Constantinus</ref> Vacuatis rescriptis, per quae munerum civilium
+            nonnullis est vacatio praestita, omnes civilibus necessitatibus adgregentur,
+            ita ut nec consensu civium vel curiae praestita cuiquam immunitas
+            valeat, sed omnes ad munerum societatem conveniantur. * CONST. A. AD LUCRETIUM PATERNUM. *&lt;A 329 D. VIII K. NOV. HERACLEAE
+            CONSTANTINO A. VIII ET CONSTANTIO IIII CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e302">
+               <head xml:id="azsw2e-d1e6531-Hd1e304">20</head>
+               <p xml:id="azsw2e-d1e6531-d1e306">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e308">Imperatores
+            Constantius, Constans</ref> Magistratus desertores ad eam gravitas
+            tua faciat necessitatem condicionis urgueri, ut, quascumque pro his
+            expensas civitas prorogavit, refundere protinus ac repraesentare cogantur.
+            * CONSTANTIUS ET CONSTANS AA. ORDINI CIVITATIS CONSTANTIAE CIRTENSIUM.
+            *&lt;A 340 D.XIIII K.FEBR.NAISSO ACINDYNO ET PROCULO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e312">
+               <head xml:id="azsw2e-d1e6531-Hd1e314">21</head>
+               <p xml:id="azsw2e-d1e6531-d1e316">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e318">Imperatores
+            Constantius, Constans</ref> Curiales omnium civitatium nullam pro
+            re privata nostra debent inquietudinem sustinere nec huiusmodi oneribus
+            velut extraordinariis occupari, quoniam satis est, si civitatum munera
+            per eos congrue compleantur. * CONSTANTIUS ET CONSTANS AA. NEMESIANO COM. *&lt;A 340 D.PRID.ID. AUG. BESSAE ACINDYNO ET
+            PROCULO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e323">
+               <head xml:id="azsw2e-d1e6531-Hd1e325">22</head>
+               <p xml:id="azsw2e-d1e6531-d1e327">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e329">Imperator
+            Julianus</ref> Eos indulserunt veteres principes ex materno genere
+            curialibus antiochensis adscribi, quos patris condicio nullius vindicaret
+            iuri civitatis. * IUL. A. IULIANO COM. ORIENTIS.
+            *&lt;A 362 D.V K.SEPT.ANTIOCHIAE MAMERTINO ET NEVITTA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e333">
+               <head xml:id="azsw2e-d1e6531-Hd1e335">23</head>
+               <p xml:id="azsw2e-d1e6531-d1e337">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e339">Imperator
+            Julianus</ref> Providendum est eorum novitati decurionum, qui nuper
+            nomen curiis addiderunt, ne praeteritis debitis susceptorum onerentur:
+            sed conventis propter haec debita, qui ea praecedentibus delegationibus
+            contraxerunt, nullam eos molestiam pro sarcina nominationis alienae
+            sustinere patiaris. * IUL. A. IULIANO COM. ORIENTIS.
+            *&lt;A 362 PP.BERYTO K.NOV.MAMERTINO ET NEVITTA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e343">
+               <head xml:id="azsw2e-d1e6531-Hd1e345">24</head>
+               <p xml:id="azsw2e-d1e6531-d1e347">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e349">Imperator
+            Julianus</ref> Si quis decurio pater sit tredecim liberorum, honoratissimae
+            munerum quieti donetur. * IUL. A. LEONTIO CONSULARI PALAESTINAE. *&lt;A
+            OLO D.K.MART.ANTIOCHIAE IULIANO A.IIII ET SALLUSTIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e353">
+               <head xml:id="azsw2e-d1e6531-Hd1e355">25</head>
+               <p xml:id="azsw2e-d1e6531-d1e357">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e359">Imperatores
+            Valentinianus, Valens</ref> Curiales ultra terminos propriae civitatis
+            non iubeantur a moderatoribus provinciarum sui exhibere praesentiam,
+            nisi publica necessitas exegerit. * VALENTIN. ET VALENS AA. AD BYZACENOS.
+            *&lt;A 364 D.PRID.ID.SEPT.AQUILEIAE DIVO IOVIANO ET VARRONIANO CONSS.
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e363">
+               <head xml:id="azsw2e-d1e6531-Hd1e365">26</head>
+               <p xml:id="azsw2e-d1e6531-d1e367">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e369">Imperatores
+            Valentinianus, Valens</ref>  Quidam ignaviae sectatores desertis civitatium
+            muneribus captant solitudines ac secreta et specie religionis cum
+            coetibus monazonton congregantur. </p>
+               <p xml:id="azsw2e-d1e6531-d1e372" n="1">
+            Hos igitur atque huiusmodi deprehensos erui latebris consulta
+            praeceptione mandamus atque ad munia patriarum subeunda revocari,
+            aut pro tenore nostrae sanctionis familiarum rerum carcere illecebris,
+            quas per eos censuimus vindicandas, qui publicarum essent subituri
+            munera functionum. * VALENTIN. ET VALENS AA. AD MODESTUM PP. *&lt;A 373 PP.BERYTO K.IAN.VALENTINIANO ET VALENTE
+            AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e376">
+               <head xml:id="azsw2e-d1e6531-Hd1e378">27</head>
+               <p xml:id="azsw2e-d1e6531-d1e380">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e382">Imperatores
+            Valentinianus, Valens</ref> Privilegio militiae paternae se non vindicet,
+            quem avitus curiae nexus adstringit. Quod si militari avo et patre
+            decurione nascetur, paternae erit succedaneus functioni * VALENTIN.
+            ET VALENS AA. MAURIS SITIFENSIBUS. *&lt;A 368 VEL 370 D.VIIII K.AMI.TREVIRIS
+            VALENTINIANO ET VALENTE AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e387">
+               <head xml:id="azsw2e-d1e6531-Hd1e389">28</head>
+               <p xml:id="azsw2e-d1e6531-d1e391">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e393">Imperatores
+            Valentinianus, Valens</ref> Nullus qualibet praerogativa fultus a
+            debitis muneribus habeatur immunis. * VALENTIN. ET VALENS AA. AD VOLUSIANUM PU. *&lt;A 365 D.IIII K.IUL.MEDIOLANI VALENTINIANO
+            ET VALENTE AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e397">
+               <head xml:id="azsw2e-d1e6531-Hd1e399">29</head>
+               <p xml:id="azsw2e-d1e6531-d1e401">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e403">Imperatores
+            Valentinianus, Valens</ref> Nati ex inquilinarum nostrae domus matrimonio
+            et patre decurione non patrum suorum, verum matrum condicionem sequantur.
+            * VALENTIN. ET VALENS AA. GERMANIANO PP. GALLIARUM. *&lt;A 365 D.III
+            ID.OCT.VALENTINIANO ET VALENTE AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e407">
+               <head xml:id="azsw2e-d1e6531-Hd1e409">30</head>
+               <p xml:id="azsw2e-d1e6531-d1e411">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e413">Imperatores
+            Valentinianus, Valens</ref> Procuratores rei publicae actionibus publicis
+            debere uti non venit in dubium. * VALENTIN. ET VALENS AA. AD MODESTUM PP. *&lt;A 370-371 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e417">
+               <head xml:id="azsw2e-d1e6531-Hd1e419">31</head>
+               <p xml:id="azsw2e-d1e6531-d1e421">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e423">Imperatores
+            Valentinianus, Valens</ref> Ex omnibus domibus
+            producti, qui origine sunt curiali, ad subeundam publicorum munerum
+            functionem protrahantur, quippe cum occultatoribus talium praeter
+            iacturam existimationis etiam rerum discrimen incumbat, si ulterius
+            progressi utilitatem publicam privatis studiis et patrociniis postponant.
+            * VALENTIN. ET VALENS AA.ET GRAT. A. AD MODESTUM PP. *&lt;A
+            371 D.III ID.IUL.ANCYRAE GRATIANO A.II ET PROBO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e427">
+               <head xml:id="azsw2e-d1e6531-Hd1e429">32</head>
+               <p xml:id="azsw2e-d1e6531-d1e431">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e433">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Fabricenses ordinibus restituantur,
+            qui originem curialem et propriae munera declinaverint civitatis:
+            reliqui ne levi quidem inquietudine pulsentur. * GRAT. VALENTIN. ET
+            THEODOS. AAA. AD NEOTERIUM PP. *&lt;A 380 D XVI K.APRIL.THESSALONICAE GRATIANO
+            V ET THEODOSIO AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e437">
+               <head xml:id="azsw2e-d1e6531-Hd1e439">33</head>
+               <p xml:id="azsw2e-d1e6531-d1e441">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e443">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Omnes iudices provinciarumque rectores a consuetudine temerariae usurpationis
+            abstineant sciantque neminem omnino principalium aut decurionum sub
+            qualibet culpae aut erroris offensa cruciatibus esse subdendum. </p>
+               <p xml:id="azsw2e-d1e6531-d1e446" n="1">
+            Quod si quis forte iudicum in hac pertinaciam illiciti furoris
+            eruperit, quod audeat principalem ac decurionem et suae, si sic dici
+            oportet, curiae senatorem tormentis subdere, viginti librarum auri
+            illatione multatus et perpetua infamia inustus nec speciali quidem
+            rescripto notam eluere mereatur: et officium quinquaginta librarum
+            auri multam fisco nostro cogetur inferre, quoniam, ut pertinaciae
+            iudicis sui resistat, liberam eidem contradicendi permittimus facultatem.
+            * GRAT. VALENTIN. ET THEODOS. AAA. EUTROPIO PP. *&lt;A 381
+            D.XII K.AUG.HERACLEAE EUCHERIO ET SYAGRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e451">
+               <head xml:id="azsw2e-d1e6531-Hd1e453">34</head>
+               <p xml:id="azsw2e-d1e6531-d1e455">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e457">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Si quis procurationem facultatum
+            suarum curiali crediderit esse mandatam, totius dignitatis exceptione
+            depulsa gravissima poena plectetur. </p>
+               <p xml:id="azsw2e-d1e6531-d1e460" n="1">
+            Ille vero, qui immemor libertatis et generis infamissimam
+            suscipiens vilitatem existimationem suam servili obsecundatione damnaverit,
+            tradatur exsilio. * GRAT. VALENTIN. ET THEODOS. AAA. FLORO PP. *&lt;A
+            382 D.X K.NOV.CONSTANTINOPOLI ANTONIO ET SYAGRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e464">
+               <head xml:id="azsw2e-d1e6531-Hd1e466">35</head>
+               <p xml:id="azsw2e-d1e6531-d1e468">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e470">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  In filiis decurionum retinendis
+            priorum praeceptorum decreta sublimitas tua custodiat. </p>
+               <p xml:id="azsw2e-d1e6531-d1e473" n="1">
+            Eos quoque, qui advocationis obtentu curialia onera declinant,
+            agere universa compellat, quae et si necessitas non exigit, tamen
+            patria non remittit. </p>
+               <p xml:id="azsw2e-d1e6531-d1e476" n="2">
+            Ipsos quin etiam filios magistrorum, qui ex curiali stirpe
+            descendunt, simili modo obnoxios esse decernat. * GRAT. VALENTIN.
+            ET THEODOS. AAA. POSTUMIANO PP. *&lt;A 383 D.VIII ID.APRIL.CONSTANTINOPOLI
+            MEROBAUDE II ET SATURNINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e480">
+               <head xml:id="azsw2e-d1e6531-Hd1e482">36</head>
+               <p xml:id="azsw2e-d1e6531-d1e484">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e486">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Exemplo senatorii ordinis
+            patris originem unusquisque sequatur, nec valeant specialiter delata
+            rescripta, si quis se matris origine defendens a maiore curia ad minorem
+            transferri fortasse promeruerit: neque ulla pro more provinciae referri
+            sinatur exceptio. * GRAT. VALENTIN. ET THEODOS. AAA.
+            AD BASILIUM COM. SACR. LARG. *&lt;A 383 D.XVI K.IUL.ROMAE MEROBAUDE
+            II ET SATURNINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e490">
+               <head xml:id="azsw2e-d1e6531-Hd1e492">37</head>
+               <p xml:id="azsw2e-d1e6531-d1e494">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e496">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Quotienscumque se ex rescriptis nostris aliquid impetrasse contendent
+            ii, quos obnoxios curiae vel origo fecerit vel latum inter partes
+            iudicium designaverit, nullam prorsus spem curias declinandi ex colore
+            sacrae iussionis accipiant. * GRAT. VALENTIN. ET THEODOS. AAA.
+            POSTUMIANO PP. *&lt;A 383 D. XIIII K. AUG. CONSTANTINOPOLI MEROBAUDE
+            II ET SATURNINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e500">
+               <head xml:id="azsw2e-d1e6531-Hd1e502">38</head>
+               <p xml:id="azsw2e-d1e6531-d1e504">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e506">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Ne quis officialium poenae
+            specie atque aestimatione curiae dedatur, nisi si quis forte curiam
+            diffugiens ob hoc coeperit militare, ne ingenitis fungatur officiis.
+            </p>
+               <p xml:id="azsw2e-d1e6531-d1e509" n="1">
+            Omnes itaque omnino iudices tuae censurae subditos admonebis,
+            ne quis eorum aestimet curiae loco supplici quemquam deputandum, cum
+            utique unumque criminosum non dignitas debeat, sed poena comitari.
+            * GRAT. ET VALENTIN. ET THEODOS. AAA. AD CYNEGIUM PP. *&lt;A 384 D. VIII ID. NOV. CONSTANTINOPOLI
+            RICOMERE ET CLEARCHO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e513">
+               <head xml:id="azsw2e-d1e6531-Hd1e515">39</head>
+               <p xml:id="azsw2e-d1e6531-d1e517">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e519">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Curiales, qui sese privilegio
+            domus nostrae defendi posse crediderint, ad curiam retrahantur et
+            propriis functionibus mancipentur et publica damna sarciant. * GRAT.
+            ET VALENTIN. ET THEODOS. AAA. ET ARCAD. A. AD EUSIGNIUM
+            PP.*&lt;A 386 D. VIII K. IAN. HONORIO NP. ET EUODIO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e524">
+               <head xml:id="azsw2e-d1e6531-Hd1e526">40</head>
+               <p xml:id="azsw2e-d1e6531-d1e528">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e530">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Quilibet principalium vel
+            decurionum vel decoctor pecuniae publicae vel fraudulentus in adscriptionibus
+            illicitis vel immoderatus in exactione fuerit inventus, iuxta pristinam
+            consuetudinem non solum a vobis, quibus propter loci dignitatem rerum
+            summa commissa est, verum a iudicibus ordinariis plumbatarum ictibus
+            subiciatur. * GRAT. VALENTIN. ET THEODOS. AAA. CYNEGIO
+            PP. *&lt;A 387 D. DIE K. APRIL. CONSTANTINOPOLI VALENTINIANO
+            A. III ET EUTROPIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e534">
+               <head xml:id="azsw2e-d1e6531-Hd1e536">41</head>
+               <p xml:id="azsw2e-d1e6531-d1e538">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e540">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Decurio fortunam quam nascendo
+            meruit suffragiis atque ambitione non mutet: et si vacare per senectutem
+            potuerit, propter ordinationem, quae per plurimus cito definiri solet,
+            curiam non relinquat. * GRAT. VALENTIN. ET THEODOS. AAA. CYNEAIO PP.
+            *&lt;A 387 D. PRID. NON. IUL. CONSTANTINOPOLI VALENTINIANO A. III
+            ET EUTROPIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e544">
+               <head xml:id="azsw2e-d1e6531-Hd1e546">42</head>
+               <p xml:id="azsw2e-d1e6531-d1e548">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e550">Imperatores
+            Theodosius, Arcadius, Honorius</ref>  Militaribus
+            viris nihil sit commune cum curiis: nihil sibi licitum sciant, quod
+            suae non subiectum est potestati: nullum iniuria, nullum verbere,
+            nullum gravi pulsatione tribunus, dux ille an comes sit, curialem
+            principalemve contingat. </p>
+               <p xml:id="azsw2e-d1e6531-d1e553" n="1">
+            Si quis posthac temerario et inconsiderato ausu ullum ex
+            principalibus viris usurpata attrectaverit iniuria, sciat se decem
+            auri libris esse multandum. * THEODOS. ARCAD. ET
+            HONOR. AAA. ABUNDANTIO COM. ET MAG. UTR. MIL.*&lt;A 392 D.
+            PRID. K. AUG. CONSTANTINOPOLI ARCADIO A. II ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e557">
+               <head xml:id="azsw2e-d1e6531-Hd1e559">43</head>
+               <p xml:id="azsw2e-d1e6531-d1e561">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e563">Imperatores
+            Theodosius, Arcadius, Honorius</ref> Omnes, qui curiali obstricti
+            sanguine diversis se officiorum privilegiis et actuum praeiudiciis
+            adgregarunt, reddendos muniis esse non ambiges. Sed
+            nec rescripta aut adnotationes ad munerum fugam prodesse permittimus
+            * THEODOS. ARCAD. ET HONOR. AAA. RUFINO PP. *&lt;A 393 D. PRID. ID. APRIL. CONSTANTINOPOLI THEODOSIO
+            A. III AT ABUNDANTIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e567">
+               <head xml:id="azsw2e-d1e6531-Hd1e569">44</head>
+               <p xml:id="azsw2e-d1e6531-d1e571">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e573">Imperatores
+            Theodosius, Arcadius, Honorius</ref> Nullus
+            solius materni sanguinis vinculis illigetur, quia mulierum infirmitas
+            numquam huiusmodi functionibus reddit obnoxios, a quibus ipsa habetur
+            immunis. * THEODOS. ARCAD. ET HONOR. AAA. RUFINO PP. *&lt;A 393 D.
+            V ID. AUG. CONSTANTINOPOLI THEODOSIO A. III ET ABUNDANTIO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e577">
+               <head xml:id="azsw2e-d1e6531-Hd1e579">45</head>
+               <p xml:id="azsw2e-d1e6531-d1e581">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e583">Imperatores
+            Arcadius, Honorius</ref> Nominationum forma
+            vacillare non debet, si omnes qui albo curiae detinentur adesse non
+            possunt, ne paucorum absentia sive necessaria sive fortuita debilitet,
+            quod a maiore parte ordinis salubriter fuerit constitutum, cum duae
+            partes ordinis in urbe positae totius curiae instar exhibeant. *
+            ARCAD. ET HONOR. AA. ENNODIO PROCONS. AFRICAE. *&lt;A 395 D.XVII K.IUN.MEDIOLANI
+            OLYBRIO ET PROBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e588">
+               <head xml:id="azsw2e-d1e6531-Hd1e590">46</head>
+               <p xml:id="azsw2e-d1e6531-d1e592">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e594">Imperatores
+            Arcadius, Honorius</ref> Ad subeunda patriae munera dignissimi
+            et meritis et facultatibus curiales eligantur, ne tales forte nominentur,
+            qui functiones publicas implere non possint. * ARCAD. ET HONOR. AA.
+            THEODORO PP. *&lt;A 395 D.IIII K.OCT.MEDIOLANI OLYBRIO ET PROBINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e598">
+               <head xml:id="azsw2e-d1e6531-Hd1e600">47</head>
+               <p xml:id="azsw2e-d1e6531-d1e602">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e604">Imperatores
+            Arcadius, Honorius</ref>  Curiales, qui honorariam
+            adepti sunt comitivam, formidare debent eos, quorum sunt moderationi
+            commissi, nec se existimare ideo meruisse dignitatem, ut iudicum praecepta
+            despiciant. </p>
+               <p xml:id="azsw2e-d1e6531-d1e607" n="1">
+            Quod si in eadem culpa perseverent, quinque librarum auri
+            multae obnoxius subiugetur, honore quoque quem prodidit spoliandus.
+            * ARCAD. ET HONOR. AA. CAESARIO PP. *&lt;A 395 D.IIII K.IAN.CONSTANTINOPOLI OLYBRIO
+            ET PROBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e611">
+               <head xml:id="azsw2e-d1e6531-Hd1e613">48</head>
+               <p xml:id="azsw2e-d1e6531-d1e615">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e617">Imperatores
+            Arcadius, Honorius</ref> In successione curialium
+            decernimus, ut, etiam si patres decesserint, teneatur agnatio. * ARCAD.
+            ET HONOR. AA. FLORENTINO PU. *&lt;A 397 D.XII K.IAN.MEDIOLANI CAESARIO
+            ET ATTICO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e621">
+               <head xml:id="azsw2e-d1e6531-Hd1e623">49</head>
+               <p xml:id="azsw2e-d1e6531-d1e625">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e627">Imperatores
+            Arcadius, Honorius</ref> Omnes, qui quolibet curiae iure debentur,
+            cuiuscumque superstitionis sint, ad implenda munia teneantur. * ARCAD.
+            ET HONOR. AA. THEODORO PP. *&lt;A 398 D.ID.FEBR.MEDIOLANI HONORIO A.IIII ET EUTYCHIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e631">
+               <head xml:id="azsw2e-d1e6531-Hd1e633">50</head>
+               <p xml:id="azsw2e-d1e6531-d1e635">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e637">Imperatores
+            Arcadius, Honorius</ref> Omnes omnino curiales in originalibus
+            ac debitis perpetuo curiis perseverent, et qui ex his ad provinciarum
+            regimen atque administrationem qualibet fraude atque ambitione pervenerint,
+            sciant se non solum in sua curia remansuros, sed etiam cunctis rursus
+            ab exordio muneribus servituros. * ARCAD. ET HONOR. AA.
+            EUTYCHIANO PP. *&lt;A 398 D.VIII K.NOV.CONSTANTINOPOLI HONORIO
+            A.IIII ET EUTYCHIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e641">
+               <head xml:id="azsw2e-d1e6531-Hd1e643">51</head>
+               <p xml:id="azsw2e-d1e6531-d1e645">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e647">Imperatores
+            Arcadius, Honorius</ref>  Quamvis provisum
+            fuerat congruae emendationis occursu, quemadmodum curiales militiae
+            nomine et honore suspenso officiis redderentur, tamen quia hoc callido
+            consilio reppererent, ut evitatis provinciae suae finibus, tamquam
+            his eorum tantum interdictis fuisset accessus, peregrinos expeterent
+            commeatus, ne diutius in perniciem curiarum latitandi spes et solacium
+            eos impunitatis exacuat, horum cupiditatibus obviamus, ut ex eorum
+            bonis, qui se vel prosecutioni vel muniis civitatum interdictae dudum
+            ambitione militiae vel qualibet fraude subtrahere conati fuerint,
+            curiis quas deseruerant consulatur. </p>
+               <p xml:id="azsw2e-d1e6531-d1e650" n="1">
+            Itaque si vocati edictis intra anni metas ( ii tamen, qui
+            manifestis curiae nexibus illigantur) latere potius quam redire maluerint,
+            sciant post emensum annum interpellatis provinciarum moderatoribus
+            ex facultatibus suis curiis quas destituerunt consulendum. Neque enim
+            de immaturo praeiudicio temporis possunt brevitatem causari. * ARCAD.
+            ET HONOR. AA. MESSALAE PP. *&lt;A 399 D.XVII K.SEPT.THEODORO VC.CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e655">
+               <head xml:id="azsw2e-d1e6531-Hd1e657">52</head>
+               <p xml:id="azsw2e-d1e6531-d1e659">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e661">Imperatores
+            Arcadius, Honorius</ref> Quis tam inveniri
+            iniquus arbiter rerum potest, qui in urbibus magnifico statu praeditis
+            ac votiva curialium numerositate locupletibus ad iterationem quempiam
+            transacti oneris compellat, ut, cum alii necdum paene initiati curiae
+            sacris fuerint, alios continuatio et repetitae saepe functiones adficiant?
+            * ARCAD. ET HONOR. AA. PROBINO PROCONS. AFRICAE.
+            *&lt;A 397 D.XVI K.APRIL.MEDIOLANI CAESARIO ET ATTICO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e665">
+               <head xml:id="azsw2e-d1e6531-Hd1e667">53</head>
+               <p xml:id="azsw2e-d1e6531-d1e669">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e671">Imperatores
+            Honorius, Theodosius</ref> Duumvirum impune non liceat extollere
+            potestatem fascinum extra metas territorii propriae civitatis. * HONOR.
+            ET THEODOS. AA. EUCHARIO PROCONS. AFRICAE. *&lt;A 412 D.VI ID.MART.RAVENNAE
+            HONORIO VIIII ET THEODOSIO V AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e675">
+               <head xml:id="azsw2e-d1e6531-Hd1e677">54</head>
+               <p xml:id="azsw2e-d1e6531-d1e679">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e681">Imperatores
+            Honorius, Theodosius</ref> Generali lege sancimus,
+            ut, si quis tuum decurionem curiae vindicare maluerit, si praesidis
+            desit copia, eundem manus iniectione concessa sciat ad examen cognitoris
+            resultantem esse deducendum, ita ut moderator provinciae, si quaestio
+            fortasse fiducis defensionis ulla generatur, nisi intra tres menses
+            causam originis competenti disceptatione cognoverit atque convictum
+            cum poena restituerit debitis muneribus vel liberum ab inquietudine
+            pronuntiaverit, decem librarum auri multam cogatur exsolvere, eius
+            etiam officium pari damni inrogatione teneatur. * HONOR. ET THEODOS.
+            AA. APLLADIO PP. *&lt;A 416 D.V NON.MAI.RAVENNAE THEODOSIO A.VII ET
+            PALLADIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e685">
+               <head xml:id="azsw2e-d1e6531-Hd1e687">55</head>
+               <p xml:id="azsw2e-d1e6531-d1e689">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e691">Imperatores
+            Theodosius, Valentinianus</ref> Si quis decurio
+            aut subiectus curiae ausus fuerit ullam adfectare militiam, nulla
+            praescriptione temporis muniatur, sed ad condicionem propriam retrahatur,
+            ne ipse vel eius liberi post talem ipsius statum procreati quod patriae
+            debetur valeant declinare. * THEODOS. ET VALENTIN. AA. ISIDORO
+            PP. *&lt;A 436 D.III NON.APRIL.CONSTANTINOPOLI ISIDORO ET SENATORE
+            CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e695">
+               <head xml:id="azsw2e-d1e6531-Hd1e697">56</head>
+               <p xml:id="azsw2e-d1e6531-d1e699">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e701">Imperatores
+            Theodosius, Valentinianus</ref>  Alexandrinis principalibus, etsi advocatione
+            fungantur, nihilo minus peregrinationi incumbat, nec cura publica
+            nisi in sua tantum civitate committatur. </p>
+               <p xml:id="azsw2e-d1e6531-d1e704" n="1">
+            Et primus curiae, cum muneribus universis expletis ad summum
+            pervenerit gradum, comitivae primi ordinis fruatur post biennium dignitate
+            praestita, in curialibus tamen permaneat. * THEODOS. ET VALENTIN.
+            AA. ISIDORO PP. *&lt;A 436 D.PRID.NON.IUN.CONSTANTINOPOLI ISIDORO
+            ET SENATORE CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e708">
+               <head xml:id="azsw2e-d1e6531-Hd1e710">57</head>
+               <p xml:id="azsw2e-d1e6531-d1e712">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e714">Imperatores
+            Theodosius, Valentinianus</ref> Quinque summates ordinis Alexandrini
+            corporalibus iniuriis immunes esse censemus, ut voce libera commoditates
+            patriae defendant, cum possint, si quid egerint criminose, pecuniariis
+            coerceri dispendiis. Aestimabuntur autem praesente curia viri spectabilis
+            Augustalis iudicio * THEODOS. ET VALENTIN. AA. ISIDORO PP. *&lt;A
+            436 D.PRID.NON.IUN.CONSTANTINOPOLI ISIDORO ET SENATORE CONSS. &gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e719">
+               <head xml:id="azsw2e-d1e6531-Hd1e721">58</head>
+               <p xml:id="azsw2e-d1e6531-d1e723">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e725">Imperatores
+            Theodosius, Valentinianus</ref> Eum, qui triginta annos in Alexandrina
+            civitate civilibus inhaeserit muneribus, corporalibus muniis, non
+            pecuniariis excusari convenit: habita consideratione videlicet meritorum,
+            ut hoc bene cogniti privilegium consequantur nec eo passim fruantur
+            indigni. * THEODOS. ET VALENTIN. AA. ISIDORO PP. *&lt;A 436 D.PRID.NON.IUN.CONSTANTINOPOLI
+            ISIDORO ET SENATORE CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e729">
+               <head xml:id="azsw2e-d1e6531-Hd1e731">59</head>
+               <p xml:id="azsw2e-d1e6531-d1e733">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e735">Imperatores
+            Theodosius, Valentinianus</ref>  Si quos spontaneos hypomnematographi
+            munificos suis exhortationibus ad publicas nominaverint functiones,
+            iubemus non expectandum esse consensum pro tempore viri spectabilis
+            augustalis, qui fit plerumque venalis, sed utriusque partis sufficere
+            voluntatem, ut incipiat functio, quam nullus incusat: tunc ad memoratum
+            iudicem tam nominati quam etiam creatores consona relatione currente.
+            </p>
+               <p xml:id="azsw2e-d1e6531-d1e738" n="1">
+            Quam si suscipere vel confirmare distulerit, sciat se viginti
+            quinque auri librarum condemnatione plectendum. * THEODOS. ET VALENTIN.
+            AA. ISIDORO PP. *&lt;A 436 D.PRID.NON.AUG.CONSTANTINOPOLI ISIDORO
+            ET SENATORE CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e742">
+               <head xml:id="azsw2e-d1e6531-Hd1e744">60</head>
+               <p xml:id="azsw2e-d1e6531-d1e746">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e748">Imperatores
+            Theodosius, Valentinianus</ref>  Nullus, qui nexu generis curiae tenetur
+            obnoxius, per substitutam quamcumque personam curiales impleat functiones,
+            sed ipse per se debitum patriae munus exsolvat, etsi spectabili dignitate
+            decoratus sit, nisi hoc ei speciali beneficio sit concessum. </p>
+               <p xml:id="azsw2e-d1e6531-d1e751" n="1">
+            Ii vero, qui honorario titulo illustrem dignitatem consecuti
+            sunt, per substitutos periculo suarum facultatum curiae muneribus
+            satisfacere non vetentur. * THEODOS. ET VALENTIN. AA. THOMAE PP. *&lt;A
+            442 D.V K.MART.CONSTANTINOPOLI EUDOXIO ET DIOSCORO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e755">
+               <head xml:id="azsw2e-d1e6531-Hd1e757">61</head>
+               <p xml:id="azsw2e-d1e6531-d1e759">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e761">Imperator
+            Leo</ref>  Neque Dorotheum virum illustrem et totam eius substantiam
+            neque Irenaeum virum spectabilem tribunum et notarium, etsi ante paternas
+            illustres dignitates natus est, ullam inquietudinem pro curiali genere
+            et condicione sustinere decernimus: liberos quoque eorum, vel qui
+            iam sunt vel futuri, eorumque posteros, quotienscumque continuata
+            temporum et successionum perpetuitate nascentur, a curiali condicione
+            et functione esse liberos: lege divae memoriae Iuliani, quae de materno
+            curialium Antiochenae civitatis genere promulgata est, nihil in persona
+            viri illustris Dorothei vel viri spectabilis Irenaei vel adversus
+            facultates eorum vel adversus liberos eorundem, qui iam vel nati sunt
+            vel postmodum quoquo tempore nascentur, vel adversus substantias eorum
+            roboris habitura, </p>
+               <p xml:id="azsw2e-d1e6531-d1e764" n="1">
+            Circa alias sane universas personas de materno genere ad
+            memoratae Antiochenae civitatis tantummodo curiam pertinentes eandem
+            legem praecipimus obtinere propriam firmitatem. *
+            LEO A. VIVIANO PP. *&lt;A 457-465 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e768">
+               <head xml:id="azsw2e-d1e6531-Hd1e770">62</head>
+               <p xml:id="azsw2e-d1e6531-d1e772">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e774">Imperator
+            Leo</ref>  Si ille, qui ex filia decurionis Antiochenae splendidissimae
+            civitatis et patre, qui nullius alterius civitatis muniis debeatur,
+            procreatus est, sub examine provincialis iudicis vel sponte confessus
+            vel certe convictus fuerit, quod ex filia sit curialis progenitus
+            et albo decurionum adscriptus fuerit, nullam sibi superesse facultatem
+            negandae vel evitandae condicionis existimet et curialem non adspernari
+            fortunam avi materni sui pertemptet nec dubitet se muniis curialibus
+            subiacere. </p>
+               <p xml:id="azsw2e-d1e6531-d1e777" n="1">
+            Quod si quem curia, de qua praesens sanctio loquitur, natum
+            ex filia curialis minime secundum praestitutam ordinationem sibi sociandum
+            curaverit, prolem eius pulsare nullo modo penitus poterit: nec enim
+            patimur conventionem eiusmodi praetermisso filio, quem filia curialis
+            ediderat, a nepote vel pronepote vel ulterius incipere. * LEO A. CONSTANTINO PP. *&lt;A 457-465 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e781">
+               <head xml:id="azsw2e-d1e6531-Hd1e783">63</head>
+               <p xml:id="azsw2e-d1e6531-d1e785">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e787">Imperator
+            Leo</ref> Docticii viri clarissimi iuvenis fortuna super curiali condicione nullo
+            modo inquietanda nec facultatibus eius, sed eo, qui huiusmodi conamen
+            inierit, sacrilegii poenam luituro omnes, qui post peractam illustrem
+            administrationem vel adhuc in ea posito patri suo giguntur, a curialium
+            intentione defendantur una cum paternis sine dubio substantiis, quas
+            cum persona patris a curiali nexu liberas esse nemo dissimulet. *
+            LEO A. AD SENATUM. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e792">
+               <head xml:id="azsw2e-d1e6531-Hd1e794">64</head>
+               <p xml:id="azsw2e-d1e6531-d1e796">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e798">Imperator
+            Zeno</ref>  Neminem ex his, qui obnoxii curiae
+            constituti ab initio felicissimi nostrae pietatis imperii comitum
+            privatarum nostrae vel Augustae partis, seu comitis largitionum vel
+            comitis domesticorum, quaestoris vel magistri officiorum ad actum
+            administrationis gerendum provecti sunt vel in posterum provehentur,
+            ob hoc curialium munerum laqueos volumus evitare: sed obligatos cum
+            liberis suis quandocumque progenitis et facultatibus suis post administrationem
+            depositam curiae commoditatibus inservire, nisi forte aliis privilegiis
+            super hoc legibus cognitis muniantur. Nam alia universa legitima vel
+            ex constitutionibus data privilegia integra volumus illibataque observari.
+            </p>
+               <p xml:id="azsw2e-d1e6531-d1e801" n="1">
+            Ne tamen indulti honoris inane nomen retinere videantur,
+            dignitatum titulis potiantur, per substitutos suarum periculo facultatum
+            curialibus muneribus respondentes habeant integra illibataque privilegia
+            dignitatis. </p>
+               <p xml:id="azsw2e-d1e6531-d1e804" n="2">
+            Eos vero, qui vel praefatas dignitates ante initium nostri
+            imperii consecuti sunt, cum facultatibus suis et post eam dignitatem
+            progenitis filiis a curialibus nexibus vel onere decernimus liberari.</p>
+               <p xml:id="azsw2e-d1e6531-d1e807" n="3">
+            Hos autem, qui quocumque tempore patricii vel consules aut
+            consulares facti sunt aut in posterum fuerint, aut magistri militum
+            vel praefecti praetorio Orientis vel Illyrici vel urbis administrationem
+            in actu positi quandoque gesserunt aut postea gesserint, omnimodo
+            cum facultatibus suis et post eam dignitatem progenitis filiis a curiarum
+            nexibus vel onere decernimus liberari. * ZENO A. SEBASTIANO PP. *&lt;A
+            XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e811">
+               <head xml:id="azsw2e-d1e6531-Hd1e813">65</head>
+               <p xml:id="azsw2e-d1e6531-d1e815"><!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e819">
+               <head xml:id="azsw2e-d1e6531-Hd1e821">66</head>
+               <p xml:id="azsw2e-d1e6531-d1e823">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e825">Imperator
+            Anastasius</ref>  Divae memoriae Zenonis sacratissimam
+            constitutionem, quae de curialibus post certas excelsas administrationes
+            seu dignitates condicionis nexu liberandis lata est, in hac tantummodo
+            parte duximus corrigendam, qua cavetur eos etiam, qui ante eandem
+            constitutionem, ab initio tamen eiusdem divae recordationis Zenonis
+            imperii, comitis privatarum nostrae vel piissimae Augustae partis,
+            seu comitis largitionum vel comitis domesticorum, quaestoris aut magistri
+            officiorum licet ad actum administrationis gerendum provecti sunt,
+            minime curialium munerum laqueos ob hoc evitare, sed obligatos cum
+            liberis suis quandocumque progenitis et facu ltatibus suis post administrationem
+            depositam curiae commoditatibus inservire, nisi forte aliis privilegiis
+            super hoc legibus cognitis muniantur. </p>
+               <p xml:id="azsw2e-d1e6531-d1e828" n="1">
+            His etenim, qui memoratas administrationes vel unam ex his
+            peregerunt, nec non liberis et rebus eorum beneficium, quod ante per
+            illustrem administrationem peractam eis adquisitum est, intactum illibatumque
+            iubemus servari, ut relaxatione condicionis et munerum curialium per
+            anteriores principales dispositiones sibi concessa tam ipsi quam liberi
+            eorum post huiusmodi administrationem adeptam procreati una cum propriis
+            substantiis potiantur, etsi contigit eos post divae memoriae Zenonis
+            constitutionem sive per se sive per substitutos suos curiae competentia
+            munera subisse: eadem videlicet constitutione divae memoriae Zenonis
+            ex die quo promulgata est suas vires obtinente, cum conveniat leges
+            futuris regulas imponere, non praeteritis calumnias excitare. *
+            ANASTAS. A. POLYCARPO PP. *&lt;A 497-499 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6531-Dd1e832">
+               <head xml:id="azsw2e-d1e6531-Hd1e834">67</head>
+               <p xml:id="azsw2e-d1e6531-d1e836">
+                  <ref xml:id="azsw2e-d1e6531-Rd1e838">Imperator
+            Justinianus</ref>  Curialibus consortiis consulentes censemus,
+            ut nemo sibi blandiatur et non certis modis sese liberum esse existimet,
+            sed pro nostra forma tantummodo sciat posse libertatem sibi curialis
+            competere condicionis: omnibus anterioribus modis, quos non comprehendit
+            praesens sanctio, ex praesenti die antiquandis. </p>
+               <p xml:id="azsw2e-d1e6531-d1e841" n="1">
+            Si quis igitur vel summum patriciatus honorem fuerit consecutus,
+            sive infulis consultatus honorarii aut ordinarii fuerit ampliatus,
+            ut vel consul vel consularis efficiatur, seu praefectorum praetorio
+            infulas susceperit gubernandas, vel urbicariam ( in ipso tamen actu)
+            meruerit praefecturam, nec non magistri militum officium gerendum
+            susceperit, is gaudeat se huiusmodi condicionis esse exsortem et liberum
+            cum suis facultatibus suaque posteritate, quam postquam meruit dignitatem
+            vel actum gessit ediderit, anterioribus filiis in condicione pristina
+            remansuris. </p>
+               <p xml:id="azsw2e-d1e6531-d1e844" n="2">
+            Tam praefecturae quaestoris quam viri eloquentissimi fisci
+            patroni tam praefecturae, quae Orientalibus et Illyricianis praesidet
+            sedibus, quam urbicariae nexibus curiae liberantur, cum ad fisci patronatum
+            pervenerint, una cum substantiis et liberis suis, quos vel ante habuerint
+            vel postquam ad eundem gradum provecti sunt. </p>
+               <p xml:id="azsw2e-d1e6531-d1e847" n="3">
+            Viri etiam clarissimi principes argentium in rebus curiae
+            libertatem ex antiquis legibus consecuti sunt, et viri spectabiles
+            proximi sacri scrinii memoriae et sacrarum epistularum nec non sacri
+            scrinii libellorum sacrarumque cognitionum et dispositionum cum substantiis
+            suis et liberis, quos post emensa stipendia susceperant. </p>
+               <p xml:id="azsw2e-d1e6531-d1e851" n="4">
+            Hoc etiam nos corroborantes intuitu laborum, quos multos
+            longo prolixoque tempore pertulerunt, intactum illibatumque conservamus,
+            ut ii omnes fortuna curiali liberentur cum sua substantia suaque subole
+            secundum ea quae praediximus. </p>
+               <p xml:id="azsw2e-d1e6531-d1e854" n="5">
+            Ex aevo autem sequente progenitos antea nullius futuri fisci
+            patroni liberos concedimus liberandos, ut ne, quod summis apicibus
+            dignitatum non est concessum, hoc alii sibi audeant vindicare: sed
+            progeniti filii ante, quam ad fisci patronatum pervenerint, in condicione
+            pristina remaneant. </p>
+               <p xml:id="azsw2e-d1e6531-d1e857" n="6">
+            Aliis autem modis, quam his, quos singillatim enumeravimus,
+            sive legibus antiquis comprehensi sunt ( qualis erat is, quem ex tribus
+            maribus concessum ante fuerat patri maximo senatui sociare) sive comprehensi
+            anterioribus scitis non fuerant, liberationem competere cuidam curialis
+            fortunae nullo patimur modo: sed sive pragmatica sanctio super hoc
+            processit sive sententia eminentissimae praefecturae, sive alius quicumque
+            modus excogitatus est, omnia ea penitus vacuari et pro infectis haberi,
+            et curialia corpora suis reddi civitatibus et substantias eorum subiacere
+            nulla excusatione eis penitus competente. * IUST.
+            A. DEMOSTHENI PP. *&lt;A 529 &gt; </p>
+               <p xml:id="azsw2e-d1e6531-d1e860"> 
+            ..............................................................
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

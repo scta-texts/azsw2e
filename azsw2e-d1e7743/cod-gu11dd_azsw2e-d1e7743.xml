@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 62</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 62</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7743"><!-- azsw2e-l11t62 -->
+            <head xml:id="azsw2e-d1e7743-Hd1e101">Titulus 62</head>
+            <head xml:id="azsw2e-d1e7743-Hd1e103" type="question-title">De fundis patrimonialibus et saltuensibus et emphyteuticis et eorum
+            conductoribus</head>
+            <div xml:id="azsw2e-d1e7743-Dd1e106">
+               <head xml:id="azsw2e-d1e7743-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7743-d1e110">
+                  <ref xml:id="azsw2e-d1e7743-Rd1e112">Imperator
+            Constantinus</ref> Si quis fundos emphyteutici iuris salva lege fisci
+            citra iudicis auctoritatem donaverit, donationes firmae sint, dummodo
+            suis quibusque temporibus ea quae fisco pensitanda sunt repraesentare
+            cogantur. * CONST. A. CUPITO. *&lt;A 315 PP.XVII K.IUL.TREVIRIS CONSTANTINO
+            AA.IIII ET LICINIO IIII CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7743-Dd1e116">
+               <head xml:id="azsw2e-d1e7743-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7743-d1e120">
+                  <ref xml:id="azsw2e-d1e7743-Rd1e122">Imperator
+            Constantinus</ref> Patrimonialis fundi pensitationem aurariam seu
+            frumentariam intra tempus omissam minorum dominio non nocere praecipimus
+            nec ad fraudem iuris eorum evadere, si, quod sollemniter debetur,
+            paulo serius inferatur: ita tamen, ut permanente substantia parvulorum
+            iudex tutorem vel curatorem, per quem differtur illatio, neglegentiae
+            suae et deserti officii poenas exigat et damna deplorare compellat.
+            * CONST. A. AD DRACONTIUM. *&lt;A XXX &gt; </p>
+               <p xml:id="azsw2e-d1e7743-d1e125"> .
+            </p>
+               <p xml:id="azsw2e-d1e7743-d1e127">
+                  <ref xml:id="azsw2e-d1e7743-Rd1e129">Imperatores
+            Valentinianus, Valens</ref>  Quicumque possessiones ex emphyteutico
+            iure susceperint, ea ad refundendum uti occasione non possunt, qua
+            adserant desertas esse coepisse, tametsi rescripta per obreptionem
+            meruerint. </p>
+               <p xml:id="azsw2e-d1e7743-d1e132" n="1">
+            Sed nec avelli eas ab his posse, nec si licitatio ab alio
+            fuerit promissa, sed eas in perpetuum apud eos qui eas susceperint
+            et eorum posteritatem remanere, nec si super hoc rescriptum fuerit
+            adversus eos impetratum. * VALENTIN. ET VALENS AA. AD GERMANIANUM
+            COM. SACR. LARG. *&lt;A 365 D.VIII K.OCT.MEDIOLANI VALENTINIANO ET
+            VALENTE AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7743-Dd1e136">
+               <head xml:id="azsw2e-d1e7743-Hd1e138">4</head>
+               <p xml:id="azsw2e-d1e7743-d1e140">
+                  <ref xml:id="azsw2e-d1e7743-Rd1e142">Imperatores
+            Valentinianus, Valens</ref> Fundi patrimoniales et qui ex emphyteutico
+            iure ad domum nostram diversis generibus devoluti sunt, sic eis qui
+            eos poposcerint cedunt, ut commissi metus esse non possit. Neque enim
+            magis commodamus nostra, quam tradimus ea iure dominii: ita tamen,
+            ut ea, quae in nostra possessione positi praestiterint, et in posterum
+            dissolvant * VANENTIN. ET VALENS AA. AD FLORIANUM COM. RER. PRIVAT.
+            *&lt;A 368 D.ID.MART.TREVERIS VALENTINIANO II ET VALENTE II AA.CONSS.
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7743-Dd1e147">
+               <head xml:id="azsw2e-d1e7743-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e7743-d1e151">
+                  <ref xml:id="azsw2e-d1e7743-Rd1e153">Imperatores
+            Valens, Gratianus, Valentinianus</ref> Si qui a prioribus colonis
+            vel emphyteuticariis destitutum patrimonialem fundum a peraequatore
+            vel censitore susceperint, perpetuo eundem atque inconcusso iure possideant,
+            nec quisquam secundus petitor accedat. * VALENS GRAT. ET VALENTIN.
+            AAA. AD MODESTUM PP. *&lt;A 377 D.IIII NON.NOV.GRATIANO A.IIII ET
+            MEROBAUDE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7743-Dd1e157">
+               <head xml:id="azsw2e-d1e7743-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e7743-d1e161">
+                  <ref xml:id="azsw2e-d1e7743-Rd1e163">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Hi, quibus patrimoniales
+            possessiones per asianam ac ponticam dioecesin vel a nobis vel a divis
+            parentibus nostris sacra largitate donatae sunt, inconcusse possideant
+            atque ad suos posteros mittant. </p>
+               <p xml:id="azsw2e-d1e7743-d1e166" n="1">
+            Quod quidem non solum in heredibus, sed et in contractoribus
+            omni genere volumus custodiri. * GRAT. VALENTIN. ET THEODOS. AAA.
+            NEBRIDIO COM. RER. PRIVAT. *&lt;A 384 D.III K.APRIL.CONSTANTINOPOLI
+            RICOMERE ET CLEARCHO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7743-Dd1e170">
+               <head xml:id="azsw2e-d1e7743-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e7743-d1e174">
+                  <ref xml:id="azsw2e-d1e7743-Rd1e176">Imperatores
+            Gratianus, Valentinianus, Theodosius, Arcadius</ref>  Quicumque ad
+            emphyteusin fundorum patrimonialium vel rei publicae iussu nostri
+            numinis venerit, is si redundantia fortunarum idoneus fuerit ad restituenda,
+            quae desertis forte possessionibus requirentur, patrimonium suum publicis
+            implicet nexibus. </p>
+               <p xml:id="azsw2e-d1e7743-d1e179" n="1">
+            Si vero minor facultatibus probabitur, datis fideiussoribus
+            idoneis ad emphyteusin accedat: scientibus his, quos talium rerum
+            cura sollicitat, in se neglegentiae damna, si huiusmodi cautio defuerit,
+            esse vertenda. * GRAT. VALENTIN. THEODOS. ET ARCAD. AAAA. CYNEGIO
+            PP. *&lt;A 386 D.VI K.MART.CONSTANTINOPOLI HONORIO NOB.PUERO ET EUODIO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7743-Dd1e183">
+               <head xml:id="azsw2e-d1e7743-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e7743-d1e187">
+                  <ref xml:id="azsw2e-d1e7743-Rd1e189">Imperatores
+            Gratianus, Valentinianus, Theodosius, Arcadius</ref> Omnes fundi patrimoniales
+            per mesopotamiam et osrhoenam provincias, quos constat divorum retro
+            principum sanctionibus limiti deputatos, ad ius pristinum sine ullius
+            adsertionis revocetur obstaculo praebituri omnia quae antea impendenda
+            necessitatibus limitis praebere consueverant, ita ut nulli penitus
+            audiantur, qui aut rescripto aut adnotatione dominium vel emphyteusin
+            vel conductionem quolibet genere largitatis de nostra liberalitate
+            meruerint. * GRAT. VALENTIN. THEODOS. ET ARCAD. AAAA. CLEARCHO PP.
+            *&lt;A 386 D.PRID.K.MAI.CONSTNATINOPOLI HONORIO NP.ET EUODIO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7743-Dd1e193">
+               <head xml:id="azsw2e-d1e7743-Hd1e195">9</head>
+               <p xml:id="azsw2e-d1e7743-d1e197">
+                  <ref xml:id="azsw2e-d1e7743-Rd1e199">Imperatores
+            Arcadius, Honorius</ref> Universi cognoscant nihil privato iure salvo
+            canone fundis emptis cum patrimonialibus esse commune, ita ut ad eos
+            numquam patrimonialium fundorum peraequator accedat: gravi multa feriendo
+            eo, qui statuta nostrae clementiae ausus fuerit temerare. * ARCAD.
+            ET HONOR. AA. EUTYCHIANO PP. *&lt;A 398 D.PRID.NON.IUL.NICOMEDIAE
+            HONORIO A.IIII ET EUTYCHIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7743-Dd1e203">
+               <head xml:id="azsw2e-d1e7743-Hd1e205">10</head>
+               <p xml:id="azsw2e-d1e7743-d1e207">
+                  <ref xml:id="azsw2e-d1e7743-Rd1e209">Imperatores
+            Arcadius, Honorius</ref> Fundos patrimoniales eos dumtaxat, qui salvo
+            canone iure privato nostra liberalitate concessi sunt, cum his patrimonialibus,
+            qui in condicione propria constituti sunt, illustris auctoritas tua
+            iubebit exaequari, ita ut relevato, quod imminet fatigatis, translatio
+            in eos, qui integris viribus florent, adscriptio tributorum aequa
+            lance dividatur. * ARCAD. ET HONOR. AA. EUTYCHIANO PP. *&lt;A 399
+            D.IIII ID.APRIL.CONSTANTINOPOLI THEODORO CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7743-Dd1e214">
+               <head xml:id="azsw2e-d1e7743-Hd1e216">11</head>
+               <p xml:id="azsw2e-d1e7743-d1e218">
+                  <ref xml:id="azsw2e-d1e7743-Rd1e220">Imperatores
+            Honorius, Theodosius</ref> Ius emphyteutici praedii, quod sine obligationis
+            vinculo retentatum est, nostro iudicio immutabile perdurare praecipimus:
+            possessionem autem, quae sine obligatione speciali fuerit vitiosa,
+            vetustate temporis volumus adiuvari. * HONOR. ET THEODOS. AA. PROBO
+            COM. SACR. LARG. *&lt;A 412 D.ID.APRIL.RAVENNAE HONORIO VIIII ET THEODOSIO
+            V AA.CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7743-Dd1e224">
+               <head xml:id="azsw2e-d1e7743-Hd1e226">12</head>
+               <p xml:id="azsw2e-d1e7743-d1e228">
+                  <ref xml:id="azsw2e-d1e7743-Rd1e230">Imperatores
+            Theodosius, Valentinianus</ref>  Possessores vel emphyteuticarii patrimoniales,
+            qui fundos minime nunc usque compararunt, eodem largitatis modo nequaquam
+            ad eorum comparationem urgueantur, sed tamquam pretiis depensis, sic
+            eis nostri numinis beneficio potiantur, ut, quod iuris alter inferendo
+            pretium consecutus est, hoc nostra liberalitate praedictus emphyteuticarius
+            habeat. </p>
+               <p xml:id="azsw2e-d1e7743-d1e233" n="1">
+            Illud quoque ius, in quibus coluit praediis, quod aut ex
+            successione aut ex comparatione privata aut nostri numinis liberalitate
+            aut quocumque modo possedit, sciat inlibatum intemeratumque servari:
+            licentia eis concedenda etiam libertates mancipiis ex fundis patrimonialibus
+            atque emphyteuticariis, cum fundorum sunt domini, praestare. * THEODOS.
+            ET VALENTIN. AA. TAURO PP.ET PATRICIO. *&lt;A 434 D.XIIII K.IUL.CONSTANTINOPOLI
+            ARIOBINDO ET ASPARE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7743-Dd1e237">
+               <head xml:id="azsw2e-d1e7743-Hd1e239">13</head>
+               <p xml:id="azsw2e-d1e7743-d1e241">
+                  <ref xml:id="azsw2e-d1e7743-Rd1e243">Imperatores
+            Theodosius, Valentinianus</ref> Nulli iam in posterum licere praecipimus
+            patrimoniales seu limitotrophos vel saltuenses fundos, qui per tractum
+            orientis positi sunt, ad ius transferre privatum, sive dempto sive
+            salvo canone iuris fundorum immutatio postuletur: legis temeratores
+            quinquaginta librarum auri poena coercentes tam videlicet petitorem
+            quam officium, quod petitionem concedit admitti, licet adnotatio nostra,
+            licet divina pragmatica contra vetitum proferatur. * THEODOS. ET VALENTIN.
+            AA. AD FLORENTIUM PP. *&lt;A 439 D.VI ID.IUN.CONSTANTINOPOLI THEODOSIO
+            A.XVII ET FESTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7743-Dd1e247">
+               <head xml:id="azsw2e-d1e7743-Hd1e249">14</head>
+               <p xml:id="azsw2e-d1e7743-d1e251">
+                  <ref xml:id="azsw2e-d1e7743-Rd1e253">Imperator
+            Anastasius</ref>  Iubemus omnes, qui in quacumque dioecesi in quacumque
+            provincia vel quolibet saltu fundos patrimoniales vel templorum aut
+            agonothetici seu relevatorum iugorum vel cuiuscumque iuris per quadraginta
+            iugiter annos ( possessione scilicet non solum eorum qui nunc detinent,
+            verum etiam eorum quoque qui antea possederant computanda) ex quocumque
+            titulo vel etiam sine titulo hactenus possederunt vel postea per memoratum
+            quadraginta annorum spatium possederint, nullam penitus super dominio
+            memoratorum omnium fundorum vel locorum vel domorum a publico actionem
+            vel molestiam aut quamlibet inquietudinem formidare. </p>
+               <p xml:id="azsw2e-d1e7743-d1e256" n="1">
+            Sed impositum canonem pro qualitate iuris, cuius praedia
+            sunt vel loca, per singulos annos solventes pro certo habeant suum
+            esse quod possident vel postea possederint, ita ut omnibus ad excludendam
+            omnem quolibet modo e publico movendam quaestionem nudae et ex quocumque
+            titulo vel etiam sine titulo corporalis quadraginta annorum iugis
+            possessionis exceptio possit sufficere. </p>
+               <p xml:id="azsw2e-d1e7743-d1e259" n="2">
+            Hoc etiam adiciendo, ut illi quoque, qui dempto canone huiusmodi
+            fundos ab initio principali iussione datos sibi fuisse confirmant,
+            si per quadragesimos annos adempti canonis beneficium iugiter possederunt,
+            nec canonem, cuius ademptionem quadraginta, sicut dictum est, annorum
+            possessio testatur, possint penitus profligari, eo quod nostrae pietati
+            placuit in utroque casu, id est tam salvo quam dempto canone, possessorum
+            iura nostrorum in eo statu, in quo per quadragesimos, sicut dictum
+            est, iugiter annos manserunt, absque ulla innovatione durare. * ANASTAS.
+            A. MATRONIANO PP. *&lt;A 491 D. III K. AUG. CONSTANTINOPOLI OLYBRIO
+            VC. CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

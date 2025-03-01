@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 53</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 53</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4706"><!-- azsw2e-l7t53 -->
+            <head xml:id="azsw2e-d1e4706-Hd1e101">Titulus 53</head>
+            <head xml:id="azsw2e-d1e4706-Hd1e103" type="question-title">De exsecutione rei iudicatae</head>
+            <div xml:id="azsw2e-d1e4706-Dd1e106">
+               <head xml:id="azsw2e-d1e4706-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4706-d1e110">
+                  <ref xml:id="azsw2e-d1e4706-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Nimis propere iudex pignora marcellae capi
+            ac distrahi iussit ante rem iudicatam. Prius est ergo, ut servato
+            ordine actionem adversus eam dirigas et causa cognita sententiam accipias
+            * SEV. ET ANT. AA. IUSTINO. *&lt;A 206 PP. III K. FEBR. ALBINO ET
+            AEMILIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4706-Dd1e116">
+               <head xml:id="azsw2e-d1e4706-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4706-d1e120">
+                  <ref xml:id="azsw2e-d1e4706-Rd1e122">Imperator
+            Antoninus</ref> Si causam iudicati non novasti, rem iudicatam praeses
+            provinciae etiam pignoribus captis ac distractis ad emolumentum perduci
+            iubebit. Quod si novata causa est, ex stipulatu tibi actio competit
+            et iudice accepto secundum iuris formam experire * ANT. A. MAXIMO.
+            *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4706-Dd1e126">
+               <head xml:id="azsw2e-d1e4706-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4706-d1e130">
+                  <ref xml:id="azsw2e-d1e4706-Rd1e132">Imperator
+            Antoninus</ref> Ordo rei gestae et mora solutionis, quae intercessit,
+            constantius desiderat remedium. Si itaque praesidem provinciae, qui
+            rem iudicatam exsequi debet, adieris et adlegaveris res soli, quae
+            pignori datae sunt, diu subhastatas ex compacto sive ambitione diversae
+            partis emptorem non invenire, in possessionem earum te mittet, ut
+            vel hoc remedio res tam diu tracta ad effectum perducatur * ANT. A.
+            AGRIPPAE. *&lt;A 214 D. XI K. IUL. MESSALA ET SABINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4706-Dd1e137">
+               <head xml:id="azsw2e-d1e4706-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4706-d1e141">
+                  <ref xml:id="azsw2e-d1e4706-Rd1e143">Imperator
+            Antoninus</ref> Stipendia retineri propterea, quod condemnatus es,
+            non patietur praeses provinciae, cum rem iudicatam possit aliis rationibus
+            exsequi. * ANT. A. MARCELLO MIL. *&lt;A 216 PP. III NON. IUN. SABINO
+            II ET ANULLINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4706-Dd1e147">
+               <head xml:id="azsw2e-d1e4706-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e4706-d1e151">
+                  <ref xml:id="azsw2e-d1e4706-Rd1e153">Imperator
+            Gordianus</ref> Etiam nomen debitoris in causa iudicati capi posse
+            ignotum non est. * GORD. A. AMANDO. *&lt;A 242 PP. III ID. OCT. ATTICO
+            ET PRAETEXTATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4706-Dd1e157">
+               <head xml:id="azsw2e-d1e4706-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e4706-d1e161">
+                  <ref xml:id="azsw2e-d1e4706-Rd1e163">Imperator
+            Philippus</ref> Si, ut proponis, rerum iudicatarum exsecutor datus
+            partes sibi iudicis vindicavit et contra ea, quae pridem pro partibus
+            tuis fuerunt statuta, aliquid pronuntiandum putavit, sententia ab
+            eo dicta vim rei iudicatae obtinere nequaquam potest. * PHILIPP. A.
+            ET PHILIPP. C. TITIANO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4706-Dd1e167">
+               <head xml:id="azsw2e-d1e4706-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e4706-d1e171">
+                  <ref xml:id="azsw2e-d1e4706-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Si longis apertisque frustrationibus
+            partis adversae restitutio remorata est, etiam servis rebus humanis
+            exemptis a frustratore aestimatio eorum restituenda est. Animalia
+            quoque cum fetubus tibi intercessu praesidis repraesentabuntur * DIOCL.
+            ET MAXIMIANUS AA. THEODORO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4706-Dd1e177">
+               <head xml:id="azsw2e-d1e4706-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e4706-d1e181">
+                  <ref xml:id="azsw2e-d1e4706-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Exsecutorem eum solum esse manifestum
+            sit, qui post sententiam, inter partes audita omni et discussa lite,
+            prolatam iudicatae rei vigorem ad effectum videtur adducere. * DIOCL.
+            ET MAXIM. AA. ET CC. *&lt;A SINE DIE ET CONSULE.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4706-Dd1e187">
+               <head xml:id="azsw2e-d1e4706-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e4706-d1e191">
+                  <ref xml:id="azsw2e-d1e4706-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Eos, quos debitores tuos esse contendis,
+            apud rectorem conveni provinciae, qui, sive confessi debitum sive
+            negantes et convicti fuerint condemnati nec intra statutum spatium
+            solutioni satisfecerint, cum latae sententiae pignoribus etiam captis
+            ac distractis secundum ea quae saepe constituta sunt meruerunt exsecutionem,
+            iuris formam tibi custodiet. * DIOCL. ET MAXIM. AA. ET CC. GLYCONI.
+            *&lt;A 294 S. NON. NOV. CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

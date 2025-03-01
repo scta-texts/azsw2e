@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 52</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 52</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3163"><!-- azsw2e-l5t52 -->
+            <head xml:id="azsw2e-d1e3163-Hd1e101">Titulus 52</head>
+            <head xml:id="azsw2e-d1e3163-Hd1e103" type="question-title">De dividenda tutela et pro qua parte quisque tutorum conveniatur.</head>
+            <div xml:id="azsw2e-d1e3163-Dd1e106">
+               <head xml:id="azsw2e-d1e3163-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3163-d1e110">
+                  <ref xml:id="azsw2e-d1e3163-Rd1e112">Imperator
+            Gordianus</ref> Si post finitum administrationis officium collegae
+            tui indemnitati praestandae idonei fuerunt posteaque, dum non conveniuntur,
+            minus idonei effecti sunt, vitium alienae cessationis ad dispendium
+            tuum pertinere iuris ratio non patitur. * GORD. A. OPTATO. *&lt;A
+            241 PP. VI ID. MAI. GORDIANO A. II ET POMPEIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3163-Dd1e116">
+               <head xml:id="azsw2e-d1e3163-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3163-d1e120">
+                  <ref xml:id="azsw2e-d1e3163-Rd1e122">Imperatores
+            Carus, Carinus, Numerianus</ref>  Si divisio administrationis inter
+            tutores sive curatores in eodem loco seu provincia constitutos necdum
+            fuit, licentiam habet adulescens et unum eorum eligere et totum debitum
+            exigere, cessione videlicet ab eo adversus ceteros tutores seu curatores
+            actionum ei competentium facienda. </p>
+               <p xml:id="azsw2e-d1e3163-d1e125" n="1">
+            In divisionem autem administratione deducta sive a praeside
+            sive a testatoris voluntate unumquemque pro sua administratione convenire
+            potest, periculum invicem tutoribus seu curatoribus non sustinentibus,
+            nisi per dolum aut culpam suspectum non removerunt, cum alter eorum
+            non solvendo effectus sit, vel suspicionis causam agendo sua sponte
+            iura pupilli prodiderunt. </p>
+               <p xml:id="azsw2e-d1e3163-d1e128" n="2">
+            Nec prodest eis dicentibus contutorem suum non administrasse
+            pupillares res. </p>
+               <p xml:id="azsw2e-d1e3163-d1e131" n="3">
+            Sin vero ipsi inter se res administrationis diviserunt, non
+            prohibetur adulescens et unum ex his in solidum convenire, ita ut
+            actiones, quas adversus alios habet, ad electum transferat. * CARUS
+            CARINUS ET NUMER. AAA. PRIMIGENIO. *&lt;A 284 PP. HEMESAE XV K. APRIL.
+            CARINO II ET NUMERIANO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3163-Dd1e135">
+               <head xml:id="azsw2e-d1e3163-Hd1e137">3</head>
+               <p xml:id="azsw2e-d1e3163-d1e139">
+                  <ref xml:id="azsw2e-d1e3163-Rd1e141">Imperatores
+            Diocletianus, Maximianus</ref> Licet tutorum conventione mutuum periculum
+            minime finiatur, tamen eum qui administravit, si solvendo sit, in
+            primo loco eiusque successores conveniendos esse non ambigitur. *
+            DIOCL. ET MAXIM. AA. ET CC. ZOTICO. *&lt;A 294 S. IIII K. OCT. CC.
+            CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

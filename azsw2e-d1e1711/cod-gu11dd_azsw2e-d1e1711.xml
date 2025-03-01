@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 33</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 33</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1711"><!-- azsw2e-l3t33 -->
+            <head xml:id="azsw2e-d1e1711-Hd1e101">Titulus 33</head>
+            <head xml:id="azsw2e-d1e1711-Hd1e103" type="question-title">De usu fructu et habitatione et ministerio servorum</head>
+            <div xml:id="azsw2e-d1e1711-Dd1e106">
+               <head xml:id="azsw2e-d1e1711-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1711-d1e110">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Si usus fructus omnium bonorum testamento
+            uxoris marito relictus est, quamvis cautionem a te prohibuerat exigi,
+            tamen non aliter a debitoribus solutam pecuniam accipere poteris quam
+            oblata secundum formam senatus consulti cautione. * SEV. ET ANT. AA.
+            POSIDONIO. *&lt;A 199 PP. VI K. OCT. ANULLINO ET FRONTONE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e116">
+               <head xml:id="azsw2e-d1e1711-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e1711-d1e120">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Verbis testamenti, quae precibus inseruisti,
+            usum fructum legatum tibi animadvertimus. Quae res non impedit proprietatis
+            dominum obligare creditori proprietatem, manente scilicet integro
+            usu fructu tui iuris * SEV. ET ANT. AA. FELICI. *&lt;A 205 PP. VI
+            ID. MAI. ANTONINO II ET GETA II CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e126">
+               <head xml:id="azsw2e-d1e1711-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e1711-d1e130">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e132">Imperator
+            Antoninus</ref>  Si patri tuo usus fructus legatus est, defuncto eo
+            nihil ad te pertinet, cum morte eius, cui fuerat legatus usus fructus
+            vel alio modo adquisitus, ad proprietatem regredi solet. </p>
+               <p xml:id="azsw2e-d1e1711-d1e135" n="1">
+            Usufructuario autem superstite licet dominus proprietatis
+            rebus humanis eximatur , ius utendi fruendi non tollitur. * ANT. A.
+            ANTONIANO. *&lt;A 213 PP. III K. AUG. ANTONINO A. IIII ET BALBINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e140">
+               <head xml:id="azsw2e-d1e1711-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e1711-d1e144">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e146">Imperator
+            Alexander Severus</ref> Usu fructu constituto consequens est, ut satisdatio
+            boni viri arbitrio praebeatur ab eo, apud quem id commodum pervenit,
+            quod nullam laesionem ex usu proprietati adferat. Nec interest, sive
+            ex testamento sive ex voluntario contractu usus fructus constitutus
+            est * ALEX. A. VERBICIO. *&lt;A 226 PP. VI ID. MART. ALEXANDRO A.
+            II ET MARCELLO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e150">
+               <head xml:id="azsw2e-d1e1711-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e1711-d1e154">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e156">Imperator
+            Alexander Severus</ref> Si pater usum fructum praediorum in tempus
+            vestrae pubertatis matri vestrae reliquit, finito usu fructu postquam
+            vos adolevistis, posterioris temporis fructus perceptos ab ea repetere
+            potestis, quos nulla ratione sciens de alieno percepit. * ALEX. A.
+            .. EVOCATO ET ALIIS.*&lt;A 226 PP. K. APRIL. ALEXANDRO A. II ET MARCELLO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e160">
+               <head xml:id="azsw2e-d1e1711-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e1711-d1e164">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e166">Imperator
+            Alexander Severus</ref> Interest, usum fructum solum maritus tuus
+            in dotem acceperit, an proprietas quidem doti data sit, verum pactum
+            intercessit, ut moriente eo tibi eadem possessio redderetur. Nam usufructuarius
+            quidem proprietatem pignorare non potuit: qui autem proprietatem aestimatam
+            in dotem accepit, non ideo minus obligare eam potuit, quoniam soluto
+            matrimonio restituenda tibi aestimatio eius fuit * ALEX. A. STRATONICAE.
+            *&lt;A 230 PP. K. IUL. AGRICOLA ET CLEMENTE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e170">
+               <head xml:id="azsw2e-d1e1711-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e1711-d1e174">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e176">Imperator
+            Gordianus</ref> Eum, ad quem usus fructus pertinet, sarta tecta suis
+            sumptibus praestare debere explorati iuris est. Proinde si quid ultra
+            quam impendi debeat erogatum potes docere, sollemniter reposces *
+            GORD. A. ULPIANO MIL. *&lt;A 243 PP. K. FEBR. ARRIANO ET PAPO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e180">
+               <head xml:id="azsw2e-d1e1711-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e1711-d1e184">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e186">Imperatores
+            Diocletianus, Maximianus</ref> Neque fructuarium ad obtinendam proprietatem
+            rerum, quarum usum fructum habet, neque successores eius ulla temporis
+            ex ea causa tenentes praescriptio munit. * DIOCL. ET MAXIM. AA. ET
+            CC. HIERONI. *&lt;A 293 VI K. IUL. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e190">
+               <head xml:id="azsw2e-d1e1711-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e1711-d1e194">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e196">Imperatores
+            Diocletianus, Maximianus</ref> Usu fructu matri tuae praediorum et
+            mancipiorum relicto tam alienatio quam manumissio interdicta est.
+            Sane mancipia, quorum testamento ministerium matri relictum est, cum
+            in his dominium non habet, nec tradendo cuiquam nec manumittendo ad
+            testatoris heredem pertinentia quicquam facit * DIOCL. ET MAXIM. AA.
+            ET CC. AUXANUSAE. *&lt;A 293 D. K. DEC. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e201">
+               <head xml:id="azsw2e-d1e1711-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e1711-d1e205">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e207">Imperatores
+            Diocletianus, Maximianus</ref> Si domina proprietatis uxori tuae usum
+            fructum locavit sub certa annua praestatione, morte conductricis ei
+            quae locavit etiam utendi fruendi causa non est deneganda. * DIOCL.
+            ET MAXIM. AA. ET CC. POMPONIO. *&lt;A 293 D. XIII K. IAN. SIRMI AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e211">
+               <head xml:id="azsw2e-d1e1711-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e1711-d1e215">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e217">Imperatores
+            Diocletianus, Maximianus</ref> Habitatio morte finitur: nec proprietatem
+            qui habitationem habuit legando dominii vindicationem excludit. *
+            DIOCL. ET MAXIM. AA. ET CC. CLAUDIO THEODOTO. *&lt;A 294 SUBSCRIPTA
+            IIII K. OCT. VIMINACI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e221">
+               <head xml:id="azsw2e-d1e1711-Hd1e223">12</head>
+               <p xml:id="azsw2e-d1e1711-d1e225">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e227">Imperator
+            Justinianus</ref>  Ambiguitatem antiqui iuris decidentes sancimus,
+            sive quis uxori suae sive alii cuicumque usum fructum reliquerit sub
+            certo tempore, in quo vel filius eius vel quisquam alius pervenerit,
+            stare usum fructum in annos, in quos testator statuit , sive persona,
+            de cuius aetate compositum est, ad eam pervenerit sive non: neque
+            enim ad vitam hominis respexit, sed ad certa curricula: nisi ipse
+            cui usus fructus legatus sit ab hac luce fuerit subtractus: tunc etenim
+            ad posteritatem usum fructum transmitti non est possibile, cum morte
+            usum fructum penitus extingui iuris indubitati sit. </p>
+               <p xml:id="azsw2e-d1e1711-d1e230" n="1">
+            Sin autem talis fuerit incerta condicio, 'donec in furore
+            filius vel alius quisquam remanserit', vel in aliis similibus casibus,
+            quorum eventus in incerto sit, si quidem resipuerit filius vel alius,
+            pro quo hoc dictum est, vel condicio extiterit, usum fructum finiri:
+            sin autem adhuc in furore is constitutus decesserit, tunc quasi in
+            usufructuarii vitam eo relicto manere usum fructum apud eum. Cum enim
+            possibile erat usque ad omne vitae tempus usufructuarii non ad suam
+            mentem venire furentem vel condicionem impleri, humanissimum est ad
+            vitam eorum usum fructum extendi. Quemadmodum etenim, si decesserit
+            usufructuarius ante completam condicionem vel furorem finitum, extinguitur
+            usus fructus, ita humanum est extendi eum in usufructuarii vitam,
+            etsi antea decesserit furiosus vel alia co ndicio defeceri * IUST.
+            A. IULIANO PP. *&lt;A 530 D. K. AUG. CONSTANTINOPOLI LAMPADIO ET ORESTE
+            VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e234">
+               <head xml:id="azsw2e-d1e1711-Hd1e236">13</head>
+               <p xml:id="azsw2e-d1e1711-d1e238">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e240">Imperator
+            Justinianus</ref>  Cum antiquitas dubitabat usu fructu habitationis
+            legato, et primo quidem cui similis est, utrumne usui vel usui fructui
+            an neutri eorum, sed ius proprium et specialem naturam sortita est
+            habitatio, postea autem si possit is cui habitatio legata est eandem
+            locare vel dominium sibi vindicare, auctorum iurgium decidentes compendioso
+            responso omnem huiusmodi dubitationem resecamus. </p>
+               <p xml:id="azsw2e-d1e1711-d1e243" n="1">
+            Et si quidem habitationem reliquerit, ad humaniorem declinare
+            sententiam nobis visum est et dare legatario etiam locationis licentiam.
+            Quid enim distat, sive ipse legatarius maneat sive alii cedat, ut
+            mercedem accipiat </p>
+               <p xml:id="azsw2e-d1e1711-d1e246" n="2">
+            Et multo magis, si habitationis usum fructum reliquerit,
+            cum et nimiae subtilitati satisfactum videatur etiam nomine usus fructus
+            addito. </p>
+               <p xml:id="azsw2e-d1e1711-d1e249" n="3">
+            In tantum etenim valere habitationem volumus, ut non antecellat
+            usum fructum nec dominium habitationis speret legatarius, nisi specialiter
+            evidentissimis probationibus ipse legatarius possit ostendere et dominium
+            ei domus esse relictum: tunc enim voluntati testatoris per omnia oboediendum
+            est. </p>
+               <p xml:id="azsw2e-d1e1711-d1e253" n="4">
+            Quam decisionem locum habere censemus in omnibus modis, quibus
+            habitatio constitui potest. * IUST. A. IULIANO PP. *&lt;A 530 D. XVIII
+            K. OCT. LAMPADIO ET ORESTE VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e257">
+               <head xml:id="azsw2e-d1e1711-Hd1e259">14</head>
+               <p xml:id="azsw2e-d1e1711-d1e261">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e263">Imperator
+            Justinianus</ref>  Antiquitas dubitabat, si quis fundum vel aliam rem
+            cuidam testamento reliquerit, quatenus usus fructus apud heredem maneat,
+            si huiusmodi constat legatum. </p>
+               <p xml:id="azsw2e-d1e1711-d1e266" n="1">
+            Et cum quidam inutile legatum esse existimabant, quia usus
+            fructus numquam ad suam redit proprietatem, sed semper apud heredem
+            remanet, et forsitan hoc existimabant, quia et secundus heres et deinceps
+            successores unus esse videntur et non potest huiusmodi usus fructus
+            secundum veterem distinctionem solitis modis extingui, alii autem
+            huiusmodi legatum non esse respuendum existimaverunt: tales altercationes
+            decidentes censemus et huiusmodi legatum firmum esse et talem usum
+            fructum una cum herede finiri et illo moriente vel aliis legitimis
+            modis eum amittente expirare. Quare enim iste usus fructus sibi tale
+            vindicat privilegium, ut generali interemptione usus fructus ipse
+            solus excipiatur? quod ex nulla induci rationabili sententia manifestissimum
+            est </p>
+               <p xml:id="azsw2e-d1e1711-d1e269" n="2">
+            Et propter hoc et usum fructum finiri et ad proprietatem
+            suam redire et utile esse legatum sancientes huiusmodi paucissimis
+            verbis totam eorum ambiguitatem delevimus. * IUST. A. IULIANO PP.
+            *&lt;A 530 D. XV K. OCT. LAMPADIO ET ORESTE VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e273">
+               <head xml:id="azsw2e-d1e1711-Hd1e275">15</head>
+               <p xml:id="azsw2e-d1e1711-d1e277">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e279">Imperator
+            Justinianus</ref>  Inter antiquam prudentiam dissensio incidit, si
+            per servum usus fructus domino fuerit adquisitus et ex quibusdam casibus
+            ( multi enim rebus incidunt mortalibus)pars huiusmodi servi in alium
+            pervenerit, utrum omnis usus fructus, qui antea per servum ad aliquem
+            pervenerit, apud eum remaneat an totus tollatur vel ex parte deminuatur,
+            ex parte autem apud eum resideat? </p>
+               <p xml:id="azsw2e-d1e1711-d1e282" n="1">
+            Et super huiusmodi dubitatione tres sententiae vertebantur,
+            una, quae dicebat ex particulari alienatione servi totum usum fructum
+            deminui, alia in tantum usum fructum deminui, in quantum et servus
+            alienatur, tertia, quae definiebat partem quidem servi posse alienari,
+            usum fructum autem totum apud eum remanere, qui ante servum in solidum
+            habebat. Et in novissimam sententiam et summum auctorem iuris scientiae
+            salvium iulianum esse invenimus </p>
+               <p xml:id="azsw2e-d1e1711-d1e285" n="2">
+            Nobis autem haec decidentibus placuit salvii iuliani admitti
+            sententiam et aliorum qui in eadem fuerunt opinione, quibus humanius
+            visum est non interemptionem usus fructus studiosam esse, sed magis
+            retentionem, quatenus, etsi pars servi alienatur, tamen nec pars usus
+            fructus depereat, sed maneat secundum suam naturam integer atque incorruptus
+            et, quemadmodum et ab initio fixus est, ita conservetur ex huiusmodi
+            casu nullo deterioratus modo. * IUST. A. IULIANO PP. *&lt;A 530 D.
+            X K. OCT. LAMPADIO ET ORESTE VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e290">
+               <head xml:id="azsw2e-d1e1711-Hd1e292">16</head>
+               <p xml:id="azsw2e-d1e1711-d1e294">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e296">Imperator
+            Justinianus</ref>  Corruptionem usus fructus multiplicem esse veteribus
+            placuit, vel morte usufructuarii vel capitis deminutione vel non utendo
+            vel aliis quibusdam non ignotis modis. Sed de usu fructu quidem hoc
+            indubitatum fuerat: de personali autem actione, quae super usu fructu
+            nascitur, sive in stipulationem usus fructus deductus sive ex testamento
+            relictus est, dubitabatur, morte quidem usufructuarii et capitis deminutione
+            et eam tolli omnibus concedentibus, non utendo autem, si per annum
+            vel per biennium forsitan eundem usum fructum non petierit usufructuarius,
+            si personalis actio tollitur, altercantibus </p>
+               <p xml:id="azsw2e-d1e1711-d1e299" n="1">
+            Sed nos haec decidentes sancimus non solum actionem quae
+            pro usu fructu nascitur , sed nec ipsum usum fructum non utendo cadere,
+            nisi tantummodo morte usufructuarii et ipsius rei interitu, sed usum
+            fructum, quem sibi aliquis adquisivit, hunc habeat, dum vivit, intactum,
+            cum multae et innumerabiles causae rebus incidunt mortalibus, per
+            quas homines iugiter detinere quod habent non possunt, et est satis
+            durum per huiusmodi difficultates amittere quod semel possessum est,
+            nisi talis exceptio usufructuario opponetur, quae, etiam si dominium
+            vindicabat, poterat eum praesentem vel absentem excludere. </p>
+               <p xml:id="azsw2e-d1e1711-d1e302" n="2">
+            Sed nec per omnem capitis deminutionem huiusmodi detrimentum
+            imminere nostris patimur subiectis. Quare enim, si filius familias
+            fuerit is qui usum fructum habet, forte ex castrensi peculio, ubi
+            nec usus fructus adquiritur ei, possessum, per emancipationem eum
+            amittat? sed secundum quod definitum est tunc eum tantummodo desinere,
+            cum usufructuarius vel res pereat, et tantummodo eum cum anima vel
+            rei substantia expirare, nisi praedictae exceptionis vigor reclamaverit
+            </p>
+               <p xml:id="azsw2e-d1e1711-d1e305" n="3">
+            Excepta videlicet tali capitis deminutione, quae vel libertatem
+            vel civitatem romanam possit adimere: et tunc enim usus fructus omnimodo
+            ereptus ad suam revertatur proprietatem. * IUST. A. IULIANO PP. *&lt;A
+            530 D. K. OCT. CONSTANTINOPOLI LAMPADIO ET ORESTE VV. CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1711-Dd1e309">
+               <head xml:id="azsw2e-d1e1711-Hd1e311">17</head>
+               <p xml:id="azsw2e-d1e1711-d1e313">
+                  <ref xml:id="azsw2e-d1e1711-Rd1e315">Imperator
+            Justinianus</ref>  Ex libris sabinianis quaestio nobis relata est,
+            per quam dubitabatur, si usus fructus per servum adquisitus vel per
+            filium familias capitis deminutione filii magna vel media vel morte
+            vel emancipatione vel servi quacumque alienatione vel morte vel manumissione
+            potest adhuc remanere. </p>
+               <p xml:id="azsw2e-d1e1711-d1e318" n="1">
+            Et ideo sancimus in huiusmodi casibus neque, si servus vel
+            filius familias in praefatos casus inciderit, interrumpi patri vel
+            domino usum fructum qui per eos adquisitus est, sed manere intactum,
+            neque, si pater capitis deminutionem magnam vel mediam passus fuerit
+            vel morte ab hac luce fuerit exemptus, usum fructum perire, sed apud
+            filium remanere, etiamsi heres a patre non relinquatur. </p>
+               <p xml:id="azsw2e-d1e1711-d1e321" n="2">
+            Usum fructum enim per eum adquisitum apud eum remanere et
+            post patris calamitatem oportet, cum plerumque verisimile est testatorem
+            contemplatione filii quam patris usum fructum ei reliquisse. * IUST.
+            A. IOHANNI PP. *&lt;A 531 D. XV K. NOV. CONSTANTINOPOLI POST CONSULATUM
+            LAMPADII ET ORESTAE VV. CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

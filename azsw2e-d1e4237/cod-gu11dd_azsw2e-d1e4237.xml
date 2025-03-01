@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 11</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 11</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4237"><!-- azsw2e-l7t11 -->
+            <head xml:id="azsw2e-d1e4237-Hd1e101">Titulus 11</head>
+            <head xml:id="azsw2e-d1e4237-Hd1e103" type="question-title">Qui manumittere non possunt et ne in fraudem creditorum manumittatur.</head>
+            <div xml:id="azsw2e-d1e4237-Dd1e106">
+               <head xml:id="azsw2e-d1e4237-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4237-d1e110">
+                  <ref xml:id="azsw2e-d1e4237-Rd1e112">Imperator
+            Alexander Severus</ref> Certum ius est non
+            alias directas libertates per legem aeliam sentiam, quae sunt in fraudem
+            creditorum manumissorum, revocari, nisi et consilium fraudis hoc animo
+            manumittentis et eventus damni suum recipere volentium sequatur. Inter
+            creditores autem etiam eos numerandos esse, quibus fideicommissum
+            debetur, olim placuit * ALEX. A. ANTIOCHO. *&lt;A 223 PP. III ID.
+            NOV. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4237-Dd1e116">
+               <head xml:id="azsw2e-d1e4237-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4237-d1e120">
+                  <ref xml:id="azsw2e-d1e4237-Rd1e122">Imperator
+            Alexander Severus</ref> Servos meos nec per
+            interpositam personam ad libertatem producere homines peculii sui
+            posse mandatis comprehenditur. * ALEX. A. NATALIANO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4237-Dd1e126">
+               <head xml:id="azsw2e-d1e4237-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4237-d1e130">
+                  <ref xml:id="azsw2e-d1e4237-Rd1e132">Imperator
+            Alexander Severus</ref> Divo Marco auctore
+            amplissimus ordo censuit, ne quis spectaculo, quod edatur, actorem
+            suum alienumve servum manumitteret et, si factum esset, pro infecto
+            haberetur. * ALEX. A. IUSTINAE. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4237-Dd1e137">
+               <head xml:id="azsw2e-d1e4237-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4237-d1e141">
+                  <ref xml:id="azsw2e-d1e4237-Rd1e143">Imperator
+            Alexander Severus</ref> Si minor annis viginti
+            ad libertatem praestandam homines tradidisti, senatus consulto quod
+            gestum est irritum constituitur. * ALEX. A. FELIC. *&lt;A 224 PP.
+            III ID. MAI. IULIANO ET CRISPINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4237-Dd1e147">
+               <head xml:id="azsw2e-d1e4237-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e4237-d1e151">
+                  <ref xml:id="azsw2e-d1e4237-Rd1e153">Imperator
+            Alexander Severus</ref> Si in fraudem eorum quae fisco debebantur
+            probari potest libertas data, non valet. Sed si pecuniam is, quem
+            patrem tuum appellas, emptori dederit et ab eo redemptus ad libertatem
+            productus est, nihil videtur bonis defuisse eius, qui fisci debitor
+            dicitur * ALEX. A. PRISCO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4237-Dd1e157">
+               <head xml:id="azsw2e-d1e4237-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e4237-d1e161">
+                  <ref xml:id="azsw2e-d1e4237-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Nec fideicommissariam libertatem a
+            pupilla sua servis debitam tutorem posse praestare certi iuris est.
+            Unde si hos, quos tu rogata manumittere fueras certo aetatis tuae
+            tempore, ad libertatem non produxisti, sed tutor manumisit, remanserunt
+            in servitute * DIOCL. ET MAXIM. AA. ET CC. OLYMPIO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4237-Dd1e167">
+               <head xml:id="azsw2e-d1e4237-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e4237-d1e171">
+                  <ref xml:id="azsw2e-d1e4237-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Si debitor
+            ex administratione curae dominus tuus non solvendo constitutus fideicommissariam
+            tibi reliquit libertatem, cum in fideicommissariis libertatibus eventum
+            inspici tantum obtinuerit, nihil eius voluntas tibi prodesse potest.
+            * DIOCL. ET MAXIM. AA. ET CC. ZOTICO. *&lt;A
+            XXX &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

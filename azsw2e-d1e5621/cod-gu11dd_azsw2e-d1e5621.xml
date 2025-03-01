@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 1</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 1</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5621"><!-- azsw2e-l9t1 -->
+            <head xml:id="azsw2e-d1e5621-Hd1e101">Titulus 1</head>
+            <head xml:id="azsw2e-d1e5621-Hd1e103" type="question-title">Qui accusare non possunt</head>
+            <div xml:id="azsw2e-d1e5621-Dd1e106">
+               <head xml:id="azsw2e-d1e5621-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5621-d1e110">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Prius est, ut criminibus,
+            quae tibi ut graviora ab adversario tuo obiciuntur, caedis atque vulnerum
+            respondeas, et tunc ex eventu causae iudex aestimabit, an tibi permittendum
+            sit eundem accusare, tametsi prior inscriptionem deposuisti. *
+            SEV. ET ANT. AA. SILVANO. *&lt;A 195 PP. V ID. MART.
+            TERTULLO ET CLEMENTE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e116">
+               <head xml:id="azsw2e-d1e5621-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5621-d1e120">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e122">Imperator
+            Antoninus</ref>  Si cautiones, quibus secundinus solutam ingenuo pecuniam
+            probare se dicit, tutores vel curatores tui suspectas ut falsas habent,
+            proprio nomine, cum non liceat alieno, non prohibentur in crimine
+            falsi subscribere. </p>
+               <p xml:id="azsw2e-d1e5621-d1e125" n="1">
+            Nec enim facile tutores vel curatores, qui officio et periculo
+            suo res pupillorum vel adulescentium administrant, sententia notantur,
+            nisi evidens eorum calumnia iudicanti apparebit. * ANT. A. INGENUO. *&lt;A 205 PP. XII K. OCT.
+            ANTONINO ET GETA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e129">
+               <head xml:id="azsw2e-d1e5621-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e5621-d1e133">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e135">Imperator
+            Alexander Severus</ref>  Qui crimen publicum instituere properant,
+            non aliter ad hoc admittantur, nisi prius inscriptionum pagina processerit
+            et fideiussor de exercenda lite adhibitus fuerit. </p>
+               <p xml:id="azsw2e-d1e5621-d1e138" n="1">
+            Sin vero post satisdationem praesentes non fuerint, edicto
+            admonendi sunt, ut veniant ad causam agendam, et si non adfuerint,
+            non solum extra ordinem puniendi sunt, sed etiam sumptus, quos in
+            eam rem et circa ipsum iter ad litem vocati fecerunt, dependere cogentur.
+            * ALEX. A. RUFO. *&lt;A 222 PP. III NON. FEBR. ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e143">
+               <head xml:id="azsw2e-d1e5621-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e5621-d1e147">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e149">Imperator
+            Alexander Severus</ref> Uxor tua, si consobrini
+            sui necem vindicandam existimat, adeat praesidem provinciae. * ALEX.
+            A. DIONYSIO. *&lt;A 222 PP. XVI K. IUL. ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e153">
+               <head xml:id="azsw2e-d1e5621-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e5621-d1e157">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e159">Imperator
+            Alexander Severus</ref> Senatus consulto permissum
+            non est mulieri legis corneliae crimine reum facere, nisi res ad eam
+            pertineat. Cum igitur filii tui tutores et curatores habent, ipsi
+            deliberare debent, an instrumenta, ex quibus adversarium filiorum
+            tuorum obtinuisse dicis, falsa esse accusare debeant * ALEX. A. MARCELLINAE.
+            *&lt;A 222 PP. K. OCT. ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e163">
+               <head xml:id="azsw2e-d1e5621-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e5621-d1e167">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e169">Imperator
+            Alexander Severus</ref> Accusationem, a qua discedere te professus
+            es, repetere non debes. * ALEX. A. PROBO. *&lt;A 224 PP. V NON. MAI.
+            IULIANO ET CRISPINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e173">
+               <head xml:id="azsw2e-d1e5621-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e5621-d1e177">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e179">Imperator
+            Alexander Severus</ref> Si ea quae crimen
+            intendit cognitionem moratur, certa perferendae accusationi tempora
+            iudex competens praestet, intra quae si agere supersederit, renuntiasse
+            causae intellegitur. * ALEX. A. FELICI. *&lt;A 230 PP. XV K.
+            SEPT. AGRICOLA ET CLEMENTE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e183">
+               <head xml:id="azsw2e-d1e5621-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e5621-d1e187">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e189">Imperator
+            Gordianus</ref> Non prohibentur milites actiones quae iudicii publici
+            instar obtineant intendere , si suas suorumque iniurias exsequantur.
+            Ideoque consobrini tui necem defendere tibi permittimus
+            * GORD. A. GAIO MIL. *&lt;A 238 PP. XVII K. AUG. PIO ET PONTIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e193">
+               <head xml:id="azsw2e-d1e5621-Hd1e195">9</head>
+               <p xml:id="azsw2e-d1e5621-d1e197">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e199">Imperator
+            Gordianus</ref> Non ignorat competens iudex eam, quae ultionem et
+            mortem filii persequi adlegat, non temere ad accusationem esse admittendam,
+            nisi prius matrem se esse probaverit. * GORD. A. SEVERIANO. *&lt;A 239 PP. VI NON. MART. GORDIANO
+            A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e204">
+               <head xml:id="azsw2e-d1e5621-Hd1e206">10</head>
+               <p xml:id="azsw2e-d1e5621-d1e208">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e210">Imperator
+            Gordianus</ref> Si crimen ad tuam tuorumque iniuriam pertinens exsequeris,
+            sollemnibus te inscriptionibus adstringe, ut praesidem provinciae
+            habere iudicem possis. * GORD. A. MUCATRAULO MIL.
+            *&lt;A 239 PP. K. AUG. GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e214">
+               <head xml:id="azsw2e-d1e5621-Hd1e216">11</head>
+               <p xml:id="azsw2e-d1e5621-d1e218">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e220">Imperator
+            Philippus</ref> Data opera partis adversae res vestras incendio exarsas
+            esse adseverantes crimen corneliae de sicariis exsequi potestis. *
+            PHILIPP. A. ET PHILIPP. C. SATURNINO. *&lt;A 244
+            PP. XIII K. IUL. PEREGRINO ET AEMILIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e224">
+               <head xml:id="azsw2e-d1e5621-Hd1e226">12</head>
+               <p xml:id="azsw2e-d1e5621-d1e228">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e230">Imperatores
+            Diocletianus, Maximianus</ref>  De crimine quod publicorum fuerit iudiciorum
+            mulieri accusare non permittitur nisi certis ex causis, id est si
+            suam suorumque iniuriam persequatur, secundum antiquitus statuta tantum
+            de quibus specialiter eis concessum est non exacta subscriptione.
+            </p>
+               <p xml:id="azsw2e-d1e5621-d1e233" n="1">
+            Unde aditus praeses provinciae in primis examinabit, an tale
+            sit crimen, cuius accusationem mulier subire non prohibetur. * DIOCL.
+            ET MAXIM. AA. ET CC. CORINTHIAE. *&lt;A 293 S. V K. MAI. AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e237">
+               <head xml:id="azsw2e-d1e5621-Hd1e239">13</head>
+               <p xml:id="azsw2e-d1e5621-d1e241">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e243">Imperatores
+            Diocletianus, Maximianus</ref> Si magnum et capitale crimen ac non
+            leve frater contra fratrem suum instituerit, non solum audiendus non
+            est, sed etiam exilii poena plectendus. * DIOCL. ET MAXIM. AA. ET
+            CC. AD ASCLEPIUM. *&lt;A 294 D. X K. FEBR. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e247">
+               <head xml:id="azsw2e-d1e5621-Hd1e249">14</head>
+               <p xml:id="azsw2e-d1e5621-d1e251">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e253">Imperatores
+            Diocletianus, Maximianus</ref> Propter insidias, quas tuae vitae paratas
+            contendis, accusationem apud praesidem provinciae contra filium tuum,
+            si pietas et ratio naturalis animi tui non revocat intentionem, instituere
+            potes. * DIOCL. ET MAXIM. AA. ET CC. AELIAE. *&lt;A
+            294 S. XVI K. MART. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e257">
+               <head xml:id="azsw2e-d1e5621-Hd1e259">15</head>
+               <p xml:id="azsw2e-d1e5621-d1e261">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e263">Imperatores
+            Diocletianus, Maximianus</ref> Criminis accusationem instituere cum
+            periculo calumniae, si tibi existimatio integra est, minime prohiberis.
+            * DIOCL. ET MAXIM. AA. ET CC. LUPIONI. *&lt;A 294 S. III K. MART.
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e268">
+               <head xml:id="azsw2e-d1e5621-Hd1e270">16</head>
+               <p xml:id="azsw2e-d1e5621-d1e272">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e274">Imperatores
+            Diocletianus, Maximianus</ref> Cum rationibus iuris congruit desiderium
+            tuum postulantis accusationem tertiam ei qui tuos reos delatos habet
+            non permitti contra legis praescripta, nisi suas suorumque iniurias
+            quis persequatur. * DIOCL. ET MAXIM. AA. ET CC. CALLITYCHO.
+            *&lt;A 294 S. XII K. DEC. NICOMEDIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e278">
+               <head xml:id="azsw2e-d1e5621-Hd1e280">17</head>
+               <p xml:id="azsw2e-d1e5621-d1e282">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e284">Imperatores
+            Diocletianus, Maximianus</ref> Iniquum et
+            longe a beatitudine saeculi nostri esse credidimus, ut thaumastus
+            accusandi eius haberet facultatem, in cuius domo eum, licet ingenuum,
+            a prima tamen aetate fuisse constabit. Quare ex nomine thaumasti mentio
+            super conflictu criminali symmacho conquiescat. Si quam sane civilem
+            petitionem idem thaumastus sibi competere confidit, iudicio praesidiali
+            poterit experir * DIOCL. ET MAXIM. AA. ET CC. PARS SENT. D.
+            V ID.IAN.DIOCL. VII. ET MAXIM. VI. AA. CONSS.*&lt;A
+            299 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e288">
+               <head xml:id="azsw2e-d1e5621-Hd1e290">18</head>
+               <p xml:id="azsw2e-d1e5621-d1e292">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e294">Imperatores
+            Diocletianus, Maximianus</ref> Si sororem
+            tuam leviorum commissorum ream facis, accusationem non prohiberis
+            exercere in iudicio praesidali, quo temerarie commissa congrua ultione
+            plectantur. * DIOCL. ET MAXIM. AA. ET CC. IULIANO. *&lt;A 304
+            D. III K. MART. DIOCLETIANO VIIII ET MAXIMIANO VIII AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e298">
+               <head xml:id="azsw2e-d1e5621-Hd1e300">19</head>
+               <p xml:id="azsw2e-d1e5621-d1e302">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e304">Imperatores
+            Valentinianus, Valens, Gratianus</ref> Neganda est accusatis, qui
+            non suas suorumque iniurias exsequantur, licentia criminandi in pari
+            vel minori crimine, priusquam se crimine quo premuntur exuerint ,
+            secundum scita veterum iuris conditorum, ita tamen, ut et ipsi inscriptiones
+            contra eos etiam pendente accusatione deponere possint. * VALENTIN.
+            VALENS ET GRAT. AAA. LAODICIO PRAES. SARDINIAE. *&lt;A 374 D. PRID. ID. AUG. CARNUNTI
+            GRATIANO A. III ET EQUITIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e308">
+               <head xml:id="azsw2e-d1e5621-Hd1e310">20</head>
+               <p xml:id="azsw2e-d1e5621-d1e312">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e314">Imperatores
+            Arcadius, Honorius</ref> Si quis ex familiaribus
+            vel ex servis cuiuslibet domus cuiuscumque criminis delator atque
+            accusator emerserit, eius existimationem caput atque fortunas petiturus,
+            cuius familiaritati vel dominio inhaeserit, ante exhibitionem testium,
+            ante examinationem iudicii, in ipsa expositione criminum atque accusationis
+            exordio ultore gladio feriatur. Vocem enim funestam intercidi oportet
+            potius quam audiri. Maiestatis autem crimen excipimu * ARCAD. ET HONOR.
+            AA. EUTYCHIANO PP. *&lt;A 397 D. VI ID. NOV. CONSTANTINOPOLI
+            CAESARIO ET ATTICO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5621-Dd1e318">
+               <head xml:id="azsw2e-d1e5621-Hd1e320">21</head>
+               <p xml:id="azsw2e-d1e5621-d1e322">
+                  <ref xml:id="azsw2e-d1e5621-Rd1e324">Imperatores
+            Honorius, Theodosius</ref> Liberti si accusatores
+            manumissorum heredumve esse praesumpserint, eodem quo servi supplicio
+            tenebuntur, luituri poenas ante prohibitae delationis exordium. *
+            HONOR. ET THEODOS. AA. CONSS. PRAETORIBUS TRIBUNIS PLEBI SENATUI S.D.*&lt;A
+            423 D. VIII ID. AUG. RAVENNAE ASCLEPIODOTO ET MARINIANO CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

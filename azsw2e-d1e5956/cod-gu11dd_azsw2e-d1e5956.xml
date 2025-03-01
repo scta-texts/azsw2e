@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 31</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 31</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5956"><!-- azsw2e-l9t31 -->
+            <head xml:id="azsw2e-d1e5956-Hd1e101">Titulus 31</head>
+            <head xml:id="azsw2e-d1e5956-Hd1e103" type="question-title">Quando civilis actio criminali praeiudicet et an utraque ab eodem
+            exerceri potest</head>
+            <div xml:id="azsw2e-d1e5956-Dd1e106">
+               <head xml:id="azsw2e-d1e5956-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5956-d1e110">
+                  <ref xml:id="azsw2e-d1e5956-Rd1e112">Imperatores
+            Valens, Gratianus, Valentinianus</ref>  A plerisque prudentium generaliter
+            definitum est, quotiens de re familiari et civilis et criminalis competit
+            actio, utraque licere experiri, sive prius criminalis sive civilis
+            actio moveatur, nec si civiliter fuerit actum, criminalem posse consumi,
+            et similiter e contrario. </p>
+               <p xml:id="azsw2e-d1e5956-d1e115" n="1">
+            Sic denique et per vim possessione deiectus, si de ea recuperanda
+            interdicto unde vi erit usus, non prohibetur tamen etiam lege iulia
+            de vi publico iudicio instituere accusationem: et suppresso testamento
+            cum ex interdicto de tabulis exhibendis fuerit actum, nihilo minus
+            ex lege cornelia testamentaria poterit crimen inferri: et cum libertus
+            se dicit ingenuum, tam de operis civiliter quam etiam lege viselli
+            criminaliter poterit perurgueri. </p>
+               <p xml:id="azsw2e-d1e5956-d1e118" n="2">
+            Quo in genere habetur furti actio et legis fabiae constitutum,
+            et plurima alia sunt, quae enumerari non possunt, ut, cum altera prius
+            actio intentata sit, per alteram quae supererit iudicatum liceat retractari.
+            </p>
+               <p xml:id="azsw2e-d1e5956-d1e121" n="3">
+            Qua iuris definitione non ambigitur etiam falsi crimen, de
+            quo civiliter iam actum est, criminaliter esse repetendum. * VALENS
+            GRAT. ET VALENTIN. AAA. ANTONIO PP. *&lt;A 378 D. PRID. ID. IAN. TREVIRIS
+            VALENTE VI ET VALENTINIANO II AA. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 40</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 40</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4560"><!-- azsw2e-l7t40 -->
+            <head xml:id="azsw2e-d1e4560-Hd1e101">Titulus 40</head>
+            <head xml:id="azsw2e-d1e4560-Hd1e103" type="question-title">De annali exceptione Italici contractus tollenda et de diversis temporibus
+            et exceptionibus et praescriptionibus et interruptionibus earum</head>
+            <div xml:id="azsw2e-d1e4560-Dd1e106">
+               <head xml:id="azsw2e-d1e4560-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4560-d1e110">
+                  <ref xml:id="azsw2e-d1e4560-Rd1e112">Imperator
+            Justinianus</ref>  Super annali exceptione, quae ex Italicis contractibus
+            oritur, tantae moles altercationum in omnibus iudiciis exortae sunt,
+            quantas et enumerari difficile et explanari impossibile est. </p>
+               <p xml:id="azsw2e-d1e4560-d1e115" n="1">
+            Primum etenim naturae eius observatio cum omni scrupulositate
+            et difficultate composita est, cum multa concurrere debent, ut ea
+            nascatur. </p>
+               <p xml:id="azsw2e-d1e4560-d1e118"> 
+            Deinde illud spatium annale alii quidem ita effuse interpretabantur,
+            ut possit usque ad decennium extendi, alii iudicantes usque ad quinquennium
+            standum esse putaverunt. Et in nostris temporibus saepius super huiusmodi
+            calculo a iudicibus variatum est, unde nec facile suum effectum in
+            litigiis ostendere huiusmodi exceptio valuit </p>
+               <p xml:id="azsw2e-d1e4560-d1e120"> 
+            Cum itaque nobis aliae temporales exceptiones vel praescriptiones
+            sufficiant, huiusmodi difficultatibus illigari nostro subiectos imperio
+            minime patimur. Ideoque memorata annali exceptione penitus quiescente
+            aliae omnes legitimae exceptiones vel praescriptiones in iudiciis
+            suum vigorem ostendant, sive quae super decennio vel viginti vel triginta
+            vel quadraginta annis introductae sunt, sive quae minoribus spatiis
+            concluduntur </p>
+               <p xml:id="azsw2e-d1e4560-d1e123"> 
+            Ad haec cum nihil prohibet etiam ea, quae aliquam dubitationem
+            acceperunt, clarioribus et compendiosis sanctionibus renovare, iubemus
+            omnes personales actiones , quas verbosa quorundam interpretatio iactare
+            extra metas triginta annorum conabatur, triginta annorum spatiis concludi,
+            nisi legitimus modus, qui et veteribus et nostris legibus enumeratus
+            est, interruptionem temporis introduxerit: sola hypothecaria actione
+            quadraginta annorum utente curriculis. </p>
+               <p xml:id="azsw2e-d1e4560-d1e125"> 
+            Nemo itaque audeat neque actionis familiae erciscundae neque
+            communi dividundo neque finium regundorum neque pro socio neque furti
+            neque vi bonorum raptorum neque alterius cuiuscumque personalis actionis
+            vitam longiorem esse triginta annis interpretari: sed ex quo ab initio
+            competit et semel nata est, et non iteratis fabulis saepe recreata,
+            quemadmodum in furti dicebatur, post memoratum tempus finiri. </p>
+               <p xml:id="azsw2e-d1e4560-d1e127"> 
+            Exceptis omnibus actionibus, licet personales sint, quae
+            in iudicium deductae sunt et cognitionalia acceperunt certamina et
+            postea silentio traditae sunt, in quibus non triginta, sed quadraginta
+            annos esse expectandos, ex quo novissimum litigatores tacuerunt, nostra
+            lex antea promulgavit. </p>
+               <p xml:id="azsw2e-d1e4560-d1e129" n="2">
+            Ne autem imperfecta sanctio videatur, cum in maternis quidem
+            rebus filiis familias tempore exceptionum currere dispositum erat,
+            ex quo sacris paternis absoluti sunt, in aliis autem, quae minime
+            adquiri possunt, hoc non fuerat specialiter constitutum, apertissima
+            definitione sancimus filiis familias omnibus in his casibus, in quibus
+            habent res minime patribus suis adquisitas, nullam temporalem exceptionem
+            opponi, nisi ex quo actionem movere potuerint, id est postquam manu
+            paterna vel eius in cuius potestate erant constituti fuerint liberati.
+            Quis enim incusare eos poterit, si hoc non fecerint, quod et si maluerint,
+            minime adimplere lege obviante valebant * IUST. A. IULIANO PP. *&lt;A
+            530 D. XV K. APRIL. CONSTANTINOPOLI LAMPADIO ET ORESTE VV. CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4560-Dd1e133">
+               <head xml:id="azsw2e-d1e4560-Hd1e135">2</head>
+               <p xml:id="azsw2e-d1e4560-d1e137">
+                  <ref xml:id="azsw2e-d1e4560-Rd1e139">Imperator
+            Justinianus</ref>  Ut perfectius omnibus consulamus et nemini absentia
+            vel potentia vel infantia penitus adversarii sui noceat, sed sit aliqua
+            inter desides et vigilantes differentia, sancimus: si quando afuerit
+            is, qui res alienas vel creditori obnoxias detinet, et desiderat dominus
+            rei vel creditor suam intentionem proponere et non ei licentia sit,
+            absente suo adversario qui rem detinet, vel infantia vel furore laborante
+            et neminem tutorem vel curatorem habente, vel in magna potestate constituto,
+            licentia ei detur adire praesidem vel libellum ei porrigere et hoc
+            in querimoniam deducere intra constituta tempora et interruptionem
+            temporis facere: et sufficere hoc ad plenissimam interruptionem. </p>
+               <p xml:id="azsw2e-d1e4560-d1e142" n="1">
+            Sin autem nullo poterit modo praesidem adire, saltem ad episcopum
+            locorum eat vel defensorem civitatis et suam manifestare voluntatem
+            in scriptis deproperet. Sin autem afuerit vel praeses vel episcopus
+            vel defensor, liceat ei et proponere publice, ubi domicilium habet
+            possessor, seu cum tabulariorum subscriptione vel , si civitas tabularios
+            non habeat, cum trium testium subscriptione: et hoc sufficere ad omnem
+            temporalem interruptionem sive triennii sive longi temporis sive triginta
+            vel quadraginta annorum sit </p>
+               <p xml:id="azsw2e-d1e4560-d1e145" n="2">
+            Omnibus aliis, quae de longi temporis praescriptione vel
+            triginta vel quadraginta annorum curriculis constituta sunt sive ab
+            antiquis legum conditoribus sive a nostra maiestate, in suo robore
+            duraturis. * IUST. A. IOHANNI PP. *&lt;A 531 D. XV K. NOV. CONSTANTINOPOLI
+            POST CONSULATUM LAMPADII ET ORESTIS VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4560-Dd1e149">
+               <head xml:id="azsw2e-d1e4560-Hd1e151">3</head>
+               <p xml:id="azsw2e-d1e4560-d1e153">
+                  <ref xml:id="azsw2e-d1e4560-Rd1e155">Imperator
+            Justinianus</ref>  Si ex multis causis quendam obnoxium habens, et
+            maxime ex similibus quantitatibus, in unius quidem causae summam libellum
+            conventionis composuerit, causam tamen non expresserit, apud veteres
+            agitabatur, an videatur omnes causas in iudicium deduxisse aut vetustissimam
+            earum aut nihil fecisse, cum eius sensus incertus esse apparebat.
+            </p>
+               <p xml:id="azsw2e-d1e4560-d1e158" n="1">
+            Sed et in iudiciis in multis casibus tales altercationes
+            ventilatas invenimus, et maxime propter longi temporis interruptionem.
+            Si enim personalis forte fuerat mota actio, hypothecariae autem actionis
+            nulla mentio procedebat, quidam putabant personalem quidem esse temporis
+            interruptione perpetuatam, hypothecariam autem evanescere taciturnitate
+            sopitam </p>
+               <p xml:id="azsw2e-d1e4560-d1e161" n="2">
+            Et si quis generaliter dixerat obnoxium sibi aliquem constitutum,
+            aliae dubitationes emergebant, si omnes ei competentes actiones huiusmodo
+            narratione contineri credantur, an vero quasi silentio circa eas habito
+            tempore expirare, nullo ex incerta libelli confectione adminiculo
+            eis adquisito. </p>
+               <p xml:id="azsw2e-d1e4560-d1e164" n="3">
+            Sancimus itaque nullam in iudiciis in posterum locum habere
+            talem confusionem, sed qui obnoxium suum in iudicium clamaverit et
+            libellum conventionis ei transmiserit, licet generaliter nullius causae
+            mentionem habentem vel unius quidem specialiter, tantummodo autem
+            personales actiones vel hypothecarias continentem, nihilo minus videri
+            ius suum omne eum in iudicium deduxisse et esse interrupta temporum
+            curricula, cum contra desides homines et sui iuris contemptores odiosae
+            exceptiones oppositae sunt. * IUST. A. IOHANNI PP. *&lt;A 531 D. XV
+            K. NOV. CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTIS VV. CC.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

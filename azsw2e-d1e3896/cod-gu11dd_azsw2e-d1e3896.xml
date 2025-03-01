@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 42</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 42</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3896"><!-- azsw2e-l6t42 -->
+            <head xml:id="azsw2e-d1e3896-Hd1e101">Titulus 42</head>
+            <head xml:id="azsw2e-d1e3896-Hd1e103" type="question-title">De fideicommissis</head>
+            <div xml:id="azsw2e-d1e3896-Dd1e106">
+               <head xml:id="azsw2e-d1e3896-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3896-d1e110">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e112">Imperator
+            Antoninus</ref> Si probaveris demetrium petisse de matre heredeque
+            sua, ut tibi alimenta menstrua et vestiarium annuum praestaret, eamque
+            secutam voluntatem filii sui per multum temporis, id est non minus
+            in tali causa triennio, ea praestitisse: ut in futurum quoque ea praestentur
+            et, si qua in praeteritum praestita non sunt, exsolvantur, impetrabis.
+            * ANT. A. DEMETRIO. *&lt;A 212 PP.XVII K.SEPT.DUOBUS ASPRIS CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e116">
+               <head xml:id="azsw2e-d1e3896-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3896-d1e120">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e122">Imperator
+            Antoninus</ref> Etsi inutiliter fideicommissum relictum est, tamen
+            si heredes comperta voluntate defuncti praedia ex causa fideicommissi
+            avo tuo praestiterunt, frustra ab heredibus de ea re quaestio tibi
+            movetur, cum non ex ea sola scriptura, sed ex conscientia relicti
+            fideicommissi satis defuncti voluntati factum esse videatur. * ANT.
+            A. EUPATRIO. *&lt;A 215 PP.VI K.AUG.LAETO II ET CEREALE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e126">
+               <head xml:id="azsw2e-d1e3896-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3896-d1e130">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e132">Imperator
+            Antoninus</ref> Cum secundum voluntatem defunctae chrysidem puellam
+            ab heredibus manumissam eamque, priusquam ei restitueretur hereditas,
+            intestatam vita functam proponas, ad manumissores eius successio pertinet.
+            Qui si adierint eius hereditatem, confusis actionibus fideicommisso
+            sunt liberati * ANT. A. RUFINO. *&lt;A 215 PP.V ID. DEC.LAETO II ET
+            CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e137">
+               <head xml:id="azsw2e-d1e3896-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e3896-d1e141">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e143">Imperator
+            Alexander Severus</ref> Voluntas patris prohibentis liberos fundos
+            extra familiam vendere vel pignori dare fratrem sorori donare prohibuisse
+            non videtur. * ALEX. A. VICTORINO. *&lt;A 223 PP.V K.IUL.MAXIMO II
+            ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e147">
+               <head xml:id="azsw2e-d1e3896-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e3896-d1e151">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e153">Imperator
+            Alexander Severus</ref> Si frater tuus, posteaquam patri heres extitit,
+            pubes iam sine liberis decessit, ex pupillari substitutione tibi hereditas
+            eius delata non est. Sed si verbis fideicommissi aliqua parte testamenti
+            confirmata est, fideicommissum ab heredibus petere non prohiberis
+            * ALEX. A. REGINAE. *&lt;A 224 PP.XV K.FEBR.IULIANO ET CRISPINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e157">
+               <head xml:id="azsw2e-d1e3896-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e3896-d1e161">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e163">Imperator
+            Alexander Severus</ref>  Praedia obligata per legatum vel fideicommissum
+            relicta heres luere debet, maxime cum testator condicionem eorum non
+            ignoravit aut, si scisset, legaturus tibi aliud, quod non minus esset,
+            fuisset. </p>
+               <p xml:id="azsw2e-d1e3896-d1e166" n="1">
+            Sin vero a creditore distracta sunt, pretium heres exsolvere
+            cogetur, nisi contraria defuncti voluntas ab herede ostendatur. *
+            ALEX. A. NILO. *&lt;A 224 PP.XVI K.MART. IULIANO ET CRISPINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e170">
+               <head xml:id="azsw2e-d1e3896-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e3896-d1e174">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e176">Imperator
+            Alexander Severus</ref> Voluntatis defuncti quaestio in aestimatione
+            iudicis est. * ALEX. A. SEPTIMO. *&lt;A 225 PP.XV K.MART.FUSCO II
+            ET DEXTRO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e180">
+               <head xml:id="azsw2e-d1e3896-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e3896-d1e184">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e186">Imperator
+            Alexander Severus</ref> Qui fideicommissariam libertatem meruit, legata
+            seu fideicommissa a defuncto sibi data suo iure persequitur. * ALEX.
+            A. MASCELLO. *&lt;A 225 PP.XV K.IUN.FUSCO II ET DEXTRO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e190">
+               <head xml:id="azsw2e-d1e3896-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e3896-d1e194">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e196">Imperator
+            Gordianus</ref> Ab eo, qui neque legatum neque fideicommissum neque
+            hereditatem vel mortis causa donationem accepit, nihil per fideicommissum
+            relinqui potest. * GORD. A. PAULINAE. *&lt;A 238 PP. XVII K. OCT.
+            PIO ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e201">
+               <head xml:id="azsw2e-d1e3896-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e3896-d1e205">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e207">Imperator
+            Gordianus</ref> Verbum " volo" licet desit, tamen quia additum
+            perfectum sensum facit, pro adiecto habendum est. * GORD. A. FIRMO.
+            *&lt;A 239 PP. III ID. DEC. GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e211">
+               <head xml:id="azsw2e-d1e3896-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e3896-d1e215">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e217">Imperator
+            Gordianus</ref> Quotiens ab omnibus, qui alienatione facta ad fideicommissi
+            petitionem adspirare possint, venditio celebratur aut quibusdam vendentibus
+            alii consenserint, auctoritas contractus convelli nequaquam potest.
+            * GORD. A. PAPINIANO. *&lt;A 241 PP. II K. IAN. GORDIANO A. II ET
+            POMPEIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e221">
+               <head xml:id="azsw2e-d1e3896-Hd1e223">12</head>
+               <p xml:id="azsw2e-d1e3896-d1e225">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e227">Imperator
+            Philippus</ref> Post mortem suam rogatam restituere hereditatem defuncti
+            iudicio et antequam fati munus impleat posse satisfacere ( id est
+            restituere hereditatem) quarta parte vel retenta vel omissa, si voluerit,
+            explorati iuris est. * PHILIPP. A. ET PHILIPP. C. RUFINO. *&lt;A 244
+            PP. ID. OCT. PEREGRINO ET AEMILIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e231">
+               <head xml:id="azsw2e-d1e3896-Hd1e233">13</head>
+               <p xml:id="azsw2e-d1e3896-d1e235">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e237">Imperator
+            Philippus</ref> Quotiens principali loco heres institutus testatori
+            succedit, legata seu fideicommissa a substituto data posci iure non
+            possunt. * PHILIPP. A. ET C. SEMPRONIO. *&lt;A 246 PP. VIII K. MART.
+            PRAESENTE ET ALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e241">
+               <head xml:id="azsw2e-d1e3896-Hd1e243">14</head>
+               <p xml:id="azsw2e-d1e3896-d1e245">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e247">Imperatores
+            Valerianus, Gallienus</ref>  Ea, quam frater tuus instituerat, sive
+            quaesita sive non quaesita hereditate decesserit, cum tamen simpliciter,
+            antequam duodecimum annum aetatis implesset, verbis precativis testamento
+            facto nonnullos ei voluerit substitutos, nihil prohibet fideicommissum
+            peti vel ab ipsius heredibus, qui bona intestati tenent. </p>
+               <p xml:id="azsw2e-d1e3896-d1e250" n="1">
+            Tunc enim locum habet, quod regulariter traditur ea quae
+            in testamento relinquuntur, si ex testamento non adeatur hereditas,
+            non valere, cum verbis relicta directis adiri potuit hereditas, non
+            cum illa ipsa sic data est, ut esset etiam ab intestato successoribus
+            postulanda. </p>
+               <p xml:id="azsw2e-d1e3896-d1e253" n="2">
+            Quod rescripsimus sequentes adseverationem tuam, quasi scripta
+            heres non fuerit iure adoptata. Alioquin si in familia relicta heres
+            facta decessit, et consequenter ipsius heredes petitioni fideicommissi
+            respondere coguntur. * VALER. ET GALLIEN. AA. FALCONI. *&lt;A 255
+            PP. XIIII K. SEPT. VALERIANO III ET GALLIENO II AA. C ONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e257">
+               <head xml:id="azsw2e-d1e3896-Hd1e259">15</head>
+               <p xml:id="azsw2e-d1e3896-d1e261">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e263">Imperatores
+            Valerianus, Gallienus. </ref>Quamvis simpliciter te ac fratrem
+            tuum aliquis instituerit heredes eiusque hereditatis commodum pater
+            ex tua fratrisque persona pro portionibus vestris potestatis ratione
+            quaesierit, tamen quia inferioribus verbis testamenti vos sui iuris
+            facere testator curavit, intellegi potest restituendi hereditatis
+            commodi fideicommisso patrem obstrictum esse. * VALER. ET GALLIEN.
+            AA. PHILOCRATI. *&lt;A 256 PP. VI ID. OCT. ROMAE MAXIMO II ET GLABRIONE
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e268">
+               <head xml:id="azsw2e-d1e3896-Hd1e270">16</head>
+               <p xml:id="azsw2e-d1e3896-d1e272">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e274">Imperatores
+            Carus, Carinus, Numerianus</ref>  Cum virum prudentissimum Papinianum
+            respondisse non ignoramus etiam legata huiusmodi fideicommisso contineri,
+            id est ubi heres rogatus fuerat, quidquid ex hereditate pervenerit,
+            post mortem restituere, animadvertis etiam praeceptionis compendium
+            testatoris verbis comprehensum esse. </p>
+               <p xml:id="azsw2e-d1e3896-d1e277" n="1">
+            Sane quoniam in fideicommissis voluntas magis quam verba
+            plerumque intuenda sunt, si quas pro rei veritate praeterea probationes
+            habes ad commendandam hanc patris voluntatem, quam fuisse adseveras,
+            apud praesidem experiri non vetaris. * CARUS CARINUS ET NUMER. AAA.
+            ISIDORAE. *&lt;A 283 PP. PRID. ID. NOV. CARO ET CARINO AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e281">
+               <head xml:id="azsw2e-d1e3896-Hd1e283">17</head>
+               <p xml:id="azsw2e-d1e3896-d1e285">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e287">Imperatores
+            Diocletianus, Maximianus</ref> Si creditoris voluntas iure subnixa
+            liberari te debito volentis doceri potest, et antequam sollemniter
+            tibi liberatio a successore praestetur, exceptionem tibi ex voluntate
+            descendentem competere manifestum est. * DIOCL. ET MAXIM. AA. FORTUNATO.
+            *&lt;A 286 PP. XII K. MAI. MAXIMO II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e291">
+               <head xml:id="azsw2e-d1e3896-Hd1e293">18</head>
+               <p xml:id="azsw2e-d1e3896-d1e295">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e297">Imperatores
+            Diocletianus, Maximianus</ref> Cum necessitatem reddendae rationis
+            defunctus remittendam tibi esse petierit, manifesti iuris est voluntatem
+            defuncti immotam esse debere. * DIOCL. ET MAXIM. AA. APOLAUSTO. *&lt;A
+            290 PP. ID. MART. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e301">
+               <head xml:id="azsw2e-d1e3896-Hd1e303">19</head>
+               <p xml:id="azsw2e-d1e3896-d1e305">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e307">Imperatores
+            Diocletianus, Maximianus</ref> Clari et aperti iuris est in fideicommissis
+            posteriores voluntates esse firmiores. * DIOCL. ET MAXIM. AA. AMPLIATO.
+            *&lt;A 290 PP.VIII ID.SEPT.IPSIS IIII ET III AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e311">
+               <head xml:id="azsw2e-d1e3896-Hd1e313">20</head>
+               <p xml:id="azsw2e-d1e3896-d1e315">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e317">Imperatores
+            Diocletianus, Maximianus</ref> Etiam a pupillorum tutoribus velut
+            ab ipsis relicta fideicommissa debentur. * DIOCL. ET MAXIM. AA. IULIANO.
+            *&lt;A 290 PP.III NON.DEC.IPSIS IIII ET III AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e321">
+               <head xml:id="azsw2e-d1e3896-Hd1e323">21</head>
+               <p xml:id="azsw2e-d1e3896-d1e325">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e327">Imperatores
+            Diocletianus, Maximianus</ref> Si in persona patris tui, cui te successisse
+            proponis, fideicommissi dies utiliter cessit, licet tempore quo fuerat
+            datum necdum te natum probetur, uxorem patrui, quem contendis patri
+            tuo rogatum, si sine liberis decesserit, ab avo relicta restituere,
+            si ei successit, de fideicommisso convenire debes. Nam si patrui etiam
+            hereditas tibi quaesita est, non de fideicommisso quaerendum, sed
+            hereditas ab ea vindicanda est * DIOCL. ET MAXIM. AA. ET CC. TIBERIO.
+            *&lt;A 293 D.VI ID.FEBR.AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e332">
+               <head xml:id="azsw2e-d1e3896-Hd1e334">22</head>
+               <p xml:id="azsw2e-d1e3896-d1e336">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e338">Imperatores
+            Diocletianus, Maximianus</ref> Et in epistula vel brevi libello vel
+            sine scriptura, immo etiam nutu fideicommissum relinqui posse adhibitis
+            testibus nulla dubitatio est. * DIOCL. ET MAXIM. AA. ET CC. PLANCIANO.
+            *&lt;A 293 D.ID.APRIL.BYZANTII AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e342">
+               <head xml:id="azsw2e-d1e3896-Hd1e344">23</head>
+               <p xml:id="azsw2e-d1e3896-d1e346">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e348">Imperatores
+            Diocletianus, Maximianus</ref> Si veritas vel sollemnitas iuris deest
+            nec amplexus parentis voluntatem relicta dedisti vel transactionis
+            causa stipulantibus promisisti negotiumque integrum est, ad solutionem
+            urgueri non potes. * DIOCL. ET MAXIM. AA. ET CC. STRATONICO. *&lt;A
+            293 D.V K.FEBR.AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e352">
+               <head xml:id="azsw2e-d1e3896-Hd1e354">24</head>
+               <p xml:id="azsw2e-d1e3896-d1e356">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e358">Imperatores
+            Diocletianus, Maximianus</ref> Instrumenta praediorum per fideicommissum
+            relictorum, quae ad probationem originis eorum pertinent, heredes
+            praestare necesse non habent: tamen cautionem praestare debent, quod,
+            si opus fuerit legatario seu fideicommissario, ipsa, si habent, proferant.
+            * DIOCL. ET MAXIM. AA. ET CC. MENESTRATO. *&lt;A 293 D.K.DEC.SIRMI
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e362">
+               <head xml:id="azsw2e-d1e3896-Hd1e364">25</head>
+               <p xml:id="azsw2e-d1e3896-d1e366">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e368">Imperatores
+            Diocletianus, Maximianus</ref> Heredum etiam res proprias per fideicommissum
+            relinqui posse non ambiguitur. * DIOCL. ET MAXIM. AA. ET CC. IULIANAE.
+            *&lt;A 294 D.II.K.MART.CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e372">
+               <head xml:id="azsw2e-d1e3896-Hd1e374">26</head>
+               <p xml:id="azsw2e-d1e3896-d1e376">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e378">Imperatores
+            Diocletianus, Maximianus</ref> Ex repudiatione fideicommissi doli
+            mali exceptio iusta causa intercedente tunc opponitur, quando ipse,
+            cui fideicommissum relictum est, repudiatione usus fuerit. Unde cum
+            hoc non te, sed patrem fecisse adseveras, qui tibi nocere non potuit,
+            nihil tibi obesse potest * DIOCL. ET MAXIM. AA. ET CC. GAIANO. *&lt;A
+            294 D.II ID.APRIL.SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e382">
+               <head xml:id="azsw2e-d1e3896-Hd1e384">27</head>
+               <p xml:id="azsw2e-d1e3896-d1e386">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e388">Imperatores
+            Diocletianus, Maximianus</ref> Fideicommissum eius qui reliquerat
+            paenitentia probata successores numquam praestare compelluntur. *
+            DIOCL. ET MAXIM. AA. ET CC. OLYMPIADI. *&lt;A 294 D.V K.OCT.VIMINACII
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e393">
+               <head xml:id="azsw2e-d1e3896-Hd1e395">28</head>
+               <p xml:id="azsw2e-d1e3896-d1e397">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e399">Imperatores
+            Diocletianus, Maximianus</ref> Ex fideicommisso sub condicione sine
+            libertate servis propriis inutiliter dato libertas peti non potest.
+            * DIOCL. ET MAXIM. AA. ET CC. GAIO. *&lt;A 294 D.XV K.NOV.TRANS MARE
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e403">
+               <head xml:id="azsw2e-d1e3896-Hd1e405">29</head>
+               <p xml:id="azsw2e-d1e3896-d1e407">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e409">Imperatores
+            Diocletianus, Maximianus</ref> Ex testamento, quod iure non valet,
+            nec fideicommissum quidem, si non intestato quoque succedentes rogati
+            probentur, peti potest. * DIOCL. ET MAXIM. AA. ET CC. ACHILLEO. *&lt;A
+            294 D.VIII ID.DEC.CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e413">
+               <head xml:id="azsw2e-d1e3896-Hd1e415">30</head>
+               <p xml:id="azsw2e-d1e3896-d1e417">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e419">Imperator
+            Justinianus</ref> Cum acutissimi ingenii vir et merito ante alios
+            excellens papinianus in suis statuit responsis, si quis filium suum
+            heredem instituit et restitutionis post mortem oneri subegit, non
+            aliter hoc videri disposuisse, nisi cum filius eius sine subole vitam
+            reliquerit: nos huiusmodi sensum merito mirati plenissimum ei donamus
+            eventum, ut, si quis haec disposuerit, non tantum filium heredem instituens
+            , sed etiam filiam, vel ab initio nepotem vel neptem, pronepotem vel
+            proneptem vel aliam deinceps posteritatem, et eam restitutionis post
+            obitum gravamini subiugaverit, non aliter hoc sensisse videatur, nisi
+            hi qui restitutione onerati s unt sine filiis vel filiabus vel nepotibus
+            vel pronepotibus fuerint defuncti, ne videatur testator alienas successiones
+            propriis anteponere. * IUST. A. DEMOSTHENI PP. *&lt;A 529 RECITATA
+            SEPTIMO IN NOVO CONSISTORIO PALATII IUSTINIANI.D.III K.NOV.DECIO VC.CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e423">
+               <head xml:id="azsw2e-d1e3896-Hd1e425">31</head>
+               <p xml:id="azsw2e-d1e3896-d1e427">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e429">Imperator
+            Justinianus</ref>  Quidam filium suum a sacris paternis remisit et
+            postea testamento condito eum praeteriit nullo ei penitus relicto,
+            aliis heredibus derelictis, ipsum autem, quem neque heredem neque
+            exheredatum fecit, fideicommisso praegravavit. Quaerebatur, si utile
+            est huiusmodi fideicommissum. </p>
+               <p xml:id="azsw2e-d1e3896-d1e432" n="1">
+            Tota igitur antiqua dubietate super hoc explosa nobis in
+            hoc casu placuit, ut emancipatus utpote iniuria a patre adflictus
+            non compellatur fideicommissum a sua persona relictum praestare. </p>
+               <p xml:id="azsw2e-d1e3896-d1e435" n="2">
+            Quod etiam in aliis personis, quas exheredari necesse est,
+            locum habere censemus. * IUST. A. IOHANNI PP. *&lt;A 531 D.PRID.K.MART.CONSTANTINOPOLI
+            POST CONSULATUM LAMPADII ET ORESTIS VV.CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3896-Dd1e439">
+               <head xml:id="azsw2e-d1e3896-Hd1e441">32</head>
+               <p xml:id="azsw2e-d1e3896-d1e443">
+                  <ref xml:id="azsw2e-d1e3896-Rd1e445">Imperator
+            Justinianus</ref>  Quaestionem ex facto emergentem resecantes et voluntati
+            defunctorum prospicientes sancimus, si sine scriptura et praesentia
+            testium fideicommisso derelicto fideicommissarius elegerit iuramentum
+            heredis vel forsitan legatarii vel fideicommissarii, quotiens ab eo
+            relictum est fideicommissum, sive universitatis sive speciale, necesse
+            habere heredem vel legatarium vel fideicommissarium prius iureiurando
+            de calumnia praestito vel sacramentum subire et omni inquietudine
+            sese relaxare vel, si recusandum existimaverit sacramentum aut certam
+            quantitatem manifestare fideicommissario derelictam noluerit, si forsitan
+            maiorem fideicommissarius expetat, omnimodo exactioni fideicommissi
+            subiacere et eum ad satisfacti onem compelli, cum ipse sibi iudex
+            et testis invenitur, cuius religio et fides a fideicommissario electa
+            est, nullis testibus nullisque aliis adventiciis probationibus requisitis,
+            sed sive quinque sint testes vel minores vel nemo, causam per illius
+            sacramentum vel dandum vel recusandum suam habere tam firmitatem quam
+            exactionem, sive pater sit, qui fideicommissum dederit, sive extraneus,
+            ut aequitatis ratio communiter in omnes procedat. </p>
+               <p xml:id="azsw2e-d1e3896-d1e448" n="1">
+            Cum enim res per testium sollemnitatem ostenditur, tunc et
+            numerus testium et nimia subtilitas requirenda est. Lex etenim, ne
+            quid falsitatis incurrat per duos forte testes compositum, maiorem
+            numerum testium expostulat, ut per ampliores homines perfectissima
+            veritas reveletur. </p>
+               <p xml:id="azsw2e-d1e3896-d1e451" n="2">
+            Cum autem is, qui quid ex voluntate defuncti lucratur, et
+            maxime ipse heres, cui summa auctoritas totius causae commissa est,
+            dicere compellitur veritatem per sacramenti religionem, qualis locus
+            testibus relinquatur vel quemadmodum ad extraneam fidem decurratur,
+            propria et indubitata relicta? cum et in leges respeximus, quae iustis
+            dispositionibus testatorum omnimodo heredes oboedire compellunt et
+            sic strictius causam exigunt, ut etiam amittere lucrum hereditatis
+            sanciant eos, qui testatoribus suis minime paruerunt. * IUST. A. IOHANNI
+            PP. *&lt;A 531 D.V K.DEC.CONSTANTINOPOLI POST CONSULATUM LAMPADII
+            ET ORESTIS. VV.CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

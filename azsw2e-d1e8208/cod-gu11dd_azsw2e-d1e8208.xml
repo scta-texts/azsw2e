@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 25</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 25</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8208"><!-- azsw2e-l12t25 -->
+            <head xml:id="azsw2e-d1e8208-Hd1e101">Titulus 25</head>
+            <head xml:id="azsw2e-d1e8208-Hd1e103" type="question-title">De castrensianis et ministerianis</head>
+            <div xml:id="azsw2e-d1e8208-Dd1e106">
+               <head xml:id="azsw2e-d1e8208-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8208-d1e110">
+                  <ref xml:id="azsw2e-d1e8208-Rd1e112">Imperatores
+            Honorius, Theodosius</ref> In officio spectabilitatis tuae secundum
+            formam divalium responsorum post completum tempus praefinitum, id
+            est biennium, prioribus decedentibus insequentes ad locum pro merito
+            laborum stipendiorumque succedant, nec ulla licentia tribuatur his,
+            qui impletum deposuerint officium, denuo ad eandem militiam vel sollicitudinem
+            remeandi. * HONOR. ET THEODOS. AA. NARSI COM. ET CASTRENSI SACRI PALATII.
+            *&lt;A 416 D. VI ID. FEBR. CONSTANTINOPOLI THEODOSIO A. VII ET QUI
+            FUERIT NUNTIATUS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8208-Dd1e116">
+               <head xml:id="azsw2e-d1e8208-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e8208-d1e120">
+                  <ref xml:id="azsw2e-d1e8208-Rd1e122">Imperatores
+            Honorius, Theodosius</ref> Si quis primae vel secundae vel tertiae
+            formae specialiter inter statutos gradum caelitus valuerit impetrare,
+            supernumerarius ultimus formae tertiae in matriculis habeatur. * HONOR.
+            ET THEODOS. AA. SCHOLASTICO COM. ET CASTRENSI SACRI PALATII. *&lt;A
+            422 D. PRID. ID. IAN. CONSTANTINOPOLI HONORIO XIII ET THEODOSIO X
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8208-Dd1e126">
+               <head xml:id="azsw2e-d1e8208-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e8208-d1e130">
+                  <ref xml:id="azsw2e-d1e8208-Rd1e132">Imperatores
+            Leo, Anthemius</ref> Ii, qui in schola vestis sacrae militant, vel
+            matres eorum vel uxores criminalem vel litem contra se commovendam
+            in nullo alio nisi in sublimitatis tuae suscipiant examine. * LEO
+            ET ANTHEM. AA. IOHANNI COM. ET MAG. OFF. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8208-Dd1e137">
+               <head xml:id="azsw2e-d1e8208-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e8208-d1e141">
+                  <ref xml:id="azsw2e-d1e8208-Rd1e143">Imperatores
+            Leo, Zeno</ref>  Ante omnia nullius penitus alterius iudicis minoris
+            vel maioris sacro ministerio nostro deputatos, quorum officia singillatim
+            brevis subter adnexus continet, nisi a tuae dumtaxat magnitudinis
+            sententiis conveniri, ut in nullo penitus alterius iudicis foro pulsantium
+            nisi in tuae tantummodo amplitudinis examine praebeant aliquando responsum.
+            </p>
+               <p xml:id="azsw2e-d1e8208-d1e146" n="1">
+            Sed ne in hoc ipso iudicio enormibus molestentur dispendiis,
+            vel ex nudis conveniantur facile cuiuscumque mandatis, ipsis quoque
+            sportulis et fideiussionibus modum constituimus observandum, ante
+            omnia decernentes, ne quando sine scriptura vel interpellatione deposita
+            ac sententia prorogata tuae magnitudinis eademque non edita conveniri
+            posse, conventos vero non alium fideiussorem nisi actuarium vel unum
+            e primatibus suae scholae exsecutoribus pro suae personae responsione
+            sine scripto praestare, sive per se ipsi sive procuratore dato in
+            iudicio responsuri sunt, et sive in causis civilibus appetantur sive
+            in criminalibus incusentur. </p>
+               <p xml:id="azsw2e-d1e8208-d1e149" n="2">
+            Nec ultra conventionis nomine sportularum quam unum aureum
+            exsecutoribus usque ad finem litis praestent, quemcumque contigerit
+            conveniri. Inducendorum sane nomine et cognitionum exercendarum standaeque
+            personae gratia ex simplici postulatione contra eos habita, sive ex
+            appellatione subsecuta vel quolibet alio modo in iudicio deponatur,
+            tribus tantummodo solidis usque ad terminum negotii eos qui accepturi
+            sunt praecipimus semper esse contentos. In cognitionalibus vero gestis
+            edendis duos tantummodo praestari solido </p>
+               <p xml:id="azsw2e-d1e8208-d1e152" n="3">
+            Haec autem privilegia non in eorum tantummodo, sed in matrum
+            quoque et uxorum personis valere et ad integrum permanere: filiis
+            quoque et maritis easdem fideiussionis nomine, si necessitas interpellationis
+            exegerit, tradi nec alios vades exigi: ipsosque, dum militant, et
+            post emensam militiam cum his, qui ex tempore prioris praestitae sibi
+            pragmaticae sanctionis eiusdem militiae stipendia implesse noscuntur,
+            omnibus privilegiis perfrui ( cunctis nihilo minus capitulis sacris
+            adfatibus divae recordationis marciani, quos se meruisse adserunt,
+            valituris, excepto hoc, quod in diversis iudiciis tunc respondere
+            praedepti sunt) hac sanctione decernimus. </p>
+               <p xml:id="azsw2e-d1e8208-d1e156" n="4">
+            Advocato quoque fisci, exceptoribus etiam, qui apud arbitros
+            hoc utuntur officio, ab exordio incipiendo usque ad terminum finemque
+            negotii tertiam dumtaxat partem solidi praebituros: in huiusmodi autem
+            arbitrorum gestis edendis non ultra praestare quam dimidiam solidi
+            partem: et cum per provincias constitutus fideiussore conventus caruerit,
+            adiuratoriae tantummodo cautioni committi nec ullo tempore nisi ex
+            tuae dumtaxat magnitudinis sententia conveniri ( exceptis tributariis
+            et munerum functionibus et criminibus, quae in locis inquiri flagitari
+            et vindicari generalia legum praecepta constituunt), praesenti sanctione
+            decernimus : viro clarissimo adiutore sublimitatis tuae in speculis
+            constituto, ne quid ex his quae statuimus aliqua subreptione violetur.
+            * LEO ET ZENO AA. HILARIANO COM. ET MAG. OFF. *&lt;A 474 &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

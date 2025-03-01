@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 59</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 59</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4074"><!-- azsw2e-l6t59 -->
+            <head xml:id="azsw2e-d1e4074-Hd1e101">Titulus 59</head>
+            <head xml:id="azsw2e-d1e4074-Hd1e103" type="question-title">Communia de successionibus</head>
+            <div xml:id="azsw2e-d1e4074-Dd1e106">
+               <head xml:id="azsw2e-d1e4074-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4074-d1e110">
+                  <ref xml:id="azsw2e-d1e4074-Rd1e112">Imperatores
+            Diocletianus, Maximianus</ref> Scire debuisti fratre emancipato potiorem
+            eam quae in familia mansit in alterius emancipati bonis non haberi,
+            sed eos pariter, si sollemniter petierint bonorum possessionem, succedere.
+            * DIOCL. ET MAXIM. AA. ET CC. VARIANAE. *&lt;A 294 S. XV K. IUN. SIRMI
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4074-Dd1e116">
+               <head xml:id="azsw2e-d1e4074-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4074-d1e120">
+                  <ref xml:id="azsw2e-d1e4074-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> Si pater tuus propiori sobrino tuo
+            agnato constituto et intestato defuncto iure civili adita hereditate,
+            vel hoc ab initio non interveniente sive capitis deminutione perempto
+            sollemniter bonorum possessione admissa successit ac tibi patris tui
+            quaesita hereditas est, adire praesidem provinciae debes ac tutorem
+            eius de tutela convenire. * DIOCL. ET MAXIM. AA. ET CC. APOLLINARIO.
+            *&lt;A 293 D. XIIII K. IUN. VERONAE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4074-Dd1e126">
+               <head xml:id="azsw2e-d1e4074-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4074-d1e130">
+                  <ref xml:id="azsw2e-d1e4074-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Vitrico privigni successionem intestati
+            civili vel honorario iure non deberi certissimum est. * DIOCL. ET
+            MAXIM. AA. ET CC. ULPIANAE. *&lt;A 294 S. XV K. MART. SIRMI CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4074-Dd1e137">
+               <head xml:id="azsw2e-d1e4074-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4074-d1e141">
+                  <ref xml:id="azsw2e-d1e4074-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Servus successores habere non potest.
+            * DIOCL. ET MAXIM. AA. ET CC. AURELIO ASTERIO. *&lt;A 294 D. NON.
+            APRIL. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4074-Dd1e147">
+               <head xml:id="azsw2e-d1e4074-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e4074-d1e151">
+                  <ref xml:id="azsw2e-d1e4074-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref>  Amitae, cui successisse filios suos
+            proponis, hereditatem tuo nomine non recte petis. </p>
+               <p xml:id="azsw2e-d1e4074-d1e156" n="1">
+            Sed quoniam hos etiam intestatos diem functos adseveras,
+            si quidem hi, quos privignos eiusdem amitae dicis, eorum consanguinei
+            fuerint fratres, tam agnationis quam cognationis iure secundo gradu
+            constitutos tibi praeferri non ambigitur. Nam si amitini tui alio
+            etiam patre nati numquam eorum matri privigni sunt, admisisse te bonorum
+            possessionem probans eorum vindica successionem.* DIOCL. ET
+            MAXIM. AA. ET CC. IUSTINAE. *&lt;A 294 S. XII K. MART. CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4074-Dd1e160">
+               <head xml:id="azsw2e-d1e4074-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e4074-d1e164">
+                  <ref xml:id="azsw2e-d1e4074-Rd1e166">Imperatores
+            Diocletianus, Maximianus</ref> Avunculo priori, qui est in tertio
+            gradu, quam consobrino, qui sequentem occupat , deferri successionem
+            intestati certi iuris est. * DIOCL. ET MAXIM. AA. ET CC. PUBLICIANO.
+            *&lt;A 294 SUPPOS. K. OCT. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4074-Dd1e170">
+               <head xml:id="azsw2e-d1e4074-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e4074-d1e174">
+                  <ref xml:id="azsw2e-d1e4074-Rd1e176">Imperatores
+            Diocletianus, Maximianus</ref> Adfinitatis iure nulla successio promittitur.
+            * DIOCL. ET MAXIM. AA. ET CC. NICOLAO. *&lt;A 294 D. PRID. NON. OCT.
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4074-Dd1e180">
+               <head xml:id="azsw2e-d1e4074-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e4074-d1e184">
+                  <ref xml:id="azsw2e-d1e4074-Rd1e186">Imperatores
+            Diocletianus, Maximianus</ref> Antequam scriptus cuiuscumque portionis
+            capax repudiet hereditatem vel alia ratione quaerendae facultatem
+            amittat, ei qui testamentum reliquit intestato nemo succedit. Igitur
+            perspicis, quod testamentariae successionis spe durante intestati
+            bona defuncti non recte vindicentur * DIOCL. ET MAXIM. AA. ET CC.
+            .TAE. *&lt;A 294 S. VI ID. MART. RETIARIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4074-Dd1e190">
+               <head xml:id="azsw2e-d1e4074-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e4074-d1e194">
+                  <ref xml:id="azsw2e-d1e4074-Rd1e196">Imperatores
+            Diocletianus, Maximianus</ref> Ancillae dominus liberi hominis, cum
+            quo contubernium haec habuit, per hanc commixtionem successionem vindicare
+            non potest. * DIOCL. ET MAXIM. AA. ET CC. SOPATRO. *&lt;A 294 S. XV
+            K. IAN. NICOMEDIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4074-Dd1e201">
+               <head xml:id="azsw2e-d1e4074-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e4074-d1e205">
+                  <ref xml:id="azsw2e-d1e4074-Rd1e207">Imperatores
+            Diocletianus, Maximianus</ref> Nutritoribus hoc nomine nec civili
+            nec honorario iure defertur hereditas. * DIOCL. ET MAXIM. AA. ET CC.
+            DANUVIO. *&lt;A 294 S. VI K. IAN. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4074-Dd1e211">
+               <head xml:id="azsw2e-d1e4074-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e4074-d1e215">
+                  <ref xml:id="azsw2e-d1e4074-Rd1e217">Imperator
+            Justinianus</ref>  Sancimus, quemadmodum de his rebus, quae liberis
+            in sacris constitutis ex occasione maritali adquisitae sunt, certus
+            ordo destinatus est, ut, si quis ex his ab hac luce fuerit subtractus,
+            pars eius, quam lucratus est, ad eius liberos vel nepotes vel pronepotes
+            concedat, quibus non extantibus ad fratres suos ex eodem matrimonio
+            progenitos vel, si etiam non supersint, ad fratres ex aliis nuptiis
+            procreatos, cumque nemo eorum fuerit relictus, tunc ad patrem perveniat:
+            ita et de his, quae materna linea per quascumque occasiones vel inter
+            vivos vel per ultimas dispositiones vel ab intestato descendunt, similis
+            ordo servetur, primo in filii vel filiae successione posteritate eius
+            vocanda eaque non inventa frater no consortio eiusdem vel alieni matrimonii
+            secundum praedictum ordinem arcessito , tunc ad ultimum locum pater
+            a legibus conclametur et sui filii non gratam hereditatem relictam,
+            sed triste lucrum sibi lugeat adquisitum. </p>
+               <p xml:id="azsw2e-d1e4074-d1e220" n="1">
+            In omnibus videlicet casibus, in superstite subole liberorum
+            et fratribus adhuc viventibus, qui ad hereditatem defuncti patrem
+            antecedunt, usu fructu rerum, quarum dominium ad eos pervenit, apud
+            parentes remansuro. * IUST. A. DEMOSTHENI PP. *&lt;A 529 D. XV K.
+            OCT. CHALCEDONE DECIO VC. CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

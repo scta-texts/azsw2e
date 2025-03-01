@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 56</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 56</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5582"><!-- azsw2e-l8t56 -->
+            <head xml:id="azsw2e-d1e5582-Hd1e101">Titulus 56</head>
+            <head xml:id="azsw2e-d1e5582-Hd1e103" type="question-title">De mortis causa donationibus</head>
+            <div xml:id="azsw2e-d1e5582-Dd1e106">
+               <head xml:id="azsw2e-d1e5582-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5582-d1e110">
+                  <ref xml:id="azsw2e-d1e5582-Rd1e112">Imperator
+            Alexander Severus</ref> Si donationi contineatur, ut altero defuncto
+            ad alterum portio eorum quae donabantur pertineret, existente condicione,
+            si mortis causa donatio perficiebatur, fideicommissi actio competit.
+            * ALEX. A. DAPHENAE. *&lt;A 223 PP.IIII K.OCT.MAXIMO II ET AELIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5582-Dd1e116">
+               <head xml:id="azsw2e-d1e5582-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5582-d1e120">
+                  <ref xml:id="azsw2e-d1e5582-Rd1e122">Imperator
+            Gordianus</ref>  Intestata mortua quondam nuru tua neptis tua, quae
+            ex ea filio tuo quaesita est, quandoque potest ad eius venire successionem.
+            </p>
+               <p xml:id="azsw2e-d1e5582-d1e125" n="1">
+            Nec tamen ea post mortem filii tui, ex quo quaesierat filiam,
+            alii nuptui se collocando dotem dans prohibebatur quam vellet condicionem
+            eidem doti dicere. </p>
+               <p xml:id="azsw2e-d1e5582-d1e128" n="2">
+            Sed si mortis causa donationem in fratrem suum conferens
+            in casum mortis suae eam dotem eundem fratrem suum stipulari passa
+            est, cum divi severi constitutione etiam in mortis causa donationibus,
+            si de cetero patrimonio quantum falcidia iubet heres non habet, provisum
+            sit, is qui nurui tuae heres extiterit eius constitutionis beneficium
+            non prohibebitur postulare. * GORD. A. ZOILO. *&lt;A 239 PP.X K.FEBR.GORDIANO
+            A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5582-Dd1e132">
+               <head xml:id="azsw2e-d1e5582-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e5582-d1e136">
+                  <ref xml:id="azsw2e-d1e5582-Rd1e138">Imperatores
+            Diocletianus, Maximianus</ref> Nec fratris sui mortis causa recte
+            factam donationem sorori rescindere licet. * DIOCL. ET MAXIM. AA.
+            ET CC. HEREDI. *&lt;A 293 S. III K. IAN. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5582-Dd1e143">
+               <head xml:id="azsw2e-d1e5582-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e5582-d1e147">
+                  <ref xml:id="azsw2e-d1e5582-Rd1e149">Imperator
+            Justinianus</ref> Cum de mortis causa donatione dubitabatur et alii
+            quidem inter ultimas voluntates eam posuerunt et legatis adgregandam
+            esse censuerunt, alii autem inter donationes quae inter vivos consistunt
+            eam posuerunt, dubietate eorum explosa sancimus omnes mortis causa
+            donationes, sive iuxta mortem facientis fuerint celebratae sive longiore
+            cogitatione mortis subsecutae sunt, actis minime indigere neque exspectare
+            publicarum personarum praesentiam et ea quae super huiusmodi monumentis
+            solent adhiberi. Sed ita res procedat, ut, si quinque testibus praesentibus
+            vel in scriptis vel sine litterarum suppositione aliquis voluerit
+            mortis causa donationem facere, et sine monumentorum accessione res
+            gesta maneat firmitate v allata et nullam calumniam accipiat neque
+            propter hoc, quod gesta ei non accesserunt, inefficax esse atque inutilis
+            videatur et omnes effectus sortiatur, quos ultimae habent liberalitates,
+            nec ex quacumque parte absimiles esse intellegantur * IUST. A. IOHANNI
+            PP. *&lt;A 530 D. K. SEPT. CONSTANTINOPOLI LAMPADIO ORESTE VV. CC.
+            CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

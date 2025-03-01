@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 6</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 6</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3494"><!-- azsw2e-l6t6 -->
+            <head xml:id="azsw2e-d1e3494-Hd1e101">Titulus 6</head>
+            <head xml:id="azsw2e-d1e3494-Hd1e103" type="question-title">De obsequiis patronis praestandis</head>
+            <div xml:id="azsw2e-d1e3494-Dd1e106">
+               <head xml:id="azsw2e-d1e3494-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3494-d1e110">
+                  <ref xml:id="azsw2e-d1e3494-Rd1e112">Imperator
+            Alexander Severus</ref> Contra patronum tuum
+            famosam actionem instituere non potes. * ALEX. A. ZOTICO. *&lt;A 223
+            PP. PRID. ID. MAI. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3494-Dd1e116">
+               <head xml:id="azsw2e-d1e3494-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3494-d1e120">
+                  <ref xml:id="azsw2e-d1e3494-Rd1e122">Imperator
+            Alexander Severus</ref> Libertae, quae voluntate patroni aut
+            iure nuptae sunt, non coguntur officium patronis suis praestare. *
+            ALEX. A. LEONTOGONO. *&lt;A 223 PP. XVII K. AUG. MAXIMO II ET AELIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3494-Dd1e126">
+               <head xml:id="azsw2e-d1e3494-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3494-d1e130">
+                  <ref xml:id="azsw2e-d1e3494-Rd1e132">Imperator
+            Alexander Severus</ref> Etiam qui pactione data a dominis manumittuntur,
+            mero iure omne obsequium patronis debent. * ALEX. A. XANTHO. *&lt;A
+            223 PP. K. NOV. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3494-Dd1e137">
+               <head xml:id="azsw2e-d1e3494-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e3494-d1e141">
+                  <ref xml:id="azsw2e-d1e3494-Rd1e143">Imperator
+            Alexander Severus</ref>  Si manumissori tuo vim et audaciam obiecisti
+            ei, qui te beneficio suo ex servitute liberando, ut adversarium haberet,
+            fecit, praeses provinciae, quatenus coercere eiusmodi temerariam licentiam
+            debeat, aestimabit. </p>
+               <p xml:id="azsw2e-d1e3494-d1e146" n="1">
+            Nam si qua tibi pecunia debebatur sive de rebus adversus
+            patronum disceptatio fuerat, non protinus ad litigandum currere debueras:
+            maxime autem si hoc facere auderes, sine atrocitate certe verborum
+            aequitatem petitionis tuae commendare iudici potuisti, omni honore
+            patrono debito reservato. * ALEX. A. VICTORINO. *&lt;A 224 PP. PRID.
+            K. OCT. IULIANO ET CRISPINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3494-Dd1e150">
+               <head xml:id="azsw2e-d1e3494-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e3494-d1e154">
+                  <ref xml:id="azsw2e-d1e3494-Rd1e156">Imperator
+            Gordianus</ref> Etiam liberis damnatorum consuetum obsequium libertos
+            paternos praestare debere in dubium non venit. Proinde si non agnoscunt
+            reverentiae debitae munus, non immerito videntur ipsi adversus se
+            provocare severitatem * GORD. A. SULPICIAE. *&lt;A 240 PP. III NON.
+            SEPT. SABINO II ET VENUSTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3494-Dd1e160">
+               <head xml:id="azsw2e-d1e3494-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e3494-d1e164">
+                  <ref xml:id="azsw2e-d1e3494-Rd1e166">Imperator
+            Gordianus</ref> Libertos sive libertas, maxime quibus impositae operae
+            non sunt, consuetum potius obsequium quam servile ministerium manumissoribus
+            exhibere debere neque vincula perpeti non est opinionis incertae.
+            * GORD. A. CORNELIO. *&lt;A 242 PP. III K. APRIL. ATTICO ET PRAETEXTATO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3494-Dd1e170">
+               <head xml:id="azsw2e-d1e3494-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e3494-d1e174">
+                  <ref xml:id="azsw2e-d1e3494-Rd1e176">Imperatores
+            Diocletianus, Maximianus</ref>  Neque libertis novercae inferendae
+            iniuriae privignis eius libera facultas esse debet: paternos etiam
+            libertos, sicuti dicis, iniuriosos tibi fuisse ferendum non est. </p>
+               <p xml:id="azsw2e-d1e3494-d1e179" n="1">
+            Praeses igitur provinciae vindictam tibi personarum condicioni
+            congruentem impertiri non dubitabit. * DIOCL. ET MAXIM. AA. METRODORO.
+            *&lt;A 286 PP. V ID. MAI. MAXIMO II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3494-Dd1e183">
+               <head xml:id="azsw2e-d1e3494-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e3494-d1e187">
+                  <ref xml:id="azsw2e-d1e3494-Rd1e189">Imperatores
+            Diocletianus, Maximianus</ref> Nec patronae tuae obsequiis refragari
+            te fas est. * DIOCL. ET MAXIM. AA. HERMIAE. *&lt;A 287 PP. XII FEBR.
+            DIOCLETIANO III ET MAXIMIANO AA. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

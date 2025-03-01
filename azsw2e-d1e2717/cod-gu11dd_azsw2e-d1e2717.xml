@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 12</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 12</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2717"><!-- azsw2e-l5t12 -->
+            <head xml:id="azsw2e-d1e2717-Hd1e101">Titulus 12</head>
+            <head xml:id="azsw2e-d1e2717-Hd1e103" type="question-title">De iure dotium</head>
+            <div xml:id="azsw2e-d1e2717-Dd1e106">
+               <head xml:id="azsw2e-d1e2717-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2717-d1e110">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e112">Imperatores
+            Severus, Antoninus</ref>  Evicta re, quae fuerat in dotem data, si
+            pollicitatio vel promissio fuerit interposita, gener contra socerum
+            vel mulierem seu heredes eorum condictione vel ex stipulatione agere
+            potest. </p>
+               <p xml:id="azsw2e-d1e2717-d1e115" n="1">
+            Sin autem nulla pollicitatio vel promissio intercesserit,
+            post evictionem eius, si quidem res aestimata fuerit, ex empto competit
+            actio. </p>
+               <p xml:id="azsw2e-d1e2717-d1e118" n="2">
+            Sin vero hoc non factum est, si quidem bona fide eadem res
+            in dotem data est, nulla marito competit actio: dolo autem dantis
+            interposito de dolo actio adversus eum locum habebit, nisi a muliere
+            dolus interpositus sit: tunc enim, ne famosa actio adversus eam detur,
+            in factum actio competit. * SEV. ET ANT. AA. NICEPHORO. *&lt;A 201
+            PP.K.AUG. MUCIANO ET FABIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e122">
+               <head xml:id="azsw2e-d1e2717-Hd1e124">2</head>
+               <p xml:id="azsw2e-d1e2717-d1e126">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e128">Imperator
+            Antoninus</ref>  Si stipulatio de restituenda portione dotis datae
+            subiecta est condicioque eius extitit, habet ex ea actionem, in cuius
+            personam utiliter concepta commissaque est. </p>
+               <p xml:id="azsw2e-d1e2717-d1e131" n="1">
+            Secundum quod si polla soror tua de restituenda sibi parte
+            dotis habet actionem eo, quod mater vestra donandi animo passa est
+            partem dimidiam dotis post obitum matris filiam stipulari, metuere
+            non debet doli exceptionem, quod matri suae quae pactum interposuit
+            heres ex minore quam dimidia portione extitit, nisi liquido probatum
+            fuerit matrem eius mutasse dotis pacti voluntatem contentamque esse
+            voluisse filiam suam pro portione hereditatis praelegationibus maritumque
+            suum exactione liberari voluisse. * ANT. A. ALCIBIADI. *&lt;A 213
+            PP.D.III K. AUG. ANTONINO A.IIII ET BALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e135">
+               <head xml:id="azsw2e-d1e2717-Hd1e137">3</head>
+               <p xml:id="azsw2e-d1e2717-d1e139">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e141">Imperator
+            Alexander Severus</ref> Etsi dotis exactio defuncta in matrimonio
+            filia potuisset ad patrem pertinere, dotalibus tamen servis maritus
+            testamento directam et fideicommissariam libertatem iure dedit et
+            praestita revocari non debuit, cum et inter vivos manumittendi mancipia
+            dotalia constante matrimonio liberam maritus habet facultatem. * ALEX.
+            A. EUPHEMO. *&lt;A 222 PP.VI ID. DEC. ANTONINO ET ALEXANDRO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e146">
+               <head xml:id="azsw2e-d1e2717-Hd1e148">4</head>
+               <p xml:id="azsw2e-d1e2717-d1e150">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e152">Imperator
+            Alexander Severus</ref> Nulla lege prohibitum est universa bona in
+            dotem marito feminam dare. * ALEX. A. VALENTI. *&lt;A 223 PP. IIII
+            ID. IUL. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e156">
+               <head xml:id="azsw2e-d1e2717-Hd1e158">5</head>
+               <p xml:id="azsw2e-d1e2717-d1e160">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e162">Imperator
+            Alexander Severus</ref> Quotiens res aestimatae in dotem dantur, maritus
+            dominium consecutus summae velut pretii debitor efficitur. Si itaque
+            non convenit, ut soluto matrimonio res restituerentur et iure aestimatae
+            sunt, retinebit eas, si pecuniam tibi offerat * ALEX. A. STATIAE.
+            *&lt;A 226 D.III ID.APRIL.ALEXANDRO A. II ET MARCELLO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e166">
+               <head xml:id="azsw2e-d1e2717-Hd1e168">6</head>
+               <p xml:id="azsw2e-d1e2717-d1e170">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e172">Imperator
+            Alexander Severus</ref> Avia tua eorum, quae pro filia tua in dotem
+            dedit, etsi verborum obligatio non intercessit, actionem ex fide conventionis
+            ad te, si heres extitisti, transmittere potuit. Nec enim eadem causa
+            est patris et matris paciscentium, quippe matris pactum actionem praescriptis
+            verbis constituit, patris dotis actionem profecticiae nomine competentem
+            conventione simplici minime creditur innovare * ALEX. A. SULPICIO.
+            *&lt;A 236 D.III ID FEBR.MAXIMINO A. ET AFRICANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e176">
+               <head xml:id="azsw2e-d1e2717-Hd1e178">7</head>
+               <p xml:id="azsw2e-d1e2717-d1e180">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e182">Imperator
+            Gordianus</ref> Cum a socero tuo pro uxore dos tibi daretur, si ea
+            in stipulationem deducta non est sub tempore dationis, sed postea,
+            socer tuus tecum paciscendo, si id non ex voluntate filiae suae fecit,
+            condicionem eius laedere non potuit. Quandoque enim sola de dote experiens
+            id pactum non debere ad sui dispendium operari de iure defenditur
+            * GORD. A. MARCO. *&lt;A 238 PP. D. K. OCTOBRIBUS PIO ET PONTIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e186">
+               <head xml:id="azsw2e-d1e2717-Hd1e188">8</head>
+               <p xml:id="azsw2e-d1e2717-d1e190">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e192">Imperator
+            Gordianus</ref> Etiamsi non dotem reddi sibi mater, sed ea, quae in
+            dotem data sunt, ut eam sequerentur vel ad se pertineant in matrimonio
+            defuncta filia, stipulata sit, durante matrimonio filia decedente
+            actionem ex stipulatu videri quaesitam aequissimum esse iudicamus.
+            Cui consequens est, ut etiam id, quod additamenti causa in dotem datum
+            est, eadem actione repetatur * GORD. A. AGRIPPINAE. *&lt;A 240 PP.K.FEBR.
+            SABINO ET VENUSTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e196">
+               <head xml:id="azsw2e-d1e2717-Hd1e198">9</head>
+               <p xml:id="azsw2e-d1e2717-d1e200">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e202">Imperator
+            Decius</ref> Dotis tuae potiorem causam magis esse convenit quam rei
+            publicae, cui postea idem maritus obnoxius factus est. * DEC. A. ET
+            DEC. C. URBICANAE. *&lt;A 250 PP. VI ID IUN. DECIO A. ET GRATO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e207">
+               <head xml:id="azsw2e-d1e2717-Hd1e209">10</head>
+               <p xml:id="azsw2e-d1e2717-d1e211">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e213">Imperatores
+            Diocletianus, Maximianus</ref> Cum dotem te aestimatam accepisse profitearis,
+            apparet iure communi per pactum quod doti insertum est formato contractu
+            ex empto actionem esse. Quis enim dubitet aestimationem a te mulieri
+            deberi, cum periculo tuo res deteriores fiant vel augmenta lucro tuo
+            recipiantur * DIOCL. ET MAXIM. AA. INGENUO. *&lt;A 286 PP. XII K.MAI.
+            MAXIMO II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e217">
+               <head xml:id="azsw2e-d1e2717-Hd1e219">11</head>
+               <p xml:id="azsw2e-d1e2717-d1e221">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e223">Imperatores
+            Diocletianus, Maximianus</ref> De his, quae in dotem data ac direpta
+            commemoras, mariti tui esse actionem nulla est dubitatio. * DIOCL.
+            ET MAXIM. AA. ET CC. SEVERAE. *&lt;A 293 D. X K. MAI HERACLIAE AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e227">
+               <head xml:id="azsw2e-d1e2717-Hd1e229">12</head>
+               <p xml:id="azsw2e-d1e2717-d1e231">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e233">Imperatores
+            Diocletianus, Maximianus</ref> Ex pecunia dotali fundus a marito tuo
+            comparatus non tibi quaeritur, cum neque maritus uxori actionem empti
+            possit adquirere ac dotis tantum actio tibi competat. Unde aditus
+            praeses provinciae, si non te transegisse reppererit, sed ex maiore
+            dote partem consecutam, residuum restitui providebit * DIOCL. ET MAXIM.
+            AA. ET CC. RUFINAE. *&lt;A 293 D. VIII K. MAI HERACLIAE AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e237">
+               <head xml:id="azsw2e-d1e2717-Hd1e239">13</head>
+               <p xml:id="azsw2e-d1e2717-d1e241">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e243">Imperatores
+            Diocletianus, Maximianus</ref> Si a matre vestra superstite aliquid
+            ad vos pertinens in dotem scienti vitrico vestro datum est, intellegis
+            nullam firmitatem iuris dationem habere, si neque pollicitatio neque
+            stipulatio intercessit. * DIOCL. ET MAXIM. AA. ET CC. CATULAE. *&lt;A
+            293 D. PRID.K.MAI. HERACLIAE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e247">
+               <head xml:id="azsw2e-d1e2717-Hd1e249">14</head>
+               <p xml:id="azsw2e-d1e2717-d1e251">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e253">Imperatores
+            Diocletianus, Maximianus</ref> Mater pro filia dotem dare non cogitur
+            nisi ex magna et probabili vel lege specialiter expressa causa: pater
+            autem de bonis uxoris suae invitae nullam dandi habet facultatem.
+            * DIOCL. ET MAXIM. AA. ET CC. BASILISSAE. *&lt;A 293 S.D.IIII NON.NOV.PHILIPPOPOLI
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e257">
+               <head xml:id="azsw2e-d1e2717-Hd1e259">15</head>
+               <p xml:id="azsw2e-d1e2717-d1e261">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e263">Imperatores
+            Diocletianus, Maximianus</ref> Cum citra fidem etiam instrumentorum
+            datam dotem aliunde probanti post divortium quondam uxoris secundum
+            bonam fidem restitui debere constet, amissis etiam instrumentis sine
+            dubio cetera probationum indicia iure prodita non habentur irrita.
+            * DIOCL. ET MAXIM. AA. ET CC. ULPIANAE. *&lt;A 293 D.VIII K. AUG.SIRMI
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e268">
+               <head xml:id="azsw2e-d1e2717-Hd1e270">16</head>
+               <p xml:id="azsw2e-d1e2717-d1e272">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e274">Imperatores
+            Diocletianus, Maximianus</ref> Ante divisionem soror tua intestato
+            patri etiam ipsa succedens pro indiviso portionem fundi communis in
+            dotem dare non prohibetur. * DIOCL. ET MAXIM. AA. ET CC. AEMILIANO.
+            *&lt;A 294 D. NON. IUL. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e278">
+               <head xml:id="azsw2e-d1e2717-Hd1e280">17</head>
+               <p xml:id="azsw2e-d1e2717-d1e282">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e284">Imperatores
+            Diocletianus, Maximianus</ref> Res, quarum usu fructu sibi deducto
+            socrus in dotem dedit, venumdando auferre tibi nihil potest. * DIOCL.
+            ET MAXIM. AA. ET CC. SABINIANO. *&lt;A 294 D. NONIS IUL. SIRMI CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e288">
+               <head xml:id="azsw2e-d1e2717-Hd1e290">18</head>
+               <p xml:id="azsw2e-d1e2717-d1e292">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e294">Imperatores
+            Diocletianus, Maximianus</ref> Si socrus tua fundum deducto usu fructu
+            uxori tuae donavit tibique in dotem uxor quidem proprietatem, socrus
+            autem usum fructum dedit, uxore tua rebus humanis in matrimonio exempta
+            fundum apud te remansisse secundum placiti inter vos fidem non ambigitur.
+            Nam si acceptura certum quid annuum filiae suae usum fructum locavit,
+            mortua conductrice usus fructus extingui minime potuit * DIOCL. ET
+            MAXIM. AA. ET CC. MENESTRATO. *&lt;A 294 D. XIIII K.IAN.SIRMI CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e298">
+               <head xml:id="azsw2e-d1e2717-Hd1e300">19</head>
+               <p xml:id="azsw2e-d1e2717-d1e302">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e304">Imperatores
+            Diocletianus, Maximianus</ref>  Cum patrem pro filia dotem tibi dantem,
+            si post suam mortem in matrimonio constituta rebus humanis eadem eximatur,
+            partem dimidiam dotis ammiae reddi pactum proponas, post vero testamento
+            facto cum aliis etiam ammiam heredem scripsisse nec ammiam quicquam
+            ex stipulatu petere velle sanxisse, si quidem hanc sibi reddi secundum
+            fidem pacti stipulatam ammiam non probetur, ex alieno pacto nec prorsus
+            ei ulla competit actio. </p>
+               <p xml:id="azsw2e-d1e2717-d1e307" n="1">
+            Si vero ex verborum conceptione sibi quaesivit obligationem
+            ac tibi testatorem prospexisse probetur, contra eam ex stipulatu post
+            eventum condicionis petentem, quatenus accepit ex defuncti voluntate
+            quae fuit stipulata, exceptione ( salva falcidia) uti potes. * DIOCL.
+            ET MAXIM. AA. ET CC. ACHILLI. *&lt;A 294 D. XIII K. FEBR. SIRMI CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e311">
+               <head xml:id="azsw2e-d1e2717-Hd1e313">20</head>
+               <p xml:id="azsw2e-d1e2717-d1e315">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e317">Imperatores
+            Diocletianus, Maximianus</ref> Pro oneribus matrimonii mariti lucro
+            fructus dotis totius esse, quos ipse cepit, vel, si uxori capere donationis
+            causa permisit, eum in quantum locupletior facta est posse agere manifestissimi
+            iuris est. * DIOCL. ET MAXIM. AA. ET CC. TIBERIO. *&lt;A 294 D.V K.SIRMIMAI.
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e321">
+               <head xml:id="azsw2e-d1e2717-Hd1e323">21</head>
+               <p xml:id="azsw2e-d1e2717-d1e325">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e327">Imperatores
+            Diocletianus, Maximianus</ref> Si inter virum et uxorem pactum sit
+            interpositum, ut, si matrimonium intra quinquennii forte tempora quoquo
+            modo esset dissolutum, species aestimatae doti datae pretiis quibus
+            aestimatae sunt redderentur, manifestum est non pretia specierum dari,
+            sed ipsas species debere restitui, cum in placido specierum reddendarum
+            idcirco pretiorum nomen videatur adnexum, ne, si species aliqua deminuta
+            fuisset aut perdita, alio pretio quam quo taxata fuerat posceretur.
+            * DIOCL. ET MAXIM. AA. ET CC. AD GEMINUM. *&lt;A 294 D.NON.AUG.AGRIPPINAE
+            CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e332">
+               <head xml:id="azsw2e-d1e2717-Hd1e334">22</head>
+               <p xml:id="azsw2e-d1e2717-d1e336">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e338">Imperatores
+            Diocletianus, Maximianus</ref> Rem, quam pater in dotem genero pro
+            filia dedit nec recepit, alienare non potest. * DIOCL. ET MAXIM. AA.
+            ET CC. POLYBIANAE. *&lt;A 294 D.V K.OCT.ISDEM CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e342">
+               <head xml:id="azsw2e-d1e2717-Hd1e344">23</head>
+               <p xml:id="azsw2e-d1e2717-d1e346">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e348">Imperatores
+            Diocletianus, Maximianus</ref> Si praedium uxor tua dotale venumdedit,
+            sponte nec ne contractum habuerit, nihil interest, cum rei tibi quaesitae
+            dominium auferre nolenti minime potuerit. * DIOCL. ET MAXIM. AA. ET
+            CC. DIOGENI. *&lt;A 294 D. V K. OCT.VIMINACI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e352">
+               <head xml:id="azsw2e-d1e2717-Hd1e354">24</head>
+               <p xml:id="azsw2e-d1e2717-d1e356">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e358">Imperatores
+            Diocletianus, Maximianus</ref> Si dotem marito libertae vestrae dedistis
+            nec eam reddi soluto matrimonio vobis in continenti pacto vel stipulatione
+            prospexistis, hanc culpa uxoris dissoluto matrimonio penes maritum
+            remansisse constitit, licet eam ingratam circa vos fuisse ostenderitis.
+            * DIOCL. ET MAXIM. AA. ET CC. AURELIO ET LYSIMACHO. *&lt;A 294 D.VI
+            K.NOV.ANTIOCHIAE CC.CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e362">
+               <head xml:id="azsw2e-d1e2717-Hd1e364">25</head>
+               <p xml:id="azsw2e-d1e2717-d1e366">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e368">Imperatores
+            Diocletianus, Maximianus</ref> Si mulier dotem a viro dari stipuletur,
+            ut de ea testari possit, cum ordinationis testamenti cogitatio mortis
+            antecedens tempus significat nec condicionem, sed causam continet,
+            intestata quoque muliere defuncta stipulationem committi proficiet.
+            * DIOCL. ET MAXIM. AA. ET CC. EUTYCHIANO. *&lt;A 294 D. III ID. NOV.
+            ANTIOCHIAE CC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e372">
+               <head xml:id="azsw2e-d1e2717-Hd1e374">26</head>
+               <p xml:id="azsw2e-d1e2717-d1e376">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e378">Imperatores
+            Diocletianus, Maximianus</ref> Si genero dotem dando pro filia pater
+            communis eam reddi tibi extraneo constituto stipulatus est, nec sibi
+            cessante voluntate nec tibi prohibente iure quaerere potuit actionem.
+            * DIOCL. ET MAXIM. AA. ET CC. DEMOSTHENI. *&lt;A 294 D. VI K. IAN
+            IPSIS CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e382">
+               <head xml:id="azsw2e-d1e2717-Hd1e384">27</head>
+               <p xml:id="azsw2e-d1e2717-d1e386">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e388">Imperatores
+            Diocletianus, Maximianus</ref> Licet dos iure penes maritum remanserit,
+            pro rebus tamen hereditariis successores, non maritus quondam, sollemnibus
+            pensitationibus parere debent. * DIOCL. ET MAXIM. AA. ET CC. POMPEIANO.
+            *&lt;A 294 S.VI K.IAN.SIRMI.C. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e393">
+               <head xml:id="azsw2e-d1e2717-Hd1e395">28</head>
+               <p xml:id="azsw2e-d1e2717-d1e397">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e399">Imperator
+            Zeno</ref>  Mulier in minore aetate constituta dotem marito consentiente
+            generali vel speciali curatore recte dare et exigi potest, licet ipse
+            tempore creationis fideiussorem in minorem quam dos est quantitatem
+            dicitur praestitisse. </p>
+               <p xml:id="azsw2e-d1e2717-d1e402" n="1">
+            Hoc idem observatur et si minor ante nuptias donationem consentiente,
+            ut dictum est, curatore fecerit. * ZENO A. AELIANO PP. *&lt;A 480
+            D.K.IAN.BASILIO CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e406">
+               <head xml:id="azsw2e-d1e2717-Hd1e408">29</head>
+               <p xml:id="azsw2e-d1e2717-d1e410">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e412">Imperator
+            Justinianus</ref>  Ubi adhuc matrimonio constituto maritus ad inopiam
+            sit deductus et mulier sibi prospicere velit resque sibi suppositas
+            pro dote et ante nuptias donatione rebusque extra dotem constitutis
+            tenere, non tantum mariti res ei tenenti et super his ad iudicium
+            vocatae exceptionis praesidium ad expellendum ab hypotheca creditorem
+            secundum praestamus, sed etiam si ipsa contra detentatores rerum ad
+            maritum suum pertinentium super isdem hypothecis aliquam actionem
+            secundum legum distinctionem moveat, non obesse ei matrimonium adhuc
+            constitutum sancimus, sed ita eam posse easdem res vindicare vel a
+            creditoribus posterioribus vel ab aliis, qui non potiora iura legibus
+            habere noscuntur, ut potuisset, si matrimonium eo modo esset dissolutum,
+            quo dotis et ante nuptias donationis exactio ei competere poterat:
+            ita tamen, ut eadem mulier nullam habeat licentiam eas res alienandi
+            vivente marito et matrimonio inter eos constituto, sed fructibus earum
+            ad sustentationem tam sui quam mariti filiorumque, si quos habeant,
+            abutatur. </p>
+               <p xml:id="azsw2e-d1e2717-d1e415" n="1">
+            Creditoribus scilicet mariti contra eum eiusque res, si quas
+            postea forte adquisierit, integra sua iura habentibus: ipsis etiam
+            marito et uxore post matrimonii dissolutionem super dote et ante nuptias
+            donatione pro dotalium instrumentorum tenore integro suo iure potituris.
+            * IUST. A. MENAE PP. *&lt;A 528 D. III ID.DEC. DN. IUSTINIANO A. II
+            CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e419">
+               <head xml:id="azsw2e-d1e2717-Hd1e421">30</head>
+               <p xml:id="azsw2e-d1e2717-d1e423">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e425">Imperator
+            Justinianus</ref>  In rebus dotalibus sive mobilibus sive immobilibus
+            seu se moventibus, si tamen extant, sive aestimatae sive inaestimatae
+            sint, mulierem in his vindicandis omnem habere post dissolutum matrimonium
+            praerogativam et neminem creditorum mariti , qui anteriores sunt,
+            sibi potiorem causam in his per hypothecam vindicare, cum eaedem res
+            et ab initio uxoris fuerant et naturaliter in eius permanserunt dominio.
+            Non enim quod legum subtilitate transitus earum in mariti patrimonium
+            videtur fieri, ideo rei veritas deleta vel confusa est </p>
+               <p xml:id="azsw2e-d1e2717-d1e428" n="1">
+            Volumus itaque eam in rem actionem quasi in huiusmodi rebus
+            propriis habere et hypothecariam omnibus anteriorem possidere, ut,
+            sive ex naturali iure eiusdem mulieris res esse intellegantur vel
+            secundum legum subtilitatem ad mariti substantiam pervenisse, per
+            utramque viam sive in rem sive hypothecariam ei plenissime consulatur.
+            </p>
+               <p xml:id="azsw2e-d1e2717-d1e431" n="2">
+            Omnis autem temporalis exceptio, sive per usucapionem inducta
+            sive per decem sive per viginti annorum curricula seu per triginta
+            vel quadraginta annorum metas sive ex alio quocumque tempore maiore
+            vel minore introducta, ea mulieribus ex eo opponatur, ex quo possint
+            actiones movere, id est opulentis quidem maritis constitutis post
+            dissolutum matrimonium, minus autem idoneis ex quo hoc eis infortunium
+            illatum esse claruerit, cum constante etiam matrimonio posse mulieres
+            contra maritorum parum idoneorum bona hypothecas suas exercere iam
+            nostra lege humanitatis intuitu definitum est: ficti divortii falsa
+            simulatione in huiusmodi causa, quam nostra lex amplexa est, stirpitus
+            eruenda. * IUST. A. DEMOSTHENI PP. *&lt;A 529 RECITATA SEPTIMO IN
+            NOVO CONSISTORIO PALATII IUSTINIANI. D. III K. NOV. DECIO VC. CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2717-Dd1e435">
+               <head xml:id="azsw2e-d1e2717-Hd1e437">31</head>
+               <p xml:id="azsw2e-d1e2717-d1e439">
+                  <ref xml:id="azsw2e-d1e2717-Rd1e441">Imperator
+            Justinianus</ref>  Cum quidam dotes pro mulieribus dabant sive matres
+            sive alii cognati vel extranei, recte quidem eas mariti sine monumentorum
+            observatione suscipiebant: cum autem mulier redhibitionem casus stipulabatur
+            et huiusmodi fortuitus casus evenisset, ipsa mulier utpote a se non
+            facta donatione propter hoc, quod monumenta deerant, necessitatem
+            habebat actiones huiusmodi casus ad eum qui dotem dedit per cessionem
+            transferre vel ipsas res reddere: et ita inveniebatur forsitan post
+            prolixa matrimonii annorum curricula et liberos forte editos infelix
+            mulier indotata. </p>
+               <p xml:id="azsw2e-d1e2717-d1e444" n="1">
+            Sancimus itaque in huiusmodi omnibus casibus nullis monumentis
+            rem indigere, sed in omni persona ratas esse huiusmodi donationes
+            et mulierem dotem suam ipsam habere, cum fortuitus casus hoc lucrum
+            ei addiderit, et firmiter hoc apud eam permanere, nisi ipse, qui ab
+            initio dotem dederit, sibi dari huiusmodi casum stipulatus est: tunc
+            etenim, cum neque ab initio suspicio aliqua liberorum concurrit ,
+            sed sibi omnem rem ille qui dotem dedit pepigerit, huiusmodi tractatus
+            habere locum non potest.</p>
+               <p xml:id="azsw2e-d1e2717-d1e447" n="2">
+            Atqui in aliis omnibus casibus, in quibus ipse non stipulatus
+            est, tristitiae suae mulier hoc proprium habeat solacium per actionem
+            dotis. </p>
+               <p xml:id="azsw2e-d1e2717-d1e450" n="3">
+            Similique modo si quis extraneorum ( id est qui eum pro quo
+            dat non in potestate habeat) pro alio ante nuptias donationem nupturae
+            dedit mulieri et necessaria monumenta adhibuerit, cum excedat summam
+            legitimam donatio, vel non minor mater familias nuptura sit, non solum
+            ad eam, cui ante nuptias donatio datur, monumenta suam habeant firmitatem,
+            sed etiam ad illum pro quo dedit, ut, si lucrum ei ex dotalibus pactis
+            accesserit, non hoc cedat donatori, sed in suum lucrum hoc maritus
+            convertat firmumque et inrevocabile habeat, nisi donator et hic sibi
+            reddi huiusmodi casum fuerit stipulatus, ne et in praefato casu simile
+            anteriori vitium oriatur. </p>
+               <p xml:id="azsw2e-d1e2717-d1e454" n="4">
+            Sin autem minor quantitas sit vel ita res gesta sit, ut monumentorum
+            ex omni parte nulla sit utilitas, et tunc donatio ad utramque personam
+            valeat et maritus casum lucretur, nisi et hic donator eum stipulatus
+            sit. </p>
+               <p xml:id="azsw2e-d1e2717-d1e457" n="5">
+            Praeterea sancimus, si quis in dotem vel praedia vel certum
+            reditum vel aedes vel panes civiles spopondit vel promisit, si ex
+            tempore matrimonii biennium transactum sit, ilico redituum vel pensionum
+            nec non panis civilis quaestum eum praestare, etiamsi non fuerint
+            adhuc res principales traditae: et si tota dos in auro sit, itidem
+            post biennium usuras usque ad tertiam partem centesimae praestari.
+            </p>
+               <p xml:id="azsw2e-d1e2717-d1e460" n="6">
+            Sin autem aliae res praeter immobiles vel aurum fuerint in
+            dote, sive in argento sive in muliebribus ornamentis sive in veste
+            sive in aliis quibuscumque, si quidem aestimatae fuerint, simili modo
+            post biennium et earum usuras ex tertia parte currere: aestimatione
+            earum, quia et hoc apertius declarare oportet, ea intellegenda, quae
+            pro singulis speciebus facta est vel pro unoquoque genere dotalium
+            specierum, id est pro argento vel pro ornamentis vel pro veste aliisque
+            speciebus, et non esse exspectandam post singulas aestimationes unam
+            coadunationem totius calculi, quod satis scrupulosum et per nimiam
+            subtilitatem perniciosum est. </p>
+               <p xml:id="azsw2e-d1e2717-d1e463" n="7">
+            Sin autem minime res mobiles fuerint aestimatae, ea post
+            biennium observari, quae leges post litem contestatam pro omnibus
+            huiusmodi rebus definiunt. </p>
+               <p xml:id="azsw2e-d1e2717-d1e466" n="8">
+            Sin vero res permixtae fuerint et partim in auro partim in
+            aliis rebus mobilibus vel immobilibus, pro iam facta divisione omnia
+            procedere. Licentia minime deneganda marito quando voluerit dotem
+            petere, ne is qui debet putet sibi licentiam esse reditus vel pensiones
+            vel usuras vel alias accessiones solventi dotis solutionem protelare:
+            sed sive ante biennium sive postea voluerit dotem pars mariti petere,
+            queat et secundum leges eam exigere * IUST. A. IULIANO PP. *&lt;A
+            530 D.XII K. APRIL. LAMPADIO ET ORESTE VV.CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

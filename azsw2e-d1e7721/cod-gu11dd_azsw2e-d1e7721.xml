@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 60</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 60</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7721"><!-- azsw2e-l11t60 -->
+            <head xml:id="azsw2e-d1e7721-Hd1e101">Titulus 60</head>
+            <head xml:id="azsw2e-d1e7721-Hd1e103" type="question-title">De fundis limitotrophis et terris et paludibus et pascuis limitaneis
+            vel castellorum</head>
+            <div xml:id="azsw2e-d1e7721-Dd1e106">
+               <head xml:id="azsw2e-d1e7721-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7721-d1e110">
+                  <ref xml:id="azsw2e-d1e7721-Rd1e112">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Tiberianus ad possibilitatem
+            singulorum quorumque locorum intuens statuit certas possessiones,
+            quae ad limitem frumenta conveherent. </p>
+               <p xml:id="azsw2e-d1e7721-d1e115" n="1">
+            Quocirca generali lege sancimus Tiberiani dispositionem oportere
+            servari, amoventes, quidquid vel potentia uniuscuiusque elicuit vel
+            furtiva deprecatio, addentesque nihilo minus in futurum nulli licere
+            adversus utilem vetustatem et praesentem legem nostram importuna et
+            respuenda reposcere.* VALENTIN. VALENS ET GRAT. AAA. AD LICINIUM PP.
+            *&lt;A 385 D.XVIII K.OCT.AQUILEIAE ARCADIO A.ET BAUTONE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7721-Dd1e119">
+               <head xml:id="azsw2e-d1e7721-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e7721-d1e123">
+                  <ref xml:id="azsw2e-d1e7721-Rd1e125">Imperatores
+            Honorius, Theodosius</ref>  Quicumque castellorum loca quocumque titulo
+            possident, cedant ac deserant, quia ab his tantum fas est possideri
+            castellorum territoria, quibus adscripta sunt et de quibus iudicavit
+            antiquitas. </p>
+               <p xml:id="azsw2e-d1e7721-d1e128" n="1">
+            Quod si ulterius vel privatae condicionis quispiam in his
+            locis vel non castellanus miles fuerit detentator inventus, capitali
+            sententia cum bonorum publicatione plectatur. * HONOR. ET THEODOS.
+            AA. ASCLEPIODOTO PP. ET CONS. ORDINARIO. *&lt;A 423 D.NON.MART.CONSTANTINOPOLI
+            ASCLEPIODOTO ET MARINIANO CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7721-Dd1e132">
+               <head xml:id="azsw2e-d1e7721-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e7721-d1e136">
+                  <ref xml:id="azsw2e-d1e7721-Rd1e138">Imperatores
+            Theodosius, Valentinianus</ref>  Agros limitaneos universos cum paludibus
+            omnique iure, quos ex prisca dispositione limitanei milites ab omni
+            munere vacuos ipsi curare pro suo compendio atque arare consueverunt,
+            et si in praesenti coluntur, ab his firmiter ac sine ullo concussionis
+            gravamine detineri, et si ab aliis possidentur, cuiuslibet spatii
+            temporis praescriptione cessante ab universis detentatoribus vindicatos
+            isdem militibus sine ullo prorsus, sicut antiquitus statutum est,
+            collationis onere volumus adsignari: in his etiam contra eos, qui
+            praeceptionibus nostris obviam venire temptaverint, proscriptionis
+            poena valitura. </p>
+               <p xml:id="azsw2e-d1e7721-d1e141" n="1">
+            Nam si quis forte, quod minime audere debuerat, emptionis
+            titulo memorati iuris possidet praedia, competens ei actio contra
+            venditorem intacta servabitur. * THEODOS. ET VALENTIN. AA. NOMO MAG.
+            OFF. *&lt;A 443 D.PRID.ID.SEPT.CONSTANTINOPOLI MAXIMO II ET PATERIO
+            CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

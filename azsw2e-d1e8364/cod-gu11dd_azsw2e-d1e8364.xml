@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 39</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 39</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8364"><!-- azsw2e-l12t39 -->
+            <head xml:id="azsw2e-d1e8364-Hd1e101">Titulus 39</head>
+            <head xml:id="azsw2e-d1e8364-Hd1e103" type="question-title">De militari veste</head>
+            <div xml:id="azsw2e-d1e8364-Dd1e106">
+               <head xml:id="azsw2e-d1e8364-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8364-d1e110">
+                  <ref xml:id="azsw2e-d1e8364-Rd1e112">Imperatores
+            Valentinianus, Valens</ref> Omnem canonem vestium ex kalendis septembribus
+            ad kalendas apriles nostris largitionibus tradi praecipimus: proposita
+            poena rectori provinciae vel eius officio condemnationis, quae tuae
+            iustitiae videbitur. * VALENTIN. ET VALENS AA. AUXONIO PP. *&lt;A
+            368 D.XIIII K.DEC.MARCIANOPOLI VALENTINIANO ET VALENTE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8364-Dd1e116">
+               <head xml:id="azsw2e-d1e8364-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e8364-d1e120">
+                  <ref xml:id="azsw2e-d1e8364-Rd1e122">Imperatores
+            Valens, Gratianus, Valentinianus</ref> Provinciae thraciarum per viginti
+            iuga seu capita conferant vestem: scythia et mysia in triginta iugis
+            seu capitibus interim annua solutione dependant: per Aegyptum et Orientis
+            partes in triginta terrenis iugis, per Asianam vero et Ponticam dioecesin
+            ad eundem numerum in capitibus seu iugis annuae vestis collatio dependatur,
+            ita ut per Orientem provinciae in titulo auri comparaticii, quod per
+            iugationem redditur, compensationis gratia perfruantur, exceptis Osrhoena
+            et Isauria: nam easdem constat aurum comparaticium minime redhibere.
+            * VALENS GRAT. ET VALENTIN. AAA. MODESTO PP. *&lt;A 377 D.V ID.AUG.HIERAPOLI
+            GRATIANO A.IIII ET MEROBAUDE VC.CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8364-Dd1e126">
+               <head xml:id="azsw2e-d1e8364-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e8364-d1e130">
+                  <ref xml:id="azsw2e-d1e8364-Rd1e132">Imperatores
+            Arcadius, Honorius</ref> Fortissimis militibus nostris per Illyricum
+            non binos tremisses pro singulis chlamydibus, sed singulos solidos
+            dari praecipimus. * ARCAD. ET HONOR. AA. MARTINIANO COM. SACR. LARG.
+            *&lt;A 396 D.XVI K.FEBR.CONSTANTINOPOLI ARCADIO IIII ET HONORIO III
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8364-Dd1e137">
+               <head xml:id="azsw2e-d1e8364-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e8364-d1e141">
+                  <ref xml:id="azsw2e-d1e8364-Rd1e143">Imperatores
+            Honorius, Theodosius</ref> Militaris adaeratio vestis a collatoribus
+            exigatur, sacratissimis videlicet largitionibus inferenda, ita ut
+            quinque eius partes fortissimis militibus erogentur in pretio, sexta
+            vero portio a gynaeciariis clementiae nostrae absque ulla vel ipsorum
+            vel publica incommoditate pro eadem contextione suscepta iunioribus
+            gregariisque militibus in ipsa, quam maxime eos desiderare constitit,
+            specie praebeatur. * HONOR. ET THEODOS. AA. ASCLEPIODOTO PP. *&lt;A
+            423 D.VII ID.MART.CONSTANTINOPOLI ASCLEPIODOTO ET MARINIANO CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

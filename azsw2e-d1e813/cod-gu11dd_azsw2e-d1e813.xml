@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 11</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 11</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e813"><!-- azsw2e-l2t11 -->
+            <head xml:id="azsw2e-d1e813-Hd1e101">Titulus 11</head>
+            <head xml:id="azsw2e-d1e813-Hd1e103" type="question-title">De causis, ex quibus infamia alicui inrogatur. </head>
+            <div xml:id="azsw2e-d1e813-Dd1e106">
+               <head xml:id="azsw2e-d1e813-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e813-d1e110">
+                  <ref xml:id="azsw2e-d1e813-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Infamiae detrimentum minime tibi adfertur
+            ob id solum, quod in carcerem coniectus es vel vincula tibi iussu
+            legitimi iudicis iniecta sunt. * SEV. ET ANT. AA. MANILIO. *&lt;PP.
+            SINE DIE ET CONSULE.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e116">
+               <head xml:id="azsw2e-d1e813-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e813-d1e120">
+                  <ref xml:id="azsw2e-d1e813-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Neque furti neque vi bonorum raptorum neque
+            peculatus damnatus intellegi potest, qui, cum plus debiti nomine tributorum
+            exegisset, in duplum a praeside condemnatus est. * SEV. ET ANT. AA.
+            VERENNIO. *&lt;A 197 PP. V ID. IAN. LATERANO ET RUFINO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e126">
+               <head xml:id="azsw2e-d1e813-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e813-d1e130">
+                  <ref xml:id="azsw2e-d1e813-Rd1e132">Imperatores
+            Severus, Antoninus</ref> Etsi severior sententia dici debuit, tamen,
+            cum proconsul vir clarissimus certis rationibus motus mitiorem sententiam
+            dixerit et ordine decurionum te biennio abstinere iussit, transacto
+            tempore non esse te in numero infamium palam est eo, quod ex antidiastolys
+            post biennium remisisse tibi prohibitionem decurionatus iudex videtur.
+            * SEV. ET ANT. AA. METRODORO. *&lt;A 197 PP. X K. IAN. LATERANO ET
+            RUFINO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e137">
+               <head xml:id="azsw2e-d1e813-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e813-d1e141">
+                  <ref xml:id="azsw2e-d1e813-Rd1e143">Imperatores
+            Severus, Antoninus</ref> Si Posidonium in tempus anni relegatum secundum
+            sententiam non excessisse proconsulis probaveris, quinque annis exilio
+            temporario damnandum inter infames haberi non oportet, quando sententiae
+            severitas cum ceteris damnis transigere videatur. * SEV. ET ANT. AA.
+            VENUSTIANO. *&lt;A 198 PP. VI K. MART. SATURNINO ET GALLO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e147">
+               <head xml:id="azsw2e-d1e813-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e813-d1e151">
+                  <ref xml:id="azsw2e-d1e813-Rd1e153">Imperatores
+            Severus, Antoninus</ref> Decuriones quidem, item filios decurionum
+            fustibus castigari prohibitum est: verum si iniuriam te fecisse proconsul
+            vir clarissimus pronuntiavit, ignominia notatus es. * SEV. ET ANT.
+            AA. AMBROSIO. *&lt;A 198 PP. K. IUL. SATURNINO ET GALLO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e157">
+               <head xml:id="azsw2e-d1e813-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e813-d1e161">
+                  <ref xml:id="azsw2e-d1e813-Rd1e163">Imperatores
+            Severus, Antoninus</ref> Ad tempus in opus publicum dati pristinum
+            quidem statum retinent, sed damno infamiae et post impletum tempus
+            subiciuntur. * SEV. ET ANT. AA. .TO. *&lt;A 203 PP. VII ID. DEC. GETA
+            ET PLAUTIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e167">
+               <head xml:id="azsw2e-d1e813-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e813-d1e171">
+                  <ref xml:id="azsw2e-d1e813-Rd1e173">Imperator
+            Antoninus</ref> Nemo ob id, quod bonis paternis se abstinuit, infamis
+            est. * ANT. A. DEMETRIO. *&lt;A 205 PP. V ID. IAN. ANTONINO A. ET
+            GETA UTRISQUE II CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e177">
+               <head xml:id="azsw2e-d1e813-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e813-d1e181">
+                  <ref xml:id="azsw2e-d1e813-Rd1e183">Imperator
+            Antoninus</ref> Furti si condemnata es, citra verbera quoque fustium
+            famae damnum subisti. Quod si res furtiva, quam alter subripuit apud
+            te ignorantem comperta est, non laesit existimationem tuam sententia
+            durior. * ANT. A. ULPIAE. *&lt;A 205 PP. X K. MART. ANTONINO A. ET
+            GETA UTRISQUE II CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e187">
+               <head xml:id="azsw2e-d1e813-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e813-d1e191">
+                  <ref xml:id="azsw2e-d1e813-Rd1e193">Imperator
+            Antoninus</ref> Neminem sequitur infamia ob defensa negotia publica
+            patriae suae. * ANT. A. LAETO. *&lt;A 208 PP. XII K. MART. ANTONINO
+            A. ET GETA UTRISQUE III CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e198">
+               <head xml:id="azsw2e-d1e813-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e813-d1e202">
+                  <ref xml:id="azsw2e-d1e813-Rd1e204">Imperator
+            Antoninus</ref> Iniuriarum ex persona quoque servi damnatus infamia
+            notatur. * ANT. A. SEVERO. *&lt;A 208 PP. IIII K. AUG. ISDEM CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e208">
+               <head xml:id="azsw2e-d1e813-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e813-d1e212">
+                  <ref xml:id="azsw2e-d1e813-Rd1e214">Imperator
+            Alexander Severus</ref> Debitores qui bonis cesserint, licet ex ea
+            causa bona eorum venierint, infames non fiunt. * ALEX. A. IRENAEO.
+            *&lt;A 223 PP. X K. MAIAS MAXIMO II ET AELIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e218">
+               <head xml:id="azsw2e-d1e813-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e813-d1e222">
+                  <ref xml:id="azsw2e-d1e813-Rd1e224">Imperator
+            Alexander Severus</ref> Si te expilasse hereditatem sententia praesidis
+            constitit, non ex eo, quod non et alia tibi poena inrogata est, furti
+            improbioris infamiam evitasti. * ALEX. A. DONATO. *&lt;A 224 PP. K.
+            IUL. IULIANO II ET CRISPINO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e228">
+               <head xml:id="azsw2e-d1e813-Hd1e230">13</head>
+               <p xml:id="azsw2e-d1e813-d1e232">
+                  <ref xml:id="azsw2e-d1e813-Rd1e234">Imperator
+            Alexander Severus</ref> Ea, quae pater testamento suo filios increpans
+            scripsit, infames quidem filios iure non faciunt, sed apud bonos et
+            graves opinionem eius, qui patri displicuit, onerant. * ALEX. A. IUVENTIO.
+            *&lt;A 229 XIII K. NOV. IPSO A. III ET DIONE CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e238">
+               <head xml:id="azsw2e-d1e813-Hd1e240">14</head>
+               <p xml:id="azsw2e-d1e813-d1e242">
+                  <ref xml:id="azsw2e-d1e813-Rd1e244">Imperator
+            Gordianus</ref> Nullam existimationis infamiam avunculus tuus pertimescat,
+            ictibus fustium subiectus ob crimen habita quaestione, si sententia
+            non praecessit ignominiae maculam inrogans. * GORD. A. IOVINO. *&lt;A
+            238 PP. VI K. SEPT. PIO ET PONTIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e248">
+               <head xml:id="azsw2e-d1e813-Hd1e250">15</head>
+               <p xml:id="azsw2e-d1e813-d1e252">
+                  <ref xml:id="azsw2e-d1e813-Rd1e254">Imperator
+            Gordianus</ref> Decreto amplissimi ordinis luctu feminarum deminuto
+            tristior habitus ceteraque hoc genus insignia mulieribus remittuntur,
+            non etiam intra tempus, quo lugere maritum moris est, matrimonium
+            contrahere permittitur, cum etiam, si nuptias alias intra hoc tempus
+            secuta est, tam ea quam is, qui sciens eam duxit uxorem, etiam si
+            miles sit, perpetuo edicto labem pudoris contrahit. * GORD. A. SULPICIAE.
+            *&lt;A 239 PP. XVII K. IUL. GORDIANO A. ET AVIOLA CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e259">
+               <head xml:id="azsw2e-d1e813-Hd1e261">16</head>
+               <p xml:id="azsw2e-d1e813-d1e263">
+                  <ref xml:id="azsw2e-d1e813-Rd1e265">Imperator
+            Gordianus</ref> Fustibus caesum, cui per praeconem ita dictum est:
+            " <foreign>katygorian aneu tinos dikaias hupostasews ohutws agenes huparchwn my enistaso</foreign> " ut calumniatorem
+            videri notatum ideoque esse famosum manifestum est. * GORD. A. DOMITIANO.
+            *&lt;A 240 PP. III K. AUG. SABINO ET VENUSTO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e271">
+               <head xml:id="azsw2e-d1e813-Hd1e273">17</head>
+               <p xml:id="azsw2e-d1e813-d1e275">
+                  <ref xml:id="azsw2e-d1e813-Rd1e277">Imperator
+            Gordianus</ref> Verbum precibus insertum potius verecundiam onerare
+            quam ullam existimationis maculam videtur adspergere. Etenim cum non
+            causa cognita dictum est <foreign>sukophanteis</foreign>, 
+                 sed ad postulatum patroni interlocutione iudicis responsum sit,
+            nequaquam hoc infamiam inrogat. * GORD. A. MAGNO. *&lt;A 242 PP. VIII
+            K. OCT. ATTICO ET PRAETEXTATO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e283">
+               <head xml:id="azsw2e-d1e813-Hd1e285">18</head>
+               <p xml:id="azsw2e-d1e813-d1e287">
+                  <ref xml:id="azsw2e-d1e813-Rd1e289">Imperator
+            Gordianus</ref> Non damnatos quidem dumtaxat iniuriae, sed pactos
+            quoque perpetuum infamat edictum. Verum pactos eos demum, qui ullos
+            adversariis nummos pro mala conscientia ex transactione numerassent,
+            in hac causa placuit intellegi. Ceterum simplex eius rei gratia integram
+            existimationem illibatamque conservat. Quod si iureiurando decisa
+            contentio est, nemo dubitaverit, quin religionem absolutio iudicantis
+            sequatur. * GORD. A. ANTIOCHO. *&lt;A 260 PP. XIIII K. IAN. SAECULARE
+            II ET DONATO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e293">
+               <head xml:id="azsw2e-d1e813-Hd1e295">19</head>
+               <p xml:id="azsw2e-d1e813-d1e297">
+                  <ref xml:id="azsw2e-d1e813-Rd1e299">Imperatores
+            Carinus, Numerianus</ref> Interlocutio praesidis, quae indicta est,
+            infamem eum de quo quaeris fecisse non videtur, cum non specialiter
+            ob iniuriam vel admissam vim condemnatus, sed ita praesidis verbis
+            gravatus est et admonitus, ut ad melioris vitae frugem se reformet.
+            * CARINUS ET NUMER. AA. ARISTOCRATI. *&lt;A 284 PP. XVII K. FEBR.
+            CARINO II ET NUMERIANO AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e303">
+               <head xml:id="azsw2e-d1e813-Hd1e305">20</head>
+               <p xml:id="azsw2e-d1e813-d1e307">
+                  <ref xml:id="azsw2e-d1e813-Rd1e309">Imperatores
+            Diocletianus, Maximianus</ref> Improbum fenus exercentibus et usuras
+            usurarum illicite exigentibus infamiae macula inroganda est. * DIOCL.
+            ET MAXIM. AA. FORTUNATO. *&lt;A 290 PP. XVI K. MART. IPSIS IIII ET
+            III AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e313">
+               <head xml:id="azsw2e-d1e813-Hd1e315">21</head>
+               <p xml:id="azsw2e-d1e813-d1e317">
+                  <ref xml:id="azsw2e-d1e813-Rd1e319">Imperatores
+            Diocletianus, Maximianus</ref> Si fratres tui minores dumtaxat aetate
+            in ludicrae artis ostentatione spectaculum sui populo praebuerunt,
+            inviolatum existimationem obtinent. * DIOCL. ET MAXIM. AA. STATIO.
+            *&lt;A 290 D. V K. SEPT. IPSIS AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e813-Dd1e324">
+               <head xml:id="azsw2e-d1e813-Hd1e326">22</head>
+               <p xml:id="azsw2e-d1e813-d1e328">
+                  <ref xml:id="azsw2e-d1e813-Rd1e330">Imperatores
+            Diocletianus, Maximianus</ref> Fidem rumpens societatis cum infamiae
+            periculo suo nomine pro socio conventus ad faciendum satis urguetur.
+            * DIOCL. ET MAXIM. AA. ET CC. DOMITIANO. *&lt;A 294 D. VI ID. DEC.
+            NICODEMIAE CC. CONSS.&gt;
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

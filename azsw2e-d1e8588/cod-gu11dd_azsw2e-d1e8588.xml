@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 59</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 59</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8588"><!-- azsw2e-l12t59 -->
+            <head xml:id="azsw2e-d1e8588-Hd1e101">Titulus 59</head>
+            <head xml:id="azsw2e-d1e8588-Hd1e103" type="question-title">De diversis officiis et apparitoribus iudicum et probatoriis eorum.</head>
+            <div xml:id="azsw2e-d1e8588-Dd1e106">
+               <head xml:id="azsw2e-d1e8588-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8588-d1e110">
+                  <ref xml:id="azsw2e-d1e8588-Rd1e112">Imperatores
+            Valentinianus, Valens, Gratianus</ref> Si quando praefectus praetorio
+            vel vicarius aut rector provinciae significaverit eum, qui chartis
+            ac ratiociniis publicis invenitur obnoxius, ad praeposituram castri
+            ac militum transisse, retractus illi adsignetur officio, a quo ad
+            necessitatem praestandi ratiocinii devocatur: in reiecti vero locum
+            is potissimum destinetur, cui meritorum adstipulentur insignia. *
+            VALENTIN. VALENS ET GRAT. AAA. AD SEVERUM MAG. MIL. *&lt;A 371 D.
+            X K. IAN. GRATIANO A. II ET PROBO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8588-Dd1e116">
+               <head xml:id="azsw2e-d1e8588-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e8588-d1e120">
+                  <ref xml:id="azsw2e-d1e8588-Rd1e122">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Nullus ex his, quos claruerit
+            militia resolutos, indebita denuo sacramenta sine augustis adfatibus
+            suscipiat. Si quis autem id per obreptionem forte meruerit, quinque
+            librarum auri multetur incommodo * GRAT. VALENTIN. ET THEODOS. AAA.
+            AD EUSIGNIUM PP. *&lt;A 386 D. PRID. ID. IUL. MEDIOLANI HONORIO NP.
+            ET EUODIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8588-Dd1e126">
+               <head xml:id="azsw2e-d1e8588-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e8588-d1e130">
+                  <ref xml:id="azsw2e-d1e8588-Rd1e132">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Nullus apparitor amplitudinis
+            tuae vel de officiis palatinis ad eam provinciam, ex qua oriundus
+            est vel in qua collocaverit larem, vel qui iam in huiusmodi officio
+            fuerit commoratus, obtentu publicae necessitatis vel exsecutor privati
+            negotii dirigatur.</p>
+               <p xml:id="azsw2e-d1e8588-d1e135" n="1">
+            Etenim officii celsitudinis tuae primiscrinius tres libras
+            auri fisci utilitatibus sine dilatione persolvet, si statuta fuerint
+            temerata: apparitor vero qui huic se muneri passus est deputari, militia
+            spoliabitur. </p>
+               <p xml:id="azsw2e-d1e8588-d1e138" n="2">
+            Haec vero poena etiam ceteris inrogata est, ut, si domesticus
+            aut protector, strator vel agens in rebus vel palatinus utriusque
+            officii vel ad eandem provinciam, in qua natus est, vel ad eam, in
+            qua collocarit larem, cum huiusmodi usurpatione perrexerit, matriculis
+            quidem exemptus ipse, qui se voluit mitti, auri libram unam fisci
+            viribus inferre cogetur, adiutores vero officiorum palatinorum ac
+            numerarii comitum illustrium virorum sive actuarii libram fisci viribus
+            solvant, nisi statuta fuerint custodita.* GRAT. VALENTIN. ET
+            THEODOS. AAA. AD EUSIGNIUM PP. *&lt;A 386 D. III NON. DEC. MEDIOLANI
+            HONORIO NP. ET EUODIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8588-Dd1e143">
+               <head xml:id="azsw2e-d1e8588-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e8588-d1e147">
+                  <ref xml:id="azsw2e-d1e8588-Rd1e149">Imperatores
+            Theodosius, Arcadius, Honorius</ref> Qui vel exiguam rei familiaris
+            substantiam habent, militare in apparitorum numero non vetentur. *
+            THEODOS. ARCAD. ET HONOR. AAA. SILVANO DUCI ET CORRECTORI LIMITIITIS
+            TRIPOLITANI.*&lt;A 393 D. VI K. APRIL. CONSTANTINOPOLI THEODOSIO A.
+            III ET ABUNDANTIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8588-Dd1e153">
+               <head xml:id="azsw2e-d1e8588-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e8588-d1e157">
+                  <ref xml:id="azsw2e-d1e8588-Rd1e159">Imperatores
+            Honorius, Theodosius</ref> Quicumque apparitores ob culpam vel neglegentiam
+            fuerint iudicato distincti, ad nullam militiam adspirandi habeant
+            facultatem: nec ex rescripto his ullus aditus reseretur, quos congruit
+            poenae gravissimae subiugari, si contra inhibita quoque sacratissimis
+            constitutis adspirare contempserint. * HONOR. ET THEODOS. AA. GRACCHO
+            PU. *&lt;A 415 D. VIII K. AUG. RAVENNAE HONORIO X ET THEODOSIO VI
+            AA. CONSS.&gt; </p>
+               <p xml:id="azsw2e-d1e8588-d1e162"> .
+            </p>
+               <p xml:id="azsw2e-d1e8588-d1e164">
+                  <ref xml:id="azsw2e-d1e8588-Rd1e166">Imperatores
+            Theodosius, Valentinianus</ref>  In his officiis, id est virorum spectabilium
+            proconsulis asiae comitis orientis praefecti augustalis et vicariorum,
+            quos etiam monuimus sub viginti interminatione librarum auri, nemo
+            aliter admittatur, nisi eum emissa ex sacris scriniis probatoria consecrarit.
+            </p>
+               <p xml:id="azsw2e-d1e8588-d1e169" n="1">
+            Quod si quis talis sub tua fuerit iudicatione convictus,
+            profecto irritis his quae vetita contrectavit etiam congruam indignationem
+            incurret. * THEODOS. ET VALENTIN. AA. HIERIO PP. *&lt;A 426 D. X K.
+            IUL. NICOMEDIAE THEODOSIO XII ET VALENTINIANO II AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8588-Dd1e173">
+               <head xml:id="azsw2e-d1e8588-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e8588-d1e177">
+                  <ref xml:id="azsw2e-d1e8588-Rd1e179">Imperatores
+            Theodosius, Valentinianus</ref> Ad splendidioris militiae privilegia,
+            posteaquam priorem continuo labore compleverint, eos venientes admittimus,
+            qui ea voto adipiscendi honoris crediderint expetenda, non eos, qui
+            studio exercendae cupiditatis ambierint, ut velut in meliore fortuna
+            positi aut ea scelera quae prius commusisse doceantur occultent aut
+            alia deinceps possint impune committere. * THEODOS. ET VALENTIN. AA.
+            ANATOLIO MAG. MIL. *&lt;A 438-443 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8588-Dd1e183">
+               <head xml:id="azsw2e-d1e8588-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e8588-d1e187">
+                  <ref xml:id="azsw2e-d1e8588-Rd1e189">Imperator
+            Leo</ref> Viros spectabiles duces eorumque apparitores nec non limitaneos
+            castrorumque praepositos tantummodo ex sublimis tui iudicii sententia
+            conveniri nec aliis subiacere iudicibus praecipimus: illustribus scilicet
+            ac magnificis viris magistris militum consuetudine ac potestate, si
+            qua ad limites aliquos orientis thraciarum et illyrici ex longo tempore
+            hactenus obtinuit, reservata. * LEO A. IOHANNI MAG. OFF. *&lt;A XXX
+            &gt; </p>
+               <p xml:id="azsw2e-d1e8588-d1e192"> .
+            </p>
+               <p xml:id="azsw2e-d1e8588-d1e194">
+                  <ref xml:id="azsw2e-d1e8588-Rd1e196">Imperator
+            Leo</ref>  Probatorias memorialium et agentium in rebus, ceterorum
+            nihilo minus apparitorum praetorianae per orientem amplissimae praefecturae,
+            eorum etiam, qui in diversorum iudicum officiis numerantur, ex sacris
+            probatoriis solito more militiae sacramenta sortiri decernimus, non
+            passim nec licenter solis auctoritatibus vel sacrarum litterarum exemplaribus:
+            sed ex authenticis tantum sacris probatoriis manu nostra subscriptis
+            et nostro arbitrio praestandis, ita ut nullus his dolus aut fraus
+            possit adnecti, de his etiam, qui sunt verae et catholicae fidei,
+            iubemus admitti. </p>
+               <p xml:id="azsw2e-d1e8588-d1e199" n="1">
+            Aliter vero militantes, nisi ex his sint, quos solis auctoritatibus
+            apparitioni adgregari vetusta consuetudo perdocuit, detecta fraude
+            cuiuscumque accusandi studio non solum mendaci carere militia, sed
+            etiam proscriptionis stilum subire decernimus et bonorum omnium amissione
+            multamus. * LEO A. HILARIANO MAG. OFF. *&lt;A 470 ?&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8588-Dd1e203">
+               <head xml:id="azsw2e-d1e8588-Hd1e205">10</head>
+               <p xml:id="azsw2e-d1e8588-d1e207">
+                  <ref xml:id="azsw2e-d1e8588-Rd1e209">Imperator
+            Leo</ref>  Hac sanctione decernimus, ut in posterum nemini licentia
+            sit edendi exemplaria his, qui sociandi sunt cuicumque militiae, quam
+            sine divinis probatoriis adipisci non possunt, sed periculo primatum
+            uniuscuiusque officii ipsas authenticas sacras, quae divinam nostrae
+            pietatis continent adnotationem, cum subscriptione administrantium,
+            sub quorum iurisdictione consistunt, his qui militare volunt praestari:
+            exemplaribus videlicet earum cum subscriptione eorundem iudicum apud
+            singula quoque officia, prout convenit, reservandis. </p>
+               <p xml:id="azsw2e-d1e8588-d1e212" n="1">
+            Quamvis autem manifestum sit de huiusmodi probatoriarum observatione
+            excepta esse certorum iudicum officia, tamen ne ullius ignorantiae
+            relinquatur occasio, omnium officiorum, quibus necesse est per sacras
+            probatorias militiae sociari, notitiam in sacris apicibus subdendam
+            esse censuimus. </p>
+               <p xml:id="azsw2e-d1e8588-d1e215" n="2">
+            Sub hac igitur observatione omnes, qui sive in hoc sacro
+            palatio nostro sive in aliis quibuscumque officiis deinceps militare
+            cupiunt, qui tamen, ut dictum est, non possunt pro tenore sacrarum
+            constitutionum vel vetere consuetudine nisi praecedentibus sacris
+            probatoriis militiae sociari, sicut subnexa notitia demonstrat, adipisci
+            praecipimus: scientibus his, qui ex aliqua parte praesentis nostrae
+            serenitatis legis formam conventia vel neglegentia quadam colludere
+            temptaverint, non tantum amissione bonorum omnium, sed etiam capitis
+            periculo utpote criminis falsitatis obnoxios semet esse plectendos.
+            </p>
+               <p xml:id="azsw2e-d1e8588-d1e218" n="3">
+            Et est notitia. Scrinii memoriae probatoriae agentium in
+            rebus, palatinorum largitionum, palatinorum rerum privatarum partis
+            Augustae. </p>
+               <p xml:id="azsw2e-d1e8588-d1e222" n="4">
+            Item scrinii sacrarum epistularum sic: in officiis virorum
+            illustrium praefectorum praetorio Orientis et Illyrici et urbis, officii
+            proconsulum Asiae et Achaiae, officii praefecti Augustalis, officii
+            comitis Orientis, officii comitis divinarum domorum, officii vicariorum
+            Thraciae Ponti Asiae et Macedoniae et Thesauriensium classis. </p>
+               <p xml:id="azsw2e-d1e8588-d1e225" n="5">
+            Item scrinii sacrorum libellorum: officii virorum illustrium
+            magistrorum militum utriusque militiae in praesenti, Orientis et Illyrici,
+            invitatorum, admissionalium, memorialium omniumque paedagogorum, cellariorum,
+            mensorum, lampadariorum eorum, qui sacris scriniis deputati sunt,
+            decanorum partis Augustae, cursorum partis Augustae, officii virorum
+            spectabilium ducum Palaestinae, Mesopotamiae, novi limitis Phoenices,
+            Osrhoenae, Syriae et Augustae Euphratensis, Arabiae et Thebaidis,
+            Libyae, Pentapoleos, utriusque Armeniae, utriusque Ponti, Scythiae,
+            Mysiae primae, secundae, Daciae, Pannoniae, officii virorum spectabilium
+            comitum Aegypti, Pamphyliae, Isauriae, Lycaoniae et Pisidiae. * LEO
+            A. ERYTHRIO PP. *&lt;A XXX &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

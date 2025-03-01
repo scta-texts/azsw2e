@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 10</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 10</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4225"><!-- azsw2e-l7t10 -->
+            <head xml:id="azsw2e-d1e4225-Hd1e101">Titulus 10</head>
+            <head xml:id="azsw2e-d1e4225-Hd1e103" type="question-title">De his qui a non domino manumissi sunt</head>
+            <div xml:id="azsw2e-d1e4225-Dd1e106">
+               <head xml:id="azsw2e-d1e4225-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4225-d1e110">
+                  <ref xml:id="azsw2e-d1e4225-Rd1e112">Imperator
+            Antoninus</ref> Eum, qui servos alienos ac si suos manumittit, ut
+            pretium eorum dominis, si hoc elegerint, dependat, quanti sua interest,
+            saepe rescriptum est. * ANT. A. CORNELIANO. *&lt;A
+            213 PP. K. MART. ANTONINO A. IIII ET BALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4225-Dd1e116">
+               <head xml:id="azsw2e-d1e4225-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4225-d1e120">
+                  <ref xml:id="azsw2e-d1e4225-Rd1e122">Imperator
+            Alexander Severus</ref> Felicissima, quam mandante te servos
+            emisse dicis, si dominium servi quem manumisit nondum ad te transtulerat,
+            frustra petis, ut denegata libertate eius quem manumissum dicis possessio
+            tibi tradatur. * ALEX. A. MERCURIALI. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4225-Dd1e126">
+               <head xml:id="azsw2e-d1e4225-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4225-d1e130">
+                  <ref xml:id="azsw2e-d1e4225-Rd1e132">Imperator
+            Alexander Severus</ref> Qui tibi hereditatem
+            vendidit, antequam res hereditarias traderet, dominus earum perseveravit
+            et ideo manumittendo libertatem servo hereditario praestitit. *
+            ALEX. A. POMPEIO MIL. *&lt;A 230 PP. VI K. AUG. AGRICOLA ET CLEMENTE
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4225-Dd1e137">
+               <head xml:id="azsw2e-d1e4225-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4225-d1e141">
+                  <ref xml:id="azsw2e-d1e4225-Rd1e143">Imperatores
+            Valerianus, Gallienus</ref> Si non proprietatem donaveras, sed ministerium
+            ancillae dederas, libertatem mancipio dando ea, quae precarium usum
+            haberet, dominio tuo nihil praeiudicavit. Nemo enim alienum servum, quamvis ut proprium manumittat, ad libertatem
+            producere potest * VALER. ET GALLIEN. AA. ZOILO. *&lt;A 260 PP. X K. AUG. SAECULARE ET DONATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4225-Dd1e147">
+               <head xml:id="azsw2e-d1e4225-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e4225-d1e151">
+                  <ref xml:id="azsw2e-d1e4225-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Si tradita sunt ex donatione mancipia,
+            ius manumittendi donatrix non habuit. * DIOCL. ET MAXIM. AA. MARCELLINAE.
+            *&lt;A 286 PP. V K. MAI. MAXIMO ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4225-Dd1e157">
+               <head xml:id="azsw2e-d1e4225-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e4225-d1e161">
+                  <ref xml:id="azsw2e-d1e4225-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Si pater servum vestrum, licet vobis
+            minoribus viginti annis consentientibus, manumisit, ei libertatem
+            praestare non potuit. * DIOCL. ET MAXIM. AA. ET CC. MIDO.
+            *&lt;A 294 S.NON.MART.CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4225-Dd1e167">
+               <head xml:id="azsw2e-d1e4225-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e4225-d1e171">
+                  <ref xml:id="azsw2e-d1e4225-Rd1e173">Imperator
+            Constantinus</ref>  Si non a dominis libertas detur mancipio alieno,
+            si quidem ab his iudicibus impetrabitur, quibus dandi ius est, sine
+            ulla trepidatione poenae facilis dissolutio est. </p>
+               <p xml:id="azsw2e-d1e4225-d1e176" n="1">
+            Si vero iubentibus nobis quicquam lege actum esse doceatur
+            et non dominus, ut alienum mancipium manumitteretur, petisse probetur,
+            tunc eodem, qui in conspectu nostro libertatem monstrabitur consecutus,
+            ei protinus ad cuius proprietatem pertinet restituto is, qui mancipium
+            alienum fallendo principis conscientiam manumisit, mancipia duo cogatur
+            domino eius dare, cuiusmodi sexus aetatis atque artis constiterit
+            esse manumissum, et alia tria fisco eadem ratione similia. </p>
+               <p xml:id="azsw2e-d1e4225-d1e179" n="2">
+            Quae multa non semper imponitur, sed potius conquiescit,
+            si forte manumissus inferentem sibi quaestionem status obiecta legitima
+            praescriptione potuerit excludere, cum sibi amissi mancipii damna
+            debeat imputare, qui in perniciem suam gesta taciturnitate firmaverit.
+            * CONST. A. AD BASSUM. *&lt;A 319 PP. ID. IUL. CONSTANTINO A.
+            V ET LICINIO C. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

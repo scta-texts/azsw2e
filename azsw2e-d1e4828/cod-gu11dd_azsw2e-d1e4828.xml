@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 64</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 64</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4828"><!-- azsw2e-l7t64 -->
+            <head xml:id="azsw2e-d1e4828-Hd1e101">Titulus 64</head>
+            <head xml:id="azsw2e-d1e4828-Hd1e103" type="question-title">Quando provocare necesse non est</head>
+            <div xml:id="azsw2e-d1e4828-Dd1e106">
+               <head xml:id="azsw2e-d1e4828-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4828-d1e110">
+                  <ref xml:id="azsw2e-d1e4828-Rd1e112">Imperator
+            Alexander Severus</ref> Datam sententiam dicitis, quam ideo vires
+            non habere contenditis, quod contra res prius iudicatas, a quibus
+            provocatum non est, lata sit. Cuius rei probationem si promptam habetis,
+            et citra provocationis adminiculum quod ita pronuntiatum est sententiae
+            auctoritatem non obtinebit * ALEX. A. APOLLINARIO ET ALIIS. *&lt;A
+            222 PP. VIII K. APRIL. ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4828-Dd1e116">
+               <head xml:id="azsw2e-d1e4828-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4828-d1e120">
+                  <ref xml:id="azsw2e-d1e4828-Rd1e122">Imperator
+            Alexander Severus</ref>  Si, cum inter te et aviam defuncti quaestio
+            de successione esset, iudex datus a praeside provinciae pronuntiavit
+            potuisse defunctum et minorem quattuordecim annis testamentum facere
+            ac per hoc aviam potiorem esse, sententiam eius contra tam manifesti
+            iuris formam datam nullas habere vires palam est et ideo in hac specie
+            nec provocationis auxilium necessarium fuit. </p>
+               <p xml:id="azsw2e-d1e4828-d1e125" n="1">
+            Quod si, cum de aetate quaereretur, implesse defunctum quartum
+            decimum annum ac per hoc iure factum testamentum pronuntiavit, nec
+            provocasti aut post appellationem impletam causa destitisti, rem iudicatam
+            retractare non debes. * ALEX. A. CAPITONI. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4828-Dd1e129">
+               <head xml:id="azsw2e-d1e4828-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e4828-d1e133">
+                  <ref xml:id="azsw2e-d1e4828-Rd1e135">Imperator
+            Gordianus</ref> Si, ut proponis, suspensa apud amplissimos iudices
+            cognitione provocationis, quam te ob id interposuisse dicis, quod
+            decurio nominatus esses, ad duumviratum vocatus es, manifestum est
+            praeiudicium futurae notioni memoratorum iudicum fieri non potuisse.
+            * GORD. A. INGENUO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4828-Dd1e140">
+               <head xml:id="azsw2e-d1e4828-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e4828-d1e144">
+                  <ref xml:id="azsw2e-d1e4828-Rd1e146">Imperatores
+            Valerianus, Gallienus. </ref>Cum magistratus datos iudices et unum ex
+            his pronuntiasse proponas, non videtur appellandi necessitas fuisse,
+            cum sententia iure non teneat. * VALER. ET GALLIEN. AA. ET VALER.
+            NOB. C. IULIANO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4828-Dd1e150">
+               <head xml:id="azsw2e-d1e4828-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e4828-d1e154">
+                  <ref xml:id="azsw2e-d1e4828-Rd1e156">Imperatores
+            Carus, Carinus, Numerianus</ref> Certa ratione et fine multare praesides
+            possunt. Quod si aliter et contra legis statutum modum provinciae
+            praeses multam vobis inrogaverit, dubium non est id, quod contra ius
+            gestum videtur, firmitatem non tenere et sine appellatione posse rescindi
+            * CARUS CARINUS ET NUMER. AAA. DOMITIANO. *&lt;A 283 PP. ID. IAN.
+            CARO ET CARINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4828-Dd1e160">
+               <head xml:id="azsw2e-d1e4828-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e4828-d1e164">
+                  <ref xml:id="azsw2e-d1e4828-Rd1e166">Imperatores
+            Carus, Carinus, Numerianus</ref> Cum non eo die, quo praeses provinciae
+            praecepit, iudex ab eodem datus pronuntiaverit, sed ductis diebus
+            alieniore tempore sententiam dedisse proponatur, ne ambages frustra
+            interpositae provocationis ulterius negotium protrahant, praeses provinciae
+            superstitiosa appellatione submota ex integro inter vos cognoscet.
+            * CARUS CARINUS ET NUMER. AAA. GERMANO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4828-Dd1e170">
+               <head xml:id="azsw2e-d1e4828-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e4828-d1e174">
+                  <ref xml:id="azsw2e-d1e4828-Rd1e176">Imperatores
+            Diocletianus, Maximianus</ref> Venales sententias, quae in mercedem
+            a corruptis iudicibus proferuntur, et citra interpositae provocationis
+            auxilium iam pridem a divis principibus infirmas esse decretum est.
+            * DIOCL. ET MAXIM. AA. NICAGORAE. *&lt;A 285 PP. K. IAN. DIOCLETIANO
+            A. ET ARISTOBULO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4828-Dd1e180">
+               <head xml:id="azsw2e-d1e4828-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e4828-d1e184">
+                  <ref xml:id="azsw2e-d1e4828-Rd1e186">Imperatores
+            Diocletianus, Maximianus</ref> Si pater tuus, cum decurio creareris,
+            non consensit et quindecim annos aetatis agis, aditus praeses provinciae,
+            si inhabilem te ad obeundum decurionatus honorem esse perspexerit,
+            quando huiusmodi aetati etiam praetermissa appellatione subveniatur,
+            iniquam nominationem removebit. * DIOCL. ET MAXIM. AA. CONSTANTIO.
+            *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4828-Dd1e190">
+               <head xml:id="azsw2e-d1e4828-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e4828-d1e194">
+                  <ref xml:id="azsw2e-d1e4828-Rd1e196">Imperatores
+            Diocletianus, Maximianus</ref> Veteranis, qui in legione vel vexillatione
+            militantes post vicesima stipendia honestam vel causariam missionem
+            consecuti sunt, onerum et munerum personalium vacationem concessimus.
+            Huius autem indulgentiae nostrae tenore remunerantes fidam devotionem
+            militum nostrorum etiam provocandi necessitatem remisimus * DIOCL.
+            ET MAXIM. AA. ET CC. RUFINO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4828-Dd1e201">
+               <head xml:id="azsw2e-d1e4828-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e4828-d1e205">
+                  <ref xml:id="azsw2e-d1e4828-Rd1e207">Imperator
+            Justinianus</ref>  Omnem honorem salvum iudicibus reservantes, si quando
+            una pars quasi laesa per definitivam eorum sententiam provocatione
+            usa fuerit, interdicimus alteri parti quae vicit pro hoc tantummodo,
+            quod nihil capere pro sumptibus litis et detrimentis vel minus quam
+            oportuerat iussa est, provocationem offerre, cum ipsam decisionem
+            litis recte factam esse confiteatur: iudicibus scilicet sive florentissimis
+            proceribus sacri nostri palatii sive his, quibus pro minore litium
+            aestimatione consultationes delegantur, si perspexerint adiuvandum
+            esse victorem sumptuum perceptione, etiam sine provocatione eius hoc
+            statuentibus et iustam eorundem sumptuum quantitatem definientibus.
+            </p>
+               <p xml:id="azsw2e-d1e4828-d1e210" n="1">
+            Sed nec occasione consultationis introducendae victori provocare
+            concedimus, cum et priscis legibus liceat ei et sine provocationis
+            auxilio eandem consultationem differente suo adversario introducere
+            et nos ei nihilo minus hoc permittimus, iniuriam ex supervacua provocatione
+            iudicibus fieri prohibentes. * IUST. A. MENAE PP. *&lt;A 529 D. VIII
+            ID. APRIL. CONSTANTINOPOLI DECIO VC. CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

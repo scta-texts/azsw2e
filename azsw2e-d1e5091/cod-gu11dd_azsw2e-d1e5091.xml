@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 12</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 12</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5091"><!-- azsw2e-l8t12 -->
+            <head xml:id="azsw2e-d1e5091-Hd1e101">Titulus 12</head>
+            <head xml:id="azsw2e-d1e5091-Hd1e103" type="question-title">De ratiociniis operum publicorum et de patribus civitatum</head>
+            <div xml:id="azsw2e-d1e5091-Dd1e106">
+               <head xml:id="azsw2e-d1e5091-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5091-d1e110">
+                  <ref xml:id="azsw2e-d1e5091-Rd1e112">Imperator
+            Zeno</ref>  Iubemus provinciarum quidem rectores et singulae dioeceseos
+            viros spectabiles iudices, id est praefectum Augustalem et comitem
+            Orientis et utrosque proconsules et vicarios una cum suis apparitoribus
+            pro tenore generalium magnificae tuae sedis dispositionum discutiendis
+            publicis operibus vel aquae ductibus, qui ex civilibus reditibus vel
+            a quolibet spontanea munificentia facti sunt vel fuerint, modis omnibus
+            abstinere, nec aliquid quolibet modo quolibet tempore in discutiendo
+            civiles reditus vel facta opera vel quae fieri adsolent, unam siliquam
+            sibi ex singulis erogandis solidis vindicando aut quodcumque lucrum
+            captando, cum huiusmodi rebus habere commune, utpote patribus civitatium
+            et curae eorum deputatis. </p>
+               <p xml:id="azsw2e-d1e5091-d1e115" n="1">
+            Qui vero opus aliquod pro sua liberalitate se facturos promiserint,
+            licet certum sit eos ex sola pollicitatione ad implendum suae munificentiae
+            opus necessitate iuris teneri, nullam tamen eos vel heredes eorum
+            super facto opere ratiocinium vel discussionem aut aliquam ( utpote
+            non in integrum promissa quantitate in id opus erogata vel inutiliter
+            facto opere, aut alia qua ratione) quocumque modo quocumque tempore
+            inquietudinem sustinere concedimus. </p>
+               <p xml:id="azsw2e-d1e5091-d1e118" n="2">
+            Quod si vir clarissimus provinciae moderator vel eius officium
+            reditus publicos vel opera publica contra vetitum discutiendo vel
+            unam siliquam aut quodlibet ex isdem reditibus vel operibus vindicando
+            sacratissimae nostrae legis praecepta transierint, quinque quidem
+            officii primates exilio damnati perpetuo bona sua civitati quam laeserint
+            non dubitent vindicanda, rector vero provinciae quinquaginta librarum
+            auri ferietur dispendio: hac eadem poena spectabilibus quoque iudicibus,
+            licet illustri dignitate fuerint decorati, et eorum officiis, sicut
+            superius distinctum est, imminenda. * ZENO A. ARCADIO PP. *&lt;A 485-486?&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

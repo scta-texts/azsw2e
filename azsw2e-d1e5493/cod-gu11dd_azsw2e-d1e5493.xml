@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 48</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 48</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5493"><!-- azsw2e-l8t48 -->
+            <head xml:id="azsw2e-d1e5493-Hd1e101">Titulus 48</head>
+            <head xml:id="azsw2e-d1e5493-Hd1e103" type="question-title">De emancipationibus liberorum</head>
+            <div xml:id="azsw2e-d1e5493-Dd1e106">
+               <head xml:id="azsw2e-d1e5493-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5493-d1e110">
+                  <ref xml:id="azsw2e-d1e5493-Rd1e112">Imperatores
+            Diocletianus, Maximianus</ref> Si lex municipii, in quo te pater emancipavit,
+            potestatem duumviris dedit, ut etiam alienigenae liberos suos emancipare
+            possint, id quod a patre factum est suam obtinet firmitatem. * DIOCL.
+            ET MAXIM. AA. HERENNIO. *&lt;A 290 PP. III NON. DEC. IPSIS IIII ET
+            III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5493-Dd1e116">
+               <head xml:id="azsw2e-d1e5493-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5493-d1e120">
+                  <ref xml:id="azsw2e-d1e5493-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> In emancipationibus liberorum nec non
+            donationibus non tam scriptura quam veritas considerari solet. * DIOCL.
+            ET MAXIM. AA. GENNADIAE. *&lt;A 291 PP. V ID. MART. TIBERIANO ET DIONE
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5493-Dd1e126">
+               <head xml:id="azsw2e-d1e5493-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5493-d1e130">
+                  <ref xml:id="azsw2e-d1e5493-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Non nudo consensu patria liberi potestate,
+            sed actu sollemni vel casu liberantur , nec causae, quibus metus pater
+            emancipavit filium, sed actus sollemnitas quaeritur. * DIOCL. ET MAXIM.
+            AA. ET CC. HELIODORO. *&lt;A 293 S. XV K. OCT. SIRMI AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5493-Dd1e137">
+               <head xml:id="azsw2e-d1e5493-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e5493-d1e141">
+                  <ref xml:id="azsw2e-d1e5493-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Nec avus neptem suam liberare potestate
+            cogitur nec in cuiusquam iniuriam beneficia tribuere moris est nostri.
+            * DIOCL. ET MAXIM. AA. ET CC. COLONIAE. *&lt;A XXX D. ID. OCT.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5493-Dd1e147">
+               <head xml:id="azsw2e-d1e5493-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e5493-d1e151">
+                  <ref xml:id="azsw2e-d1e5493-Rd1e153">Imperator
+            Anastasius</ref> Iubemus licere parentibus, id est patri avo paterno
+            seu proavo ceterisque ulterius per masculini sexus personas continua
+            generis serie coniunctis, si liberos, quos habent in potestate propria,
+            id est filium filiam, nepotem seu neptem ex filio, pronepotem seu
+            proneptem ceterosque itidem per masculini sexus personas continua
+            generis linea sibi coniunctos, per emancipationem vel absentes et
+            peregre degentes vel in isdem locis seu regionibus et civitatibus
+            commorantes, in iudicio vero non praesentes, iuris sui constituere
+            maluerint, supplicationibus porrectis mereri super hoc divinum oraculum
+            hocque apud competentem iudicem, ad cuius iurisdictionem actus emancipationis
+            pertinet, insinuare superque precibus a semet oblatis apud eum deponere,
+            ut hoc subsecuto et auctoritate praecedente p rincipali plenissimum
+            robur emancipatio sortiatur, et personae, in quas talis liberalitas
+            collata sit, de aliena potestate quasi a parentibus ex emancipatione
+            manumissae liberentur: si tamen ipsae nihilo minus sub gestorum testificatione
+            vel apud eundem iudicem vel apud alium quemlibet proposito parentum
+            suam etiam voluntatem consonare vel ante preces oblatas et sacros
+            apices promulgatos vel postea deposuerint, nisi infantes sint, qui
+            et sine consensu etiam hoc modo sui iuris efficiuntur. * ANASTAS.
+            A. CONSTANTINO PP. *&lt;A 502 D. XI K. AUG. CONSTANTINOPOLI PROBO
+            ET AVIENO IUNIORE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5493-Dd1e157">
+               <head xml:id="azsw2e-d1e5493-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e5493-d1e161">
+                  <ref xml:id="azsw2e-d1e5493-Rd1e163">Imperator
+            Justinianus</ref> Cum inspeximus in emancipationibus vanam observationem
+            custodiri et venditiones in liberas personas figuratas et circumductiones
+            inextricabiles et iniuriosa rhapismata, quorum nullus rationabilis
+            invenitur exitus, iubemus huiusmodi circuitu in posterum quiescente
+            licentiam esse ei, qui emancipare vult, vel ex lege anastasiana hoc
+            facere vel sine sacro rescripto intrare competentis iudicis tribunal
+            vel eos adire magistratus, quibus hoc facere vel legibus vel ex longa
+            consuetudine permissum est, et filios suos vel filias, nepotes vel
+            neptes vel deinceps progeniem in potestate sua constitutam a sua manu
+            dimittere et legitima iura omnimodo habere, etsi non specialiter haec
+            sibi servaverit, et peculium donare vel alias res liberalitatis titulo
+            in eos transferre, et eas res, quae adquiri indignantur, per usum
+            fructum secundum nostrae constitutionis modum detinere et omnia facere,
+            vana tantummodo secundum quod dictum est observatione sublata. * IUST.
+            A. IOHANNI PP. *&lt;A 531 D. K. NOV. CONSTANTINOPOLI POST CONSULATUM
+            LAMPADII ET ORESTIS VV. CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

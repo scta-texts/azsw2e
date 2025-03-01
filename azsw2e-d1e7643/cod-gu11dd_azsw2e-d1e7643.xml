@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 53</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 53</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7643"><!-- azsw2e-l11t53 -->
+            <head xml:id="azsw2e-d1e7643-Hd1e101">Titulus 53</head>
+            <head xml:id="azsw2e-d1e7643-Hd1e103" type="question-title">De colonis Illyricianis</head>
+            <div xml:id="azsw2e-d1e7643-Dd1e106">
+               <head xml:id="azsw2e-d1e7643-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7643-d1e110">
+                  <ref xml:id="azsw2e-d1e7643-Rd1e112">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Colonos inquilinosque per Illyricum
+            vicinasque regiones abeundi rure, in quo eos originis agnationisque
+            merito certum est immorari, licentiam habere non posse censemus. </p>
+               <p xml:id="azsw2e-d1e7643-d1e115" n="1">
+            Inserviant terris non tributario nexu, sed nomine et titulo
+            colonorum, ita ut, si abscesserint ad aliumve transierint, revocati
+            vinculis poenisque subdantur, maneatque eos poena, qui alienum et
+            incognitum recipiendum esse duxerint, tam in redhibitione operarum
+            et damni, quod locis quae deseruerant factum est, quam multae, cuius
+            modum in auctoritate iudicis collocamus: ita ut etiam dominus fundi,
+            in quo alienus fuisse monstrabitur, pro qualitate peccati coercitionem
+            subire cogatur nec sit ignorantiae locus, cum ad criminis rationem
+            solum illud sufficiat, quod incognitum sibi tenuit. </p>
+               <p xml:id="azsw2e-d1e7643-d1e118" n="2">
+            Servum etiam in memoratis regionibus si quis receperit, ignorationis
+            excusatione sublata quadrupli poena teneatur, operarum praeterea compendiis
+            damnisque praestitis. </p>
+               <p xml:id="azsw2e-d1e7643-d1e121" n="3">
+            In libertis etiam, quos pari usurpatione susceperit, is modus
+            sit, quem circa liberos duximus colonos retinendum. * VALENTIN. VALENS
+            ET GRAT. AAA. AD PROBUM PP. *&lt;A 371 D. III ID. IUL. GRATIANO A.
+            II ET PROBO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

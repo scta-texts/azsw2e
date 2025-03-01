@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 56</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 56</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4041"><!-- azsw2e-l6t56 -->
+            <head xml:id="azsw2e-d1e4041-Hd1e101">Titulus 56</head>
+            <head xml:id="azsw2e-d1e4041-Hd1e103" type="question-title">Ad senatus consultum Tertullianum</head>
+            <div xml:id="azsw2e-d1e4041-Dd1e106">
+               <head xml:id="azsw2e-d1e4041-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4041-d1e110">
+                  <ref xml:id="azsw2e-d1e4041-Rd1e112">Imperatores
+            Diocletianus, Maximianus</ref> Licet liberi matribus ab intestato
+            ita demum per se heredes existant, si fari possint, tamen matres liberis,
+            etiamsi infantes naturae concesserint, posse succedere nulla dubitatio
+            est. * DIOCL. ET MAXIM. AA. VIVIANAE. *&lt;A 291 PP. X K. APRIL. TIBERIANO
+            ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4041-Dd1e116">
+               <head xml:id="azsw2e-d1e4041-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4041-d1e120">
+                  <ref xml:id="azsw2e-d1e4041-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> In successionem filii vel filiae communis
+            sine liberis et fratribus vel sororibus morientis pater manumissor,
+            quia ei sit vetus ius servatum, matri praefertur. * DIOCL. ET MAXIM.
+            AA. ET CC. RHESAE. *&lt;A 294 S. VI ID. DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4041-Dd1e126">
+               <head xml:id="azsw2e-d1e4041-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4041-d1e130">
+                  <ref xml:id="azsw2e-d1e4041-Rd1e132">Imperator
+            Constantinus</ref> Matres, quae puberes amiserunt filios, licet impuberibus
+            eis tutores non petierunt, praescriptione non petiti tutoris ad excludendam
+            eorum successionem minime debere praescribi certum est. * CONST. A.
+            CATULLINO PROCONS. AFRICAE. *&lt;A 315 D. VI K. AUG. CONSTANTINO A.
+            IIII ET LICINIO IIII CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4041-Dd1e137">
+               <head xml:id="azsw2e-d1e4041-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4041-d1e141">
+                  <ref xml:id="azsw2e-d1e4041-Rd1e143">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Si qua mulier nequaquam
+            religionem priori viro, ex quo filios seu filias non habet, nuptiarum
+            festinatione praestiterit, ex iure quidem notissimo sit infamis, nisi
+            huiusmodi maculam imperiale beneficium ei remittat. </p>
+               <p xml:id="azsw2e-d1e4041-d1e146" n="1">
+            Sin autem ei filii erunt seu filiae et impetraverit indulgentiam,
+            infamiae abolitionem permittimus et ceterarum poenarum antiquationem,
+            si facultatum omnium, quae fuerint tempore nuptiarum, medietatem filio
+            filiaeve, filiis seu filiabus donaverit, quos habebat ex viro priore
+            susceptos, pure scilicet et omni donationis sollemnitate completa
+            nec retento quidem usu fructu. </p>
+               <p xml:id="azsw2e-d1e4041-d1e149" n="2">
+            Quem quidem semissem si duobus filiis seu filiabus pluribusve
+            donaverit et sorte fatali unus vel una, seu alius vel alia ex isdem
+            intestatus vel intestata obierit, semper ad superstites fratres vel
+            sorores volumus pertinere. </p>
+               <p xml:id="azsw2e-d1e4041-d1e152" n="3">
+            Sin autem universae vel universi intestati diem obierint
+            durae fortunae ad matrem solacia ex integro revertantur, ita scilicet,
+            ut hunc semissem, quem filiis seu filiabus donaverat, intestato diem
+            filiis seu filiabus obeuntibus rursus ipsa separatim ab ultimi filii
+            vel filiae hereditate praesumat. * GRAT. VALENTIN. ET THEODOS. AAA.
+            EUTROPIO PP. *&lt;A 380 PP. XV K. IAN. GRATIANO V ET THEODOSIO AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4041-Dd1e156">
+               <head xml:id="azsw2e-d1e4041-Hd1e158">5</head>
+               <p xml:id="azsw2e-d1e4041-d1e160">
+                  <ref xml:id="azsw2e-d1e4041-Rd1e162">Imperatores
+            Theodosius, Valentinianus</ref>  Mater, quae defuncto filio filiave
+            sine liberis ex testamento vel ab intestato succedit, si matrimonum
+            secundum post mortem filii vel filiae non contraxerit, omnia filii
+            morte delata pleno iure conquirat. </p>
+               <p xml:id="azsw2e-d1e4041-d1e165" n="1">
+            Sin vero alterius elegerit coniugium mariti, extrinsecus
+            quidem quaesita filio filiaeve simili firmitate possideat, rerum vero
+            paternarum defuncti solo usu fructu humanitatis contemplatione potiatur,
+            proprietatem sorori et fratribus transmissura defuncti. * THEODOS.
+            ET VALENTIN. AA. AD SENATUM URB. ROMAE. *&lt;A 426 D. VIII ID. NOV.
+            RAVENNAE THEODOSIO XII ET VALENTINIANO II AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4041-Dd1e169">
+               <head xml:id="azsw2e-d1e4041-Hd1e171">6</head>
+               <p xml:id="azsw2e-d1e4041-d1e173">
+                  <ref xml:id="azsw2e-d1e4041-Rd1e175">Imperatores
+            Theodosius, Valentinianus</ref> Omnem matri sive ab intestato sive
+            iure substitutionis, si filius impubes moritur, denegandam volumus
+            successionem, si ea legitima liberorum tutela suscepta ad secundas
+            contra sacramentum praestitum adspiraverit nuptias, antequam ei tutorem
+            alium fecerit ordinari eique quod debetur ex ratione tutelae gestae
+            persolverit. * THEODOS. ET VALENTIN. AA. FLORENTIO PP. *&lt;A 439
+            D. VI ID. IUL. CONSTANTINOPOLI THEODOSIO A. XVII ET FESTO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4041-Dd1e179">
+               <head xml:id="azsw2e-d1e4041-Hd1e181">7</head>
+               <p xml:id="azsw2e-d1e4041-d1e183">
+                  <ref xml:id="azsw2e-d1e4041-Rd1e185">Imperator
+            Justinianus</ref>  Si quis vel si qua matre superstite et fratre vel
+            legitimo vel sola cognationis iura habente intestatus vel intestata
+            decesserit, non excludi a filii successione matrem, sed una cum fratre
+            mortui vel mortuae, si superstes vel filius vel privignus ipsius sit,
+            ad eam pervenire ad similitudinem sororum mortui vel mortuae: ita
+            tamen, ut, si quidem solae sorores agnatae vel cognatae et mater defuncti
+            vel defunctae supersint, pro veterum legum tenore dimidiam quidem
+            mater, alteram vero dimidiam partem omnes sorores habeant: sin vero
+            matre superstite et fratre vel fratribus solis vel etiam cum sororibus
+            intestatus quis vel intestata moriatur, in capita distribuatur eius
+            hereditas nec liceat matri occasione soro rum mortui vel mortuae ampliorem
+            partem sibi vindicare, quam rata portio capitum exigit: patruo scilicet
+            mortui vel mortuae eius filio vel nepote nullum ius ad eius hereditatem
+            matre herede existente habentibus nec ex veteribus legibus vel ex
+            constitutionibus partem matris minui. </p>
+               <p xml:id="azsw2e-d1e4041-d1e188" n="1">
+            Sin autem defuncta persona non solum matrem et fratres et
+            sorores superstites habeat, sed etiam patrem, si quidem sui iuris
+            decessit, quia patris persona interveniens matris iura superare videtur,
+            omnibus pio animo providentes sancimus fratres quidem et sorores mortuae
+            personae ad successionem proprietatis solos pro virili parte vocari,
+            patri autem et matri usus fructus totius successionis bessem competere
+            aequa lance inter patrem et matrem dividendum, reliqua parte usus
+            fructus apud fratres et sorores remanente. </p>
+               <p xml:id="azsw2e-d1e4041-d1e191" n="2">
+            Sin vero defuncta persona in sacris patris constituta decesserit,
+            pater quidem usum fructum, quem et vivente filio habebat, detineat
+            donec vivat incorruptum, mater autem, quia hunc usum fructum habere
+            vivente patre non potest totum apud patrem constitutum, una cum fratribus
+            defunctae personae ad proprietatem vocetur , scilicet cum sororibus
+            sola in dimidiam, cum fratribus vel promiscui generis secundum supra
+            scriptam distributionem in virilem portionem. </p>
+               <p xml:id="azsw2e-d1e4041-d1e194" n="3">
+            Omnibus videlicet, quae de mulieribus ad secundas nuptias
+            migrantibus sancita sunt, in suo statu durantibus. * IUST. A. MENAE
+            PP. *&lt;A 528 D. K. IUN. CONSTANTINOPOLI DN. IUSTINIANO A. PP. II
+            CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

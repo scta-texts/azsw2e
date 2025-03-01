@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 24</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 24</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1611"><!-- azsw2e-l3t24 -->
+            <head xml:id="azsw2e-d1e1611-Hd1e101">Titulus 24</head>
+            <head xml:id="azsw2e-d1e1611-Hd1e103" type="question-title">Ubi senatores vel clarissimi civiliter vel criminaliter conveniantur.</head>
+            <div xml:id="azsw2e-d1e1611-Dd1e106">
+               <head xml:id="azsw2e-d1e1611-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1611-d1e110">
+                  <ref xml:id="azsw2e-d1e1611-Rd1e112">Imperator
+            Constantinus</ref> Quicumque non illustris, sed tantum clarissima
+            dignitate praeditus virginem rapuerit vel fines aliquos invaserit
+            vel in aliqua culpa seu crimine fuerit deprehensus, statim intra provinciam
+            in qua facinus perpetravit publicis legibus subiugetur nec fori praescriptione
+            utatur. Omnem enim huiusmodi honorem reatus excludit * CONST. A. AD
+            OCTAVIANUM COM. HISPANIARUM. *&lt;A 317 D. PRID. NON. DEC. SERDICAE.
+            ACC. V NON. MART. CORDUBAE GALLICANO ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1611-Dd1e116">
+               <head xml:id="azsw2e-d1e1611-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e1611-d1e120">
+                  <ref xml:id="azsw2e-d1e1611-Rd1e122">Imperatores
+            Valens, Gratianus, Valentinianus</ref> Senatores in pecuniariis causis,
+            sive in hac urbe sive in suburbanis degunt, in iudicio tam praetorianae
+            quam urbicariae praefecturae nec non magistri officiorum ( quotiens
+            tamen ad eum nostrae pietatis emanaverit iussio), in provinciis vero
+            ubi larem fovent aut ubi maiorem bonorum partem possident et adsidue
+            versantur respondebunt. * VALENS GRAT. ET VALENTIN. AAA. AD SENATUM.
+            *&lt;D. K. MART.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1611-Dd1e126">
+               <head xml:id="azsw2e-d1e1611-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e1611-d1e130">
+                  <ref xml:id="azsw2e-d1e1611-Rd1e132">Imperator
+            Zeno</ref>  Quotiens viro forte patricio vel ex patricio vel ei, quem
+            praetorianae vel urbicariae amplissimae sedis administratio illustravit,
+            vel consulari viro, quem tam ordinaria processio quam sacra nostrae
+            pietatis pariter sublimavit oratio, quive magisteriae potestatis sudoribus
+            clarus factus est, vel ei, qui magistri officiorum vel quaestoris
+            officio functus aut sacri nostrae pietatis cubiculi praepositus post
+            depositam administrationem senatorio ordini sociatus est, aut cui
+            nostra serenitas domesticorum scholam regendam mandavit cuive sacros
+            nostri numinis thesauros aut res privatas nostrae pietatis vel serenissimae
+            augustae nostrae coniugis gubernandas iniunxit, post depositam videlicet
+            administrationem cr imen publicum privatumve, cui tamen non per procuratorem
+            respondere liceat, in hac alma urbe vel in provinciis commoranti ingeratur,
+            nullius alterius iudicis nisi nostrae pietatis huiusmodi esse cognitionem
+            vel sacri tantummodo cognitoris , cui nostra serenitas huiusmodi negotii
+            audientiam vice sua sacris apicibus mittendis mandaverit, ita tamen,
+            ut apud talem iudicem, nullius officii vel scholae intercedente ministerio,
+            more atque habitu sacrarum consultationum absque ulla videlicet observatione
+            dierum fatalium introductae causae, viris devotissimis sacri nostri
+            scrinii libellensibus sollemnia implentibus, audiantur: eo qui in
+            crimen vocatus erit, ne quas ante probationes iniurias patiatur, sedendi
+            quoque in aliqua secretarii parte, quae iudicibus inferior, altercantibus
+            vero superior esse videatur, habituro licentiam. </p>
+               <p xml:id="azsw2e-d1e1611-d1e135" n="1">
+            Adeo autem tantarum honores dignitatum duximus augendos,
+            ut nec sacro quidem cognitori, nec postquam crimen fuerit patefactum,
+            contra huiusmodi viros vel eorum substantias statuendi aliquid concedamus
+            facultatem, sed hoc solummodo in huiusmodi viros vice quoque principis
+            audituro licebit, ut intentatum apud se crimen , si patefactum fuisset,
+            ad principalem referat notionem. </p>
+               <p xml:id="azsw2e-d1e1611-d1e138"> 
+            Ultionis autem tantis inferendae dignitatibus modus non nisi
+            in principis residebit arbitrio, cum sit certum oportere accusatoris
+            calumniam ( reo videlicet protinus absolvendo) inconsulta quoque nostra
+            serenitate prout leges sanciunt coerceri, nisi forte accusator quoque
+            non minoris quam reus sit dignitatis: in hoc namque casu super coercenda
+            huiusmodi accusatoris calumnia non immerito consulenda erit principalis
+            auctoritas. </p>
+               <p xml:id="azsw2e-d1e1611-d1e140" n="2">
+            Viros autem illustres in hac inclita urbe degentes, qui sine
+            administratione honorariis decorati fuerint codicillis, licet talem
+            praerogativam nostrae iussionis meruerint, ut quod non egerint videantur
+            egisse, in criminalibus causis magnificae tuae sedis et illustrissimae
+            urbicariae praefecturae nec non etiam viri magnifici magistri officiorum
+            ( quotiens tamen ad eius iudicium specialis nostrae pietatis emanaverit
+            iussio) sententiis respondere decernimus, ita ut huiusmodi viri sedendi
+            quidem in cognitionibus dicendis minime sibi vindicent facultatem.
+            </p>
+               <p xml:id="azsw2e-d1e1611-d1e144"> 
+            Sciant autem ipsi quoque nec de se vel suis facultatibus
+            iudicaturos aliquid nec probatis criminibus, nisi prius ad nostram
+            pietatem rettulerint, posse statuere. </p>
+               <p xml:id="azsw2e-d1e1611-d1e146" n="3">
+            Quotiens autem viri illustres in provinciis constituti (
+            non hi tamen, quorum cognitio ad nostram maiestatem vel ad vice nostri
+            numinis auditurum pertineat) in querimoniam fuerint criminalem vocati,
+            et sedendi, cum celebratur cognitio, in secretariis iudicantium ius
+            consequantur et iudices patefactis quoque criminibus ferendis contra
+            huiusmodi viros vel facultates eorum sententiis abstineant, dum nostrae
+            pietatis ad suas meruerint relationes responsum: supplicio videlicet,
+            quod accusatoribus patefacta eorum calumnia ingerendum est, nec apud
+            provinciales iudices, si non, sicut superius dictum est, similem dignitatem
+            habeant, differendo. * ZENO A. ARCADIO PP. *&lt;A 485 - 486? D. CONSTANTINOPOLI.
+            &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 27</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 27</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5258"><!-- azsw2e-l8t27 -->
+            <head xml:id="azsw2e-d1e5258-Hd1e101">Titulus 27</head>
+            <head xml:id="azsw2e-d1e5258-Hd1e103" type="question-title">De distractione pignorum</head>
+            <div xml:id="azsw2e-d1e5258-Dd1e106">
+               <head xml:id="azsw2e-d1e5258-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5258-d1e110">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e112">Imperator
+            Alexander Severus</ref> Fundum pignori obligatum, si creditor ex fructibus
+            debitum persecutus est, cum ipso iure pignus obligatione liberatum
+            sit, distrahere minime potest. * ALEX. A. PACATAE. *&lt;A 223 PP.
+            ID. IAN. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e116">
+               <head xml:id="azsw2e-d1e5258-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5258-d1e120">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e122">Imperator
+            Alexander Severus</ref> Creditor, qui hypothecae seu pignori rem sibi
+            nexam vendiderit, rem litigiosam non videtur vendere, quia precario
+            debitor possidet. * ALEX. A. MAXIMO. *&lt;A 223 PP. XII K. OCT. MAXIMO
+            II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e126">
+               <head xml:id="azsw2e-d1e5258-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5258-d1e130">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e132">Imperator
+            Alexander Severus</ref> Hypothecis vel pignoribus a creditore venumdatis
+            in id quod deest adversus reum vel fideiussorem actio competit. *
+            ALEX. A. LUCIANO. *&lt;A 223 PP. III NON. NOV. MAXIMO II ET AELIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e137">
+               <head xml:id="azsw2e-d1e5258-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e5258-d1e141">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e143">Imperator
+            Alexander Severus</ref> Creditor hypothecas sive pignus cum proscribit,
+            notum debitori facere, si bona fide rem gerit, et quando licet testato
+            dicere debet. Si quid itaque per fraudem in pignore villae venditae
+            commissum probare potes, ut inferatur actio, quae eo nomine competit,
+            adi eum cuius de ea re notio est * ALEX. A. CRESCENTI. *&lt;A 225
+            PP. K. IUN. FUSCO ET DEXTRO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e147">
+               <head xml:id="azsw2e-d1e5258-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e5258-d1e151">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e153">Imperator
+            Alexander Severus</ref> Si residuum debiti paratus es solvere, praeses
+            provinciae dabit arbitrum, apud quem, quantum sit quod superest ex
+            debito, examinabitur: et sive ad iudicem venire diversa pars cessaverit
+            sive oblato superfluo ad venditionem prosiluerit, improba alienatio
+            proprietatis tuae ius non auferet. * ALEX. A. SOSSIANO. *&lt;A 231
+            PP. XII K. AUG. POMPEIANO ET PELIGNO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e157">
+               <head xml:id="azsw2e-d1e5258-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e5258-d1e161">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e163">Imperator
+            Gordianus</ref> Quamdiu non est integra pecunia creditori numerata,
+            etiamsi pro parte maiore eam consecutus sit, distrahendi rem obligatam
+            non amittit facultatem. * GORD. A. ROGATO. *&lt;A 238 PP. XIII K.
+            SEPT. PIO ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e167">
+               <head xml:id="azsw2e-d1e5258-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e5258-d1e171">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e173">Imperator
+            Gordianus</ref> Si cessante solutione creditor non reluctante lege
+            contractus ea quae pignori sibi nexa erant distraxit, revocari venditionem
+            iniquum est, cum, si quid in ea re fraudulenter fecerit, non emptor
+            a te, sed creditor conveniendus sit. * GORD. A. CARO. *&lt;A 238 PP.
+            V K. NOV. PIO ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e177">
+               <head xml:id="azsw2e-d1e5258-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e5258-d1e181">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e183">Imperator
+            Gordianus</ref> Si prius, quam distraheretur pignorata possessio,
+            pecuniam creditori obtulisti, eoque non accipiente contestatione facta
+            eam deposuisti et hodieque in eadem causa permanet, pignoris distractio
+            non valet. Quod si prius, quam offerres, legem venditionis exercuit,
+            quod iure subsistit revocari non debet * GORD. A. MAXIMO. *&lt;A 239
+            PP. III NON. APRIL. GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e187">
+               <head xml:id="azsw2e-d1e5258-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e5258-d1e191">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Quae specialiter vobis obligata sunt,
+            debitoribus detractantibus solutionem bona fide debetis et sollemniter
+            vendere: ita enim parebit, an ex pretio pignoris debito satisfieri
+            potest. Quod si quid deerit, non prohibemini etiam cetera bona iure
+            conventionis consequi * DIOCL. ET MAXIM. AA. CYRILLO. *&lt;A 287 PP.
+            XIII K. IUN. DIOCLETIANO III ET MAXIMIANO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e198">
+               <head xml:id="azsw2e-d1e5258-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e5258-d1e202">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref>  Et qui sub imagine alterius personae,
+            quam supposuerat, iugiter tenet, cum sibi negotium gerat, alienasse
+            non videtur. Iure enim pignoris obligatum praedium neque si per subiectam
+            personam creditor comparaverit neque si sibi addixerit, debitori adfert
+            praeiudicium, sed in eadem causa permanet, in qua fuit ante huiusmodi
+            collusionem </p>
+               <p xml:id="azsw2e-d1e5258-d1e207" n="1">
+            Sane si debitore distrahente comparaverit, consensu emptionem
+            perfectam, si neque dolus adversarii neque metus causa gesta arguentur,
+            revocari exemplo grave est. </p>
+               <p xml:id="azsw2e-d1e5258-d1e210" n="2">
+            Si igitur poteris evidentibus probationibus monstrare creditorem
+            per suppositam imaginarii emptoris personam semper possessionem tenuisse
+            nec vendita bona fide praedia postea sinceriter comparasse, potes
+            oblata pecunia cum usuris ad restitutionem creditorem compellere.
+            * DIOCL. ET MAXIM. AA. RUFINO. *&lt;A 290 PP. III NON. OCT. IPSIS
+            IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e214">
+               <head xml:id="azsw2e-d1e5258-Hd1e216">11</head>
+               <p xml:id="azsw2e-d1e5258-d1e218">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e220">Imperatores
+            Diocletianus, Maximianus</ref> Mulier licet res specialiter pignori
+            dederit pro alio, creditor eas distrahendi non habet facultatem, nisi
+            dissimulatione, marito obligante velut proprias, creditoris ignorantiam
+            circumscripserit. * DIOCL. ET MAXIM. AA. ET CC. RUFINAE. *&lt;A 293
+            PP. V K. MAI. HERACLIAE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e224">
+               <head xml:id="azsw2e-d1e5258-Hd1e226">12</head>
+               <p xml:id="azsw2e-d1e5258-d1e228">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e230">Imperatores
+            Diocletianus, Maximianus</ref> Si debitor rem tibi iure pignoris obligatam
+            te non consentiente distraxit, dominium cum sua causa transtulit ad
+            emptorem. * DIOCL. ET MAXIM. AA. ET CC. ZOTICO. *&lt;A 293 S. PRID.
+            K. MAI. HERACLIAE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e234">
+               <head xml:id="azsw2e-d1e5258-Hd1e236">13</head>
+               <p xml:id="azsw2e-d1e5258-d1e238">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e240">Imperatores
+            Diocletianus, Maximianus</ref> Qui praedium obligatum a creditore
+            comparavit, si in vacuam possessionem inductus non est, nullam in
+            rem actionem habet. * DIOCL. ET MAXIM. AA. ET CC. THEODOTAE. *&lt;A
+            293 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e244">
+               <head xml:id="azsw2e-d1e5258-Hd1e246">14</head>
+               <p xml:id="azsw2e-d1e5258-d1e248">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e250">Imperatores
+            Diocletianus, Maximianus</ref> Si in hoc quod iure debetur tibi satisfactum
+            non fuit, et debitoribus res obligatas tenentibus aditus praeses provinciae
+            tibi distrahendi iubebit fieri facultatem. * DIOCL. ET MAXIM. AA.
+            ET CC. MODESTO. *&lt;A 293 PP. XVI K. DEC. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e254">
+               <head xml:id="azsw2e-d1e5258-Hd1e256">15</head>
+               <p xml:id="azsw2e-d1e5258-d1e258">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e260">Imperatores
+            Diocletianus, Maximianus</ref> Obligatis pignori mancipiis a creditore
+            distractis ac traditis si post debitor quondam haec sollicitaverit,
+            non venditori, sed emptori contra possidentem in rem competit actio.
+            * DIOCL. ET MAXIM. AA. ET CC. AVIANAE. *&lt;A 294 D. K. MART. SIRMI
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e265">
+               <head xml:id="azsw2e-d1e5258-Hd1e267">16</head>
+               <p xml:id="azsw2e-d1e5258-d1e269">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e271">Imperatores
+            Diocletianus, Maximianus</ref> Unus ex multis debitoris qui pignora
+            tradiderat heredibus, quod ab eo personali actione peti potuit, solvendo
+            res obligatas distrahendi creditori facultatem non ademit. * DIOCL.
+            ET MAXIM. AA. ET CC. SILVIANO. *&lt;A 294 S. III NON. APRIL. CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e275">
+               <head xml:id="azsw2e-d1e5258-Hd1e277">17</head>
+               <p xml:id="azsw2e-d1e5258-d1e279">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e281">Imperatores
+            Diocletianus, Maximianus</ref> Rei creditor obligatae generali sive
+            speciali conventione per creditorem alium, cui non fuerat nexa, venumdatae
+            non amittit persecutionem. * DIOCL. ET MAXIM. AA. ET CC. AGAPAE. *&lt;A
+            294 D. PRID. NON. APRIL. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e285">
+               <head xml:id="azsw2e-d1e5258-Hd1e287">18</head>
+               <p xml:id="azsw2e-d1e5258-d1e289">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e291">Imperatores
+            Diocletianus, Maximianus</ref> Qui a creditore pignori obligatum iure
+            emit, de proprietate vinci non potest. * DIOCL. ET MAXIM. AA. ET CC.GAIANO.
+            *&lt;A 294 SUBSCRIPTA VI K. MAI. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e295">
+               <head xml:id="azsw2e-d1e5258-Hd1e297">19</head>
+               <p xml:id="azsw2e-d1e5258-d1e299">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e301">Imperatores
+            Diocletianus, Maximianus</ref> Si maritus tuus mutuam, licet tuam,
+            dedit pecuniam, eorum, quae pignoris titulo accepit, si ei non successisti,
+            distrahendi nomine tuo nullam habes facultatem. * DIOCL. ET MAXIM.
+            AA. ET CC. LIVIAE. *&lt;A 294 S. VI ID. NOV. HERACLIAE CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5258-Dd1e305">
+               <head xml:id="azsw2e-d1e5258-Hd1e307">20</head>
+               <p xml:id="azsw2e-d1e5258-d1e309">
+                  <ref xml:id="azsw2e-d1e5258-Rd1e311">Imperatores
+            Diocletianus, Maximianus</ref> Secundum placiti fidem, si nihil convenit
+            specialiter, pignoribus a creditore maiore quam ei debebatur pretio
+            distractis, licet ex eo fundus comparatus sit, non super hoc in rem,
+            sed in personam, id est pigneraticia, de superfluo competit actio.
+            * DIOCL. ET MAXIM. AA. ET CC. SABINO. *&lt;A 294 S. IIII ID. NOV.
+            BYZANTIO CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

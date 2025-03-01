@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 29</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 29</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2907"><!-- azsw2e-l5t29 -->
+            <head xml:id="azsw2e-d1e2907-Hd1e101">Titulus 29</head>
+            <head xml:id="azsw2e-d1e2907-Hd1e103" type="question-title">De confirmando tutore</head>
+            <div xml:id="azsw2e-d1e2907-Dd1e106">
+               <head xml:id="azsw2e-d1e2907-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2907-d1e110">
+                  <ref xml:id="azsw2e-d1e2907-Rd1e112">Imperator
+            Alexander Severus</ref> Testamento matris tutores dati excusare necesse
+            non habent, nisi decreto secundum voluntatem defunctae, et quidem
+            inquisitione habita, dati fuerint. * ALEX. A. PRISCO. *&lt;A 224 PP.
+            III NON. MART. IULIANO ET CRISPINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2907-Dd1e116">
+               <head xml:id="azsw2e-d1e2907-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2907-d1e120">
+                  <ref xml:id="azsw2e-d1e2907-Rd1e122">Imperator
+            Alexander Severus</ref> Neque per epistulam neque ex imperfecto testamento
+            tutorem recte dari indubitati iuris est. Sed voluntas patris in constituendis
+            tutoribus vel curatoribus in huiusmodi casibus a iudice, ad cuius
+            officium haec res pertinet, servari solet. Secundum quae vereri non
+            debes, ne tempus, antequam confirmareris, cesseri * ALEX. A. VALERIO.
+            *&lt;A 226 PP. VIII ID. AUG. ALEXANDRO A. II ET MARCELLO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2907-Dd1e126">
+               <head xml:id="azsw2e-d1e2907-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2907-d1e130">
+                  <ref xml:id="azsw2e-d1e2907-Rd1e132">Imperator
+            Alexander Severus</ref> Si, ut proponis, pupillo cuius meministi pater
+            inutiliter testamento tutores dedit et, priusquam ii confirmarentur,
+            alii ab eo cuius interest dati sunt, id quidem, quod iure gestum est,
+            revocari non potest: an autem qui iudicium patris habent curatores
+            eidem pupillo constitui debeant, aditus competens iudex perspectis
+            utilitatibus eius aestimabit. * ALEX. A. SOSIANO. *&lt;A 228 PP. III
+            ID. APRIL. MODESTO ET PROBO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2907-Dd1e137">
+               <head xml:id="azsw2e-d1e2907-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2907-d1e141">
+                  <ref xml:id="azsw2e-d1e2907-Rd1e143">Imperator
+            Justinianus</ref> Naturalibus liberis providentes damus licentiam
+            patribus eorum in his rebus, quas quocumque modo eis dederint vel
+            dereliquerint, scilicet intra praefinitum nostris legibus modum, etiam
+            tutorem eis relinquere, qui debet apud competentem iudicem se confirmare
+            et ita res gerere pupillares. * IUST. A. IULIANO PP. *&lt;A 530 D.
+            XV K. APRIL. CONSTANTINOPOLI LAMPADIO ET ORESTA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2907-Dd1e147">
+               <head xml:id="azsw2e-d1e2907-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e2907-d1e151">
+                  <ref xml:id="azsw2e-d1e2907-Rd1e153">Imperator
+            Justinianus</ref> In rebus dotalibus sive mobilibus sive immobilibus
+            seu se moventibus, si tamen extant, sive aestimatae sive inaestimatae
+            sint, mulierem in his vindicandis omnem habere post dissolutum matrimonium
+            praerogativam et neminem creditorum mariti , qui anteriores sunt,
+            sibi potiorem causam in his per hypothecam vindicare, cum eaedem res
+            et ab initio uxoris fuerant et naturaliter in eius permanserunt dominio.
+            Non enim quod legum subtilitate transitus earum in mariti patrimonium
+            videtur fieri, ideo rei veritas deleta vel confusa est * IUST. A.
+            DEMOSTHENI PP. *&lt;A 529 RECITATA SEPTIMO IN NOVO CONSISTORIO PALATII
+            IUSTINIANI. D. III K. NOV. DECIO VC. CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

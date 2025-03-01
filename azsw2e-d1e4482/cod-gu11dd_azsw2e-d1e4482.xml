@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 33</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 33</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4482"><!-- azsw2e-l7t33 -->
+            <head xml:id="azsw2e-d1e4482-Hd1e101">Titulus 33</head>
+            <head xml:id="azsw2e-d1e4482-Hd1e103" type="question-title">De praescriptione longi temporis decem vel viginti annorum</head>
+            <div xml:id="azsw2e-d1e4482-Dd1e106">
+               <head xml:id="azsw2e-d1e4482-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4482-d1e110">
+                  <ref xml:id="azsw2e-d1e4482-Rd1e112">Imperatores
+            Severus, Antoninus</ref>  Cum post motam et omissam quaestionem res
+            ad nova dominia bona fide transierint et exinde novi viginti anni
+            intercesserint sine interpellatione, non est inquietanda quae nunc
+            possidet persona, quae sicut accessione prioris domini non utitur,
+            qui est inquietatus, ita nec impedienda est, quod ei mota controversia
+            sit. </p>
+               <p xml:id="azsw2e-d1e4482-d1e115" n="1">
+            Quod si prior possessor inquietatus est, etsi postea per
+            longum tempus sine aliqua interpellatione in possessione remansit,
+            tamen non potest uti longi temporis praescriptione. </p>
+               <p xml:id="azsw2e-d1e4482-d1e118" n="2">
+            Quod etiam in re publica servari oportet. * SEV. ET ANT.
+            AA. IULIANO PP. *&lt;D. III ET ANTONINO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4482-Dd1e122">
+               <head xml:id="azsw2e-d1e4482-Hd1e124">2</head>
+               <p xml:id="azsw2e-d1e4482-d1e126">
+                  <ref xml:id="azsw2e-d1e4482-Rd1e128">Imperatores
+            Diocletianus, Maximianus</ref> Longi temporis praescriptio his, qui
+            bona fide coeptam possessionem continuatam nec interruptam inquietudine
+            litis tenuerunt, solet patrocinari. * DIOCL. ET MAXIM. AA. *&lt;A
+            286 PP. V K. DEC. MAXIMO II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4482-Dd1e132">
+               <head xml:id="azsw2e-d1e4482-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e4482-d1e136">
+                  <ref xml:id="azsw2e-d1e4482-Rd1e138">Imperatores
+            Diocletianus, Maximianus</ref> Si vineae, quas mater tua vitrico in
+            dotem dedit, tuae proprietatis sunt nec ulla praescriptio ex transacti
+            temporis prolixitate adolevit, praeses provinciae restitui tibi eas
+            efficiet. * DIOCL. ET MAXIM. AA. ET CC. ANTONIO. *&lt;A 293 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4482-Dd1e143">
+               <head xml:id="azsw2e-d1e4482-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e4482-d1e147">
+                  <ref xml:id="azsw2e-d1e4482-Rd1e149">Imperatores
+            Diocletianus, Maximianus</ref> Diutina possessio iure tantum successionis
+            sine iusto titulo obtenta prodesse ad praescriptionem hac sola ratione
+            non potest. * DIOCL. ET MAXIM. AA. ET CC. HERMO. *&lt;A 293 PP. IIII
+            ID. APRIL. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4482-Dd1e153">
+               <head xml:id="azsw2e-d1e4482-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e4482-d1e157">
+                  <ref xml:id="azsw2e-d1e4482-Rd1e159">Imperatores
+            Diocletianus, Maximianus</ref> Nec petentem dominium ab eo, cui petentis
+            solus error causam possessionis sine vero titulo praestitit, silentii
+            longi praescriptione depelli iuris evidentissimi est. * DIOCL. ET
+            MAXIM. AA. ET CC. SOTERICHO. *&lt;A 293 S. SIRMI XI K. MAI. AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4482-Dd1e163">
+               <head xml:id="azsw2e-d1e4482-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e4482-d1e167">
+                  <ref xml:id="azsw2e-d1e4482-Rd1e169">Imperatores
+            Diocletianus, Maximianus</ref> Si fraude et dolo, licet inter maiores
+            annis, facta venditio est, hanc confirmare non potuit consequens tempus,
+            cum longi temporis praescriptio in malae fidei contractibus locum
+            non habeat. * DIOCL. ET MAXIM. AA. ET CC. PARS EPIST.AD PRIMOSUM PRAES.
+            SYRIAE.*&lt;A 293 ACCEPTA.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4482-Dd1e173">
+               <head xml:id="azsw2e-d1e4482-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e4482-d1e177">
+                  <ref xml:id="azsw2e-d1e4482-Rd1e179">Imperatores
+            Diocletianus, Maximianus</ref> Longi temporis praescriptione munitis
+            instrumentorum amissio nihil iuris aufert nec diuturnitate possessionis
+            partem securitatem maleficium alterius turbare potest. * DIOCL. ET
+            MAXIM. AA. ET CC. ANTHEAE.*&lt;A 293 D. PRID. K. IAN. AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4482-Dd1e183">
+               <head xml:id="azsw2e-d1e4482-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e4482-d1e187">
+                  <ref xml:id="azsw2e-d1e4482-Rd1e189">Imperatores
+            Diocletianus, Maximianus</ref>  Si is contra quem supplicas matris
+            tuae quondam mancipia quasi filius ex causa tantum adoptionis defendit,
+            adfectio destinatae illicitae adoptionis ad horum dominium ei quaerendum
+            sola non sufficit. </p>
+               <p xml:id="azsw2e-d1e4482-d1e192" n="1">
+            Quapropter mancipia petere non prohiberis nullam timens temporis
+            praescriptionem , si hoc tantum initio procedente is contra quem supplicas
+            horum possessionem adeptus est. * DIOCL. ET MAXIM. AA. ET CC. CELSO.*&lt;A
+            294 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4482-Dd1e196">
+               <head xml:id="azsw2e-d1e4482-Hd1e198">9</head>
+               <p xml:id="azsw2e-d1e4482-d1e200">
+                  <ref xml:id="azsw2e-d1e4482-Rd1e202">Imperatores
+            Diocletianus, Maximianus</ref> Emptor bona fide contra praesentem
+            decennii praescriptione, cuius initio contestationem haberi sufficit,
+            posteaquam suam impleverit intentionem petitor, adhibita probatione
+            iustae possessionis defensus absolvi recte postulat. * DIOCL. ET MAXIM.
+            AA. ET CC. DEMOSTHENI.*&lt;A 294&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4482-Dd1e207">
+               <head xml:id="azsw2e-d1e4482-Hd1e209">10</head>
+               <p xml:id="azsw2e-d1e4482-d1e211">
+                  <ref xml:id="azsw2e-d1e4482-Rd1e213">Imperatores
+            Diocletianus, Maximianus</ref> Nec bona fide possessionem adeptis
+            longi temporis praescriptio post moram litis contestatae completa
+            proficit, cum post motam controversiam in praeteritum aestimetur.
+            * DIOCL. ET MAXIM. AA. ET CC. REGINO.*&lt;A 294 PP. V ID. DEC. CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4482-Dd1e217">
+               <head xml:id="azsw2e-d1e4482-Hd1e219">11</head>
+               <p xml:id="azsw2e-d1e4482-d1e221">
+                  <ref xml:id="azsw2e-d1e4482-Rd1e223">Imperator
+            Justinianus</ref> Super longi temporis praescriptione, quae ex decem
+            vel viginti annis introducitur, perspicuo iure sancimus, ut, sive
+            ex donatione sive ex alia lucrativa causa bona fide quis per decem
+            vel viginti annos rem detinuisse probetur, adiecto scilicet etiam
+            tempore prioris possessoris, memorata longi temporis exceptio sine
+            dubio ei competat nec occasione lucrativae causae repellatur. * IUST.
+            A. MENAE PP. *&lt;A 528 D. K. IUN. DN. IUSTINIANO PP. A. II CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4482-Dd1e227">
+               <head xml:id="azsw2e-d1e4482-Hd1e229">12</head>
+               <p xml:id="azsw2e-d1e4482-d1e231">
+                  <ref xml:id="azsw2e-d1e4482-Rd1e233">Imperator
+            Justinianus</ref>  Cum in longi temporis praescriptione tres emergebant
+            veteribus ambiguitates, prima proter res, ubi positae sunt, secunda
+            propter personas, sive utriusque sive alterutrius praesentiam exigimus,
+            et tertiae, si in eadem provincia vel si in eadem civitate debent
+            esse personae tam petentis quam possidentis et res, pro quibus certatur:
+            omnes praesentis legis amplectimur definitione, ut nihil citra eam
+            relinquatur. </p>
+               <p xml:id="azsw2e-d1e4482-d1e236" n="1">
+            Sancimus itaque debere in huiusmodi specie utriusque personae
+            tam petentis quam possidentis spectari domicilium, ut tam is qui dominii
+            vel hypothecae quaestionem inducit quam is qui res possidet domicilium
+            in uno habeant loco, id est in una provincia. Hoc etenim nobis magis
+            eligendum videtur, ut non civitate concludatur domicilium, sed magis
+            provincia, et si uterque domicilium in eadem habet provincia, causam
+            inter praesentes esse videri et decennio agentem excludi </p>
+               <p xml:id="azsw2e-d1e4482-d1e239" n="2">
+            De rebus autem, de quibus dubitatio est, nulla erit differentia,
+            sive in eadem provincia sint sive in vicina vel trans mare positae
+            et longo spatio separatae. </p>
+               <p xml:id="azsw2e-d1e4482-d1e242" n="3">
+            Sin autem non in eadem provincia uterque domicilium habeat,
+            sed alter in alia, alius in altera, tunc ut inter absentes causam
+            disceptari et locum esse viginti annorum exceptioni. Nihil enim prohibet,
+            sive in eadem provincia res constitutae sint sive in alia, super his
+            controversiam in iudicio provinciali moveri et multo magis in hac
+            florentissima civitate </p>
+               <p xml:id="azsw2e-d1e4482-d1e246"> 
+            Quid enim prodest in ipsa provincia esse possessionem an
+            in alia, cum ius vindicationis incorporale est et, ubicumque res positae
+            sunt, et dominium earum et vinculum ad dominum vel creditorem possit
+            reverti? ideo enim nostri maiores subtilissimo animo et divino quodam
+            motu ad actiones et earum iura pervenerunt, ut incorporales constitutae
+            possint ubicumque ius suum et effectum corporalem extendere. </p>
+               <p xml:id="azsw2e-d1e4482-d1e248"> 
+            Sit igitur secundum hanc definitionem causa perfectissime
+            composita et nemo posthac dubitet, neque inter praesentes neque inter
+            absentes quid statuendum sit, ut bono initio et possessione tenentis
+            et utriusque partis domicilio requisito sit expedita quaestio pro
+            rebus ubicumque positis, nulla scientia vel ignorantia expectanda,
+            ne altera dubitationis inextricabilis oriatur occasio. </p>
+               <p xml:id="azsw2e-d1e4482-d1e250" n="4">
+            Eodem observando et si res non soli sint, sed incorporales,
+            quae in iure consistunt, veluti usus fructus et ceterae servitutes.
+            * IUST. A. IOHANNI PP. *&lt;A 531 D.V K.DEC.CONSTANTINOPOLI POST CONSULATUM
+            LAMPADII ET ORESTIS VV.CC. &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

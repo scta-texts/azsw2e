@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 3</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 3</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6218"><!-- azsw2e-l10t3 -->
+            <head xml:id="azsw2e-d1e6218-Hd1e101">Titulus 3</head>
+            <head xml:id="azsw2e-d1e6218-Hd1e103" type="question-title">De fide et iure hastae fiscalis et de adiectionibus</head>
+            <div xml:id="azsw2e-d1e6218-Dd1e106">
+               <head xml:id="azsw2e-d1e6218-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6218-d1e110">
+                  <ref xml:id="azsw2e-d1e6218-Rd1e112">Imperator
+            Antoninus</ref> Quod in libellum contulisti,
+            procuratori meo, ad cuius officium desiderium tuum pertinet, adlega.
+            Cui si probaveris non auctore procuratore vel eo, cui vendendi fuit
+            facultas, neque habitis hastis nec omni ordine peracto venditas res
+            esse, et id quod ex causa iudicati debes exsolveris, rescissa venditione
+            mala fide facta easdem res recipies cum fructibus, quos ad emptorem
+            mala fide pervenisse vel pervenire debere constiterit * ANT. A. AGORTIAE.
+            *&lt;A 213 PP.NON.IAN.ANTONINO A.IIII ET BALBINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6218-Dd1e116">
+               <head xml:id="azsw2e-d1e6218-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6218-d1e120">
+                  <ref xml:id="azsw2e-d1e6218-Rd1e122">Imperator
+            Gordianus</ref> Duplex ratio desiderium tuum iuvat, et quod praetermissa
+            hastarum sollemnitate possessiones tuas ex officio distractas suggeris,
+            et quod pretii vilitate ob exiguum debitum gratiosam emptionem in
+            fraudem tuam utilitatemque rationum mearum adversarium commentum fuisse
+            dicis. Quapropter illicita ista redargue, tam indemnitati fisci consulturus
+            quam tuae securitati opem laturus * GORD. A. HERACLEONI. *&lt;A 239
+            PP.V K... GORDIANO A.ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6218-Dd1e126">
+               <head xml:id="azsw2e-d1e6218-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e6218-d1e130">
+                  <ref xml:id="azsw2e-d1e6218-Rd1e132">Imperator
+            Gordianus</ref> Etsi instrumenta emptionis
+            non extent, quibuscumque tamen probationibus uxor tua ostenderit ad
+            se eam domum pertinere, quam a fisco eius nomine dicis comparatam
+            , pretiumque ab ea exsolutum et in eam dominium translatum, frustra
+            fiscum ex persona matris eius referre quaestionem procurator meus
+            non sinet. * GORD. A. CRISPO. *&lt;A 239 PP.V K.NOV.GORDIANO A.ET
+            AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6218-Dd1e137">
+               <head xml:id="azsw2e-d1e6218-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e6218-d1e141">
+                  <ref xml:id="azsw2e-d1e6218-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Si tempora,
+            quae in fiscalibus hastis statuta sunt, patiuntur, cum etiam augmentum
+            te facturam esse profitearis, adi rationalem nostrum, ut iuxta ius
+            pretii uberioris oblationem admittat. * DIOCL. ET MAXIM. AA.
+            MARCELLINAE. *&lt;A 290 PP.III ID.IAN.SIRMI IPSIS IIII ET III AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6218-Dd1e147">
+               <head xml:id="azsw2e-d1e6218-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e6218-d1e151">
+                  <ref xml:id="azsw2e-d1e6218-Rd1e153">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Quaecumque pro reliquis prodigorum
+            in annonario titulo ceterisve fiscalibus debitis in quibuscumque corporibus
+            sub auctione licitanda sunt, fisco auctore vendantur, ut perpetuo
+            penes eos sint iure dominii, quibus res huiusmodi sub hastae sollemnis
+            arbitrio fiscus addixerit. </p>
+               <p xml:id="azsw2e-d1e6218-d1e156" n="1">
+            Et si quid umquam, ut a fisco facta venditio possit infringi,
+            auctoritate rescripti fuerit impetratum, nullus obtemperet, cum etiam
+            minoribus, si quando aliquid ex rebus eorum pro fiscalibus debitis
+            adiudicatur emptoribus, repetitionis facultas in omnem intercipiatur
+            aetatem. * VALENTIN. VALENS ET GRAT. AAA. AD VIVENTIUM PP.GALLIARUM.
+            *&lt;A 369 D.III ID.NOV.TREVIRIS VALENTINIANO NP.ET VICTORE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6218-Dd1e160">
+               <head xml:id="azsw2e-d1e6218-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e6218-d1e164">
+                  <ref xml:id="azsw2e-d1e6218-Rd1e166">Imperatores
+            Valentinianus, Valens, Gratianus</ref> Si qui proscribente ac distrahente
+            fisco debitorum fiscalium emerint facultates, pro earum rerum tantum
+            pretio obnoxii sint, quas eos patuerit decursis hastis et proscriptione
+            habita comparasse. Nam ita eos munimus, ut nullius conventioni reliquorum
+            fiscalium nomine patiamur extrinsecus subiacere * VALENTIN. VALENS
+            ET GRAT. AAA. AD FELICEM COM. SACR. LAR *&lt;A 370 D.VII ID.MART.MARCIANOPOLI
+            VALENTINIANO ET VALENTE AA.CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6218-Dd1e170">
+               <head xml:id="azsw2e-d1e6218-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e6218-d1e174"><!-- Greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 28 De inofficioso testamento.</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 28 De inofficioso testamento.</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1655"><!-- azsw2e-l3t28 -->
+            <head xml:id="azsw2e-d1e1655-Hd1e101">Titulus 28</head>
+            <head xml:id="azsw2e-d1e1655-Hd1e103" type="questio-title">De inofficioso testamento.</head>
+            <div xml:id="azsw2e-d1e1655-Dd1e106">
+               <head xml:id="azsw2e-d1e1655-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1655-d1e110">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Cum de inofficioso matris suae testamento
+            filius dicere velit adversus eum, qui ex causa fideicommissi hereditatem
+            tenet, non est iniquum hoc ei accommodari, ut perinde fideicommissarius
+            teneatur, ac si pro herede aut pro possessore possideret. * SEV. ET
+            ANT. AA. VICTORINO. *&lt;A 193 PP. V K. IUL. FALCONE ET CLARO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e116">
+               <head xml:id="azsw2e-d1e1655-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e1655-d1e120">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Quamvis de inofficioso testamento acturum
+            te bonorum possessionem accepisse proponas, tamen scriptis heredibus
+            auferre possessionem incivile est. * SEV. ET ANT. AA. LUCRETIO. *&lt;A
+            196 D. IIII K. DEC. DEXTRO II ET PRISCO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e126">
+               <head xml:id="azsw2e-d1e1655-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e1655-d1e130">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e132">Imperatores
+            Severus, Antoninus</ref>  Si mater filiis duobus institutis tertio
+            post testamentum suscepto, cum mutare idem testamentum potuisset,
+            hoc facere neglexisset, merito utpote non iustis rationibus neglectus
+            de inofficioso querellam instituere poterat. </p>
+               <p xml:id="azsw2e-d1e1655-d1e135" n="1">
+            Sed cum eam in puerperio vita cessisse proponas, repentini
+            casus iniquitas per coniecturam maternae pietatis emendanda est. Quare
+            filio tuo, cui nihil praeter maternum fatum imputari potest, perinde
+            virilem portionem tribuendam esse censemus, ac si omnes filios heredes
+            instituisset </p>
+               <p xml:id="azsw2e-d1e1655-d1e138" n="2">
+            Sin autem heredes scripti extranei erant, tunc de inofficioso
+            testamento actionem instituere non prohibetur. * SEV. ET ANT. AA.
+            IANUARIO. *&lt;A 197 PP. VIII K. IUL. LATERANO ET RUFINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e143">
+               <head xml:id="azsw2e-d1e1655-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e1655-d1e147">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e149">Imperatores
+            Severus, Antoninus</ref> Cum ex causa fideicommissi secundum decretum
+            praetoris in libertate morati sitis, filios etiam susceperitis, quamvis
+            postea domini vestri testamentum inofficiosum sit pronuntiatum agente
+            filio, non est aequum fieri vobis libertatis quaestionem. * IDEM AA.
+            SOTERICHO ET ALIIS. *&lt;A 208 PP. VI ID. MART. ANTONINO III ET GETA
+            II CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e153">
+               <head xml:id="azsw2e-d1e1655-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e1655-d1e157">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e159">Imperator
+            Antoninus</ref> Si pater tuus post litem contestatam vel postquam
+            propositum habuisset inofficiosum fratris testamentum dicere te herede
+            relicto decessit, causam coeptam vel quocumque modo illi placitam
+            exsequi non prohiberis. * ANT. A. AELIO. *&lt;A 211 PP. PRID. NON.
+            OCT. GENTIANO ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e163">
+               <head xml:id="azsw2e-d1e1655-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e1655-d1e167">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e169">Imperator
+            Antoninus</ref> Cum quaeritur, an filii de inofficioso patris testamento
+            possint dicere, si quartam bonorum mortis tempore testator reliquit,
+            inspicitur. * ANT. A. INGENUO. *&lt;A 212 PP. VII K. IUL. ROMAE DUOBUS
+            ASPRIS CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e173">
+               <head xml:id="azsw2e-d1e1655-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e1655-d1e177">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e179">Imperator
+            Antoninus</ref> Neptem defuncti actione de inofficioso testamento,
+            quamvis pater eius emancipatus fuerat defunctus, experiri posse ignorare
+            non debes. * ANT. A. SECUNDINO. *&lt;A 215 PP. VI K. IUL. ROMAE LAETO
+            II ET CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e183">
+               <head xml:id="azsw2e-d1e1655-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e1655-d1e187">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e189">Imperator
+            Antoninus</ref>  Parentibus arbitrium dividendae hereditatis inter
+            liberos adimendum non est, dum non minus, qui pietatis sibi conscius
+            est, partis quae intestato defuncto potuit ad eum pertinere quarta
+            ex iudicio parentis obtineat. </p>
+               <p xml:id="azsw2e-d1e1655-d1e192" n="1">
+            Qui autem agnovit iudicium defuncti eo, quod debitum paternum
+            pro hereditaria parte persolvit vel alio legitimo modo, etiamsi minus
+            quam ei debebatur relictum est, si is maior viginti quinque annis
+            est, accusare ut inofficiosam voluntatem patris quam probavit non
+            potest. * ANT. A. FLORENTINO. *&lt;A 223 PP. VII ID. FEBR. MAXIMO
+            II ET AELIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e196">
+               <head xml:id="azsw2e-d1e1655-Hd1e198">9</head>
+               <p xml:id="azsw2e-d1e1655-d1e200">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e202">Imperator
+            Antoninus</ref> De inofficioso testamento militis vel iure militare
+            vel civile facto vel centurionis vel tribuni numeri nec filios posse
+            queri ius certum est. * ANT. A. ROMANAE. *&lt;A 223 PP. ID. MAI. MAXIMO
+            II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e207">
+               <head xml:id="azsw2e-d1e1655-Hd1e209">10</head>
+               <p xml:id="azsw2e-d1e1655-d1e211">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e213">Imperator
+            Antoninus</ref> Si heredum quintiani, quem patrem tuum esse dicis,
+            adversus quos de inofficioso testamento acturus eras, iure successionis
+            bona ad fiscum pertinent, vel ipsius quintiani bona utpote vacantia
+            fiscus tenet, causam apud procuratorem meum agere potes. * ANT. A.
+            QUINTILIANO. *&lt;A 223 PP. II ID. AUG. MAXIMO II ET AELIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e217">
+               <head xml:id="azsw2e-d1e1655-Hd1e219">11</head>
+               <p xml:id="azsw2e-d1e1655-d1e221">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e223">Imperator
+            Antoninus</ref> In harenam non damnato, sed sua sponte harenario constituto
+            legitimae successiones integrae sunt, sicuti civitas et libertas manet.
+            Sed si testamentum parens eius fecit, neque de inofficioso testamento
+            accusatio neque bonorum possessio ei competit: nam talem filium merito
+            quis indignum sua successione iudicat, nisi et ipse similis condicionis
+            est * ANT. A. INGENUO. *&lt;A 224 PP. IIII K. IAN. IULIANO ET CRISPINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e227">
+               <head xml:id="azsw2e-d1e1655-Hd1e229">12</head>
+               <p xml:id="azsw2e-d1e1655-d1e231">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e233">Imperator
+            Antoninus</ref> Si pater puellae, cuius vos curatores esse dicitis,
+            filio ex semisse, ipsa autem ex triente et uxore ex reliquo sextante
+            scriptis heredibus, fidei filiorum commisit, ut, si quis eorum intra
+            viginti quinque annos aetatis decederet, superstitibus portionem suam
+            restitueret, praeterea uxori, ut id, quod ex causa hereditatis ad
+            eam pervenisset, filiis post mortem suam restitueret, fideicommisit,
+            calumniosam inofficiosi actionem adversus iustum iudicium testatoris
+            instituere non debetis, cum ex huiusmodi fideicommissaria restitutione
+            tam matris quam fratris eius portio ad eam poterat pervenire. * ANT.
+            A. LICINIANO ET DIOGENIANO. *&lt;A 229 PP. NON. DEC. ALEXANDRO A.
+            III ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e237">
+               <head xml:id="azsw2e-d1e1655-Hd1e239">13</head>
+               <p xml:id="azsw2e-d1e1655-d1e241">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e243">Imperator
+            Gordianus</ref> Cum duobus heredibus institutis, uno ex quinque, altero
+            ex septem unciis, adversus eum qui ex septem unciis heres scriptus
+            fuerat iusta querella contendisse, ab altero autem victum fuisse adlegas,
+            pro ea parte, qua resolutum est testamentum, cum iure intestati qui
+            obtinuit succedat, neque legata neque fideicommissa debentur, quamvis
+            libertates et directae competant et fideicommissariae praestari debeant.
+            * GORD. A. PRISCIANO. *&lt;A 239 PP. III K. FEBR. GORDIANO A. ET AVIOLA
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e247">
+               <head xml:id="azsw2e-d1e1655-Hd1e249">14</head>
+               <p xml:id="azsw2e-d1e1655-d1e251">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e253">Imperator
+            Gordianus</ref> Eum, qui inofficiosi querellam delatam non tenuit,
+            a falsi accusatione non submoveri placuit. Idem observatur et si e
+            contrario falsi crimine instituto victus postea de inofficioso actionem
+            exercere maluerit * GORD. A. PRISCO. *&lt;A 239 PP. VI K. DEC. GORDIANO
+            A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e257">
+               <head xml:id="azsw2e-d1e1655-Hd1e259">15</head>
+               <p xml:id="azsw2e-d1e1655-d1e261">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e263">Imperator
+            Philippus</ref> Filiam praeteritam a matre ad successionem eius citra
+            inofficiosi querellam adspirare non posse explorati iuris est. * PHILIPP.
+            A. ET PHILIPP. C. APHRODISIAE. *&lt;A 245 PP. V K. AUG. PHILIPPO A.
+            ET TITIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e268">
+               <head xml:id="azsw2e-d1e1655-Hd1e270">16</head>
+               <p xml:id="azsw2e-d1e1655-d1e272">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e274">Imperatores
+            Valerianus, Gallienus</ref> Contra maiores viginti quinque annorum
+            duplicem actionem inferentes, primam, quasi testamentum non iure sit
+            perfectum, alteram, quasi inofficiosum, licet iure perfectum, praescriptio
+            ex prioris iudicii mora quinquennalis temporis non nascitur, quae
+            officere non cessantibus non potest. * VALER. ET GALLIEN. AA. ET VALER.
+            NOB. C. THEODOTAE. *&lt;A 258 PP. ID. AUG. TUSCO ET BASSO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e278">
+               <head xml:id="azsw2e-d1e1655-Hd1e280">17</head>
+               <p xml:id="azsw2e-d1e1655-d1e282">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e284">Imperatores
+            Carinus, Numerianus</ref> Cum filium tuum te praeterita sororem heredem
+            instituisse proponas, inofficiosi querellam apud praesidem provinciae
+            persequi potes. * CARINUS ET NUMER. AA. FLORAE. *&lt;A 284 PP. PRID.
+            ID. FEBR. CARINO II ET NUMERIANO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e288">
+               <head xml:id="azsw2e-d1e1655-Hd1e290">18</head>
+               <p xml:id="azsw2e-d1e1655-d1e292">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e294">Imperatores
+            Diocletianus, Maximianus</ref> Cum te pietatis religionem non violasse,
+            sed mariti coniugium quod fueras sortita distrahere noluisse ac propterea
+            offensum atque iratum patrem ad exheredationis notam prolapsum esse
+            dicas, inofficiosi testamenti querellam inferre non vetaberis. * DIOCL.
+            ET MAXIM. AA. FAUSTINAE. *&lt;A 286 PP. NICOMEDIAE XVI K. MART. MAXIMO
+            II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e298">
+               <head xml:id="azsw2e-d1e1655-Hd1e300">19</head>
+               <p xml:id="azsw2e-d1e1655-d1e302">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e304">Imperatores
+            Diocletianus, Maximianus</ref> Si filia tua turpiter et cum flagitiosa
+            foeditate vivit, ut a successione tua eam excludendam putes, si non
+            inconsulto calore, sed ex meritis eius ad id odium incitatus es, postremi
+            iudicii liberum arbitrum habebis. * DIOCL. ET MAXIM. AA. APOLLINARI.
+            *&lt;A 293 D. XV K. IUL. SIRMI IPSIS V ET IIII AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e308">
+               <head xml:id="azsw2e-d1e1655-Hd1e310">20</head>
+               <p xml:id="azsw2e-d1e1655-d1e312">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e314">Imperatores
+            Diocletianus, Maximianus</ref> Filia in orbitate patris relicta cum
+            marito, cui matre volente nupsit, colens concordiam iustas offensionis
+            post eiusdem matris paenitentiam causas non praestat nec ex momentariis
+            voluntatibus matris nupta atque vidua esse iure compellitur. * DIOCL.
+            ET MAXIM. AA. ET CC. SABINIANO. *&lt;A 294 D. NON. IAN. SIRMI CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e318">
+               <head xml:id="azsw2e-d1e1655-Hd1e320">21</head>
+               <p xml:id="azsw2e-d1e1655-d1e322">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e324">Imperatores
+            Diocletianus, Maximianus</ref> Fratris vel sororis filii, patrui vel
+            avunculi, amitae etiam et materterae testamentum inofficiosum frustra
+            dicunt, cum nemo eorum qui ex transversa linea veniunt exceptis fratre
+            et sorore ad inofficiosi querellam admittatur. De falso sane per accusationem
+            criminis queri non prohibentur * DIOCL. ET MAXIM. AA. ET CC. ALEXANDRO.
+            *&lt;A 294 D. VI ID. FEBR. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e329">
+               <head xml:id="azsw2e-d1e1655-Hd1e331">22</head>
+               <p xml:id="azsw2e-d1e1655-d1e333">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e335">Imperatores
+            Diocletianus, Maximianus</ref>  Si maritus tuus facto testamento te
+            quidem ex asse scripsit heredem, filia autem quam habuit in potestate
+            exheredata facta minime probetur nihilque ei relictum est neque iustas
+            causas offensae praestitisse convincatur, eam de inofficioso testamento
+            patris querentem totam hereditatem obtinere posse non ambigitur. </p>
+               <p xml:id="azsw2e-d1e1655-d1e338" n="1">
+            Quod si iam obtinuit vel postea vincat, quodcumque maritus
+            mortis suae tempore debuisse tibi perhibetur, idem ab ea reddi oportet.
+            * DIOCL. ET MAXIM. AA. ET CC. STATILLAE. *&lt;A 294 D. ID. FEBR. SIRMI
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e342">
+               <head xml:id="azsw2e-d1e1655-Hd1e344">23</head>
+               <p xml:id="azsw2e-d1e1655-d1e346">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e348">Imperatores
+            Diocletianus, Maximianus</ref> Testamenti factionem per testationem
+            vos interdixisse matri profitentes iustitiam offensae manifeste testamini.
+            * DIOCL. ET MAXIM. AA. ET CC. PHILIPPAE. *&lt;A 294 D. V ID. SEPT.
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e352">
+               <head xml:id="azsw2e-d1e1655-Hd1e354">24</head>
+               <p xml:id="azsw2e-d1e1655-d1e356">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e358">Imperatores
+            Diocletianus, Maximianus</ref> Testamentum militis filii familias
+            in castrensi peculio factum neque a patre neque a liberis eius per
+            inofficiosi querellam rescindi potest. * DIOCL. ET MAXIM. AA. ET CC.
+            SUCCESSO. *&lt;A 294 D. III NON. DEC. NICOMEDIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e362">
+               <head xml:id="azsw2e-d1e1655-Hd1e364">25</head>
+               <p xml:id="azsw2e-d1e1655-d1e366">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e368">Imperatores
+            Diocletianus, Maximianus</ref> Filiis matrem, quae de mariti moribus
+            secus suspicetur, ita posse consulere iure compertum est, ut eos sub
+            hac condicione instituat heredes, si a patre emancipati fuerint, atque
+            eo pacto secundum tabulas bonorum possessionem patrem cum re accipere
+            non videri, qui condicioni minime obtemperavit, neque ei nomine filiorum
+            inofficiosi eo modo actionem posse competere, quibus nullam iniuriam
+            fecerit mater, sed potius putaverit providendum, restituere debet.
+            * DIOCL. ET MAXIM. AA. ET CC. MENODOTO. *&lt;A 301 D. IIII NON. IUL.
+            ANTIOCHIAE TITIANO ET NEPOTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e372">
+               <head xml:id="azsw2e-d1e1655-Hd1e374">26</head>
+               <p xml:id="azsw2e-d1e1655-d1e376">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e378">Imperatores
+            Diocletianus, Maximianus</ref> Ex tribus unciis herede instituto filio
+            intra pubertatis annos directam non inutiliter a patre fieri substitutionem
+            certum est. * DIOCL. ET MAXIM. AA. ET CC. SERAPIONI SUO S. *&lt;A
+            304 D. V K. SEPT. NICOMEDIAE DIOCLETIANO VIIII ET MAXIMIANO VIII AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e382">
+               <head xml:id="azsw2e-d1e1655-Hd1e384">27</head>
+               <p xml:id="azsw2e-d1e1655-d1e386">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e388">Imperator
+            Constantinus</ref> Fratres vel sorores uterini ab inofficiosi actione
+            contra testamentum fratris vel sororis penitus arceantur: consanguinei
+            autem durante vel non agnatione contra testamentum fratris sui vel
+            sororis de inofficioso quaestionem movere possunt , si scripti heredes
+            infamiae vel turpitudinis vel levis notae macula adsparguntur vel
+            liberti, qui perperam et non bene merentes maximisque beneficiis suum
+            patronum adsecuti instituti sunt, excepto servo necessario herede
+            instituto. * CONST. A. AD LUCRIUM VERINUM. *&lt;A 319 D. ID. APRIL.
+            SIRMIO CONSTANTINO A. V ET LICINIO C. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e393">
+               <head xml:id="azsw2e-d1e1655-Hd1e395">28</head>
+               <p xml:id="azsw2e-d1e1655-d1e397">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e399">Imperator
+            Constantinus</ref>  Liberi de inofficioso querellam contra testamentum
+            parentum moventes probationes debent praestare, quod obsequium debitum
+            iugiter, prout ipsius naturae religio flagitabat, parentibus adhibuerunt,
+            nisi scripti heredes ostendere maluerint ingratos liberos contra parentes
+            extitisse. </p>
+               <p xml:id="azsw2e-d1e1655-d1e402" n="1">
+            Sin autem mater contra filii testamentum inofficiosi actionem
+            instituat, inquiri diligenter iubemus, utrum filius nulla ex iusta
+            causa laesus matrem novissima laeserit voluntate nec luctuosam ei
+            et legitimam reliquerit portionem, ut testamento remoto matri successio
+            deferatur. </p>
+               <p xml:id="azsw2e-d1e1655-d1e405" n="2">
+            Si tamen mater inhonestis factis atque indecentibus machinationibus
+            filium forte obsedit insidiisque eum vel clandestinis vel manifestis
+            appetiit vel inimicis eius suas amicitias copulavit atque in aliis
+            sic versata est, ut inimica eius potius quam mater crederetur, ut
+            hoc probato invita etiam adquiescat filii voluntati. * CONST. A. AD
+            CLAUDIUM PRAES. DACIAE. *&lt;A 321 D. VIII ID. FEBR. SERDICAE CRISPO
+            II ET CONSTANTINO II CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e409">
+               <head xml:id="azsw2e-d1e1655-Hd1e411">29</head>
+               <p xml:id="azsw2e-d1e1655-d1e413">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e415">Imperator
+            Zeno</ref>  Quoniam novella constitutio divi leonis ante nuptias donationem
+            a filio conferri ad similitudinem dotis quae a filia confertur praecepit,
+            etiam ante nuptias donationem filio in quartam praecipimus imputari.
+            </p>
+               <p xml:id="azsw2e-d1e1655-d1e418" n="1">
+            Eodemque modo cum mater pro filia dotem vel pro filio ante
+            nuptias donationem vel avus paternus aut maternus vel avia paterna
+            aut materna pro sua nepte vel pro suo nepote vel proavus itidem vel
+            proavia paterna aut materna pro sua pronepte vel pro suo pronepote
+            dederit, non tantum eandem dotem vel donationem conferri, verum etiam
+            in quartam partem ad excludendam inofficiosi querellam tam dotem datam
+            quam ante nuptias donationem praefato modo volumus imputari, si ex
+            substantia eius profecta sit, cuius de hereditate agitur. * ZENO A.
+            SEBASTIANO PP. *&lt;A 479 D. K. MAI. IPSO A. II CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e422">
+               <head xml:id="azsw2e-d1e1655-Hd1e424">30</head>
+               <p xml:id="azsw2e-d1e1655-d1e426">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e428">Imperator
+            Justinianus</ref>  Omnimodo testatorum voluntatibus prospicientes magnam
+            et innumerabilem occasionem subvertendae eorum dispositionis amputare
+            censemus et in certis casibus, in quibus de inofficiosis defunctorum
+            testamentis vel alio modo subvertendis moveri solebat actio, certa
+            et statuta lege tam mortuis consulere quam liberis eorum vel aliis
+            personis, quibus eadem actio competere poterat: ut, sive adiciatur
+            testamento de implenda legitima portione sive non, firmum quidem testamentum
+            sit, liceat vero his personis, quae testamentum quasi inofficiosum
+            vel alio modo subvertendum queri poterant, id quod minus portione
+            legitima sibi relictum est ad implendam eam sine ullo gravamine vel
+            mora exigere, si tamen non ingrati legiti mis modis arguantur, cum
+            eos scilicet ingratos circa se fuisse testator edixit: nam si nullam
+            eorum quasi ingratorum fecerit mentionem, non licebit eius heredibus
+            ingratos eos nominare et huiusmodi quaestionem introducere. Et haec
+            quidem de his personis statuimus, quarum mentionem testantes fecerint
+            et aliquam eis quantitatem in hereditate vel legato vel fideicommisso,
+            licet minorem legitima portione, reliquerint </p>
+               <p xml:id="azsw2e-d1e1655-d1e431" n="1">
+            Sin vero vel praeterierint aliquam eorum personam iam natam
+            vel ante testamentum quidem conceptam, adhuc vero in ventre constitutam,
+            vel exheredatione vel alia eorum mentione facta nihil eis penitus
+            reliquerint, tunc vetera iura locum habere sancimus, nullam ex praesenti
+            promulgatione novationem vel permutationem acceptura. </p>
+               <p xml:id="azsw2e-d1e1655-d1e434" n="2">
+            Imputari vero filiis aliisque personis, quae dudum ad inofficiosi
+            testamenti querellam vocabantur, in legitimam portionem et illa volumus,
+            quae occasione militiae ex pecuniis mortui eisdem personis adquisitae
+            posse lucrari eas manifestum est, eo quod talis sit militia, ut vendatur
+            vel mortuo militante certa pecunia ad eius heredes perveniat, ita
+            tamen, ut ille gradus eiusdem militiae inspiciatur, quem morte testatoris
+            militans obtinet, ut tanta ei pecunia in legitimam portionem computetur,
+            quantam dari statutum est, si in eo gradu mortuus esset is, qui militiam
+            ex pecuniis testatoris adeptus est. </p>
+               <p xml:id="azsw2e-d1e1655-d1e437" n="3">
+            Exceptis solis viris spectabilibus silentiariis sacri nostri
+            palatii, quibus praestita iam specialia beneficia tam de aliis capitulis
+            quam de pecuniis super memorata militia a parentibus eorum datis,
+            ne in legitimam portionem eis computentur, rata esse praecipimus:
+            in ceteris vero personis praedictam observationem tenere volumus.
+            * IUST. A. MENAE PP. *&lt;A 528 D. K. IUN. CONSTANTINOPOLI IUSTINIANO
+            A. II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e441">
+               <head xml:id="azsw2e-d1e1655-Hd1e443">31</head>
+               <p xml:id="azsw2e-d1e1655-d1e445">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e447">Imperator
+            Justinianus</ref> Quae nuper ad testamenta conservanda nec facile
+            retractanda sanximus, ut ratione falcidiae minime illis personis derelicta,
+            quae ad inofficiosi testamenti querellam ex prioribus vocabantur legibus,
+            non periclitentur testamenta, sed quod deest legitimae portioni, id
+            est quartae parti ab intestato successionis, tantum repleatur, exceptis
+            illis quibus nihil in testamento derelictum est, in quibus prisca
+            iura illibata servavimus, etiam ad testamenta sine scriptis facienda
+            locum habere sancimus. * IUST. A. MENAE PP. *&lt;A 528 D. III ID.
+            DEC. CONSTANTINOPOLI DN. IUSTINIANO PP. A. II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e451">
+               <head xml:id="azsw2e-d1e1655-Hd1e453">32</head>
+               <p xml:id="azsw2e-d1e1655-d1e455">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e457">Imperator
+            Justinianus</ref> Quoniam in prioribus sanctionibus illud statuimus,
+            ut, si quid minus legitima portione his derelictum sit, qui ex antiquis
+            legibus de inofficioso testamento actionem movere poterant, hoc repleatur
+            nec occasione minoris quantitatis testamentum rescindatur, hoc in
+            praesenti addendum esse censemus, ut, si condicionibus quibusdam vel
+            dilationibus aut aliqua dicpositione moram vel modum vel aliud gravamen
+            introducente eorum iura, qui ad memoratam actionem vocabantur, minuta
+            esse videantur, ipsa condicio vel dilatio vel alia dispositio moram
+            vel quodcumque onus introducens tollatur et ita res procedat, quasi
+            nihil eorum testamento additum esset. * IUST. A. MENAE PP. *&lt;A
+            529 D. II K. APRIL. CONSTANTINOPOLI DEC IO VC. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e461">
+               <head xml:id="azsw2e-d1e1655-Hd1e463">33</head>
+               <p xml:id="azsw2e-d1e1655-d1e465">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e467">Imperator
+            Justinianus</ref>  Si quis suo testamento maximam quidem portionem
+            libero derelinquat, minusculam autem alii vel aliis de sua stirpe
+            progenitis, ipsam tamen legitimam sive in hereditate vel in legato
+            vel in fideicommisso, ut non possit locus de inofficiosi testamenti
+            querellae fieri, et ille quidem, qui ex parvulo genitoris sui consequitur
+            substantiam, eam suscipere maluerit, qui autem ex maiore parte eam
+            amplexus est, sive unus vel si plures sint, non statim et sine contentioso
+            proposito vel ulla mora eam restituere voluerit, sed expectato iudiciorum
+            strepitu et multis variisque certaminibus habitis post longum tempus
+            ex sententia iudicis vix eam reddiderit, crudelitatem eius competenti
+            poena adgredimur, ut, si haec fuerint subsecuta, non tantum in quod
+            testator voluit eum restituere condemnetur, s ed etiam aliam tertiam
+            partem quantitatis, quae fuerat in testamento derelicta, modis omnibus
+            reddere, ut avaritia eius legitimis ictibus feriatur: aliis omnibus,
+            quae in eodem testamento vel elogio scripta sunt, pro sui tenore ad
+            effectum perducendis. </p>
+               <p xml:id="azsw2e-d1e1655-d1e470" n="1">
+            Legis autem veteris iniquitatem tollentes, ut non diutius
+            erubescat posita, quam iulius paulus in suis scripsit quaestionibus,
+            hanc piissimam adgredimur sanctionem. Cum enim infantem suum non posse
+            ingratum a matre sua vocari scripsit neque propter hoc ab ultima suae
+            matris hereditate repelli, nisi hoc odio sui fecerit mariti, ex quo
+            infans progenitus est, hoc iniquum iudicantes, ut alieno odio alius
+            praegravetur, penitus delendum esse sancimus et huiusmodi causam liberis
+            non tantum infantibus, sed etiam quamcumque aetatem agentibus opponi
+            minime concedimus, cum possit sub condicione emancipationis hereditatem
+            suam mater filio derelinquens et patris odium punire et iuri filii
+            sui minime nocere nec suam ma turam fallere. Satis enim crudele nobis
+            esse videtur eum qui non sentit ingratum existimar * IUST. A. DEMOSTHENI
+            PP. *&lt;A 529 D. XV K. OCT. CHALCEDONE DECIO VC. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e475">
+               <head xml:id="azsw2e-d1e1655-Hd1e477">34</head>
+               <p xml:id="azsw2e-d1e1655-d1e479">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e481">Imperator
+            Justinianus</ref>  Si quis filium suum exheredatum fecerit alio scripto
+            herede, reliquerit autem ex eo nepotem vel vivum vel in ventre nurus
+            suae constitutum, deliberante vero scripto herede filius decesserit,
+            nulla hereditatis petitione ex nomine de inofficioso constituta vel
+            praeparata omne adiutorium nepotem dereliquit. Nec enim pater nepoti
+            aliquod ius, cum decesserit, contra patris sui testamentum dereliquit,
+            quia postea et adita est ab extraneo hereditas et supervixit avo pater
+            eius, ut neque ex lege Vellaea possit in locum patris sui succedere
+            et rescindere testamentum. Et hoc nonnulli iuris consulti in medio
+            proponentes inhumane reliquer un </p>
+               <p xml:id="azsw2e-d1e1655-d1e484" n="1">
+            Sed nos, qui omnes subiectos nostros et filios et nepotes
+            habere existimamus adfectione paterna et imitatione, secundum quod
+            possibile est omnium commodo prospicientes iubemus in tali specie
+            eadem iura nepoti dari, quae filius habebat, et nisi praeparatio facta
+            est ad inofficiosi querellam instituendam, tamen posse nepotem eandem
+            causam proponere: et si non heres apertissimis probationibus ostenderit
+            ingratum patrem nepotis circa testatorem fuisse, testamento remoto
+            ab intestato eum vocari, nisi certa quantitas patri eius minor parte
+            legitima relicta est: tunc etenim secundum novellam nostri numinis
+            constitutionem repletio quartae partis nepoti superest, si qua patri
+            eius competebat: et perfruatur nostro beneficio a vetustate quidem
+            neglectus, a nostro autem vigore recreatus, nisi pater adhuc superstes
+            vel repudiavit querellam vel quinquennium tacuit, scilicet post aditam
+            hereditatem. * IUST. A. IOHANNI PP. *&lt;A 531 D. III K. AUG. CONSTANTINOPOLI
+            POST CONSULATUM LAMPADII ET ORESTAE VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e488">
+               <head xml:id="azsw2e-d1e1655-Hd1e490">35</head>
+               <p xml:id="azsw2e-d1e1655-d1e492">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e494">Imperator
+            Justinianus</ref>  Si quando talis concessio imperialis processerit,
+            per quam libera testamenti factio conceditur, nihil aliud videri principem
+            concedere, nisi ut habeat consuetam et legitimam testamenti factionem.
+            Neque enim credendum est Romanum principem qui iura tuetur huiusmodi
+            verbo totam observationem testamentorum multis vigiliis excogitatam
+            atque inventam velle everti </p>
+               <p xml:id="azsw2e-d1e1655-d1e497" n="1">
+            Illud etiam sancimus, ut, si quis a patre certas res vel
+            pecunias accepisset et pactus fuisset, quatenus de inofficiosi querella
+            adversus testamentum paternum minime ab eo moveretur, et post obitum
+            patris filius cognito paterno testamento non agnoverit eius iudicium,
+            sed oppugnandum putaverit, vetere iurgio exploso huiusmodi pacto filium
+            minime gravari secundum Papiniani responsum, in quo definivit meritis
+            filios ad paterna obsequia provocandos quam pactionibus adstringendos.
+            </p>
+               <p xml:id="azsw2e-d1e1655-d1e500"> 
+            Sed hoc ita admittimus, nisi transactiones ad heredes paternos
+            filius celebraverit, in quibus apertissime iudicium patris agnoverit.</p>
+               <p xml:id="azsw2e-d1e1655-d1e502" n="2">
+            Et generaliter definimus, quando pater minus legitima portione
+            filio reliquerit vel aliquid dederit vel mortis causa donatione vel
+            inter vivos sub ea condicione , ut haec inter vivos donatio in quartam
+            ei computetur, si filius post obitum patris hoc quod relictum vel
+            datum est simpliciter agnoverit, forte et securitatem heredibus fecerit
+            quod ei relictum est accepisse, non adiciens nullam sibi superesse
+            de repletione quaestionem, nullum filium sibi facere praeiudicium,
+            sed legitimam partem repleri, nisi hoc specialiter sive in apocha
+            sive in transactione scripserit vel pactus fuerit, quod contentus
+            relicta vel data parte de eo quod deest nullam habet quaestionem:
+            tunc etenim omni exclusa querella paternum amplecti compellitur iudicium.
+            </p>
+               <p xml:id="azsw2e-d1e1655-d1e506" n="3">
+            Quae omnis sanctio suas radices extendat non solum ad filium
+            vel filiam, sed etiam ad omnes personas, quae de inofficioso querellam
+            contra mortuorum ultima elogia possunt movere. * IUST. A. IOHANNI
+            PP. *&lt;A 531 D. K. SEPT. CONSTANTINOPOLI POST CONSULATUM LAMPADII
+            ET ORESTAE VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e510">
+               <head xml:id="azsw2e-d1e1655-Hd1e512">36</head>
+               <p xml:id="azsw2e-d1e1655-d1e514">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e516">Imperator
+            Justinianus</ref>  Scimus ante constitutionem fecisse, qua cautum est,
+            si pater minorem debita portionem filio suo reliquisset, omnimodo,
+            etsi non adiciatur viri boni arbitratu repleri filio, attamen ipso
+            iure inesse eandem repletionem. </p>
+               <p xml:id="azsw2e-d1e1655-d1e519" n="1">
+            Quaerebatur itaque, si quis rem donatam vel inter vivos vel
+            mortis causa vel in testamento relictam agnoverit et pro parte sua
+            habuerit, deinde eadem res evicta vel tota vel pro parte fuerit, an
+            debeat ex nostra constitutione pars legitima post evictionem suppleri:
+            vel si ex lege Falcidia minuantur legata vel fideicommissa vel mortis
+            causa donationes, debet tamen ex hoc casu supplementum introduci:
+            ne, dum totam falcidiam accipere heres nititur, etiam totum commodum
+            hereditatis amittat. </p>
+               <p xml:id="azsw2e-d1e1655-d1e522"> 
+            Sancimus itaque in omnibus istis casibus, sive in totum evictio
+            subsequatur sive in partem, emendari vitium et vel aliam rem vel pecunias
+            restitui vel repletionem fieri, nulla falcidia interveniente, ut,
+            sive ab initio minus fuerit derelictum sive extrinsecus qualiscumque
+            causa interveniens aliquod gravamen imponat vel in quantitate vel
+            in tempore, hoc modis omnibus repleri et nostrum iuvamen purum filiis
+            inferri. </p>
+               <p xml:id="azsw2e-d1e1655-d1e524"> 
+            Repletionem autem fieri ex ipsa substantia patris, non si
+            quid ex aliis causis filius lucratus est vel ex substitutione vel
+            ex iure adcrescendi, puta usus fructus: humanitatis etenim gratia
+            sancimus ea quidem omnia quasi iure adventicio eum lucrari, repletionem
+            autem ex rebus substantiae fieri. </p>
+               <p xml:id="azsw2e-d1e1655-d1e527"> 
+            Cum autem quis extraneo herede instituto filio suo restituere
+            eum hereditatem suam, cum moriatur, disposuerit, vel in tempus certum
+            restitutionem distulerit, quia nostra constitutio, quae antea posita
+            est, omnem dilationem omnem moram censuit esse abstrahendam, ut quarta
+            pars pura et mox filio restituatur, in huiusmodi specie quid faciendum
+            sit, dubitabatur. </p>
+               <p xml:id="azsw2e-d1e1655-d1e529"> 
+            Sancimus itaque quartae quidem partis restitutionem iam nunc
+            celebrari non expectata nec morte heredis nec temporis intervallo,
+            reliquim autem, quod post legitimam portionem restat, tunc restitui,
+            quando testator disposuit.</p>
+               <p xml:id="azsw2e-d1e1655-d1e531"> 
+            Sic etenim filius suam habebit portionem integram et qualem
+            leges et nostra constitutio definivit, et scriptus heres commodum
+            quod ei testator dereliquit cum legitimo moderamine sentiet. </p>
+               <p xml:id="azsw2e-d1e1655-d1e533" n="2">
+            Illud praeterea sancimus, ut tempora de inofficiosi querellae
+            ab adita hereditate secundum ulpiani opinionem currant, herennii modestini
+            sententia recusata, qui a morte testatoris ilico cursum de inofficioso
+            querellae temporibus dabat, ut non liceat heredi quando voluerit adire,
+            ne per huiusmodi tramitem iterum filius defraudetur debito naturali.
+            </p>
+               <p xml:id="azsw2e-d1e1655-d1e536"> 
+            Sancimus itaque, ubi testator decesserit alio scripto herede
+            et speratur de inofficioso querella, necessitatem habere scriptum
+            heredem, si quidem praesto est in eadem commanens provincia, intra
+            sex mensuum spatium, sin autem seorsum utraque pars in diversis provinciis
+            degit, tunc intra annale tantummodo spatium simili modo per continuum
+            a morte testatoris numerandum omnimodo adire huiusmodi hereditatem,
+            vel manifestare suam sententiam, quod hereditatem minime admittit:
+            expeditus etenim ita tractatus inducitur filio memoratam movere querellam:
+            sin vero scriptus heres intra statuta tempora minime adierit, per
+            officium quidem iudicis scriptum compelli hoc facere. </p>
+               <p xml:id="azsw2e-d1e1655-d1e538"> 
+            In medio tamen, id est a morte quidem testatoris, ante aditam
+            autem hereditatem, etsi decesserit filius, huiusmodi querellam, licet
+            non se praeparavit, ad suam posteritatem transmittet, ad extraneos
+            vero heredes tunc tantummodo, quando antiquis libris insertam faciat
+            praeparationem. * IUST. A. IOHANNI PP. *&lt;A 531 D. K. SEPT. CONSTANTINOPOLI
+            POST CONSULATUM LAMPADII ET ORESTAE VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1655-Dd1e541">
+               <head xml:id="azsw2e-d1e1655-Hd1e543">37</head>
+               <p xml:id="azsw2e-d1e1655-d1e545">
+                  <ref xml:id="azsw2e-d1e1655-Rd1e547">Imperator
+            Justinianus</ref>  Cum antiquis legibus declaratum est, ut militaria
+            testamenta de inofficioso querellam evadant, multi alii casus emergunt,
+            in quibus dubitationes exortas sopiri necesse est. </p>
+               <p xml:id="azsw2e-d1e1655-d1e550" n="1">
+            In castrensibus etenim peculiis introducta est et alia subdivisio
+            et peculii triplex invenitur causa. Vel enim paganum est peculium
+            vel castrense vel quod medietatem inter utrumque obtinet, quod quasi
+            castrense nuncupatur </p>
+               <p xml:id="azsw2e-d1e1655-d1e553"> 
+            In tali igitur peculio, quod quasi castrense appellatur,
+            quibusdam personis licentia conceditur condere quidem testamenta,
+            sed non quasi militibus pro voluerint modo, sed communi et licito
+            et consueto ordine observando, quemadmodum constitutum fuerat in consulibus
+            et praefectis legionum et praesidibus provinciarum et omnibus generaliter,
+            qui in diversis dignitatibus vel administrationibus positi a nostra
+            consequuntur manu vel ex publicis salariis quasdam largitates. </p>
+               <p xml:id="azsw2e-d1e1655-d1e555"> 
+            Sed hae quidem personae testamenti faciendi habent potestatem
+            in ipsis tamen tantummodo peculiis, quae iam enumerata sunt, id est
+            quasi castrensibus. </p>
+               <p xml:id="azsw2e-d1e1655-d1e558"> 
+            Sed et veterani, qui tempore quidem militiae sibi peculium
+            adquisierunt, militiam autem deposuerunt, testari ( licito tamen modo)
+            non prohibentur. </p>
+               <p xml:id="azsw2e-d1e1655-d1e560"> 
+            In his itaque omnibus quasi castrensibus peculiis dubitabatur,
+            si contra huiusmodi testamenta de inofficioso querellam extendi oportet.
+            </p>
+               <p xml:id="azsw2e-d1e1655-d1e562"> 
+            Sed prior quaestio erat, si omnes qui quasi castrense peculium
+            habent testari in hoc possint, quia non omnibus passim, sed quibusdam
+            personis hoc privilegii loco concessum est: quia militibus quidem
+            et veteranis testamenta facere in castrensi peculio undique concessum
+            fuerat, sed militibus quidem in expeditione constitutis iure suo,
+            veteranis autem iure communi: de aliis autem personis omnibus, quae
+            non per speciale privilegium hoc acceperunt, si possint testari, dubitatum
+            fuerat, ut puta viris disertissimis patronis causarum virisque devotissimis
+            memorialibus et agentibus in rebus nec non magistris studiorum liberalium,
+            archiatris quoque et omnibus omnino, qui salaria vel stipendia percipiunt
+            publica. </p>
+               <p xml:id="azsw2e-d1e1655-d1e564"> 
+            In his itaque omnibus sancimus, quia ad imitationem peculii
+            castrensis quasi castrense peculium supervenit, omnibus, qui tale
+            peculium possident, super ipsis tantummodo rebus, quae quasi castrensis
+            peculii sunt, ultima condere ( secundum leges tamen) posse elogia:
+            hoc nihilo minus eis addito privilegio, ut neque eorum testamenta
+            de inofficioso querella expugnentur. </p>
+               <p xml:id="azsw2e-d1e1655-d1e566"> 
+            Si enim patronus adversus res, quas libertus eius ex castris
+            quaesivit sui iuris indubitanter constitutus, praeteritus fuerit ab
+            ingrato liberto, tamen contra eiusmodi peculium contra tabulas bonorum
+            possessionem non habet secundum veterum legum sanctionem, quemadmodum
+            oportet praefata peculia, quae ad instar castrensis peculii introducta
+            sunt, de inofficioso querellae esse supposita? </p>
+               <p xml:id="azsw2e-d1e1655-d1e568" n="2">
+            Sed haec obtinere oportet, donec in sacris parentum suorum
+            constituti sunt hi qui quasi castrense peculium possident. Si enim
+            sui iuris efficiantur, procul dubio est eorum testamenta et pro ipsis
+            rebus, quas antea ex quasi castrensi peculio habebant, posse de inofficioso
+            querellam sustinere, cum neque nomen peculii permanet, sed aliis rebus
+            confunditur et similem fortunam recipit, quemadmodum et ceterae res
+            eorum, et unum congregatur ex omnibus patrimonium * IUST. A. IOHANNI
+            PP. *&lt;A 531 D. K. SEPT. CONSTANTINOPOLI POST CONSULATUM LAMPADII
+            ET ORESTAE VV CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

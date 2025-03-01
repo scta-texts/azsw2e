@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 65</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 65</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4840"><!-- azsw2e-l7t65 -->
+            <head xml:id="azsw2e-d1e4840-Hd1e101">Titulus 65</head>
+            <head xml:id="azsw2e-d1e4840-Hd1e103" type="question-title">Quorum appellationes non recipiantur</head>
+            <div xml:id="azsw2e-d1e4840-Dd1e106">
+               <head xml:id="azsw2e-d1e4840-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4840-d1e110">
+                  <ref xml:id="azsw2e-d1e4840-Rd1e112">Imperator
+            Antoninus</ref> Eius, qui per contumaciam absens, cum ad agendam causam
+            vocatus esset, condemnatus est negotio prius summatim perscrutato,
+            appellatio recipi non potest. * ANT. A. SABINO. *&lt;A 213 PP. NON.
+            IUL. ANTONINO A. IIII ET BALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4840-Dd1e116">
+               <head xml:id="azsw2e-d1e4840-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4840-d1e120">
+                  <ref xml:id="azsw2e-d1e4840-Rd1e122">Imperator
+            Constantius</ref>  Observare curabis, ne quis homicidarum veneficorum
+            maleficorum adulterorum itemque eorum, qui manifestam violentiam commiserunt,
+            argumentis convictus, testibus superatus, voce etiam propria vitium
+            scelusque confessus audiatur appellans.</p>
+               <p xml:id="azsw2e-d1e4840-d1e125" n="1">
+            Sicut enim haec ita observari disposuimus, ita aequum est
+            testibus productis, instrumentis prolatis aliisque argumentis praestitis,
+            si sententia contra eum lata sit et ipse, qui condemnatus est aut
+            minime voce sua confessus sit aut formidine tormentorum tentus contra
+            se aliquid dixerit, provocandi licentiam ei non denegari.*
+            CONSTANTIUS A. AD HIEROCLEM. *&lt;A 344 D. V ID. DEC. LEONTIO ET SALLUSTIO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4840-Dd1e129">
+               <head xml:id="azsw2e-d1e4840-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e4840-d1e133">
+                  <ref xml:id="azsw2e-d1e4840-Rd1e135">Imperatores
+            Valentinianus, Valens</ref> Nulli officialium a sententia proprii
+            iudicis provocatio tribuatur nisi in eo tantum negotio, quod ratione
+            civili, super patrimonio forte, apud proprium iudicem inchoarit, scilicet
+            ut in eo tantum negotio a sententia eius, cui paret iudici, quisquis
+            velit officialis appellet, quod per procuratorem persequi iure tribuitur.
+            * VALENTIN. ET VALENS AA. AD MODESTUM PP. *&lt;A 373 D. IIII ID. IUN.
+            CYZICO VALENTINIANO ET VALENTE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4840-Dd1e140">
+               <head xml:id="azsw2e-d1e4840-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e4840-d1e144">
+                  <ref xml:id="azsw2e-d1e4840-Rd1e146">Imperatores
+            Valentinianus, Valens, Gratianus</ref> Abstinendum prorsus appellatione
+            sancimus, quotiens fiscalis calculi satisfactio postulatur aut tributariae
+            functionis sollemne munus exposcitur aut publici vel etiam privati,
+            dummodo evidentis atque convicti redhibitio debiti flagitatur, ut
+            necessario in contumacem vigor iudiciarius excitetur. * VALENTIN.
+            ET VALENS ET GRAT. AAA. AD OLYBRIUM PU. *&lt;A 368 PP. ROMAE XV K.
+            SEPT VALENTINIANO ET VALENTE II AA. CONSS.&gt; </p>
+               <p xml:id="azsw2e-d1e4840-d1e149"> 
+            </p>
+               <p xml:id="azsw2e-d1e4840-d1e151">
+                  <ref xml:id="azsw2e-d1e4840-Rd1e153">Imperatores
+            Valentinianus, Valens, Gratianus</ref> Si clericus ante definitivam
+            sententiam frustratoriae dilationis causa ad appellationis auxilium
+            convolaverit, multam quinquaginta librarum argenti, quam contra huiusmodi
+            appellatores sanctio generalis imponit, cogatur expendere. Hoc autem
+            non fisco nostro volumus accedere, sed pauperibus fideliter erogari
+            * VALENTIN. ET VALENS ET GRAT. AAA. AD CLAUDIUM PU. *&lt;A 369 D.
+            VIII ID. IUL. VALENTINIANO NP. ET VICTORE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4840-Dd1e157">
+               <head xml:id="azsw2e-d1e4840-Hd1e159">5</head>
+               <p xml:id="azsw2e-d1e4840-d1e161">
+                  <ref xml:id="azsw2e-d1e4840-Rd1e163">Imperatores
+            Valens, Gratianus, Valentinianus</ref>  Ab exsecutione appellari non
+            posse satis et iure et constitutionibus cautum est, nisi forte exsecutor
+            sententiae modum iudicationis excedat. </p>
+               <p xml:id="azsw2e-d1e4840-d1e166" n="1">
+            A quo si fuerit appellatum, exsecutione suspensa decernendum
+            putamus, ut, si res mobilis est, ad quam restituendam exsecutoris
+            opera fuerit indulta, appellatione suscepta possessori res eadem detrahatur
+            et idoneo collocetur reddenda ei parti, pro qua sacer cognitor iudicaverit.
+            </p>
+               <p xml:id="azsw2e-d1e4840-d1e169" n="2">
+            Quod si de possessione vel de fundis exsecutio concessa erit
+            et eam suspenderit provocatio, fructus omnes, qui tempore interpositae
+            provocationis capti vel postea nati erunt, in deposito collocentur,
+            iure fundi penes eum qui appellaverit constituto. </p>
+               <p xml:id="azsw2e-d1e4840-d1e172" n="3">
+            Sciant autem se provocatores vel ab exsecutione appellantes
+            vel ab articulo, si eos perperam intentionem cognitoris suspendisse
+            claruerit, quinquaginta librarum argenti animadversione multandos.
+            * VALENS GRAT. ET VALENTIN. AAA. AD THALASSIUM PROCONS. AFRICAE.*&lt;A
+            378 D. III K. FEBR. TREVIRIS VALENTE VI ET VALENTINIANO II AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4840-Dd1e176">
+               <head xml:id="azsw2e-d1e4840-Hd1e178">6</head>
+               <p xml:id="azsw2e-d1e4840-d1e180">
+                  <ref xml:id="azsw2e-d1e4840-Rd1e182">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Quisquis, ne voluntas diem
+            functi testamento scripta reseretur, vel ne hi, quos scriptos patuerit
+            heredes, in possessionem mittantur, ausus fuerit provocare interpositamque
+            appellationem is cuius de ea re notio erit recipiendam esse crediderit,
+            viginti librarum argenti multa et litigatorem, qui tam importune appellaverit,
+            et iudicem, qui tam ignave coniventiam adhibuerit, involvat. * GRAT.
+            VALENTIN. ET THEODOS. AAA. AD HYPATIUM PU. *&lt;A 379 D. NON. APRIL.
+            TRIVERIS AUSONIO ET OLYBRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4840-Dd1e186">
+               <head xml:id="azsw2e-d1e4840-Hd1e188">7</head>
+               <p xml:id="azsw2e-d1e4840-d1e190">
+                  <ref xml:id="azsw2e-d1e4840-Rd1e192">Imperatores
+            Gratianus, Valentinianus, Arcadius</ref> Ante sententiae tempus et
+            ordinem eventus nec a discussore nec a rationali appellare liceat.
+            * GRAT. VALENTIN. ET ARCAD. AAA. AD PELAGIUM COM. RER. PRI *&lt;A
+            385 D. XV K. MART. MEDIOLANI ARCADIO A. ET BAUTONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4840-Dd1e196">
+               <head xml:id="azsw2e-d1e4840-Hd1e198">8</head>
+               <p xml:id="azsw2e-d1e4840-d1e200">
+                  <ref xml:id="azsw2e-d1e4840-Rd1e202">Imperatores
+            Arcadius, Honorius</ref> Et publicarum necessitatum et privati aerarii
+            deposcit utilitas, ne commoda, quae domui nostrae debentur, callidis
+            debitorum artibus differantur. Quamobrem eorum appellatione reiecta,
+            qui aperte manifesteque convicti sunt, hoc observari praecepti huius
+            auctoritate censemus, ut ei, quem constiterit esse publicum debitorem,
+            appellationis beneficium denegetur * ARCAD. ET HONOR. AA. APOLLODORO
+            COM. RER. PRIVAT. *&lt;A 396 D. IIII ID. AUG. MEDIOLANI ARCADIO IIII
+            ET HONORIO III AA. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

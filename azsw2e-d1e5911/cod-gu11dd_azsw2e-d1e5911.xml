@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 27</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 27</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5911"><!-- azsw2e-l9t27 -->
+            <head xml:id="azsw2e-d1e5911-Hd1e101">Titulus 27</head>
+            <head xml:id="azsw2e-d1e5911-Hd1e103" type="question-title">Ad legem Iuliam repetundarum</head>
+            <div xml:id="azsw2e-d1e5911-Dd1e106">
+               <head xml:id="azsw2e-d1e5911-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5911-d1e110">
+                  <ref xml:id="azsw2e-d1e5911-Rd1e112">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Ut unius poena metus possit
+            esse multorum, ducem qui male egit ad provinciam quam nudaverat cum
+            custodia competenti ire praecipimus, ut non solum, quod eius non dicam
+            domesticus, sed manipularius et minister accepit, verum etiam quod
+            ipse a provincialibus nostris rapuit aut sustulit, in quadruplum invitus
+            exsolvat. * GRAT. VALENTIN. ET THEODOS. AAA. MATRONIANO DUCI ET PRAES.
+            ISAURIAE.*&lt;A 382 D.PRID.ID.IUN.CONSTANTINOPOLI ANTONIO ET SYAGRIO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5911-Dd1e116">
+               <head xml:id="azsw2e-d1e5911-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5911-d1e120">
+                  <ref xml:id="azsw2e-d1e5911-Rd1e122">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Sciant iudices super admissis
+            propriis aut a se aut ab heredibus suis poenam esse repetendam. *
+            GRAT. VALENTIN. ET THEODOS. AAA. FLORO PP. *&lt;A 382 D.X K.SEPT.ANTONIO
+            ET SYAGRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5911-Dd1e126">
+               <head xml:id="azsw2e-d1e5911-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5911-d1e130">
+                  <ref xml:id="azsw2e-d1e5911-Rd1e132">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Omnes cognitores et iudices
+            a pecuniis atque patrimoniis manus abstineant neque alienum iurgium
+            putent suam praedam. Etenim privatarum quoque litium cognitor idemque
+            mercator statutam legibus cogetur subire iacturam * GRAT. VALENTIN.
+            ET THEODOS. AAA. MARCELLINO. *&lt;A 383 D.PRID.NON.APRIL.MEDIOLANI
+            MEROBAUDE II ET SATURNINO CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5911-Dd1e137">
+               <head xml:id="azsw2e-d1e5911-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e5911-d1e141">
+                  <ref xml:id="azsw2e-d1e5911-Rd1e143">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Iubemus hortamur, ut, si
+            quis forte honoratorum decurionum possessorum, postremo etiam colonorum
+            aut cuiuslibet ordinis a iudice fuerit aliqua ratione concussus, si
+            quis scit venalem de iure fuisse sententiam, si quis poenam vel pretio
+            remissam vel vitio cupiditatis ingestam, si quis postremo quacumque
+            de causa improbum iudicem potuerit approbare, is vel administrante
+            eo vel post administrationem depositam in publicum prodeat, crimen
+            deferat, delatum approbet, cum probaverit, et victoriam reportaturus
+            et gloriam. * GRAT. VALENTIN. ET THEODOS. AAA. ET ARCAD. A. EDICTUM
+            AD P *&lt;A 386 D.X K.IUL.CONSTANTINOPOLI HONORIO NP.ET EUODIO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5911-Dd1e147">
+               <head xml:id="azsw2e-d1e5911-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e5911-d1e151">
+                  <ref xml:id="azsw2e-d1e5911-Rd1e153">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref>  Unusquisque procurator,
+            praepositus gynaecei, tabularius susceptor colonus vel quicumque se
+            a comite domorum meminerit esse concussum, cum ipse cui pecuniam numeraverit
+            administratione decesserit, intra anni spatia ad iudicium spectabilitatis
+            tuae quidquid dederit repetiturus occurrat, ut prosit pensionibus,
+            quidquid ille reddiderit. </p>
+               <p xml:id="azsw2e-d1e5911-d1e156" n="1">
+            Sin vero ex tempore depositae administrationis praestituti
+            temporis curricula transfluxerint, nulla vox advocationis emergat,
+            sed ipsos procuratores praepositos colonos tabularios susceptores
+            obnoxios ad solutionem volumus artari. * VALENTIN. THEODOS. ET ARCAD.
+            AAA. SEVERINO COM. RER. PRIVAT *&lt;A 390 D. PRID. NON. IUN. MEDIOLANI
+            VALENTINIANO A. IIII ET NEOTERIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5911-Dd1e160">
+               <head xml:id="azsw2e-d1e5911-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e5911-d1e164">
+                  <ref xml:id="azsw2e-d1e5911-Rd1e166">Imperatores
+            Theodosius, Valentinianus</ref>  Sancimus eiusmodi viros ad provincias
+            regendas accedere, qui honoris insignia non ambitione vel pretio,
+            sed probatae vitae et amplitudinis tuae solent testimonio promoveri,
+            ita sane ut, quibus hi honores per sedis tuae vel nostram fuerint
+            electionem commissi, iurati inter gesta depromant se pro administrationibus
+            sortiendis neque dedisse quippiam neque daturos umquam postmodum fore,
+            sive per se sive per interpositam in fraudem legis sacramentique personam,
+            aut donationis venditionisve titulo aut alio velamento cuiuscumque
+            contractus, et ob hoc exceptis salariis nihil penitus tam in administratione
+            positos quam post depositum officium pro aliquo praestito beneficio
+            tempore administrationis, quam gratuito meruerint, accepturos. </p>
+               <p xml:id="azsw2e-d1e5911-d1e169" n="1">
+            Et licet neminem divini timoris contemnendo iureiurando arbitramur
+            immemorem, ut saluti propriae ullum commodum anteponat, tamen, ut
+            ad salutis timorem et necessitas periculi subiungatur, tunc si quis
+            ausus fuerit praebita sacramenta neglegere, non modo adversus accipientem,
+            sed etiam adversus dantem accusandi cunctis tamquam crimen publicum
+            concedimus facultatem, quadrupli poena eo qui convictus fuerit modis
+            omnibus feriendo. * THEODOS. ET VALENTIN. AA. FLORENTIO PP. *&lt;A
+            439 D. VI K. DEC. CONSTANTINOPOLI THEODOSIO A. XVII ET FESTO CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

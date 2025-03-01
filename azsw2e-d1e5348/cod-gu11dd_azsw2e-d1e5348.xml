@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 35</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 35</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5348"><!-- azsw2e-l8t35 -->
+            <head xml:id="azsw2e-d1e5348-Hd1e101">Titulus 35</head>
+            <head xml:id="azsw2e-d1e5348-Hd1e103" type="question-title">De exceptionibus sive praescriptionibus</head>
+            <div xml:id="azsw2e-d1e5348-Dd1e106">
+               <head xml:id="azsw2e-d1e5348-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5348-d1e110">
+                  <ref xml:id="azsw2e-d1e5348-Rd1e112">Imperator
+            Antoninus</ref> Debitores quidem hereditarii unicuique heredum pro
+            portione hereditaria antiqua lege obligati sunt. Sed si eis heredibus
+            omnem pecuniam exsolvisti, quibus nomen patris tui testator in divisione
+            adscripserat, doli mali exceptione adversus alios agentes tueri te
+            potes * ANT. A. CLAUDIO. *&lt;A 212 PP. XV K. AUG. DUOBUS ASPRIS CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5348-Dd1e116">
+               <head xml:id="azsw2e-d1e5348-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5348-d1e120">
+                  <ref xml:id="azsw2e-d1e5348-Rd1e122">Imperator
+            Antoninus</ref> Pro portione tua, qua domum ad te pertinere dicis,
+            si iudicatum non est, actiones dirigere potes. Nam exceptio rei iudicatae
+            ei demum obstat vel successoribus eius, inter quos cognitum super
+            ea re et pronuntiatum est * ANT. A. IULIO. *&lt;A 213 PP. XV K. MART.
+            ANTONINO A. IIII ET BALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5348-Dd1e126">
+               <head xml:id="azsw2e-d1e5348-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5348-d1e130">
+                  <ref xml:id="azsw2e-d1e5348-Rd1e132">Imperator
+            Antoninus</ref> Adversus fratrem tuum quondam tutorem legitimum tutelae
+            iudicio si expertus non es, proposita actione consiste. Nec timueris
+            exceptionem pacti, si in eo fraudem dolumque admissum probare potes:
+            nam replicatio doli opposita bonae fidei iudicium facit et commentum
+            fraudis repellit * ANT. A. VITALI. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5348-Dd1e137">
+               <head xml:id="azsw2e-d1e5348-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e5348-d1e141">
+                  <ref xml:id="azsw2e-d1e5348-Rd1e143">Imperator
+            Alexander Severus</ref> Cum nondum finitam sententia causam, sed dilatam
+            adlegetis, non est dubium omnes integras defensiones vobis esse. *
+            ALEX. A. IUNIO ET ALIIS. *&lt;A 223 PP. II NON. OCT. MAXIMO II ET
+            AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5348-Dd1e147">
+               <head xml:id="azsw2e-d1e5348-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e5348-d1e151">
+                  <ref xml:id="azsw2e-d1e5348-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Licet unde vi interdictum intra annum
+            locum habet, tamen exceptione perpetua ei succurri, qui per vim expulsus
+            post retinuit possessionem, auctoritate manifestatur. * DIOCL. ET
+            MAXIM. AA. ET CC. BASILIO. *&lt;A 293 S. K. MAI. TRALLIS AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5348-Dd1e157">
+               <head xml:id="azsw2e-d1e5348-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e5348-d1e161">
+                  <ref xml:id="azsw2e-d1e5348-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Si pactum intercessit, in exceptione
+            sine temporis praefinitione de dolo replicari potest. * DIOCL. ET
+            MAXIM. AA. ET CC. HELENAE. *&lt;A 293 S. K. SEPT. VIMINACII AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5348-Dd1e167">
+               <head xml:id="azsw2e-d1e5348-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e5348-d1e171">
+                  <ref xml:id="azsw2e-d1e5348-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Si ex maiore debiti quantitate minor
+            tibi soluta est nec liberationem debitori tuo praestitisti, petere
+            quod non probatur redditum, contra exceptionem pacti replicatione
+            tuam adiuvans intentionem, minime prohiberis. * DIOCL. ET MAXIM. AA.
+            ET CC. MENANDRAE. *&lt;A 294 S. II K. MART. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5348-Dd1e177">
+               <head xml:id="azsw2e-d1e5348-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e5348-d1e181">
+                  <ref xml:id="azsw2e-d1e5348-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Praescriptionem peremptoriam, quam
+            ante contestari sufficit, vel omissam, priusquam sententia feratur,
+            obicere quandoque licet. * DIOCL. ET MAXIM. AA. ET CC. AURELIO. *&lt;A
+            294 S. XV K. NOV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5348-Dd1e187">
+               <head xml:id="azsw2e-d1e5348-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e5348-d1e191">
+                  <ref xml:id="azsw2e-d1e5348-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Si quidem intentionem actoris probatione
+            deficere confidis, nulla tibi defensio necessaria est. Si vero de
+            hac confitendo exceptione te munitum adseveres, de hac tantum agi
+            convenit. Nam si etiam de intentione dubitas, habita de exceptione
+            contestatione tunc demum, cum intentionem secundum adseverationem
+            suam petitor probaverit, huic esse locum monstrari conveni * DIOCL.
+            ET MAXIM. AA. ET CC. MUCIANO. *&lt;A 294 S. III NON. NOV. BURTUDIZI
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5348-Dd1e198">
+               <head xml:id="azsw2e-d1e5348-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e5348-d1e202">
+                  <ref xml:id="azsw2e-d1e5348-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> Non exceptionibus actores, quibus reis
+            auxilium tribuitur certis ex causis, sed replicationibus suam intentionem,
+            si quam habent, muniunt. * DIOCL. ET MAXIM. AA. ET CC. AQUILINAE.
+            *&lt;A 294 S. K. DEC. NICOMEDIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5348-Dd1e208">
+               <head xml:id="azsw2e-d1e5348-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e5348-d1e212">
+                  <ref xml:id="azsw2e-d1e5348-Rd1e214">Imperatores
+            Diocletianus, Maximianus</ref> Defensiones sive exceptiones ad intercessores
+            extendi, quibus reus principalis integro manente statu munitus est,
+            constat. * DIOCL. ET MAXIM. AA. ET CC. NEONI. *&lt;A XXX SUB DIE XV
+            K. IAN.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5348-Dd1e218">
+               <head xml:id="azsw2e-d1e5348-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e5348-d1e222">
+                  <ref xml:id="azsw2e-d1e5348-Rd1e224">Imperator
+            Julianus</ref> Si quis advocatus inter exordia litis praetermissam
+            dilatoriam praescriptionem postea voluerit exercere et ab huiusmodi
+            opitulatione submotus nihilo minus perseveret atque praeposterae defensioni
+            institerit, unius librae auri condemnatione multetur. * IUL. A. AD
+            IULIANUM COM. ORIENTIS. *&lt;A 363 D. VII ID. MART. ANTIOCHIAE IULIANO
+            A. IIII ET SALUSTIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5348-Dd1e228">
+               <head xml:id="azsw2e-d1e5348-Hd1e230">13</head>
+               <p xml:id="azsw2e-d1e5348-d1e232">
+                  <ref xml:id="azsw2e-d1e5348-Rd1e234">Imperatores
+            Honorius, Theodosius</ref> Praescriptiones fori in principio a litigatoribus
+            opponendas esse legum decrevit auctoritas. * HONOR. ET THEODOS. AA.
+            SYMMACHO PROCONS. AFRICAE. *&lt;A 415 D. V K. SEPT. RAVENNAE HONORIO
+            X ET THEODOSIO VI AA. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

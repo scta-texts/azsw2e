@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 39</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 39</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6045"><!-- azsw2e-l9t39 -->
+            <head xml:id="azsw2e-d1e6045-Hd1e101">Titulus 39</head>
+            <head xml:id="azsw2e-d1e6045-Hd1e103" type="question-title">De his qui latrones vel in aliis criminibus reos occultaverint</head>
+            <div xml:id="azsw2e-d1e6045-Dd1e106">
+               <head xml:id="azsw2e-d1e6045-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6045-d1e110">
+                  <ref xml:id="azsw2e-d1e6045-Rd1e112">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Eos, qui se cum alieni criminis
+            reo occultando eum sociarunt, par ipsos et reos poena expectet. </p>
+               <p xml:id="azsw2e-d1e6045-d1e115" n="1">
+            Et latrones quisquis sciens susceperit vel offerre iudiciis
+            supersederit, supplicio corporali aut dispendio facultatum pro qualitate
+            personae et iudicis aestimatione plectatur. * VALENTIN. VALENS ET
+            GRAT. AAA. SIMPLICIO VIC. *&lt;A 374 PP.ROMAE X K.APRIL.GRATIANO A.III
+            ET EQUITIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6045-Dd1e119">
+               <head xml:id="azsw2e-d1e6045-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e6045-d1e123">
+                  <ref xml:id="azsw2e-d1e6045-Rd1e125">Imperator
+            Marcianus</ref>  Si qui latrones seu aliis criminibus obnoxii in possessione
+            degunt seu latitant, dominus possessionis, si praesto est, aut procuratores,
+            si dominus abest, seu primates possessionis ultro eos offerant aut,
+            si scientes hoc sponte non fecerint, conveniantur a civili officio,
+            ut tradant provinciali iudicio eos qui requiruntur, prout iuris est
+            sub examine iudicis arguendos et poenas post documenta congruas subituros.
+            Si vero exhibere eos domini vel procuratores aut primates possessionis
+            distulerint, tunc ad detinendos eos a rectore provinciae omnia civilia
+            dirigantur auxilia </p>
+               <p xml:id="azsw2e-d1e6045-d1e128" n="1">
+            Si autem propter multitudinem forte eorum, qui in praedio
+            sunt, civile adminiculum sufficere non posse constiterit et memorati
+            audaces exsecutoribus obiecerint manus vel alias parere distulerint,
+            tunc iudex provinciae memor periculi sui a viro devoto tribuno seu
+            primatibus militum qui in locis sunt auxilium postulet, ut per militarem
+            manum correpti accusati sine damno atque laesione cuiuslibet legibus
+            offerantur et convicti poenas subeant competentes: non ignaro iudice,
+            quod, si adversus innocentes vel ob aliam causam praeter latronum
+            vel aliorum nocentium investigationem militare auxilium postulaverit
+            aut dispendiis adfici provinciales concesserit, commotione severissima,
+            prout tua celsitudo iudicaverit, ferietur. </p>
+               <p xml:id="azsw2e-d1e6045-d1e131"> 
+            Tribuni etiam seu primates numerorum, qui in locis sunt,
+            admoniti per litteras iudicis si adminiculum militare praebere noluerint,
+            aut si ab ipsis militibus damna provincialibus inflicta fuerint, et
+            damna et laesiones restituent et acerrima condemnatione pro arbitrio
+            virorum illustrium magistrorum militum ferientur. </p>
+               <p xml:id="azsw2e-d1e6045-d1e133" n="2">
+            Domini etiam praediorum seu procuratores vel primates possessionum
+            impunes non manebunt, si praesentes et scientes ultro non obtulerint
+            nocentes vel admoniti eos exhibere distulerint: nam dominus quidem
+            possessionis dominio privabitur, procurator vero seu primates perpetuo
+            exilio subiacebunt. Ipsi quoque procuratori vel domino vel primatibus
+            possessionis, si se ad comprimendam multitudinem rusticanorum sufficere
+            non posse firmaverint et id provinciali iudicio palam fecerint, militare
+            auxilium rector provinciae a tribuno vel primatibus numeri faciet
+            dari, si civilia sufficere non posse perspexerit </p>
+               <p xml:id="azsw2e-d1e6045-d1e137" n="3">
+            Si vero post exhibitionem eorum qui accusantur innocentes
+            eos esse et nihil criminis admisisse patuerit, accusatores poenam
+            quae in calumniatores exercenda est subire cogantur. Exemplo autem
+            grave est sic latronem requirere, ut innocentibus periculum fiat *
+            MARCIAN. A. PALLADIO PP. *&lt;A 451 D.XII K.IAN.CONSTANTINOPOLI MARCIANO
+            A. CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

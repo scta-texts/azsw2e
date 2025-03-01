@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 25</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 25</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5236"><!-- azsw2e-l8t25 -->
+            <head xml:id="azsw2e-d1e5236-Hd1e101">Titulus 25</head>
+            <head xml:id="azsw2e-d1e5236-Hd1e103" type="question-title">De remissione pignoris</head>
+            <div xml:id="azsw2e-d1e5236-Dd1e106">
+               <head xml:id="azsw2e-d1e5236-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5236-d1e110">
+                  <ref xml:id="azsw2e-d1e5236-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Si te manumissum et in libertate moratum
+            sciente ea, cui pignoris nomine obligatus diceris, praesidi probaveris,
+            ex consensu creditricis remissam pignoris obligationem apparebit,
+            et per hoc iure te manumissum nec ab herede debitricis in servitutem
+            peti posse certum est. * SEV. ET ANT. AA. PROCULO. *&lt;A 205 PP.
+            XII K. MAI. ANTONINO A. II ET GETA II CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5236-Dd1e116">
+               <head xml:id="azsw2e-d1e5236-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5236-d1e120">
+                  <ref xml:id="azsw2e-d1e5236-Rd1e122">Imperator
+            Antoninus</ref> Si probaveris te fundum mercatum possessionemque eius
+            tibi traditam sciente et consentiente ea, quae sibi eum a venditore
+            obligatum dicit, eam exceptione removebis. Nam obligatio pignoris
+            consensu et contrahitur et dissolvitur * ANT. A. MATERNO. *&lt;A 208
+            PP. II ID. FEBR. ANTONINO A. III ET GETA III CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5236-Dd1e126">
+               <head xml:id="azsw2e-d1e5236-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5236-d1e130">
+                  <ref xml:id="azsw2e-d1e5236-Rd1e132">Imperator
+            Alexander Severus</ref> Si ignorante vel invito te debitor tuus, qui
+            universa bona sua ob pecuniam debitam tibi obligaverat, etsi cum re
+            publica, postea contraxit, ius tuum non laesit. * ALEX. A. TAURO.
+            *&lt;A 227 PP. III ID. APRIL. ALBINO ET MAXIMO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5236-Dd1e137">
+               <head xml:id="azsw2e-d1e5236-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e5236-d1e141">
+                  <ref xml:id="azsw2e-d1e5236-Rd1e143">Imperator
+            Gordianus</ref> Cum te a debitore mercatum proponas eam rem, quae
+            alii pignerata erat, si sciente eo ac pignus suum remittente eam mercatus
+            es, cum eius consensu nexus pignoris evanuerit, si non nova voluntas
+            intercessit, quae denuo obligationem pignoris constitueret, ea res
+            veluti obstricta non potest vindicari. * GORD. A. AQUILINO. *&lt;A
+            239 PP. XI K. MAI. GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5236-Dd1e147">
+               <head xml:id="azsw2e-d1e5236-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e5236-d1e151">
+                  <ref xml:id="azsw2e-d1e5236-Rd1e153">Imperator
+            Gordianus</ref> Debitum, cuius meministi, quod per pacti conventionem
+            inutiliter factam remisisti, etiam nunc petere non vetaris et usitato
+            more pignora vindicare. * GORD. A. ASCLEPIADI. *&lt;A 241 PP. VI ID.
+            SEPT. GORDIANO A. II ET POMPEIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5236-Dd1e157">
+               <head xml:id="azsw2e-d1e5236-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e5236-d1e161">
+                  <ref xml:id="azsw2e-d1e5236-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Si eo tempore, quo praedium distrahebatur,
+            programmate admoniti creditores, cum praesentes essent, ius suum exsecuti
+            non sunt, possunt videri obligationem pignoris amisisse. * DIOCL.
+            ET MAXIM. AA. ARGIO. *&lt;A 286 PP. III ID. FEBR. MAXIMO II ET AQUILINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5236-Dd1e167">
+               <head xml:id="azsw2e-d1e5236-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e5236-d1e171">
+                  <ref xml:id="azsw2e-d1e5236-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Creditricem patrui tui sub obligatione
+            fundi, qui per chirographum nexus pignori fuerat, iubentem eandem
+            cautionem reddi pignoris etiam ius remisisse videri manifestum est.
+            * DIOCL. ET MAXIM. AA. PAULO. *&lt;A 287 PP. V ID. SEPT. DIOCLETIANO
+            III ET MAXIMIANO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5236-Dd1e177">
+               <head xml:id="azsw2e-d1e5236-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e5236-d1e181">
+                  <ref xml:id="azsw2e-d1e5236-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Si hypothecas fisco distrahente creditores
+            silentio tradiderunt negotium, palam est actionem suam amisisse eos,
+            quam in rem habebant. Nam fiscalis hastae fides facile convelli non
+            debet * DIOCL. ET MAXIM. AA. APOLLONIO. *&lt;A 290 PP. XIII K. SEPT.
+            IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5236-Dd1e187">
+               <head xml:id="azsw2e-d1e5236-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e5236-d1e191">
+                  <ref xml:id="azsw2e-d1e5236-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref>  Cum ex causa mandati pro socero tuo
+            te fenebrem pecuniam exsolvisse proponas, curabit praeses provinciae
+            in restituenda pecunia, quam pro eo exsolvisti, nec non etiam usuris
+            eius indemnitati tuae prospicere. </p>
+               <p xml:id="azsw2e-d1e5236-d1e196" n="1">
+            Nam si recepta a creditore mancipia, quae pignori fuerant
+            data, hac mente socero tuo tradidisti, ut pignoris vinculum dissolvatur,
+            obligatio semel extincta instaurari non potest. * DIOCL. ET MAXIM.
+            AA. HERMIANO. *&lt;A 290 PP. X K. OCT. IPSIS IIII ET III AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5236-Dd1e201">
+               <head xml:id="azsw2e-d1e5236-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e5236-d1e205">
+                  <ref xml:id="azsw2e-d1e5236-Rd1e207">Imperatores
+            Diocletianus, Maximianus</ref> Res pignoris hypothecaeve iure creditoribus
+            obnoxias citra consensum eorum debitores alienantes praecedentem non
+            dissolvunt obligationem. * DIOCL. ET MAXIM. AA. ET CC. QUINTILLAE.
+            *&lt;A 293 D. K. DEC. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5236-Dd1e211">
+               <head xml:id="azsw2e-d1e5236-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e5236-d1e215">
+                  <ref xml:id="azsw2e-d1e5236-Rd1e217">Imperator
+            Justinianus</ref>  Solita providentia utimur etiam de pignoribus vel
+            hypothecis rerum, quae quibusdam creditoribus suppositae postea a
+            debitoribus venduntur vel alio modo transferuntur creditore suum consensum
+            contractui praebente et quodam legitimo postea modo ad priorem dominum
+            revertuntur. </p>
+               <p xml:id="azsw2e-d1e5236-d1e220" n="1">
+            In hoc etenim casu diversae sententiae legum prudentibus
+            habitae sunt, quibusdam dicentibus ius pignoris creditori renovari
+            propter verbum " futurarum rerum", quod in generalibus hypothecis
+            poni solitum est, aliis penitus extingui. </p>
+               <p xml:id="azsw2e-d1e5236-d1e223" n="2">
+            Nobis autem visum est eum, qui semel consensit alienationi
+            hypothecae et hoc modo suum ius respuit, indignum esse eandem rem
+            utpote ab initio ei suppositam vindicare vel tenentem inquietare.
+            * IUST. A. IOHANNI PP. *&lt;A 532 D. XV K. NOV. CONSTANTINOPOLI POST
+            CONSULATUM LAMPADII ET ORESTIS VV. CC. ANNO SECUNDO.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

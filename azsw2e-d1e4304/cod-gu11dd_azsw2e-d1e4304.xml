@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 17</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 17</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4304"><!-- azsw2e-l7t17 -->
+            <head xml:id="azsw2e-d1e4304-Hd1e101">Titulus 17</head>
+            <head xml:id="azsw2e-d1e4304-Hd1e103" type="question-title">De adsertione tollenda</head>
+            <div xml:id="azsw2e-d1e4304-Dd1e106">
+               <head xml:id="azsw2e-d1e4304-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4304-d1e110">
+                  <ref xml:id="azsw2e-d1e4304-Rd1e112">Imperator
+            Justinianus</ref>  Lites super servili condicione movendas ad clementiorem
+            tam examinationem quam terminum transferimus iubentes, si quis vel
+            adhuc serviens liberum se esse dixerit vel in libertate commorans
+            ad servitutem vocatus fuerit, adsertoris difficultatem in utroque
+            casu cessare ipsumque per se ad intentiones eius qui dominum sese
+            adserit respondere et, si ex possessione libertatis ad servitutem
+            ducitur, etiam procuratorem dare minime prohiberi, quod his, qui ex
+            servitute ad libertatem prosiluerint, penitus interdicimus: illis
+            legibus, quae dudum et secunda et tertia vice adsertorias lites examinari
+            praecipiebant, in posterum conquiescentibus, cum sit iustum primam
+            definitionem in suis manere viribus, cum provocatio nulla oblata fuerit:
+            qua porrecta, ad similitudinem aliorum negotiorum iudex, ad quem res
+            ex provocatione ducitur, eam examinabit, cuius et ipsius iudicium
+            ad secundam exquisitionem minime deducetur occasione legum, quae super
+            adsertoriis litibus positae sunt. </p>
+               <p xml:id="azsw2e-d1e4304-d1e115" n="1">
+            Super peculio etiam eorum vel aliis rebus aut causis veterem
+            defensoris observationem tollimus, praecipientes illorum tantummodo
+            peculia, qui ex possessione servitutis super libera condicione litigant,
+            aliasque res quae vindicantur in tuto pro dispositione iudicis collocari.
+            </p>
+               <p xml:id="azsw2e-d1e4304-d1e118" n="2">
+            Omnes vero, qui pro libertate periclitantur, si quidem possint
+            fideiussorem dare , eum exigi: sin vero re vera datio eius impossibilis
+            eis sit hocque iudici manifeste ostendatur, iuratoriae cautioni committi:
+            scientes quod, si post hiusmodi expositionem afuerint et edictis citati
+            in absentia nihilo minus per unum annum duraverint, omnimodo servituti
+            obnoxii erunt et eius dominio, qui litem eis intulit, sine ulla dubitatione
+            adsignabuntur. </p>
+               <p xml:id="azsw2e-d1e4304-d1e121" n="3">
+            Scire vero eos volumus, qui aliquem ad servitutem vocant,
+            quod, si post primam accusationem in quocumque iudicio vel ex divali
+            iussione factam et admonitionem ei oblatam, qui servus esse dicitur,
+            in alio iudicio eum accusaverint ( praeterquam si eius occasionem
+            ipse qui servus esse dicitur praestiterit), etsi domini sint, suo
+            iure privabuntur. * IUST. A. MENAE PP. *&lt;A 528 D. III ID. DEC.
+            DN. IUSTINIANO PP. A. II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4304-Dd1e125">
+               <head xml:id="azsw2e-d1e4304-Hd1e127">2</head>
+               <p xml:id="azsw2e-d1e4304-d1e129">
+                  <ref xml:id="azsw2e-d1e4304-Rd1e131">Imperator
+            Justinianus</ref>  Expeditam antea quaestionem, in praesenti autem
+            ex nostra lege, quam de adsertione tollenda posuimus, in quandam difficultatem
+            incidere periclitantem, compendioso remedio fulciendam esse censemus.
+            </p>
+               <p xml:id="azsw2e-d1e4304-d1e134" n="1">
+            Cum enim per adsertores super libertate iudicium agitabatur,
+            si in medio adsertore litem agente adsertus ab hac luce fuerit subtractus,
+            necessitas imponebatur nihilo minus adsertori litem implere, ut emptor,
+            si victus erat et pro libertate fuerat pronuntiatum, habeat regressum
+            adversus venditorem, ut ei quasi liberae personae venditor reddat
+            id, quod emptionali instrumento continebatur vel natura contractus
+            exigebat. </p>
+               <p xml:id="azsw2e-d1e4304-d1e137" n="2">
+            In praesenti autem, quia adsertorum vana nomina reiecta sunt,
+            si persona pro cuius condicione lis agitur, mortua fuerit, quemadmodum
+            iudicium potest adimpleri una tantummodo persona in iudicium veniente?
+            </p>
+               <p xml:id="azsw2e-d1e4304-d1e140" n="3">
+            Sancimus itaque in praesenti casu licentiam esse emptori
+            adversus suum auctorem venire, quatenus vel ostendat venditor servum
+            se vendidisse vel, si non potuerit , quasi libera persona vendita
+            evictionis periculum ad eum revertatur. * IUST. A. IOHANNI PP. *&lt;A
+            531 D. K. SEPT.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

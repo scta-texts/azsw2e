@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 20</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 20</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3650"><!-- azsw2e-l6t20 -->
+            <head xml:id="azsw2e-d1e3650-Hd1e101">Titulus 20</head>
+            <head xml:id="azsw2e-d1e3650-Hd1e103" type="question-title">De collationibus</head>
+            <div xml:id="azsw2e-d1e3650-Dd1e106">
+               <head xml:id="azsw2e-d1e3650-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3650-d1e110">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e112">Imperator
+            Alexander Severus</ref> Emancipatos liberos testamento heredes scriptos
+            et ex eo successionem obtinentes a patre donata fratri conferre non
+            oportere, si pater, ut hoc fiat, supremis iudiciis non cavit, manifesti
+            iuris est. * ALEX. A. DEUTERIAE. *&lt;A 224 PP. III ID. IUL. IULIANO
+            ET CRISPINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e116">
+               <head xml:id="azsw2e-d1e3650-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3650-d1e120">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e122">Imperator
+            Alexander Severus</ref> Si pater intestato decessit relictis duobus
+            filiis et filia, cuius nomine dotem promiserat, portiones hereditatis
+            aeque sunt et dos nihilo minus ita conferanda est, ut pro portionibus
+            fratres eius a necessitate praestandae eius liberentur. * ALEX. A.
+            PRIMO. *&lt;A 224 PP. IIII ID. SEPT. IULIANO ET CRISPINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e126">
+               <head xml:id="azsw2e-d1e3650-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3650-d1e130">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e132">Imperator
+            Alexander Severus</ref> Pactum dotali instrumento comprehensum, ut
+            contenta dote quae in matrimonio collocabatur nullum ad bona paterna
+            regressum haberet, iuris auctoritate improbatur nec intestato patri
+            succedere filia ea ratione prohibetur. Dotem sane quam accepit fratribus
+            qui in potestate manserunt conferre debet * ALEX. A. ALEXANDRO. *&lt;A
+            230 D. XIIII K. IUL. AGRICOLA ET CLEMENTE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e137">
+               <head xml:id="azsw2e-d1e3650-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e3650-d1e141">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e143">Imperator
+            Gordianus</ref> Filiae dotem in medium ita demum conferre coguntur,
+            si vel ab intestato succedant vel contra tabulas petant: nec dubium
+            est profecticiam seu adventiciam dotem a patre datam vel constitutam
+            fratribus qui in potestate fuerunt conferendam esse. His etenim, qui
+            in familia defuncti non sunt, profecticiam tantummodo dotem post varias
+            prudentium opiniones conferri placuit * GORD. A. MARINO. *&lt;A 239
+            PP. IIII ID. MART. GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e147">
+               <head xml:id="azsw2e-d1e3650-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e3650-d1e151">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e153">Imperator
+            Gordianus</ref> Dotis quidem petitio perseverante matrimonio tibi
+            non competebat: quamvis enim eam intestato patre defuncto fratri conferre
+            debueras, non tamen eo nomine adversus maritum tibi actio potuit esse,
+            cum eo minus in partem tibi delatae successionis patris auferre potueris.
+            * GORD. A. ALEXANDRAE. *&lt;A 239 D. NON. SEPT. GORDIANO A. ET AVIOLA
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e157">
+               <head xml:id="azsw2e-d1e3650-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e3650-d1e161">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e163">Imperator
+            Gordianus</ref> Ea demum ab emancipatis fratribus his qui manserunt
+            in potestate conferri consueverunt, quae in bonis eorum fuerunt eo
+            tempore, quo pater fati munus implevit, exceptis videlicet quae ab
+            ipsis aliis debentur. * GORD. A. CLAUDIO. *&lt;A 244 D. VII K. MAI.
+            PEREGRINO ET AEMILIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e167">
+               <head xml:id="azsw2e-d1e3650-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e3650-d1e171">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e173">Imperator
+            Philippus</ref> Filiam testamento patris institutam heredem fratribus
+            isdemque coheredibus dotem conferre non oportere, nisi pater hoc ipsum
+            specialiter designavit, explorati iuris est. * PHILIPP. A. TYRANNIAE.
+            *&lt;A 246 PP. VI K.MAI.PRAESENTE ET ALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e177">
+               <head xml:id="azsw2e-d1e3650-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e3650-d1e181">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Si soror tua in paternorum bonorum
+            divisione te fefellit nec dotem, quam acceperat a patre vestro intestato
+            diem functo, contulit, praeses provinciae examinatis partium adlegationibus
+            cum bonis dotem confundi iubebit et, quod deducta ratione plus apud
+            eam esse animadverterit, restitui tibi iubebit. Idem est et si arbitro
+            dato divisio celebrata est * DIOCL. ET MAXIM. AA. CALLIPPO. *&lt;A
+            290 S.VI ID.IUL.IPSIS AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e187">
+               <head xml:id="azsw2e-d1e3650-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e3650-d1e191">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Si emancipati utrique fuistis a patre,
+            collatio cessat. Si autem frater tuus in potestate mortis tempore
+            fuerat nec ullum testamentum relictum vel novissimum iudicium communis
+            patris teque emancipatum probatum fuerit, ab intestato te ad successionem
+            paternam venientem ad collationem forma edicti perpetui certo iure
+            provocat * DIOCL. ET MAXIM. AA. ET CC. ONESIMO. *&lt;A 293 S.VI K.MAI.HERACLIAE
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e198">
+               <head xml:id="azsw2e-d1e3650-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e3650-d1e202">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> A patre verbis precariis in codicillis
+            relictum extero iure capiens filia ad collationem dotis urgueri non
+            potest. * DIOCL. ET MAXIM. AA. ET CC. IRENAEAE. *&lt;A 293 S.VI K.DEC.SIRMI
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e208">
+               <head xml:id="azsw2e-d1e3650-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e3650-d1e212">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e214">Imperatores
+            Diocletianus, Maximianus</ref> Postumo praeterito patris testamentum
+            rumpenti atque intestato succedenti emancipatum petita bonorum possessione
+            conferre debere bona sua perpetuo edicto cavetur, cum his etiam, qui
+            sui futuri essent, si vivo patre nati fuissent, conferri manifeste
+            significatur, et emancipatis, si legi datae collationi non pareatur,
+            denegandas actiones non est ambigui iuris. * DIOCL. ET MAXIM. AA.
+            ET CC. ARTEMIAE. *&lt;A 293 PP.V K.IAN.IPSIS AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e218">
+               <head xml:id="azsw2e-d1e3650-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e3650-d1e222">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e224">Imperatores
+            Diocletianus, Maximianus</ref>  Filiae, licet maneat in sacris, si
+            dotem non conferat, quam mortis tempore communis patris habuit, fratribus
+            in eadem familia constitutis, actiones hereditarias negari non ambigitur.
+            </p>
+               <p xml:id="azsw2e-d1e3650-d1e227" n="1">
+            Unde consulte ac pro iuris ratione collationem fratribus
+            tuis, quos in patris communis mortis tempore fuisse potestate proponis,
+            offers. </p>
+               <p xml:id="azsw2e-d1e3650-d1e230" n="2">
+            Quin autem fratres tui durantes in familia patris peculium,
+            si hoc neque castrense neque relictum eis doceatur, praecipuum habere
+            non possint, sed in divisione paternae veniat hereditatis, nec quicquam
+            mutet, penes quem res ex hoc proficiscentes et in eadem causa durantes
+            constitutae reperiantur, absoluti manifestique iuris est. * DIOCL.
+            ET MAXIM. AA. ET CC. NILANTHIAE. *&lt;A 294 D.XI K.FEBR.SIRMI CC.CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e234">
+               <head xml:id="azsw2e-d1e3650-Hd1e236">13</head>
+               <p xml:id="azsw2e-d1e3650-d1e238">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e240">Imperatores
+            Diocletianus, Maximianus</ref> Si donatione tibi post mortem patris
+            quaesisti fundum, soror tua portionem eius vindicare non potest. Nam
+            si is filiae familias constitutae tibi a patre donatus est, cum sorore
+            patri communi succedens eum praecipuum habere contra iura postulas
+            * DIOCL. ET MAXIM. AA. ET CC. ANTISTIAE. *&lt;A 294 D.VI ID.FEBR.SIRMI
+            ISDEMQUE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e244">
+               <head xml:id="azsw2e-d1e3650-Hd1e246">14</head>
+               <p xml:id="azsw2e-d1e3650-d1e248">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e250">Imperatores
+            Diocletianus, Maximianus</ref> Si maritus quondam tuus ab intestato
+            patri suo heres extitit et ei postumus editus successit, actionem
+            hereditariam amitae filii vestri, quam habuit patris sui mortis tempore
+            dotem non conferenti, denegare praeses non dubitabit. * DIOCL. ET
+            MAXIM. AA. ET CC. STRATONICAE. *&lt;A 295 PP. VII K. MART. TRIMOTII
+            TUSCO ET ANULLINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e254">
+               <head xml:id="azsw2e-d1e3650-Hd1e256">15</head>
+               <p xml:id="azsw2e-d1e3650-d1e258">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e260">Imperatores
+            Diocletianus, Maximianus</ref> Nec emancipati post mortem communis
+            patris quaesita conferre coguntur, sed haec retinentes eius bona pro
+            hereditaria dividunt portione. * DIOCL. ET MAXIM. AA. ET CC. PHILIPPO.
+            *&lt;A 294 D.ID.DEC.IPSIS CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e265">
+               <head xml:id="azsw2e-d1e3650-Hd1e267">16</head>
+               <p xml:id="azsw2e-d1e3650-d1e269">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e271">Imperatores
+            Diocletianus, Maximianus</ref> Filiam cum fratribus suis heredibus
+            intestato patri succedentem ultra relictum codicillis non conferentem
+            dotem iudicio familiae erciscundae nihil posse consequi summa cum
+            ratione placuit. * DIOCL. ET MAXIM. AA. ET CC. SOCRATI. *&lt;A 294
+            D.V K.IAN.IPSIS CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e275">
+               <head xml:id="azsw2e-d1e3650-Hd1e277">17</head>
+               <p xml:id="azsw2e-d1e3650-d1e279">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e281">Imperator
+            Leo</ref> Ut liberis tam masculini quam feminini sexus, iuris sui
+            vel in potestate constitutis, quocumque iure intestatae successionis,
+            id est aut testamento penitus non condito vel, si factum fuerit, contra
+            tabulas bonorum possessione petita vel inofficiosi querella mota rescisso,
+            aequa lance parique modo prospici possit, hoc etiam aequitatis studio
+            praesenti legi credidimus inserendum, ut in dividendis rebus ab intestato
+            defunctorum parentium tam dos quam ante nuptias donatio conferatur,
+            quam pater vel mater, avus vel avia, proavus proavia paternus vel
+            maternus dederit vel promiserit pro filio vel filia, nepote vel nepte
+            aut pronepote sive pronepte, nulla discretione intercedente, utrum
+            in ipsas sponsas pro liberis suis memorati parentes donationem contulerint,
+            an in ipsos sponsos earum, ut per eos eadem in sponsas donatio celebretur:
+            ut in dividendis rebus ab intestato parentis, cuius de hereditate
+            agitur, eadem dos vel ante nuptias donatio ex substantia eius profecta
+            conferatur: emancipatis videlicet liberis utriusque sexus pro tenore
+            praecedentium legum, quae in ipsa emancipatione a parentibus suis
+            ( ut adsolet fieri) consequuntur vel post emancipationem ab isdem
+            adquisierint, collaturis. * LEO A. ERYTHRIO PP. *&lt;A 472 D.V K.MART.MARCIANO
+            CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e285">
+               <head xml:id="azsw2e-d1e3650-Hd1e287">18</head>
+               <p xml:id="azsw2e-d1e3650-d1e289">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e291">Imperator
+            Anastasius</ref> Liberos, qui nostrae legis auctoritate per oblationem
+            precum et imperiale rescriptum sui iuris effecti fuerint, ad similitudinem
+            ceterorum, qui emancipati ex antiquo iure sunt, collationes facere
+            iubemus compelli secundum ea, quae super ceteris emancipatis statuta
+            sunt. * ANASTAS. A. CONSTANTINO PP. *&lt;A 502 D.XII K.AUG.CONSTANTINOPOLI
+            PROBO ET AVIENO IUNIORE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e295">
+               <head xml:id="azsw2e-d1e3650-Hd1e297">19</head>
+               <p xml:id="azsw2e-d1e3650-d1e299">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e301">Imperator
+            Justinianus</ref>  Illam merito dubitationem amputare duximus, quae
+            super collatione dotis vel ante nuptias donationis inter certas personas
+            satis iam ventilata est. </p>
+               <p xml:id="azsw2e-d1e3650-d1e304" n="1">
+            Nam si intestatus quis defunctus esset filio vel filiis vel
+            filia vel filiabus relictis et ex mortua filia cuiuscumque sexus aut
+            numeri nepotibus, vel si qua intestata defuncta esset filio quidem
+            vel filiis similiter relictis, ex mortuo vero filio vel filia itidem
+            nepotibus cuiuscumque sexus, de modo quidem successionis minime dubitabatur,
+            sed palam erat, quod huiusmodi nepotes duas partes maternae vel paternae
+            portionis tantummodo haberent, tertiam partem patruis suis vel avunculis
+            vel amitis vel materteris pro iam posita constitutione concedentes.
+            </p>
+               <p xml:id="azsw2e-d1e3650-d1e307" n="2">
+            De collatione vero dotis vel ante nuptias donationis, quam
+            defuncta persona pro filio vel filia superstitibus et pro mortuo vel
+            mortua filio vel filia dedisset, multa dubitatio orta est, superstitibus
+            quidem filiis defunctae personae non debere se dotem et ante nuptias
+            donationem pro se datam a suo patre vel matre conferre filiis mortui
+            fratris sui vel mortuae sororis suae contendentibus eo, quod nulla
+            constitutio super huiuscemodi collatione posita est, nepotibus vero
+            mortuae personae non tantum huic resistentibus, sed etiam illud adserentibus,
+            quod onus collationis constitutione Arcadii et Honorii divae memoriae
+            sibi impositum in personis tantummodo suorum avunculorum, non etiam
+            patruorum vel amitarum vel materterarum locum habere potest. </p>
+               <p xml:id="azsw2e-d1e3650-d1e310" n="3">
+            Talem igitur subtilem dubitationem amputantes praecipimus
+            tam filios vel filias defunctae personae dotem vel ante nuptias donationem
+            a parentibus suis sibi datam conferre nepotibus vel neptibus mortuae
+            personae, quam eosdem nepotes vel neptes patruis suis aut avunculis,
+            amitis etiam et materteris dotem et ante nuptias donationem patris
+            sui vel matris, quam pro eo vel ea mortua persona dedit, similiter
+            conferre, ut commixtis huiusmodi collationibus cum bonis mortuae personae
+            duas quidem partes nepotes vel neptes habeant illius portionis, quae
+            patri vel matri eorum, si superesset, deferebatur, tertiam vero eiusdem
+            portionis partem una cum sibi competentibus portionibus filii vel
+            filiae defunctae personae, cuius de hereditate agitur, capiant. *
+            IUST. A. MENAE PP. *&lt;A 528 D. K. IUN. CONSTANTINOPOLI DN. IUSTINIANO
+            A. PP. II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e314">
+               <head xml:id="azsw2e-d1e3650-Hd1e316">20</head>
+               <p xml:id="azsw2e-d1e3650-d1e318">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e320">Imperator
+            Justinianus</ref>  Illud sine ratione a quibusdam in dubietatem deductum
+            plana sanctione revelamus, ut omnia, quae in quarta portione ab intestato
+            successionis computantur his, qui ad actionem de inofficioso testamento
+            vocantur, etiam si intestatus is decesserit, ad cuius hereditatem
+            veniunt, omnimodo coheredibus suis conferant. </p>
+               <p xml:id="azsw2e-d1e3650-d1e323" n="1">
+            Quod tam in aliis quam in his, quae occasione militiae uni
+            heredum ex defuncti pecuniis adquisitae lucratur is qui militiam meruit,
+            locum habebit, ut lucrum, quod tempore mortis defuncti ab eum pervenire
+            poterat, non solum testamento condito quartae parti ab intestato successionis
+            computetur, sed etiam ab intestato conferatur. </p>
+               <p xml:id="azsw2e-d1e3650-d1e326" n="2">
+            Haec autem regula, ut omnia quae portioni quartae computantur
+            etiam ab intestato conferantur, minime e contrario tenebit, ut possit
+            quis dicere etiam illa quae conferuntur omnimodo in quartam partem
+            his computari, qui ad de inofficioso querellam vocantur: ea enim tantummodo
+            ex his quae conferuntur memoratae portioni computabuntur, pro quibus
+            specialiter legibus, ut hoc fieret, expressum est. </p>
+               <p xml:id="azsw2e-d1e3650-d1e329" n="3">
+            Ad haec, cum ante nuptias donatio vel dos a patre data vel
+            matre vel aliis parentibus pro filio vel filia, nepote vel nepte ceterisque
+            descendentibus conferatur, si unus quidem vel una liberorum ante nuptias
+            tantummodo donationem vel dotem, non etiam simplicem donationem accepit
+            vel acceperit, alter vero vel altera neque dotem neque donationem
+            ante nuptias a parente suo suscepit vel susceperit, sed simplicem
+            tantummodo donationem, ne ex eo iniustum aliquid oriatur, ea quidem
+            persona, quae ante nuptias donationem vel dotem suscepit, conferre
+            eam cogenda, illa vero, quae simplicem tantummodo donationem meruit,
+            ad collationem eius minime coartanda: si quid huiusmodi accidit vel
+            acciderit, iubemus ad similitu dinem eius, qui ante nuptias donationem
+            vel dotem conferre cogitur, etiam illam personam, quae nulla dote
+            vel ante nuptias donatione data solam simplicem donationem a parentibus
+            suis accepit, conferre eam nec recusare collationem eo, quod simplex
+            donatio non aliter confertur, nisi huiusmodi legem donator tempore
+            donationis suae indulgentiae imposuerit. * IUST. A. MENAE PP. *&lt;A
+            529 D. VIII ID. AUG. CONSTANTINOPOLI DECIO VC. CONS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3650-Dd1e333">
+               <head xml:id="azsw2e-d1e3650-Hd1e335">21</head>
+               <p xml:id="azsw2e-d1e3650-d1e337">
+                  <ref xml:id="azsw2e-d1e3650-Rd1e339">Imperator
+            Justinianus</ref>  Ut nemini super collatione de cetero dubietas oriatur,
+            necessarium duximus constitutioni, quam iam favore liberorum fecimus,
+            hoc addere, ut res, quas parentibus adquirendas esse prohibuimus,
+            nec collationi post obitum eorum inter liberos subiaceant. </p>
+               <p xml:id="azsw2e-d1e3650-d1e342" n="1">
+            Ut enim castrense peculium in communi conferre in hereditate
+            dividenda ex prisci iuris auctoritate minime cogebantur, ita et alias
+            res, quae minime parentibus adquiruntur, proprias liberis manere censemus.
+            * IUST. A. IOHANNI PP. *&lt;A 532 D.XV K.NOV.LAMPADIO ET ORESTE VV.CC.CONSS.ANNO
+            SECUNDO.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 50</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 50</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8487"><!-- azsw2e-l12t50 -->
+            <head xml:id="azsw2e-d1e8487-Hd1e101">Titulus 50</head>
+            <head xml:id="azsw2e-d1e8487-Hd1e103" type="question-title">De cursu publico angariis et parangariis</head>
+            <div xml:id="azsw2e-d1e8487-Dd1e106">
+               <head xml:id="azsw2e-d1e8487-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8487-d1e110">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e112">Imperator
+            Constantinus</ref> Equos, qui publico cursui deputati sunt, non lignis
+            vel fustibus, sed flagellis tantummodo agitari decernimus: poena non
+            defutura contra eum, qui aliter fecerit. * CONST. A. AD TITIANUM.
+            *&lt;A 316 D.PRID.ID.MAI.SABINO ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e116">
+               <head xml:id="azsw2e-d1e8487-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e8487-d1e120">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e122">Imperator
+            Constantinus</ref>  Praesidibus et rationalibus ceterisque, quibus
+            propterea res publica et annonas et alimenta pecoribus subministrat,
+            usurpandi paraveredi licentia derogetur. </p>
+               <p xml:id="azsw2e-d1e8487-d1e125" n="1">
+            Sed nec alia via eundi quisquam habeat facultatem, nisi per
+            quam cursus publicus stare dignoscitur: excepta videlicet tua sublimissima
+            sede, cui cursus publicus et proficiscendi per eum licentia et ubi
+            ratio exegerit praesto est. * CONST. A. AD ACYNDINUM PP. *&lt;A 326
+            PP.XV.K.MART.CONSTANTINO.A.VII ET CONSTANTIO C.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e129">
+               <head xml:id="azsw2e-d1e8487-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e8487-d1e133">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e135">Imperator
+            Constantius</ref>  Evectiones ab omnibus postulentur, et tam iudices
+            quam custodes publici cursus minime transire patiantur, antequam seriem
+            evectionis adspexerint. </p>
+               <p xml:id="azsw2e-d1e8487-d1e138" n="1">
+            Quod si quis putaverit resistendum et sine evectione iter
+            facere detegitur, vel ultra tempus quod evectioni insertum est publico
+            cursu uti conatus sit, ubi repertus fuerit, eundem iussimus detineri
+            et, si quidem dignitate praeditus sit, de eius nomine ad prudentiam
+            tuam et ad illustrem virum comitem et magistrum officiorum referri.
+            Adversus ceteros vero protinus indignatio competens exercenda est,
+            quos sinceritas tua pro loco graduque militiae ibidem coerceri posse
+            crediderit. * CONSTANTIUS A. AD TAURUM PP. *&lt;A 357 D.VIII K.IUL.MEDIOLANI
+            CONSTANTIO A.VIIII ET IULIANO C.II CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e143">
+               <head xml:id="azsw2e-d1e8487-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e8487-d1e147">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e149">Imperator
+            Julianus</ref>  Parhippum eum videri et habendum esse, si quis usurpato
+            uno vel duobus veredis, quos solos evectio continebit. Alterum tertiumve
+            extra ordinem commoveat. </p>
+               <p xml:id="azsw2e-d1e8487-d1e152" n="1">
+            Nihil autem interesse debet nec ad crimen vocari, utrum agens
+            in rebus suo anne mulionis itineris subiugando, modo evectionis datae
+            formam et licentiam non excedat. * IUL. A. AD MAMERTINUM PP. *&lt;A
+            362 D. V ID. SEPT. MAMERTINO ET NEVITTA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e156">
+               <head xml:id="azsw2e-d1e8487-Hd1e158">5</head>
+               <p xml:id="azsw2e-d1e8487-d1e160">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e162">Imperatores
+            Valentinianus, Valens</ref> Si quis per publicum cursum iter faciens
+            cuiuscumque dignitatis vel militiae ab itinere recto deverterit, poena
+            in eum competens proferatur. * VALENTIN. ET VALENS AA. AD SYMMACHUM
+            CORRECTOREM LUCANIAE ET BRITTIORUM.*&lt;A 365 D. VIII K. APRIL. MEDIOLANI
+            VALENTINIANO ET VALENTE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e166">
+               <head xml:id="azsw2e-d1e8487-Hd1e168">6</head>
+               <p xml:id="azsw2e-d1e8487-d1e170">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e172">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Evictionum copiam senatui,
+            cum proficiscendi ad nos necessitas fuerit, serenitas nostra largita
+            est, ita tamen, ut cum a nobis evocatur aut a clementiae nostrae veneratione
+            discedat. </p>
+               <p xml:id="azsw2e-d1e8487-d1e175" n="1">
+            Si quis ergo posthac contra vetitum sibi cursum publicum
+            illicita temeritate praesumpserit, motum in se nostrae mansuetudinis
+            excitabit. * VALENTIN. ET VALENS ET GRAT. AAA. AD AMPELIUM PU. *&lt;A
+            371 D. III ID. DEC. TRIVERIS GRATIANO A. II ET PROBO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e179">
+               <head xml:id="azsw2e-d1e8487-Hd1e181">7</head>
+               <p xml:id="azsw2e-d1e8487-d1e183">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e185">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  In omnibus provinciis veredorum
+            pars quarta reparetur. </p>
+               <p xml:id="azsw2e-d1e8487-d1e188" n="1">
+            Stabula autem ut impensis publicis extruantur, contra rationem
+            est, cum provincialium sumptu, in quorum locis stabula constituta
+            sunt, citius arbitremur apparanda et utilius tam publico quam his,
+            quos stercus animalium pro suo solacio habere concedimus. * VALENTIN.
+            ET VALENS ET GRAT. AAA. AD HESPERIUM PP. *&lt;A 377 D. III K. MART.
+            TRIVERIS GRATIANO A. IIII ET MEROBAUDE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e192">
+               <head xml:id="azsw2e-d1e8487-Hd1e194">8</head>
+               <p xml:id="azsw2e-d1e8487-d1e196">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e198">Imperatores
+            Valens, Gratianus, Valentinianus</ref> Ut agendi itineris possit esse
+            moderatio, deni veredi per dies singulos ex utraque parte dimittantur:
+            poena quinque librarum auri minime defutura contra eos, qui statuta
+            nostra neglexerint. * VALENS GRAT. ET VALENTIN. AAA. AD AUSONIUM PP.
+            *&lt;A 378 D. XII K. MAI. TRIVERIS VALENTE VI ET VALENTINIANO II AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e202">
+               <head xml:id="azsw2e-d1e8487-Hd1e204">9</head>
+               <p xml:id="azsw2e-d1e8487-d1e206">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e208">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Iudicibus faciendae evectionis
+            copiam denegamus, cum id tantum nostro numini et tuae sedi nec non
+            viro illustri magistro officiorum sit reservandum, cum neque praefecto
+            urbis neque magistris militum neque ducibus neque vicariis nec cuiquam
+            alii praeter memoratas duas potestates hoc a nobis concessum sit.
+            </p>
+               <p xml:id="azsw2e-d1e8487-d1e211" n="1">
+            His enim tantum ambulandi facultatem iudices ex suo arbitrio
+            praebituri sunt, quos in transmissione publicarum functionum prosecutores
+            viderint constitutos: scituri, si definitionem nostram excesserint,
+            se quidem viginti quinque auri libris, officia vero quinquaginta esse
+            multandos. * GRAT. VALENTIN. ET THEODOS. AAA. FLORO PP. *&lt;A 382
+            D. X K. AUG. CONSTANTINOPOLI ANTONIO ET SYAGRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e216">
+               <head xml:id="azsw2e-d1e8487-Hd1e218">10</head>
+               <p xml:id="azsw2e-d1e8487-d1e220">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e222">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Gravissimae poenae acerbitate
+            proposita evectionum contractus, animalium quoque publicorum merces
+            et ementis et distrahentis coercitione prohibemus. * GRAT. VALENTIN.
+            ET THEODOS. AAA. PHILAGRIO COM. ORIENTIS. *&lt;A 382 PP. BERYTO. D.
+            XII K. OCT. ANTONIO ET SYAGRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e226">
+               <head xml:id="azsw2e-d1e8487-Hd1e228">11</head>
+               <p xml:id="azsw2e-d1e8487-d1e230">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e232">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Nullus evectione utatur
+            privatus, tametsi valuerit impetrare. * GRAT. VALENTIN. ET THEODOS.
+            AAA. CYNEGIO PP. *&lt;A 384 D. VI NON. MART. CONSTANTINOPOLI RICOMERE
+            ET CLEARCHO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e236">
+               <head xml:id="azsw2e-d1e8487-Hd1e238">12</head>
+               <p xml:id="azsw2e-d1e8487-d1e240">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e242">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Quoniam veredorum quoque
+            cura pari ratione tractanda est, sexaginta libras sella cum frenis,
+            sexaginta itidem averta non transeat: ea condicione, ut, si quis praescripta
+            moderaminis imperatorii libramenta transcenderit, eius sella in frusta
+            caedatur, averta vero fisci viribus deputetur: exceptis auri centenariis,
+            quae necesse est ab hippocomis in solitis sacculis reportari. * VALENTIN.
+            THEODOS. ET ARCAD. AAA. CYNEGIO PP. *&lt;A 385 D. XV K. IUL. CONSTANTINOPOLI
+            ARCADIO A. ET BAUTONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e246">
+               <head xml:id="azsw2e-d1e8487-Hd1e248">13</head>
+               <p xml:id="azsw2e-d1e8487-d1e250">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e252">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref>  Non patimur hippocomos per
+            eos qui veredis uterentur indigna spoliatione vexari, si quidem nonnulli
+            veredarii saga eorum dicuntur auferre vel praecidere. </p>
+               <p xml:id="azsw2e-d1e8487-d1e255" n="1">
+            Quocirca per omnes iudices et curiosos miserabilis removeatur
+            iniuria, scientibus cunctis, quod, si observata non fuerit nostra
+            sanctio, non solum damna resarcire, verum etiam notam et multam qui
+            neglexerit subire cogetur. * VALENTIN. THEODOS. ET ARCAD. AAA. FLORO
+            PP. *&lt;A 390 PP. XV K. IUL. TRIVERIS VALENTINIANO A. IIII ET NEOTERIO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e259">
+               <head xml:id="azsw2e-d1e8487-Hd1e261">14</head>
+               <p xml:id="azsw2e-d1e8487-d1e263">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e265">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Publici cursus exhibitio
+            secundum locorum consuetudinem vel curialibus vel cohortalibus debet
+            committi vel his, qui suo periculo ab eminentissima praefectura sub
+            competenti cautela excipiunt. * VALENTIN. THEODOS. ET ARCAD. AAA.
+            POTAMIO PRAEF. AUGUSTALI. *&lt;A 392 D. III K. AUG. CONSTANTINOPOLI
+            ARCADIO A. II ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e269">
+               <head xml:id="azsw2e-d1e8487-Hd1e271">15</head>
+               <p xml:id="azsw2e-d1e8487-d1e273">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e275">Imperatores
+            Arcadius, Honorius</ref> Si quis vel per unam mutationem veredum superducendum
+            esse crediderit, in quadruplum superductorum animalium pretium fisci
+            viribus inferat. * ARCAD. ET HONOR. AA. DEXTRO PP. *&lt;A 395 D. XV
+            K. APRIL. MEDIOLANO OLYBRIO ET PROBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e280">
+               <head xml:id="azsw2e-d1e8487-Hd1e282">16</head>
+               <p xml:id="azsw2e-d1e8487-d1e284">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e286">Imperatores
+            Arcadius, Honorius</ref> His tantummodo utendi cursus publici facultas
+            concessa est, qui legati de diversis gentibus ad nostram clementiam
+            properare festinant. * ARCAD. ET HONOR. AA. REMISTHEO DUCI ARMENIAE.
+            *&lt;A 397 D. VI K. MART. CONSTANTINOPOLI CAESARIO ET ATTICO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e290">
+               <head xml:id="azsw2e-d1e8487-Hd1e292">17</head>
+               <p xml:id="azsw2e-d1e8487-d1e294">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e296">Imperatores
+            Arcadius, Honorius</ref> Nemo mulionem mutationibus deputatum vel
+            per sollicitationem vel per receptionem subtrahere audeat, decem libras
+            argenti poenae nomine reformidans inferre. * ARCAD. ET HONOR. AA.
+            VICENTIO PP. *&lt;A 398 D. XII K. MART. MEDIOLANI HONORIO A.IIII ET
+            EUTYCHIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e300">
+               <head xml:id="azsw2e-d1e8487-Hd1e302">18</head>
+               <p xml:id="azsw2e-d1e8487-d1e304">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e306">Imperatores
+            Arcadius, Honorius</ref> Animalia publica, dum longe maiore ac periniquo
+            pretio pabula aestimantur per mancipes atque apparitores, aperte vexantur.
+            Ne id contingat, sublimitas tua disponat, ut neque pabula mutationibus
+            desint, neque provinciales ultra quam iustitiae sinit ratio praegraventur
+            * ARCAD. ET HONOR. AA. MESSALAE PP. *&lt;A 400 D. V K. DEC. STILICHONE
+            ET AURELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e310">
+               <head xml:id="azsw2e-d1e8487-Hd1e312">19</head>
+               <p xml:id="azsw2e-d1e8487-d1e314">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e316">Imperatores
+            Arcadius, Honorius, Theodosius</ref>  Comperimus provinciales et pabula
+            et pecuniam pro equorum cursualium sollemni ratione conferre et extrinsecus
+            etiam paraveredorum onere praegravari. </p>
+               <p xml:id="azsw2e-d1e8487-d1e319" n="1">
+            Provinciarum igitur rectores procurent, ne umquam cursus
+            publicus veniat in querellam et occasio deceptionis curiales vel provinciales
+            animalia indebita praestare compellat. * ARCAD. HONOR. ET THEODOS.
+            A. SEPTIMINO PROCONS. AFRICAE. *&lt;A 403 D. VII K. APRIL. RAVENNAE
+            THEODOSIO A. ET RUMORIDO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e323">
+               <head xml:id="azsw2e-d1e8487-Hd1e325">20</head>
+               <p xml:id="azsw2e-d1e8487-d1e327">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e329">Imperatores
+            Arcadius, Honorius, Theodosius</ref>  Nemo ducum ingressus semel provinciam
+            suam postmodum itineribus faciendis cursu atque angariis ipse sive
+            suum utatur officium, sed expeditionem militarem iumentis propriis
+            exsequantur. </p>
+               <p xml:id="azsw2e-d1e8487-d1e332" n="1">
+            De cohortalinis etiam officiis eadem lege sancimus, ne quis
+            ex his per provinciam suam discurrens veredo uti conetur in posterum,
+            cum sacra prohibitum sanctione cognoscant. </p>
+               <p xml:id="azsw2e-d1e8487-d1e335" n="2">
+            Quod si quis ducum vel apparitorum vel cohortalium temerario
+            animo ea quae decernimus contemnenda putaverit, per singula animalia
+            quibus usus fuerit singularum librarum auri illatione multabitur.
+            * ARCAD. HONOR. ET THEODOS. AAA. ANTHEMIO PP. *&lt;A 407 D. IIII NON.
+            AUG. CONSTANTINOPOLI HONORIO VII ET THEODOSIO II AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e339">
+               <head xml:id="azsw2e-d1e8487-Hd1e341">21</head>
+               <p xml:id="azsw2e-d1e8487-d1e343">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e345">Imperatores
+            Theodosius, Valentinianus</ref> Nullus penitus cuiuslibet ordinis
+            seu dignitatis vel sacrosancta ecclesia vel domus regia tempore expeditionis
+            excusationem angariarum seu parangariarum habeat. * THEODOS. ET VALENTIN.
+            AA. CYRO PP. *&lt;A 440-441 &gt; </p>
+               <p xml:id="azsw2e-d1e8487-d1e348"> .
+            </p>
+               <p xml:id="azsw2e-d1e8487-d1e350">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e352">Imperator
+            Leo</ref>  Cursum clavularem ab omni orientali tractu nec non ab his
+            civitatibus aliarum regionum, quarum instructio tui culminis meminit,
+            tolli amputarique decernimus, ita tamen, ut in transitu fortissimorum
+            militum ( quando nostra serenitas disposuerit ex aliis ad alia eos
+            loca deduci, evectionesque animalium secundum consuetudinem a nostra
+            fuerint aeternitate consecuti)et in armorum tam confectione quam translatione
+            servata consuetudine, in profectione quin etiam legatorum animalium
+            dominis, qui ea solent accepta mercede locare, praebenda pensio arcae
+            tui culminis imputetur.</p>
+               <p xml:id="azsw2e-d1e8487-d1e355" n="1">
+            Tractorias videlicet animalium super memoratis causis nulli
+            alii iudici, cuiuscumque sit dignitatis, nisi tuo tantummodo culmini
+            faciendi licentiam patere decernimus.* LEO A. PUSAEO PP. *&lt;
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8487-Dd1e360">
+               <head xml:id="azsw2e-d1e8487-Hd1e362">23</head>
+               <p xml:id="azsw2e-d1e8487-d1e364">
+                  <ref xml:id="azsw2e-d1e8487-Rd1e366">Imperator
+            Anastasius</ref>  Iubemus nemini licere cuiuscumque scholae vel officii
+            vel militiae seu condicionis per totius orientalis tractus partes
+            ob quamcumque causam profiscenti seu redeunti supra unum veredum unumque
+            paraveredum, cum evectione tamen iudiciali, movere, nisi specialis
+            ei praestita sit nostrae serenitatis quantitatem animalium continens
+            evectio. </p>
+               <p xml:id="azsw2e-d1e8487-d1e369" n="1">
+            Exceptis procul dubio his, qui pecunias publicas devehunt,
+            cum in hac parte sine nostra quoque speciali auctoritate tanta convenit
+            animalia moveri, quanta transvehendae pecuniae summa et eius tuitio
+            deposcit. </p>
+               <p xml:id="azsw2e-d1e8487-d1e372" n="2">
+            Quinquaginta librarum auri condemnatione his feriendis, quicumque
+            nostra iussa quolibet modo seu tempore violaverint seu violare concesserint.
+            * ANASTAS. A. ARMENIO PP. *&lt; &gt;
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 10</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 10</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7162"><!-- azsw2e-l11t10 -->
+            <head xml:id="azsw2e-d1e7162-Hd1e101">Titulus 10</head>
+            <head xml:id="azsw2e-d1e7162-Hd1e103" type="question-title">De fabricensibus</head>
+            <div xml:id="azsw2e-d1e7162-Dd1e106">
+               <head xml:id="azsw2e-d1e7162-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7162-d1e110">
+                  <ref xml:id="azsw2e-d1e7162-Rd1e112">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Omnibus fabricis non pecunias
+            pro speciebus, sed ipsas species sine dilatione inferri praecipimus,
+            ut venae nobilis et quae facile deducatur ignibus seu liquescat ferri
+            materies praebeatur, quo promptius adempta fraudibus facultate commodo
+            publico consulatur. * VALENTIN. THEODOS. ET ARCAD. AAA. TATIANO PP.
+            *&lt;A 388 D XV K.NOV.THEODOSIO A.II ET CYNEGIO COSSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7162-Dd1e116">
+               <head xml:id="azsw2e-d1e7162-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7162-d1e120">
+                  <ref xml:id="azsw2e-d1e7162-Rd1e122">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Primicerium fabricae post
+            biennium non solum vacatione, verum etiam honore donari praecipimus,
+            ita ut inter protectores eiusdem fabricae per biennium adoraturus
+            aeternitatem nostram suo quisque tempore dirigatur. * VALENTIN. THEODOS.
+            ET ARCAD. AAA. RUFINO MAG. OFF. *&lt;A 390 D.VIII ID.MART.MEDIOLANI
+            VALENTINIANO A.IIII ET NEOTERIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7162-Dd1e126">
+               <head xml:id="azsw2e-d1e7162-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e7162-d1e130">
+                  <ref xml:id="azsw2e-d1e7162-Rd1e132">Imperatores
+            Arcadius, Honorius</ref> Stigmata, hoc est nota publica fabricensium
+            brachiis ad imitationem tironum infligatur, ut hoc modo saltem possint
+            latitantes agnosci ( his, qui eos susceperint vel eorum liberos, sine
+            dubio fabricae vindicandis) et qui subreptione quadam declinandi operis
+            ad publicae cuiuslibet sacramenta militiae transierunt. * ARCAD. ET
+            HONOR. AA. OSIO MAG. OFF. *&lt;A 398 D.XVIII K.IAN.CONSTANTINOPOLI
+            HONORIO A.IIII ET EUTYCHIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7162-Dd1e137">
+               <head xml:id="azsw2e-d1e7162-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e7162-d1e141">
+                  <ref xml:id="azsw2e-d1e7162-Rd1e143">Imperatores
+            Honorius, Theodosius</ref>  Si quis consortium fabricensium crediderit
+            eligendum, in ea urbe, qua natus est vel in qua domicilium collocavit,
+            his quorum interest convocatis primitus acta conficiat, sese doceat
+            non avo non patre curiali progenitum, nihil ordini civitatis debere,
+            nulli se civico muneri obnoxium, atque ita demum gestis confectis
+            vel apud moderatorem provinciae vel si is absit apud defensorem civitatis,
+            ad militiam quam optaverit suscipiatur. </p>
+               <p xml:id="azsw2e-d1e7162-d1e146" n="1">
+            Quod si absque hac cautione quispiam ad fabricensium consortium
+            obrepserit, sciat se ad ordinis cui debetur patriaque suae munera
+            esse reducendum, ita ut nulla eum nec temporis nec stipendiorum praerogativa
+            defendat. * HONOR. ET THEODOS. AA. ANTEHMIO PP. *&lt;A 412 D.XV K.IUN.CONSTANTINOPOLI
+            HONORIO VIIII ET THEODOSIO V AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7162-Dd1e150">
+               <head xml:id="azsw2e-d1e7162-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e7162-d1e154">
+                  <ref xml:id="azsw2e-d1e7162-Rd1e156">Imperatores
+            Theodosius, Valentinianus</ref>  Iure provisum est fabricenses artibus
+            propriis inservire, ut exhaustis laboribus immorentur cum subole professioni,
+            cui nati sunt. </p>
+               <p xml:id="azsw2e-d1e7162-d1e159" n="1">
+            Denique quod ab uno committitur, totius delinquitur periculo
+            numeri, ut constricti nominationibus suis sociorum actibus quandam
+            speculam gerant, et unius damnum ad omnium transit dispendium. </p>
+               <p xml:id="azsw2e-d1e7162-d1e162" n="2">
+            Universi itaque, velut in corpore unius formae, unius decoctionis,
+            si ita res tulerit, respondere cogentur. * THEODOS. ET VALENTIN. AA.
+            AURELIANO COM. RER. PRIVAT. *&lt;A 439 D. PRID. NON. NOV. CONSTANTINOPOLI
+            THEODOSIO A. XVII ET FESTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7162-Dd1e166">
+               <head xml:id="azsw2e-d1e7162-Hd1e168">6</head>
+               <p xml:id="azsw2e-d1e7162-d1e170">
+                  <ref xml:id="azsw2e-d1e7162-Rd1e172">Imperatores
+            Leo, Anthemius</ref> Eos, qui inter fabricenses sacrae fabricae sociati
+            sunt, vel eorum uxores aut filios, qui itidem inter fabricenses militare
+            dicuntur, non alibi pulsare volentibus respondere praecipimus, nisi
+            in iudicio tuae sublimitatis, ad cuius iurisdictionem potestatemque
+            pertinent: nec eos post stipendiorum finem militiae super civilibus
+            vel curialibus muneribus, quibus nullo modo subiacere monstrantur,
+            a viris clarissimis rectoribus provinciarum vel eorum officiis praeter
+            licitum inquietari. * LEO ET ANTHEM. AA. EUPHEMIO MAG. OFF. *&lt;A
+            XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7162-Dd1e176">
+               <head xml:id="azsw2e-d1e7162-Hd1e178">7</head>
+               <p xml:id="azsw2e-d1e7162-d1e180">
+                  <ref xml:id="azsw2e-d1e7162-Rd1e182">Imperatores
+            Leo, Anthemius</ref>  Nullus fabricensium conductioni vel administrationi
+            vel agriculturae alienarum rerum se posthac immiscere conetur: dominis
+            quidem, si qui contra haec statuta meae pietatis venire ausi fuerint,
+            res vel praedia, quae scientes quod fabricenses sunt isdem fabricensibus
+            ministranda commiserint, amissuris, fabricensibus vero gravissime
+            coercitis post facultatum suarum amissionem perpetua exilii poena
+            et animadversione retinendis. </p>
+               <p xml:id="azsw2e-d1e7162-d1e185" n="1">
+            Quotiens sane in translatione armorum angariae necessariae
+            fuerint, sublimitas tua litteras ad eminentissimam iubeat dirigi praefecturam
+            et numerum ei armorum et ex quo loco transferenda sunt indicare, ut
+            continuo super praebendis angariis pro numero eorum quae transferuntur
+            armorum praeceptione sua viros clarissimos provinciae moderatores
+            conveniat, ut secundum missam a sublimitate tua notitiam naves vel
+            angariae confestim de publico praebeantur. </p>
+               <p xml:id="azsw2e-d1e7162-d1e188" n="2">
+            Quod si aliqua tarditas vel neglegentia post datas a sublimitate
+            tua ad eminentissimam praefecturam litteras in destinandis auctoritatibus
+            amplissimae sedis intercesserit et ex hoc armorum transvectio fuerit
+            impedita, quinquaginta libris auri tam numerarium pro tempore officii
+            eiusdem amplissimae sedis quam alios quorum interest condemnari praecipimus
+            eamque auri quantitatem protinus exactam fisci viribus adgregari:
+            multa praeterea triginta librarum auri proposita tam viris clarissimis
+            qui provincias regunt quam eorum apparitionibus, si coniventibus his
+            armorum subvectio tarditate aliqua fuerit praepedita. * LEO ET ANTHEM.
+            AA. EUPHEMIO MAG. OFF. *&lt;A XXX &gt; </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 41</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 41</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5415"><!-- azsw2e-l8t41 -->
+            <head xml:id="azsw2e-d1e5415-Hd1e101">Titulus 41</head>
+            <head xml:id="azsw2e-d1e5415-Hd1e103" type="question-title">De novationibus et delegationibus</head>
+            <div xml:id="azsw2e-d1e5415-Dd1e106">
+               <head xml:id="azsw2e-d1e5415-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5415-d1e110">
+                  <ref xml:id="azsw2e-d1e5415-Rd1e112">Imperator
+            Alexander Severus</ref> Delegatio debiti nisi consentiente et stipulanti
+            promittente debitore iure perfici non potest: nominis autem venditio
+            et ignorante vel invito eo, adversus quem actiones mandantur, contrahi
+            solet. * ALEX. A. QUINTIANO ET TIMOTHEO. *&lt;A 223 PP. V ID. FEBR.
+            MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5415-Dd1e116">
+               <head xml:id="azsw2e-d1e5415-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5415-d1e120">
+                  <ref xml:id="azsw2e-d1e5415-Rd1e122">Imperator
+            Gordianus</ref> Ex contractu pecuniae creditae actio inefficax dirigitur,
+            si delegatione personae rite facta iure novationis vetustior contractus
+            evanuit. * GORD. A. FIRMINO. *&lt;A 238 PP. K. SEPT. PIO ET PONTIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5415-Dd1e126">
+               <head xml:id="azsw2e-d1e5415-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5415-d1e130">
+                  <ref xml:id="azsw2e-d1e5415-Rd1e132">Imperator
+            Gordianus</ref>  Si delegatio non est interposita debitoris tui ac
+            propterea actiones apud te remanserunt, quamvis creditori tuo adversus
+            eum solutionis causa mandaveris actiones, tamen, antequam lis contestetur
+            vel aliquid ex debito accipiat vel debitori tuo denuntiaverit, exigere
+            a debitore tuo debitam quantitatem non vetaris et eo modo tui creditoris
+            exactionem contra eum inhibere. </p>
+               <p xml:id="azsw2e-d1e5415-d1e135" n="1">
+            Quod si delegatione facta iure novationis tu liberatus es,
+            frustra vereris, ne eo, quod quasi a cliente suo non faciat exactionem,
+            ad te periculum redundet, cum per verborum obligationem voluntate
+            novationis interposita debito liberatus sis. * GORD. A. MUCIANO. *&lt;A
+            239 PP. V ID. IUN. GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5415-Dd1e140">
+               <head xml:id="azsw2e-d1e5415-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e5415-d1e144">
+                  <ref xml:id="azsw2e-d1e5415-Rd1e146">Imperator
+            Gordianus</ref> Non abstulit tibi procurator tuus actionem, si, cum
+            ei mandasses exactionem pecuniae, quam hi tibi debebant, contra quos
+            supplicas, parte accepta de reliquo eos liberavit, cum neque contra
+            voluntatem tuam novationem facere neque in eo quod non solvebatur
+            eos liberare potuerit. * GORD. A. STRATONICO. *&lt;A 239 PP. ID. NOV.
+            GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5415-Dd1e150">
+               <head xml:id="azsw2e-d1e5415-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e5415-d1e154">
+                  <ref xml:id="azsw2e-d1e5415-Rd1e156">Imperatores
+            Diocletianus, Maximianus</ref> Si pater tuus, cui te successisse proponis,
+            creditori pro alexandro suscepto nomine certam pecuniam stipulanti
+            spopondit, licet per improbitatem alexander ei satis non fecit, tamen
+            summae repromissae nimis improbe solutio negatur. * DIOCL. ET MAXIM.
+            AA. ET CC. SEPTIMIAE. *&lt;A 294 S. II ID. APRIL. SIRMI CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5415-Dd1e160">
+               <head xml:id="azsw2e-d1e5415-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e5415-d1e164">
+                  <ref xml:id="azsw2e-d1e5415-Rd1e166">Imperatores
+            Diocletianus, Maximianus</ref> Nec creditoris creditori quisquam invitus
+            delegari potest. * DIOCL. ET MAXIM. AA. ET CC. ZIPARO. *&lt;A 294
+            S. XII K. NOV. DOROSTOLO CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5415-Dd1e170">
+               <head xml:id="azsw2e-d1e5415-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e5415-d1e174">
+                  <ref xml:id="azsw2e-d1e5415-Rd1e176">Imperatores
+            Diocletianus, Maximianus</ref> Si solvere tibi pecuniam delegatus
+            eucarpus dare spopondit vel debitum constituit, suo nomine conveniri
+            potest. Alioquin adversus eum experiri pro chirographario debitore
+            tuo frustra conaris * DIOCL. ET MAXIM. AA. ET CC. ZOILO. *&lt;A 294
+            S. XVII K. IAN. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5415-Dd1e180">
+               <head xml:id="azsw2e-d1e5415-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e5415-d1e184">
+                  <ref xml:id="azsw2e-d1e5415-Rd1e186">Imperator
+            Justinianus</ref>  Novationum nocentia corrigentes volumina et veteris
+            iuris ambiguitates resecantes sancimus, si quis vel aliam personam
+            adhibuerit vel mutaverit vel pignus acceperit vel quantitatem augendam
+            vel minuendam esse crediderit vel condicionem seu tempus addiderit
+            vel detraxerit vel cautionem iuniorem acceperit vel aliquid fecerit,
+            ex quo veteris iuris conditores introducebant novationes, nihil penitus
+            priori cautelae innovari, sed anteriora stare et posteriora incrementum
+            illis accedere, nisi ipsi specialiter remiserint quidem priorem obligationem
+            et hoc expresserint, quod secundam magis pro anterioribus elegerint.</p>
+               <p xml:id="azsw2e-d1e5415-d1e189" n="1">
+            Et generaliter definimus voluntate solum esse, non lege novandum,
+            etsi non verbis exprimatur, ut sine novatione, quod solito vocabulo
+            anobateutws dicunt, causa procedat: hoc enim naturalibus inesse rebus
+            volumus et non verbis extrinsecus supervenire.* IUST. A. AD
+            SENA TUM. *&lt;A 530 D. XI K. AUG. CONSTANTINOPOLI LAMPADIO ET ORESTE
+            VV. CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

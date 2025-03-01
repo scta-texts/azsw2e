@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 19</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 19</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7263"><!-- azsw2e-l11t19 -->
+            <head xml:id="azsw2e-d1e7263-Hd1e101">Titulus 19</head>
+            <head xml:id="azsw2e-d1e7263-Hd1e103" type="question-title">De studiis liberalibus urbis Romae et Constantinopolitanae</head>
+            <div xml:id="azsw2e-d1e7263-Dd1e106">
+               <head xml:id="azsw2e-d1e7263-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7263-d1e110">
+                  <ref xml:id="azsw2e-d1e7263-Rd1e112">Imperator
+            Theodosius</ref>  Universos, qui usurpantes sibi nomina magistrorum
+            in publicis magistrationibus cellulisque collectos undecumque discipulos
+            circumferre consuerunt, ab ostentatione vulgari praecipimus amoveri,
+            ita ut, si qui eorum post emissos divinae sanctionis adfatus quae
+            prohibemus atque damnamus iterum forte temptaverit, non solum eius
+            quam meretur infamiae notam subeat, verum etiam pellendum se ex ipsa
+            ubi versatur illicite urbe cognoscat. </p>
+               <p xml:id="azsw2e-d1e7263-d1e115" n="1">
+            Illos vero, qui intra plurimorum domus eadem exercere privatim
+            studia consueverunt, si ipsis tantummodo discipulis vacare maluerint,
+            quos intra parietes domesticos docent, nulla huiusmodi interminatione
+            prohibemus: sin autem ex eorum numero fuerint, qui videntur intra
+            capitolii auditorium constituti, ii omnibus modis privatarum aedium
+            studia sibi interdicta esse cognoscant, scituri, quod, si adversus
+            caelestia statuta facientes fuerint deprehensi, nihil penitus ex illis
+            privilegiis consequantur, quae his, qui in capitolio tantum docere
+            praecepti sunt, merito deferuntur. </p>
+               <p xml:id="azsw2e-d1e7263-d1e118" n="2">
+            Habeat igitur auditorium specialiter nostrum in his primum,
+            quos Romanae eloquentiae doctrina commendat, oratores quidem tres
+            numero, decem vero grammaticos: in his etiam, qui facundia graecitatis
+            pollere noscuntur, quinque numero sint sophistae et grammatici aeque
+            decem. </p>
+               <p xml:id="azsw2e-d1e7263-d1e121" n="3">
+            Et quoniam non his artibus tantum adulescentiam gloriosam
+            optamus institui, profundioris quoque scientiae atque doctrinae memoratis
+            magistris sociamus auctores. </p>
+               <p xml:id="azsw2e-d1e7263-d1e125" n="4">
+            Unum igitur adiungi ceteris volumus, qui philosophiae arcana
+            rimetur, duo quoque , qui iuris ac legum voluntates pandant, ita ut
+            unicuique loca specialiter deputata adsignari faciat tua sublimitas,
+            ne discipuli sibi invicem possint obstrepere vel magistri, neve linguarum
+            confusio permixta vel vocum aures quorundam aut mentes a studio litterarum
+            avertat. * THEODOS. A. ET VALENTIN. C. CONSTANTIO PU. *&lt;A 425 D.III
+            J.MART.CONSTANTINOPOLI THEODOSIO A.XI ET VALENTINIANO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

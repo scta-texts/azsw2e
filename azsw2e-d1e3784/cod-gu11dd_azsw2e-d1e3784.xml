@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 32</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 32</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3784"><!-- azsw2e-l6t32 -->
+            <head xml:id="azsw2e-d1e3784-Hd1e101">Titulus 32</head>
+            <head xml:id="azsw2e-d1e3784-Hd1e103" type="question-title">Quemadmodum aperiantur testamenta et inspiciantur et describantur.</head>
+            <div xml:id="azsw2e-d1e3784-Dd1e106">
+               <head xml:id="azsw2e-d1e3784-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3784-d1e110">
+                  <ref xml:id="azsw2e-d1e3784-Rd1e112">Imperator
+            Alexander Severus</ref> Ut testamentum, quod dicis factum, proferatur
+            et publice recitetur, competens iudex iubebit. * ALEX. A. PROCULAE.
+            *&lt;A 223 PP. II K. APRIL. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3784-Dd1e116">
+               <head xml:id="azsw2e-d1e3784-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3784-d1e120">
+                  <ref xml:id="azsw2e-d1e3784-Rd1e122">Imperatores
+            Valerianus, Gallienus. </ref>Testamenti tabulas ad hoc tibi a
+            patre datas, ut in patria proferantur, adfirmans potes illic proferre,
+            ut secundum leges moresque locorum insinuentur, ita scilicet, ut testibus
+            non praesentibus adire prius vel pro tribunali vel per libellum rectorem
+            provinciae procures ac permittente eo honestos viros adesse facias,
+            quibus praesentibus aperiantur et ab his rursum obsignentur. * VALER.
+            ET GALLIEN. AA. ALEXANDRO. *&lt;A 256 PP. XII K. IAN. MAXIMO II ET
+            GLABRIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3784-Dd1e126">
+               <head xml:id="azsw2e-d1e3784-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3784-d1e130">
+                  <ref xml:id="azsw2e-d1e3784-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Eius, quod ad causam novissimi patris
+            vestri iudicii pertinet, de calumnia tibi iuranti praeter partem,
+            quam aperiri defunctus vetuit vel ad ignominiam alicuius pertinere
+            dicitur, inspiciendi ac describendi praeter diem et consulem tibi
+            rector provinciae facultatem fieri iubebit. * DIOCL. ET MAXIM. AA.
+            ET CC. ARISTOTELI. *&lt;A 294 D. VI K. MAI. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3784-Dd1e137">
+               <head xml:id="azsw2e-d1e3784-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e3784-d1e141">
+                  <ref xml:id="azsw2e-d1e3784-Rd1e143">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Codicillos seu scripturam
+            quolibet tenore formatam ea oportebit observatione in publicum proferri,
+            qua testamenta panduntur. * GRAT. VALENTIN. ET THEODOS. AAA. AD HESPERIUM
+            PP. *&lt;A 379 D. III K. AUG. MEDIOLANO AUSONIO ET OLYBRIO CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 73</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 73</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4929"><!-- azsw2e-l7t73 -->
+            <head xml:id="azsw2e-d1e4929-Hd1e101">Titulus 73</head>
+            <head xml:id="azsw2e-d1e4929-Hd1e103" type="question-title">De privilegio fisci</head>
+            <div xml:id="azsw2e-d1e4929-Dd1e106">
+               <head xml:id="azsw2e-d1e4929-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4929-d1e110">
+                  <ref xml:id="azsw2e-d1e4929-Rd1e112">Imperator
+            Antoninus</ref> Bona mariti tui si ob reliqua administrationis primipili
+            a fisco occupata sunt, res, quas tuas esse liquido probaveris, ab
+            aliis separatae tibi restituuntur. * ANT. A. EUTROPIAE. *&lt;A XXX
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4929-Dd1e116">
+               <head xml:id="azsw2e-d1e4929-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4929-d1e120">
+                  <ref xml:id="azsw2e-d1e4929-Rd1e122">Imperator
+            Antoninus</ref> Quamvis ex causa dotis vir quondam tuus tibi sit condemnatus,
+            tamen si prius, quam res eius tibi obligarentur, cum fisco contraxit,
+            ius fisci causam tuam praevenit. Quod si post bonorum eius obligationem
+            rationibus meis coepit esse obligatus, in eius bona cessat privilegium
+            fisci * ANT. A. VALERIANAE. *&lt;A 213 PP. XIIII K. NOV. ANTONINO
+            A. IIII ET BALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4929-Dd1e126">
+               <head xml:id="azsw2e-d1e4929-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4929-d1e130">
+                  <ref xml:id="azsw2e-d1e4929-Rd1e132">Imperator
+            Antoninus</ref> Si, cum pecuniam pro marito solveres, neque ius fisci
+            in te transferri impetrasti neque pignoris causa domum vel aliud quid
+            ab eo accepisti, habes personalem actionem nec potes praeferri fisci
+            rationibus, a quo dicis ei vectigal denuo locatum esse, cum eo pacto
+            universa, quae habet habuitve eo tempore, quo ad conductionem accessit,
+            pignoris iure fisco teneantur. Salva igitur indemnitate fisci debitorem
+            tuum pro pecunia, quam pro eo fisco solvisti, more solito convenire
+            non prohiberis * ANT. A. IULIANAE. *&lt;A 213 PP. III K. IAN. ANTONINO
+            A. IIII ET BALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4929-Dd1e137">
+               <head xml:id="azsw2e-d1e4929-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4929-d1e141">
+                  <ref xml:id="azsw2e-d1e4929-Rd1e143">Imperator
+            Antoninus</ref> Si debitor, cuius fundum fuisse et ipse confiteris,
+            prius eum distraxit, quam fisco aliquid debuit, inquietandum te non
+            esse procurator meus cognoscet. Nam etsi postea debitor extitit, non
+            ideo tamen ea, quae de dominio eius excesserunt, pignoris iure fisco
+            potuerunt obligari * ANT. A. QUINTO. *&lt;A 215 PP. III K. IUL. LAETO
+            II ET CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4929-Dd1e147">
+               <head xml:id="azsw2e-d1e4929-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e4929-d1e151">
+                  <ref xml:id="azsw2e-d1e4929-Rd1e153">Imperator
+            Alexander Severus</ref> Pecunia, quam creditor a debitore suo recepit,
+            si postea ex iusta causa fisco restituenda erit, sine usuris debetur,
+            quia non fenus contractum, sed suum recuperatum extraordinario iure
+            aufertur. * ALEX. A. MAGNAE. *&lt;A 225 PP. XV K. IUN. FUSCO ET DEXTRO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4929-Dd1e157">
+               <head xml:id="azsw2e-d1e4929-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e4929-d1e161">
+                  <ref xml:id="azsw2e-d1e4929-Rd1e163">Imperator
+            Gordianus</ref> Cum patrem tuum fisci debitorem fuisse demonstres
+            eumque nubenti tibi possessionem dedisse adleges, procuratorem ius
+            fisci exsequentem eam iure pignoris revocare potuisse intellegis.
+            * GORD. A. SEVERIANAE. *&lt;A 240 PP. NON. IUL. SABINO ET VENUSTO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4929-Dd1e167">
+               <head xml:id="azsw2e-d1e4929-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e4929-d1e171">
+                  <ref xml:id="azsw2e-d1e4929-Rd1e173">Imperatores
+            Valerianus, Gallienus</ref> Si in te ius fisci, cum reliqua debitoris,
+            pro quo satisfaciebas, tibi competens iudex adscripsit et transtulit,
+            ab his creditoribus, quibus fiscus potior habetur, res quas eo nomine
+            tenes non possunt inquietari. * VALER. ET GALLIEN. AA. ET VALER. C.
+            DIODORO. *&lt;A 259 PP. XV K. IUN. AEMILIANO ET BASSO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

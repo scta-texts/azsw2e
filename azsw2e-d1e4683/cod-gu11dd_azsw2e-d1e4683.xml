@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 51</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 51</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4683"><!-- azsw2e-l7t51 -->
+            <head xml:id="azsw2e-d1e4683-Hd1e101">Titulus 51</head>
+            <head xml:id="azsw2e-d1e4683-Hd1e103" type="question-title">De fructibus et litis expensis</head>
+            <div xml:id="azsw2e-d1e4683-Dd1e106">
+               <head xml:id="azsw2e-d1e4683-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4683-d1e110">
+                  <ref xml:id="azsw2e-d1e4683-Rd1e112">Imperatores
+            Diocletianus, Maximianus</ref> Hoc fructuum nomine continetur, quod
+            iustis sumptibus deductis superest. * DIOCL. ET MAXIM. AA. ET CC.
+            ACTAE. *&lt;A 294 III NON. APRIL CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4683-Dd1e116">
+               <head xml:id="azsw2e-d1e4683-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4683-d1e120">
+                  <ref xml:id="azsw2e-d1e4683-Rd1e122">Imperatores
+            Valentinianus, Valens</ref> Litigator victus, qui post conventionem
+            rei incubarit alienae, non in sola rei redhibitione teneatur nec tantum
+            fructuum praestationem aut eorum quos ipse percepit agnoscat, sed
+            eos, quos percipi oportuisse, non quos eum redegisse constabit, exsolvat
+            ex eo, ex quo re in iudicium deducta scientiam malae possessionis
+            accepit. Heredis quoque succedentis in vitium par habenda fortuna
+            est * VALENTIN. ET VALENS AA. OLYBRIO PU. *&lt;A 369 D. VII K. MART.
+            TREVIRIS VALENTINIANO NP. ET VICTORE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4683-Dd1e126">
+               <head xml:id="azsw2e-d1e4683-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4683-d1e130">
+                  <ref xml:id="azsw2e-d1e4683-Rd1e132">Imperatores
+            Honorius, Theodosius</ref> Terminato transactoque negotio posthac
+            nulli actio neque ex rescripto super sumptuum repetitione praestetur,
+            nisi iudex, qui de principali negotio sententiam promulgavit, cominus
+            partibus constitutis iuridica pronuntiatione signaverit victori causae
+            restitui debere expensas aut super his querellam iure competere. Post
+            absolutum enim dimissumque iudicium nefas est litem alteram consurgere
+            ex litis primae materia * HONOR. ET THEODOS. AA. ASCLEPIODOTO PP.
+            *&lt;A 423 D.III K.APRIL.CONSTANTINOPOLI ASCLEPIODOTO ET MARINIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4683-Dd1e137">
+               <head xml:id="azsw2e-d1e4683-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4683-d1e141">
+                  <ref xml:id="azsw2e-d1e4683-Rd1e143">Imperatores
+            Valentinianus, Marcianus</ref> Non ignoret is, cuius ex interpellatione
+            aliquis secundum datam formam in longinqua fuerit protractus examina,
+            quod, si culpa sui fuerit dilata cognitio vel minime actioni suae
+            adfuerit vel delata probaverit, pro calumnia quidem poenam luat legibus
+            constitutam, pro vero pecuniaria causa post dispendia, post sumptus
+            considerata quantitate postulatorum vel medii itineris intervallo
+            condemnationem pro aestimatione iudicis sustinebit. * EDICTUM VALENTINIANI
+            ET MARCIANI AA. AD POP. *&lt;A 450 D.V ID.OCT.CONSTANTINOPOLI VALENTINIANO
+            A. VII ET AVIENO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4683-Dd1e147">
+               <head xml:id="azsw2e-d1e4683-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e4683-d1e151"><!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e4683-Dd1e155">
+               <head xml:id="azsw2e-d1e4683-Hd1e157">6</head>
+               <p xml:id="azsw2e-d1e4683-d1e159">
+                  <ref xml:id="azsw2e-d1e4683-Rd1e161">Imperator
+            Anastasius</ref> Cum quidam per leges sacrasque constitutiones, alii
+            per speciales largitates sibi praestituta privilegia praetendunt tam
+            super sportulis pro conventionibus usque ad certam quantitatem praebendis
+            quam super expensis litium vel minuendis vel penitus non agnoscendis,
+            per hanc legem decernimus, ut, quicumque huiusmodi privilegio munitus
+            est vel postea talem praerogativam quolibet modo meruerit, sciat,
+            et si quos ipse utpote obnoxius sibi pro quacumque criminali vel civili
+            causa constitutos in accusationem deduxerit, hos nihilo minus isdem
+            privilegiis potituros, quoniam non est ferendum eos, qui praefatas
+            praerogativas, ut ante latum est, praetendunt, aliquid plus ab adversariis
+            suis quaerere concedi, quam ipsi ab aliis pulsati facere patiantur:
+            ita scilicet, ut haec forma modis omnibus observetur super privilegiis
+            per liberalitates vel generaliter quibusdam officiis aut scholis seu
+            dignitatibus vel specialiter certis personis praestitis vel postea
+            praebendis, sive hoc ipsum expressim principalibus dispositionibus
+            vel adfatibus insertum sive praetermissum sit vel fuerit. * ANASTAS.
+            A. STEPHANO MAG. MIL. *&lt;A XXX &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

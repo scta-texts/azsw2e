@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 49</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 49</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6157"><!-- azsw2e-l9t49 -->
+            <head xml:id="azsw2e-d1e6157-Hd1e101">Titulus 49</head>
+            <head xml:id="azsw2e-d1e6157-Hd1e103" type="question-title">De bonis conscriptorum seu damnatorum</head>
+            <div xml:id="azsw2e-d1e6157-Dd1e106">
+               <head xml:id="azsw2e-d1e6157-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6157-d1e110">
+                  <ref xml:id="azsw2e-d1e6157-Rd1e112">Imperator
+            Antoninus</ref>  Servorum capitis crimine damnatorum peculia dominis
+            non auferri notum est, sed quod servum dominus habuisse probaverit,
+            recipiet pretiumque rerum, si quae ex eo distractae sunt. </p>
+               <p xml:id="azsw2e-d1e6157-d1e115" n="1">
+            Ipsius quoque praesentiae potestas ei dabitur, quoad rationes
+            per eum administratae reddantur ac dispungantur. Sed meminisse dominum
+            oportebit instare, ut id velocius fiat, ut poenae suae reddi possit
+            * ANT. A. MARCELLO. *&lt;A 213 PP.III K.AUG.ANTONINO A. ET BALBINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6157-Dd1e119">
+               <head xml:id="azsw2e-d1e6157-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e6157-d1e123">
+                  <ref xml:id="azsw2e-d1e6157-Rd1e125">Imperator
+            Alexander Severus</ref> Deportati nec earum quidem rerum, quas post
+            poenam inrogatam habuerint, heredem habere possunt, sed hae publicantur.
+            * ALEX. A. FRONTONI. *&lt;A XXX PP. NON.FEBR.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6157-Dd1e129">
+               <head xml:id="azsw2e-d1e6157-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e6157-d1e133">
+                  <ref xml:id="azsw2e-d1e6157-Rd1e135">Imperator
+            Alexander Severus</ref> Si filius tuus, cum esset in tua potestate,
+            in insulam deportari meruit, peculium eius nec quod in castris adquisivit
+            vel quod ei militaturo donasti auferri tibi debet. * ALEX. A. IULIANO.
+            *&lt;A 226 PP.IIII ID.SEPT.ALEXANDRO II ET MARCELLO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6157-Dd1e140">
+               <head xml:id="azsw2e-d1e6157-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e6157-d1e144">
+                  <ref xml:id="azsw2e-d1e6157-Rd1e146">Imperator
+            Gordianus</ref> In metallum damnatus poenae servus efficitur et ideo
+            eiusmodi sententiam passi bona vindicantur rationibus fisci. Quare
+            si quid rerum habuit is, quem postea indulgentia liberatum esse proponis,
+            ad ius fisci potius quam ad ipsius dominium pertinet * GORD. A. CALLIMORPHO.
+            *&lt;A XXX PP.X K.NOV.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6157-Dd1e150">
+               <head xml:id="azsw2e-d1e6157-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e6157-d1e154">
+                  <ref xml:id="azsw2e-d1e6157-Rd1e156">Imperator
+            Philippus</ref> Si, ut proponis, bona eius, qui tutelam tuam administravit,
+            sententiam passi ad fiscum sunt devoluta, procuratorem nostrum adire
+            cura, qui, si quid iure posci animadverterit, non negabit. * PHILIPP.
+            A. ET PHILIPP. C. ARRUNTIANO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6157-Dd1e160">
+               <head xml:id="azsw2e-d1e6157-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e6157-d1e164">
+                  <ref xml:id="azsw2e-d1e6157-Rd1e166">Imperatores
+            Diocletianus, Maximianus</ref> De bonis matris deportatae filiis nihil
+            deberi iuris absolutissimi est. * DIOCL. ET MAXIM. AA. ET CC.GAUDENTIO.
+            *&lt;A XXX S.XIII.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6157-Dd1e170">
+               <head xml:id="azsw2e-d1e6157-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e6157-d1e174">
+                  <ref xml:id="azsw2e-d1e6157-Rd1e176">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Si quis intra provinciam pro
+            qualitate delicti stilum proscriptionis incurrerit, per ordinarii
+            officii sollicitudinem bonorum eius indago diligentissime celebretur,
+            ne quid rei privatae commodis per gratiam atque colludium furto subducatur.
+            </p>
+               <p xml:id="azsw2e-d1e6157-d1e179" n="1">
+            Et plena descriptio comprehendat, quod spatium et quod sit
+            ruris ingenium, quid aut cultum sit aut colatur, quid in vineis olivis
+            aratoriis pascuis silvis fuerit inventum, quae etiam gratia et quae
+            amoenitas sit locorum, quis aedificiis ac possessionibus ornatus,
+            quotve mancipia in praediis occupatis vel urbana vel rustica vel quarum
+            artium generibus imbuta teneantur, quot sint casarii vel coloni, quot
+            boum exercitiis terrarum atque vomeribus instruenium, quot pecorum
+            et armentorum greges et in qua diversitate numerati sint, quantum
+            auri et argenti, vestium ac monilium vel in specie vel in pondere
+            et in quibus speciebus, quidve in enthecis sit repertum. </p>
+               <p xml:id="azsw2e-d1e6157-d1e182" n="2">
+            Tum demum omnia ea, quae velle nos perspicis, inquisitione
+            constricta rationalis rei privatae tradantur officio aut palatinis
+            super hac causa missis nostro nectenda patrimonio. </p>
+               <p xml:id="azsw2e-d1e6157-d1e185" n="3">
+            Mox vero ad nos sub litteris publicis iudicis singillatim
+            de omnibus nominatimque referatur, procul dubio neglegentia multanda.
+            </p>
+               <p xml:id="azsw2e-d1e6157-d1e189" n="4">
+            Nam si quid post factam a praedicto officio investigationem
+            rationalis rei privatae, cui inquisitio secunda mandata est, amplius
+            fortassis invenenerit, officium fraudulentum ea condemnatione ferietur,
+            ut aliud tantum quantum fuerat subtractum ex propriis facultatibus
+            inferat. * VALENTIN. VALENS ET GRAT. AAA. AD PROBUM PP. *&lt;A 369
+            D.III NON.MAI.TREVIRIS VALENTINIANO NP.ET VICTORE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6157-Dd1e193">
+               <head xml:id="azsw2e-d1e6157-Hd1e195">8</head>
+               <p xml:id="azsw2e-d1e6157-d1e197">
+                  <ref xml:id="azsw2e-d1e6157-Rd1e199">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Si deportatus suos et emancipatos
+            filios habuerit, pars, quae ex bonis eius liberis concessa est, ad
+            eos tantum qui in potestate erant transferatur, si emancipati ea,
+            quae consecuti erant emancipationis tempore, damnose existimant conferenda.
+            </p>
+               <p xml:id="azsw2e-d1e6157-d1e202" n="1">
+            Sin autem confusionem bonorum et donationis elegerint, omnia
+            ea, quae fiscus liberis damnati concedit, aequae divisionis partibus
+            sortiantur. </p>
+               <p xml:id="azsw2e-d1e6157-d1e205" n="2">
+            Quae regula etiam in dote filiae vel neptis ex filio deportati
+            conferenda custodienda erit. * GRAT. VALENTIN. ET THEODOS. AAA EUTROPIO
+            PP. *&lt;A 380 D.XV K.IUL.THESSALONICAE GRATIANO V ET THEODOSIO AA.
+            CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6157-Dd1e209">
+               <head xml:id="azsw2e-d1e6157-Hd1e211">9</head>
+               <p xml:id="azsw2e-d1e6157-d1e213">
+                  <ref xml:id="azsw2e-d1e6157-Rd1e215">Imperatores
+            Arcadius, Honorius</ref>  Si quis posthac stilum, quod absit, proscriptionis
+            exceperit, uxor res proprias ex quocumque titulo sibi quaesitas veluti
+            manu iniecta mox vindicet aut certe quoquo modo occupatas statim recipiat.
+            Dos etiam, non quae aliquotiens inaniter dotalium instrumentorum tenore
+            conscribitur, sed quam se corporaliter tradidisse docuerit, repraesentetur.
+            Ea etiam, quae ab innoxio adhuc ante nuptias titulo donationis acceperit,
+            vel durante matrimonio largitione viri ad eam ante proscriptionem
+            pervenerint, apud eam firmiter permaneant. </p>
+               <p xml:id="azsw2e-d1e6157-d1e218" n="1">
+            Si quid etiam in emancipatos liberos ante tempus criminis
+            ac reatus patrem contulisse claruerit, integrum isdem citra inquietudinem
+            reservetur. Quod vero nec uxor nec emancipati liberi potuerint vindicare,
+            captum a publicis personis ita ad me referri specialiter censeo, ut
+            illud quoque addatur, utrum filios habeat qui damnatus est, simulque
+            adiciatur, utrum idem apud se ex causa donationis aliquid vindicaverint
+            </p>
+               <p xml:id="azsw2e-d1e6157-d1e221" n="2">
+            Sed in his, qui fiscalibus actibus nexi sunt et pro ratiociniis
+            proscribuntur et condemnantur, placuit, si quid proprium uxor habuit
+            vel a marito datum ante initium actum, ex quo origo fraudis ac vitii
+            in iudicium deducta est, si quid deinde in emancipatos filios donatione
+            collatum est, antequam crimen oriatur, intemeratum apud accipientium
+            iura persistere: nec quicquam fisco in qualibet causa teneatur obnoxium,
+            nisi quod in dominio proprio cum obligari ortus est habuit vel quod
+            agens tam suo quam uxoris vel filiorum vel cuiuscumque praeterea nomine
+            comparavit. </p>
+               <p xml:id="azsw2e-d1e6157-d1e224" n="3">
+            Exceptis dumtaxat caesarianis, id est catholicianis, qui
+            ab omni iuris beneficio excluduntur, nisi probata a me purgataque
+            ratiocinia fuerint, ut, quod innoxie habuerint, transmittendi copiam
+            habeant. * ARCAD. ET HONOR. AA. CAESARIO PP. *&lt;A 396 D.III NON.AUG.CONSTANTINOPOLI
+            ARCADIO IIII ET HONORIO III AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6157-Dd1e229">
+               <head xml:id="azsw2e-d1e6157-Hd1e231">10</head>
+               <p xml:id="azsw2e-d1e6157-d1e233">
+                  <ref xml:id="azsw2e-d1e6157-Rd1e235">Imperatores
+            Theodosius, Valentinianus</ref>  Quando quis quolibet crimine damnatus
+            capitalem poenam vel deportationem sustineat, si quidem sine liberis
+            mortuus sit, bona eius ad fiscum perveniant: si vero filii vel nepotes
+            ex defunctis filiis relicti erunt, dimidia parte aerario vindicata
+            alia eis reservetur. Idem est et si postumos dereliquerit </p>
+               <p xml:id="azsw2e-d1e6157-d1e238" n="1">
+            Decurioni vero, qui hoc incurrerit, si liberos non habeat,
+            succedat curia bonaque universa detineat aut ipsa per se aut suo ordinatura
+            periculo munera subiturum. </p>
+               <p xml:id="azsw2e-d1e6157-d1e241" n="2">
+            Sin autem erit suboles curiali, etsi ea necdum procreata
+            est, integris patris fortunis fulciatur. </p>
+               <p xml:id="azsw2e-d1e6157-d1e244" n="3">
+            Si filia vel filiae fuerint, pars dimidia ad eas deveniat
+            facultatum, pars ad curiam. </p>
+               <p xml:id="azsw2e-d1e6157-d1e248" n="4">
+                  <ref xml:id="azsw2e-d1e6157-Rd1e250">
+           </ref> Sin mares curiales fuerint intermixti, dimidia pars eis curiae
+            nomine deferatur, et aliam, quam in commune omnibus tribuit indulgentia
+            principalis, pro virili dividant portione. </p>
+               <p xml:id="azsw2e-d1e6157-d1e253" n="5">
+            Excepta sola maiestatis quaestione: quam si quis sacrilego
+            animo adsumpserit, iuste poenam ad suos etiam posteros mittit. * THEODOS.
+            ET VALENTIN. AA. HIERIO PP. *&lt;A 426 D.X K.FEBR.CONSTANTINOPOLI
+            THEODOSIO XII ET VALENTINIANO II AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6157-Dd1e257">
+               <head xml:id="azsw2e-d1e6157-Hd1e259">11</head>
+               <p xml:id="azsw2e-d1e6157-d1e261"><!-- greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

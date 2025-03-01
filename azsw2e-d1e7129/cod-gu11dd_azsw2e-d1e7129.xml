@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 7</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 7</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7129"><!-- azsw2e-l11t7 -->
+            <head xml:id="azsw2e-d1e7129-Hd1e101">Titulus 7</head>
+            <head xml:id="azsw2e-d1e7129-Hd1e103" type="question-title">De metallariis et metallis et procuratoribus metallorum.</head>
+            <div xml:id="azsw2e-d1e7129-Dd1e106">
+               <head xml:id="azsw2e-d1e7129-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7129-d1e110">
+                  <ref xml:id="azsw2e-d1e7129-Rd1e112">Imperatores
+            Valentinianus, Valens</ref>  Perpensa deliberatione duximus sanciendum,
+            ut, quicumque exercitium metallorum vellet adfluere, is labore proprio
+            et sibi et rei publicae commoda compararet. </p>
+               <p xml:id="azsw2e-d1e7129-d1e115" n="1">
+            Itaque si qui sponte confluxerint, eos laudabilitas, tua
+            octonos scripulos in balluca, quae Graece <foreign>krusammos</foreign>
+            appellatur, cogat exsolvere. </p>
+               <p xml:id="azsw2e-d1e7129-d1e120" n="2">
+            Quidquid autem amplius colligere potuerint, fisco potissimum
+            distragant, a quo competentia ex largitionibus nostris pretia suscipiant.
+            * VALENTIN. ET VALENS AA. AD CRESCONIUM COM. METALLORUM. *&lt;A 365
+            D. IIII ID. DEC. PARISIIS VALENTINIANO ET VALENTE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7129-Dd1e124">
+               <head xml:id="azsw2e-d1e7129-Hd1e126">2</head>
+               <p xml:id="azsw2e-d1e7129-d1e128">
+                  <ref xml:id="azsw2e-d1e7129-Rd1e130">Imperatores
+            Valentinianus, Valens</ref> Ob metallicum canonem, in quo propria
+            consuetudo retinenda est, quattuordecim unicas ballucae pro singulis
+            libris constat inferri. * VALENTIN. ET VALENS AA. AD GERMANIANUM COM.
+            SACR. LARG. *&lt;A 367 D. VI ID. IAN. ROMAE LUPICINO ET IOVINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7129-Dd1e134">
+               <head xml:id="azsw2e-d1e7129-Hd1e136">3</head>
+               <p xml:id="azsw2e-d1e7129-d1e138">
+                  <ref xml:id="azsw2e-d1e7129-Rd1e140">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Cuncti, qui per privatorum
+            loca saxorum venam laboriosis effossionibus persequuntur, decimas
+            fisco, decimas etiam domino repraesentent, cetero modo suis desideriis
+            vindicando. * GRAT. VALENTIN. ET THEODOS. AAA. FLORO PP. *&lt;A 382
+            D. III K. SEPT. CONSTANTINOPOLI ANTONIO ET SYAGRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7129-Dd1e145">
+               <head xml:id="azsw2e-d1e7129-Hd1e147">4</head>
+               <p xml:id="azsw2e-d1e7129-d1e149">
+                  <ref xml:id="azsw2e-d1e7129-Rd1e151">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Cum procuratores metallorum
+            intra Macedoniam Daciam Mediterraneam Moesiam seu Dardaniam soliti
+            ex curialibus ordinari, per quos sollemnis profligatur exactio, simulato
+            hostili metu huic se necessitati subtraxerint, ad implendum munus
+            retrahantur, et nulli deinceps licentia laxetur prius indebitas expetere
+            dignitates, quam subeundam procurationem fideli sollertique exactione
+            compleverint. * GRAT. VALENTIN. ET THEODOS. AAA. EUSIGNIO PP. *&lt;A
+            386 D. IIII K. AUG. MEDIOLANI HONORIO NP. ET EUODIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7129-Dd1e155">
+               <head xml:id="azsw2e-d1e7129-Hd1e157">5</head>
+               <p xml:id="azsw2e-d1e7129-d1e159">
+                  <ref xml:id="azsw2e-d1e7129-Rd1e161">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Per annos singulos septeni
+            per hominem scripuli largitionibus inferantur ab aurilegulis, non
+            solum in Pontica dioecesi, verum etiam in Asiana. * VALENTIN. THEODOS.
+            ET ARCAD. AAA. ROMULO COM. SACR. LARG. *&lt;A 392 D. XI K. MART. CONSTANTINOPOLI
+            ARCADIO A. II ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7129-Dd1e165">
+               <head xml:id="azsw2e-d1e7129-Hd1e167">6</head>
+               <p xml:id="azsw2e-d1e7129-d1e169">
+                  <ref xml:id="azsw2e-d1e7129-Rd1e171">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Quosdam operta humo esse
+            saxa dicentes id agere cognovimus, ut defossis in altum cuniculis
+            alienarum aedium fundamenta labefactent. Qua de re, si quando huiusmodi
+            marmora sub aedificiis latere dicantur, perquirendi eadem copia denegetur
+            * VALENTIN. THEODOS. ET ARCAD. AAA. PATERNO. *&lt;A 393 D. XVII K.
+            APRIL. CONSTANTINOPOLI THEODOSIO A. III ET ABUNDANTIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7129-Dd1e175">
+               <head xml:id="azsw2e-d1e7129-Hd1e177">7</head>
+               <p xml:id="azsw2e-d1e7129-d1e179">
+                  <ref xml:id="azsw2e-d1e7129-Rd1e181">Imperator
+            Theodosius</ref> Metallarii sive metallariae, qui quaeve ea regione
+            deserta, ex qua videntur oriundi vel oriundae, ad externa migraverint,
+            indubitanter sine ulla temporis praescriptione ad propriae originis
+            stirpem laremque una cum sua subole revocentur, et quos domus nostrae
+            secreta retineant. Sciant autem nullum exinde praeiudicium fisco esse
+            generandum, etiamsi is, quem metallicum esse constiterit, privatis
+            censibus suum nomen indiderit * THEODOS. A. MAXIMINO COM. SACR. LARG.
+            *&lt;A 424 D. V ID. IUL. CONSTANTINOPOLI VICTORE VC. CONS.&gt; </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

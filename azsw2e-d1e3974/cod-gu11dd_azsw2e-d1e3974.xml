@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 50</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 50</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3974"><!-- azsw2e-l6t50 -->
+            <head xml:id="azsw2e-d1e3974-Hd1e101">Titulus 50</head>
+            <head xml:id="azsw2e-d1e3974-Hd1e103" type="question-title">Ad legem Falcidiam</head>
+            <div xml:id="azsw2e-d1e3974-Dd1e106">
+               <head xml:id="azsw2e-d1e3974-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3974-d1e110">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Scire debes omissa Falcidia, quo pleniorem
+            fidem portionis restituendae exhiberes, non videri plus debito solutum
+            esse. * SEV. ET ANT. AA. PRISCO. *&lt;A 197 PP.III ID.MAI.LATERANO
+            ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e116">
+               <head xml:id="azsw2e-d1e3974-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3974-d1e120">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Falcidiae rationem adversus omnes pro modo
+            legatorum et fideicommissorum locum habere certi et explorati iuris
+            est. * SEV. ET ANT. AA SANCTIANO. *&lt;A 197 PP.K.IUL.LATERANO ET
+            RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e126">
+               <head xml:id="azsw2e-d1e3974-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3974-d1e130">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e132">Imperator
+            Alexander Severus</ref> Etiamsi tacitum fideicommissum heredem administrasse
+            apparuerit, legata tamen seu fideicommissa, quae testamento relicta
+            sunt, praestanda esse ambigi non oportet, ad eum videlicet modum,
+            quem lex Falcidia patiatur, cum quartam, quae aufertur heredi, qui
+            contra legem fidem suam obtulit, legatariis proficere non placuit.
+            * ALEX. A. HERMAGORAE. *&lt;A 222 PP.ID.OCT.ALEXANDRO A. CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e137">
+               <head xml:id="azsw2e-d1e3974-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e3974-d1e141">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e143">Imperator
+            Alexander Severus</ref> Et in legatis principi datis legem Falcidiam
+            locum habere merito divo Hadriano placuit. * ALEX. A. PHILETIANO.
+            *&lt;A 222 PP.V K.IAN.ALEXANDRO A.CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e147">
+               <head xml:id="azsw2e-d1e3974-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e3974-d1e151">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e153">Imperator
+            Alexander Severus</ref> Si mortis causa immodicas donationes in sororem
+            tuam matrem contulisse probare potes, legis Falcidiae ratione secundum
+            constitutionem divi Severi avi mei uti potes. * ALEX. A. SAMOSATAE.
+            *&lt;A 223 PP.XV K.NOV.MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e157">
+               <head xml:id="azsw2e-d1e3974-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e3974-d1e161">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e163">Imperator
+            Alexander Severus</ref>  In ponenda ratione legis Falcidiae omne aes
+            alienum deducitur, etiam quod ipsi heredi mortis tempore debitum fuerit,
+            quamvis aditione hereditatis confusae sint actiones. </p>
+               <p xml:id="azsw2e-d1e3974-d1e166" n="1">
+            Omnia autem legata, quamvis in operibus publicis conficiendis
+            statuisque ponendis data sint, ad contributionem dodrantis pro rata
+            suae cuiusque quantitatis revocantur. </p>
+               <p xml:id="azsw2e-d1e3974-d1e169" n="2">
+            Nec si quid ultro solidum heres praestiterit aut perfecerit,
+            legitimae computationi praeiudicatur. * ALEX. A. SECUNDINAE. *&lt;A223
+            S.V K.IAN.MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e173">
+               <head xml:id="azsw2e-d1e3974-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e3974-d1e177">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e179">Imperator
+            Alexander Severus</ref> In testamento quidem militis ius legis Falcidiae
+            cessat. Sed ea, quae ad vos pertinentia defunctus tenuit, bonorum
+            eius videri minime possunt et ideo recte rationem eorum ut aeris alieni
+            haberi desiderabitis * ALEX. A. POMPONIO. *&lt;A 226 PP.K.MAI.ALEXANDRO
+            II ET MARCELLO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e183">
+               <head xml:id="azsw2e-d1e3974-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e3974-d1e187">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e189">Imperator
+            Alexander Severus</ref>  Irritum quidem propterea testamentum fratris
+            tui esse non potest, quod ex causa fideicommissi obligatus fuit, ut,
+            si sine liberis prior decederet, paternam tibi hereditatem redderet.
+            </p>
+               <p xml:id="azsw2e-d1e3974-d1e192" n="1">
+            Sed licet te heredem scripserit, in ponenda tamen legatorum
+            ratione, quibus te oneratum esse suggeris, fideicommissum debitum
+            aeris alieni loco deduci oportet insuperque in residuo legis Falcidiae
+            beneficium vindicabis. * ALEX. A. AURELIO. *&lt;A 223 PP.ID.SEPT.MAXIMO
+            II ET PATERNO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e196">
+               <head xml:id="azsw2e-d1e3974-Hd1e198">9</head>
+               <p xml:id="azsw2e-d1e3974-d1e200">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e202">Imperator
+            Gordianus</ref> Error facti quartae ex causa fideicommissi non retentae
+            repetitionem non impedit. Is autem, qui sciens se posse retinere universum
+            restituit, condictionem non habet: quin etiam, si ius ignoraverit,
+            cessat repetitio * GORD. A. MESTRIANO. *&lt;A 238 PP.XV K.NOV.PIO
+            ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e207">
+               <head xml:id="azsw2e-d1e3974-Hd1e209">10</head>
+               <p xml:id="azsw2e-d1e3974-d1e211">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e213">Imperator
+            Gordianus</ref> Quamquam pater tuus fratrem tuum rogaverit, ut, si
+            sine liberis diem suum fungeretur, portionem hereditatis tibi restitueret,
+            tamen intestato eodem diem suum functo id, quod beneficio legis Falcidiae
+            habere potuit, ad successorem intestati pertinere ideoque non immerito
+            sororem tuam, quae simul tecum ab intestato ei successit, emolumenti
+            quod retineri potuit portionem sibi vindicare manifestum est. * GORD.
+            A. DIOGENIO. *&lt;A 241 PP.V ID.NOV.GORDIANO A.II ET POMPEIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e217">
+               <head xml:id="azsw2e-d1e3974-Hd1e219">11</head>
+               <p xml:id="azsw2e-d1e3974-d1e221">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e223">Imperator
+            Gordianus</ref> Si, ut adlegas, pater tuus eam portionem , ex qua
+            te fecit heredem, fratribus tuis restituere iussit certisque speciebus
+            pro Falcidia praecepit esse contentam, auxilium legis Falcidiae, quod
+            imploras, apud suum iudicem non prohiberis flagitare. * GORD. A. MAXIMAE.
+            *&lt;A 243 PP.VII K.NOV.ARRIANO ET PAPO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e227">
+               <head xml:id="azsw2e-d1e3974-Hd1e229">12</head>
+               <p xml:id="azsw2e-d1e3974-d1e231">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e233">Imperatores
+            Diocletianus, Maximianus</ref> In donationibus inter virum et uxorem
+            factis legem Falcidiam habere locum, quando fideicommissi partibus
+            funguntur, nonnullis iuris placitis comprehensum est. * DIOCL. ET
+            MAXIM. AA. IUSTINO. *&lt;A 290 PP.XVI K.IUL.IPSIS AA.IIII ET III CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e237">
+               <head xml:id="azsw2e-d1e3974-Hd1e239">13</head>
+               <p xml:id="azsw2e-d1e3974-d1e241">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e243">Imperatores
+            Diocletianus, Maximianus</ref>  Si ea, cuius filium tuum servum significas,
+            ex iudicio defuncti, quem dicis fideicommissariam libertatem ei reliquisse,
+            aliquid consecuta est, ad restituendam fideicommissariam libertatem
+            non immerito obnoxia constituta debet urgueri. </p>
+               <p xml:id="azsw2e-d1e3974-d1e246" n="1">
+            Nam fideicommissum ei relictum usque ad eum modum potest
+            petere, quod deducto pretio servorum, quos fuerat rogata manumittere,
+            relictorum substantia patitur. * DIOCL. ET MAXIM. AA. ET CC. ZETHO.
+            *&lt;A 293 S.V K.MAI.HERACLIAE AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e250">
+               <head xml:id="azsw2e-d1e3974-Hd1e252">14</head>
+               <p xml:id="azsw2e-d1e3974-d1e254">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e256">Imperatores
+            Diocletianus, Maximianus</ref> Licet adieris patris hereditatem et
+            confusione pro parte qua eidem successeris extinguatur actio, quam
+            tibi competere eo, quod ex administratione tutelae multa eum debuisse
+            contendis, pro residuis tamen partibus coheredes convenire non prohiberis
+            et fundum a te relictum eatenus, quod deducta quarta residui substantia
+            patitur, praestare necesse habes. * DIOCL. ET MAXIM. AA. ET CC. FAUSTINAE.
+            *&lt;A 293 D.VI K.OCT.VIMINACII AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e260">
+               <head xml:id="azsw2e-d1e3974-Hd1e262">15</head>
+               <p xml:id="azsw2e-d1e3974-d1e264">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e266">Imperatores
+            Diocletianus, Maximianus</ref> Si praediorum dotis apud te iure remanentis
+            instrumenta verbis precariis vel testamento vel codicillis uxor tibi
+            dari mandavit, eius iudicium successores implere compellentur, cum
+            instrumentis praediorum domino relictis Falcidiae nulla potest intervenire
+            quaestio. * DIOCL. ET MAXIM. AA. ET CC. POMPONIO. *&lt;A 294 SUPPOSITA
+            XVI K.FEBR.SIRMI CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e271">
+               <head xml:id="azsw2e-d1e3974-Hd1e273">16</head>
+               <p xml:id="azsw2e-d1e3974-d1e275">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e277">Imperatores
+            Diocletianus, Maximianus</ref> Successores legata vel fideicommissa,
+            si aes alienum hereditarium defuncti substantiae fines occupaverit,
+            Falcidiae legis iussio peti, item Trebelliani senatus consulti praeceptum
+            exigi non concedit. * DIOCL. ET MAXIM. AA. ET CC.DIOMEDI. *&lt;A 294
+            S.XVI K.FEBR.SIRMI CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e281">
+               <head xml:id="azsw2e-d1e3974-Hd1e283">17</head>
+               <p xml:id="azsw2e-d1e3974-d1e285">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e287">Imperatores
+            Diocletianus, Maximianus</ref> A coheredibus relicta legata, quatenus
+            modus lege Falcidia praestitutus patitur, posse petere certissimi
+            iuris est. * DIOCL. ET MAXIM. AA. ET CC. GAIO. *&lt;A 294 SUPPOSITA
+            V K.NOV.ANCHIALI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e291">
+               <head xml:id="azsw2e-d1e3974-Hd1e293">18</head>
+               <p xml:id="azsw2e-d1e3974-d1e295">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e297">Imperator
+            Justinianus</ref>  Si quis quadringentorum forte solidorum habens substantiam
+            iusserit heredem non aliter adire hereditatem, nisi prius trecentos
+            octuaginta solidos cuidam persolvat vel aliam quantitatem, quae diminuere
+            Falcidiae rationem potest, sancimus heredem, si adierit, legis Falcidiae
+            beneficio sustentatum repleri quidem quod ad Falcidiam deest, et prius
+            eo dato vel retento ( sive una datio est, quae celebrari disposita
+            fuerit, sive in multas dividitur personas) praefatae legis immutilatum
+            habere beneficium. </p>
+               <p xml:id="azsw2e-d1e3974-d1e300" n="1">
+            Si enim, cum mortis causa donatio procedat et haec modum
+            legis Falcidiae excedat , heres post aditionem repetit eam pecuniam,
+            quae ultra modum Falcidiae corporaliter quidem data est, lege autem
+            in patrimonio testatoris permansit, quare non in praesenti casu et
+            viventibus et morientibus providemus, et eorum ultima elogia conservantes
+            et commodum hereditarium non minuentes? * IUST. A. IOHANNI PP. *&lt;A
+            531 D.K.NOV.CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTIS VV.CC.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3974-Dd1e304">
+               <head xml:id="azsw2e-d1e3974-Hd1e306">19</head>
+               <p xml:id="azsw2e-d1e3974-d1e308">
+                  <ref xml:id="azsw2e-d1e3974-Rd1e310">Imperator
+            Justinianus</ref> Cum certum sit heredem, qui plenam fidem testatori
+            exhibet, in solidum legata dependentem non posse postea rationem legis
+            praetendentem Falcidiae repetitione uti, quia videtur voluntatem testatoris
+            sequi, iubemus hoc simili modo firmum haberi, et si cautionem super
+            integra legatorum solutione fecerit: quod veteribus legibus in ambiguitatem
+            deductum est. In utroque etenim casu, id est sive solverit sive super
+            hoc cautionem fecerit, aequitatis ratio similia suadere videtur *
+            IUST. A. IOHANNI PP. *&lt;A 532 D.XV K.NOV.CONSTANTINOPOLI POST CONSULATUM
+            LAMPADII ET ORESTIS VV.CC.ANNO SECUNDO.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

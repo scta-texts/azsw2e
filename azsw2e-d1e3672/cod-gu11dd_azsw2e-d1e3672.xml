@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 22</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 22</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3672"><!-- azsw2e-l6t22 -->
+            <head xml:id="azsw2e-d1e3672-Hd1e101">Titulus 22</head>
+            <head xml:id="azsw2e-d1e3672-Hd1e103" type="question-title">Qui facere testamentum possunt vel non possunt</head>
+            <div xml:id="azsw2e-d1e3672-Dd1e106">
+               <head xml:id="azsw2e-d1e3672-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3672-d1e110">
+                  <ref xml:id="azsw2e-d1e3672-Rd1e112">Imperator
+            Gordianus</ref>  Quamquam omnium bonorum socer tuus itemque frater
+            eius socii fuerunt, tamen non eo minus idem frater eius, cum fati
+            munus impleret, testamento suo potuit sibi heredem instituere quem
+            vellet. </p>
+               <p xml:id="azsw2e-d1e3672-d1e115" n="1">
+            Item non idcirco minus is testamenti factionem habet, quod
+            indivisam successionem cum sorore sua dicatur habuisse. * GORD. A.
+            PETRONIO MIL. *&lt;A 243 PP.XII K.AUG.ARRIANO ET PAPO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3672-Dd1e119">
+               <head xml:id="azsw2e-d1e3672-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e3672-d1e123">
+                  <ref xml:id="azsw2e-d1e3672-Rd1e125">Imperatores
+            Diocletianus, Maximianus</ref>  Si is, qui tecum uxorem tuam heredem
+            scripsit, quando testamentum ordinavit, sanae mentis fuerit nec postea
+            alicuius sceleris conscientia obstrictus, sed aut impatiens doloris
+            aut aliqua furoris rabie constrictus se praecipitem dedit, eiusque
+            innocentia liquidis probationibus commendari potest a te, adscitae
+            mortis obtentu postremum eius iudicium convelli non debet. </p>
+               <p xml:id="azsw2e-d1e3672-d1e128" n="1">
+            Quod si futurae poenae metu voluntaria morte supplicium antevenit,
+            ratam voluntatem eius conservari leges vetant. * DIOCL. ET MAXIM.
+            AA. ET CC. VIATORI ET PONTIAE. *&lt;A 290 PP.K.DEC.IPSIS IIII ET III
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3672-Dd1e132">
+               <head xml:id="azsw2e-d1e3672-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e3672-d1e136">
+                  <ref xml:id="azsw2e-d1e3672-Rd1e138">Imperatores
+            Diocletianus, Maximianus</ref>  Senium quidem aetatis vel aegritudinem
+            corporis sinceritatem mentis tenentibus testamenti factionem certum
+            est non auferre. </p>
+               <p xml:id="azsw2e-d1e3672-d1e141" n="1">
+            Filiam autem, quae in potestate eius est, testamentum facere
+            non posse indubitati iuris est. * DIOCL. ET MAXIM. AA. ET CC. LICINIO.
+            *&lt;A 294 S.IIII NON.APRIL.SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3672-Dd1e146">
+               <head xml:id="azsw2e-d1e3672-Hd1e148">4</head>
+               <p xml:id="azsw2e-d1e3672-d1e150">
+                  <ref xml:id="azsw2e-d1e3672-Rd1e152">Imperatores
+            Diocletianus, Maximianus</ref>  Si frater patruelis tuus ante quartum
+            decimum aetatis annum suae decessit, cum facere non potuit testamentum,
+            nihil ex eius postremo recte postulatur iudicio. </p>
+               <p xml:id="azsw2e-d1e3672-d1e155" n="1">
+            Nam si hanc aetatem egressus, licet vigoris necdum emersissent
+            vestigia, suum ordinavit sollemniter iudicium, hoc convellere frustra
+            conaris. * DIOCL. ET MAXIM. AA. ET CC. RHODONI. *&lt;A 294 S. III
+            ID. NOV. PANTICHI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3672-Dd1e159">
+               <head xml:id="azsw2e-d1e3672-Hd1e161">5</head>
+               <p xml:id="azsw2e-d1e3672-d1e163">
+                  <ref xml:id="azsw2e-d1e3672-Rd1e165">Imperator
+            Constantius</ref> Eunuchis liceat facere testamentum, componere postremas
+            exemplo omnium voluntates, conscribere codicillos salva testamentorum
+            observantia. * CONSTANTIUS A. AD RUFINUM PP. *&lt;A 352 D. V K. MART.
+            SIRMI CONSTANTIO A. V ET CONSTANTIO C. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3672-Dd1e169">
+               <head xml:id="azsw2e-d1e3672-Hd1e171">6</head>
+               <p xml:id="azsw2e-d1e3672-d1e173">
+                  <ref xml:id="azsw2e-d1e3672-Rd1e175">Imperator
+            Constantius</ref> Si quis imperatorem forte heredem instituerit, habeat
+            mutandi iudicii facultatem , et quemcumque voluerit secundum leges
+            in testamento suo heredem scribendi. * CONSTANTIUS A. AD VOLUSIANUM
+            PU. *&lt;A 355 D. XII K. MART. MEDIOLANI ARBITIONE ET LOLLIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3672-Dd1e179">
+               <head xml:id="azsw2e-d1e3672-Hd1e181">7</head>
+               <p xml:id="azsw2e-d1e3672-d1e183">
+                  <ref xml:id="azsw2e-d1e3672-Rd1e185">Imperatores
+            Valentinianus, Valens, Gratianus</ref> Cum heredes instituuntur imperator
+            seu augusta, ius commune cum ceteris habeant: quod et in codicillis
+            vel fideicommissariis epistulis iure scriptis observandum erit. Et
+            sicuti priscis legibus cautum est, imperatori quoque vel Augustae
+            testamentum facere liceat et mutare * VALENTIN. VALENS ET GRAT. AAA.
+            AD MAXIMUM. *&lt;A 371 D. VII ID. AUG. CONTIONACI GRATIANO A. II ET
+            PROBO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3672-Dd1e189">
+               <head xml:id="azsw2e-d1e3672-Hd1e191">8</head>
+               <p xml:id="azsw2e-d1e3672-d1e193">
+                  <ref xml:id="azsw2e-d1e3672-Rd1e195">Imperator
+            Justinus</ref>  Hac consultissima lege sancimus, ut carentes oculis
+            seu morbo vel ita nati per nuncupationem suae condant moderamina voluntatis,
+            praesentibus septem testibus, quos aliis quoque testamentis interesse
+            iuris est, tabulario etiam: ut cunctis ibidem collectis primum ad
+            se convocatos omnes, ut sine scriptis testentur, edoceat, deinde exprimat
+            nomina specialiter heredum et dignitates singulorum et indicia, ne
+            sola nominum commemoratio quicquam ambiguitatis pariat, et ex quanta
+            parte vel ex quotis unciis in successionem admitti debeant et quod
+            unumquemque legatarium seu fideicommissarium adsequi velit: omnia
+            denique palam edicat, quae ultimarum capit dispositionum series lege
+            concessa. </p>
+               <p xml:id="azsw2e-d1e3672-d1e198" n="1">
+            Quibus omnibus ex ordine peroratis uno eodemque loco et tempore,
+            sed et tabularii manu conscriptis sub obtentu septem ( ut dictum est)
+            testium et eorundem testium manu subscriptis, dehinc consignatis tam
+            ab isdem testibus quam a tabulario, plenum obtinebit robur testantis
+            arbitrium. </p>
+               <p xml:id="azsw2e-d1e3672-d1e201"> 
+            Quae in eundem modum erunt observanda, quamvis non heredes
+            instituere, sed legata solum vel fideicommissa et in summa quae codicillis
+            habentur congrua duxerit ordinanda. </p>
+               <p xml:id="azsw2e-d1e3672-d1e203"> 
+            ( 1) at cum humana fragilitas mortis praecipue cogitatione
+            turbata minus memoria possit res plures consequi, patebit eis licentia
+            voluntatem suam sive in testamenti vel in codicilli tenore compositam
+            cui velint scribendam credere, ut in eodem postea collocatis testibus
+            et tabulario, re etiam ( ut dictum est) patefacta, cuius causa convocati
+            sunt, et chartula prometur, quam susceptam testatori recitabit tabularius
+            simul et testibus, ut, ubi tenor eorum cunctis innotuerit, elogium
+            ipse suum profiteatur agnoscere et ex animi sui quae lecta sunt disposuisse
+            sententia, et in fine subscriptio sequatur testium nec non omnium
+            signacula tam testium ( prout dictum est) quam tabularii. </p>
+               <p xml:id="azsw2e-d1e3672-d1e206" n="2">
+            Sed quia tabulariorum copia non in omnibus locis datur quaerentibus,
+            iubemus, ubi tabularius reperiri non possit, octavum adhiberi testem,
+            ut, quod tabulario pro supra dicto modo commisimus, id per octavum
+            testem effectum capiat: libera potestate concedenda suas voluntates
+            in praedictum modum ordinantibus chartulam ita subscriptam, ita denique
+            consignatam, ut antelatae formae declarant, cui velint ex testibus
+            custodiendam mandare. Sic fieri namque confidimus, ut non recipiat
+            se tantum in caecis testandi licentia, sed ne locum quidem ullum relinquat
+            insidiis tot oculis spectata, tot insinuata sensibus, tot insuper
+            in tuto locata manibus * IUSTINUS A. DEMOSTHENI P P. *&lt;A 521 D.
+            K. IUN. CONSTANTINOPOLI IUSTINIANO ET VALERIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3672-Dd1e210">
+               <head xml:id="azsw2e-d1e3672-Hd1e212">9</head>
+               <p xml:id="azsw2e-d1e3672-d1e214">
+                  <ref xml:id="azsw2e-d1e3672-Rd1e216">Imperator
+            Justinianus</ref>  Furiosum in suis indutiis ultimum condere elogium
+            posse, licet ab antiquis dubitabatur, tamen et retro principibus et
+            nobis placuit: nunc autem hoc decidendum est, quod simili modo antiquos
+            animos movit, si coepto testamento furor eum invasit. </p>
+               <p xml:id="azsw2e-d1e3672-d1e219" n="1">
+            Sancimus itaque tale testamentum hominis, qui in ipso actu
+            testamenti adversa valetudine tentus est, pro nihilo esse. Sin vero
+            voluerit in dilucidis intervallis aliquod condere testamentum vel
+            ultimam voluntatem et hoc sana mente et inceperit facere et consummaverit
+            nullo tali morbo interveniente, stare testamentum sive quamcumque
+            ultimam voluntatem censemus, si et alia omnia accesserint, quae in
+            huiusmodi actibus legitima observatio sequitur * IUST. A. IULIANO
+            PP. *&lt;A 530 D. K. SEPT. CONSTANTINOPOLI LAMPADIO ET ORESTE VV.
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3672-Dd1e224">
+               <head xml:id="azsw2e-d1e3672-Hd1e226">10</head>
+               <p xml:id="azsw2e-d1e3672-d1e228">
+                  <ref xml:id="azsw2e-d1e3672-Rd1e230">Imperator
+            Justinianus</ref>  Discretis surdo et muto, quia non semper huiusmodi
+            vitia sibi concurrunt, sancimus, si quis utroque morbo simul laborat,
+            id est ut neque audire neque loqui possit, et hoc ex ipsa natura habeat,
+            neque testamentum facere neque codicillos neque fideicommissum relinquere
+            neque mortis causa donationem celebrare concedatur nec libertatem
+            sive vindicta sive alio modo imponere: eidem legi tam masculos quam
+            feminas oboedire imperantes. </p>
+               <p xml:id="azsw2e-d1e3672-d1e233" n="1">
+            Ubi autem et in huiusmodi vitiis non naturalis sive masculo
+            sive feminae accedit calamitas, sed morbus postea superveniens et
+            vocem abstulit et aures conclusit, si ponamus huiusmodi personam litteras
+            scientem, omnia, quae priori interdiximus, haec ei sua manu scribenti
+            permittimus. </p>
+               <p xml:id="azsw2e-d1e3672-d1e236" n="2">
+            ( 1) sin autem infortunium discretum est, quod ita raro contingit,
+            et surdis, licet naturaliter huiusmodi sensus variatus est, tamen
+            omnia facere et in testamentis et in codicillis et in mortis causa
+            donationibus et in libertatibus et in aliis omnibus permittimus. </p>
+               <p xml:id="azsw2e-d1e3672-d1e239" n="3">
+            Si enim vox articulata ei a natura concessa est, nihil prohibet
+            eum omnia quae voluit facere, quia scimus quosdam iuris peritos et
+            hoc subtilius cogitasse et nullum esse exposuisse, qui penitus non
+            exaudit, si quis supra cerebrum illius loquatur, secundum quod iuventio
+            celso placuit. </p>
+               <p xml:id="azsw2e-d1e3672-d1e243" n="4">
+            In eo autem, cui morbus superveniens auditum tantummodo abstulit,
+            nec dubitari potest, quin possit omnia sine aliquo obstaculo facere.
+            </p>
+               <p xml:id="azsw2e-d1e3672-d1e246" n="5">
+            Sin vero aures quidem apertae sint et vocem recipientes,
+            lingua autem penitus praepedita, licet a veteribus auctoribus saepius
+            de hoc variatum est, attamen si et hunc peritum litterarum esse proponamus,
+            nihil prohibet et eum scribentem omnia facere, sive naturaliter sive
+            per interventum morbi huiusmodi infortunium ei accessit. </p>
+               <p xml:id="azsw2e-d1e3672-d1e249" n="6">
+            Nullo discrimine neque in masculis neque in feminis in omni
+            ista constitutione servando. * IUST. A. IULIANO PP. *&lt;A 531 D.
+            X K. MART. CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTIS VV.
+            CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3672-Dd1e253">
+               <head xml:id="azsw2e-d1e3672-Hd1e255">11</head>
+               <p xml:id="azsw2e-d1e3672-d1e257">
+                  <ref xml:id="azsw2e-d1e3672-Rd1e259">Imperator
+            Justinianus</ref>  Nemo ex lege, quam nuper promulgavimus, in rebus,
+            quae parentibus adquiri non possunt, existimet aliquid esse innovandum,
+            et permissum fuisse filiis familias cuiuscumque gradus vel sexus testamenta
+            facere, sive sine patris consensu bona possideant secundum nostrae
+            legis distinctionem, sive cum eorum voluntate. </p>
+               <p xml:id="azsw2e-d1e3672-d1e262" n="1">
+            Nullo etenim modo hoc eis permittimus, sed antiqua lex per
+            omnia conservetur, quae filiis familias nisi in casibus certis testamenta
+            facere nullo concedit modo, et in his personis, quae huiusmodi facultatem
+            habere iam concessae sunt. * IUST. A. IOHANNI PP. *&lt;A 531 D. IIII
+            K. AUG. CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTIS VV. CC.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3672-Dd1e266">
+               <head xml:id="azsw2e-d1e3672-Hd1e268">12</head>
+               <p xml:id="azsw2e-d1e3672-d1e270">
+                  <ref xml:id="azsw2e-d1e3672-Rd1e272">Imperator
+            Justinianus</ref> Omnes omnino, quibus quasi castrensia peculia habere
+            ex legibus concessum est, habeant licentiam in ea tantummodo ultimas
+            voluntates condere secundum nostrae constitutionis tenorem, quae talibus
+            testamentis de inofficiosi querella immunitatem praestavit. * IUST.
+            A. IOHANNI PP. *&lt;A 531 D. K. SEPT. CONSTANTINOPOLI POST CONSULATUM
+            LAMPADII ET ORESTIS VV. CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

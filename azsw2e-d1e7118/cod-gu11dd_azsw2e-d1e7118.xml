@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 6</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 6</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7118"><!-- azsw2e-l11t6 -->
+            <head xml:id="azsw2e-d1e7118-Hd1e101">Titulus 6</head>
+            <head xml:id="azsw2e-d1e7118-Hd1e103" type="question-title">De naufragiis</head>
+            <div xml:id="azsw2e-d1e7118-Dd1e106">
+               <head xml:id="azsw2e-d1e7118-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7118-d1e110">
+                  <ref xml:id="azsw2e-d1e7118-Rd1e112">Imperator
+            Antoninus</ref> Si quando naufragio navis expulsa fuerit ad litus
+            vel si quando reliquam terram attigerit, ad dominos pertineat: fiscus
+            meus sese non interponat. Quod enim ius habet fiscus in aliena calamitite,
+            ut de re tam luctuosa compendium sectetur * ANT. A. MAXIMO. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7118-Dd1e116">
+               <head xml:id="azsw2e-d1e7118-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7118-d1e120">
+                  <ref xml:id="azsw2e-d1e7118-Rd1e122">Imperatores
+            Valentinianus, Valens, Gratianus</ref> Si quis navicularius naufragium
+            sustinuisse adfirmat, provinciae iudicem, eius videlicet, in qua res
+            agitur, adire festinet ac probet apud eum testibus eventum, relatioque
+            ad sublimissimam referatur praefecturam, ita ut intra anni spatium
+            veritate revelata competens dispositio procedat. Quod si per neglegentiam
+            praefinitum anni spatium fortasse claudatur, supervacuas serasque
+            interpellationes emenso anno placuit non admitti * VALENTIN. VALENS
+            ET GRAT. AAA. AD MODESTUM PP. *&lt;A 372 D.PP.BERSTI NON.IUN.MODESTO ET ARINTHEO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7118-Dd1e126">
+               <head xml:id="azsw2e-d1e7118-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e7118-d1e130">
+                  <ref xml:id="azsw2e-d1e7118-Rd1e132">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Quotiens
+            obruta vel submersa fluctibus navi examen adhibetur competentis iudicis
+            , duorum vel trium nautarum quaestione habita ceteri ab huiusmodi
+            nexu liberentur. Quid est enim, quod non abunde intra praefinitum
+            numerum sollers quaesitor inveniat </p>
+               <p xml:id="azsw2e-d1e7118-d1e135" n="1">
+            Circa magistros navium, quibus est scientia plenior, immoretur:
+            qui si fatali sorte defuerint, in alios inquisitio transferatur. </p>
+               <p xml:id="azsw2e-d1e7118-d1e138" n="2">
+            Sane si universos violentia tempestatis obruerit, ne veritas
+            lateat, a liberis nautarum sive magistrorum intra iudicia constitutis
+            super eorum quaeratur interitu, quos navicularius naufragio perisse
+            contendit. </p>
+               <p xml:id="azsw2e-d1e7118-d1e141" n="3">
+            Susceptionis autem necessitas ex kalendis aprilibus in diem
+            kalendarum octobrium mansura servabitur. * GRAT. VALENTIN. ET THEODOS.
+            AAA. NAVICULARIIS AFRIS SALUTEM. *&lt;A 380. D.VIII ID.FEBR.TRIVERIS
+            GRATIANO V ET THEODOSIO AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7118-Dd1e146">
+               <head xml:id="azsw2e-d1e7118-Hd1e148">4</head>
+               <p xml:id="azsw2e-d1e7118-d1e150">
+                  <ref xml:id="azsw2e-d1e7118-Rd1e152">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Pro his, quae semel a collatoribus
+            illata naufragiis perierunt, nolumus nobis aliquam cum possessoribus,
+            sive senatores sive privati sint, esse communionem vel aliquid periculi
+            ad eos redundare. * VALENTIN. THEODOS. ET ARCAD. AAA. TATIANO PP.
+            *&lt;A 391 D.XV K.AUG.CONSTANTINOPOLI TATIANO ET SYMMACHO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7118-Dd1e156">
+               <head xml:id="azsw2e-d1e7118-Hd1e158">5</head>
+               <p xml:id="azsw2e-d1e7118-d1e160">
+                  <ref xml:id="azsw2e-d1e7118-Rd1e162">Imperatores
+            Honorius, Theodosius</ref>  De submersis navibus decernimus,
+            ut levato velo istae causae cognoscantur. Et si quisquam de talibus
+            negotiis aliquid accepisse detegitur, iudex, apud quem constiterit,
+            his conquerentibus qui nudantur pro qualitatibus personarum multandi
+            removendi proscribendi habeat potestatem. </p>
+               <p xml:id="azsw2e-d1e7118-d1e165" n="1">
+            Si vero causarum talium cognitores, libelli datione vel planaria
+            interpellatione commoniti intra biennium has causas audire neglexerint,
+            et hoc fuerit tempus elapsum, praeiudicium noceat eatenus cognitori,
+            ut naviculario propter vitium iudicis absoluto mediam oneris eius
+            partem, propter cuius probandam amissionem legitimo dumtaxat tempore
+            cognitio petebatur, iudex cogatur inferre, residuam vero officium
+            eius exsolvat.* HONOR. ET THEODOS. AA. NAVICULARIIS PER AFRICAM.
+            *&lt;A 412 D.XVI K.APRIL.RAVENNAE HONORIO VIIII ET THEODOSIO V AA.CONSS.
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7118-Dd1e169">
+               <head xml:id="azsw2e-d1e7118-Hd1e171">6</head>
+               <p xml:id="azsw2e-d1e7118-d1e173">
+                  <ref xml:id="azsw2e-d1e7118-Rd1e175">Imperatores
+            Honorius, Theodosius</ref> Super naufragiorum quae contigerint casibus
+            usitato more habita quaestione si quis calculus modiationis dicatur
+            tempestate maris deperisse, sub tuae sedis auditione nequaquam feratur
+            acceptus, sed haec dispendii iactura in omne naviculariorum concilium,
+            pro rata scilicet contingentis muneris, deferatur. * HONOR. ET THEODOS.
+            AA. ANTHEMIO PP. *&lt;A 409 D. XIIII K. FEBR. HONORIO VIII ET THEODOSIO
+            III AA. CONSS.&gt; </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 2</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 2</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7073"><!-- azsw2e-l11t2 -->
+            <head xml:id="azsw2e-d1e7073-Hd1e101">Titulus 2</head>
+            <head xml:id="azsw2e-d1e7073-Hd1e103" type="question-title">De naviculariis seu naucleris publicas species transportantibus</head>
+            <div xml:id="azsw2e-d1e7073-Dd1e106">
+               <head xml:id="azsw2e-d1e7073-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7073-d1e110">
+                  <ref xml:id="azsw2e-d1e7073-Rd1e112">Imperator
+            Constantius</ref> Nullam vim oportet navicularios sustinere delegatas
+            species annonarias transferentes nec concussiones perpeti nec aliquod
+            genus incommodi, sed venientes ac remeantes omni securitate potiri:
+            decem auri librarum multa proponenda his, qui eos inquietare temptaverint.
+            * CONSTANTIUS A. ET IUL. C.OLYBRIO PU. *&lt;A 357 D.K.IUN.ROMAE CONSTANTIO
+            VIIII ET IULIANO C.II CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7073-Dd1e116">
+               <head xml:id="azsw2e-d1e7073-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7073-d1e120">
+                  <ref xml:id="azsw2e-d1e7073-Rd1e122">Imperatores
+            Arcadius, Honorius</ref> Comperimus naucleros
+            susceptas species in negotiationis emolumenta convertere. Ideoque
+            decernimus, ut intra annum quas susceperint inferant species et securitates
+            reportent, quae etiam diem illationis edoceant, ut intra alterum annum
+            eis reddantur, a quibus species praestitae sunt * ARCAD. ET
+            HONOR. AA. EUSEBIO PP. *&lt;A 396 D.X K.IAN.MEDIOLANI ARCADIO IIII
+            ET HONORIO III AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7073-Dd1e126">
+               <head xml:id="azsw2e-d1e7073-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e7073-d1e130">
+                  <ref xml:id="azsw2e-d1e7073-Rd1e132">Imperatores
+            Arcadius, Honorius</ref> Ab his, qui in naucleros
+            praedas egerunt, volumus eorum commodis satisfieri. Et ideo ne crescat
+            in posterum eorum audacia, sancimus, ut, quicumque in rapinis fuerit
+            deprehensus, poena quadrupli teneatur * ARCAD. ET HONOR. AA.
+            FLAVIANO PU. *&lt;A 400 PP.ROMAE IN FORO APRONIANI VIIII K.FEBR.STILICHONE
+            ET AURELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7073-Dd1e137">
+               <head xml:id="azsw2e-d1e7073-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e7073-d1e141">
+                  <ref xml:id="azsw2e-d1e7073-Rd1e143">Imperatores
+            Honorius, Theodosius</ref> Cum nauarchorum
+            coetus circiter provincias Orientis inopia navium tribuaret et investigandae
+            classis obtentu insularum secessus obiret et navigandi opportunitate
+            transacta iudiciorum indignatio sine transvectionis expectaretur effectu,
+            merito celsitudo tua praefecto Augustali et insularum praeside conventis
+            Alexandrinae et Carpathiae classis summates et nonnullos alios naucleros
+            eo professionis adduxit, ut onus frumentarii commeatus, qui per orientales
+            nauarchos ex Alexandrinae civitatis conditis consueverat ad sacratissimam
+            urbem transferri, in suam fidem susceptum ad eadem augustissimae urbis
+            horrea comportarent, solaciis pro mercedula praestitis ex tributariae
+            pensitationis immunitate vel ex eo, quod vocatur ŽphilikonŽ,
+            nec non etiam aliis, quae tuae cognitionis limavit examen. * HONOR.
+            ET THEODOS. AA. ANTHEMIO PP. *&lt;A 409 D.XIIII K.FEBR.HONORIO VIII
+            ET THEODOSIO III AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7073-Dd1e147">
+               <head xml:id="azsw2e-d1e7073-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e7073-d1e151">
+                  <ref xml:id="azsw2e-d1e7073-Rd1e153">Imperatores
+            Honorius, Theodosius</ref> Qui fiscales species suscepit deportandas,
+            si recta navigatione contempta litora devia sectatus eas avertendo
+            distraxerit, capitali poena plectetur. * HONOR. ET THEODOS. AA. ANTHEMIO
+            PP. *&lt;A 409 D.XIIII K.AUG.CONSTANTINOPOLI HONORIO VIII ET THEODOSIO
+            III AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7073-Dd1e157">
+               <head xml:id="azsw2e-d1e7073-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e7073-d1e161">
+                  <ref xml:id="azsw2e-d1e7073-Rd1e163">Imperatores
+            Honorius, Theodosius</ref>  Iudices, qui in portibus dioeceseos suae
+            onusta navigia, cum prosperior flatus invitat, sub praetextu hiemis
+            immorari permiserint, una cum municipibus et corporatis eiusdem loci
+            fortunarum propriarum feriantur dispendiis. </p>
+               <p xml:id="azsw2e-d1e7073-d1e166" n="1">
+                  <ref xml:id="azsw2e-d1e7073-Rd1e168">
+           </ref> Naucleri praeterea poenam deportationis excipiant, si aliquid
+            fraudis eos admisisse fuerit revelatum. * HONOR. ET THEODOS. AA. FAUSTINO
+            PP. *&lt;A 410 D.XVIII K.SEPT.RAVENNAE VARANE VC.CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

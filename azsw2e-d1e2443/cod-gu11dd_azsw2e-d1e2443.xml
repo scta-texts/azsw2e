@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 54</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 54</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2443"><!-- azsw2e-l4t54 -->
+            <head xml:id="azsw2e-d1e2443-Hd1e101">Titulus 54</head>
+            <head xml:id="azsw2e-d1e2443-Hd1e103" type="question-title">De pactis inter emptorem et venditorem compositis</head>
+            <div xml:id="azsw2e-d1e2443-Dd1e106">
+               <head xml:id="azsw2e-d1e2443-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2443-d1e110">
+                  <ref xml:id="azsw2e-d1e2443-Rd1e112">Imperator
+            Antoninus</ref> Si ea lege praedium vendidisti, ut, nisi intra certum
+            tempus pretium fuisset exsolutum, emptrix arras perderet et dominium
+            ad te pertineret, fides contractus servanda est. * ANT. A. CLAUDIAE
+            DIOTINAE. *&lt;A 216 D. V ID.... SABINO II ET ANULLINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2443-Dd1e116">
+               <head xml:id="azsw2e-d1e2443-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2443-d1e120">
+                  <ref xml:id="azsw2e-d1e2443-Rd1e122">Imperator
+            Alexander Severus</ref> Si fundum parentes tui ea lege vendiderunt,
+            ut, sive ipsi sive heredes eorum emptori pretium quandoque vel intra
+            certa tempora obtulissent, restitueretur, teque parato satisfacere
+            condicioni dictae heres emptoris non paret, ut contractus fides servetur,
+            actio praescriptis verbis vel ex vendito tibi dabitur, habita ratione
+            eorum, quae post oblatam ex pacto quantitatem ex eo fundo ad adversarium
+            pervenerunt. * ALEX. A. CHARISIO MIL. *&lt;A 222 D. K. SEPT. ALEXANDRO
+            A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2443-Dd1e126">
+               <head xml:id="azsw2e-d1e2443-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2443-d1e130">
+                  <ref xml:id="azsw2e-d1e2443-Rd1e132">Imperator
+            Alexander Severus</ref> Qui ea lege praedium vendidit, ut, nisi reliquum
+            pretium intra certum tempus restitutum esset, ad se reverteretur,
+            si non precariam possessionem tradidit, rei vindicationem non habet,
+            sed actionem ex venditio. * ALEX. A. FELICI MIL. *&lt;D. III ID. IUL.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2443-Dd1e137">
+               <head xml:id="azsw2e-d1e2443-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2443-d1e141">
+                  <ref xml:id="azsw2e-d1e2443-Rd1e143">Imperator
+            Alexander Severus</ref> Commissoriae venditionis legem exercere non
+            potest, qui post praestitutum pretii solvendi diem non vindicationem
+            rei eligere, sed usurarum pretii petitionem sequi maluit. * ALEX.
+            A. CLAUDIO IULIANO ET PROCULIANO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2443-Dd1e147">
+               <head xml:id="azsw2e-d1e2443-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e2443-d1e151">
+                  <ref xml:id="azsw2e-d1e2443-Rd1e153">Imperator
+            Gordianus</ref> Initio venditionis si pactus es, ut is cui vendidisti
+            possessionem pretii tardius exsoluti tibi usuras pensitaret, non immerito
+            existimas etiam eas tibi adito praeside ab emptore praestari debere.
+            Nam si initio contractus non es pactus, si coeperis experiri, ex mora
+            dumtaxat usuras tam ab ipso debitore quam ab eo, qui in omnem causam
+            empti suam fidem adstrinxit, de iure postulabis * GORD. A. AURELIO
+            LONGINO EVOCATO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2443-Dd1e157">
+               <head xml:id="azsw2e-d1e2443-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e2443-d1e161">
+                  <ref xml:id="azsw2e-d1e2443-Rd1e163">Imperatores
+            Carus, Carinus, Numerianus</ref> Cum te fundum tuum certae rei contemplatione
+            inter vos habita exiguo pretio in alium transtulisse commemoras, poterit
+            ea res tibi non esse fraudi, quando non impleta promissi fide dominii
+            tui ius in suam causam reverti conveniat. Et ideo aditus competens
+            iudex fundum cuius mentionem facis restitui tibi cum fructibus suis
+            sine ulla ludificatione sua autoritate perficiet, praecipue cum diversa
+            pars receptis nummis suis nullam passa videri possit iniuriam * CARUS
+            CARINUS ET NUMER. AAA. OLYBRIO ROMULO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2443-Dd1e167">
+               <head xml:id="azsw2e-d1e2443-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e2443-d1e171">
+                  <ref xml:id="azsw2e-d1e2443-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Si a te comparavit is cuius meministi
+            et convenit, ut, si intra certum tempus soluta fuerit data quantitas,
+            sit res inempta, remitti hanc conventionem rescripto nostro non iure
+            petis. Sed si se subtrahat, ut iure dominii eandem rem retineat, denuntiationis
+            et obsignationis depositionisque remedio contra fraudem potes iuri
+            tuo consulere * DIOCL. ET MAXIM. AA. ET CC. FABIANO MUSCO. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2443-Dd1e177">
+               <head xml:id="azsw2e-d1e2443-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e2443-d1e181">
+                  <ref xml:id="azsw2e-d1e2443-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Tempore contractus inter emptorem et
+            venditorem habitam conventionem integram servari, si ab ea posteriore
+            non recedatur pacto, certum est. * DIOCL. ET MAXIM. AA. ET CC. AUXANONI.
+            *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2443-Dd1e187">
+               <head xml:id="azsw2e-d1e2443-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e2443-d1e191">
+                  <ref xml:id="azsw2e-d1e2443-Rd1e193">Imperator
+            Justinianus</ref>  Si quis ita paciscatur in venditionis vel alienationis
+            contractu, ut novo domino nullo modo liceat in loco vendito vel alio
+            modo sibi concesso monumentum extruere vel alio modo humani iuris
+            eum eximere, sancimus, licet hoc apud veteres dubitabatur, tale pactum
+            ex nostra lege esse fovendum et immutilatum permanere. </p>
+               <p xml:id="azsw2e-d1e2443-d1e196" n="1">
+            Forsitan enim multum eius intererat, ne ei vicinus non solum
+            quem nollet adgregetur, sed et pro quo specialiter interdictum est.
+            Cum etenim venditor vel aliter alienator non alia lege suum ius transferre
+            passus est nisi tali fretus conventione, quomodo ferendum est aliquam
+            captionem ex varia pati eum interpretatione * IUST. A. IOHANNI PP.
+            *&lt;A 531 D. XV K. NOV. CONSTANTINOPOLI POST CONSULATUM LAMPADII
+            ET ORESTIS VV. CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

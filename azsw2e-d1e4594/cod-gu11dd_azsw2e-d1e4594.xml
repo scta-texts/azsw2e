@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 43</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 43</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4594"><!-- azsw2e-l7t43 -->
+            <head xml:id="azsw2e-d1e4594-Hd1e101">Titulus 43</head>
+            <head xml:id="azsw2e-d1e4594-Hd1e103" type="question-title">Quomodo et quando iudex sententiam proferre debet praesentibus partibus
+            vel una absente</head>
+            <div xml:id="azsw2e-d1e4594-Dd1e106">
+               <head xml:id="azsw2e-d1e4594-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4594-d1e110">
+                  <ref xml:id="azsw2e-d1e4594-Rd1e112">Imperator
+            Titus Aelius Antoninus</ref> Non semper compelleris, ut adversus absentem
+            pronunties, propter subscriptionem patris mei, qua significavit etiam
+            contra absentes sententiam dari solere. Id enim eo pertinet, ut absentem
+            damnare possis, non ut omnimodo necesse habeas * T. AEL. ANT. PUBLICIO.
+            *&lt; SINE DIE ET CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4594-Dd1e116">
+               <head xml:id="azsw2e-d1e4594-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4594-d1e120">
+                  <ref xml:id="azsw2e-d1e4594-Rd1e122">Imperator
+            Gordianus</ref> Cessante quoque causa peremptorii edicti adversus
+            eos, qui admoniti iudicio adesse noluerunt, sententiam ab iudice posse
+            ferri certum est. * GORD. A. SEVERO. *&lt;A 238 S. IIII K. AUG. PIO
+            ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4594-Dd1e126">
+               <head xml:id="azsw2e-d1e4594-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4594-d1e130">
+                  <ref xml:id="azsw2e-d1e4594-Rd1e132">Imperator
+            Gordianus</ref> Ab eo iudicato recedi non potest, quod vobis absentibus
+            et ignorantibus atque indefensis dicitis esse prolatum, si ubi primum
+            cognovistis, non ilico de statutis querellam detulistis. Ita enim
+            firmitatem sententia, quae ita prolata est, non habebit, si ei non
+            sit commodatus adsensus * GORD. A. ANTISTIO. *&lt;A 239 PP. IIII ID.
+            IUN. GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4594-Dd1e137">
+               <head xml:id="azsw2e-d1e4594-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4594-d1e141">
+                  <ref xml:id="azsw2e-d1e4594-Rd1e143">Imperator
+            Philippus</ref> Si, ut proponis, pars diversa die feriato absente
+            et ignorante te ab iudice dato sententiam pro partibus suis, quasi
+            contumaciter deesses, impetravit, non immerito praeses denuo negotium
+            alterius iudicis notioni terminandum commisit. * PHILIPP. A. DOMITIO.
+            *&lt;A 244 PP. V ID. OCT. PEREGRINO ET AEMILIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4594-Dd1e147">
+               <head xml:id="azsw2e-d1e4594-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e4594-d1e151">
+                  <ref xml:id="azsw2e-d1e4594-Rd1e153">Imperator
+            Philippus</ref> Si, ut proponis, praeses provinciae, cum certum locum
+            causae cognoscendae dedisset, alibi per obreptionem aditus sententiam
+            adversus te absentem protulit, quod ita gestum est, ad effectum iuris
+            spectare minime oportet. * PHILIPP. A. ET PHILIPP. C. LONGINO. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4594-Dd1e157">
+               <head xml:id="azsw2e-d1e4594-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e4594-d1e161">
+                  <ref xml:id="azsw2e-d1e4594-Rd1e163">Imperatores
+            Valerianus, Gallienus</ref> Si praeses quasi desertam ab adultis tuis
+            causam appellationis, quae ab adiutore suo facta fuerat, circumduxit
+            eo tempore, quo adulti curatores non habebant, repetitus notionem
+            suam exhibebit. Neque enim debet adultis nocere, quidquid eo tempore
+            statutum est, quo defensione iusta et curatoris auxilio fuerant destituti
+            * VALER. ET GALLIEN. AA. DOMITIO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4594-Dd1e167">
+               <head xml:id="azsw2e-d1e4594-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e4594-d1e171">
+                  <ref xml:id="azsw2e-d1e4594-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Ea, quae statuuntur adversus absentes
+            non per contumaciam, scilicet denuntiationibus nequaquam ex more conventos,
+            iudicatae rei firmitatem non obtinere certum est. * DIOCL. ET MAXIM.
+            AA. MARINO. *&lt;A 290 PP. III K. APRIL. IPSIS IIII ET III AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4594-Dd1e177">
+               <head xml:id="azsw2e-d1e4594-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e4594-d1e181">
+                  <ref xml:id="azsw2e-d1e4594-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Consentaneum iuri fuit temporibus ad
+            praesentiam partis adversae praescriptis praesidem provinciae impleta
+            iuris sollemnitate et adversario tuo trinis litteris vel uno pro omnibus
+            peremptorio edicto, ut praesentiam sui faceret, commonefacto, si in
+            eadem contumacia perseveravit, praesentis adlegationes audire. Quod
+            vel successor eius facere curabit. A quo ter citatus si contumaciter
+            praesentiam sui facere neglexerit, non abs re erit vel ad cogendum
+            eum, ut se repraesentaret, possessionem bonorum cui incumbit ad te
+            transferre et adversarium petitorem constituere, vel auditis defensionibus
+            tuis id quod iuris ratio exegerit iudicar * DIOCL. ET MAXIM. AA. CLAUDIAE.
+            *&lt;A 290 PP. III K. OCT. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4594-Dd1e187">
+               <head xml:id="azsw2e-d1e4594-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e4594-d1e191">
+                  <ref xml:id="azsw2e-d1e4594-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Tres denuntiationes ad peremptorii
+            edicti vicem adversus contumaces convalescere salubriter statutum
+            est. * DIOCL. ET MAXIM. AA. LEONTIO. *&lt;A 290 PP. XI K. NOV. IPSIS
+            IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4594-Dd1e198">
+               <head xml:id="azsw2e-d1e4594-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e4594-d1e202">
+                  <ref xml:id="azsw2e-d1e4594-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> Cum non voluntatis tuae arbitrio, sed
+            necessitate profectus sis, quidquid contra absentem statutum fuerit,
+            quando absentiae necessaria causa sit, officere tibi iuris ratio non
+            permittit. * DIOCL. ET MAXIM. AA. BLAESIO. *&lt;A 291 PP. III ID.
+            MAI. TIBERIANO ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4594-Dd1e208">
+               <head xml:id="azsw2e-d1e4594-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e4594-d1e212">
+                  <ref xml:id="azsw2e-d1e4594-Rd1e214">Imperatores
+            Diocletianus, Maximianus</ref> Cum praesentibus partibus litem inchoatam
+            proponas, si, posteaquam contra te licet absentem pronuntiatum est,
+            intra praefinitum diem non appellasti, latam sententiam rescindi postulanti
+            multae sacrae constitutiones refragantur. * DIOCL. ET MAXIM. AA. ET
+            CC. VALERIO. *&lt;&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

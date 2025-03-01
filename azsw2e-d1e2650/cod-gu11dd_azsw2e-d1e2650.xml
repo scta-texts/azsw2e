@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 6</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 6</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2650"><!-- azsw2e-l5t6 -->
+            <head xml:id="azsw2e-d1e2650-Hd1e101">Titulus 6</head>
+            <head xml:id="azsw2e-d1e2650-Hd1e103" type="question-title">De interdicto matrimonio inter pupillam et tutorem seu curatorem liberosque
+            eorum</head>
+            <div xml:id="azsw2e-d1e2650-Dd1e106">
+               <head xml:id="azsw2e-d1e2650-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2650-d1e110">
+                  <ref xml:id="azsw2e-d1e2650-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Senatus consulti auctoritatem, quo inter
+            pupillam et tutoris filium conubium saluberrime sublatum est, circumveniri
+            rusticitatis et imperitiae velamentis non oportet. * SEV. ET ANT.
+            AA. MARIO. *&lt;A 215 PP. VII ID. FEBR. LAETO II ET CEREALE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2650-Dd1e116">
+               <head xml:id="azsw2e-d1e2650-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2650-d1e120">
+                  <ref xml:id="azsw2e-d1e2650-Rd1e122">Imperator
+            Alexander Severus</ref> Mater pupillae cum tutore filiae suae vel
+            filio tutoris nuptias contrahere non prohibetur. * ALEX. A. BURRIO.
+            *&lt;A 223 PP. NON. NOV. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2650-Dd1e126">
+               <head xml:id="azsw2e-d1e2650-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2650-d1e130">
+                  <ref xml:id="azsw2e-d1e2650-Rd1e132">Imperator
+            Gordianus</ref>  Cum proponas ei, quam matrimonio tuo iunctam suggeris,
+            post liberos susceptos curatorem patrem tuum datum, quem contendis
+            nec te in potestate habuisse: cum rite contractum matrimonium ex post
+            facto vitiari non potuerit, iusta interpretatione metuere non debes,
+            ne liberi quos habetis non ex iusto matrimonio suscepti videantur.
+            </p>
+               <p xml:id="azsw2e-d1e2650-d1e135" n="1">
+            Ut autem omnis scrupulus auferatur, insistere pater tuus
+            debet nec non et uxor tua, ut alius loco eius detur: habebit enim
+            facultatem repetendae rationis negotiorum gestorum ab eo qui fuerit
+            substitutus. * GORD. A. ROGATIANO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2650-Dd1e140">
+               <head xml:id="azsw2e-d1e2650-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e2650-d1e144">
+                  <ref xml:id="azsw2e-d1e2650-Rd1e146">Imperator
+            Philippus</ref> Libertinum, qui filio suo naturali, quem in servitute
+            susceperat, postea manumisso pupillam suam eandemque patroni sui filiam
+            in matrimonio collocavit, ad sententiam amplissimi ordinis, qui huiusmodi
+            nuptiis interdicendum putavit, pertinere dubitari non oportet. * PHILIPP.
+            A. HYGIAE. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2650-Dd1e150">
+               <head xml:id="azsw2e-d1e2650-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e2650-d1e154">
+                  <ref xml:id="azsw2e-d1e2650-Rd1e156">Imperator
+            Philippus</ref> Curatorem adulto suo filiam suam nuptui collocare
+            non posse falso tibi persuasum est. * PHILIPP. A. ET PHILIPP. C. APULEIO.
+            *&lt;A 245 PP. XV K. SEPT. PHILIPPO A. ET TITIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2650-Dd1e160">
+               <head xml:id="azsw2e-d1e2650-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e2650-d1e164">
+                  <ref xml:id="azsw2e-d1e2650-Rd1e166">Imperatores
+            Valerianus, Gallienus</ref>  Si patris tui pupillam nondum reddita
+            tutelae ratione vel post redditam nondum exacto quinto et vicesimo
+            nec non etiam utili anno uxorem duxisti, nec matrimonium cum ea habuisse
+            nec filium ex huiusmodi coniunctione procreasse videri potes. </p>
+               <p xml:id="azsw2e-d1e2650-d1e169" n="1">
+            Sane si hoc pater puellae, cum decederet, postulavit, et
+            nuptiae rite contractae et filius videtur iure susceptus. * VALER.
+            ET GALLIEN. AA. LUCIO. *&lt;A 260 PP. ID. MAI. SAECULARE II ET DONATO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2650-Dd1e173">
+               <head xml:id="azsw2e-d1e2650-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e2650-d1e177">
+                  <ref xml:id="azsw2e-d1e2650-Rd1e179">Imperatores
+            Diocletianus, Maximianus</ref> Si tutor vel curator pupillam vel adultam
+            quondam suam sibi vel filio suo nullo divino impetrato beneficio in
+            matrimonio collocaverit, manet infamia contra eum velut confessum
+            de tutela, quia huiusmodi coniunctione fraudem administrationis tegere
+            laboravit, et dos data per condictionem repeti potest. * DIOCL. ET
+            MAXIM. AA. ET CC. PAREGORIO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2650-Dd1e183">
+               <head xml:id="azsw2e-d1e2650-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e2650-d1e187">
+                  <ref xml:id="azsw2e-d1e2650-Rd1e189">Imperatores
+            Leo, Anthemius</ref> Si quis tutoris vel curatoris nomine usurpato,
+            id est pro tutore seu pro curatore vel negotiorum gestore res pupillae
+            administraverit eamque sibi filiove suo copulaverit, tales nuptias
+            stare et non ad exemplum tutorum infirmari, ne ex huiusmodi subtili
+            vel maligno tractatu matrimonia seu proles ex his progenita vel dos
+            super his data vel promissa aliquam laesionem vel calumniam patiantur.
+            * LEO ET ANTHEM. AA. ERYTHRIO PP. *&lt;A 469 D. K. IUL. MARCIANO CONS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

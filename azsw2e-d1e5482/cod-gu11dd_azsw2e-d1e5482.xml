@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 47</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 47</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5482"><!-- azsw2e-l8t47 -->
+            <head xml:id="azsw2e-d1e5482-Hd1e101">Titulus 47</head>
+            <head xml:id="azsw2e-d1e5482-Hd1e103" type="question-title">De adoptionibus</head>
+            <div xml:id="azsw2e-d1e5482-Dd1e106">
+               <head xml:id="azsw2e-d1e5482-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5482-d1e110">
+                  <ref xml:id="azsw2e-d1e5482-Rd1e112">Imperator
+            Gordianus</ref> Hi, qui in aliena sunt potestate, iuxta ius civile
+            non nisi apud eum, apud quem plena legis actio est, adoptari possunt.
+            * GORD. A. MARCIAE. *&lt;A 239 PP. K. IUN. GORDIANO A. ET AVIOLA CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5482-Dd1e116">
+               <head xml:id="azsw2e-d1e5482-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5482-d1e120">
+                  <ref xml:id="azsw2e-d1e5482-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref>  Impuberem, quem ad vicem naturalis
+            subolis adrogare desideras, si hi, qui sanguinis necessitudine iunguntur,
+            id ei expedire apud praesidem provinciae confirmaverint, filium habebis,
+            ita ut bonorum tuorum quarta pars tam in postremo iudicio tuo, quam
+            si a te emancipatus fuerit, ei praebeatur et super patrimonio eius
+            idoneis fideiussoribus datis servo publico caveatur, ne sub copulandae
+            adoptionis obtentu in facultates eius, quae ei diligenti provisione
+            servandae sunt, inruas. </p>
+               <p xml:id="azsw2e-d1e5482-d1e125" n="1">
+            Adrogatio etenim ex indulgentia principali facta proinde
+            valet apud praetorem vel praesidem intimata, ac si per populum iure
+            antiquo facta esset. * DIOCL. ET MAXIM. AA. TIMOTHEO. *&lt;A 286 PP.
+            V ID. MART. MAXIMO II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5482-Dd1e129">
+               <head xml:id="azsw2e-d1e5482-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e5482-d1e133">
+                  <ref xml:id="azsw2e-d1e5482-Rd1e135">Imperatores
+            Diocletianus, Maximianus</ref> Cum eum, quem adrogare vis, libertum
+            tuum esse profitearis nec ullam idoneam causam precibus indideris,
+            id est quod non liberos habes, intellegis iuris auctoritatem desiderio
+            tuo refragari. * DIOCL. ET MAXIM. AA. MARCIANO. *&lt;A 286 PP. XVI
+            K. IUL. MAXIMO II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5482-Dd1e140">
+               <head xml:id="azsw2e-d1e5482-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e5482-d1e144">
+                  <ref xml:id="azsw2e-d1e5482-Rd1e146">Imperatores
+            Diocletianus, Maximianus</ref> Adoptio non tabulis, licet per tabellionem
+            conficiendis, sed sollemni iuris ordine apud praesidem solet copulari.
+            * DIOCL. ET MAXIM. AA. PROCULIANO. *&lt;A 290 PP. K. SEPT. IPSIS IIII
+            ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5482-Dd1e150">
+               <head xml:id="azsw2e-d1e5482-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e5482-d1e154">
+                  <ref xml:id="azsw2e-d1e5482-Rd1e156">Imperatores
+            Diocletianus, Maximianus</ref> A muliere quidem, quae nec suos filios
+            habet in potestate, adrogari non posse certum est. Verum quoniam in
+            solacium amissorum tuorum filiorum privignum tuum cupis in vicem legitimae
+            subolis obtinere, adnuimus votis tuis secundum ea, quae adnotavimus,
+            et eum proinde atque ex te progenitum ad fidem naturalis legitimique
+            filii habere permittimus * DIOCL. ET MAXIM. AA. ET CC. SYRAE. *&lt;A
+            291 S. PRID. NON. DEC. TRIBALLIS TIBERIANO ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5482-Dd1e160">
+               <head xml:id="azsw2e-d1e5482-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e5482-d1e164">
+                  <ref xml:id="azsw2e-d1e5482-Rd1e166">Imperatores
+            Diocletianus, Maximianus</ref> Adrogationes eorum, qui sui iuris sunt,
+            nec in regia urbe nec in provinciis nisi ex rescripto principali fieri
+            possunt. * DIOCL. ET MAXIM. AA. ET CC. MELITONI. *&lt;A 293 S. IIII
+            NON. APRIL. BYZANTII AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5482-Dd1e170">
+               <head xml:id="azsw2e-d1e5482-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e5482-d1e174">
+                  <ref xml:id="azsw2e-d1e5482-Rd1e176">Imperatores
+            Diocletianus, Maximianus</ref> In adoptionem quidem alienae civitatis
+            civi recte dato additur, non mutatur patria, ac propterea ius originis
+            in honorum ac munerum obsequio per adoptionem non minui perspicis.
+            * DIOCL. ET MAXIM. AA. ET CC. ATTICO. *&lt;A 294 S. XI K. FEBR. SIRMI
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5482-Dd1e180">
+               <head xml:id="azsw2e-d1e5482-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e5482-d1e184">
+                  <ref xml:id="azsw2e-d1e5482-Rd1e186">Imperatores
+            Diocletianus, Maximianus</ref> In adoptionem patre, in cuius est potestate,
+            libertae filiam dante, matris patronus adoptare non prohibetur. Nam
+            sui iuris adrogatio feminae nisi ex nostro rescripto numquam procedit
+            * DIOCL. ET MAXIM. AA. ET CC. ISIONI. *&lt;A 294 S. V ID. FEBR. CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5482-Dd1e190">
+               <head xml:id="azsw2e-d1e5482-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e5482-d1e194">
+                  <ref xml:id="azsw2e-d1e5482-Rd1e196">Imperatores
+            Diocletianus, Maximianus</ref> Adoptatum, licet ex beneficio nostro,
+            emancipatione sollemni separare familia sua pater adoptivus minime
+            prohibetur. * DIOCL. ET MAXIM. AA. ET CC. MARCIANO. *&lt;A 294 V K.
+            NOV. ANCHIALI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5482-Dd1e201">
+               <head xml:id="azsw2e-d1e5482-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e5482-d1e205">
+                  <ref xml:id="azsw2e-d1e5482-Rd1e207">Imperator
+            Justinianus</ref>  Cum in adoptivis filiis, qui filii familias constituti
+            a patribus naturalibus aliis dantur, antiquae sapientiae incidit quaedam
+            dubitatio, si oportet talem filium, si praeteritus a naturali patre
+            fuerat, habere contra eius testamentum de inofficioso actionem ( quam
+            papinianus quidem negat, paulus autem sine effectu derelinquit, Marcianus
+            vero distinguit, ne ex hac causa utriusque patris perderet successionem,
+            naturalis quidem voluntate eius circumventus, adoptivi propter egestatem,
+            quam forte habebat), et iterum aliud vitium erat exortum: si enim
+            post patris naturalis obitum pater adoptivus per emancipationis modum
+            iura adoptionis dissolvisset, nulla spes ei remanebat neque contra
+            patris naturalis voluntatem, quia mortis eius tempore in aliena fuerat
+            familia constitutus, neque cont ra adoptivum patrem, quia per emancipationem
+            eius familia exemptus est: ideo talem dubitationem et tale vitium
+            corrigentes sancimus per adoptionem quidem ad extraneam personam factam
+            iura naturalis patris minime dissolvi, sed ita eum permanere, quasi
+            non fuisset in alienam familiam translatus. Cum enim tanta fragilitas
+            est adoptionis, ut possit in ipso die et filius fieri et extraneus
+            per emancipationem inveniri, quis patiatur iura patris naturalis nexu
+            divino copulata ludibrio defraudari, cum in hoc casu et contradicendi
+            filio ex iure vetere datur licentia et invitus transire ad aliam familiam
+            non cogitur </p>
+               <p xml:id="azsw2e-d1e5482-d1e210" n="1">
+            Omnia igitur, secundum quod iam disposuimus, cum ad extraneum
+            patrem filius per adoptionem transfertur, maneant integra iura sive
+            ad de inofficiosi querellam sive ad alias omnes successiones sive
+            ab intestato sive ex testamento, quae liberis deferuntur, ut et ipse
+            possit prodesse patri naturali et ab eo naturalia debita percipere.
+            </p>
+               <p xml:id="azsw2e-d1e5482-d1e213"> 
+            Si vero pater naturalis avo materno filii sui vel, si ipse
+            fuerit emancipatus, etiam paterno, vel proavo simili modo paterno
+            vel materno filium suum dederit in adoptionem, in hoc casu, quia in
+            unam personam concurrunt et naturalia et adoptiva iura, maneat stabile
+            ius patris adoptivi et naturali vinculo copulatum et legitimo adoptionis
+            modo constrictum: et ad eum solum respiciat filius, cui eum et natura
+            adgregavit et lex per adoptionem adsignavit, et papiniani sententia
+            in hac specie procedat, et ad eum tantummodo filius adoptivus spes
+            totas extendat et non patris naturalis successionem molestare concedatur,
+            sed avita et proavita tantummodo reverentia protegetur, eique adquirat
+            quae possunt adquiri et prodesse, et is ei solus pater intellegatur,
+            quem lex fecit et natura non dereliquit. </p>
+               <p xml:id="azsw2e-d1e5482-d1e215"> 
+            Neque enim Marciani distinctioni locum esse in hoc casu invenimus,
+            ubi nullius circumventionis suspicio potest aliquam sibi vindicare
+            licentiam, avita et proavita adfectione haec omnia resecante. </p>
+               <p xml:id="azsw2e-d1e5482-d1e218"> 
+            Sed haec manere integra, nisi avus et proavus emancipatum
+            fecerint filium adoptivum: tunc etenim necesse est iterum ad patrem
+            naturalem eum reverti, cum emancipationis interventu adoptio in quamcumque
+            personam facta dissolvitur. </p>
+               <p xml:id="azsw2e-d1e5482-d1e220">  
+            (1) sed ne articulum adoptionis et in extraneam personam 
+            factae sine lege relinquamus, licentiam damus tali adoptivo patri, 
+            id est extraneo, si voluerit, nihil ei testamento suo relinquere, 
+            sed quidquid ei reliquerit, hoc libertatis sit, non legitimo vinculo 
+            adstrictum: cum enim per omnia naturae suae filium adgregavimus, manifestissimum 
+            est, quod et adquisitiones omnium rerum, quae ad filium familias pervenerint, 
+            secundum leges nostras non adoptivo extraneo patri, sed naturali usque 
+            ad modum usus fructus perveniunt, et remaneat in sacris patris naturalis, 
+            quasi imaginaria quadam et nova adfectione ei adquisita, non pristinae 
+            cognationis deminutione introducta. </p>
+               <p xml:id="azsw2e-d1e5482-d1e222"> 
+            Sed si quidem remaneat in tali adoptione nulla interveniente
+            emancipatione, in hoc tantummodo prodesse ei volumus adoptionem, ut
+            non successione ab intestato patris extranei adoptivi defraudetur,
+            sed habeat accessionem fortunae ex patris naturalis sibi voluntate
+            adquisitam. </p>
+               <p xml:id="azsw2e-d1e5482-d1e224"> 
+            Neque enim ex vetere iure cognationis nexus naturalis patris
+            per adoptionem filio dissolvebatur, sed accedebant iura adoptiva certis
+            reliquiis ex iure naturali remanentibus, et qui legitimus erat familiae
+            adoptivae, is naturalis fuerat cognatus. Quis enim materna iura possit
+            abolere, cum videbatur et antiquo iure patrem quidem habere adoptivum,
+            matrem autem eam, quam natura cognoscit </p>
+               <p xml:id="azsw2e-d1e5482-d1e226"> 
+            Et ideo sancimus, etsi habet huiusmodi filius iura integra
+            naturae, tamen, si intestatus pater extraneus adoptivus decesserit,
+            habere eum etiam sui heredis ius ad eius tantummodo successionem,
+            ut non etiam legitima iura ad familiam extranei patris adoptivi habeat,
+            nec ipsa ad eum communionem aliquam habeat, sed quasi extraneus ita
+            ad illam familiam inveniatur. </p>
+               <p xml:id="azsw2e-d1e5482-d1e228" n="2">
+            Sin autem per emancipationem iura adoptiva fuerint dissoluta,
+            tunc nullus ei penitus regressus ad adoptivum extraneum patrem, etsi
+            moriatur intestatus, relinquatur, sed maneat tantummodo patrem naturalem
+            cognoscens, tamquam non fuisset ab initio in adoptionem translatus.
+            </p>
+               <p xml:id="azsw2e-d1e5482-d1e232" n="3">
+            Quae autem de aliis adoptivis diximus, haec sancimus etiam
+            de his, qui ex Afiniano senatus consulto ex tribus maribus fuerant
+            ab extraneo adoptati, nulla penitus differentia inter alios adoptivos
+            et eos introducenda. </p>
+               <p xml:id="azsw2e-d1e5482-d1e235" n="4">
+            Quae in filio diximus in adoptionem a patre dato, haec et
+            in filia et in nepote et in nepte et deinceps personis utriusque sexus
+            in sacris constitutis extendimus, si tamen tempore mortis avi sui
+            parentes eos vel eas non antecedant. Si enim patres eos antecedant
+            ( ubi nec imponitur necessitas avo aliquid nepoti vel nepti relinquere),
+            maneant omnia iura adoptiva ei intacta. Haec enim omnis sanctio de
+            filio et filia et nepote et nepte et deinceps personis in sacris constitutis
+            introducta est, ubi dubitabatur, quid statuendum est, quasi duobus
+            patribus ei, uno ex natura, altero ex lege positi </p>
+               <p xml:id="azsw2e-d1e5482-d1e238" n="5">
+            Ubi autem homo sui iuris constitutus per adrogationem ex
+            augusta liberalitate sese dederit in adoptionem, tunc omnia iura patris
+            adoptivi habeat intacta. Cum enim nullum inter patres inducitur discrimen,
+            sit suus heres adoptivus patri adrogatori et familiae eius adgregetur,
+            et omnia, quae ad filium adrogatum veteres legum latores induxerunt,
+            intacta illibataque in eorum personis reserventur * IUST. A. IOHANNI
+            PP. *&lt;A 530 D. K. SEPT. CONSTANTINOPOLI LAMPADIO ET ORESTE VV.
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5482-Dd1e242">
+               <head xml:id="azsw2e-d1e5482-Hd1e244">11</head>
+               <p xml:id="azsw2e-d1e5482-d1e246">
+                  <ref xml:id="azsw2e-d1e5482-Rd1e248">Imperator
+            Justinianus</ref> Veteres circuitus in adoptionibus, quae per tres
+            emancipationes et duas manumissiones in filio aut per unam emancipationem
+            in ceteris liberis fieri solebant, corrigentes sive tollentes censemus
+            licere parenti, qui liberos in potestate sua constitutos in adoptionem
+            dare desiderat, sine vetere observatione emancipationum et manumissionum
+            hoc ipsum actis intervenientibus apud competentem iudicem manifestare,
+            praesente et eo qui adoptatur et non contradicente, nec non eo qui
+            eum adoptat. * IUST. A. IOHANNI PP. *&lt;A 530 D. V K. NOV. CONSTANTINOPOLI
+            LAMPADIO ET ORESTE VV. CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

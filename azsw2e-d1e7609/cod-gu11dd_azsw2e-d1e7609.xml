@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 50</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 50</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7609"><!-- azsw2e-l11t50 -->
+            <head xml:id="azsw2e-d1e7609-Hd1e101">Titulus 50</head>
+            <head xml:id="azsw2e-d1e7609-Hd1e103" type="question-title">In quibus causis coloni censiti dominos accusare possunt</head>
+            <div xml:id="azsw2e-d1e7609-Dd1e106">
+               <head xml:id="azsw2e-d1e7609-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7609-d1e110">
+                  <ref xml:id="azsw2e-d1e7609-Rd1e112">Imperator
+            Constantinus</ref> Quisquis colonus plus a domino exigitur, quam ante
+            consueverat et quam in anterioribus temporibus exactus est, adeat
+            iudicem, cuius primum poterit habere praesentiam, et facinus comprobet,
+            ut ille, qui convincitur amplius postulare, quam accipere consueverat,
+            hoc facere in posterum prohibeatur, prius reddito quod superexactione
+            perpetrata noscitur extorsisse. * CONST. A. AD MAXIMUM VIC. ORIENTIS.
+            *&lt;A XXX PP.ID. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7609-Dd1e116">
+               <head xml:id="azsw2e-d1e7609-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7609-d1e120">
+                  <ref xml:id="azsw2e-d1e7609-Rd1e122">Imperatores
+            Arcadius, Honorius</ref>  Coloni censibus dumtaxat adscripti, sicuti
+            ab his liberi sunt, quibus eos tributa subiectos non faciunt, ita
+            his, quibus annuis functionibus et debito condicionis obnoxii sunt,
+            paene est ut quadam servitute dediti videantur. </p>
+               <p xml:id="azsw2e-d1e7609-d1e125" n="1">
+            Quo minus est ferendum, ut eos audeant lite pulsare, a quibus
+            ipsos utpote a dominis una cum possessionibus distrahi posse dubium
+            non est. </p>
+               <p xml:id="azsw2e-d1e7609-d1e128" n="2">
+            Quam de cetero licentiam submovemus, ne quis audeat domini
+            in iudicio nomen lacessere, et cuius ipsi sunt, eiusdem omnia sua
+            esse cognoscant. </p>
+               <p xml:id="azsw2e-d1e7609-d1e131" n="3">
+            Cum enim saepissime decretum sit, ne quid de peculio suo
+            cuiquam colonorum ignorante domino praedii aut vendere aut alio modo
+            alienare liceret, quemadmodum contra eius personam aequo poterit consistere
+            iure, quem nec propria quidem leges sui iuris habere voluerunt et
+            adquirendi tantum, non etiam transferendi potestate permissa, domino
+            et adquirere et habere voluerunt?</p>
+               <p xml:id="azsw2e-d1e7609-d1e135" n="4">
+            Sed ut in causis civilibus huiusmodi hominum generi adversus
+            dominos vel patronos et aditum intercludimus et vocem negamus exceptis
+            superexactionibus, in quibus retro principes facultatem eis super
+            hoc interpellandi praebuerunt, ita in criminum accusatione quae publica
+            est non adimitur eis propter suam suorumque iniuriam experiendi licentia.
+            * ARCAD. ET HONOR. AA. NEBRIDIO COM. ASIAE. *&lt;A XXX &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

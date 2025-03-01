@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 31</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 31</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4460"><!-- azsw2e-l7t31 -->
+            <head xml:id="azsw2e-d1e4460-Hd1e101">Titulus 31</head>
+            <head xml:id="azsw2e-d1e4460-Hd1e103" type="question-title">De usucapione transformanda et de sublata differentia rerum mancipi
+            et nec mancipi</head>
+            <div xml:id="azsw2e-d1e4460-Dd1e106">
+               <head xml:id="azsw2e-d1e4460-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4460-d1e110">
+                  <ref xml:id="azsw2e-d1e4460-Rd1e112">Imperator
+            Justinianus</ref>  Cum nostri animi vigilantia ex iure quiritum nomen
+            et substantiam sustulerit et communes exceptiones in omni loco valeant,
+            id est decem vel viginti vel triginta annorum vel si quae sunt aliae
+            maioris aevi continentes prolixitatem, satis inutile est usucapionem
+            in italicis quidem solis rebus admittere, in provincialibus autem
+            recludere. Sed et si quis res alienas, italicas tamen, bona fide possidebat
+            per biennium, miseri rerum domini excludebantur et nullus eis ad eas
+            reservabatur regressus. Quae et nescientibus dominis procedebant:
+            quo nihil inhumanius erat, si homo absens et nesciens tam angusto
+            tempore suis cadebat possessionibus. </p>
+               <p xml:id="azsw2e-d1e4460-d1e115" n="1">
+            Ideo per praesentem legem et in Italicis solis rebus, quae
+            immobiles sunt vel esse intelleguntur, sicut annalem exceptionem,
+            ita et usucapionem transformandam esse censemus, ut tantummodo et
+            hic decem vel viginti annorum vel triginta et aliarum exceptionum
+            tempora currant, huiusmodi angustiis penitus semotis. </p>
+               <p xml:id="azsw2e-d1e4460-d1e118" n="2">
+            Cum autem antiqui et in rebus mobilibus vel se moventibus,
+            quae fuerant alienatae vel quocumque modo, bona fide tamen, detentae,
+            usucapionem extendebant, non in Italico solo nexu, sed in omnem orbem
+            terrarum, et hanc annali tempore concludebant, et eam duximus esse
+            corrigendam, ut, si quis alienam rem mobilem seu se moventem in quacumque
+            terra sive Italica sive provinciali bona fide per continuum triennium
+            detinuerit, is firmo iure eam possideat, quasi per usucapionem ei
+            adquisitam. </p>
+               <p xml:id="azsw2e-d1e4460-d1e121" n="3">
+            Hoc tantummodo observando, ut in his omnibus casibus ab initio
+            bona fide eam capiat, secundum quod exigit longi temporis praescriptio,
+            et ut continuetur ei possessio etiam anterioris iusti possessoris
+            et connumeretur in decennium vel viginti annorum spatium vel triennium,
+            quod in rebus mobilibus observandum esse censemus, ut in omnibus iusto
+            titulo possessionis antecessoris iusta detentio, quam in re habuit,
+            non interrumpatur ex posteriore forsitan alienae rei scientia, licet
+            ex titulo lucrativo ea coepta est. </p>
+               <p xml:id="azsw2e-d1e4460-d1e125" n="4">
+            Ita etenim ampliatur quidem longi temporis materia, quae
+            ei subdita est, minuitur autem usucapionum compendiosa dominis iactura
+            et eius iura nocentia. </p>
+               <p xml:id="azsw2e-d1e4460-d1e128" n="5">
+            Cum etiam res dividi mancipi et nec mancipi sane antiquum
+            est et merito antiquari oportet, sit et rebus et locis omnibus similis
+            ordo, inutilibus ambiguitatibus et differentiis sublatis. * IUST.
+            A. IOHANNI PP. *&lt;A 531 D. XV K. NOV. CONSTANTINOPOLI POST CONSULATUM
+            LAMPADII ET ORESTIS VV. CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

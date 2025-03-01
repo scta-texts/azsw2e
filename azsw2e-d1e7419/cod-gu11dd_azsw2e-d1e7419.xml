@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 33</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 33</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7419"><!-- azsw2e-l11t33 -->
+            <head xml:id="azsw2e-d1e7419-Hd1e101">Titulus 33</head>
+            <head xml:id="azsw2e-d1e7419-Hd1e103" type="question-title">De debitoribus civitatum</head>
+            <div xml:id="azsw2e-d1e7419-Dd1e106">
+               <head xml:id="azsw2e-d1e7419-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7419-d1e110">
+                  <ref xml:id="azsw2e-d1e7419-Rd1e112">Imperator
+            Antoninus</ref> Non prius debitorem rei publicae honorem in re publica
+            subire quam id quod debere constiterit conventus exsolverit, tam meis
+            quam divorum principum constitutionibus declaratur. * ANT. A. DIODOTO.
+            *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7419-Dd1e116">
+               <head xml:id="azsw2e-d1e7419-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7419-d1e120">
+                  <ref xml:id="azsw2e-d1e7419-Rd1e122">Imperator
+            Constantinus</ref>  Apud eos, quos superstites integris facultatibus
+            esse pervideris vel quorum heredes incolumia retinent patrimonia,
+            sortes rei publicae perseverare debebunt, ita tamen, ut annuas usuras
+            suis quibusque temporibus exsolvant, cum simul et rei publicae utile
+            sit retinere idoneos debitores et ipsis commodum cumulum debiti minime
+            nutriri. </p>
+               <p xml:id="azsw2e-d1e7419-d1e125" n="1">
+            Et quia nefas est obnoxiis corporibus alienatis circumscribi
+            civitates, placuit, si qui debitor rei publicae civitatis quippiam
+            ex eo patrimonio, quod habuit, cum pecuniam rei publicae sumeret,
+            donaverit vel distraxerit vel qualibet in alium ratione contulerit,
+            qualitate rei alienatae perspecta atque omnibus debitoris facultatibus
+            consideratis, quas habuit, cum ei pecunia crederetur, pro rata ab
+            eo, qui ex debitoris facultatibus aliquid detinet, ex sorte atque
+            usuris postulari. </p>
+               <p xml:id="azsw2e-d1e7419-d1e128"> 
+            Itaque quotiens minus idoneum deprehenditur eius patrimonium,
+            cuius nomen civitati alicui invenitur obnoxium, iudex omni diligentiae
+            sollicitudine debebit inquirere, ad quos ex qualibet condicione transierint
+            debitoris facultates, ut singuli aequa aestimatione habita pro rata
+            rerum quas possident conveniantur, personalem actionem contra eum
+            habituri debitorem, qui ipsis solventibus liberatur. </p>
+               <p xml:id="azsw2e-d1e7419-d1e130"> 
+            Ab eo autem, a quo constat fortunarum suarum partem maximam
+            recessisse, etiam reliquam portionem quae apud eum resederit transferri
+            ad idoneum oportebit. </p>
+               <p xml:id="azsw2e-d1e7419-d1e133" n="2">
+            Quod si quispiam debitor rei publicae civitatis fisco nostro
+            locum fecerit, emptores, qui ex fisco nostro comparaverint, manifestum
+            est secundum ius vetus et rescripta divorum constitutionesque nostras
+            nullam debere molestiam sustinere. </p>
+               <p xml:id="azsw2e-d1e7419-d1e136" n="3">
+            Quod si quis debitor non comparaverit vel certe ita omnia
+            sua consumpserit, ut nemo aliquam rem ex eius bonis possideat, id
+            debitum convenit ad dispendium rei publicae pertinere. Ideoque cura
+            patris civitatis apud idoneos vel dominos rusticorum praediorum pecunia
+            collocanda est . * CONSTANT. A. VERINO SUO SALUTEM. *&lt;A 314 PP.III
+            K.FEBR.VOLUSIANO ET ANNIANO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

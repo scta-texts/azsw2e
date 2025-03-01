@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 72</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 72</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6978"><!-- azsw2e-l10t72 -->
+            <head xml:id="azsw2e-d1e6978-Hd1e101">Titulus 72</head>
+            <head xml:id="azsw2e-d1e6978-Hd1e103" type="question-title">De susceptoribus praepositis et arcariis</head>
+            <div xml:id="azsw2e-d1e6978-Dd1e106">
+               <head xml:id="azsw2e-d1e6978-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6978-d1e110">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e112">Imperator
+            Constantinus</ref>  Susceptores publicos absque omni mora aurum suscipere
+            censemus, ne quis per hanc occasionem sumptus facere compellatur.
+            </p>
+               <p xml:id="azsw2e-d1e6978-d1e115" n="1">
+            Nam si solvere volens a suscipiente fuerit contemptus, testibus
+            adhibitis contestationem debebit proponere, ut hoc probato et ipse
+            securitatem debitam commissi nexu liberatus cum emolumentis accipiat
+            et, qui suscipere neglexerit, eius ponderis quod debebatur in duplum
+            fisci rationibus per vigorem officii praesidis inferre cogatur. </p>
+               <p xml:id="azsw2e-d1e6978-d1e118" n="2">
+            Quod autem susceptores iudice cuius interest neglegente violaverint,
+            ex ipsius iudicis facultatibus sarcietur. * CONST. A. AD EUPHRASIUM
+            RATIONALEM TRIUM PROVINCIARUM. *&lt;A 325 D.XIIII K.AUG.PAULINO ET
+            IULIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6978-Dd1e122">
+               <head xml:id="azsw2e-d1e6978-Hd1e124">2</head>
+               <p xml:id="azsw2e-d1e6978-d1e126">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e128">Imperatores
+            Valentinianus, Valens</ref> Iuxta inveteratas leges nominatores susceptorum
+            et eorum, qui ad praeposituram horreorum et pagorum creantur, teneantur
+            obnoxii, si minus idonei sint, qui ab isdem fuerint nominati, nec
+            quicquam ex eorum substantia celebrata per interpositam personam emptione
+            mercentur. * VALENTIN. ET VALENS AA. AD SECUNDUM PP. *&lt;A 365 D.III
+            K.AUG.CONSTANTINOPOLI VALENTINIANO ET VALENTE AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6978-Dd1e132">
+               <head xml:id="azsw2e-d1e6978-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e6978-d1e136">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e138">Imperatores
+            Valentinianus, Valens</ref> Susceptores novi non modo praesentis anni
+            debita, verum etiam species, quas ex reliquis inferunt, quia novae
+            sunt ac recentes, suscipiant. * VALENTIN. ET VALENS AA. AD MAMERTINUM
+            PP. *&lt;A 365 D.PRID.K.NOV.ROMAE VALENTINIANO ET VALENTE AA.CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6978-Dd1e143">
+               <head xml:id="azsw2e-d1e6978-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e6978-d1e147">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e149">Imperatores
+            Valentinianus, Valens</ref>  Neminem susceptionis munere functum ad
+            idem munus adstringi, nisi prius se vinculo sollicitudinis superioris
+            absolverit. Nam neque eos qui placuerint gravare iusti est, neque
+            illos qui displicuerint tenere prudentis </p>
+               <p xml:id="azsw2e-d1e6978-d1e152" n="1">
+            Integro igitur singuli anniversario anno transcurso cogantur
+            exponere, quibus titulis suscepta disperserint, ut facilius, si quis
+            in furto fuerit deprehensus, recentem queat redintegrare iacturam.
+            </p>
+               <p xml:id="azsw2e-d1e6978-d1e155" n="2">
+            Non perpetui autem exactores teneantur in continuata vexandorum
+            provincialium potestate, veluti concussionum dominatione, sed per
+            annos singulos iudicaria sedulitate mutentur, nisi aut consuetudo
+            civitatis aut raritas ordinis eos per biennium esse compellat. * VALENTIN.
+            ET VALENS AA. AD FLORENTIUM COM. SACR. LARG. *&lt;A 366 D. XV K.OCT.MANTEBRI
+            GRATIANO NOB. PUERO ET DAGALAIFO CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6978-Dd1e159">
+               <head xml:id="azsw2e-d1e6978-Hd1e161">5</head>
+               <p xml:id="azsw2e-d1e6978-d1e163">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e165">Imperatores
+            Valentinianus, Valens</ref> Quotienscumque certa summa solidorum pro
+            tituli qualitate debetur et auri massa transmittitur, in septuaginta
+            duos solidos libra feratur accepta. * VALENTIN. ET VALENS AA. AD GERAMNIANUM
+            COMETEM SACR. LARG. *&lt;A 367 D.VI ID.IAN.ROMAE LUPICINO ET IOVINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6978-Dd1e169">
+               <head xml:id="azsw2e-d1e6978-Hd1e171">6</head>
+               <p xml:id="azsw2e-d1e6978-d1e173">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e175">Imperatores
+            Valentinianus, Valens</ref> Frumenta, quae horreis inferuntur, pro
+            illationis modo ilico apocharum cautionibus adnotentur. Non autem
+            oportet in horreis fiscalibus nisi fiscalia frumenta constitui * VALENTIN.
+            ET VALENS AA. AD CHILONEM. *&lt;A 375 D.V ID.APRIL.TREVIRIS POST CONSULATUM
+            GRATIANI A.III ET EQUITII VC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6978-Dd1e179">
+               <head xml:id="azsw2e-d1e6978-Hd1e181">7</head>
+               <p xml:id="azsw2e-d1e6978-d1e183">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e185">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Minime diu penes ipsos
+            susceptores maneant facta collatio, sed statim quodcumque a provincialibus
+            fuerit exsolutum sacris thesauris inferatur. * GRAT. VALENTIN. ET
+            THEODOS. AAA. HAVE HYPATI CARISSIME NOBIS.*&lt;A 383 D.III K.MAI CONSTANTINOPOLI
+            POST CONSULATUM ANTONII ET SYARGRII.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6978-Dd1e189">
+               <head xml:id="azsw2e-d1e6978-Hd1e191">8</head>
+               <p xml:id="azsw2e-d1e6978-d1e193">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e195">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Exactores vel susceptores
+            in celeberrimo coetu curiae consensu et iudicio omnium sub actorum
+            testificatione firmentur, provinciarumque rectoribus eorum nomina,
+            qui ad publici munus officii editi atque obligati fuerint, innotescant.
+            Et animadvertant, quicumque nominaverint, ad discrimen suum universa
+            quae illi gesserint redundare * VALENTIN. THEODOS. ET ARCAD. AAA.
+            CYNEGIO PP. *&lt;A 386 D.VI K.NOV.CONSTANTINOPOLI HONORIO NP.ET EUODIO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6978-Dd1e199">
+               <head xml:id="azsw2e-d1e6978-Hd1e201">9</head>
+               <p xml:id="azsw2e-d1e6978-d1e203">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e205">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref>  Modios aeneos atque lapideos
+            cum sextariis atque ponderibus per mansiones singulasque civitates
+            iussimus collocari, ut unusquisque tributarius sub oculis constitutis
+            rerum omnium modis sciat, quid debeat susceptoribus dare : ita ut,
+            si quis susceptorum conditorum modiorum sexagintorumque vel ponderum
+            normam putaverit excedendam, poenam se sciat competentem esse subiturum.
+            </p>
+               <p xml:id="azsw2e-d1e6978-d1e208" n="1">
+            Et submotis, quae contra utilitatem populorum omnium hactenus
+            gesta sunt, frumenti quinquagesimas, hordei quadragesimas, vini et
+            laridi vicesimas susceptoribus dari praecipimus. </p>
+               <p xml:id="azsw2e-d1e6978-d1e211" n="2">
+            Humanitatis autem necessitate commoti in armeniae susceptionibus
+            longinquitatis causa frumenti et hordei quadragesimas, vini et laridi
+            quintas decimas dari praecipimus. * VALENTIN. THEODOS. ET ARCAD. AAA.
+            CYNEGIO PP. *&lt;A 386 D.IIII K.DEC.CONSTANTINOPOLI HONORIO NP.ET
+            EUODIO VC.CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6978-Dd1e216">
+               <head xml:id="azsw2e-d1e6978-Hd1e218">10</head>
+               <p xml:id="azsw2e-d1e6978-d1e220">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e222">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Susceptores praesentibus
+            defensoribus et modum iugationis possessorum et species singulas vel
+            earum numerum quantitatemque perscribant. * VALENTIN. THEODOS. ET
+            ARCAD. AAA. CYNEGIO PP. *&lt;A 389 D.IIII K.DEC.CONSTANTINOPOLI TIMASIO
+            ET PROMOTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6978-Dd1e226">
+               <head xml:id="azsw2e-d1e6978-Hd1e228">11</head>
+               <p xml:id="azsw2e-d1e6978-d1e230">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e232">Imperatores
+            Arcadius, Honorius</ref> Securitates semel publicatas et gestis lectas
+            vini susceptoribus imputari et coeptam arcae discussionem volumus
+            in apertum quaesita ratione deduci et omnes publicas securitates quae
+            gestis tenentur a susceptoribus accepto ferri. * ARCAD. ET HONOR.
+            AA. BENIGNO VIC. URB. ROMAE. *&lt;A 400 D.VI ID.IUN.MEDIOLANI STILICHONE
+            ET AURELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6978-Dd1e236">
+               <head xml:id="azsw2e-d1e6978-Hd1e238">12</head>
+               <p xml:id="azsw2e-d1e6978-d1e240">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e242">Imperatores
+            Arcadius, Honorius</ref> Si aliquid a susceptore vel tabulario fraudis
+            admissum esse possessor deprehendat, nemo eorum semel in interversione
+            convictus id rursus officium gerat, in quo ante decoxit, etsi rescriptum
+            nostrum elicitum clandestina supplicatione tulerit. * ARCAD. ET HONOR.
+            AA. POMPEIANO SUO SALUTEM. *&lt;A 400 D.PRID.K.IAN.MEDIOLANI STILICHONE
+            ET AURELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6978-Dd1e246">
+               <head xml:id="azsw2e-d1e6978-Hd1e248">13</head>
+               <p xml:id="azsw2e-d1e6978-d1e250">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e252">Imperatores
+            Arcadius, Honorius</ref>  Duos tabularios seu numerarios et susceptores
+            totidem per universas provincias oportere constitui clementia nostra
+            praecepit. </p>
+               <p xml:id="azsw2e-d1e6978-d1e255" n="1">
+            Scire autem volumus praetorianam amplissimam praefecturam
+            eos, qui aurum largitionale susceperunt, nihil cum arcae ratociniis
+            habere commune, iudices autem provinciarum quinque libris auri multandos
+            et primates officiorum capitali poena plectendos, si hoc non fuerit
+            custoditum. * ARCAD. ET HONOR. AA. LUCIO COM. SACR. LARG. *&lt;A 408
+            D.VI K.FEBR.BASSO ET PHILIPPO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6978-Dd1e259">
+               <head xml:id="azsw2e-d1e6978-Hd1e261">14</head>
+               <p xml:id="azsw2e-d1e6978-d1e263">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e265">Imperatores
+            Honorius, Theodosius</ref>  Humilioribus officiis aut extraordinariis
+            oneribus occupari curiales non patimur , ne publica vacillet utilitas.
+            </p>
+               <p xml:id="azsw2e-d1e6978-d1e268" n="1">
+            Susceptionem itaque vestium aequius est ab officio proconsulari
+            vel ab his qui in eodem meruerunt sollemniter procurari. Horum namque
+            interest huiusmodi explorare rationem et quaerere qualitatem eorum,
+            quorum ad contuendum cura commodior est. Neque enim aequum est, ut
+            ad officium lucra, ad curialem susceptionis tantum damna pertineant.
+            </p>
+               <p xml:id="azsw2e-d1e6978-d1e271" n="2">
+            Hanc igitur ab ordinibus iniuriam submovemus, exceptis his,
+            si qui curialium in officio memorato aut militasse aut militare fuerit
+            deprehensus. * HONOR. ET THEODOS. AA. EUCHARIO SUO SALUTEM. *&lt;A
+            412 D.PRID.K.MART.RAVENNAE HONORIO VIIII ET THEODOSIO V AA.CONSS.
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6978-Dd1e275">
+               <head xml:id="azsw2e-d1e6978-Hd1e277">15</head>
+               <p xml:id="azsw2e-d1e6978-d1e279">
+                  <ref xml:id="azsw2e-d1e6978-Rd1e281">Imperatores
+            Theodosius, Valentinianus</ref>  Aurum sive argentum quodcumque a possessore
+            confertur, arcarius vel susceptor accipiat, ita ut provinciae moderator
+            eiusque officium ad crimen suum noverit pertinere, si possessoribus
+            ullum fuerit ex aliqua ponderum iniquitate illatum dispendium. </p>
+               <p xml:id="azsw2e-d1e6978-d1e284" n="1">
+            Et quidquid ex provinciis ad nostrum dirigetur aerarium,
+            id ad illustres viros aerarii nostri comites ralatione deferatur.
+            * THEODOS. ET VALENTIN. AA. VOLUSIANO PP. *&lt;A 429 D.III K.MART.RAVENNAE
+            POST CONSULATUM FELICIS ET TAURI VV.CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

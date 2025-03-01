@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 40</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 40</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3873"><!-- azsw2e-l6t40 -->
+            <head xml:id="azsw2e-d1e3873-Hd1e101">Titulus 40</head>
+            <head xml:id="azsw2e-d1e3873-Hd1e103" type="question-title">De indicta viduitate et de lege Iulia miscella tollenda</head>
+            <div xml:id="azsw2e-d1e3873-Dd1e106">
+               <head xml:id="azsw2e-d1e3873-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3873-d1e110">
+                  <ref xml:id="azsw2e-d1e3873-Rd1e112">Imperator
+            Gordianus</ref> Legatum alii sub condicione sic relictum, si uxor
+            nuptui se post mortem mariti non collocaverit, contractis nuptiis
+            condicione deficit ideoque peti legatum nequaquam potest. * GORD.
+            A. BONO. *&lt;A 241 PP. XIII K. AUG. GORDIANO A. II ET POMPEIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3873-Dd1e116">
+               <head xml:id="azsw2e-d1e3873-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3873-d1e120">
+                  <ref xml:id="azsw2e-d1e3873-Rd1e122">Imperator
+            Justinianus</ref>  Ambiguitates legis Iuliae miscellae generali lege
+            tollentes nullum concedimus fieri iuramentum secundum praedictam legem,
+            sed penitus ea cum muciana cautione super hac causa quiescente licere
+            mulieribus, etiam maritorum suorum interminatione spreta, quae viduitatem
+            eis indicit, et non dato sacramento procreandae subolis gratia, tamen
+            ad secundas migrare nuptias, poena huiusmodi cessante, sive habeat
+            liberos, sive non, et percipere ea, quae maritus dereliquit ( quorum
+            omnium manifestissimum est dominium minime eas liberis existentibus
+            habere usu fructu tantummodo apud eas manente et ad liberos prioris
+            tori proprietate eorum deferenda secundum ea, quae de secundis nuptiis
+            lucrisque ex his mulieribus statuta sunt), ne ex necessitate legis
+            et sacramento colorato periurium committatur. </p>
+               <p xml:id="azsw2e-d1e3873-d1e125" n="1">
+            Cum enim mulieres ad hoc natura progenuit, ut partus ederent,
+            et maxima eis cupiditas in hoc constituta est, quare scientes prudentesque
+            periurium committi patimur ? </p>
+               <p xml:id="azsw2e-d1e3873-d1e128" n="2">
+            Tale igitur iuramentum conquiescat et lex Iulia miscella
+            cedat cum muciana cautione super hoc introducta, a re publica separata.
+            Augeri etenim magis nostram rem publicam et multis hominibus progenitis
+            frequentari quam impiis periuriis adfici volumus, cum satis esse inhumanum
+            videtur per leges, quae periuria puniunt, viam periuriis aperiri *
+            IUST. A. IULIANO PP. *&lt;A 531 D. X K. MART. CONSTANTINOPOLI POST
+            CONSULATUM LAMPADII ET ORESTIS VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3873-Dd1e132">
+               <head xml:id="azsw2e-d1e3873-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e3873-d1e136">
+                  <ref xml:id="azsw2e-d1e3873-Rd1e138">Imperator
+            Justinianus</ref>  Legem Iuliam miscellam quemadmodum in feminis sustulimus,
+            ita et in masculis esse sublatam pertinere quidem ad sensum nostrae
+            legis, quam super hoc promulgavimus, non est incertum. </p>
+               <p xml:id="azsw2e-d1e3873-d1e141" n="1">
+            Ne tamen quaedam ambiguitas simplices animos moveat, etiam
+            expressim sancimus legem Iuliam miscellam et senatus consulta, quae
+            circa eam facta sunt, nec non mucianam cautionem, quae super talibus
+            nuptiis introducta est, non solum in feminis, sed etiam in masculis
+            cessare. </p>
+               <p xml:id="azsw2e-d1e3873-d1e144" n="2">
+            Sed quia apud Ulpianum in libris Sabinianis invenimus quaedam
+            verba, quae effugiunt legis miscellae observationem, ne quis et ea
+            sublata esse putaverit, sancimus, cum huiusmodi verbis mulieribus
+            aliquid relinquatur: " si vidua erit" vel " cum vidua
+            erit" vel " quotiens vidua erit", vel e contrario maribus:
+            " si amiserint uxores" vel " quando ad caelibatum pervenerint",
+            non vetari ea vindicare vel legitimo modo sumere, quae eis derelicta
+            sunt. Neque enim ut permaneant vel feminae in viduitate vel masculi
+            in caelibatu relictum esse videtur, ut locum vel ante nostram legem
+            habeat lex Iulia miscella, quae iam perempta est: sed cum primum hoc
+            evenerit, ilico competat talibus personis eius quod relictum est persecutio,
+            quia sub condicione relictum esse videtur, sive semel sive in annos
+            si ngulos haec liberalitas fuerit conscripta, quasi pro solacio suae
+            tristitiae * IUST. A. IOHANNI PP. *&lt;A 531 D. K. NOV. CONSTANTINOPOLI
+            POST CONSULATUM LAMPADII ET ORESTIS VV. CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

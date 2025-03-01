@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 21</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 21</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3661"><!-- azsw2e-l6t21 -->
+            <head xml:id="azsw2e-d1e3661-Hd1e101">Titulus 21</head>
+            <head xml:id="azsw2e-d1e3661-Hd1e103" type="question-title">De testamento militis</head>
+            <div xml:id="azsw2e-d1e3661-Dd1e106">
+               <head xml:id="azsw2e-d1e3661-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3661-d1e110">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e112">Imperator
+            Antoninus</ref> Frater tuus miles si te specialiter bonis quae in
+            paganico habebat heredem fecit, bona quae in castris reliquit petere
+            non potes, etiamsi is qui eorum heres institutus est adire ea noluerit:
+            sed ab intestato succedentes veniunt, modo si in eius loco substitutus
+            non est et liquido probatur fratrem tuum castrensia bona ad te pertinere
+            noluisse. Nam voluntas militis expeditione occupati pro iure servatur
+            * ANT. A. FLORIO MIL. *&lt;A 212 ACCEPTA V ID, SEPT.DUOBUS ASPRIS
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e116">
+               <head xml:id="azsw2e-d1e3661-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3661-d1e120">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e122">Imperator
+            Antoninus</ref> Miles si castrensium tantummodo bonorum commilitonem
+            suum instituit heredem, cetera bona eius ut intestati defuncti mater
+            eius iure possedit. Quod si extraneum scripsit heredem isque adiit
+            hereditatem, bona eius in te transferri non iure desideras * ANT.
+            A. SEPTIMO MIL. *&lt;A 213 PP.XI K.MART.ANTONINO A.IIII ET BALBINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e126">
+               <head xml:id="azsw2e-d1e3661-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3661-d1e130">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e132">Imperator
+            Antoninus</ref>  Quamquam militum testamenta iuris vinculis non subiciantur,
+            cum propter simplicitatem militarem quomodo velint et quomodo possint
+            ea facere his concedatur, tamen in valeriani quondam centurionis testamento
+            institutio etiam iure communi accepit auctoritatem. </p>
+               <p xml:id="azsw2e-d1e3661-d1e135" n="1">
+            Nam cum pater familias filiam ex duabus unciis, uxorem ex
+            uncia heredem scripserit nec de residuis portionibus quicquam significaverit,
+            in tres partes divisisse eum apparet hereditatem, ut duas habeat quae
+            sextantem accepit, tertiam quae ex uncia est heres instituta. * ANT.
+            A. VINDICIANO. *&lt;A 213 PP.K.NOV.ANTONINO A.IIII ET BALBINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e140">
+               <head xml:id="azsw2e-d1e3661-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e3661-d1e144">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e146">Imperator
+            Alexander Severus</ref>  Si Rufinus vir clarissimus tribunus laticlavius
+            maior annis lege definitis faciens testamentum te manumisit, iustam
+            tibi libertatem competisse scire debes. </p>
+               <p xml:id="azsw2e-d1e3661-d1e149" n="1">
+            Quod si minor annis ex lege constitutis fuerit, cum faceret
+            testamentum, lege impediente nullam libertatem adeptus es, quae in
+            hac parte nec militibus remissa est. </p>
+               <p xml:id="azsw2e-d1e3661-d1e152" n="2">
+            Quod si idem testator causam manumittendi te habuit, quae
+            probabilis vivo manumittente consilio futura esset, quia per fideicommissum
+            data libertas a quolibet minore annis ei, cuius causa probari potuit,
+            praestari debet, et ex testamento militis eiusmodi servis iustam libertatem
+            competere consequens est. * ALEX. A. IUNIO. *&lt;A 222 PP.XVI K.DEC.ALEXANDRO
+            A.CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e156">
+               <head xml:id="azsw2e-d1e3661-Hd1e158">5</head>
+               <p xml:id="azsw2e-d1e3661-d1e160">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e162">Imperator
+            Alexander Severus</ref> Ex testamento militis, sive adhuc in militia
+            sive intra annum missus honeste decessit, hereditas et legata omnibus
+            quibus relicta sunt debentur, quia inter cetera, quae militibus concessa
+            sunt, liberum arbitrium quibus velint relinquendi supremis suis concessum
+            est, nisi lex specialiter eos prohibuerit. * ALEX. A. SOZOMENO. *&lt;A
+            224 PP. XVII K. FEBR. IULIANO ET CRISPINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e166">
+               <head xml:id="azsw2e-d1e3661-Hd1e168">6</head>
+               <p xml:id="azsw2e-d1e3661-d1e170">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e172">Imperator
+            Alexander Severus</ref>  In testamento quidem eius, qui non miles fuit,
+            si duobus heredibus institutis, altero, cui potuit usque ad tempus
+            pubertatis parens facere testamentum, altero, cui posteaquam heres
+            extitit substituere non potuit, invicem substitutio eisdem verbis
+            facta esset, in eum solum casum eam locum habere et sententiis prudentium
+            virorum et constitutionibus divorum parentium meorum placet, quo utrique
+            pari ratione potuit substitui. </p>
+               <p xml:id="azsw2e-d1e3661-d1e175" n="1">
+            Sed cum ex testamento militis controversiam esse proponas,
+            defuncta parvula eius filia, posteaquam heres extitit patri, cum qua
+            simul aequis partibus heres institutus eras substitutione invicem
+            facta, et mater quidem intestatae filiae sibi successionem defendat,
+            tu autem ex substitutione ad te pertinere contendas, iuris quidem
+            ratio manifesta est licere militibus proprio privilegio etiam heredibus
+            extraneis, posteaquam heredes extiterint, mortuis substituere. </p>
+               <p xml:id="azsw2e-d1e3661-d1e178" n="2">
+            Sed tibi probandum est, an ita frater tuus senserit. * ALEX.
+            A. VALENTI. *&lt;A 225 PP. XII K. MAI. FUSCO ET DEXTRO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e182">
+               <head xml:id="azsw2e-d1e3661-Hd1e184">7</head>
+               <p xml:id="azsw2e-d1e3661-d1e186">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e188">Imperator
+            Alexander Severus</ref>  Ex his verbis: " fortunato liberto meo
+            do lego" vindicare tibi libertatem non potes, si pagani testamentum
+            proponatur. </p>
+               <p xml:id="azsw2e-d1e3661-d1e191" n="1">
+            At enim cum testatorem militem fuisse proponas, si non errore
+            ductus libertum te credidit, sed dandae libertatis animum habuit,
+            libertatem, et quidem directam, competere tibi, sed et legati vindicationem
+            habere praerogativa militaris privilegii praestat. * ALEX. A. FORTUNATO.
+            *&lt;A 229 PP. XII K. IUL. ALEXANDRO A. III ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e195">
+               <head xml:id="azsw2e-d1e3661-Hd1e197">8</head>
+               <p xml:id="azsw2e-d1e3661-d1e199">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e201">Imperator
+            Gordianus</ref> Certi iuris est militem ad tempus etiam heredem instituere
+            posse. * GORD. A. AETERNIO MIL. *&lt;A 238 PP. III K. OCT. PIO ET
+            PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e205">
+               <head xml:id="azsw2e-d1e3661-Hd1e207">9</head>
+               <p xml:id="azsw2e-d1e3661-d1e209">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e211">Imperator
+            Gordianus</ref> Sicut certi iuris est militem, qui scit se filium
+            habere aliosque scripsit heredes, tacite eum exheredare intellegi,
+            ita si ignorans se filium habere alios scribat heredes, non esse filio
+            ademptam hereditatem, sed minime valente testamento, si sit in potestate,
+            eum ad successionem venire in dubiis non habetur. * GORD. A. VALERIO.
+            *&lt;A 238 PP. V NON. OCT. PIO ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e216">
+               <head xml:id="azsw2e-d1e3661-Hd1e218">10</head>
+               <p xml:id="azsw2e-d1e3661-d1e220">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e222">Imperator
+            Philippus</ref>  Si, cum vel in utero haberetur filia inscio patre
+            milite, ab eo praeterita sit, vel cum in rebus humanis eam non esse
+            falso rumore prolato pater putavit, nullam eius testamento fecit mentionem,
+            silentium huiusmodi exheredationis notam nequaquam infligit. </p>
+               <p xml:id="azsw2e-d1e3661-d1e225" n="1">
+            Is autem miles, qui testamento filiam appellavit eique legatum
+            dedit, non instituendo eam heredem exheredavit. * PHILIPP. A. ET PHILIPP.
+            C. IUSTINO MIL. *&lt;A 246 PP. XII K. IUN. PRAESENTE ET ALBINO CONSS.&gt; 
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e229">
+               <head xml:id="azsw2e-d1e3661-Hd1e231">11</head>
+               <p xml:id="azsw2e-d1e3661-d1e233">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e235">Imperator
+            Philippus</ref> Captatorias institutiones et in militis testamento
+            nullius esse momenti manifestum est. * PHILIPP. A. ET C. AEMILIO MIL.
+            *&lt;A 246 PP. VII K. IUL. PRAESENTE ET ALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e239">
+               <head xml:id="azsw2e-d1e3661-Hd1e241">12</head>
+               <p xml:id="azsw2e-d1e3661-d1e243">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e245">Imperator
+            Philippus</ref> In testamento militis legem falcidiam et in legatis
+            et in fideicommissis cessare explorati iuris est. Sane si quid ultra
+            vires patrimonii postulatur, competenti defensione tueri te potes
+            * PHILIPP. A. ET C. DOMITIAE. *&lt;A 246 PP. VI NON. IUL. PRAESENTE
+            ET ALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e249">
+               <head xml:id="azsw2e-d1e3661-Hd1e251">13</head>
+               <p xml:id="azsw2e-d1e3661-d1e253">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e255">Imperatores
+            Valerianus, Gallienus</ref> Et militibus nostris, centurionibus quoque
+            ob flagitium militare damnatis non aliarum quam castrensium rerum
+            testamenta facere permittitur et intestatis iure proprio succeditur
+            a fisco. * VALER. ET GALLIEN. AA. CLAUDIAE. *&lt;A 254 PP. NON. AUG.
+            VALERIANO ET GALLIENO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e259">
+               <head xml:id="azsw2e-d1e3661-Hd1e261">14</head>
+               <p xml:id="azsw2e-d1e3661-d1e263">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e265">Imperatores
+            Diocletianus, Maximianus</ref> Si a fratre suo militante mater vestra
+            scripta heres successionem eius sibi quaesiit, quamvis testamenti
+            scriptura non continet iuris observationem, hanc hereditatem fratrem
+            testatoris vel eius filios ab intestato evincere non potuisse iure
+            constitit. * DIOCL. ET MAXIM. AA. ET CC. HEREDIBUS MAXIMAE. *&lt;A
+            294 S. V NON. MAI. AURRIS CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e269">
+               <head xml:id="azsw2e-d1e3661-Hd1e271">15</head>
+               <p xml:id="azsw2e-d1e3661-d1e273">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e275">Imperator
+            Constantinus</ref>  Milites in expeditione degentes, si uxores aut
+            filios aut amicos aut commilitones suos, postremo cuiuslibet generis
+            homines amplecti voluerint supremae voluntatis adfectu, quomodo possint
+            ac velint testentur, nec uxorum aut filiorum eorum, cum voluntatem
+            patris reportaverunt, meritum aut libertas dignitasque quaeratur.
+            </p>
+               <p xml:id="azsw2e-d1e3661-d1e278" n="1">
+            Proinde sicut iuris rationibus licuit ac semper licebit,
+            si quid in vagina aut in clipeo litteris sanguine suo rutilantibus
+            adnotaverint, aut in pulvere inscripserint gladio sub ipso tempore,
+            quo in proelio vitae sortem derelinquunt, huiusmodi voluntatem stabilem
+            esse oportet. * CONSTANT. A. AD POP. *&lt;A 334 D.III ID.AUG.NICOMEDIAE
+            OPTATO ET APULINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e283">
+               <head xml:id="azsw2e-d1e3661-Hd1e285">16</head>
+               <p xml:id="azsw2e-d1e3661-d1e287">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e289">Imperator
+            Anastasius</ref> Scriniarios vel apparitores, qui virorum magnificorum
+            magistrorum militum iussionibus vel actibus obtemperant, etsi nomina
+            eorum matriculis militaribus referri videantur, nullatenus in ultimis
+            a se conficiendis voluntatibus iuris militaris habere facultatem decernimus.
+            * ANASTAS. A. HIERIO PP. *&lt;A 496 D.ID.FEBR.CONSTANTINOPOLI PAULO
+            VC. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e293">
+               <head xml:id="azsw2e-d1e3661-Hd1e295">17</head>
+               <p xml:id="azsw2e-d1e3661-d1e297">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e299">Imperator
+            Justinianus</ref> Ne quidam putarent in omni tempore licere militibus
+            testamenta quomodo voluerint componere, sancimus his solis, qui in
+            expeditionibus occupati sunt, memoratum indulgeri circa ultimas voluntates
+            conficiendas beneficium. * IUST. A. MENAE PP. *&lt;A 529 D.IIII ID.APRIL.CONSTANTINOPOLI
+            DECIO VC. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3661-Dd1e303">
+               <head xml:id="azsw2e-d1e3661-Hd1e305">18</head>
+               <p xml:id="azsw2e-d1e3661-d1e307">
+                  <ref xml:id="azsw2e-d1e3661-Rd1e309">Imperator
+            Justinianus</ref> Licet antiquis legibus permittebatur pupillis, si
+            tribunatum numeri mereantur, ultimum elogium conficere posse, attamen
+            indignum nostris temporibus esse videtur eum, qui stabilem mentem
+            nondum adeptus est, propter privilegia militum sapientium hominum
+            iura pertractare et in tenera aetate ex tali licentia parentibus forte
+            suis vel aliis propinquis nocere propriam substantiam extraneis relinquentem.
+            Ideoque hoc fieri nullo modo concedimus * IUST. A. IOHANNI PP. *&lt;A
+            532 D. XII K.NOV. CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTIS
+            VV.CC.ANNO II &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

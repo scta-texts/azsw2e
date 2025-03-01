@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 11</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 11</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5080"><!-- azsw2e-l8t11 -->
+            <head xml:id="azsw2e-d1e5080-Hd1e101">Titulus 11</head>
+            <head xml:id="azsw2e-d1e5080-Hd1e103" type="question-title">De operibus publicis</head>
+            <div xml:id="azsw2e-d1e5080-Dd1e106">
+               <head xml:id="azsw2e-d1e5080-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5080-d1e110">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e112">Imperatores
+            Constantinus, Constans</ref> Plurimi immunitates operum publicorum
+            concessione iudicum adepti sunt: et ideo iubemus in posterum illicitas
+            immunitates nullius esse momenti. * CONSTANT. ET CONSTANS AA. AD CATULLINUM.
+            *&lt;A 338 D. VI K. AUG. SIRMI URSO ET POLEMIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e116">
+               <head xml:id="azsw2e-d1e5080-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5080-d1e120">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e122">Imperatores
+            Constantinus, Constans</ref> Quae operibus publicis impensa constiterit,
+            accepto ferri oportere cognoscas. * CONST. ET CONSTANS AA. AD MARCELLINUM
+            COM. ORIENTIS. *&lt;A 349 D. V NON. OCT. CONSTANTINOPOLI LIMENIO ET
+            CATULLINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e126">
+               <head xml:id="azsw2e-d1e5080-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5080-d1e130"><!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e135">
+               <head xml:id="azsw2e-d1e5080-Hd1e137">4</head>
+               <p xml:id="azsw2e-d1e5080-d1e139">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e141">Imperator
+            Julianus</ref> Praetoria iudicum et domos publicas oportet publico
+            iuri atque usui semper vindicari. * IUL. A. EDICTO PRAEF. AEGYPTI.
+            *&lt;A 362 PP. IIII NON. DEC. ANTIOCHIAE MAMERTINO ET NEVITTA CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e145">
+               <head xml:id="azsw2e-d1e5080-Hd1e147">5</head>
+               <p xml:id="azsw2e-d1e5080-d1e149">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e151">Imperatores
+            Valentinianus, Valens</ref>  Intra urbem Romam veterem et novam nullus
+            iudicum novum opus informet, quotiens serenitatis nostrae arbitria
+            cessabunt, nisi ex suis pecuniis huiusmodi opus construere voluerit.
+            </p>
+               <p xml:id="azsw2e-d1e5080-d1e154" n="1">
+            Ea tamen instaurandi, quae iam deformibus ruinis intercidisse
+            dicuntur, universis licentiam damus. * VALENTIN. ET VALENS AA. AD
+            SYMMACHUM PU. *&lt;A 364 D. VIII K. IUN. PHILIPPIS DIVO IOVIANO ET
+            VARRONIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e158">
+               <head xml:id="azsw2e-d1e5080-Hd1e160">6</head>
+               <p xml:id="azsw2e-d1e5080-d1e162">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e164">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Praescriptio temporis iuri
+            publico non debet obsistere, sed nec rescripta quidem. Atque ideo
+            diruenda sunt omnia, quae per diversas urbes vel in foro vel in quocumque
+            publico loco contra ornatum et commodum ac decoram faciem civitatis
+            extructa noscuntur * GRAT. VALENTIN. ET THEODOS. AAA. AD PROCULUM.
+            *&lt;A 383 D. III ID. IUN. CONSTANTINOPOLI MEROBAUDE II ET SATURNINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e168">
+               <head xml:id="azsw2e-d1e5080-Hd1e170">7</head>
+               <p xml:id="azsw2e-d1e5080-d1e172">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e174">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Ad portus et aquae ductus
+            et murorum instaurationem sive extructionem omnes certatim facta operarum
+            collatione instare debent neque aliquis ab huiusmodi consortio dignitatis
+            privilegiis excusari. * GRAT. VALENTIN. ET THEODOS. AAA. CYNEGIO PP.
+            *&lt;A 384 D. XV K. FEBR. CONSTANTINOPOLI RICOMERE ET CLEARCHO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e178">
+               <head xml:id="azsw2e-d1e5080-Hd1e180">8</head>
+               <p xml:id="azsw2e-d1e5080-d1e182">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e184">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Omnes, quibus vel cura
+            mandata fuerit operum publicorum vel pecunia ad extructionem solito
+            more credita, usque ad annos quindecim ab opere perfecto cum suis
+            heredibus teneantur obnoxii, ita ut, si quid vitii in aedificatione
+            intra praestitutum tempus provenerit, de eorum patrimonio ( exceptis
+            tamen his casibus, qui sunt fortuiti) reformetur. * GRAT. VALENTIN.
+            ET THEODOS. AAA. ET ARCAD. A. CYNEGIO PP. *&lt;A 385 D. III NON. FEBR.
+            CONSTANTINOPOLI ARCADIO A. ET BAUTONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e188">
+               <head xml:id="azsw2e-d1e5080-Hd1e190">9</head>
+               <p xml:id="azsw2e-d1e5080-d1e192">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e194">Imperatores
+            Theodosius, Arcadius, Honorius</ref>  Si quando concessa a nobis licentia
+            fuerit extruendi, id sublimis magnificentia tua sciat esse servandum,
+            ut nulla domus inchoandae publicae fabricae gratia diruatur, nisi
+            usque ad quinquaginta libras argenti pretii aestimatione taxabitur.
+            </p>
+               <p xml:id="azsw2e-d1e5080-d1e197" n="1">
+            De aedificiis vero maioris pretii ad nostram scientiam referatur,
+            ut, ubi amplior poscitur quantitas, imperialis extet auctoritas. *
+            THEODOS. ARCAD. ET HONOR. AAA. AURELIANO PU. *&lt;A 393 D. III K.
+            MART. CONSTANTINOPOLI THEODOSIO A. III ET ABUNDANTIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e202">
+               <head xml:id="azsw2e-d1e5080-Hd1e204">10</head>
+               <p xml:id="azsw2e-d1e5080-d1e206">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e208">Imperatores
+            Theodosius, Arcadius, Honorius</ref> Si qui iudices perfecto publicis
+            pecuniis operi suum nomen sine nostri numinis mentione scripserint,
+            maiestatis teneantur obnoxii. * THEODOS. ARCAD. ET HONOR. AAA. RUFINO
+            PP. *&lt;A 394 D. III NON. IUL. CONSTANTINOPOLI ARCADIO III ET HONORIO
+            II AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e212">
+               <head xml:id="azsw2e-d1e5080-Hd1e214">11</head>
+               <p xml:id="azsw2e-d1e5080-d1e216">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e218">Imperatores
+            Arcadius, Honorius</ref> Ne splendidissimae urbes vel oppida vetustate
+            labantur, de reditibus fundorum iuris rei publicae tertiam partem
+            reparationi publicorum moenium et thermarum subustioni deputamus.
+            * ARCAD. ET HONOR. AA. EUSEBIO COM. SACRUM LARG. *&lt;A 395 D. XI
+            K. IUL. MEDIOLANI OLYBRIO ET PROBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e222">
+               <head xml:id="azsw2e-d1e5080-Hd1e224">12</head>
+               <p xml:id="azsw2e-d1e5080-d1e226">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e228">Imperatores
+            Arcadius, Honorius</ref> Omnes provinciarum rectores litteris moneantur,
+            ut sciant ordines atque incolas urbium singularum muros vel novos
+            debere facere vel veteres firmius renovare: scilicet hoc pacto impendiis
+            ordinandis, ut adscriptio currat pro viribus singulorum, deinde adscribantur
+            pro aestimatione futuri operis territoria civium, ne plus poscatur
+            aliquid, quam necessitas imperaverit, neve minus, ne instans impediatur
+            effectus: oportet namque per singula non sterilia iuga certa quaeque
+            distribui, ut par cunctis praebendorum sumptuum necessitas imponatur:
+            nemini excusatione vel alia praesumptione ab huiusmodi immunitate
+            praebenda. * ARCAD. ET HONOR. AA. CAESARIO PP. *&lt;A 396 D. VIIII
+            K. APRIL. ARCADIO IIII ET HONORIO III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e232">
+               <head xml:id="azsw2e-d1e5080-Hd1e234">13</head>
+               <p xml:id="azsw2e-d1e5080-d1e236">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e238">Imperatores
+            Arcadius, Honorius</ref>  Nemo iudicum in id temeritatis erumpat, ut
+            inconsulta pietate nostra novi aliquid operis existimet inchoandum,
+            vel ex diversis operibus ornamenta aut marmora vel quamlibet speciem,
+            quae fuisse in usu vel ornatu probabitur civitatis, eripere vel alio
+            transferre sine iussu tuae sublimitatis audeat. Etenim si quis contra
+            fecerit, sex libris auri multabitur. </p>
+               <p xml:id="azsw2e-d1e5080-d1e241" n="1">
+            Similis etiam condemnatio ordines civitatum manebit, nisi
+            ornamentum genitalis patriae decreti huius auctoritate defenderint.
+            </p>
+               <p xml:id="azsw2e-d1e5080-d1e244" n="2">
+            Horreorum autem vel stabulorum fabricas arbitratu proprio
+            provinciarum iudices studio laudandae devotionis adripiant. * ARCAD.
+            ET HONOR. AA. THEODORO PP. *&lt;A 398 D. K. IAN. MEDIOLANI HONORIO
+            A. IIII ET EUTYCHIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e248">
+               <head xml:id="azsw2e-d1e5080-Hd1e250">14</head>
+               <p xml:id="azsw2e-d1e5080-d1e252">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e254">Imperatores
+            Arcadius, Honorius</ref> Aedificia, quae vulgo parapessia nuncupantur,
+            vel si qua alia opera moenibus vel publicis operibus sociata cohaerent,
+            ut ex his incendium vel insidias vicinitas reformidet aut angustentur
+            spatia platearum vel minuatur porticibus latitudo, dirui ac prosterni
+            praecipimus. * ARCAD. ET HONOR. AA. SEVERO PU. *&lt;A 398 D. V ID.
+            OCT. CONSTANTINOPOLI HONORIO A. IIII ET EUTYCHIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e258">
+               <head xml:id="azsw2e-d1e5080-Hd1e260">15</head>
+               <p xml:id="azsw2e-d1e5080-d1e262">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e264">Imperatores
+            Arcadius, Honorius</ref> Si aliquando homines emergant, qui a nostra
+            clementia opus publicum sibi praeberi postulaverint, non nisi diruta
+            penitusque destructa et quae parum sunt in usu civitatium percipiant:
+            intimandis huiusmodi rescriptis iudicio amplissimae tuae sedis. *
+            ARCAD. ET HONOR. AA. EUTYCHIANO PP. *&lt;A 398 D. ID. DEC. HONORIO
+            A. IIII ET EUTYCHIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e269">
+               <head xml:id="azsw2e-d1e5080-Hd1e271">16</head>
+               <p xml:id="azsw2e-d1e5080-d1e273">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e275">Imperatores
+            Arcadius, Honorius</ref> Si quando usus exegerit vel porticus vel
+            quaslibet aedes aetatis senio seu fortuitis concussas casibus reparari,
+            liceat etiam inconsulta clementia nostra cum reverentia sui imaginem
+            deponere vel nostram vel retro principum, reportatamque post refecta
+            aedificia loco proprio denuo collocare. * ARCAD. ET HONOR. AA. ET
+            TEODOS. A. AEMILIANO PU. *&lt;A 406 D. V K. IUL. CONSTANTINOPOLI ARCADIO
+            A. VI ET PROBO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e279">
+               <head xml:id="azsw2e-d1e5080-Hd1e281">17</head>
+               <p xml:id="azsw2e-d1e5080-d1e283">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e285">Imperatores
+            Honorius, Theodosius</ref> Quicumque locus in palatio huius urbis
+            privatis aedificiis incommode occupatus est, is quam primum subrutis
+            omnibus quae in eo sunt aedificiis palatio reformetur, quod privatorum
+            non est parietibus coartandum ( nam imperio magna ab universis secreta
+            debentur), ut hi tantum locum habeant habitandi, quos legitimus maiestatis
+            nostrae usus et rei publicae disciplina delegit: in futurum etiam
+            universis ab huiusmodi usurpatione prohibendis. * HONOR. ET THEODOS.
+            AA. MONAXIO PU. *&lt;A 409 D. VIIII K. MART. CONSTANTINOPOLI HONORIO
+            VIII ET THEODOSIO III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e289">
+               <head xml:id="azsw2e-d1e5080-Hd1e291">18</head>
+               <p xml:id="azsw2e-d1e5080-d1e293">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e295">Imperatores
+            Honorius, Theodosius</ref>  Turres novi muri, qui ad munitionem splendidissimae
+            urbis extructus est, completo opere praecipimus eorum usui deputari,
+            per quorum terras idem murus studio ac provisione tuae magnitudinis
+            ex nostrae serenitatis arbitrio celebratur. </p>
+               <p xml:id="azsw2e-d1e5080-d1e298" n="1">
+            Eadem lege in perpetuum et condicione servanda, ut annis
+            singulis hi vel ad quorum iura terrulae demigraverint, proprio sumptu
+            eorum instaurationem sibimet intellegant procurandam, eorumque usu
+            publico beneficio potientes curam reparationis ac sollicitudinem ad
+            se non ambigant pertinere. </p>
+               <p xml:id="azsw2e-d1e5080-d1e301" n="2">
+            Ita enim et splendor operis et civitatis munitio cum privatorum
+            usu et utilitate servabitur. * HONOR. ET THEODOS. AA. ANTHEMIO PP.
+            *&lt;A 413 D. PRID. NON. APRIL. LUCIO VC. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e305">
+               <head xml:id="azsw2e-d1e5080-Hd1e307">19</head>
+               <p xml:id="azsw2e-d1e5080-d1e309">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e311">Imperator
+            Theodosius</ref> Quia plurimae domus cum officinis suis in porticibus
+            zeuxippi esse memorantur, reditus memoratorum locorum pro quantitate,
+            quae placuit, ad praebenda luminaria et aedificia ac tecta reparanda
+            regiae huius urbis lavacro sine aliqua iubemus excusatione conferri.
+            * THEODOS. A. SEVERINO PU. *&lt;A 424 D. V ID. IAN. VICTORE VC. CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e315">
+               <head xml:id="azsw2e-d1e5080-Hd1e317">20</head>
+               <p xml:id="azsw2e-d1e5080-d1e319">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e321">Imperatores
+            Theodosius, Valentinianus</ref> Qui sine auctoritate divini rescripti
+            ad iudicium tuae celsitudinis destinandi angiportus integros vel partes
+            suis domibus incluserint seu porticus usurparint, procul dubio iura
+            pristina sacratissimae reddere civitati iubemus: multa auri quinquaginta
+            librarum non defutura, si quis posthac in similem audaciam prodire
+            temptaverit. * THEODOS. ET VALENTIN. AA. CYRO PU. *&lt;A 439 D. K.
+            NOV. THEODOSIO A. XVII ET FESTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e325">
+               <head xml:id="azsw2e-d1e5080-Hd1e327">21</head>
+               <p xml:id="azsw2e-d1e5080-d1e329">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e331">Imperatores
+            Theodosius, Valentinianus</ref>  Basilicam inauratam et marmoribus
+            decoratam liberam in perpetuum manere neque alicuius imaginis pictarum
+            cuiuslibet honoris tabularum adumbratione fuscari iubemus, neque in
+            aliqua parte eiusdem basilicae tabulato quicquam opere stationes ergasteriave
+            constitui sancimus. </p>
+               <p xml:id="azsw2e-d1e5080-d1e334" n="1">
+            Illud quoque decernimus, ne in eam equos liceat intromitti
+            vel nuptias celebrari. * THEODOS. ET VALENTIN. AA. CYRO PU. *&lt;A
+            440 D. XI K. FEBR. CONSTANTINOPOLI VALENTINIANO A. V ET ANATOLIO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e339">
+               <head xml:id="azsw2e-d1e5080-Hd1e341">22</head>
+               <p xml:id="azsw2e-d1e5080-d1e343">
+                  <ref xml:id="azsw2e-d1e5080-Rd1e345">Imperator
+            Leo</ref> Nemini iudicum liceat in hac inclita urbe vel in provinciis
+            nova opera inchoare, priusquam ea, quae coepta invenerit a decessore
+            vel praedecessoribus suis, vetustate diruta aut desidia derelicta
+            diligenti studio instantiaque compleverit, cum ex hoc plurimum laudis
+            adquirat, si ea culta et perfecta reddiderit, quae vetusta sunt et
+            instaurationem requirunt quaeque ab aliis initiata et imperfecta resederant.
+            * LEO A. ERYTHRIO PP. *&lt;A 472 D. II K. MART. CONSTANTINOPOLI MARCIANO
+            CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5080-Dd1e349">
+               <head xml:id="azsw2e-d1e5080-Hd1e351">23</head>
+               <p xml:id="azsw2e-d1e5080-d1e353">&lt;..............&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 45</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 45</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8431"><!-- azsw2e-l12t45 -->
+            <head xml:id="azsw2e-d1e8431-Hd1e101">Titulus 45</head>
+            <head xml:id="azsw2e-d1e8431-Hd1e103" type="question-title">De desertoribus et occultatoribus eorum</head>
+            <div xml:id="azsw2e-d1e8431-Dd1e106">
+               <head xml:id="azsw2e-d1e8431-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8431-d1e110">
+                  <ref xml:id="azsw2e-d1e8431-Rd1e112">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Si quis forte desertorem
+            agro tectoque susceperit atque apud se diu passus fuerit delitescere,
+            actor quidem vel procurator loci, qui hoc sciens prudensque commiserit,
+            capitali supplicio subiugetur, dominus vero, si huius rei conscius
+            fuerit, praedii, in quo latuerit desertor, amissione puniatur. </p>
+               <p xml:id="azsw2e-d1e8431-d1e115" n="1">
+            Si quis autem desertorem prodiderit mediocris loci ingenuus,
+            immunitate potiatur. </p>
+               <p xml:id="azsw2e-d1e8431-d1e118" n="2">
+            Neque solum de his loquimur, qui proxime signis felicibus
+            applicati militiae rudimenta timuerunt, verum etiam qui stipendiis
+            militaribus degenerem latebram praebuisse monstrantur. </p>
+               <p xml:id="azsw2e-d1e8431-d1e121" n="3">
+            Desertor autem habebitur quisquis belli tempore aberit a
+            signis. Horum qui sponte processerit, peccati anterioris supplicium
+            non timebit. Sin vero flagitiosa ignavia delitescat, per eum, in cuius
+            domo fuerit, invigilantibus extrinsecus quoque officiis publicis,
+            ubicumque correptus severitati iudicis offeratur, degeneri morte gladium
+            subiturunt. </p>
+               <p xml:id="azsw2e-d1e8431-d1e125" n="4">
+            Si autem rector provinciae propositam severitatem vel gratia
+            vel dissimulatione distulerit, patrimonii atque existimationis damno
+            subiciatur et in officii primores capitaliter vindicetur. * GRAT.
+            VALENTIN. ET THEODOS. AAA. AD SYAGRIUM PP. *&lt;A 380 PP.ID.IUL.ROMAE
+            GRATIANO V ET THEODOSIO AA. CCNSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8431-Dd1e129">
+               <head xml:id="azsw2e-d1e8431-Hd1e131">2</head>
+               <p xml:id="azsw2e-d1e8431-d1e133">
+                  <ref xml:id="azsw2e-d1e8431-Rd1e135">Imperatores
+            Arcadius, Honorius, Theodosius</ref> Si desertores inventi resistendum
+            atque armis obtinendum putaverint, tamquam rebelles in ipsis temeritatis
+            suae conatibus opprimantur: ita tamen, ut provinciarum iudices sollicita
+            cautione disquirant, ne sub falsarum tractoriarum nomine desertionis
+            suae crimen defendere moliantur, nec suppositis aut commentis epistulis
+            evadendi habeant facultatem. * ARCAD. HONOR. ET THEODOS. AAA. HADRIANO
+            PP. *&lt;A 403 D.VI K.MART.RAVENNAE THEODOSIO A.ET RUMORIDO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8431-Dd1e139">
+               <head xml:id="azsw2e-d1e8431-Hd1e141">3</head>
+               <p xml:id="azsw2e-d1e8431-d1e143">
+                  <ref xml:id="azsw2e-d1e8431-Rd1e145">Imperatores
+            Arcadius, Honorius, Theodosius</ref> Qui relictis militaribus castris
+            se ad depraedationes vel latrocinium contulerint, severitatem iudicis
+            non evadant. * ARCAD. HONOR. ET THEODOS. AAA. LONGIANO PP. *&lt;A
+            406 D. VIIII K. APRIL. RAVENNAE ARCADIO A. VI ET PROBO VC. CONSS.&gt;
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

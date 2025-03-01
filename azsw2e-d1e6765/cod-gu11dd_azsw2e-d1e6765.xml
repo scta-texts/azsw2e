@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 53</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 53</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6765"><!-- azsw2e-l10t53 -->
+            <head xml:id="azsw2e-d1e6765-Hd1e101">Titulus 53</head>
+            <head xml:id="azsw2e-d1e6765-Hd1e103" type="question-title">De professoribus et medicis</head>
+            <div xml:id="azsw2e-d1e6765-Dd1e106">
+               <head xml:id="azsw2e-d1e6765-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6765-d1e110">
+                  <ref xml:id="azsw2e-d1e6765-Rd1e112">Imperator
+            Antoninus</ref> Cum te medicum legionis secundae adiutricis esse dicas,
+            munera civilia, quamdiu rei publicae causa afueris, suscipere non
+            cogeris: cum autem abesse desieris, post finitam eo iure vacationem,
+            si in eorum numero eris, qui ad beneficia medicis concessa pertinent,
+            ea immunitate uteris. * ANT. A. NUMISIO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6765-Dd1e116">
+               <head xml:id="azsw2e-d1e6765-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6765-d1e120">
+                  <ref xml:id="azsw2e-d1e6765-Rd1e122">Imperator
+            Gordianus</ref> Grammaticos seu oratores decreto ordinis probatos,
+            si non se utiles studentibus praebeant, denuo ab eodem ordine reprobari
+            posse incognitum non est. * GORD. A. HERACLIANO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6765-Dd1e126">
+               <head xml:id="azsw2e-d1e6765-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e6765-d1e130">
+                  <ref xml:id="azsw2e-d1e6765-Rd1e132">Imperator
+            Philippus</ref> Poetae nulla immunitatis praerogativa iuvantur. *
+            PHILIPP. A. ET PHILIPP. C. ULPIANO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6765-Dd1e137">
+               <head xml:id="azsw2e-d1e6765-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e6765-d1e141">
+                  <ref xml:id="azsw2e-d1e6765-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Oratione divi pii liberalium studiorum
+            professores, non etiam calculatores continentur. * DIOCL. ET MAXIM.
+            AA. MALCHO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6765-Dd1e147">
+               <head xml:id="azsw2e-d1e6765-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e6765-d1e151">
+                  <ref xml:id="azsw2e-d1e6765-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Nec intra numerum praestitutum ordine
+            invito medicos immunitatem habere saepe constitutum est, cum oportet
+            eis decreto decurionum immunitatem tribui. * DIOCL. ET MAXIM. AA.
+            ET CC. CONCEDEMONI. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6765-Dd1e157">
+               <head xml:id="azsw2e-d1e6765-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e6765-d1e161">
+                  <ref xml:id="azsw2e-d1e6765-Rd1e163">Imperator
+            Constantinus</ref>  Medicos et maxime archiatros vel ex archiatris,
+            grammaticos et professores alios litterarum una cum uxoribus et filiis
+            nec non etiam rebus, quas in civitatibus suis possident, ab omni functione
+            et ab omnibus muneribus civilibus vel publicis immunes esse praecipimus
+            neque in provinciis hospites recipere nec ullo fungi munere nec ad
+            iudicium deduci vel exhiberi vel iniuriam pati, ut, si quis eos vexaverit,
+            poena arbitrario iudicis plectetur. </p>
+               <p xml:id="azsw2e-d1e6765-d1e166" n="1">
+            Mercedes etiam eorum et salaria reddi iubemus, quo facilius
+            liberalibus studiis et memoratis artibus multos instituant. * CONST.
+            A. AD POP. *&lt;A 333 PP. V K. OCT. CONSTANTINOPOLI DALMATIO ET ZENOPHILO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6765-Dd1e170">
+               <head xml:id="azsw2e-d1e6765-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e6765-d1e174">
+                  <ref xml:id="azsw2e-d1e6765-Rd1e176">Imperator
+            Julianus</ref>  Magistros studiorum doctoresque excellere oportet moribus
+            primum, deinde facundia. </p>
+               <p xml:id="azsw2e-d1e6765-d1e179" n="1">
+            Sed quia singulis civitatibus adesse ipse non possum, iubeo,
+            quisquis docere vult, non repente nec temere prosiliat ad hoc munus,
+            sed iudicio ordinis probatus decretum curialium mereatur, optimorum
+            conspirante consensu.* IUL. A. *&lt;A 362 D. XV K. IUL. ACC. IIII
+            K. AUG. SPOLETIO MAMERTINO ET NEVITTA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6765-Dd1e183">
+               <head xml:id="azsw2e-d1e6765-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e6765-d1e187">
+                  <ref xml:id="azsw2e-d1e6765-Rd1e189">Imperatores
+            Valentinianus, Valens, Gratianus</ref> Reddatur unusquisque patriae
+            suae, qui habitum philosophiae indebite et insolenter usurpare cognoscitur,
+            exceptis his, qui a probatissimis approbati ab hac debent colluvione
+            secerni. Turpe enim est, ut patriae functiones ferre non possit, qui
+            etiam fortunae vim se ferre profitetur * VALENTIN. VALENS ET GRAT.
+            AAA. AD PROBUM PP. *&lt;A 369 D. XIIII K. FEBR. SIRMIO VALENTINIANO
+            NP. ET VICTORE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6765-Dd1e193">
+               <head xml:id="azsw2e-d1e6765-Hd1e195">9</head>
+               <p xml:id="azsw2e-d1e6765-d1e197">
+                  <ref xml:id="azsw2e-d1e6765-Rd1e199">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Archiatri scientes annonaria
+            sibi commoda a populi commodis ministrari honeste obsequi tenuioribus
+            malint quam turpiter servire divitibus. </p>
+               <p xml:id="azsw2e-d1e6765-d1e202" n="1">
+            Quos etiam ea patimur accipere, quae sani offerunt pro obsequiis,
+            non ea, quae periclitantes pro salute promittunt. * VALENTIN. VALENS
+            ET GRAT. AAA. AD PRAETEXTATUM PU. *&lt;A 370 D. III K. FEBR. TRIVERIS
+            VALENTINIANO ET VALENTE III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6765-Dd1e207">
+               <head xml:id="azsw2e-d1e6765-Hd1e209">10</head>
+               <p xml:id="azsw2e-d1e6765-d1e211">
+                  <ref xml:id="azsw2e-d1e6765-Rd1e213">Imperatores
+            Valentinianus, Valens, Gratianus</ref> Si quis in archiatri defuncti
+            est locum promotionis meritis adgregandus, non ante eorum particeps
+            fiat, quam primis qui in ordine reperientur septem vel eo amplius
+            iudicantibus idoneus approbetur: ita tamen ut, quicumque fuerit admissus,
+            non in priorem numerum statim veniat, sed eum ordinem consequatur,
+            qui ceteris ad priora subvectis ultimus poterit inveniri. * VALENTIN.
+            VALENS ET GRAT. AAA. AD OLYBRIUM PU. *&lt;A 370 D. VI ID. MART. VALENTINIANO
+            ET VALENTE III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6765-Dd1e217">
+               <head xml:id="azsw2e-d1e6765-Hd1e219">11</head>
+               <p xml:id="azsw2e-d1e6765-d1e221">
+                  <ref xml:id="azsw2e-d1e6765-Rd1e223">Imperatores
+            Honorius, Theodosius</ref>  Grammaticos oratores atque philosophiae
+            praeceptores nec non etiam medicos praeter haec, quae retro latarum
+            sanctionum auctoritate consecuti sunt privilegia immunitatesque, frui
+            hac praerogativa praecipimus, ut universi, qui in sacro palatio inter
+            archiatros militarunt, cum comitivam primi ordinis vel secundi adepti
+            fuerint aut maioris gradum dignitatis adscenderint, nulla municipali,
+            nulla curialium conventione vexentur, seu indepta administratione
+            seu accepta testimoniali meruerint missionem: sint ab omni functione
+            omnibusque muneribus publicis immunes, nec eorum domus ubicumque positae
+            militem seu iudicem suscipiant hospitandum. </p>
+               <p xml:id="azsw2e-d1e6765-d1e226" n="1">
+            Quae omnia filiis etiam eorum et coniugibus illibata praecipimus
+            custodiri. </p>
+               <p xml:id="azsw2e-d1e6765-d1e229" n="2">
+            Haec autem et professoribus memoratis eorumque liberis deferenda
+            mandamus. * HONOR. ET THEODOS. AA. MONAXIO PP. *&lt;A 414 D. PRID.
+            K. DEC. CONSTANTINOPOLI CONSTANTIO ET CONSTANTE CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

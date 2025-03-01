@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 38 Communia utriusque iudicii tam familiae erciscundae quam communi dividundo.</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 38 Communia utriusque iudicii tam familiae erciscundae quam communi dividundo.</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1767"><!-- azsw2e-l3t38 -->
+            <head xml:id="azsw2e-d1e1767-Hd1e101">Titulus 38</head>
+            <head xml:id="azsw2e-d1e1767-Hd1e103">Communia utriusque iudicii tam familiae erciscundae quam communi dividundo.</head>
+            <div xml:id="azsw2e-d1e1767-Dd1e105">
+               <head xml:id="azsw2e-d1e1767-Hd1e107">1</head>
+               <p xml:id="azsw2e-d1e1767-d1e109">
+                  <ref xml:id="azsw2e-d1e1767-Rd1e111">Imperator
+            Antoninus</ref> Divisionem praediorum vicem emptionis obtinere placuit.
+            * ANT. A. MARCO. *&lt;A 211 PP. VI K. DEC. GENTIANO ET BASSO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1767-Dd1e115">
+               <head xml:id="azsw2e-d1e1767-Hd1e117">2</head>
+               <p xml:id="azsw2e-d1e1767-d1e119">
+                  <ref xml:id="azsw2e-d1e1767-Rd1e121">Imperator
+            Alexander Severus</ref> Etiamsi is divisioni arbitrum dedit, cui ius
+            dandi non fuit, tamen si socii quondam divisioni consensum dederint,
+            quod quisque eorum secundum placita possedit, pro parte socii dominium
+            nactus est. * ALEX. A. EUPHRATAE. *&lt;A 229 PP. XVI K. DEC. ALEXANDRO
+            A. III ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1767-Dd1e125">
+               <head xml:id="azsw2e-d1e1767-Hd1e127">3</head>
+               <p xml:id="azsw2e-d1e1767-d1e129">
+                  <ref xml:id="azsw2e-d1e1767-Rd1e131">Imperatores
+            Diocletianus, Maximianus</ref> Maioribus etiam, per fraudem vel dolum
+            vel perperam sine iudicio factis divisionibus, solet subveniri, quia
+            in bonae fidei iudiciis et quod inaequaliter factum esse constiterit,
+            in melius reformabitur. * DIOCL. ET MAXIM. AA. AURELIAE SEVERAE. *&lt;A
+            290 PP. XVII K. IUL. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1767-Dd1e136">
+               <head xml:id="azsw2e-d1e1767-Hd1e138">4</head>
+               <p xml:id="azsw2e-d1e1767-d1e140">
+                  <ref xml:id="azsw2e-d1e1767-Rd1e142">Imperatores
+            Diocletianus, Maximianus</ref> Si patruus tuus ex communibus bonis
+            res comparavit sibi negotium gerens, non omnium bonorum socius constitutus,
+            pro competentium portionum modo indemnitati tuae consuli oportet:
+            et ideo rem emptam eum communicare contra formam iuris postulas. *
+            DIOCL. ET MAXIM. AA. AD MAXIMUM. *&lt;A 290 PP. XVI K. NOV. IPSIS
+            IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1767-Dd1e146">
+               <head xml:id="azsw2e-d1e1767-Hd1e148">5</head>
+               <p xml:id="azsw2e-d1e1767-d1e150">
+                  <ref xml:id="azsw2e-d1e1767-Rd1e152">Imperatores
+            Diocletianus, Maximianus</ref> De instrumentis, quae communia fratrem
+            vestrum tenere proponitis, rector aditus provinciae, apud quem haec
+            collocari debeant, aestimabit. * DIOCL. ET MAXIM. AA. ET CC. FRONTONI
+            ET GLAFIRIONI. *&lt;A 293 PP. VI ID. FEBR. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1767-Dd1e156">
+               <head xml:id="azsw2e-d1e1767-Hd1e158">6</head>
+               <p xml:id="azsw2e-d1e1767-d1e160">
+                  <ref xml:id="azsw2e-d1e1767-Rd1e162">Imperatores
+            Diocletianus, Maximianus</ref> Si cum patruo vestro hac condicione
+            divisionem fecistis, ut se nullum dolum malum adhibuisse iuraret,
+            nec fidem placitis exhibuit, quominus res indivisas requiratis, eorum
+            placitum quae in divisionem venerunt nihil vobis nocere potest. *
+            DIOCL. ET MAXIM. AA. ET CC. THESIDIANAE. *&lt;A 294 D. V K. APRIL.
+            SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1767-Dd1e166">
+               <head xml:id="azsw2e-d1e1767-Hd1e168">7</head>
+               <p xml:id="azsw2e-d1e1767-d1e170">
+                  <ref xml:id="azsw2e-d1e1767-Rd1e172">Imperatores
+            Diocletianus, Maximianus</ref> Si fratres vestri pro indiviso commune
+            praedium citra vestram voluntatem obligaverunt et hoc ad vos secundum
+            pactum divisionis nulla pignoris facta mentione pervenit, evictis
+            partibus, quae ante divisionem sociorum fuerunt, in quibus obligatio
+            tantum constitit, ex stipulatu, si intercessit, alioquin quanti interest
+            praescriptis verbis contra fratres agere potestis. Nam si fundi scientes
+            obligationem dominium suscepistis, tantum evictionis promissionem
+            sollemnitate verborum vel pacto promissam probantes eos conveniendi
+            facultatem habetis * DIOCL. ET MAXIM. AA. ET CC. SEVERIANO ET FLAVIANO.
+            *&lt;A 294 D. II NON. DEC. NICOMEDIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1767-Dd1e176">
+               <head xml:id="azsw2e-d1e1767-Hd1e178">8</head>
+               <p xml:id="azsw2e-d1e1767-d1e180">
+                  <ref xml:id="azsw2e-d1e1767-Rd1e182">Imperatores
+            Diocletianus, Maximianus</ref> Si inter vos maiores annis viginti
+            quinque rerum communium divisio relicta vel translata possessione
+            finem accepit, instaurari mutuo bona fide terminata consensu minime
+            possunt. * DIOCL. ET MAXIM. AA. ET CC. NICOMACHO. *&lt;A 294 D. NON.
+            DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1767-Dd1e186">
+               <head xml:id="azsw2e-d1e1767-Hd1e188">9</head>
+               <p xml:id="azsw2e-d1e1767-d1e190">
+                  <ref xml:id="azsw2e-d1e1767-Rd1e192">Imperatores
+            Diocletianus, Maximianus</ref> Familiae erciscundae vel communi dividundo
+            iudicium ita demum, si corpora maneant communia, agi potest. * DIOCL.
+            ET MAXIM. AA. ET CC. DEMETRIANO. *&lt;A 294 D. VI ID. DEC. NICOMEDIAE
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1767-Dd1e197">
+               <head xml:id="azsw2e-d1e1767-Hd1e199">10</head>
+               <p xml:id="azsw2e-d1e1767-d1e201">
+                  <ref xml:id="azsw2e-d1e1767-Rd1e203">Imperatores
+            Diocletianus, Maximianus</ref> Scriptura testamenti, qua specialiter
+            omnia divisa continentur, quominus res quarum testator non fecit mentionem
+            heredes inquirere nihil impedit. * DIOCL. ET MAXIM. AA. ET CC. GALLICANO.
+            *&lt; SINE DIE ET CONSULE.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1767-Dd1e207">
+               <head xml:id="azsw2e-d1e1767-Hd1e209">11</head>
+               <p xml:id="azsw2e-d1e1767-d1e211">
+                  <ref xml:id="azsw2e-d1e1767-Rd1e213">Imperator
+            Constantinus</ref> Possessionum divisiones sic fieri oportet, ut integra
+            apud successorem unumquemque servorum vel colonorum adscripticiae
+            condicionis seu inquilinorum proxima agnatio vel adfinitas permaneret.
+            Quis enim ferat liberos a parentibus, a fratribus sorores, a viris
+            coniuges segregari? igitur si qui dissociata in ius diversum mancipia
+            vel colonos traxerint, in unum eadem redigere cogantur * CONST. A.
+            GERULO. *&lt;A 334? D. III K. MAI. PROCULO ET PAULINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1767-Dd1e217">
+               <head xml:id="azsw2e-d1e1767-Hd1e219">12</head>
+               <p xml:id="azsw2e-d1e1767-d1e221">
+                  <ref xml:id="azsw2e-d1e1767-Rd1e223">Imperator
+            Justinianus</ref>  Illud aequitatis vovere rationibus bene nobis apparuit.
+            Si quis etenim pro filio suo ante nuptias donationem conscripserit
+            vel dederit vel pro filia sua dotem, et hoc quod dedit iterum in eundem
+            revertatur vel stipulatione vel lege hoc faciente, vel et si alio
+            dotem vel ante nuptias donationem dante stipulationis paternae tenor
+            vel forte legis hoc induxerit, ille autem testamento condito vel filios
+            suos vel extraneos scripserit heredes et nihil de huiusmodi rebus,
+            quae ad eum reversae sunt vel pervenerunt, disposuerit, inveniantur
+            autem alii liberi eius res a paterna substantia lucrati vel per ante
+            nuptias donationes vel dotes vel militiae causa, quas utpote testamento
+            existente non coguntur conferre, tunc filius vel filia easdem res,
+            quae ad patrem reversae sunt vel pervenerunt, habeant praecipuas,
+            ad simile tamen lucrum computandas, ut in praesenti casu tantum habeat
+            ipsa vel ipse, quantum eius fratres ex patre sunt consecuti secundum
+            eos modos quos supra diximus et quos conferre propter testamentum
+            non coartantur </p>
+               <p xml:id="azsw2e-d1e1767-d1e226" n="1">
+            Sin autem nihil tale penitus in fratres eorum a patre collatum
+            est, neque ipsos sibi praecipue hanc partem vindicare, sed, quasi
+            paternae facta substantiae sit, inter omnes secundum institutionis
+            tenorem dividi. Et haec quidem, si inter fratres patris elogium compositum
+            sit </p>
+               <p xml:id="azsw2e-d1e1767-d1e229" n="2">
+            Sin autem extranei sint scripti heredes et nihil in testamento
+            suo neque in hac parte testator dixerit, tunc omnimodo praecipuum
+            habeat filius vel filia, quod ad patrem revertitur vel pervenit. Si
+            tamen minus in fratres collatum est, amplius autem ex huiusmodi casu
+            ad patrem pervenit, illo quod ad similem quantitatem concurrit excepto
+            cetera quasi paternae substantiae facta secundum modum institutionum
+            dividantur: illo procul dubio observando, quod, si minus sit quod
+            pater ex huiusmodi causa habuit ea quantitate quae in fratres collata
+            est, tota huiusmodi portio ad eas personas perveniat, quarum occasione
+            res ad patrem revertitur </p>
+               <p xml:id="azsw2e-d1e1767-d1e232" n="3">
+            Ea igitur, quae in paterna persona diximus, obtinere volumus
+            etiam in avum et proavum paternum vel maternum et in matrem et in
+            aviam vel proaviam paternam vel maternam. * IUST. A. AD SENATUM. *&lt;A
+            530 D. XI K. AUG. CONSTANTINOPOLI LAMPADIO ET ORESTE VV. CC. CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

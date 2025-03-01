@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 74</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 74</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3409"><!-- azsw2e-l5t74 -->
+            <head xml:id="azsw2e-d1e3409-Hd1e101">Titulus 74</head>
+            <head xml:id="azsw2e-d1e3409-Hd1e103" type="question-title">Si maior factus sine decreto factam alienationem ratam habuerit</head>
+            <div xml:id="azsw2e-d1e3409-Dd1e106">
+               <head xml:id="azsw2e-d1e3409-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3409-d1e110">
+                  <ref xml:id="azsw2e-d1e3409-Rd1e112">Imperatores
+            Diocletianus, Maximianus</ref> Cum proponas curatorem patris tui non
+            interposito praesidis decreto praedium rusticum heredi creditoris
+            seu tutori eius destinasse venumdare eamque venditionem deceptum patrem
+            tuum ratam habuisse, si minore pretio distractum praedium est et inconsulto
+            errore lapsum patrem tuum perperam venditioni consensum dedisse constiterit,
+            non ab re erit superfluum pretii in compensationem deduci: quod praesidis
+            provisione fieri convenit, cuius sollertiae congruum est, si diversa
+            pars bonam fidem non amplectatur, in arbitrio eius ponere, an velit
+            possessionem cum fructibus restituere, ita ut fenebris pecunia cum
+            competentibus usuris restituatur. * DIOCL. ET MAXIM. AA. LICINIAE.
+            *&lt;A 290 PP.NON.OCT.IPSIS IIII ET III AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3409-Dd1e116">
+               <head xml:id="azsw2e-d1e3409-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3409-d1e120">
+                  <ref xml:id="azsw2e-d1e3409-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> Si sine decreto praesidis praedia tua
+            a tutore tuo alienata sunt nec speciali confirmatione vel, si bona
+            fide possessor fuisset, statuti temporis excursu id, quod perperam
+            est actum, fuerat stabilitum, praeses provinciae possessionem in ius
+            tuum retrahet. * DIOCL. ET MAXIM. AA. ET CC. ALEXANDRO. *&lt;A 293
+            D.K.IAN. SIRMI AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3409-Dd1e126">
+               <head xml:id="azsw2e-d1e3409-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3409-d1e130">
+                  <ref xml:id="azsw2e-d1e3409-Rd1e132">Imperator
+            Justinianus</ref>  Si quando sine decreto minorum vel adhuc sub curatoribus
+            constitutorum vel per veniam aetatis eorum curam excedentium res alienantur
+            vel supponuntur, et ad perfectam aetatem idem minores provecti longo
+            silentio querellam huiusmodi tradiderint, ut inutilis alienatio vel
+            suppositio diuturno silentio roboretur, certum tempus ad talem confirmationem
+            praefinitum esse censemus. </p>
+               <p xml:id="azsw2e-d1e3409-d1e135" n="1">
+            Ideoque praecipimus, si per quinque continuos annos post
+            impletam minorem aetatem ( id est viginti quinque annos) connumerandos
+            nihil conquestus est super tali alienatione vel suppositione is qui
+            eam fecit vel heres eius, minime retractari eam occasione praetermissionis
+            decreti, sed sic tenere, quasi ab initio legitimo decreto fuisset
+            alienata res vel supposita. </p>
+               <p xml:id="azsw2e-d1e3409-d1e138" n="2">
+            Cum autem donationes a minoribus nec cum decreto celebrari
+            possunt, si minor vel post veniam aetatis rem immobilem donationis
+            titulo in alium ( excepta propter nuptias donatione) transscripserit,
+            non aliter hoc firmitatem habebit, nisi post viginti quinque annos
+            impletos inter praesentes quidem decennium, inter absentes autem vicennium
+            donatore adquiescente effluxerit: ut tamen in heredis persona illud
+            tantummodo tempus accederet, quod post eiusdem heredis minoris aetatem
+            silentio transactum sit. * IUST. A. MENAE PP. *&lt;A 529 D. VIII ID.
+            APRIL. CONSTANTINOPOLI DECIO VC. CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

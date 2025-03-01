@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 9</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 9</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5710"><!-- azsw2e-l9t9 -->
+            <head xml:id="azsw2e-d1e5710-Hd1e101">Titulus 9</head>
+            <head xml:id="azsw2e-d1e5710-Hd1e103" type="question-title">Ad legem Iuliam de adulteriis et de stupro.</head>
+            <div xml:id="azsw2e-d1e5710-Dd1e106">
+               <head xml:id="azsw2e-d1e5710-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5710-d1e110">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Publico iudicio non
+            habere mulieres adulterii accusationem, quamvis de matrimonio suo
+            violato queri velint, lex Iulia declarat, quae, cum masculis iure
+            mariti facultatem accusandi detulisset, non idem feminis privilegium
+            detulit. * SEV. ET ANT. AA. CASSIAE. *&lt;A 197 PP. XIII K. AUG. LATERANO
+            ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e116">
+               <head xml:id="azsw2e-d1e5710-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5710-d1e120">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Crimen lenocinii contrahunt, qui deprehensam
+            in adulterio uxorem in matrimonio detinuerunt, non qui suspectam adulteram
+            habuerunt. * SEV. ET ANT. AA. CYRO. *&lt;A 199 PP.K.IUL.ANULLINO ET
+            FRONTONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e126">
+               <head xml:id="azsw2e-d1e5710-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5710-d1e130">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e132">Imperator
+            Antoninus</ref> Verba legis Iuliae de adulteriis coercendis, sed etiam
+            sententia per quaestionem quoque servorum sive ancillarum crimen admissum
+            probari volentis ad earum tantum personarum servos ei rei exhibendos
+            pertinet, de quibus specialiter comprehendit, id est mulieris et patris
+            eius, non naturalis, sed iusti dumtaxat, quos intra sexagesimum diem
+            ex dissolutione matrimonii numerandum manumitti vel distrahi prohibet
+            et quorum dominis caveri praecipit, si defuncti fuerint in quaestione
+            vel facti deteriores, secuta absolutione. * ANT.
+            A. IULIANO. *&lt;A 213 PP.XV K.AUG.ANTONINO A IIII ET BALBINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e137">
+               <head xml:id="azsw2e-d1e5710-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e5710-d1e141">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e143">Imperator
+            Alexander Severus</ref>  Gracchus, quem numerius
+            in adulterio noctu deprehensum interfecerit, si eius condicionis fuit,
+            ut per legem Iuliam impune occidi potuerit, quod legitime factum est,
+            nullam poenam meretur: idemque filiis eius qui patri paruerunt praestandum
+            est. </p>
+               <p xml:id="azsw2e-d1e5710-d1e146" n="1">
+            Sed si legis auctoritate cessante inconsulto dolore adulterum
+            interemit, quamvis homicidium perpetratum sit, tamen quia et nox et
+            dolor iustus factum eius relevat, potest in exilium dari. * ALEX. A. IULIANO PROCONS. NARBONENSIS. *&lt;A XXX PP. SINE
+            DIE ET CONSULE.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e150">
+               <head xml:id="azsw2e-d1e5710-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e5710-d1e154">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e156">Imperator
+            Alexander Severus</ref> Adulter post quinquennium, quam commissum
+            adulterium dicitur, quod continuum numeratur, accusari non potest:
+            easque praescriptiones legibus reis datas auferri non oportet. * ALEX.
+            A. VADANTI. *&lt;A 223 PP.ID.IUN.MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e160">
+               <head xml:id="azsw2e-d1e5710-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e5710-d1e164">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e166">Imperator
+            Alexander Severus</ref>  Iure mariti adulterii accusare volenti
+            sexaginta dies utiles computantur, quibus in publico eius facultas
+            fuerit, apud quem reus vel rea postulari potest. Et cum praeterierint
+            dies isti utiles, maritus quoque iure extranei agere potest </p>
+               <p xml:id="azsw2e-d1e5710-d1e169" n="1">
+            Et qui confidit accusationi, calumniae notam timere non debet:
+            nam ad probationem sceleris divi parentes mei quaestionem de mancipiis
+            eodem modo haberi permiserunt, quo si iure mariti ageretur. * ALEX.
+            A. SEBASTIANO. *&lt;A 223 PP.II ID.AUG.MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e173">
+               <head xml:id="azsw2e-d1e5710-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e5710-d1e177">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e179">Imperator
+            Alexander Severus</ref>  Propter violatam virginem adultam qui
+            postea maritus esse coepit accusator iustus non est et ideo iure mariti
+            crimen exercere non potest, nisi puella violata sponsa eius fuerit.
+            </p>
+               <p xml:id="azsw2e-d1e5710-d1e182" n="1">
+            Sed si ipsa iniurias suas adsistentibus curatoribus, per
+            quos etiam negotia eius gerenda sunt, persequatur, praeses provinciae
+            pro debita tanto delicto, si probetur, severitate examinabit. * ALEX.
+            A. HERCULANO. *&lt;A 223 PP.XII K.IAN.MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e186">
+               <head xml:id="azsw2e-d1e5710-Hd1e188">8</head>
+               <p xml:id="azsw2e-d1e5710-d1e190">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e192">Imperator
+            Alexander Severus</ref> Reos adulterii duos
+            simul marem et feminam ex eadem causa fieri lex Iulia de pudicitia
+            vetat: sed ordine peragi utrosque licet. * ALEX. A. DOMNAE.
+            *&lt;A 224 PP.ID.IAN.IULIANO ET CRISPINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e196">
+               <head xml:id="azsw2e-d1e5710-Hd1e198">9</head>
+               <p xml:id="azsw2e-d1e5710-d1e200">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e202">Imperator
+            Alexander Severus</ref> Castitati temporum
+            meorum convenit lege Iulia de pudicitia damnatam in poenis legitimis
+            perseverare. Qui autem adulterii damnatam, si quocumque modo poenam
+            capitalem evaserit, sciens duxit uxorem vel reduxit, eadem lege ex
+            causa lenocinii punietur * ALEX. A. PROCULO. *&lt;A 224 PP.VII
+            K.FEBR.IULIANO ET CRISPINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e207">
+               <head xml:id="azsw2e-d1e5710-Hd1e209">10</head>
+               <p xml:id="azsw2e-d1e5710-d1e211">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e213">Imperator
+            Alexander Severus</ref> De crimine adulterii pacisci non licet
+            et par delictum accusatoris praevaricatoris et refugientis veritatis
+            inquisitionem est. Qui autem pretium pro comperto stupro accepit,
+            poena legis Iuliae de adulteriis tenetur * ALEX. A. DEMETRIANO. *&lt;A
+            225 PP.V NON.MAI.FUSCO ET DEXTRO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e217">
+               <head xml:id="azsw2e-d1e5710-Hd1e219">11</head>
+               <p xml:id="azsw2e-d1e5710-d1e221">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e223">Imperator
+            Alexander Severus</ref> Crimen adulterii maritum retenta in
+            matrimonio uxore inferre non posse nemini dubium est. * ALEX. A. NORBANO.
+            *&lt;A 226 PP.K.SEPT.ALEXANDRO II ET MARCELLO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e227">
+               <head xml:id="azsw2e-d1e5710-Hd1e229">12</head>
+               <p xml:id="azsw2e-d1e5710-d1e231">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e233">Imperator
+            Gordianus</ref> Si, dum in tuo matrimonio uxor tua esset, se adulterio
+            polluit, in ea provincia in qua id factum est adulterium more solito
+            persequi debes nec enim ab ea quae iam nupta est adulterium passa
+            exordium accusationis sumi potest, si denuntiatio criminis nuptias
+            non praecessit. * GORD. A. AQUILAE. *&lt;A 239 PP.NON.DEC.GORDIANO
+            A ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e237">
+               <head xml:id="azsw2e-d1e5710-Hd1e239">13</head>
+               <p xml:id="azsw2e-d1e5710-d1e241">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e243">Imperator
+            Gordianus</ref> Etsi crimine adulterii damnatus restitutus non esset,
+            ut proponis, si tamen soror tua, cum qua adulterium commissum dicebatur,
+            non est accusata, nec poenae nec infamiae subici potuit, et multo
+            magis, cum et accusatorem vita esse functum proponas. * GORD. A. BASSO. *&lt;A 240 PP.K.IUN.SABINO II ET VENUSTO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e247">
+               <head xml:id="azsw2e-d1e5710-Hd1e249">14</head>
+               <p xml:id="azsw2e-d1e5710-d1e251">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e253">Imperator
+            Gordianus</ref> Adulteram, si postea quam crimen contra eam inchoatum
+            est provincia excessit, etiam absentem inter reos recipi posse explorati
+            iuris est. * GORD. A. SILVANO. *&lt;A 242 PP.NON.MART.ATTICO
+            ET PRAETEXTATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e257">
+               <head xml:id="azsw2e-d1e5710-Hd1e259">15</head>
+               <p xml:id="azsw2e-d1e5710-d1e261">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e263">Imperator
+            Gordianus</ref>  Si quondam uxor tua, antequam
+            crimine adulterii peteretur, provincia excessit, neque absens accusari
+            potest neque in eam provinciam in qua stipendium facis transmitti
+            iure deposcitur. </p>
+               <p xml:id="azsw2e-d1e5710-d1e266" n="1">
+            Sane cum per occupationes militares licuerit, accusare eam
+            sollemniter poteris: nec enim tempus, quo muneribus militaribus occuparis,
+            vindictam tibi, quam maritali dolore percussus reposcis, debet auferre.
+            * GORD. A. HILARIANO MIL. *&lt;A 242 PP. IIII ID. MART. ATTICO ET
+            PRAETEXTATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e271">
+               <head xml:id="azsw2e-d1e5710-Hd1e273">16</head>
+               <p xml:id="azsw2e-d1e5710-d1e275">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e277">Imperatores
+            Valerianus, Gallienus</ref>  Abolitionem adulterii criminis postulans
+            praesidem in cuius officio accusatio fuerit instituta adire debes.
+            </p>
+               <p xml:id="azsw2e-d1e5710-d1e280" n="1">
+            Ceterum erras tu marite existimans, etiam si simpliciter,
+            id est sine abolitione, destitisses, senatus consulto in persona tua
+            futurum locum non fuisse: diversum enim divi principes saepe sanxerunt.
+            </p>
+               <p xml:id="azsw2e-d1e5710-d1e283" n="2">
+            Quin hoc amplius scias nullam fuisse tibi ulterius potestatem
+            instituendae huiusmodi accusationis, quia et decreto patrum et lege
+            Petronia ei, qui iure viri delatum adulterium non peregit, numquam
+            postea id crimen deferre permittitur. * VALER. ET GALLIEN. AA. ET
+            VALER. C. ARCESILAO. *&lt;A 256 PP. XV K. IUN. MAXIMO ET GLABRIONE
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e287">
+               <head xml:id="azsw2e-d1e5710-Hd1e289">17</head>
+               <p xml:id="azsw2e-d1e5710-d1e291">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e293">Imperatores
+            Valerianus, Gallienus</ref>  Sine metu legis Iuliae de adulteriis coercendis
+            revocare uxorem in matrimonium potes, cum nihil amplius quam libellos
+            accusationis obtulisti, quia postea comperisse te adfirmas, quod vana
+            indignatione ad accusationem incitatus fueris. </p>
+               <p xml:id="azsw2e-d1e5710-d1e296" n="1">
+            Is enim committit in poenam, quam lex certo capite denuntiat,
+            qui vel publice adulterio damnatam habet vel adulteram sciens, ut
+            ignorationem simulare non possit, retinet uxorem. * VALER. ET GALLIEN.
+            AA. ET C. VICTORINO. *&lt;A 257 PP. VI K. AUG. IPSIS AA. IIII ET III
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e300">
+               <head xml:id="azsw2e-d1e5710-Hd1e302">18</head>
+               <p xml:id="azsw2e-d1e5710-d1e304">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e306">Imperatores
+            Valerianus, Gallienus</ref>  Eum qui duas simul habuit uxores sine
+            dubitatione comitatur infamia. In ea namque re non iuris effectus,
+            quo cives nostri matrimonia contrahere plura prohibentur, sed animi
+            destinatio cogitatur </p>
+               <p xml:id="azsw2e-d1e5710-d1e309" n="1">
+            Verumtamen ei, qui te ficto caelibatu, cum aliam matrem familias
+            in provincia reliquisset, sollicitavit ad nuptias, crimen etiam stupri,
+            a quo tu remota es, quod uxorem te esse credebas, ab accusatore legitimo
+            sollemniter inferetur. </p>
+               <p xml:id="azsw2e-d1e5710-d1e312" n="2">
+            Certe res tuas omnes, quas ab eo interceptas matrimonii simulatione
+            deploras, restitui tibi omni exactionis instantia impetrabis a rectore
+            provinciae: nam ea quidem, quae se tibi ut sponsae daturum promisit,
+            quomodo repetere cum effectu potes quasi sponsa? * VALER. ET GALLIEN.
+            AA. ET C. THEOD. *&lt;A 258 ACCEPTA ID. MAI. ANTIOCHIAE TUSCO ET BASSO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e316">
+               <head xml:id="azsw2e-d1e5710-Hd1e318">19</head>
+               <p xml:id="azsw2e-d1e5710-d1e320">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e322">Imperatores
+            Diocletianus, Maximianus</ref> Quamvis indubitati iuris sit, quotiens
+            adulterii crimen intenditur, praesentiam accusatoris procedere oportere,
+            tamen quoniam ex litteris tuis cognovimus materiam praepositi viatoris
+            uxorem habitis quaestionibus cum Iuliano quondam adulterium commisisse
+            detectam sub ipsa prolatione sententiae viatoris ipsius praesentiam
+            postulasse, non putavimus confecto paene in iudicio facinore et iam
+            agitata quaestione convicto praepositum ab excubiis limitis revocandum.
+            * DIOCL. ET MAXIM. AA. AD POMPEIANUM. *&lt;A 287 D. S. NON. DEC. AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e326">
+               <head xml:id="azsw2e-d1e5710-Hd1e328">20</head>
+               <p xml:id="azsw2e-d1e5710-d1e330">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e332">Imperatores
+            Diocletianus, Maximianus</ref> Foedissimam earum nequitiam, quae pudorem
+            suum alienis libidinibus prosternunt, non etiam earum, quae per vim
+            stupro comprehensae sunt, inreprehensam voluntatem leges ulciscuntur,
+            quando etiam inviolatae existimationis esse nec nuptiis earum aliis
+            interdici merito placuit. * DIOCL. ET MAXIM. AA. DIDYMO. *&lt;A 290
+            PP. III NON. OCT. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e336">
+               <head xml:id="azsw2e-d1e5710-Hd1e338">21</head>
+               <p xml:id="azsw2e-d1e5710-d1e340">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e342">Imperatores
+            Diocletianus, Maximianus</ref>  Ob commissa adulteria atque accusandas
+            uxores certa tempora, quae utiliter computari solent, praescripta
+            sunt. </p>
+               <p xml:id="azsw2e-d1e5710-d1e345" n="1">
+            Si igitur per occupationes publicas accusationem instituere
+            non potuisti nec ante creditum tibi munus praescripta tempora transacta
+            sunt, post depositam sollicitudinem qua detineris integram accusandi
+            potestatem habebis. </p>
+               <p xml:id="azsw2e-d1e5710-d1e348" n="2">
+            Ad quam, cum vacare coeperis, properare debebis, ne effrenata
+            licentia ad terrendam adversariam futurae accusationis speciem praetendas.
+            * DIOCL. ET MAXIM. AA. SILANO. *&lt;A 290 PP. XIIII K. NOV. IPSIS
+            IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e353">
+               <head xml:id="azsw2e-d1e5710-Hd1e355">22</head>
+               <p xml:id="azsw2e-d1e5710-d1e357">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e359">Imperatores
+            Diocletianus, Maximianus</ref> Si ea quae tibi stupro cognita est
+            passim venalem formam exhibuit ac prostituta meretricio more vulgo
+            se praebuit, adulterii crimen in ea cessat. * DIOCL. ET MAXIM. AA.
+            OBRIMO. *&lt;A 290 PP. XII K. NOV. IPSIS IIII ET III AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e363">
+               <head xml:id="azsw2e-d1e5710-Hd1e365">23</head>
+               <p xml:id="azsw2e-d1e5710-d1e367">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e369">Imperatores
+            Diocletianus, Maximianus</ref>  Servi ob violatum contubernium adulterii
+            accusare non possunt. </p>
+               <p xml:id="azsw2e-d1e5710-d1e372" n="1">
+            Is autem, qui post dissociatum matrimonium uxorem licito
+            iure duxerit obque intentatae accusationis ac potentis patrocinii
+            metum ei qui accusationem instituerat aurum et argentum dedit, ad
+            recipiendum id ulciscendamque turpis lucri cupiditatem adire praesidem
+            potest, qui examinatis partium adlegationibus et inquisita fide veri,
+            si quid ab eo qui innocens est ob illati criminis timorem datum esse
+            cognoverit, quemadmodum sententiam formare debeat, evidentibus iuris
+            placitis instruetur. </p>
+               <p xml:id="azsw2e-d1e5710-d1e375" n="2">
+            Sin vero constiterit corrupti matrimonii velut mercedem ad
+            captandam impunitatem solutam esse, eum, qui etiam adversus senatus
+            consulti censuram cum foedissimo flagitio accepit, puniri iubebit.
+            * DIOCL. ET MAXIM. AA. PROCULO. *&lt;A 290 PP. K. NOV. IPSIS IIII
+            ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e379">
+               <head xml:id="azsw2e-d1e5710-Hd1e381">24</head>
+               <p xml:id="azsw2e-d1e5710-d1e383">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e385">Imperatores
+            Diocletianus, Maximianus</ref> Etsi libidine intemperatae cupiditatis
+            ex actorum lectione exarsisse te cognitum est, tamen cum ancillam
+            comprehendisse et non liberam stuprasse detectum sit, ex huiusmodi
+            sententia gravatam potius opinionem tuam quam infamia adflictam esse
+            manifestum est. * DIOCL. ET MAXIM. AA. SOSSIANO. *&lt;A 291 PP. V
+            ID. MART. TIBERIANO ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e389">
+               <head xml:id="azsw2e-d1e5710-Hd1e391">25</head>
+               <p xml:id="azsw2e-d1e5710-d1e393">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e395">Imperatores
+            Diocletianus, Maximianus</ref> Quoniam Alexandrum, qui in crimen vocatur,
+            etiam praescriptionem esse pollicitum eo nomine, quod accusator uxorem
+            post comprehensum adulterium penes se habuisse videatur, et de statu
+            suo agere nunc velle perspeximus, ita ordo quaestionis dirimendus
+            videtur, ut in primis quidem de statu Alexandri quaeratur, ita ut,
+            si eum liberum esse adhibita audientia deprehenderis, praescriptionis
+            ei obiciendae facias potestatem: sin vero eundem servum esse cognoveris,
+            remotis praescriptionis impedimentis in adulterium crimen protinus
+            debebis inquirere ac, si eum detectum in eo flagitio esse perspexeris,
+            poenam decernere, quam in adulterii crimen legum sanctio statuit.
+            * DIOCL. ET MAXIM. AA. ET CC. CRISPINO. *&lt;A 293 D. V K. SEPT. AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e399">
+               <head xml:id="azsw2e-d1e5710-Hd1e401">26</head>
+               <p xml:id="azsw2e-d1e5710-d1e403">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e405">Imperatores
+            Diocletianus, Maximianus</ref> Commissum ante adulterium cum eo, cui
+            se postea nuptiis sociavit, velamento matrimonii non extinguitur.
+            * DIOCL. ET MAXIM. AA. ET CC. PHOEBO. *&lt;A 294 PP. XVIII K. IAN.
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e409">
+               <head xml:id="azsw2e-d1e5710-Hd1e411">27</head>
+               <p xml:id="azsw2e-d1e5710-d1e413">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e415">Imperatores
+            Diocletianus, Maximianus</ref> Ita nobis pudor cordi est, ut removeamus
+            prisci iuris ambages et constituamus in adulterii quaestione abolitis
+            de medio ceteris praescriptionibus praeter quinquennii temporis et
+            lenocinii quod marito obicitur exceptionem, illam etiam, quae post
+            solutum prius matrimonium ante denuntiationem nuptae competit, fidem
+            criminis nosci. Indignum est enim, ut ultionem pudoris praestigiae
+            versuti iuris excludant * DIOCL. ET MAXIM. AA. ET CC. CONCORDIO PRAES.
+            NUMIDIAE. *&lt;A 295 PP. K. IUN. TUSCO ET ANULLINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e420">
+               <head xml:id="azsw2e-d1e5710-Hd1e422">28</head>
+               <p xml:id="azsw2e-d1e5710-d1e424">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e426">Imperator
+            Constantinus</ref> Quae adulterium commisit, utrum domina cauponae
+            an ministra fuerit, requiri debebit, et ita obsequio famulata servili,
+            ut plerumque ipsa intemperantiae vina praebuerit: ut, si domina tabernae
+            fuerit, non sit a vinculis iuris excepta, si vero potantibus ministerium
+            praebuit, pro vilitate eius quae in reatum deducitur accusatione exclusa
+            liberi qui accusantur abscedant, cum ab his feminis pudicitiae ratio
+            requiratur, quae iuris nexibus detinentur et matris familias nomen
+            obtinent, hae autem immunes ab iudiciaria severitate praestentur,
+            quas vilitas vitae dignas legum observatione non credidit. * CONST.
+            A. AFRICANO. *&lt;A 326 D.III NON.FEBR.HERACLEAE CONSTANTINO A.VII
+            ET CONSTANTIO C. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e430">
+               <head xml:id="azsw2e-d1e5710-Hd1e432">29</head>
+               <p xml:id="azsw2e-d1e5710-d1e434">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e436">Imperator
+            Constantinus</ref>  Quamvis adulterii crimen inter publica referatur,
+            quorum delatio in commune omnibus sine aliqua legis interpretatione
+            conceditur, tamen ne volentibus temere liceat foedare conubia, proximis
+            necessariisque personis solummodo placet deferri copiam accusandi,
+            hoc est patri fratri nec non patruo et avunculo, quos verus dolor
+            ad accusationem impellit. </p>
+               <p xml:id="azsw2e-d1e5710-d1e439" n="1">
+            Sed et his personis legem imponimus, ut crimen abolitione,
+            si voluerint, compescant. </p>
+               <p xml:id="azsw2e-d1e5710-d1e442" n="2">
+            In primis maritum genialis tori vindicem esse oportet, cui
+            quidem ex suspicione ream coniugem facere licet, vel eam, si tantum
+            suspiciatur, penes se detinere non prohibetur: nec inscriptionis vinculo
+            contineri, cum iure mariti accusaret, veteres retro principes adnuerunt.
+            </p>
+               <p xml:id="azsw2e-d1e5710-d1e445" n="3">
+            Extraneos autem procul arceri ab accusatione censemus: nam
+            etsi omne genus accusationis necessitas inscriptionis adstringat,
+            nonnulli tamen proterve id faciunt et falsis contumeliis matrimonia
+            deformant. </p>
+               <p xml:id="azsw2e-d1e5710-d1e449" n="4">
+            Sacrilegos autem nuptiarum gladio puniri oportet. * CONST.
+            A. AD EUAGRIUM. *&lt;A 326 PP. NICOMEDIAE VII K. MAI. CONSTANTINO
+            A. VII ET CONSTANTIO C. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e453">
+               <head xml:id="azsw2e-d1e5710-Hd1e455">30</head>
+               <p xml:id="azsw2e-d1e5710-d1e457">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e459">Imperatores
+            Constantius, Constans</ref> Cum vir nubit in feminam, femina viros
+            proiectura quid cupiat? ubi sexus perdidit locum, ubi scelus est id
+            quod non proficit scire, ubi venus mutatur in alteram formam, ubi
+            amor quaeritur nec videtur: iubemus insurgere leges, armari iura gladio
+            ultore, ut exquisitis poenis subdantur infames, qui sunt vel qui futuri
+            sunt rei. * CONSTANTIUS ET CONSTANS AA. AD POP. *&lt;A 342 PP. ROMAE
+            XVII K. IAN. CONSTANTIO III ET CONSTANTE II AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e463">
+               <head xml:id="azsw2e-d1e5710-Hd1e465">31</head>
+               <p xml:id="azsw2e-d1e5710-d1e467">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e469">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> In adulterii quaestione
+            ab omni familia non solum mariti, sed etiam uxoris, quae tamen tunc
+            temporis domi fuerit, quo adulterium dicatur admissum, quaerendum
+            est sine defensione cuiusquam. * GRAT. VALENTIN. ET THEODOS. AAA.
+            CYNEGIO PP. *&lt;A 385 D. III ID. DEC. CONSTANTINOPOLI ARCADIO A.
+            ET BAUTONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e473">
+               <head xml:id="azsw2e-d1e5710-Hd1e475">32</head>
+               <p xml:id="azsw2e-d1e5710-d1e477">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e479">Imperatores
+            Theodosius, Arcadius, Honorius</ref> Adulterii accusatione proposita
+            praescriptiones civiles, quibus aut dos repeti fingitur aut ex ratione
+            aliqua debitum flagitatur, quae occurrere atque perstrepere examini
+            consuerunt, iussimus sequestrari nec earum obice aliquid negotio tarditatis
+            adferri: sed accusatione fundata, hoc est cum constiterit, quo iure
+            ( id est mariti vel extranei) quove tempore actio fuerit intromissa,
+            discutiatur crimen, facti qualitas publicetur, cum et iurgia quae
+            magnitudine superant praeponantur et civilis actio criminali iure
+            postponatur, idem tamen, cum competere coeperit, habitura momenti,
+            dummodo non obsit examini. * THEODOS. ARCAD. ET HONOR. AAA. RUFINO
+            PP. *&lt;A 392 D. VII ID. DEC. CONSTANTINOPOLI ARCADIO A. II ET RUFINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e483">
+               <head xml:id="azsw2e-d1e5710-Hd1e485">33</head>
+               <p xml:id="azsw2e-d1e5710-d1e487">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e489">Imperatores
+            Theodosius, Arcadius, Honorius</ref>  Si qui adulterii fuerint accusati
+            et obtentu proximitatis intentata depulerint, per commemorationem
+            necessitudinis fidem crimini derogando, dum existimatur non debere
+            credi quod adlegatur, non potuisse committi, hi si postmodum in nuptias
+            suas consortiumque convenerint, facinus illud, in quo fuerint accusati,
+            manifesta fide atque indiciis evidentibus publicabunt. </p>
+               <p xml:id="azsw2e-d1e5710-d1e492" n="1">
+            Unde si qui eiusmodi reperti fuerint, iussimus in eosdem
+            severissime vindicari et veluti convictum facinus confessumque puniri.
+            * THEODOS. ARCAD. ET HONOR. AAA. RUFINO PP. *&lt;A 393 D. PRID. NON.
+            DEC. CONSTANTINOPOLI THEODOSIO A. III ET ABUNDANTIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e497">
+               <head xml:id="azsw2e-d1e5710-Hd1e499">34</head>
+               <p xml:id="azsw2e-d1e5710-d1e501">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e503">Imperatores
+            Honorius, Theodosius</ref> Si mulier repudii oblatione sine ulla legitima
+            causa a se dati discesserit, ne viduitatem stupri procacitate commaculet,
+            accusationem repudiato marito iure deferimus. * HONOR. ET THEODOS.
+            AA. PALLADIO PP. *&lt;A 421 D. VI ID. MART. RAVENNAE EUSTATHIO ET
+            AGRICOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5710-Dd1e507">
+               <head xml:id="azsw2e-d1e5710-Hd1e509">35</head>
+               <p xml:id="azsw2e-d1e5710-d1e511">
+                  <ref xml:id="azsw2e-d1e5710-Rd1e513">Imperator
+            Justinianus</ref>  Libertatem servorum, qui ad dominium pertinent uxoris
+            vel mariti vel parentium eorum, repudio misso propter suspicionem
+            criminis adulterii, legum conditores intra duorum mensum spatium post
+            missionem repudii numerandum suspendi definiunt propter tormentorum
+            quaestionem, si opus exegerit, eis imponendam. </p>
+               <p xml:id="azsw2e-d1e5710-d1e516" n="1">
+            Sin vero uxor matrimonio sub praefato modo dissoluto rebus
+            humanis exempta fuerit, nihil de tempore, quousque servos eos propter
+            memoratam causam permanere deceat, adiciunt. </p>
+               <p xml:id="azsw2e-d1e5710-d1e519" n="2">
+            Nobis vero necessarium esse videtur certum tempus etiam in
+            hoc casu statuere propter dotis quaestionem, utrum in lucrum marito
+            cedat an heredibus mulieris restituatur.</p>
+               <p xml:id="azsw2e-d1e5710-d1e522" n="3">
+            Sancimus itaque duos etiam menses post mortem mulieris servari,
+            ut intra eos ante dicti servi permaneant et facultatem maritus habeat
+            probationes adulterii per eos praestare: transacto vero memorato tempore
+            licentiam habere heredem mulieris libertatem eis imponere, nisi per
+            culpam eius maritus prohibitus fuerit causam adulterii, ipse videlicet
+            imminens, exercere. * IUST. A. IOHANNI PP. *&lt;A 532 D. V K. NOV.
+            CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTIS VV. CC. ANNO SECUNDO.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 12</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 12</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1477"><!-- azsw2e-l3t12 -->
+            <head xml:id="azsw2e-d1e1477-Hd1e101">Titulus 12</head>
+            <head xml:id="azsw2e-d1e1477-Hd1e103" type="question-title">De feriis</head>
+            <div xml:id="azsw2e-d1e1477-Dd1e106">
+               <head xml:id="azsw2e-d1e1477-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1477-d1e110">
+                  <ref xml:id="azsw2e-d1e1477-Rd1e112">Imperatores
+            Constantius, Maximianus</ref> Quoniam consulis, an similis observantia
+            a nobis adiciendarum feriarum, quae rebus feliciter gestis proveniunt,
+            ad appellationum quoque tempora porrigenda sit, verine carissime,
+            rescribi placuit experientiae tuae, ut in causis provocationum iugiter
+            et sine additamento eiuscemodi dierum tempora scias servari debere
+            et supra dictorum dierum in appellationum causis minime fieri adiectionem.
+            * CONSTANTIUS ET MAXIM. AA. ET SEV. ET MAXIMIN. NOBB. CC. VERINO.*&lt;A
+            305 D. NON. .... APOLLONIO SUPERIORIS CONSTANTIO V ET MAXIMIANO V
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1477-Dd1e116">
+               <head xml:id="azsw2e-d1e1477-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e1477-d1e120">
+                  <ref xml:id="azsw2e-d1e1477-Rd1e122">Imperator
+            Constantinus</ref> Omnes iudices urbanaeque plebes et artium officia
+            cunctarum venerabili die solis quiescant. Ruri tamen positi agrorum
+            culturae libere licenterque inserviant, quoniam frequenter evenit,
+            ut non alio aptius die frumenta sulcis aut vineae scrobibus commendentur,
+            ne occasione momenti pereat commoditas caelesti provisione concessa
+            * CONST. A. HELPIDIO. *&lt;A 321 PP. V NON. MART. CRISPO II ET CONSTANTINO
+            II CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1477-Dd1e126">
+               <head xml:id="azsw2e-d1e1477-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e1477-d1e130">
+                  <ref xml:id="azsw2e-d1e1477-Rd1e132">Imperator
+            Constantinus</ref> A nullo iudice praesumi decet, ut auctoritate sua
+            ferias aliquas condat. Nec enim imperiales ferias vocari oportet,
+            quas administrator edixerit, ac per hoc, si nomine eximuntur, etiam
+            fructu carebunt * CONSTANT. A. AD SEVERUM. *&lt;A 323 D. ID. APRIL.
+            SIRMI SEVERO ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1477-Dd1e137">
+               <head xml:id="azsw2e-d1e1477-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e1477-d1e141">
+                  <ref xml:id="azsw2e-d1e1477-Rd1e143">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Publicas ac fiscales causa
+            tua sinceritas etiam feriatis geminis mensibus, hoc est sine aliqua
+            intermissione, discingat.</p>
+               <p xml:id="azsw2e-d1e1477-d1e146" n="1">
+            Pistoriis quoque causis isdem diebus ratum in futurum examen
+            adhibebit.* VALENTIN. VALENS ET GRAT. AAA. AD OLYBRIUM PU.
+            *&lt;A 369 IIII NON. MAI. TYBERIADE VALENTINIANO NP. ET VICTORE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1477-Dd1e150">
+               <head xml:id="azsw2e-d1e1477-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e1477-d1e154">
+                  <ref xml:id="azsw2e-d1e1477-Rd1e156">Imperatores
+            Valentinianus, Valens, Gratianus</ref> Quadraginta diebus, qui auspicio
+            caerimoniarum paschale tempus anticipant, omnis cognitio inhibeatur
+            criminalium quaestionum. * VALENTIN. VALENS ET GRAT. AAA. ALBUCIANO
+            VIC. MACEDONIAE. *&lt;A 380 D. VI K. APRIL. THESSALONICAE GRATIANO
+            V ET THEODOSIO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1477-Dd1e160">
+               <head xml:id="azsw2e-d1e1477-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e1477-d1e164">
+                  <ref xml:id="azsw2e-d1e1477-Rd1e166">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref>  Omnes dies iubemus esse
+            iuridicos. </p>
+               <p xml:id="azsw2e-d1e1477-d1e169" n="1">
+            Illos tantum manere feriarum dies fas erit, quos geminis
+            mensibus ad requiem laboris indulgentior annus accepit aestivis fervoribus
+            mitigandis et autumnis fetibus decerpendis. </p>
+               <p xml:id="azsw2e-d1e1477-d1e172" n="2">
+            Kalendarum quoque ianuarium consuetos dies otio mancipamus.
+            </p>
+               <p xml:id="azsw2e-d1e1477-d1e175" n="3">
+            His adicimus natalicios dies urbium maximarum romae atque
+            constantinopolis, quibus debent iura differri, qui et ab ipsis nata
+            sunt, sacros quoque paschae dies, qui septeno vel praecedunt numero
+            vel sequuntur, dies etiam natalis atque epiphaniorum christi et quo
+            tempore commemoratio apostolicae passionis totius christianitatis
+            magistrae a cunctis iure celebratur: in quibus etiam praedictis sanctissimis
+            diebus neque spectaculorum copiam reseramus. </p>
+               <p xml:id="azsw2e-d1e1477-d1e179" n="4">
+            In eadem observatione numeramus et dies solis, quos dominicos
+            rite dixere maiores, qui repetito in se calculo revolvuntur. </p>
+               <p xml:id="azsw2e-d1e1477-d1e182" n="5">
+            Parem necesse est habere reverentiam, ut ne apud ipsos arbitros
+            vel a iudicibus flagitatos vel sponte delectos ulla sit agnitio iurgiorum,
+            nostris etiam diebus, qui vel lucis auspicia vel ortus imperii protulerunt.
+            </p>
+               <p xml:id="azsw2e-d1e1477-d1e185" n="6">
+            In quindecim autem paschalibus diebus compulsio et annonariae
+            functionis et omnium publicorum privatorumque debitorum differatur
+            exactio. * VALENTIN. THEODOS. ET ARCAD. AAA. ALBINO PU. *&lt;A 389
+            D. VII ID. AUG. ROMAE TIMASIO ET PROMOTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1477-Dd1e189">
+               <head xml:id="azsw2e-d1e1477-Hd1e191">7</head>
+               <p xml:id="azsw2e-d1e1477-d1e193">
+                  <ref xml:id="azsw2e-d1e1477-Rd1e195">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Actus omnes seu publici
+            seu privati diebus quindecim paschalibus conquiescant. In his tamen
+            emancipandi et manumittendi cuncti licentiam habeant, et super his
+            acta non prohibeantur * VALENTIN. THEODOS. ET ARCAD. AAA. TATIANO
+            PP. *&lt;A 392 D. VI K. IUN. CONSTANTINOPOLI ARCADIO A. II ET RUFINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1477-Dd1e199">
+               <head xml:id="azsw2e-d1e1477-Hd1e201">8</head>
+               <p xml:id="azsw2e-d1e1477-d1e203">
+                  <ref xml:id="azsw2e-d1e1477-Rd1e205">Imperatores
+            Honorius, Theodosius</ref> Provinciarum iudices moneantur, ut in quaestionibus
+            latronum et maxime isaurorum nullum quadragesimae nec venerabilem
+            pascharum diem existiment excipiendum, ne differatur sceleratorum
+            proditio consiliorum, quae per latronum tormenta quaerenda est, cum
+            facillime in hoc summi numinis speretur venia, per quod multorum salus
+            et incolumitas procuratur. * HONOR. ET THEODOS. AA. ANTHEMIO PP. *&lt;A
+            408 D. V K. MAI. CONSTANTINOPOLI BASSO ET PHILIPPO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1477-Dd1e209">
+               <head xml:id="azsw2e-d1e1477-Hd1e211">9</head>
+               <p xml:id="azsw2e-d1e1477-d1e213">
+                  <ref xml:id="azsw2e-d1e1477-Rd1e215">Imperatores
+            Leo, Anthemius</ref>  Dies festos, dies maiestati altissimae dedicatos
+            nullis volumus voluptatibus occupari nec ullis exactionum vexationibus
+            profanari. </p>
+               <p xml:id="azsw2e-d1e1477-d1e218" n="1">
+            Dominicum itaque diem semper honorabilem ita decernimus venerandum,
+            ut a cunctis exsecutionibus excusetur, nulla quemquam urgueat admonitio,
+            nulla fideiussionis flagitetur exactio, taceat apparitio, advocatio
+            delitescat, sit idem dies a cognitionibus alienus, praeconis horrida
+            vox silescat, respirent a controversiis litigantes, habeant foederis
+            intervallum, ad se veniant adversarii non timentes, subeat animos
+            vicaria paenitudo, pacta conferant, transactiones loquantur. </p>
+               <p xml:id="azsw2e-d1e1477-d1e221" n="2">
+            Nec tamen haec religiosi diei otia relaxantes obscaenis quemquam
+            patimur voluptatibus detineri. Nihil eodem die sibi vindicet scaena
+            theatralis aut circense certamen aut ferarum lacrimosa spectacula:
+            etiam si in nostrum ortum aut natalem celebranda sollemnitas inciderit,
+            differatur </p>
+               <p xml:id="azsw2e-d1e1477-d1e224" n="3">
+            Amissionem militiae, proscriptionem patrimonii sustinebit,
+            si quis umquam hoc die festo spectaculis interesse vel cuiuscumque
+            iudicis apparitor praetextu negotii publici seu privati haec quae
+            hac lege statuta sunt crediderit temeranda. * LEO ET ANTHEM. AA. ARMASIO
+            PP. *&lt;A 469 D. V ID. DEC. CONSTANTINOPOLI ZENONE ET MARCIANO CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

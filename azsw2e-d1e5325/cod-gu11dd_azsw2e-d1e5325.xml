@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 33</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 33</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5325"><!-- azsw2e-l8t33 -->
+            <head xml:id="azsw2e-d1e5325-Hd1e101">Titulus 33</head>
+            <head xml:id="azsw2e-d1e5325-Hd1e103" type="question-title">De iure dominii impetrando</head>
+            <div xml:id="azsw2e-d1e5325-Dd1e106">
+               <head xml:id="azsw2e-d1e5325-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5325-d1e110">
+                  <ref xml:id="azsw2e-d1e5325-Rd1e112">Imperator
+            Alexander Severus</ref> Dominii iure pignora possidere desiderans
+            nomina debitorum, quos in solutione cessare dicis, exprimere et, an
+            sollemnia peregisti, significare debuisti, dummodo scias omnia bona
+            debitoris, qui pignori dedit, ut universa dominio tuo generaliter
+            addicantur, impetrare te non posse. * ALEX. A. NICOLAAE. *&lt;A 229
+            PP. XIII K. DEC. ALEXANDRO A. III ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5325-Dd1e116">
+               <head xml:id="azsw2e-d1e5325-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5325-d1e120">
+                  <ref xml:id="azsw2e-d1e5325-Rd1e122">Imperator
+            Gordianus</ref> Si creditor pignus iure dominii a nostra serenitate
+            possidere petiit et post formam praescripti alio anno usuras a vobis
+            accepit, a beneficio impetrato recessisse videtur. * GORD. A. .TAE.
+            *&lt;A 238 PP. PRID. NON. DEC. PIO ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5325-Dd1e126">
+               <head xml:id="azsw2e-d1e5325-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5325-d1e130">
+                  <ref xml:id="azsw2e-d1e5325-Rd1e132">Imperator
+            Justinianus</ref>  Vetustissimam observationem, quae nullatenus in
+            ipsis rerum claruit documentis, penitus esse duximus amputandam, immo
+            magis clarioribus remediis corrigendam. Igitur in pignoribus, quae
+            iure dominii possidere aliquis cupiebat, proscriptio publica et annus
+            luitionis antiquus introducti sunt, pignus autem publice proscriptum
+            neque vidimus neque nisi tantummodo ex librorum recitatione audivimus.
+            </p>
+               <p xml:id="azsw2e-d1e5325-d1e135" n="1">
+            Sancimus itaque, si quis rem creditori suo pigneraverit,
+            si quidem in pactione cautum est, quemadmodum debet pignus distrahi,
+            sive in tempore sive in aliis conventionibus ea observari, pro quibus
+            inter creditorem et debitorem conventum est. Sin autem nulla pactio
+            intercesserit, licentia dabitur feneratori ex denuntiatione vel ex
+            sententia iudiciali post biennium, ex quo attestatio missa est vel
+            sententia prolata est, numerandum eam vendere </p>
+               <p xml:id="azsw2e-d1e5325-d1e138" n="2">
+            Sin vero nemo est, qui comparare eam maluerit, ut necessarium
+            fiat creditori saltem sibi eam iure dominii possidere, in huiusmodi
+            casibus causam esse observandam censemus, ut, sive praesens sit debitor,
+            denuntiatio ei scilicet post biennium mittatur, sive afuerit, provinciale
+            tribunale creditor petat et iudicem certiorare festinet, quatenus
+            ille eum requisierit, certo tempore super hoc ab eo statuendo, ut
+            fiat debitori manifestum per apparationem iudicis, quod a creditore
+            petitum est, et certum tempus statuatur, intra quod et, si fuerit
+            inventus, debet qui pecunias creditas accepit debitum offerre et pignus
+            recuperare. </p>
+               <p xml:id="azsw2e-d1e5325-d1e141" n="3">
+            Sin autem nullatenus fuerit inventus, iudex certum tempus
+            definiat, intra quod licentia ei dabitur sese manifestare et offerre
+            pecunias et pignus ab oppigneratione liberare. </p>
+               <p xml:id="azsw2e-d1e5325-d1e145"> 
+            Sin autem in tempore statuto vel minime fuerit inventus vel
+            creditam pecuniam totam offerre noluerit, tunc creditor adeat culmen
+            principale et precibus porrectis iure dominii habere eandem rem expetat
+            habeatque ex divino oraculo eam in suo dominio. </p>
+               <p xml:id="azsw2e-d1e5325-d1e147"> 
+            Et postquam hoc fuerit subsecutum, pietatis intuitu habeat
+            debitor intra biennii tempus in suam rem humanum reversum ex die sacri
+            oraculi numerandum, et liceat ei, creditori qui iam dominus factus
+            est offerre debitum cum usuris et damnis vitio eius creditori illatis,
+            quorum quantitatem creditor debet suo iuramento manifestare, et suum
+            pignus recuperare. </p>
+               <p xml:id="azsw2e-d1e5325-d1e149"> 
+            Sin autem biennium fuerit elapsum, plenissime habeat rem
+            creditor idemque dominus iam inrevocabilem factam. </p>
+               <p xml:id="azsw2e-d1e5325-d1e151" n="4">
+            Sed si quidem minus in pignore, plus in debito inveniatur,
+            in hoc, quod noscitur abundare, sit creditori omnis ratio integra.
+            </p>
+               <p xml:id="azsw2e-d1e5325-d1e154"> 
+            Sin autem ex utraque parte quantitas aequa inveniatur, sine
+            omni dubitatione totam rem antea pigneratam retineat. </p>
+               <p xml:id="azsw2e-d1e5325-d1e156"> 
+            Sin autem minus quidem in debito, amplius autem in pignore
+            fiat, tunc in hoc quod debitum excedit debitori omnia iura integra
+            lege nostra servabuntur, creditoribus quidem feneratoris non suppositum,
+            aliis autem debitoris creditoribus vel ipsi debitori servatum. </p>
+               <p xml:id="azsw2e-d1e5325-d1e159"> 
+            Et ne ex communicatione fiat aliqua difficultas, licentia
+            dabitur creditori seu domino aestimationem superflui debitori vel
+            creditori debitoris cum competenti cautela in eum exponenda offerre.
+            </p>
+               <p xml:id="azsw2e-d1e5325-d1e161" n="5">
+            Sin vero creditor, postquam iure dominii hoc possideat, vendere
+            hoc maluerit, liceat quidem ei hoc facere, si quid autem superfluum
+            sit, debitori servare. </p>
+               <p xml:id="azsw2e-d1e5325-d1e164"> 
+            Sin autem dubitatio exorta fuerit pro venditione utpote viliore
+            pretio facta, sacramenti religionem creditor praestare compellatur,
+            quod nulla machinatione vel circumscriptione usus est, sed tanti vendidit
+            rem, quanti potuerit venire: et hoc tantummodo reddi, quod ex iuramento
+            superfluum fuerit visum. Sin autem ex iureiurando etiam minus habuisse
+            creditor inveniatur, in residuo habeat integram actionem </p>
+               <p xml:id="azsw2e-d1e5325-d1e166" n="6">
+            Aestimationem autem pignoris, donec apud creditorem eundemque
+            dominum permaneat, sive amplioris sive minoris quantum ad debitum
+            quantitatis est, iudicialis esse volumus disceptationis, ut, quod
+            iudex super hoc statuerit, hoc in aestimatione pignoris obtineat.
+            * IUST. A. DEMOSTHENI PP. *&lt;A 530 D. XV K. APRIL. CONSTANTINOPOLI
+            LAMPADIO ET ORESTE VV. CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

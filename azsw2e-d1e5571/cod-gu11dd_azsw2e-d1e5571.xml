@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 55</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 55</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5571"><!-- azsw2e-l8t55 -->
+            <head xml:id="azsw2e-d1e5571-Hd1e101">Titulus 55</head>
+            <head xml:id="azsw2e-d1e5571-Hd1e103" type="question-title">De revocandis donationibus</head>
+            <div xml:id="azsw2e-d1e5571-Dd1e106">
+               <head xml:id="azsw2e-d1e5571-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5571-d1e110">
+                  <ref xml:id="azsw2e-d1e5571-Rd1e112">Imperator
+            Philippus</ref>  Etsi perfectis donationibus in possessionem inductus
+            libertus quantolibet tempore ea quae sibi donata sunt pleno iure ut
+            dominus possederit, tamen, si ingratus sit, omnis donatio mutata patronorum
+            voluntate revocanda sit. </p>
+               <p xml:id="azsw2e-d1e5571-d1e115" n="1">
+            Quod observabitur et circa ea, quae libertorum nomine, pecunia
+            tamen patronorum et beneficio comparata sunt. </p>
+               <p xml:id="azsw2e-d1e5571-d1e118" n="2">
+            Nam qui obsequiis suis liberalitatem patronorum provocaverunt,
+            non sunt digni, qui eam retineant, cum coeperint obsequia neglegere,
+            cum magis in eos collata liberalitas ad obsequium inclinare debet
+            quam ad insolentiam erigere.</p>
+               <p xml:id="azsw2e-d1e5571-d1e121" n="3">
+            Hoc tamen ius stabit intra ipsos tantum, qui liberalitatem
+            dederunt. Ceterum neque filii eorum neque successores ad hoc beneficium
+            pertinebunt: neque enim fas est ullo modo inquietari donationes, quas
+            is qui donaverat in diem vitae suae non retractavit * PHILIPP. A.
+            AGILIO COSMIANO. *&lt;A 249 D XV K.IUL.AEMILIANO ET AQUILINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5571-Dd1e125">
+               <head xml:id="azsw2e-d1e5571-Hd1e127">2</head>
+               <p xml:id="azsw2e-d1e5571-d1e129">
+                  <ref xml:id="azsw2e-d1e5571-Rd1e131">Imperator
+            Probus</ref> Si apud provinciae praesidem aviam filiae tuae quasi
+            paenitentia ductam subtracta instrumenta donationum igni exussisse
+            constiterit, vereri te non oportet, ne id, quod iure vires acceperat,
+            ex post facto possit in dubium revocari. * PROBUS A. FELICI. *&lt;A
+            277 PP. III NON. MAI. SIRMI PROBO A. ET PAULINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5571-Dd1e135">
+               <head xml:id="azsw2e-d1e5571-Hd1e137">3</head>
+               <p xml:id="azsw2e-d1e5571-d1e139">
+                  <ref xml:id="azsw2e-d1e5571-Rd1e141">Imperatores
+            Carus, Carinus, Numerianus</ref> Possessionem, quam in vos emancipatos
+            per donationem mater contulit, ex paenitentia sola alienare non potuit.
+            * CARUS CARINUS ET NUMER. AAA. IANUARIO ET FELICI. *&lt;A 284 PP.
+            II ID. IAN. CARINO II ET NUMERIANO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5571-Dd1e146">
+               <head xml:id="azsw2e-d1e5571-Hd1e148">4</head>
+               <p xml:id="azsw2e-d1e5571-d1e150">
+                  <ref xml:id="azsw2e-d1e5571-Rd1e152">Imperatores
+            Diocletianus, Maximianus</ref> Confiteri in fraudem te alterius donasse
+            professionem inhonestam continere intellegas. Itaque si donationem
+            perfecisti, eam revocare non potes ex memorata adlegatione sub obtentu
+            paenitentiae * DIOCL. ET MAXIM. AA. ET CC. PROCULAE. *&lt;A 293 PP.
+            K. APRIL. HERACLIAE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5571-Dd1e156">
+               <head xml:id="azsw2e-d1e5571-Hd1e158">5</head>
+               <p xml:id="azsw2e-d1e5571-d1e160">
+                  <ref xml:id="azsw2e-d1e5571-Rd1e162">Imperatores
+            Diocletianus, Maximianus</ref> Si donationem rite fecisti, hanc auctoritate
+            rescripti nostri rescindi non oportet. * DIOCL. ET MAXIM. AA. ET CC.
+            EPAGATHO. *&lt;A 293 S. V K. MAI. HERACLIAE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5571-Dd1e166">
+               <head xml:id="azsw2e-d1e5571-Hd1e168">6</head>
+               <p xml:id="azsw2e-d1e5571-d1e170">
+                  <ref xml:id="azsw2e-d1e5571-Rd1e172">Imperatores
+            Diocletianus, Maximianus</ref> Velles nec ne filio tuo praedia itemque
+            mancipia donare, fuit initio tibi liberum. Desine itaque postulare,
+            ut donatio quam perfeceras revocetur sub praetextu mariti ac liberorum
+            absentiae, cum huius firmitas ipsorum praesentia non indigeret * DIOCL.
+            ET MAXIM. AA. ET CC. HERENNIAE. *&lt;A 294 S.V K.OCT. VIMINACII CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5571-Dd1e176">
+               <head xml:id="azsw2e-d1e5571-Hd1e178">7</head>
+               <p xml:id="azsw2e-d1e5571-d1e180">
+                  <ref xml:id="azsw2e-d1e5571-Rd1e182">Imperatores
+            Constantius, Constans</ref>  His solis matribus, quae non in secundi
+            matrimonii foedus nupserint, sed unius tantum matrimonii sunt, revocandarum
+            donationum quas in filios fecerint ita decernimus facultatem, si in
+            eos ingratos circa se esse ostenderint. </p>
+               <p xml:id="azsw2e-d1e5571-d1e185" n="1">
+            Quidquid igitur is qui a matre impietatis arguitur ex titulo
+            donationis tenet eo die, quo controversiae qualecumque principium
+            iussu iudicantis datur, matri cogatur reddere. </p>
+               <p xml:id="azsw2e-d1e5571-d1e188" n="2">
+            Ceterum quae ante adhuc matre pacifica iure perfecta sunt
+            et ante inchoatum coeptumque iurgium vendita donata mutata in dotem
+            data ceterisque causis legitime alienata, minime revocamus. </p>
+               <p xml:id="azsw2e-d1e5571-d1e191" n="3">
+            Actionem vero matris ita personalem esse volumus, ut vindicationis
+            tantum habeat effectum nec in heredem detur nec tribuatur heredi.
+            </p>
+               <p xml:id="azsw2e-d1e5571-d1e195" n="4">
+            De ceteris autem, quae portentuosae vilitatis abiectaeque
+            pudicitiae sunt, satis etiam tacite cautum putamus. Quis est enim,
+            qui his aliquid arbitretur tribuendum esse, cum etiam illis, quae
+            iure, secundas tamen contraxerunt nuptias, nihil ex his privilegiis
+            tributum esse vellemus * CONSTANTIUS ET CONSTANS AA. AD PHILIPPUM
+            PP. *&lt;A 349 D.XII K. OCT. LIMENIO ET CATULLINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5571-Dd1e199">
+               <head xml:id="azsw2e-d1e5571-Hd1e201">8</head>
+               <p xml:id="azsw2e-d1e5571-d1e203">
+                  <ref xml:id="azsw2e-d1e5571-Rd1e205">Imperatores
+            Constantius, Constans</ref> Si umquam libertis patronus filios non
+            habens bona omnia vel partem aliquam facultatum fuerit donatione largitus
+            et postea susceperit liberos, totum quidquid largitus fuerit revertatur
+            in eiusdem donatoris arbitrio ac dicione mansurum. * CONSTANTIUS ET
+            CONSTANS AA. AD ORFITUM PU. *&lt;A 355 D.V K.APRIL.ARBITIONE ET LOLLIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5571-Dd1e209">
+               <head xml:id="azsw2e-d1e5571-Hd1e211">9</head>
+               <p xml:id="azsw2e-d1e5571-d1e213">
+                  <ref xml:id="azsw2e-d1e5571-Rd1e215">Imperatores
+            Theodosius, Valentinianus</ref> Donationes circa filium filiamve,
+            nepotem neptemve, pronepotem proneptemve emancipatos celebratas pater
+            seu avus vel proavus revocare non poterit nisi edoctis manifestissimis
+            causis, quibus eam personam in quam collata donatio est contra ipsam
+            venire pietatem et ex causis quae legibus continentur fuisse constabit
+            ingratam. * THEODOS. ET VALENTIN. AA. AD SENATUM. *&lt;A 426 D.VIII
+            ID. NOV.RAVENNAE THEODOSIO XII ET VALENTINIANO II AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5571-Dd1e220">
+               <head xml:id="azsw2e-d1e5571-Hd1e222">10</head>
+               <p xml:id="azsw2e-d1e5571-d1e224">
+                  <ref xml:id="azsw2e-d1e5571-Rd1e226">Imperator
+            Justinianus</ref>  Generaliter sancimus omnes donationes lege confectas
+            firmas illibatasque manere, si non donationis acceptor ingratus circa
+            donatorem inveniatur, ita ut iniurias atroces in eum effundat vel
+            manus impias inferat vel iacturae molem ex insidiis suis ingerat,
+            quae non levem sensum substantiae donatoris imponit vel vitae periculum
+            aliquid ei intulerit vel quasdam conventiones sive in scriptis donationi
+            impositas sive sine scriptis habitas, quas donationis acceptor spopondit,
+            minime implere voluerit. </p>
+               <p xml:id="azsw2e-d1e5571-d1e229" n="1">
+            Ex his enim tantummodo causis, si fuerint in iudicio dilucidis
+            argumentis cognitionaliter adprobatae, etiam donationes in eos factas
+            everti concedimus, ne sit cuidam licentia et alienas res capere et
+            fragilitatem ridere donatoris et iterum ipsum donatorem suasque res
+            perdere et praefatis malis ab ingrato donationis acceptore adfici.
+            </p>
+               <p xml:id="azsw2e-d1e5571-d1e232" n="2">
+            Haec tamen usque ad primas personas tantummodo stare censemus,
+            nulla licentia concedenda donatoris successoribus huiusmodi querimoniarum
+            primordium instituere. Etenim si ipse qui haec passus est tacuit,
+            silentium eius maneat semper et non a posteritate eius suscitari concedatur
+            vel adversus ipsum qui ingratus esse dicitur vel adversus eius successionem
+            * IUST. A. IULIANO PP. *&lt;A 530 D.XV K.APRIL.CONSTANTINOPOLI LAMPADIO
+            ET ORESTE VV. CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

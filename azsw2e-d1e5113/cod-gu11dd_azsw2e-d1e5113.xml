@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 14</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 14</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5113"><!-- azsw2e-l8t14 -->
+            <head xml:id="azsw2e-d1e5113-Hd1e101">Titulus 14</head>
+            <head xml:id="azsw2e-d1e5113-Hd1e103" type="question-title">In quibus causis pignus tacite contrahitur</head>
+            <div xml:id="azsw2e-d1e5113-Dd1e106">
+               <head xml:id="azsw2e-d1e5113-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5113-d1e110">
+                  <ref xml:id="azsw2e-d1e5113-Rd1e112">Imperator
+            Antoninus</ref> Universa bona eorum qui censentur vice pignorum tributis
+            obligata sunt. * ANT. A. SPERATO. *&lt;A 213 PP. K. IUN. ANTONINO
+            A. IIII ET BALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5113-Dd1e116">
+               <head xml:id="azsw2e-d1e5113-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5113-d1e120">
+                  <ref xml:id="azsw2e-d1e5113-Rd1e122">Imperator
+            Antoninus</ref> Certum est eius qui cum fisco contrahit bona veluti
+            pignoris titulo obligari, quamvis specialiter id non exprimitur. *
+            ANT. A. PROCULO. *&lt;A 214 D. VI K. MART. MESSALA ET SABINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5113-Dd1e126">
+               <head xml:id="azsw2e-d1e5113-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5113-d1e130">
+                  <ref xml:id="azsw2e-d1e5113-Rd1e132">Imperator
+            Alexander Severus</ref> Quamvis fructus pignori datorum praediorum,
+            etsi id aperte non sit expressum, et ipsi pignori credantur tacita
+            pactione esse, praedia tamen, quae emuntur ex fructuum pretio, ad
+            eandem causam venire nulli prudentium placuit. * ALEX. A. PARS EX
+            RESCRIPTO.*&lt;A 223 PP. ID. OCT. MAXIMO II ET AELIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5113-Dd1e137">
+               <head xml:id="azsw2e-d1e5113-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e5113-d1e141">
+                  <ref xml:id="azsw2e-d1e5113-Rd1e143">Imperatores
+            Carus, Carinus, Numerianus</ref> Satis notum est et idem constitutum
+            bona earum in dotem data, quae nuptae sunt his qui primipili sarcinam
+            subeunt, obnoxia necessitati ei teneri: verum certo ordine, ut scilicet
+            tunc demum ad hoc mulieris patrimonium periculum respiciat, si universis
+            viri ac nominatorum facultatibus exhaustis nihil residuum inveniatur.
+            * CARUS CARINUS ET NUMER. AAA. *&lt;A 283 D. V ID. AUG. CARO ET CARINO
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5113-Dd1e147">
+               <head xml:id="azsw2e-d1e5113-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e5113-d1e151">
+                  <ref xml:id="azsw2e-d1e5113-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Si non in inductis et illatis in fundum,
+            quae pignoris teneri causa placuerat, mancipia fuissent nec haec specialiter
+            obligata monstrentur, rector provinciae ea restitui iubebit. Nec enim
+            praetextu debiti pensionum restitutionem horum morari potest, cum,
+            si quid sibi deberi domina fundi ex pensionibus vel quacumque ratione
+            probare possit, huius solutionem sollemniter fieri conveniat * DIOCL.
+            ET MAXIM. AA. ET CC. CORINTHIAE. *&lt;A 294 SUBSCR. XII K. FEBR. CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5113-Dd1e157">
+               <head xml:id="azsw2e-d1e5113-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e5113-d1e161">
+                  <ref xml:id="azsw2e-d1e5113-Rd1e163">Imperatores
+            Theodosius, Valentinianus</ref> Si mater legitima liberorum tutela
+            suscepta ad secundas contra sacramentum praestitum adspiraverit nuptias,
+            antequam ei tutorem alium fecerit ordinari eique quod debetur ex ratione
+            tutelae gestae persolverit, mariti quoque eius praeteritae tutelae
+            ratiociniis bona iure pignoris tenebuntur obnoxia. * THEODOS. ET VALENTIN.
+            AA. AD FLORENTIUM PP. *&lt;A 439 D. VI ID. IUL. CONSTANTINOPOLI THEODOSIO
+            A. XVII ET FESTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5113-Dd1e167">
+               <head xml:id="azsw2e-d1e5113-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e5113-d1e171">
+                  <ref xml:id="azsw2e-d1e5113-Rd1e173">Imperator
+            Justinianus</ref> Sancimus de invectis a conductore rebus et illatis,
+            quae domino pro pensionibus tacite obligantur, non solum in utraque
+            roma et territorio earum hoc ius locum habere, sed etiam in nostris
+            provinciis. Tali enim iusta praesumptione etiam omnes nostros provinciales
+            perpotiri desideramus * IUST. A. IOHANNI PP. *&lt;A 532 D. XV K. NOV.
+            POST CONSULATUM LAMPADII ET ORESTIS VV. CC. ANNO SECUNDO.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 18</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 18</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5811"><!-- azsw2e-l9t18 -->
+            <head xml:id="azsw2e-d1e5811-Hd1e101">Titulus 18</head>
+            <head xml:id="azsw2e-d1e5811-Hd1e103" type="question-title">De maleficiis et mathematicis et ceteris similibus</head>
+            <div xml:id="azsw2e-d1e5811-Dd1e106">
+               <head xml:id="azsw2e-d1e5811-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5811-d1e110">
+                  <ref xml:id="azsw2e-d1e5811-Rd1e112">Imperator
+            Antoninus</ref> Plus est hominem veneno extinguere quam occidere gladio.
+            * ANT. A. *&lt;A XXX PP. SINE DIE ET CONSULE.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5811-Dd1e116">
+               <head xml:id="azsw2e-d1e5811-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5811-d1e120">
+                  <ref xml:id="azsw2e-d1e5811-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> Artem geometriae discere atque exerceri
+            publice intersit. Ars autem mathematica damnabilis interdicta est
+            * DIOCL. ET MAXIM. AA. ET CC. TIBERIO. *&lt;A 294 S.XIII K.SEPT.SIRMI
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5811-Dd1e126">
+               <head xml:id="azsw2e-d1e5811-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5811-d1e130">
+                  <ref xml:id="azsw2e-d1e5811-Rd1e132">Imperator
+            Constantinus</ref>  Nullus haruspex, nullus sacerdos, nullus eorum,
+            qui huic ritui adsolent ministrare, limen alterius accedat nec ob
+            alteram causam, sed huiusmodi hominum amicitia quamvis vetus repellatur:
+            concremando illo haruspice, qui ad domum alienam accesserit, et illo
+            in insulam detrudendo post ademptionem bonorum, qui eum evocaverit
+            suasionibus vel praemiis. </p>
+               <p xml:id="azsw2e-d1e5811-d1e135" n="1">
+            Accusatorem autem huius criminis non delatorem esse, sed
+            dignum magis praemio arbitramur. * CONST. A. AD MAXIMUM. *&lt;A 319
+            PP.K.FEBR.ROMAE CONSTANTINO A.V ET LICINIO C.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5811-Dd1e140">
+               <head xml:id="azsw2e-d1e5811-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e5811-d1e144">
+                  <ref xml:id="azsw2e-d1e5811-Rd1e146">Imperator
+            Constantinus</ref>  Eorum est scientia punienda et severissimis merito
+            legibus vindicanda, qui magicis adcincti artibus aut contra salutem
+            hominum moliti aut pudicos animos ad libidinem deflexisse detegentur.
+            </p>
+               <p xml:id="azsw2e-d1e5811-d1e149" n="1">
+            Nullis vero criminationibus implicanda sunt remedia humanis
+            quaesita corporibus aut in agrestibus locis innocenter adhibita suffragia,
+            ne maturis vindemiis metuerentur imbres aut ruentis grandinis lapidatione
+            quaterentur, quibus non cuiusque salus aut aestimatio laederetur,
+            sed quorum proficerent actus, ne divina munera et labores hominum
+            sternerentur. * CONST. A. ET C. AD BASSUM PP. *&lt;A 321 D.X K.IUN.AQUILEIAE
+            CRISPO ET CONSTANTINO CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5811-Dd1e153">
+               <head xml:id="azsw2e-d1e5811-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e5811-d1e157">
+                  <ref xml:id="azsw2e-d1e5811-Rd1e159">Imperator
+            Constantius</ref> Nemo haruspicem consulat aut mathematicum, nemo
+            hariolum. Augurum et vatum prava confessio conticescat. Chaldaei ac
+            magi et ceteri, quos maleficos ob facinorum magnitudinem vulgus appellat,
+            nec ad hanc partem aliquid moliantur. Sileat omnibus perpetuo divinandi
+            curiositas. Etenim supplicium capitis feret gladio ultore prostratus,
+            quicumque iussis obsequium denegave * CONSTANTIUS A. AD POP. *&lt;A
+            357 D.VIII K.FEBR.MEDIOLANI CONSTANTIO A.VIIII ET IULIANO C. II CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5811-Dd1e163">
+               <head xml:id="azsw2e-d1e5811-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e5811-d1e167">
+                  <ref xml:id="azsw2e-d1e5811-Rd1e169">Imperator
+            Constantius</ref> Multi magicis artibus usi elementa turbare, vitas
+            insontium labefactare non dubitant et manibus accitis audent ventilare,
+            ut quisque suos conficiat malis artibus inimicos. Hos, quoniam naturae
+            peregrini sunt, feralis pestis absumat * CONSTANTIUS A. ET C. AD POP.
+            *&lt;A 357 D.PRID.NON.DEC.MEDIOLANI CONSTANTIO A.VIIII ET IULIANO
+            C. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5811-Dd1e173">
+               <head xml:id="azsw2e-d1e5811-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e5811-d1e177">
+                  <ref xml:id="azsw2e-d1e5811-Rd1e179">Imperator
+            Constantius</ref>  Etsi excepta tormentis sunt corpora honoribus praeditorum
+            ( praeter illa videlicet crimina, quae legibus demonstrantur), etsi
+            homines magi, in quacumque sint parte terrarum, humani generis inimici
+            credendi sunt, tamen quoniam qui in comitatu nostro sunt ipsam pulsant
+            propemodum maiestatem, si quis magus vel magicis contaminibus adsuetus,
+            qui maleficus vulgi consuetudine nuncupatur, aut haruspex aut hariolus
+            aut certe augur vel etiam mathematicus aut narrandis somniis occultans
+            artem aliquam divinandi aut certe aliquid horum simile exercens in
+            comitatu meo vel caesaris fuerit deprehensus, praesidio dignitatis
+            cruciatus et tormenta non fugiat.</p>
+               <p xml:id="azsw2e-d1e5811-d1e182" n="1">
+            Si convictus ad proprium facinus detegentibus repugnaverit
+            pernegando, sit eculeo deditus ungulisque sulcantibus latera perferat
+            poenas proprio dignas facinore.* CONSTANTIUS A. ET C. AD TAURUM
+            PP. *&lt;A 358 D.III NON.IUL.ARIMINI DATIANO ET CEREALE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5811-Dd1e186">
+               <head xml:id="azsw2e-d1e5811-Hd1e188">8</head>
+               <p xml:id="azsw2e-d1e5811-d1e190">
+                  <ref xml:id="azsw2e-d1e5811-Rd1e192">Imperatores
+            Valentinianus, Valens</ref> Culpa similis est prohibita discere quam
+            docere. * VALENTIN. ET VALENS AA. AD MODESTUM PP. *&lt;A 365 D.PRID.ID.DEC.CONSTANTINOPOLI
+            VALENTINIANO ET VALENTE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5811-Dd1e196">
+               <head xml:id="azsw2e-d1e5811-Hd1e198">9</head>
+               <p xml:id="azsw2e-d1e5811-d1e200">
+                  <ref xml:id="azsw2e-d1e5811-Rd1e202">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref>  Quicumque maleficiorum labe
+            pollutum audierit deprehenderit occupaverit, ilico ad publicum protrahat
+            et iudiciorum oculis communis hostem salutis ostendat. </p>
+               <p xml:id="azsw2e-d1e5811-d1e205" n="1">
+            Quod si quisquam ex agitatoribus ( id est aurigis) seu ex
+            quolibet alio genere hominum contra hoc interdictum venire temptaverit
+            aut clandestinis suppliciis etiam manifestum reum maleficae artis
+            oppresserit, ultimum supplicium non evadat geminae suspicionis obnoxius,
+            quod aut publicum reum, ne facinoris socios publicaret, severitati
+            legum et debitae subtraxerit quaestioni aut proprium fortassis inimicum
+            sub huiusmodi vindictae nomine consilio atrociore confecerit. * VALENTIN.
+            THEODOS. ET ARCAD. AAA. ALBINO PU. *&lt;A 389 D.XVII K.SEPT.ROMAE
+            TIMASIO ET PROMOTO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

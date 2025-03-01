@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 71</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 71</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3376"><!-- azsw2e-l5t71 -->
+            <head xml:id="azsw2e-d1e3376-Hd1e101">Titulus 71</head>
+            <head xml:id="azsw2e-d1e3376-Hd1e103" type="question-title">De praediis vel aliis rebus minorum sine decreto non alienandis vel
+            obligandis</head>
+            <div xml:id="azsw2e-d1e3376-Dd1e106">
+               <head xml:id="azsw2e-d1e3376-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3376-d1e110">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e112">Imperator
+            Antoninus</ref>  Venditio quidem praedii, quod iure pignoris vel in
+            causa iudicati captum et distractum est, ad senatus consultum, quod
+            de alienandis praediis pupillorum vel adulescentium auctore praetore
+            vel praeside provinciae factum est, non pertinet. </p>
+               <p xml:id="azsw2e-d1e3376-d1e115" n="1">
+            Sed si etiam nunc in ea aetate es, cui subveniri solet, aditus
+            competens iudex, an te in integrum restituere debeat, praesente diversa
+            parte causa cognita dispiciet. * ANT. A. MUCIANO. *&lt;A 212 PP.XIII
+            K.DEC.DUOBUS ASPRIS CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e119">
+               <head xml:id="azsw2e-d1e3376-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e3376-d1e123">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e125">Imperator
+            Gordianus</ref>  Non est vobis necessaria in integrum restitutio, si
+            tutores vel curatores vestri possessionem, licet pignori nexam, vendiderunt.
+            </p>
+               <p xml:id="azsw2e-d1e3376-d1e128" n="1">
+            Quod si creditores id fecerint, ita demum iuxta formam edicti
+            beneficium tibi impertietur, si fraudulenter venditione, participante
+            consilium emptore, damnum tibi inflictum esse doceatur. * GORD. A.
+            CLEARCHO ET APHRODISIO. *&lt;A 239 PP. III K. FEBR. GORDIANO A. ET
+            AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e132">
+               <head xml:id="azsw2e-d1e3376-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e3376-d1e136">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e138">Imperatores
+            Valerianus, Gallienus</ref> Cum emancipatis vobis praedium adquisitum
+            foret, alienari a patre eodemque curatore sine praesidis auctoritate
+            non potuit, maxime si, tamquam suum esset, non tamquam pupillare vendiderit,
+            illibataque vobis persecutio eius manet. * VALER. ET GALLIEN. AA.
+            THEODOSIANO ET ALIIS. *&lt;A 258 PP. III NON. IAN. TUSCO ET BASSO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e143">
+               <head xml:id="azsw2e-d1e3376-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e3376-d1e147">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e149">Imperatores
+            Valerianus, Gallienus</ref>  Non solum per venditionem rustica praedia
+            vel suburbana pupilli vel adulescentes alienare prohibentur, sed neque
+            transactionis ratione neque permutatione et multo magis donatione
+            nec alio quoquo modo ea transferre e dominio suo possunt. </p>
+               <p xml:id="azsw2e-d1e3376-d1e152" n="1">
+            Igitur et tu si fratribus tuis per transactionem fundum dedisti,
+            vindicare eum potes. Sed si quid invicem ab eis ex eodem pacto consecutus
+            es, id mutuo restituere debebis * VALER. ET GALLIEN. AA. MITHRIDATI.
+            *&lt;A 260 PP.XV K. MAI. SAECULARE II ET DONATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e156">
+               <head xml:id="azsw2e-d1e3376-Hd1e158">5</head>
+               <p xml:id="azsw2e-d1e3376-d1e160">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e162">Imperatores
+            Valerianus, Gallienus</ref> Etsi praeses decreverit alienandum vel
+            obligandum pupilli suburbanum vel rusticum praedium, tamen actionem
+            pupillo, si falsis adlegationibus circumventam religionem eius probare
+            possit, senatus reservavit: quam exercere tu quoque non vetaris. *
+            VALER. ET GALLIEN. AA. SERENO. *&lt;A 260 PP. III K. MAI. SAECULARE
+            II ET DONATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e166">
+               <head xml:id="azsw2e-d1e3376-Hd1e168">6</head>
+               <p xml:id="azsw2e-d1e3376-d1e170">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e172">Imperatores
+            Carus, Carinus, Numerianus</ref> Minorum possessionis venditio, per
+            procuratorem delato ad praetorem vel praesidem provinciae libello,
+            fieri non potuit, cum ea res confici recte aliter non potest, nisi
+            apud acta causis probatis, quae venditioni necessitatem inferant,
+            decretum sollemniter interponatur. * CARUS CARINUS ET NUMER. AAA.
+            VARO. *&lt;A 283 PP. NON. MART. CARO ET CARINO AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e176">
+               <head xml:id="azsw2e-d1e3376-Hd1e178">7</head>
+               <p xml:id="azsw2e-d1e3376-d1e180">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e182">Imperatores
+            Carus, Carinus, Numerianus</ref> Si ad resolvendam donationem, quam
+            in emancipatum te pater contulerit, minor annis cautionem emisisti,
+            cum huiusmodi scriptura contra senatus consulti auctoritatem data
+            sit, non oberit iuri tuo. * CARUS CARINUS ET NUMER. AAA. ISIDORO.
+            *&lt;A 283 PP. VI ID. SEPT. HEMESAE CARO ET CARINO AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e186">
+               <head xml:id="azsw2e-d1e3376-Hd1e188">8</head>
+               <p xml:id="azsw2e-d1e3376-d1e190">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e192">Imperatores
+            Diocletianus, Maximianus</ref> Praedia rustica, quae contra senatus
+            consultum donata esse ante nuptias sponsaliorum nomine precum tuarum
+            confessio ostendit, cum proprietas ad te propter iuris interdictum
+            transire non potuerit, in dominio mariti permansisse palam est. *
+            DIOCL. ET MAXIM. AA. THEODOTAE. *&lt;A 285 PP. III NON. NOV. DIOCLETIANO
+            A. II ET ARISTOBULO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e196">
+               <head xml:id="azsw2e-d1e3376-Hd1e198">9</head>
+               <p xml:id="azsw2e-d1e3376-d1e200">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e202">Imperatores
+            Diocletianus, Maximianus</ref>  Etsi is, quem praedium rusticum minoris
+            distraxisse adfirmas, curatoris officio functus id fecit, venditio
+            tamen contra divi severi orationem facta praesidis sententia non immerito
+            rescissa est. </p>
+               <p xml:id="azsw2e-d1e3376-d1e205" n="1">
+            Pignora sane, quae ob evictionis periculum idem curator ex
+            rebus propriis tibi obligavit, non prohiberis persequi. * DIOCL. ET
+            MAXIM. AA. MUCIANO. *&lt;A 285 PP. NON. NOV. DIOCLETIANO A. II ET
+            ARISTOBULO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e210">
+               <head xml:id="azsw2e-d1e3376-Hd1e212">10</head>
+               <p xml:id="azsw2e-d1e3376-d1e214">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e216">Imperatores
+            Diocletianus, Maximianus</ref> Praediorum, quae sine decreto alienata
+            sunt, dominium tibi persequenti praeses opem feret. Apud quem si illuxerit
+            non universa pretia, quae curatori tuo data sunt, in patrimonium tuum
+            processisse, pro ea dumtaxat pecuniae parte conveniri te permittit,
+            quam in facultates tuas erogatam esse constiterit * DIOCL. ET MAXIM.
+            AA. GRATO. *&lt;A 290 PP. V ID. AUG. IPSIS IIII ET III AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e220">
+               <head xml:id="azsw2e-d1e3376-Hd1e222">11</head>
+               <p xml:id="azsw2e-d1e3376-d1e224">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e226">Imperatores
+            Diocletianus, Maximianus</ref>  Si quidem sine decreto minor annis
+            patronus tuus rusticum praedium venumdedit, supervacuum est de vili
+            pretio tractare, cum senatus consulti auctoritas retento dominio alienandi
+            viam obstruxerit. </p>
+               <p xml:id="azsw2e-d1e3376-d1e229" n="1">
+            Si vero iure interposito decreto venditionem vili pretio
+            eius possessionis, cuius vires ignorabat, fecit, iuxta perpetui edicti
+            auctoritatem in integrum restitutio causa cognita ei praebetur. *
+            DIOCL. ET MAXIM. AA. TROPHIMO. *&lt;A 290 PP. XII K. DEC. IPSIS IIII
+            ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e233">
+               <head xml:id="azsw2e-d1e3376-Hd1e235">12</head>
+               <p xml:id="azsw2e-d1e3376-d1e237">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e239">Imperatores
+            Diocletianus, Maximianus</ref> Ob aes alienum tantum causa cognita
+            praesidali decreto praedium rusticum minoris provinciale distrahi
+            permittitur. * DIOCL. ET MAXIM. AA. ET CC. LEONTIO. *&lt;A 293 S.
+            PRID. K. MAI. HERACLIAE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e243">
+               <head xml:id="azsw2e-d1e3376-Hd1e245">13</head>
+               <p xml:id="azsw2e-d1e3376-d1e247">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e249">Imperatores
+            Diocletianus, Maximianus</ref> Etiam vectigale vel patrimoniale sive
+            emphyteuticum praedium sine decreto praesidis distrahi non licet.
+            * DIOCL. ET MAXIM. AA. ET CC. ZENONILLAE. *&lt;A 293 S. VIII K. SEPT.
+            SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e253">
+               <head xml:id="azsw2e-d1e3376-Hd1e255">14</head>
+               <p xml:id="azsw2e-d1e3376-d1e257">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e259">Imperatores
+            Diocletianus, Maximianus</ref> Utere viri prudentissimi papiniani
+            responso ceterorumque, quorum precibus fecisti mentionem, sententiis
+            ac doli mali exceptionem oppone, pretium ob eorum debitum solutum
+            probans, si sortem cum usuris, quae fisco deberentur, pupilli non
+            offerentes fundos provinciales citra decretum praesidis venumdatos
+            cum fructibus petant. * DIOCL. ET MAXIM. AA. ET CC. FRONTONI. *&lt;A
+            293 S. XVIII K. DEC. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e263">
+               <head xml:id="azsw2e-d1e3376-Hd1e265">15</head>
+               <p xml:id="azsw2e-d1e3376-d1e267">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e269">Imperatores
+            Diocletianus, Maximianus</ref> Si minor viginti quinque annis praedium
+            rusticum, cum aliud deberes, sine decreto in solutum dedisti, dominium
+            a te discedere non permisit senatus consulti auctoritas. * DIOCL.
+            ET MAXIM. AA. ET CC. SABINAE. *&lt;A 293 S. VIII K. DEC. AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e274">
+               <head xml:id="azsw2e-d1e3376-Hd1e276">16</head>
+               <p xml:id="azsw2e-d1e3376-d1e278">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e280">Imperatores
+            Diocletianus, Maximianus</ref>  Si praedium rusticum vel suburbanum,
+            quod ab urbanis non loco, sed qualitate secernitur, in pupillari aetate
+            constituta tutore auctore vel adulta sine decreto praesidis provinciae
+            in qua situm est venumdedisti, secundum sententiam senatus consulti
+            dominium eius sive ius a te discedere non potuit, sed vindicationem
+            eius et fructuum, vel his non existentibus condictionem competere
+            constitit. </p>
+               <p xml:id="azsw2e-d1e3376-d1e283" n="1">
+            Emptor autem si probare potuerit ex ceteris facultatibus
+            oboedire te muneribus sive honoribus non potuisse, ad utilitates praeterea
+            tuas cessisse pecuniam, quam pretii nomine sumpseras, doli exceptionis
+            auxilio pretium cum usuris, quas praestatura esses, et sumptus meliorati
+            praedii servare tantummodo potest. * DIOCL. ET MAXIM. AA. ET CC. EUTYCHIAE.
+            *&lt;A 294 S. VI ID. APRIL. ANCHIALO CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e287">
+               <head xml:id="azsw2e-d1e3376-Hd1e289">17</head>
+               <p xml:id="azsw2e-d1e3376-d1e291">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e293">Imperatores
+            Diocletianus, Maximianus</ref> Inter omnes minores nec commune praedium
+            sine decreto praesidis sententia senatus consulti distrahi patitur.
+            Nam ad divisionis causam provocante tantum maiore socio eius alienationem
+            et sine decreto fieri iam pridem obtinuit * DIOCL. ET MAXIM. AA. ET
+            CC. PHILIPPO. *&lt;A 294 S. VII ID. DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3376-Dd1e297">
+               <head xml:id="azsw2e-d1e3376-Hd1e299">18</head>
+               <p xml:id="azsw2e-d1e3376-d1e301">
+                  <ref xml:id="azsw2e-d1e3376-Rd1e303">Imperator
+            Constantinus</ref> Si minores vel ex patris nomine vel ex suo, debitis
+            dumtaxat fiscalibus ingruentibus, vel ex privatis contractibus reperiantur
+            obnoxii, decreti interpositio a constantiniano praetore celebranda
+            est, probatis examussim causis, ut patefacta rerum fide firma venditio
+            perseveret. * CONST. A. ET CONST. C. AD SEVERUM. *&lt;A 322 D. XV
+            K. IAN. SERDICAE PROBIANO ET IULIANO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

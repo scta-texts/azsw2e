@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 16</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 16</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6363"><!-- azsw2e-l10t16 -->
+            <head xml:id="azsw2e-d1e6363-Hd1e101">Titulus 16</head>
+            <head xml:id="azsw2e-d1e6363-Hd1e103" type="question-title">De annona et tributis.</head>
+            <div xml:id="azsw2e-d1e6363-Dd1e106">
+               <head xml:id="azsw2e-d1e6363-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6363-d1e110"><!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e6363-Dd1e114">
+               <head xml:id="azsw2e-d1e6363-Hd1e116">2</head>
+               <p xml:id="azsw2e-d1e6363-d1e118">
+                  <ref xml:id="azsw2e-d1e6363-Rd1e120">Imperatores
+            Valerianus, Gallienus</ref> Aes quidem alienum pro portionibus, ex
+            qua quisque defuncto heres extitit, praestare oportet, annonas autem
+            is solvere debet, qui possessiones tenet et fructus percipit. * VALER.
+            ET GALLIEN. AA. ET VALER. C. ANTIOCHO. *&lt;A 260 PP... SAECULARE ET DONATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6363-Dd1e124">
+               <head xml:id="azsw2e-d1e6363-Hd1e126">3</head>
+               <p xml:id="azsw2e-d1e6363-d1e128">
+                  <ref xml:id="azsw2e-d1e6363-Rd1e130">Imperator
+            Decius</ref> Indictiones non personis, sed rebus indici solent:
+            et ideo, ne ultra modum earundem possessionum quas possides conveniaris,
+            praeses provinciae prospiciet. * DEC. A. CITICIO.
+            *&lt;A 249 PP. XVII K. NOV. AEMILIANO ET AQUILINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6363-Dd1e135">
+               <head xml:id="azsw2e-d1e6363-Hd1e137">4</head>
+               <p xml:id="azsw2e-d1e6363-d1e139">
+                  <ref xml:id="azsw2e-d1e6363-Rd1e141">Imperator
+            Constantinus</ref> Omnes pensitare debebunt, quae manus nostrae delegationibus
+            adscribuntur, nihil amplius exigendi. Nam si quis vicarius aut rector
+            provinciae aliquid iam cuiquam crediderit remittendum, quod aliis
+            remiserit, de propriis dare facultatibus compelletur * CONST. A. AD PROCLIANUM. *&lt;A 315 D. XV K. IUL. CONSTANTINO A. IIII
+            ET LICINIO IIII CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6363-Dd1e145">
+               <head xml:id="azsw2e-d1e6363-Hd1e147">5</head>
+               <p xml:id="azsw2e-d1e6363-d1e149">
+                  <ref xml:id="azsw2e-d1e6363-Rd1e151">Imperator
+            Constantius</ref> Omnes omnino ad oblationem
+            functionum publicarum oportet urgueri. Lege enim nostra signatum
+            est nec esse extraordinaria nec vocari, quae sollemniter a provincialibus
+            devotissimis conferenda sunt * CONSTANTIUS A. AD URANIUM. *&lt;A 339
+            D. III NON. FEBR. CONSTANTIO A. II ET CONSTANTE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6363-Dd1e155">
+               <head xml:id="azsw2e-d1e6363-Hd1e157">6</head>
+               <p xml:id="azsw2e-d1e6363-d1e159">
+                  <ref xml:id="azsw2e-d1e6363-Rd1e161">Imperatores
+            Valentinianus, Valens</ref> Pro locis ac proximitate
+            possessionum annonam ad limitem transvehi praecipimus. * VALENTIN.
+            ET VALENS AA. AD DRACONTIUM VIC. AFRICAE. *&lt;A 365 D. XV K. IUL. MEDIOLANI
+            VALENTINIANO ET VALENTE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6363-Dd1e165">
+               <head xml:id="azsw2e-d1e6363-Hd1e167">7</head>
+               <p xml:id="azsw2e-d1e6363-d1e169">
+                  <ref xml:id="azsw2e-d1e6363-Rd1e171">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> In fraudem annonariae rei
+            ac devotionis publicae elicitum damnabili subreptione rescriptum manifestum
+            est vires non posse sortiri circa omnes igitur par atque aequalis
+            illationis forma teneat. * GRAT. VALENTIN. ET THEODOS. AAA.
+            AD PRINCIPIUM PP. *&lt;A 385 D. VIII K. OCT. AQUILEIA ARCADIO
+            A. ET BAUTONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6363-Dd1e175">
+               <head xml:id="azsw2e-d1e6363-Hd1e177">8</head>
+               <p xml:id="azsw2e-d1e6363-d1e179">
+                  <ref xml:id="azsw2e-d1e6363-Rd1e181">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Nemo possessorum ad instruendas mansiones vel conferendas species longius
+            delegetur, sed omnis itineris ac necessitatis habita ratione delegentur.
+            * VALENTIN. THEODOS. ET ARCAD. AAA. CYNEGIO PP.
+            *&lt;A 385 D. X K. IAN. CONSTANTINOPOLI ARCADIO A. ET BAUTONE
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6363-Dd1e185">
+               <head xml:id="azsw2e-d1e6363-Hd1e187">9</head>
+               <p xml:id="azsw2e-d1e6363-d1e189">
+                  <ref xml:id="azsw2e-d1e6363-Rd1e191">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Mediterraneae civitates
+            antea maritimis et maritimae mediterraneis onerabantur expensis, ut
+            plus haberet dispendii translatio quam devotionis illatio. Hoc non
+            solum in praesens, verum etiam in posterum prohibemus ea lege, ut
+            se ultimo noverint supplicio puniendos, qui ista commiserint * VALENTIN.
+            THEODOS. ET ARCAD. AAA. CYNEGIO PP. *&lt;A 386
+            D. III NON. SEPT. VALENTIAE HONORIO NP. ET EUODIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6363-Dd1e196">
+               <head xml:id="azsw2e-d1e6363-Hd1e198">10</head>
+               <p xml:id="azsw2e-d1e6363-d1e200">
+                  <ref xml:id="azsw2e-d1e6363-Rd1e202">Imperatores
+            Arcadius, Honorius</ref> Obsistere commodis publicis et statutis
+            necessitatibus non possunt privilegia dignitatum. Unde ut quisque
+            praedii emolumenta consequitur, si non is evoluto anni spatio intra
+            sex menses omnem cui esse constrictus dicitur reliquorum intulerit
+            cumulum, ad ipsos qui sunt domini praedii exactionem volumus pertinere
+            * ARCAD. ET HONOR. AA. MINERVIO COM. RER. PRIVAT. *&lt;A 398 PP. ROMAE HONORIO
+            A. IIII ET EUTYCHIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6363-Dd1e206">
+               <head xml:id="azsw2e-d1e6363-Hd1e208">11</head>
+               <p xml:id="azsw2e-d1e6363-d1e210">
+                  <ref xml:id="azsw2e-d1e6363-Rd1e212">Imperatores
+            Arcadius, Honorius</ref> Iudices, quos circa
+            profliganda aerarii nostri compendia neglegentes ac desides fuisse
+            constiterit, omnia quae in administratione positi perceperunt emolumenta
+            reddere compellantur. * ARCAD. ET HONOR. AA. HADRIANO PP. *&lt;A 401 D. III K. MART. MEDIOLANI VINCENTIO
+            ET FRAVITO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6363-Dd1e216">
+               <head xml:id="azsw2e-d1e6363-Hd1e218">12</head>
+               <p xml:id="azsw2e-d1e6363-d1e220">
+                  <ref xml:id="azsw2e-d1e6363-Rd1e222">Imperator
+            Theodosius</ref>  Id ab unaquaque provincia censuimus expetendum, quod
+            ab isdem nuper esse promissum tua sublimitas indicavit. </p>
+               <p xml:id="azsw2e-d1e6363-d1e225" n="1">
+            Ut nullus vero de cetero ad possessiones eorum ( quod maxime
+            formidant) inspector accedat, macedonum reliqui exemplum secuti mediae
+            quantitatis, ut obtulisse noscuntur, tributa sucipiant( !). </p>
+               <p xml:id="azsw2e-d1e6363-d1e228" n="2">
+            Sed achivi, qui protestati sunt nihil a se ultra tertiam
+            partem posse conferri, illud exsolvant, ad quod se indubitanter fore
+            idoneos pollicentur. </p>
+               <p xml:id="azsw2e-d1e6363-d1e231" n="3">
+            Quae dispositio in perpetuum observabitur: sacrosancta thessalonicensis
+            ecclesia civitatis excepta, ita tamen, ut aperta sciat propriae tantummodo
+            capitationis modum beneficio mei numinis sublevandum, nec externorum
+            gravamine tributorum rem publicam ecclesiastici nominis abusione laedendam.
+            * THEODOS. A. ISIDORO PP. ILLYRICI. *&lt;A 424 D.
+            VI ID. OCT. CONSTANTINOPOLI VICTORE VC. CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6363-Dd1e235">
+               <head xml:id="azsw2e-d1e6363-Hd1e237">13</head>
+               <p xml:id="azsw2e-d1e6363-d1e239"><!-- Greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

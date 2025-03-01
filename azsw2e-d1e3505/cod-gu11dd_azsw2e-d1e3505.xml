@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 7</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 7</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3505"><!-- azsw2e-l6t7 -->
+            <head xml:id="azsw2e-d1e3505-Hd1e101">Titulus 7</head>
+            <head xml:id="azsw2e-d1e3505-Hd1e103" type="question-title">De libertis et eorum liberis</head>
+            <div xml:id="azsw2e-d1e3505-Dd1e106">
+               <head xml:id="azsw2e-d1e3505-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3505-d1e110">
+                  <ref xml:id="azsw2e-d1e3505-Rd1e112">Imperator
+            Antoninus</ref> Non est ignotum, quod ea, quae ex causa fideicommissi
+            manumisit, ut ingratum libertum accusare non potest, cum id iudicium
+            extra ordinem praebeatur ei, qui voluntate servo suo libertatem gratuitam
+            praestitit, non qui debitam restituit. * ANT. A. DAPHNO. *&lt;A 214
+            PP. V K. MAI. MESSALA ET SABINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3505-Dd1e116">
+               <head xml:id="azsw2e-d1e3505-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3505-d1e120">
+                  <ref xml:id="azsw2e-d1e3505-Rd1e122">Imperator
+            Constantinus</ref>  Si manumissus ingratus circa patronum suum extiterit
+            et quadam iactantia vel contumacia cervices adversus eum erexerit
+            aut levis offensae contraxerit culpam, a patronis rursus sub imperia
+            dicionemque mittatur, si in iudicio vel apud pedaneos iudices patroni
+            querella exserta ingratum eum ostendat: filiis etiam qui postea nati
+            fuerint servituris, quoniam illis delicta parentium non nocent, quos
+            tunc ortos esse constiterit, dum libertate illi potirentur. </p>
+               <p xml:id="azsw2e-d1e3505-d1e125" n="1">
+            Sane si is, qui in nostro consilio vindicta liberatus est,
+            post coercitionem ex paenitentia dignum se praestiterit, ut ei civitas
+            Romana reddatur, non prius fruetur beneficio libertatis, quam si hoc
+            patronus eius oblatis precibus impetraverit. * CONST. A. AD MAXIMUM
+            PU. *&lt;A 326 PP. ID. APRIL. ROMAE CONSTANTINO A. VII ET CONSTANTIO
+            C. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3505-Dd1e129">
+               <head xml:id="azsw2e-d1e3505-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e3505-d1e133">
+                  <ref xml:id="azsw2e-d1e3505-Rd1e135">Imperatores
+            Honorius, Theodosius</ref> Liberti non modo adversus patronos non
+            audientur, verum etiam eandem quam patronis ipsis reverentiam praestent
+            heredibus patronorum, quibus ingrati actio sicut ipsis manumissoribus
+            deferetur, si illi datae sibi libertatis immemores nequitiam receperint
+            servilis ingenii. * HONOR. ET THEODOS. AA. AD SENATUM. *&lt;A 423
+            D. VIII ID. AUG. RAVENNAE MARINIANO ET ASCLEPIODOTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3505-Dd1e140">
+               <head xml:id="azsw2e-d1e3505-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e3505-d1e144">
+                  <ref xml:id="azsw2e-d1e3505-Rd1e146">Imperatores
+            Theodosius, Valentinianus</ref> Libertinae condicionis homines vel
+            eorum filii si militantes docebuntur ingrati, ad servitutis nexum
+            procul dubio reducentur. * THEODOS. ET VALENTIN. AA. BASSO PP. *&lt;A
+            426 D. III K. APRIL. RAVENNAE THEODOSIO XII ET VALENTINIANO II AA.
+            CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

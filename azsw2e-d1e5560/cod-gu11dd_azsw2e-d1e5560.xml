@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 54</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 54</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5560"><!-- azsw2e-l8t54 -->
+            <head xml:id="azsw2e-d1e5560-Hd1e101">Titulus 54</head>
+            <head xml:id="azsw2e-d1e5560-Hd1e103" type="question-title">De donationibus quae sub modo vel condicione vel ex certo tempore
+            conficiuntur</head>
+            <div xml:id="azsw2e-d1e5560-Dd1e106">
+               <head xml:id="azsw2e-d1e5560-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5560-d1e110">
+                  <ref xml:id="azsw2e-d1e5560-Rd1e112">Imperatores
+            Valerianus, Gallienus</ref>  Si doceas, ut adfirmas, nepti tuae ea
+            lege a te esse donatum, ut certa tibi alimenta praeberet, vindicationem
+            etiam hoc casu utilem eo. Quod legi illa obtemperare noluerit, impetrare
+            potes, id est actionem, qua dominium pristinum restituatur tibi </p>
+               <p xml:id="azsw2e-d1e5560-d1e115" n="1">
+            Nam condictio quidem hoc casu ( id est in personam actio)
+            iure procedit: verum vindicationem quoque divi principes in hoc casu
+            dandam esse sanxerunt. * VALER. ET GALLIEN. AA. GAMICAE. *&lt;A 258
+            PP.VI K.DEC.TUSCO ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5560-Dd1e119">
+               <head xml:id="azsw2e-d1e5560-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e5560-d1e123">
+                  <ref xml:id="azsw2e-d1e5560-Rd1e125">Imperatores
+            Diocletianus, Maximianus</ref> Si praediorum proprietatem dono dedisti
+            ita, ut post mortem eius qui accepit ad te rediret, donatio valet,
+            cum etiam ad tempus certum vel incertum ea fieri potest, lege scilicet
+            quae ei imposita est conservanda. * DIOCL. ET MAXIM. AA. AURELIO ZENONI.
+            *&lt;A 286 PP.V ID.MART. MAXIMO II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5560-Dd1e129">
+               <head xml:id="azsw2e-d1e5560-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e5560-d1e133">
+                  <ref xml:id="azsw2e-d1e5560-Rd1e135">Imperatores
+            Diocletianus, Maximianus</ref>  Quotiens donatio ita conficitur, ut
+            post tempus id quod donatum est alii restituatur, veteris iuris auctoritate
+            rescriptum est, si is in quem liberalitatis compendium conferebatur
+            stipulatus non sit, placiti fide non impleta, ei qui liberalitatis
+            auctor fuit vel heredibus eius condicticiae actionis persecutionem
+            competere.</p>
+               <p xml:id="azsw2e-d1e5560-d1e138" n="1">
+            Sed cum postea benigna iuris interpretatione divi principes
+            ei qui stipulatus non sit utilem actionem iuxta donatoris voluntatem
+            competere admiserint, actio, quae sorori tuae, si in rebus humanis
+            ageret, competebat, tibi accommodabitur.* DIOCL. ET MAXIM.
+            AA.IULIAE MARCELLAE. *&lt;A 290 PP.SIRMI XI K.OCT.IPSIS IIII ET III
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5560-Dd1e143">
+               <head xml:id="azsw2e-d1e5560-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e5560-d1e147">
+                  <ref xml:id="azsw2e-d1e5560-Rd1e149">Imperatores
+            Diocletianus, Maximianus</ref> Perfecta donatio condiciones postea
+            non capit. Quare si pater tuus donatione facta quasdam post aliquantum
+            temporis fecisse condiciones videtur, officere hoc nepotibus eius
+            fratris tui filiis minime posse non dubium est * DIOCL. ET MAXIM.
+            AA. *&lt;A 291 D.K.OCT.TIBERIANO ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5560-Dd1e153">
+               <head xml:id="azsw2e-d1e5560-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e5560-d1e157">
+                  <ref xml:id="azsw2e-d1e5560-Rd1e159">Imperatores
+            Diocletianus, Maximianus</ref> Si quid mater filiae suae in potestate
+            patris constitutae sub hac condicione, si fuerit intra biennium emancipata,
+            donavit, licet hoc matris voluntate sui iuris effecta non tenuit,
+            tamen prius marito defuncto sui iuris quocumque modo effecta ad similitudinem
+            legati ita relicti rem donatam firmiter habere vel vindicare potest.
+            * DIOCL. ET MAXIM. AA. ET CC. DEXIPPO. *&lt;A 294 S ID.DEC.NICOMEDIAE
+            CC.CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

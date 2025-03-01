@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 57</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 57</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8565"><!-- azsw2e-l12t57 -->
+            <head xml:id="azsw2e-d1e8565-Hd1e101">Titulus 57</head>
+            <head xml:id="azsw2e-d1e8565-Hd1e103" type="question-title">De cohortalibus principibus corniculariis et primipilaribus</head>
+            <div xml:id="azsw2e-d1e8565-Dd1e106">
+               <head xml:id="azsw2e-d1e8565-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8565-d1e110">
+                  <ref xml:id="azsw2e-d1e8565-Rd1e112">Imperator
+            Constantinus</ref> Omnes stationarii neque superexactionem audeant
+            neque carcerem habeant, neve quis personam licet pro manifesto crimine
+            apud se habeat in custodia, sciens quod, si quid tale fuerit commissum,
+            capite puniendus est. * CONST. A. EDICTO SUO AD AFROS. *&lt;A 315
+            PP.VI ID.MAI.KARTHAGINE CONSTANTINO A.IIII ET LICINIO IIII CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8565-Dd1e116">
+               <head xml:id="azsw2e-d1e8565-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e8565-d1e120">
+                  <ref xml:id="azsw2e-d1e8565-Rd1e122">Imperatores
+            Constantius, Constans</ref>  Nullus iudicum quemquam sine sacra probatoria
+            probare audeat vel provehere.</p>
+               <p xml:id="azsw2e-d1e8565-d1e125" n="1">
+            Excipimus tamen officia provincialia cursus publici sollicitudinem
+            sustinentia: nec enim tanto muneri adminiculum denegari publica permittit
+            utilitas.* CONSTANTIUS ET CONSTANS AA. AD TAURUM PP. *&lt;A
+            358 D.VI K.IUN.MEDIOLANI ACC.VIII ID.IUL.DATIANO ET CEREALE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8565-Dd1e129">
+               <head xml:id="azsw2e-d1e8565-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e8565-d1e133">
+                  <ref xml:id="azsw2e-d1e8565-Rd1e135">Imperatores
+            Valentinianus, Valens</ref> Solita cohortalibus syriae privilegia,
+            quae a divo diocletiano porrecta sunt atque concessa, nos quoque porreximus
+            ac iubemus eos non ad sollicitudinem bastagae, non ad functionem naviculariam
+            devocandos, non invitos curialibus coetibus adscribendos, verum peracto
+            labore militiae, pastus primipili competenti sedulitate functione
+            transacta praerogativam his recusationis offerrimus. * VALENTIN. ET
+            VALENS AA. FESTO CONSULARI SYRIAE. *&lt;A 365 ? D.VI NON.OCT.VALENTINIANO
+            ET VALENTE AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8565-Dd1e140">
+               <head xml:id="azsw2e-d1e8565-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e8565-d1e144">
+                  <ref xml:id="azsw2e-d1e8565-Rd1e146">Imperatores
+            Valentinianus, Valens</ref> Officia rectorum provinciarum tuae magnificentiae
+            litteris volumus admoneri, ut susceptos in officio proprio vel probatos
+            cohortium nomine legionumve privilegiis aestiment inserendos. * VALENTIN.
+            ET VALENS AA. ET GRAT. A. AD PROBUM PP. *&lt;A 372 D.XVI K.IUN.MODESTO
+            ET ARINTHEO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8565-Dd1e150">
+               <head xml:id="azsw2e-d1e8565-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e8565-d1e154">
+                  <ref xml:id="azsw2e-d1e8565-Rd1e156">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Quicumque per osdroenam primipilarium
+            maiore laetatur numero filiorum, unum loco suo veluti hereditario
+            iure substituat, alterum pro amore patriae edessenae curiae tradat
+            obsequiis, ceteris quam voluerit militiam provisurus. Sin autem duos
+            tantum procreaverit, cohorti satisfacere cogatur et curiae. Quod si
+            unum procreaverit, eundem ordini patriae restituat, nullo contra hanc
+            formam beneficio valitur .</p>
+               <p xml:id="azsw2e-d1e8565-d1e159" n="1">
+            Damus sane licentiam tam patribus eorum quam ipsis, qui huius
+            legis auctoritate civitatum obsequio adgregantur, ut, si quos curiales
+            patrocinio principalium invenerint excusari, in medium proferant,
+            ut et ipsi similibus officiis deputati pareant impetratis. * VALENTIN.
+            ET VALENS ET GRAT. AAA. MODESTO PP. *&lt;A 375 D.III NON.DEC.ANTIOCHIAE
+            POST CONSULATUM GRATIANI A.III ET EQUITII VC. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8565-Dd1e163">
+               <head xml:id="azsw2e-d1e8565-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e8565-d1e167">
+                  <ref xml:id="azsw2e-d1e8565-Rd1e169">Imperatores
+            Gratianus, Valentinianus, Theodosius, Arcadius</ref>  Si apparitor
+            diffugerit criminosus, edictum, quo revocari possit, adiecta condicione
+            legibus subsequatur: cui nisi fuerit satisfactum, merito in latitantem
+            a iudice pro qualitate peccati sententia proferatur. </p>
+               <p xml:id="azsw2e-d1e8565-d1e172" n="1">
+            Veniam enim talibus non permittimus nec indulgentiis crimina
+            sublevamus. * GRAT. VALENTIN. THEODOS. ET ARCAD. AAAA. AD NEOTERIUM
+            PP. *&lt;A 385 D.PRID.ID.IUN.MEDIOLANI ARCADIO A.ET BAUTONE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8565-Dd1e176">
+               <head xml:id="azsw2e-d1e8565-Hd1e178">7</head>
+               <p xml:id="azsw2e-d1e8565-d1e180">
+                  <ref xml:id="azsw2e-d1e8565-Rd1e182">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref>  Ordinariorum iudicum apparitores,
+            qui vel speculatorum vel ordinariorum attigerint gradum, nullo annorum
+            numero, nulla stipendiorum contemplatione laxentur, priusquam primipili
+            pastum digesta ratione compleverint. </p>
+               <p xml:id="azsw2e-d1e8565-d1e185" n="1">
+            Quod si ante debitum locum, qui huic functioni habetur obnoxius,
+            vel aegri corporis labem vel defessae senectutis extrema ad impetrandam
+            quietem crediderit praetendenda, non prius otio condonetur, quam omne
+            quod primipilio debetur expenderit. </p>
+               <p xml:id="azsw2e-d1e8565-d1e188" n="2">
+            Eos etiam, qui pro sceleribus suis soluto militiae cingulo
+            addicuntur infamiae, ne integro peculio sub hac occasione laetentur,
+            ita condignae ultioni volumus subiacere, ut functioni quoque, quae
+            extrema militiae debetur, nihil ex eorum facultatibus subtrahatur.
+            * VALENTIN. THEODOS. ET ARCAD. AAA. TATIANO PP. *&lt;A 389 D.III NON.MAI.MEDIOLANI
+            TIMASIO ET PROMOTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8565-Dd1e192">
+               <head xml:id="azsw2e-d1e8565-Hd1e194">8</head>
+               <p xml:id="azsw2e-d1e8565-d1e196">
+                  <ref xml:id="azsw2e-d1e8565-Rd1e198">Imperatores
+            Arcadius, Honorius</ref> Speciebus primipilaribus adaerandis eadem
+            pretiorum taxatio servetur, quae in venalibus publicis poterit reperiri.
+            * ARCAD. ET HONOR. AA. EUTHYMIO VIC. ASIAE. *&lt;A 396 D.V K.MART.CONSTANTINOPOLI
+            ARCADIO IIII ET HONORIO III AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8565-Dd1e202">
+               <head xml:id="azsw2e-d1e8565-Hd1e204">9</head>
+               <p xml:id="azsw2e-d1e8565-d1e206">
+                  <ref xml:id="azsw2e-d1e8565-Rd1e208">Imperatores
+            Arcadius, Honorius</ref>  Per Illyricum, in quo plurima ac maxima necessitatum
+            publicarum emolumenta officiis constat praesidalibus expediri, centeni
+            numero singulis iudicibus obsecundent: nec ultra hunc modum vel ad
+            militiam ullus adspiret vel coniventia iudicum perseveret. </p>
+               <p xml:id="azsw2e-d1e8565-d1e211" n="1">
+            Adhibendi autem sunt ad huiusmodi ministeriorum obsequia
+            non illi, qui vano militiae nomine immania lucra sectentur, sed qui
+            necessitatem officii sollicitudinibus debitis exsequantur. * ARCAD.
+            ET HONOR. AA. CLEARCHO PP. ILLYRICI. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8565-Dd1e216">
+               <head xml:id="azsw2e-d1e8565-Hd1e218">10</head>
+               <p xml:id="azsw2e-d1e8565-d1e220">
+                  <ref xml:id="azsw2e-d1e8565-Rd1e222">Imperatores
+            Arcadius, Honorius</ref> Quicumque ad chartas vel tabulas vel quodcumque
+            aliud ministerium cohortalis optaverit, non ante accedere permittatur,
+            nisi eius nomen matriculis receptum primitus fuerit: poena proposita
+            his, qui contra statuta caelestia crediderint suscipiendos aliquos
+            aut quodlibet eis officium iniungendum. * ARCAD. ET HONOR. AA. ET
+            THEODOS. A. ANTHEMIO PP. *&lt;A 407 D. XVI K. APRIL. CONSTANTINOPOLI
+            HONORIO VII ET THEODOSIO ITERUM AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8565-Dd1e226">
+               <head xml:id="azsw2e-d1e8565-Hd1e228">11</head>
+               <p xml:id="azsw2e-d1e8565-d1e230">
+                  <ref xml:id="azsw2e-d1e8565-Rd1e232">Imperatores
+            Honorius, Theodosius</ref> Si quis ex grege cohortalinorum urguente
+            criminis insectatione stipendiis fuerit exemptus, aut otio traditus
+            quietis artibus immoretur, aut si ad pristina sacramenta precum miseratione
+            maluerit repedare, indultum nostrae maiestatis oraculum amplissimae
+            tuae sedi offerat adlegandum. * HONOR. ET THEODOS. AA. ANTHEMIO PP.
+            *&lt;A 415 D. XIII K. MART. CONSTANTINOPOLI HONORIO X ET THEODOSIO
+            VI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8565-Dd1e236">
+               <head xml:id="azsw2e-d1e8565-Hd1e238">12</head>
+               <p xml:id="azsw2e-d1e8565-d1e240">
+                  <ref xml:id="azsw2e-d1e8565-Rd1e242">Imperatores
+            Theodosius, Valentinianus</ref>  Si cohortalis apparitor aut obnoxius
+            cohorti ad ullam adspiraverit dignitatem, spoliatus omnibus impetrati
+            honoris insignibus ad statum pristinum revocetur: liberis etiam in
+            tali eius condicione susceptis fortunae patriae mancipandis. </p>
+               <p xml:id="azsw2e-d1e8565-d1e245" n="1">
+            Quod si quis ex his ausus fuerit ullam adfectare militiam,
+            nulla praescriptione temporis muniatur praeter eam scilicet, quae
+            ex quadraginta annis colligitur: sed ad condicionem propriam retrahatur,
+            ne ipse vel eius liberi post talem ipsius statum procreati quod cohorti
+            debetur valeant declinare. </p>
+               <p xml:id="azsw2e-d1e8565-d1e248" n="2">
+            Sed nec ad aliam cohortalinus vel cohortalini filius audeat
+            adspirare fortunam, cui maiorum suorum exempla praeiudicant. </p>
+               <p xml:id="azsw2e-d1e8565-d1e251" n="3">
+            Sed etiam cunctos, qui diversarum rerum negotiationibus detinentur,
+            trapezitas scilicet vel gemmarum argentique vestiumve venditores,
+            apothecarios etiam ceterosque institores aliarum mercium quibuscumque
+            ergasteriis adhaerentes iubemus a provincialibus officiis removeri,
+            ut omnis honor atque militia contagione huiusmodi segregetur. * THEODOS.
+            ET VALENTIN. AA. ISIDORO PP. *&lt;A 436 D. III NON. APRIL. CONSTANTINOPOLI
+            ISIDORO ET SENATORE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8565-Dd1e255">
+               <head xml:id="azsw2e-d1e8565-Hd1e257">13</head>
+               <p xml:id="azsw2e-d1e8565-d1e259">
+                  <ref xml:id="azsw2e-d1e8565-Rd1e261">Imperatores
+            Theodosius, Valentinianus</ref>  Nullum ex primipilaribus, nullum ex
+            principe cohortalis officii vel ad aliam posse militiam adspirare
+            vel ministeriis sibi contra publicam utilitatem blandiri vel ad quamlibet
+            aliam dignitatem ad praeiudicium praeteriti status accedere concedimus.
+            </p>
+               <p xml:id="azsw2e-d1e8565-d1e264" n="1">
+            Quod si contra hanc tam saluberrimam formam vel responsa
+            caelestia quaedam militia aut dignitas audacter eliciatur, pro ingestis
+            haberi, etiamsi speciali adnotatione nostrae indulgentiae eam obtinuisse
+            videatur, nec adsertionem ei quoquo modo patere, qui se memoratis
+            artibus publicae studet commoditati subtrahere, sed statim civitatis
+            unde oriundus est curiae tradi praecipimus. * THEODOS. ET VALENTIN.
+            AA. THOMAE PP. *&lt;A 442 ? &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8565-Dd1e268">
+               <head xml:id="azsw2e-d1e8565-Hd1e270">14</head>
+               <p xml:id="azsw2e-d1e8565-d1e272">
+                  <ref xml:id="azsw2e-d1e8565-Rd1e274">Imperator
+            Leo</ref>  Quisquis cohortalibus adhuc obsequiis obligatus vel regimen
+            provinciae vel cingulum cuiuslibet militiae dignitatisve quoquo modo
+            meruit, ante omnia contra licitum usurpatis impetratisve careat, etiamsi
+            ultronea nostra liberalitate ius gerendae provinciae vel militiae
+            seu dignitatis cuiuspiam sibi iactaverit fuisse delatum. </p>
+               <p xml:id="azsw2e-d1e8565-d1e277" n="1">
+            Dehinc universis solaciis condicionis quam spreverat defraudatus,
+            ne quid eorum omnino per se vel interpositam personam possit adquirere,
+            primipili tantum munus implere cogatur: mox curialibus civitatis,
+            in qua natus est, in diem vitae suae functionibus inhaesurus, ita
+            scilicet, ut etiam ii, qui post impletam talem militiam quodlibet
+            militiae dignitatisve genus adfectaverint, curiae patriae suae restituantur.
+            * LEO A. CONSTANTINO PP. *&lt;A 471 D. VI K. IAN. CONSTANTINOPOLI
+            LEONE A. IIII ET PROBIANO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

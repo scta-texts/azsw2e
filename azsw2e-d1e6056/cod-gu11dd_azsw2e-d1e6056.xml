@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 40</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 40</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6056"><!-- azsw2e-l9t40 -->
+            <head xml:id="azsw2e-d1e6056-Hd1e101">Titulus 40</head>
+            <head xml:id="azsw2e-d1e6056-Hd1e103" type="question-title">De requirendis</head>
+            <div xml:id="azsw2e-d1e6056-Dd1e106">
+               <head xml:id="azsw2e-d1e6056-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6056-d1e110">
+                  <ref xml:id="azsw2e-d1e6056-Rd1e112">Imperator
+            Antoninus</ref>  Cum absenti reo gravia crimina intentantur, sententia
+            festinari non solet, sed adnotari, ut requiratur, non utique ad poenam,
+            sed ut potestas ei sit purgandi se, si potuerit. </p>
+               <p xml:id="azsw2e-d1e6056-d1e115" n="1">
+            Postquam vero requirendus factus intra annum redierit, si
+            se crimine purgaverit, res arbitrio iudicis signatas recipiat: sin
+            vero intra id tempus reversus post intimationem suam fuerit defunctus,
+            etsi necdum se purgaverit, ad heredes proprios res transmittit. *
+            ANT. A. RUSTICO. *&lt;A 211 D.GENTIANO ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6056-Dd1e119">
+               <head xml:id="azsw2e-d1e6056-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e6056-d1e123">
+                  <ref xml:id="azsw2e-d1e6056-Rd1e125">Imperator
+            Constantinus</ref> Quicumque ex eo die, quo reus fuerit in iudicio
+            petitus, intra anni spatium noluerit adesse iudicio, res eius fisco
+            vindicentur, et si postea repertus nocens fuerit deprehensus, saeviori
+            sententiae subiugetur. Sed et si argumentis evidentibus et probatione
+            dilucida innocentiam suam purgare suffecerit, nihilo minus facultates
+            eius penes fiscum remaneant * CONST. A. AD IANUARIUM. *&lt;A 319 D.ID.IAN.ACC.V
+            K.AUG.CORINTHO CONSTANTINO A.V ET LICINIO C.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6056-Dd1e129">
+               <head xml:id="azsw2e-d1e6056-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e6056-d1e133">
+                  <ref xml:id="azsw2e-d1e6056-Rd1e135">Imperatores
+            Honorius, Theodosius</ref> In pecuniariis causis edictum contra latentem
+            propositum existimationem eius non laedit. Criminalis vero programmatis
+            tenor hanc tantum ferat de iure censuram, ut inter reos adnotati non
+            iam patrimonium debeat transferre, sed famae existimationem laedere
+            * HONOR. ET THEODOS. AA. PALLADIO PP. *&lt;A 421 D.VIII ID.IUL.RAVENNAE
+            EUSTATHIO ET AGRICOLA CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

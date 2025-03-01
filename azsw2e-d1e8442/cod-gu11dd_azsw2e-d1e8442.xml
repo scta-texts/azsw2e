@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 46</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 46</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8442"><!-- azsw2e-l12t46 -->
+            <head xml:id="azsw2e-d1e8442-Hd1e101">Titulus 46</head>
+            <head xml:id="azsw2e-d1e8442-Hd1e103" type="question-title">De veteranis</head>
+            <div xml:id="azsw2e-d1e8442-Dd1e106">
+               <head xml:id="azsw2e-d1e8442-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8442-d1e110">
+                  <ref xml:id="azsw2e-d1e8442-Rd1e112">Imperator
+            Constantinus</ref>  Auguste Constantine, deus te nobis servet: vestra
+            salus nostra salus: vere dicimus, iurati dicimus. </p>
+               <p xml:id="azsw2e-d1e8442-d1e115" n="1">
+            Adunati veterani exclamaverunt: constantine auguste, quo
+            nos veteranos factos, si nullam indulgentiam habemus? constantinus
+            a. Dixit: magis magisque conveteranis meis beatitudinem augere debeo
+            quam minuere </p>
+               <p xml:id="azsw2e-d1e8442-d1e118" n="2">
+            Victorinus veteranus dixit: muneribus et oneribus universis
+            locis conveniri non sinamur. Constantinus a. Dixit: apertius indica:
+            quae sunt maxime munera, quae vos contumaciter gravant. </p>
+               <p xml:id="azsw2e-d1e8442-d1e121" n="3">
+            Universi veterani dixerunt: ipse perspicis scilicet. Constantinus
+            a. Dixit: iam nunc magnificentia mea omnibus veteranis id esse concessum
+            perspicuum sit, ne quis eorum in nullo munere civili neque in operibus
+            publicis conveniatur neque in nulla collatione neque a magistratibus
+            neque vectigalibus. </p>
+               <p xml:id="azsw2e-d1e8442-d1e125" n="4">
+            In quibuscumque nundinis interfuerint, nulla ad venditionem
+            proponenda dare debebunt. </p>
+               <p xml:id="azsw2e-d1e8442-d1e128" n="5">
+            Publicani quoque, ut solent agentibus super compellere, ab
+            isdem veteranis amoveantur. Quiete post labores suos perenniter perfruantur.
+            </p>
+               <p xml:id="azsw2e-d1e8442-d1e131" n="6">(1)
+            Fisco nostro quoque eadem epistula interdiximus, ut nullum
+            omnino ex his inquietaret: sed liceat eis emere et vendere, optimis
+            negotiis pecuniam tractare et mercimonia agitare, ut integra beneficia
+            eorum sub saeculi nostri otio et pace perfruantur. </p>
+               <p xml:id="azsw2e-d1e8442-d1e134" n="7">
+            Sed etiam nullo munere civili, id est corporali sive personali,
+            vel de portorio onere eos adfici concedimus. * CONST. A. CUM INTROISSET
+            PRINCIPIA ET SALUTATUS ESSET A PRAEFF. ET TRIBB. ET VV. EMINENTISS.
+            ACCLAMATUM EST:*&lt;A 320 D. K. MART. IN CIVITATE VELOVOCORUM CONSTANTINO
+            A. VI ET CONSTANTINO C. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8442-Dd1e138">
+               <head xml:id="azsw2e-d1e8442-Hd1e140">2</head>
+               <p xml:id="azsw2e-d1e8442-d1e142">
+                  <ref xml:id="azsw2e-d1e8442-Rd1e144">Imperator
+            Constantinus</ref> Providendum est, ne veterani protectoria dignitate
+            cumulati, aut qui honores varios pro meritis suis consecuti sunt,
+            incongruis pulsentur iniuriis, cum, si quis in hoc crimine fuerit
+            deprehensus, rectores provinciarum pro iurisdictione sua examinantes
+            factum pro sui qualitate eos coerceant. * CONST. A. MAXIMO PP. *&lt;A
+            328 D. IIII K. IAN. TRIVERIS IANUARINO ET IUSTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8442-Dd1e148">
+               <head xml:id="azsw2e-d1e8442-Hd1e150">3</head>
+               <p xml:id="azsw2e-d1e8442-d1e152">
+                  <ref xml:id="azsw2e-d1e8442-Rd1e154">Imperator
+            Constantius</ref> Veterani, qui ex neglegentia vitae neque rus colunt
+            neque aliquid honestum peragunt, sed latrociniis sese dederunt, omnibus
+            veteranorum privilegiis exuti poenis competentibus a provinciarum
+            rectoribus subiciantur. * CONSTANTIUS A. AD EUAGRIUM PP. *&lt;A 353
+            D. III ID. AUG. CONSTANTIO A. VI ET CONSTANTE II CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8442-Dd1e159">
+               <head xml:id="azsw2e-d1e8442-Hd1e161">4</head>
+               <p xml:id="azsw2e-d1e8442-d1e163">
+                  <ref xml:id="azsw2e-d1e8442-Rd1e165">Imperatores
+            Honorius, Theodosius</ref> Nullus eorum, qui sacramentis inhaerere
+            desierit, vel volens permittatur vel invitus militare cogatur observare
+            iudicium: sententiis, quae non his observatis latae fuerint, nullam
+            firmitatem habentibus, nisi forte reperiatur ibi tempore militiae
+            coepta cognitio: tunc enim velut necdum cingulo deposito sub militare
+            iudice rem tractari finirique praecipimus, nisi principali beneficio
+            specialiter indulto quidam ex his sese defendant. * HONOR. ET THEODOS.
+            AA. EUSTATHIO PP.ET NESTORIO PP. ILLYRICI. *&lt;A 421-422 &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

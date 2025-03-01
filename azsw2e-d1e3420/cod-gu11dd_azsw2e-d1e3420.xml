@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 75</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 75</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3420"><!-- azsw2e-l5t75 -->
+            <head xml:id="azsw2e-d1e3420-Hd1e101">Titulus 75</head>
+            <head xml:id="azsw2e-d1e3420-Hd1e103" type="question-title">De magistratibus conveniendis</head>
+            <div xml:id="azsw2e-d1e3420-Dd1e106">
+               <head xml:id="azsw2e-d1e3420-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3420-d1e110">
+                  <ref xml:id="azsw2e-d1e3420-Rd1e112">Imperator
+            Antoninus</ref>  Si magistratus a tutoribus seu curatoribus, quos tibi
+            dederunt seu nominaverunt, stipulati sunt se eo nomine indemnes futuros
+            inque eam rem fideiussores acceperunt extra rem salvam fore satisdationem,
+            actio, quam adversus tutores seu curatores tuos instituisti, alienam
+            obligationem non resolvit. </p>
+               <p xml:id="azsw2e-d1e3420-d1e115" n="1">
+            Sed adversus magistratus qui curatorem dederunt actio utilis
+            ita demum competit, si universis bonis excussis revocatisque, quae
+            eum in fraudem alienasse constiterit, indemnitati tuae in solidum
+            satisfieri non potuit. </p>
+               <p xml:id="azsw2e-d1e3420-d1e118" n="2">
+            Quam si exercueris, mandatis tibi ab eis actionibus adversus
+            fideiussores quos acceperunt consistere potes, licet utilem actionem
+            sine cessione habeas. * ANT. A. MUCIANO. *&lt;A 212 ACCEPTA NON. IAN.
+            DUOBIS ASPRIS CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3420-Dd1e122">
+               <head xml:id="azsw2e-d1e3420-Hd1e124">2</head>
+               <p xml:id="azsw2e-d1e3420-d1e126">
+                  <ref xml:id="azsw2e-d1e3420-Rd1e128">Imperator
+            Alexander Severus</ref> In heredes magistratus, cuius non lata
+            culpa idonee cautum pupillo non est, non solet actio dari. * ALEX.
+            A. PATERNO. *&lt;A 224 PP.III NON.IUL.IULIANO ET CRISPINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3420-Dd1e132">
+               <head xml:id="azsw2e-d1e3420-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e3420-d1e136">
+                  <ref xml:id="azsw2e-d1e3420-Rd1e138">Imperator
+            Gordianus</ref> Si tu et collega tuus, cum magistratu fungeremini,
+            minus idoneum tutorem dedistis cautionemque idoneam non exegistis
+            nec alias servari pupillo indemnitas potest et utrique solvendo estis,
+            pro virili parte in vos actionem dari non iniuria postulabis. * GORD.
+            A. APRONIANO. *&lt;A 238 D.VIII K.NOV.PIO ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3420-Dd1e143">
+               <head xml:id="azsw2e-d1e3420-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e3420-d1e147">
+                  <ref xml:id="azsw2e-d1e3420-Rd1e149">Imperator
+            Gordianus</ref> Adversus nominatorem tutoris vel curatoris minus idonei
+            non ante perveniri potest, quam si bonis nominati itemque fideiussoris
+            eius nec non collegarum quoque, ad quorum periculum consortium administrationis
+            spectat, excussis non sit indemnitati pupilli vel adulti satisfactum.
+            * GORD. A. ARRUNTIANO. *&lt;A 242 PP.ID.MART.ATTICO
+            ET PRAETEXTATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3420-Dd1e153">
+               <head xml:id="azsw2e-d1e3420-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e3420-d1e157">
+                  <ref xml:id="azsw2e-d1e3420-Rd1e159">Imperatores
+            Diocletianus, Maximianus</ref> In magistratus
+            municipales tutorum nominatores, si administrationis finito tempore
+            non fuerint solvendo nec ex cautione fideiussionis solidum exigi possit,
+            pupillis quondam in subsidium indemnitatis nomine actionem utilem
+            competere ex senatus consulto, quod auctore divo Traiano parente nostro
+            factum est, constitit. * DIOCL. ET MAXIM. AA. ET CC. EUGENIAE.
+            *&lt;A 294 ? D. VII ID. DEC. IPSIS ET CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3420-Dd1e163">
+               <head xml:id="azsw2e-d1e3420-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e3420-d1e167">
+                  <ref xml:id="azsw2e-d1e3420-Rd1e169">Imperator
+            Zeno</ref>  Cum sit adiecta praetoris sententia generalem curatori
+            administrationem mandantis et, quod eam pro more sequitur, decretum
+            pariter sit compositum, manifestum est non curatoris dationem fuisse
+            invalidam, sed in aestimanda adultae substantia scribae vitium, qui,
+            tamquam non amplius ducentis libris auri patrimonium valeret, fideiussorem
+            acceperat, intercessisse. </p>
+               <p xml:id="azsw2e-d1e3420-d1e172" n="1">
+            In quo casu non curatoris erit ratio reprehendenda, si qua
+            laesio rebus minoris illata fuisse adversus legum ordinem comprobetur,
+            sed super neglegentia vel dolo scribae, qui veram substantiae taxationem
+            passus est occultari, legibus erit agendum. * ZENO A. AELIANO PP.
+            *&lt;A 480 D.V K.IAN.BASILIO VC.CONS.&gt; 
+          </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

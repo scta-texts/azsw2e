@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 38</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 38</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4538"><!-- azsw2e-l7t38 -->
+            <head xml:id="azsw2e-d1e4538-Hd1e101">Titulus 38</head>
+            <head xml:id="azsw2e-d1e4538-Hd1e103" type="question-title">Ne rei dominicae vel templorum vindicatio temporis exceptione submoveatur.</head>
+            <div xml:id="azsw2e-d1e4538-Dd1e106">
+               <head xml:id="azsw2e-d1e4538-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4538-d1e110">
+                  <ref xml:id="azsw2e-d1e4538-Rd1e112">Imperatores
+            Valentinianus, Valens</ref> Saepenumero praeceptum est, ut servi atque
+            liberti, colonique praeterea rei nostrae nec non etiam eorum suboles
+            ac nepotes, quicumque de nostris possessionibus recessissent ac se
+            ad diversa militiae genera contulissent, cingulo, in quo obrepserant
+            fraudulenter, exuti, si ad aliquas fortasse transcenderint dignitates,
+            omni temporis definitione submota nostro patrimonio redderentur. *
+            VALENTIN. ET VALENS AA. AD PROBUM PP. GALLIARUM. </p>
+            </div>
+            <div xml:id="azsw2e-d1e4538-Dd1e116">
+               <head xml:id="azsw2e-d1e4538-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4538-d1e120">
+                  <ref xml:id="azsw2e-d1e4538-Rd1e122">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Universas terras, quae a
+            colonis dominicis iuris rei publicae vel iuris templorum in qualibet
+            provincia venditae vel ullo alio pacto alienatae sunt, ab his qui
+            perperam atque contra leges eas detinent, nulla longi temporis praescriptione
+            officiente iubemus restitui, ita ut nec pretium quidem iniquis comparatoribus
+            reposcere liceat. * VALENTIN. THEODOS. ET ARCAD. AAA. DEXTRO COM.
+            RER. PRIVAT.*&lt;A 387 D. V NON. IUL. CONSTANTINOPOLI VALENTINIANO
+            A. III ET EUTROPIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4538-Dd1e126">
+               <head xml:id="azsw2e-d1e4538-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4538-d1e130">
+                  <ref xml:id="azsw2e-d1e4538-Rd1e132">Imperatores
+            Arcadius, Honorius</ref>  Si qua usquam loca ad sacrum dominium pertinentia
+            cuiuslibet temeritas occupavit , secundum veteris census fidem in
+            sua iura retrahentur. </p>
+               <p xml:id="azsw2e-d1e4538-d1e135" n="1">
+            Rescripta igitur obreptionibus impetrata cum praescriptione
+            longi temporis et novi census praeiudicio submovebit auctoritas tua,
+            atque ita omnia suo corpori quae sunt avulsa restituet. Neque enim
+            incubatio diuturna aut novella professio proprietatis nostrae privilegium
+            abolere poterit * ARCAD. ET HONOR. AA. AD PAULUM COM. DOMORUM. *&lt;A
+            396 D. V K. APRIL. CONSTANTINOPOLI ARCADIO IIII ET HONORIO III AA.
+            CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 2</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 2</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2605"><!-- azsw2e-l5t2 -->
+            <head xml:id="azsw2e-d1e2605-Hd1e101">Titulus 2</head>
+            <head xml:id="azsw2e-d1e2605-Hd1e103" type="question-title">Si rector provinciae vel ad eum pertinentes sponsalia dederint</head>
+            <div xml:id="azsw2e-d1e2605-Dd1e106">
+               <head xml:id="azsw2e-d1e2605-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2605-d1e110">
+                  <ref xml:id="azsw2e-d1e2605-Rd1e112">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Si quis in potestate publica
+            positus atque honore administrandarum provinciarum, qui parentibus
+            aut tutoribus aut curatoribus aut ipsis quae matrimonium contracturae
+            sunt potest esse terribilis, arras sponcalicias dederit, iubemus,
+            ut deinceps, sive parentes sive eadem mutaverint voluntatem, non modo
+            iuris laqueis liberentur poenaeque statutae expertes sint, sed extrinsecus
+            data pignora lucrativa habeant, si ea non putent esse reddenda. </p>
+               <p xml:id="azsw2e-d1e2605-d1e115" n="1">
+            Quod ita late patere volumus, ut non solum circa administrantes,
+            sed et circa administrantium filios nepotes ac propinquos, participes
+            ( id est consiliarios) domesticosque locum habeat, quibus tamen administrator
+            operam dederit. </p>
+               <p xml:id="azsw2e-d1e2605-d1e118" n="2">
+            Impleri autem id postea matrimonium non vetamus, quod tempore
+            potestatis ob eas personas, de quibus locuti sumus, arris fuerat obligatum,
+            si sponsarum consensus accedat. * GRAT. VALENTIN. ET THEODOS. AAA.
+            EUTROPIO PP. *&lt;A 380 D. XV K. IUL.THESSALONICAE GRATIANO V ET THEODOSIO
+            AA.CONSS.&gt; 
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

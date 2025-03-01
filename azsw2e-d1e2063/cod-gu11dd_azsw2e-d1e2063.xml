@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 20</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 20</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2063"><!-- azsw2e-l4t20 -->
+            <head xml:id="azsw2e-d1e2063-Hd1e101">Titulus 20</head>
+            <head xml:id="azsw2e-d1e2063-Hd1e103" type="question-title">De testibus</head>
+            <div xml:id="azsw2e-d1e2063-Dd1e106">
+               <head xml:id="azsw2e-d1e2063-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2063-d1e110"><!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e114">
+               <head xml:id="azsw2e-d1e2063-Hd1e116">2</head>
+               <p xml:id="azsw2e-d1e2063-d1e118">
+                  <ref xml:id="azsw2e-d1e2063-Rd1e120">Imperator
+            Alexander Severus</ref> Si tibi controversia ingenuitatis fiet, defende
+            causam instrumentis et argumentis, quibus putas: soli etenim testes
+            ad ingenuitatis probationem non sufficiunt. * ALEX. A. CARPO. *&lt;A
+            223 PP. X K. MAI. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e124">
+               <head xml:id="azsw2e-d1e2063-Hd1e126">3</head>
+               <p xml:id="azsw2e-d1e2063-d1e128">
+                  <ref xml:id="azsw2e-d1e2063-Rd1e130">Imperatores
+            Valerianus, Gallienus</ref> Etiam iure civili domestici testimonii
+            fides improbatur. * VALER. ET GALLIEN. AA. ROSAE. *&lt;A 255 PP. III
+            K. SEPT. VALERIANO III ET GALLIENO II AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e135">
+               <head xml:id="azsw2e-d1e2063-Hd1e137">4</head>
+               <p xml:id="azsw2e-d1e2063-d1e139">
+                  <ref xml:id="azsw2e-d1e2063-Rd1e141">Imperatores
+            Carus, Carinus, Numerianus</ref> Solam testationem prolatam nec aliis
+            legitimis adminiculis causa approbata nullius esse momenti certum
+            est. * CARUS CARINUS ET NUMER. AAA. AURELIO. *&lt;A 284 PP. VIII K.
+            DEC. CARINO II ET NUMERIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e145">
+               <head xml:id="azsw2e-d1e2063-Hd1e147">5</head>
+               <p xml:id="azsw2e-d1e2063-d1e149">
+                  <ref xml:id="azsw2e-d1e2063-Rd1e151">Imperatores
+            Diocletianus, Maximianus</ref> Eos testes ad veritatem iuvandam adhiberi
+            oportet, qui omni gratiae et potentatui fidem religioni iudiciariae
+            debitam possint praeponere. * DIOCL. ET MAXIM. AA. CANDIDO. *&lt;A
+            286 PP. V K. MAI. MAXIMO II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e155">
+               <head xml:id="azsw2e-d1e2063-Hd1e157">6</head>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e160">
+               <head xml:id="azsw2e-d1e2063-Hd1e162">7</head>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e165">
+               <head xml:id="azsw2e-d1e2063-Hd1e167">8</head>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e170">
+               <head xml:id="azsw2e-d1e2063-Hd1e172">9</head>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e176">
+               <head xml:id="azsw2e-d1e2063-Hd1e178">10</head>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e181">
+               <head xml:id="azsw2e-d1e2063-Hd1e183">11</head>
+               <p xml:id="azsw2e-d1e2063-d1e185">
+                  <ref xml:id="azsw2e-d1e2063-Rd1e187">Imperatores
+            Honorius, Theodosius</ref>  Quoniam liberi testes ad causas postulantur
+            alienas, si socii et participes criminis non dicantur, sed fides ab
+            his notitiae postuletur, in exhibitione necessariarum personarum,
+            hoc est testium, talis debet esse cautio iudicantis, ut his venturis
+            ad iudicium per accusatorem aut ab his, per quos fuerint postulati,
+            sumptus competentes dari praecipiat. </p>
+               <p xml:id="azsw2e-d1e2063-d1e190" n="1">
+            Idem iuris est et si in pecuniaria causa testes ab alterutra
+            parte producendi sunt. * HONOR. ET THEODOS. AA. CAECILIANO PP. *&lt;A
+            409 D. XII K. FEBR. RAVENNAE HONORIO VIII ET THEODOSIO III AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e194">
+               <head xml:id="azsw2e-d1e2063-Hd1e196">12</head>
+               <p xml:id="azsw2e-d1e2063-d1e198">
+                  <ref xml:id="azsw2e-d1e2063-Rd1e200">Imperatores
+            Honorius, Theodosius</ref> Libertorum adversus patronos illicitas
+            atque improbas voces poenae obiectione praecludimus atque ita, ut
+            non modo sponte prodire non audeant, sed nec vocati quidem in iudicium
+            venire cogantur. * HONOR. ET THEODOS. AA. *&lt;A 423 D. IIII ID. AUG.
+            RAVENNAE MARINIANO ET ASCLEPIODOTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e204">
+               <head xml:id="azsw2e-d1e2063-Hd1e206">13</head>
+               <p xml:id="azsw2e-d1e2063-d1e208"><!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e212">
+               <head xml:id="azsw2e-d1e2063-Hd1e214">14</head>
+               <p xml:id="azsw2e-d1e2063-d1e216">
+                  <ref xml:id="azsw2e-d1e2063-Rd1e218">Imperator
+            Zeno</ref> Nullum penitus, cum semel ad iudicem quemlibet, licet non
+            suum, dicendi gratia testimonii fuerit ingressus, armatam forte militiam
+            vel quamlibet aliam fori praescriptionem ad evadendum iudicis motum,
+            quem vel testimonii verborum improbitas vel rei qualitas flagitaverit,
+            posse praetendere praecipimus, sed omnes, qui in civili scilicet causa
+            suum praebeant testimonium, separato et tamquam ante iudicium interim
+            deposito exceptionis fori privilegio huiusmodi praesidio denudatos,
+            ita iudicantis intrare secretum, ut, quodcumque aures eius offenderit,
+            non dubitent sibimet formidandum: data cunctis iudicibus absque ullo
+            praescriptionis obstaculo ( sicut saepe dictum est) testes, quorum
+            voces falsitate vel fraude non carere perspexerint, pro qualitate
+            videlicet delicti animadvertendi licentia. * ZENO A. ARCADIO PP. *&lt;A
+            486 D. XII K. IUN. CONSTANTINOPOLI LONGINO CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e222">
+               <head xml:id="azsw2e-d1e2063-Hd1e224">15</head>
+               <p xml:id="azsw2e-d1e2063-d1e226"><!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e231">
+               <head xml:id="azsw2e-d1e2063-Hd1e233">16</head>
+               <p xml:id="azsw2e-d1e2063-d1e235"><!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e239">
+               <head xml:id="azsw2e-d1e2063-Hd1e241">17</head>
+               <p xml:id="azsw2e-d1e2063-d1e243">
+                  <ref xml:id="azsw2e-d1e2063-Rd1e245">Imperator
+            Justinianus</ref>  Si quis testibus usus fuerit idemque testes adversus
+            eum in alia lite producantur, non licebit ei personas eorum excipere,
+            nisi ostenderit inimicitias inter se et illos postea emersas fuisse,
+            ex quibus testes repelli leges praecipiunt: non adimenda scilicet
+            ei licentia ex ipsis depositionibus testimonium eorum arguere. </p>
+               <p xml:id="azsw2e-d1e2063-d1e248" n="1">
+            Sed et si liquidis probationibus datione vel promissione
+            pecuniarum eos corruptos esse ostenderit, eam etiam adlegationem integram
+            ei servari praecipimus. * IUST. A. MENAE PP. *&lt;A 528 D. K. IUN.
+            CONSTANTINOPOLI DN. IUSTINIANO PP. A. II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e252">
+               <head xml:id="azsw2e-d1e2063-Hd1e254">18</head>
+               <p xml:id="azsw2e-d1e2063-d1e256">
+                  <ref xml:id="azsw2e-d1e2063-Rd1e258">Imperator
+            Justinianus</ref>  Testium facilitatem, per quos multa veritati contraria
+            perpetrantur, prout possibile est, resecantes omnibus praedicimus,
+            qui in scriptis a se debita rettulerunt, quod non facile audientur,
+            si dicant omnis debiti vel partis solutionem sine scriptis fecisse
+            velintque viles et forsitan redemptos testes super huiusmodi solutione
+            producere, nisi quinque testes idonei et summae atque integrae opinionis
+            praesto fuerint solutioni celebratae hique cum sacramenti religione
+            deposuerint sub praesentia sua debitum esse solutum, ut scientes omnes
+            ita ea statuta esse non aliter debitum vel partem eius persolvant,
+            nisi vel securitatem in scriptis capiant vel observaverint praefatam
+            testium probationem: his scilicet, qui iam sine scriptis debitum vel
+            partem eius solverunt, praesenti sanctione merito excipiendis. </p>
+               <p xml:id="azsw2e-d1e2063-d1e261" n="1">
+            Sin vero facta quidem securitas sit, fortuito vero casu vel
+            incendii vel naufragii vel alterius infortunii perempta, tunc liceat
+            his qui hoc perpessi sunt causam peremptionis probantibus etiam debiti
+            solutionem per testes probare damnumque ex amissione instrumenti effugere.
+            * IUST. A. MENAE PP. *&lt;A 528 D. K. IUN. CONSTANTINOPOLI DN. IUSTI
+            NIANO PP. A II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e265">
+               <head xml:id="azsw2e-d1e2063-Hd1e267">19</head>
+               <p xml:id="azsw2e-d1e2063-d1e269">
+                  <ref xml:id="azsw2e-d1e2063-Rd1e271">Imperator
+            Justinianus</ref>  Si quando invitos testes in pecuniariis causis ex
+            nostra lege aliquis trahere maluerit, si quidem sua sponte fideiussionem
+            suae personae sine damno praestare velint, hoc fieri, sin autem noluerint,
+            non carcerali custodia detrudi, sed sacramento eos committi censemus.
+            </p>
+               <p xml:id="azsw2e-d1e2063-d1e274" n="1">
+            Si enim pro toto litis certamine iuriiurando credendum esse
+            testium putaverunt hi qui eos produxerunt, multo magis praesentiam
+            suam testibus sacramento eorum credere debent. </p>
+               <p xml:id="azsw2e-d1e2063-d1e277" n="2">
+            Sed cum oportet minime testes in huiusmodi casibus protelari
+            et pro alienis commodis suas invenire difficultates, disponimus non
+            amplius testes observare iudicies compelli, postquam fuerint admoniti,
+            nisi tantum quindecim dies, intra quos iudices provideant, quatenus
+            cognitionem suscipiant, in qua testes necessarii visi fuerint, ut
+            omnimodo licentia eis concedatur et alterutra parte cessante et minime
+            eos observare volente, si per exsecutores admoniti venire noluerint,
+            testes accipere et alterutra parte praesente, quae eos introducit,
+            testimonia eorum capere. </p>
+               <p xml:id="azsw2e-d1e2063-d1e280" n="3">
+            His autem diebus effluentibus liceat quidem testibus decedere
+            a iudice nullam habente licentiam eos, postquam afuerint, iterum retrahere:
+            ipsum autem iudicem, si per eum steterit, quominus testimonium praestetur,
+            parti laesae omnem iacturam pro huiusmodi causa illatam ex suis facultatibus
+            resarcire. * IUST. A. IULIANO PP. *&lt;A 530 D. XII K. APRIL. CONSTANTINOPOLI
+            LAMPADIO ET ORESTA VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2063-Dd1e284">
+               <head xml:id="azsw2e-d1e2063-Hd1e286">20</head>
+               <p xml:id="azsw2e-d1e2063-d1e288">
+                  <ref xml:id="azsw2e-d1e2063-Rd1e290">Imperator
+            Justinianus</ref> Cum apud compromissarios iudices testes fuissent
+            producti, variatum erat, utrum deberet eorum depositionibus in iudicio
+            litigator uti, an non esset audiendus. Sancimus, si quidem in compromissis
+            aliquid pro huiusmodi causa statutum est, hoc observari: sin autem
+            nihil conventum est, in huiusmodi casibus, si quidem supersint testes,
+            licentiam habere eum, contra quem depositiones eorum proferuntur ,
+            si eas recusaverit, concedere testes iterum adduci et non opponi eis,
+            quod iam testimonium suum dederunt, vel, si hoc concedere minime maluerit,
+            depositiones eorum quasi factas accipere, omni iure legitimo quod
+            ei competit adversus eas servato: sin autem omnes ab hac luce subtracti
+            sunt, tunc necessitatem ei imponi fide scripturae approbata, in qua
+            depositiones eorum referuntur, eas quasi factas accipere. Sin vero
+            res permixtae fuerint et quidam ex his mortui alii vivent es, tunc
+            in superstitum quidem testimonio eandem electionem servari litigatori,
+            adversus quem testimonia proferuntur, in morientium autem personas
+            depositiones eorum non esse respuendas: omni, secundum quod iam praediximus,
+            adversus eas et testes iure legitimo, quod ei competit adversus quem
+            proferuntur, integro reservat * IUST. A. IULIANO PP. *&lt;A 530 D.
+            VI K. APRIL. CONSTANTINOPOLI LAMPADIO ET ORESTA VV. CC. CONSS.&gt;
+            </p>
+               <p xml:id="azsw2e-d1e2063-d1e293"> 
+            ..................................................................
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

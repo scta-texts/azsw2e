@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 23</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 23</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6442"><!-- azsw2e-l10t23 -->
+            <head xml:id="azsw2e-d1e6442-Hd1e101">Titulus 23</head>
+            <head xml:id="azsw2e-d1e6442-Hd1e103" type="question-title">De canone largitionalium titulorum</head>
+            <div xml:id="azsw2e-d1e6442-Dd1e106">
+               <head xml:id="azsw2e-d1e6442-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6442-d1e110">
+                  <ref xml:id="azsw2e-d1e6442-Rd1e112">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Omnem summam auri vel argenti
+            reliquarumque specierum, quae sacris largitionibus ex more penduntur,
+            statim ut exactio fuerit celebrata, ad thesauros uniuscuiusque provinciae
+            vel ad proximos referri sub obsignatione tabularii ceterorumque, quos
+            sollicitos esse debere praecedentia iussa decreverant, et thesaurorum
+            praepositis consignari praecipimus, ut exinde ad sacrum comitatum
+            integer omnium titulorum numerus dirigatur. * GRAT. VALENTIN. ET THEODOS.
+            AAA. LOLLIANO. *&lt;A 383 D. XII K. AUG. MEROBAUDE II ET SATURNINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6442-Dd1e116">
+               <head xml:id="azsw2e-d1e6442-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6442-d1e120">
+                  <ref xml:id="azsw2e-d1e6442-Rd1e122">Imperatores
+            Honorius, Theodosius</ref>  Neque sacrarum
+            privatarum vel largitionum palatina officia ex quacumque causa ex
+            quocumque titulo fiscalis debiti, cum ad provinciam mittuntur, possessores
+            per se audeant convenire, sive id ex praeterito reliquum trahatur
+            seu praesentis temporis tributo solvi conveniat: sed rectores provinciarum
+            frequenter adeundo commoneant eorumque officiis incumbant. </p>
+               <p xml:id="azsw2e-d1e6442-d1e125" n="1">
+            Quod si rector provinciae imminentem sibi memoratorum declinare
+            molestiam quaerens vel qualibet alia ratione isdem propria auctoritate
+            publicae exactionis permiserit curam, tam ipse quam officium eius
+            vicena auri pondo fisco dependent. * HONOR. ET THEODOS. AA. AD ANTHEMIUM
+            PP. *&lt;A 408 D. VII ID. DEC. CONSTANTINOPOLI BASSO ET PHILIPPO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6442-Dd1e129">
+               <head xml:id="azsw2e-d1e6442-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e6442-d1e133">
+                  <ref xml:id="azsw2e-d1e6442-Rd1e135">Imperatores
+            Leo, Anthemius</ref>  Praecepit nostra serenitas
+            neque veloci cursui neque alii praeter veterem consuetudinem gravamini
+            subiacere chartularios, qui de cohortalibus officiis uniuscuiusque
+            provinciae largitionales titulos retractare constituuntur, cum et
+            idem amplissima praefectura disposuisse perhibeatur, ut his necessitatibus
+            liberati fideliter largitionales titulos valeant retractare. </p>
+               <p xml:id="azsw2e-d1e6442-d1e138" n="1">
+            Quod si aliquo tempore nostra iussio temerario ausu ex aliqua
+            parte fuerit violata, tam rector provinciae quam apparitio eius triginta
+            librarum auri condemnatione plectentur. </p>
+               <p xml:id="azsw2e-d1e6442-d1e141" n="2">
+            Insuper virum spectabilem orientis comitem eiusque officium
+            licentiam habere conatus nefarios inhibendi tam moderatorum quam cohortalis
+            officii, cum de hac re admoniti fuerint a palatinis et eandem poenam
+            formidantibus, si non omnibus modis pietatis nostrae decreta congruum
+            mereantur effectum. </p>
+               <p xml:id="azsw2e-d1e6442-d1e144" n="3">
+            Illud etiam generali forma sancimus, ut in omnibus provinciis
+            tam nominatio specialium susceptorum largitionalium titulorum quam
+            defensio tractatorum non tantum per viros clarissimos moderatores
+            provinciarum, sed etiam per viros spectabiles proconsules et praefectum
+            augustalem ac laudabiles vicarios una cum eorum officiis, admonentibus
+            semper nec non imminentibus palatinis procuretur providentibus, ut
+            post nominationem etiam specialium susceptorum largitionalium titulorum
+            nulla minuendae exactionis ad sacrum pertinentis aerarium aut transferendi
+            ad arcarios aut quoslibet alios extraneos titulos rectoribus provinciarum
+            aut eorum officiis, sed etiam curialibus licentia permittatur: quadrimenstruis
+            brevibus per idoneum tractatorem eorundem titulorum super commendandis
+            ratiociniis publicis periculo rectorum provinciarum ad sacratissimam
+            urbem transmittendis. </p>
+               <p xml:id="azsw2e-d1e6442-d1e148" n="4">
+            Nam quacumque ex parte, quam iussit nostra tranquillitas,
+            si minus fuerit procuratum, poena superius designata tam ipsi iudices
+            quam eorum officia se noverint esse plectendos.* LEO ET ANTHEM. AA. HELIODORO COM. SACR. LARG. *&lt;A 468 D. VIII K. AUG. CONSTANTINOPOLI
+            ANTHEMIO A. II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6442-Dd1e153">
+               <head xml:id="azsw2e-d1e6442-Hd1e155">4</head>
+               <p xml:id="azsw2e-d1e6442-d1e157">
+                  <ref xml:id="azsw2e-d1e6442-Rd1e159">Imperatores
+            Leo, Anthemius</ref> Praecipimus, ut, si forte
+            delegatio, quae ab amplissima praefectura in diversas provincias ex
+            more quotannis emittitur, minus contineat omnes largitionales titulos
+            aut quo modo exactio eorum debet procedere, nihilo minus competentem
+            a viris spectabilibus tam proconsulibus quam vicariis et viro spectabili
+            comite orientis et praefecto augustali nec non rectoribus provinciarum
+            eorumque officiis et curialibus omnium largitionalium titulorum exactionem
+            procurari: vicenarum librarum auri condemnationem prae oculis habentibus,
+            si quid minus exactum vel illatum sacro fuerit aerario, quam prisca
+            et inveterata consuetudo sacris largitionibus inferri constituit.
+            * LEO ET ANTHEM. AA. HELIODORO COM. SACR. LARG. *&lt;A 468 D. K. IUL. CONSTANTINOPOLI
+            ANTHEMIO A. II CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

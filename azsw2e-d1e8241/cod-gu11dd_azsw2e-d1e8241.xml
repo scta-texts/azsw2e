@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 28</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 28</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8241"><!-- azsw2e-l12t28 -->
+            <head xml:id="azsw2e-d1e8241-Hd1e101">Titulus 28</head>
+            <head xml:id="azsw2e-d1e8241-Hd1e103" type="question-title">De privilegiis eorum qui in sacro palatio militant</head>
+            <div xml:id="azsw2e-d1e8241-Dd1e106">
+               <head xml:id="azsw2e-d1e8241-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8241-d1e110">
+                  <ref xml:id="azsw2e-d1e8241-Rd1e112">Imperator
+            Constantinus</ref> A palatinis tam his, qui obsequiis nostris inculpata
+            officia praebuerunt, quam illis, qui in scriniis nostris, id est memoriae
+            epistularum libellorumque, versati sunt, procul universas calumnias
+            sive nominationes iubemus esse submotas, idque beneficium ad filios
+            eorum atque nepotes ipso ordine sanguinis pervenire, atque immunes
+            eos a cunctis muneribus sordidis et personalibus permanere cum universis
+            mobilibus et mancipiis urbanis, neque iniurias eis ab aliquibus inferri:
+            ita ut, qui haec contempserit, indiscreta dignitate poenas debitas
+            exigatur. * CONST. A. PALATINIS BENE MERITIS SALUTEM. *&lt;A 314 D.
+            IIII K. NOV. TRIVERIS VOLUSIANO ET ANNIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8241-Dd1e116">
+               <head xml:id="azsw2e-d1e8241-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e8241-d1e120">
+                  <ref xml:id="azsw2e-d1e8241-Rd1e122">Imperator
+            Constantinus</ref>  De cubiculis nostris vacatione donatos vel diversis
+            obsequiis palatinis, memoriales etiam, qui in scriniis memoriae epistularum
+            libellorum sacrarumque dispositionum referuntur, nec non et si qui
+            in utroque officio palatinorum comitatensium singularumve urbium et
+            officio admissionum et castrensis sacri palatii militant, privilegia
+            volumus habere, ut nec ipsi nec filii nec nepotes eorum ad honores
+            vel munera municipalia devocentur. </p>
+               <p xml:id="azsw2e-d1e8241-d1e125" n="1">
+            Quibus omnibus condonamus, ne exactorum vel turmariorum,
+            quos capitularios vocant, curam subeant vel obsequium temonariorum
+            vel pentaprotiae aut etiam tironis praestationem agnoscant. </p>
+               <p xml:id="azsw2e-d1e8241-d1e128" n="2">
+            Nam beneficiis nostris ita digni sunt, ut etiam censualibus
+            vel personalibus vel corporalibus muneribus liberentur et habeant
+            castrense peculium, sive adhuc palatium observant sive optata quiete
+            donati sunt. </p>
+               <p xml:id="azsw2e-d1e8241-d1e131" n="3">
+            Quibus omnibus privilegiis coniungimus agentes in rebus,
+            licet militaribus videantur esse subnixi. * CONST. A. RUFINO PP. *&lt;A
+            319 D. V K. MAI. SIRMIO CONSTANTINO A. V ET LICINIO C. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8241-Dd1e135">
+               <head xml:id="azsw2e-d1e8241-Hd1e137">3</head>
+               <p xml:id="azsw2e-d1e8241-d1e139">
+                  <ref xml:id="azsw2e-d1e8241-Rd1e141">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Ex aula nostra decedentes
+            viri ab omnibus iniunctis habeantur immunes: numerariorum fastus vel
+            rapaces quaestus tamquam experientes et idonei non patiantur. * GRAT.
+            VALENTIN. ET THEODOS. AAA. EUTROPIO PP. *&lt;A 381 D. III NON. FEBR.
+            CONSTANTINOPOLI EUCHERIO ET SYAGRIO VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8241-Dd1e146">
+               <head xml:id="azsw2e-d1e8241-Hd1e148">4</head>
+               <p xml:id="azsw2e-d1e8241-d1e150">
+                  <ref xml:id="azsw2e-d1e8241-Rd1e152">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Omnes, qui in palatio militando
+            diversis actibus paruerunt, in tantum eius dignitatis, cuius meruerint
+            missionem, obtinere noverint insignia, ut his omnibus praeferantur
+            in ordine atque concessu, qui posteriore tempore regendas provincias
+            dignitatesque susceperint palatinas.</p>
+               <p xml:id="azsw2e-d1e8241-d1e155" n="1">
+            Si quis autem temeraria usurpatione violare statuta temptaverit,
+            sacrilegii poenam sustineat.* GRAT. VALENTIN. ET THEODOS. AAA.
+            ET ARCAD. A. AD PINIANUM PU.*&lt;A 386 D. PRID. NON. IUL. MEDIOLANI.
+            ACC. IIII K. SEPT. HONORIO NP. ET EUODIO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

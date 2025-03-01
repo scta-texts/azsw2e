@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 58</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 58</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7698"><!-- azsw2e-l11t58 -->
+            <head xml:id="azsw2e-d1e7698-Hd1e101">Titulus 58</head>
+            <head xml:id="azsw2e-d1e7698-Hd1e103" type="question-title">De censibus et censitoribus et peraequatoribus et inspectoribus</head>
+            <div xml:id="azsw2e-d1e7698-Dd1e106">
+               <head xml:id="azsw2e-d1e7698-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7698-d1e110">
+                  <ref xml:id="azsw2e-d1e7698-Rd1e112">Imperator
+            Constantinus</ref> Quoniam tabularii civitatum per collusionem potentiorum
+            sarcinam ad inferiores transferunt, iubemus, ut, quisquis se gravatum
+            probaverit, suam tantum pristinam professionem agnoscat. * CONST.
+            A. AD POPULUM. *&lt;A 313 PP.XV K.FEBR.ROMAE CONSTANTINO A.III ET
+            LICINIO III CONSS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7698-Dd1e116">
+               <head xml:id="azsw2e-d1e7698-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7698-d1e120">
+                  <ref xml:id="azsw2e-d1e7698-Rd1e122">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Quisquis vitem succiderit
+            aut feracium ramorum fetus hebetaverit, quo declinet fidem censuum
+            et mentiatur callide paupertatis ingenium, mox detectus competenti
+            indignationi subiciatur.</p>
+               <p xml:id="azsw2e-d1e7698-d1e125" n="1">
+            Illo videlicet evitante calumniam, qui forte detegitur laborasse
+            pro copia ac reparandis agrorum fetibus, non sterilitatem aut inopiam
+            procurasse.* GRAT. VALENTIN. ET THEODOS. AAA. EUTROPIO PP.
+            *&lt;A 381 D.PRID.NON.IUN.CONSTANTINOPOLI EUCHERIO ET SYAGRIO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7698-Dd1e129">
+               <head xml:id="azsw2e-d1e7698-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e7698-d1e133">
+                  <ref xml:id="azsw2e-d1e7698-Rd1e135">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Si peraequatore misso aliquis
+            aut procuratorem suum retraxerit aut colonum per contumaciam retractationis
+            fugaverit, ad eum censuum modum, quem vel eo vel procuratore illius
+            absente peraequator apposuerit, nostrae sanctionis auctoritate tenebitur.
+            * GRAT. VALENTIN. ET THEODOS. AAA. CYNEGIO PP. *&lt;A 386 D.VI K.APRIL.CONSTANTINOPOLI
+            HONORIO NP.ET EUODIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7698-Dd1e140">
+               <head xml:id="azsw2e-d1e7698-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e7698-d1e144">
+                  <ref xml:id="azsw2e-d1e7698-Rd1e146">Imperatores
+            Theodosius, Arcadius, Honorius</ref> Omne territorium censeatur, quotiens
+            defectorum levamen exposcitur, ut sterilia atque ieiuna his quae culta
+            vel opima sunt compensentur. * THEODOS. ARCAD. ET HONOR. AAA. RUFINO
+            PP. *&lt;A 393 D.III NON.APRIL.CONSTANTINOPOLI THEODOSIO A.III ET
+            ABUNDANTIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7698-Dd1e150">
+               <head xml:id="azsw2e-d1e7698-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e7698-d1e154">
+                  <ref xml:id="azsw2e-d1e7698-Rd1e156">Imperatores
+            Theodosius, Arcadius, Honorius</ref>  Qui gravatos se a peraequatoribus
+            conqueruntur et iniusto oneri impares esse proclamant, competitionis
+            habeant facultatem, ut, quid remissum gratia, quid interceptum fuerit
+            fraude, convincant et ex eo levamen accipiant, quod per deformia et
+            criminosa commercia sibi impositum esse deplorant, ut aliis demeretur.
+            </p>
+               <p xml:id="azsw2e-d1e7698-d1e159" n="1">
+            Quod intra annum post codicum oblationem cui videbitur de
+            iniusto onere conqueratur, iniquitatem peraequatoris accuset ac praestitam
+            gratiam habita competitione convincat, ut, quod ei fuerat superfusum,
+            ille cognoscat, quem debitae functioni fraus clandestina subtraxerat.
+            </p>
+               <p xml:id="azsw2e-d1e7698-d1e162" n="2">
+            Emenso autem eo tempore actio denegabitur, exceptis minoribus
+            qui fuerint indefensi, his etiam qui aberunt rei publicae causa: qui
+            tamen ex eo tempore quae sunt statuta custodient, ex quo ad agendum
+            habuerunt facultatem. * THEODOS. ARCAD. ET HONOR. AAA. RUFINO PP.
+            *&lt;A 393 D.III K.DEC.CONSTANTINOPOLI THEODOSIO A.III ET ABUNDANTIO
+            VC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7698-Dd1e166">
+               <head xml:id="azsw2e-d1e7698-Hd1e168">6</head>
+               <p xml:id="azsw2e-d1e7698-d1e170">
+                  <ref xml:id="azsw2e-d1e7698-Rd1e172">Imperatores
+            Arcadius, Honorius</ref> Peraequatores ac discussores, si incurrerint
+            culpam neglegentiae vel gratiae, non solum honorum iacturam, verum
+            etiam annonarum in quadruplum multam subire debebunt: ea vero, quae
+            in damnum provincialium fuerint accepisse convicti, in quadruplum
+            cogentur exsolvere. * ARCAD. ET HONOR. AA. EUSEBIO PP. *&lt;A 396
+            D.IIII K.APRIL.MEDIOLANI ARCADIO IIII ET HONORIO III AA.CONSS.&gt;
+            </p>
+               <p xml:id="azsw2e-d1e7698-d1e175"> .
+            </p>
+               <p xml:id="azsw2e-d1e7698-d1e177">
+                  <ref xml:id="azsw2e-d1e7698-Rd1e179">Imperatores
+            Honorius, Theodosius</ref>  Apud eum possessio firma permaneat, cui
+            a peraequatore semel eam traditam fuisse constiterit. </p>
+               <p xml:id="azsw2e-d1e7698-d1e182" n="1">
+            Reliqua vero temporis anteacti a novo domino fiscum postulare
+            non patimur, ne alterius culpa alter incipiat subiacere dispendio.
+            </p>
+               <p xml:id="azsw2e-d1e7698-d1e186" n="2">
+            Si quis vero privatus aut obligatam sibi possessionem, quae
+            deserta huc usque permansit, aut ex aliquo titulo deberi sibi iure
+            confirmat, adlegationes suas sine mora vel per se vel per aliam personam
+            legibus ordinatam manifestare debebit, ita ut, si aequitatis ratione
+            suadente ad petitorem fuerit translata possessio, is, qui eam a peraequatore
+            susceperit, rei melioratae receptis sublevetur expensis. </p>
+               <p xml:id="azsw2e-d1e7698-d1e189" n="3">
+            Verum ne sub specie litis dominationes semel constitutae
+            turbentur, sex mensum spatium censemus debere servari, intra quod
+            is, qui putat sibi rem probabili ratione competere, debitas exserat
+            actiones. </p>
+               <p xml:id="azsw2e-d1e7698-d1e192" n="4">
+            Quod si tempus adscriptum silentio fuerit interveniente transactum,
+            nullum penitus repetendi volumus esse principium. </p>
+               <p xml:id="azsw2e-d1e7698-d1e195" n="5">
+            Quod si quis eo tempore, quo peraequator praedium alicui
+            addicit, de suo iure vel per se vel per homines suos non crediderit
+            actitandum, sex mensum curriculis evolutis in perpetuum conquiescat.
+            * HONOR. ET THEODOS. AA. SEBASTIO COM. PRIMI ORDINIS. *&lt;A 417 D.PRID.ID.MART.RAVENNAE
+            HONORIO A.XI ET CONSTANTIO II CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

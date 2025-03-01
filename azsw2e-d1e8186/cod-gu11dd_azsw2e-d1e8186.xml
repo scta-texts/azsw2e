@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 23</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 23</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8186"><!-- azsw2e-l12t23 -->
+            <head xml:id="azsw2e-d1e8186-Hd1e101">Titulus 23</head>
+            <head xml:id="azsw2e-d1e8186-Hd1e103" type="question-title">De palatinis sacrarum largitionum et rerum privatarum</head>
+            <div xml:id="azsw2e-d1e8186-Dd1e106">
+               <head xml:id="azsw2e-d1e8186-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8186-d1e110">
+                  <ref xml:id="azsw2e-d1e8186-Rd1e112">Imperatores
+            Constantius, Constans</ref> Palatini pro capitibus seu iugis suis
+            tantum pensitationem atque obsequia recognoscant, extraordinariis
+            et sordidis muneribus et susceptionibus et temonariis oneribus liberati.
+            * CONSTANTIUS ET CONSTANS AA. AD VERONICIANUM VIC. ASIAE. *&lt;A 346
+            D. NON. MAI. CONSTANTINOPOLI CONSTANTIO IIII ET CONSTANTE III AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8186-Dd1e116">
+               <head xml:id="azsw2e-d1e8186-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e8186-d1e120">
+                  <ref xml:id="azsw2e-d1e8186-Rd1e122">Imperatores
+            Valentinianus, Valens, Gratianus</ref> Nullus thesaurensis vel officialis
+            comitis thesaurorum semel deprehensus eversor quocumque pacto aut
+            repetat militiam suam aut aliam sibi requirat per ambitum dignitatem
+            vel sese transferat ad aliam quamcumque militiam. * VALENTIN. VALENS
+            ET GRAT. AAA. TITIANO COM. SACR. LARG. *&lt;A 377 D. VIII K. FEBR.
+            ANTIOCHIAE GRATIANO A. IIII ET MEROBAUDE CONSS.&gt; </p>
+               <p xml:id="azsw2e-d1e8186-d1e125"> .
+            </p>
+               <p xml:id="azsw2e-d1e8186-d1e127">
+                  <ref xml:id="azsw2e-d1e8186-Rd1e129">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Prisco iam nunc ordine
+            revocato de palatino potius officio ad gerendum principatum officii
+            comitis domorum per Cappadociam mittantur, quales comes etiam domorum,
+            si inhonestum aliquid gesserit, vereatur. </p>
+               <p xml:id="azsw2e-d1e8186-d1e132" n="1">
+            Idoneos itaque singulis annis e numero mittendariorum ad
+            hoc eligere debebis et mittere. * GRAT. VALENTIN. ET THEODOS. AAA.
+            PANCRATIO COM. RER. PRIV *&lt;A 379 D. PRID. NON. IUL. SCUPIS AUSONIO
+            ET ALYBRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8186-Dd1e136">
+               <head xml:id="azsw2e-d1e8186-Hd1e138">4</head>
+               <p xml:id="azsw2e-d1e8186-d1e140">
+                  <ref xml:id="azsw2e-d1e8186-Rd1e142">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Nihil omnino ullis iudicibus
+            cum palatinis nostrae clementiae, quicumque a comitibus diriguntur,
+            sit commune atque coniunctum, sed excepta reverentia, quae non solum
+            ab inferioribus, sed etiam a maioribus et in provincia degentibus
+            rectoribus proviniarum debetur atque defertur, suis quisque necessitatibus
+            obsecundet. * GRAT. VALENTIN. ET THEODOS. AAA. AD HESPERIUM PP. *&lt;A
+            379 D. VIII ID. DEC. SIRMIO AUSONIO ET OLYBRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8186-Dd1e147">
+               <head xml:id="azsw2e-d1e8186-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e8186-d1e151">
+                  <ref xml:id="azsw2e-d1e8186-Rd1e153">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Quidam post impletum ordinem
+            militiae palatinae quam gesserant honoremque transactum ad exceptorum
+            scrinia transire nituntur. Hac igitur lege sancimus, ut nulli prorsus
+            dehinc ista audendi relinquatur occasio: sed unusquisque eius scrinii
+            , quod primum militando elegit, ordinem persequatur nec in alterius
+            loco finem militiae requirat, qui iam proprii ordinis transegerit
+            principatum * GRAT. VALENTIN. ET THEODOS. AAA. NEBRIDIO COM. RER.
+            PRIVAT. *&lt;A 383 D. V ID. OCT. CONSTANTINOPOLI MEROBAUDE II ET SATURNINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8186-Dd1e157">
+               <head xml:id="azsw2e-d1e8186-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e8186-d1e161">
+                  <ref xml:id="azsw2e-d1e8186-Rd1e163">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Ab officiis palatinorum
+            excellentia tua sciat ita penitus recedendum, ut neque ipsa postmodum
+            licitum sibi credat isdem aliquid iniungere et praeterea provinciarum
+            rectores prohibeat quicquam ulterius tale conari. * GRAT. VALENTIN.
+            ET THEODOS. AAA. AD PROBUM PP. *&lt;A 384 D.VII K.NOV. MEDIOLANI POST
+            CONS. MEROBAUDIS II ET SATURNINI.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8186-Dd1e167">
+               <head xml:id="azsw2e-d1e8186-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e8186-d1e171">
+                  <ref xml:id="azsw2e-d1e8186-Rd1e173">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Scriniis omnibus largitionum
+            comitatensium infra scriptas decernimus dignitates, ut his contenti
+            ambiendi sibi aditum interclusum esse cognoscant, etiamsi speciale
+            beneficium emendicato suffragio quisquam valuerit impetrare. Annonas
+            etiam iuxta definitum dignitatum modum volumus postulari nec amplius
+            quicquam praesumit. </p>
+               <p xml:id="azsw2e-d1e8186-d1e176" n="1">
+            Brevis, quas dignitates per singula scrinia officiorum sacrarum
+            largitionum habere statuimus, hic est: </p>
+               <p xml:id="azsw2e-d1e8186-d1e179" n="2">
+            Scrinii exceptorum: perfectissimus ordinis secundi numero
+            unus, id est primicerius omnis scholae. Perfectissimus id est primicerius
+            exceptorum numero unus. Ducenarii duo, id est tertiocerius et quartocerius.
+            Centenarius unus, id est primicerius instrumentorum. Epistulares numero
+            duo. Formae primae numero triginta sex. Formae secundae numero quattuor.
+            Formae tertiae numero </p>
+               <p xml:id="azsw2e-d1e8186-d1e182" n="3">
+            Scrinii numerorum: perfectissimus ordinis tertii numero unus.
+            Ducenarius numero unus. Centenarii numero duo. Epistulares numero
+            duo. Formae primae numero tres. Formae secundae numero unus. Formae
+            tertiae numero</p>
+               <p xml:id="azsw2e-d1e8186-d1e186" n="4">
+            Sacri scrinii tabulariorum: perfectissimus ordinis tertii
+            numero unus. Ducenarius numero unus. Centenarius numero unus. Epistularis
+            numero unus. Formae primae numero tres. Formae secundae numero quinque. 
+            </p>
+               <p xml:id="azsw2e-d1e8186-d1e189" n="5">
+            Scrinii canonum: perfectissimus ordinis tertii numero unus.
+            Ducenarius numero unus. Centenarius numero unus. Epistulares numero
+            duo. Formae primae numero quattuor. Formae secundae numero quattuor. 
+            </p>
+               <p xml:id="azsw2e-d1e8186-d1e192" n="6">
+            Scrinii mittendariorum: ducenarius numero unus. Centenarii
+            numero quinque. Epistulares numero novem. Formae primae numero septem.
+            Formae secundae numero triginta tres.</p>
+               <p xml:id="azsw2e-d1e8186-d1e195" n="7">
+            Scrinii auri massae: perfectissimus ordinis tertii numero
+            unus. Id est primicerius sacrae massae. Perfectissimus numero unus,
+            id est secundocerius. Ducenarii numero duo, id est tertiocerius et
+            quartocerius. Centenarii numero quattuor. Epistulares numero quattuor.
+            </p>
+               <p xml:id="azsw2e-d1e8186-d1e198" n="8">
+            Aurifices specierum: perfectissimus numero unus. Ducenarii
+            numero tres. Centenarii numero sex. Epistulares numero octo. Formae
+            primae numero decem et octo. Formae secundae numero quattuor.  
+            </p>
+               <p xml:id="azsw2e-d1e8186-d1e201" n="9">
+            Aurifices solidorum: ducenarius numero unus. Centenarii numero
+            septem. Epistulares numero sex. Formae primae numero novem. Formae
+            secundae numero triginta.</p>
+               <p xml:id="azsw2e-d1e8186-d1e205"> 
+            Sculptores et ceteri aurifices: centenarius numero unus.
+            Epistulares numero quinque. Formae primae numero sex. Formae secundae
+            numero decem et octo.</p>
+               <p xml:id="azsw2e-d1e8186-d1e207"> 
+            Scrinii auri ad responsum: perfectissimus ordinis secundi
+            numero unus. Perfectissimi ordinis secundi numero duo. Ducenarii numero
+            tres. Centenarii numero duo. Epistulares numero tres. Formae primae
+            numero tres. Formae secundae numero duo. Formae tertiae numero 
+            </p>
+               <p xml:id="azsw2e-d1e8186-d1e209"> 
+            Scrinii a militarensibus: perfectissimus ordinis primi numero
+            unus. Ducenarius numero unus. Formae primae numero unus. Formae secundae
+            numero duo. Formae tertiae numero tres.</p>
+               <p xml:id="azsw2e-d1e8186-d1e211"> 
+            Scrinii vestis: perfectissimus primi ordinis numero unus.
+            Perfectissimus secundi ordinis numero unus. Ducenarius numero unus.
+            Centenarius numero unus. Epistulares numero duo. Formae primae numero
+            septem. Formae secundae numero decem. Formae tertiae numero quinque. 
+            </p>
+               <p xml:id="azsw2e-d1e8186-d1e213"> 
+            Officialium sacrarum vestium: ducenarii numero duo. Centenarii
+            numero duo. Epistulares numero duo. Formae primae numero septem. Formae
+            secundae numero decem. Formae tertiae numero novem. </p>
+               <p xml:id="azsw2e-d1e8186-d1e215"> 
+            Deputati sacrae vestis: perfectissimi secundi ordinis numero
+            duo. Ducenarii numero duo. Centenarii numero duo. Epistulares numero
+            duo. Formae primae numero tres.</p>
+               <p xml:id="azsw2e-d1e8186-d1e218"> 
+            Scrinii ab argento: perfectissimus ordinis secundi numero
+            unus. Centenarius numero unus. Epistularis numero unus. Formae primae
+            numero quattuor. Formae secundae numero tres. Formae tertiae numero
+            </p>
+               <p xml:id="azsw2e-d1e8186-d1e220"> 
+            Ad pecunias: perfectissimus ordinis secundi numero unus.
+            Formae primae numero duo. Formae secundae numero duo. Formae tertiae
+            numero quinque. </p>
+               <p xml:id="azsw2e-d1e8186-d1e222"> 
+            Argentarii comitatenses: ducenarius numero unus. Centenarii
+            numero duo. Epistulares numero duo. Formae primae numero octo. Formae
+            secundae numero viginti quinque. </p>
+               <p xml:id="azsw2e-d1e8186-d1e224"> 
+            Barbaricarii: centenarius numero unus. Epistulares numero
+            duo. Formae primae numero octo. Formae secundae numero unus.   
+            * GRAT. VALENTIN. ET THEODOS. AAA. TRIFOLIO COM. SACR. LAR *&lt;A
+            384 D.III ID.IUN.HERACLIAE RICOMERE ET CLEARCHO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8186-Dd1e227">
+               <head xml:id="azsw2e-d1e8186-Hd1e229">8</head>
+               <p xml:id="azsw2e-d1e8186-d1e231">
+                  <ref xml:id="azsw2e-d1e8186-Rd1e233">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Placuit iusta et omnibus
+            mittendariis palatini officii profutura suggestio, qua insinuasti,
+            ut ex isdem annui singuli ex ducenariis, terni ex centenariis habito
+            provisionis intuitu cingulo liberentur. * GRAT. VALENTIN. ET THEODOS.
+            AAA. ET ARCAD. A. TRIFOLIO COM. SACR. LARG.*&lt;A 385 D.IIII ID.MART.CONSTANTINOPOLI
+            ARCADIO A.ET BAUTONE VC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8186-Dd1e237">
+               <head xml:id="azsw2e-d1e8186-Hd1e239">9</head>
+               <p xml:id="azsw2e-d1e8186-d1e241">
+                  <ref xml:id="azsw2e-d1e8186-Rd1e243">Imperatores
+            Arcadius, Honorius, Theodosius</ref> Non aliter quilibet in officio
+            sacrarum largitionum vel privatarum cingulum militiae sibi sumendum
+            existimet, nisi nostrae mansuetudinis adnotationem meruerit. * ARCAD.
+            HONOR. ET THEODOS. AAA. NESTORI COM. RER. PRIVAT. *&lt;A 405 D.PRID.ID.AUG.ANCYRAE
+            STILICHONE II ET ANTHEMIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8186-Dd1e247">
+               <head xml:id="azsw2e-d1e8186-Hd1e249">10</head>
+               <p xml:id="azsw2e-d1e8186-d1e251">
+                  <ref xml:id="azsw2e-d1e8186-Rd1e253">Imperatores
+            Honorius, Theodosius</ref> Palatinos, qui sacrarum remunerationum
+            rationem tractantes inculpanter ad calcem terminumque militiae pervenerint,
+            adiutorem et primicerios diversorum officiorum praecepimus habere
+            privilegia, quae nuper agentum in rebus scholae a nostra sunt mansuetudine
+            contributa, scilicet ut a tironum praebitione memorati reddantur exsortes
+            ceteraque onera non agnoscant. * HONOR. ET THEODOS. AA. IOHANNI PP.
+            *&lt;A 413 D.VII ID.IUN.RAVENNAE POST CONS.HONORII VIIII ET THEODOSII
+            V AA.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8186-Dd1e258">
+               <head xml:id="azsw2e-d1e8186-Hd1e260">11</head>
+               <p xml:id="azsw2e-d1e8186-d1e262">
+                  <ref xml:id="azsw2e-d1e8186-Rd1e264">Imperatores
+            Honorius, Theodosius</ref> Ad similitudinem sanctionis, quam de proximis
+            sacrorum promulgavimus scriniorum, etiam in officio sacrarum largitionum
+            atque privatarum pro biennio annum sub perpetua observatione praecipimus
+            custodiri, ita ut et privilegia, quae huiusmodi officiis vel primiceriis
+            sacris legibus deferuntur, integra illibataque serventur. * HONOR.
+            ET THEODOS. AA. ANYSIO COM. SACR. LARG. ET TAURO COM. RER. PRIVAT.*&lt;A
+            416 D.III K.IUL.CONSTNATINOPOLI THEODOSIO A.VII ET PALLADIO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8186-Dd1e268">
+               <head xml:id="azsw2e-d1e8186-Hd1e270">12</head>
+               <p xml:id="azsw2e-d1e8186-d1e272">
+                  <ref xml:id="azsw2e-d1e8186-Rd1e274">Imperator
+            Theodosius</ref>  Viros devotos palatinos non oportere in hac regia
+            urbe apud virum illustrem praefectum urbis litigare compelli, nisi
+            de aedificatione domorum et servitutibus et annonis orta videatur
+            causa: in aliis vero causis tam pecuniariis quam criminalibus apud
+            viros illustres tantummodo comites suos respondere.</p>
+               <p xml:id="azsw2e-d1e8186-d1e277" n="1">
+            Rectoribus autem provinciarum intra administrationis suae
+            fines inter praesentes palatinos nec causis publicis occupatos cognoscere
+            tam pro civili quam pro criminali causa permittimus, sic tamen, ut
+            non aliter criminalis sententia adversus eos proferatur, nisi ex suggestione
+            provincialis iudicii vir illustris comes sub quo militat certioratus
+            hoc ei permiserit.* THEODOS. A. ET VALENTIN. C.MAXIMINO COM.
+            SACR. LARG. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8186-Dd1e281">
+               <head xml:id="azsw2e-d1e8186-Hd1e283">13</head>
+               <p xml:id="azsw2e-d1e8186-d1e285">
+                  <ref xml:id="azsw2e-d1e8186-Rd1e287">Imperatores
+            Theodosius, Valentinianus</ref> Inter alias praerogativas, quas ante
+            meruerant scholae societatis sacrarum largitionum, primicerius et
+            tres primicerii scriniorum tribuni praetoriani militaris dignitate
+            fruantur, nulla eis ex cuiuslibet iudicis praeceptione iniungenda
+            publica vel privata necessitate. * THEODOS. ET VALENTIN. AA. EUDOXIO
+            COM. SACR. LARG. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8186-Dd1e291">
+               <head xml:id="azsw2e-d1e8186-Hd1e293">14</head>
+               <p xml:id="azsw2e-d1e8186-d1e295">
+                  <ref xml:id="azsw2e-d1e8186-Rd1e297">Imperatores
+            Theodosius, Valentinianus</ref>  Iubemus viros devotos palatinos rei
+            nostri numinis privatae isdem privilegiis decorari, quibus etiam palatini
+            qui in sacris largitionibus deferuntur. Cum enim par similisque militia
+            sint, iustum et competens videtur isdem utrumque officium privilegiis
+            gloriari </p>
+               <p xml:id="azsw2e-d1e8186-d1e300" n="1">
+            Primicerios itaque officii tresque primates scriniorum rerum
+            privatarum finito tempore militiae inter tribunos militares praetorianos,
+            salvis isdem praestitis privilegiis sacris constitutionibus, nostram
+            clementiam adorare decernimus, ita tamen, ut nullam iniunctionem nullam
+            sollicitudinem privati vel publici negotii quolibet iudiciario praecepto
+            sustinere possint, sed excepta omni necessitate omnique fatigatione
+            indeptae dignitatis honore potiantur. * THEODOS. ET VALENTIN. AA.
+            FLORENTIO PP. *&lt;A XXX &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

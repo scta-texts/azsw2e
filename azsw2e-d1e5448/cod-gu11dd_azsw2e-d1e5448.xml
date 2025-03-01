@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 44</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 44</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5448"><!-- azsw2e-l8t44 -->
+            <head xml:id="azsw2e-d1e5448-Hd1e101">Titulus 44</head>
+            <head xml:id="azsw2e-d1e5448-Hd1e103" type="question-title">De evictionibus</head>
+            <div xml:id="azsw2e-d1e5448-Dd1e106">
+               <head xml:id="azsw2e-d1e5448-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5448-d1e110">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Emptor hereditatis rem a possessoribus sumptu
+            ac periculo suo persequi debet. Evictio quoque non praestatur in singulis,
+            cum hereditatem iure venisse constet, nisi aliud nominatim inter contrahentes
+            convenit * SEV. ET ANT. AA. MUNATIO. *&lt;A 200 PP. VI K. MART. SEVERO
+            II ET VICTORINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e116">
+               <head xml:id="azsw2e-d1e5448-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5448-d1e120">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Quoniam avus tuus, cum praedia tibi donaret,
+            de evictione eorum cavit, potes adversus coheredes tuos ex causa stipulationis
+            consistere ob evictionem praediorum, pro portione scilicet hereditaria.
+            Nudo autem pacto interveniente minime donatorem hac actione teneri
+            certum est * SEV. ET ANT. AA. QUARTAE. *&lt;A 205 PP. II K. MART.
+            ANTONINO A. II ET GETA II CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e126">
+               <head xml:id="azsw2e-d1e5448-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5448-d1e130">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e132">Imperatores
+            Severus, Antoninus</ref> Qui rem emit et possidet, quamdiu evicta
+            non est, auctorem suum propterea, quod aliena vel obligata res dicatur,
+            convenire non potest. * SEV. ET ANT. AA. AURELIANO. *&lt;A 210 PP.
+            VIII K. AUG. FAUSTINO ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e137">
+               <head xml:id="azsw2e-d1e5448-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e5448-d1e141">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e143">Imperator
+            Antoninus</ref> Si praedium tibi pro soluto datum aliis creditoribus
+            fuerat obligatum, causa pignoris mutata non est. Igitur si hoc iure
+            fuerit evictum, utilis tibi actio contra debitorem competit. Nam eiusmodi
+            contractus vicem venditionis obtine * ANT. A. GEORGIO. *&lt;A 212
+            PP. XI K. AUG. DUOBUS ASPRIS CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e147">
+               <head xml:id="azsw2e-d1e5448-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e5448-d1e151">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e153">Imperator
+            Antoninus</ref> Ex praediis, quae mercata es, si aliqua a venditore
+            obligata et necdum tibi tradita sunt, ex empto actione consequeris,
+            ut ea a creditrice liberentur: id enim fiet, si adversus venditorem
+            ex vendito actione pretium petentem doli exceptionem opposueris. *
+            ANT. A. PATROINAE. *&lt;A 212 PP. XV K. OCT. DUOBUS ASPRIS CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e157">
+               <head xml:id="azsw2e-d1e5448-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e5448-d1e161">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e163">Imperator
+            Alexander Severus</ref> Non dubitatur, etsi specialiter venditor evictionem
+            non promiserit, re evicta ex empto competere actionem. * ALEX. A.
+            OCTAVIO. *&lt;A 222 PP. VIII ID. MART. ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e167">
+               <head xml:id="azsw2e-d1e5448-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e5448-d1e171">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e173">Imperator
+            Alexander Severus</ref> Auctore laudato si evicta res est, fideiussorem,
+            etiamsi agi causam ignoraverit, conveniri evictionis nomine posse
+            non ambigitur. * ALEX. A. HILARIANO. *&lt;A 222 PP. III NON. APRIL.
+            ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e177">
+               <head xml:id="azsw2e-d1e5448-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e5448-d1e181">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e183">Imperator
+            Alexander Severus</ref> Emptor fundi, nisi auctori aut heredi eius
+            denuntiaverit, evicto praedio neque ex stipulatu neque ex dupla neque
+            ex empto actionem contra venditorem vel fideiussores eius habet. Sed
+            et si iudicio emptor non adfuit aut praesens per iniuriam iudicis
+            victus est absente auctore vel fideiussore, regressum adversus eum
+            non habet * ALEX. A. CLEMENTIO. *&lt;A 222 PP. VIII ID. DEC. ALEXANDRO
+            A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e187">
+               <head xml:id="azsw2e-d1e5448-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e5448-d1e191">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e193">Imperator
+            Alexander Severus</ref> Si controversia tibi possessionis, quam bona
+            fide te emisse adlegas, ab aliquo movetur, auctori heredive eius denuntia.
+            Et si quidem obtinueris, habebis quod emisti. Sin autem evictum erit,
+            a venditrice successoresve eius consequeris, quanti tua interest:
+            in quo continetur etiam eorum persecutio, quae in rem emptam a te,
+            ut melior fieret, erogata sun * ALEX. A. TERENTIO. *&lt;A 222 PP.
+            XI K. IAN. ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e198">
+               <head xml:id="azsw2e-d1e5448-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e5448-d1e202">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e204">Imperator
+            Alexander Severus</ref> Si fines agri venditor demonstravit et legem
+            dixit intra eos neminem ingressurum, si quid inde evincatur, periculo
+            fit auctoris. Quod si finibus suis quos demonstravit agrum vendidit,
+            lis finalis ad venditorem non pertinet * ALEX. A. LARGO. *&lt;A 223
+            PP. VII K. DEC. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e208">
+               <head xml:id="azsw2e-d1e5448-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e5448-d1e212">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e214">Imperator
+            Alexander Severus</ref> Exceptione doli recte eum submovebis, quem
+            ab auctore tuo fideiussorem accepisti, si eius nomine controversiam
+            refert, quasi per uxorem suam, antequam tu emeres, comparaverit, qui
+            vendenti adeo consensum dedit, ut se etiam pro evictione obligaverit.
+            * ALEX. A. CLEMENTI. *&lt;A 231 PP. NON. FEBR. POMPEIANO ET PELIGNO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e218">
+               <head xml:id="azsw2e-d1e5448-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e5448-d1e222">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e224">Imperator
+            Gordianus</ref> Sive in libertatem evictus est servus quem mercatus
+            es, sive cum comparares convenit, si qua quaestio eius nomine relata
+            esset, etsi necdum evictus esset, ut pretium recuperares, praeses
+            provinciae, quod tibi praestandum animadverterit, restitui iubebit.
+            * GORD. A. PHILIPPO. *&lt;A 239 PP. VII ID. MART. GORDIANO A. ET AVIOLA
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e228">
+               <head xml:id="azsw2e-d1e5448-Hd1e230">13</head>
+               <p xml:id="azsw2e-d1e5448-d1e232">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e234">Imperator
+            Gordianus</ref> Si ob causam iudicati pignora capta sunt ex eius auctoritate,
+            cui praecipiendi ius fuit, ea de quibus complecteris, eaque tu mercatus
+            es, frustra ab ea quae condemnata est vel quae in eius locum successit
+            eorum refertur quaestio, quandoquidem, etsi evictio eorum ab alio
+            subsecuta fuisset, adversus eos debuisse dari actionem, quibus pretii
+            solutio proficit, meritissime rescriptum est. * GORD. A. ZOILO. *&lt;A
+            239 PP. XVI K. IUN. GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e238">
+               <head xml:id="azsw2e-d1e5448-Hd1e240">14</head>
+               <p xml:id="azsw2e-d1e5448-d1e242">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e244">Imperator
+            Gordianus</ref> Sive possessio venditoris fuit, filius eiusdemque
+            patris heres frustra quaestionem movet, sive non patris, sed filii
+            eius possessio fuit, de qua iure hereditario auctor laudari potest,
+            controversiam movere non potest. * GORD. A. SECUNDINO. *&lt;A 239
+            PP. XIIII K. AUG. GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e248">
+               <head xml:id="azsw2e-d1e5448-Hd1e250">15</head>
+               <p xml:id="azsw2e-d1e5448-d1e252">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e254">Imperator
+            Philippus</ref> Si non iniuria iudicantis, sed iuris ratione superatus
+            es, pignus ob evictionem acceptum sollemniter persequi potes. * PHILIPP.
+            A. ET PHILIPP. C. MENANDRO. *&lt;A 245 PP. K. AUG. PHILIPPO A. ET
+            TITIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e259">
+               <head xml:id="azsw2e-d1e5448-Hd1e261">16</head>
+               <p xml:id="azsw2e-d1e5448-d1e263">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e265">Imperatores
+            Diocletianus, Maximianus</ref> Super empti agri quaestione disceptabit
+            praeses provinciae et, si portionem diversae partis esse cognoverit,
+            impensas, quas ad meliorandam rem vos erogasse constiterit, habita
+            fructuum ratione restitui vobis iubebit. Nam super pretio evictae
+            portionis non eum qui dominium evicerit, sed auctricem conveniri consequens
+            est * DIOCL. ET MAXIM. AA. ALEXANDRO ET DIOGENI. *&lt;A 290 PP. X
+            K. IUL. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e269">
+               <head xml:id="azsw2e-d1e5448-Hd1e271">17</head>
+               <p xml:id="azsw2e-d1e5448-d1e273">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e275">Imperatores
+            Diocletianus, Maximianus</ref> Si, cum quaestio tibi super eo quem
+            comparaveras commoveretur, auctorem tuum certum fecisti nec citra
+            iudicis disceptationem eum quem emeras tradidisti, praeses provinciae
+            in damnis, quae te tolerasse meministi, medelam iuris adhibebit. *
+            DIOCL. ET MAXIM. AA. MUCIANO. *&lt;A 290 PP. V ID. NOV. IPSIS IIII
+            ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e279">
+               <head xml:id="azsw2e-d1e5448-Hd1e281">18</head>
+               <p xml:id="azsw2e-d1e5448-d1e283">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e285">Imperatores
+            Diocletianus, Maximianus</ref> Si status super homine tibi venumdato
+            mota quaestio est, sollemnibus, quae iuris admitti ratio, interpositis
+            si secundum libertatem fuerit lata sententia, poteris de evictione,
+            si nesciens condicionem eius comparasti, sine aliqua dubitatione auctorem
+            vel eius fideiussores heredesve eorum convenire. Quod si fuisse servum
+            sententia declaraverit, intellegis ad venditorem te reverti non posse
+            * DIOCL. ET MAXIM. AA. ET CC. EUTYCHIO. *&lt;A 293 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e289">
+               <head xml:id="azsw2e-d1e5448-Hd1e291">19</head>
+               <p xml:id="azsw2e-d1e5448-d1e293">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e295">Imperatores
+            Diocletianus, Maximianus</ref> Si obligata praedia venumdedisti et
+            longi temporis praescriptione solita emptores se tueri possunt, evictionis
+            periculum timere non potes. * DIOCL. ET MAXIM. AA. ET CC. THEODORO.
+            *&lt;A 293 S. II K. MAI. AA. CONSS.&gt; </p>
+               <p xml:id="azsw2e-d1e5448-d1e298"> .
+            </p>
+               <p xml:id="azsw2e-d1e5448-d1e300">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e302">Imperatores
+            Diocletianus, Maximianus</ref>  Si parentes vestri mancipia venumdederunt
+            quaestioque dominii mota est, emptoribus adesse ac defendere causam
+            non prohibemini. </p>
+               <p xml:id="azsw2e-d1e5448-d1e305" n="1">
+            Quod si eis haec iam evicta sunt, instauratio litis ex persona
+            vestra, si appellationem non interposuistis, contra ius desideratur.
+            </p>
+               <p xml:id="azsw2e-d1e5448-d1e309" n="2">
+            Empti sane iudicio pro evictione si conveniri coeperitis,
+            nec vobis, ut defendatis, negotium denuntiatum probetur, intellegitis,
+            quatenus vosmet ipsos tueri debeatis. * DIOCL. ET MAXIM. AA. ET CC.
+            SOLIDO ET ALIIS. *&lt;A 293 S. VI K. IUL. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e313">
+               <head xml:id="azsw2e-d1e5448-Hd1e315">21</head>
+               <p xml:id="azsw2e-d1e5448-d1e317">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e319">Imperatores
+            Diocletianus, Maximianus</ref>  Empti actio longi temporis praescriptione
+            non submovetur, licet post multa spatia rem evictam emptori fuerit
+            comprobatum. </p>
+               <p xml:id="azsw2e-d1e5448-d1e322" n="1">
+            Si itaque is, quem te comparasse commemoras, nunc in libertatem
+            proclamet, interpellare venditorem sive successores eius debes, ut
+            tibi adsistant causamque instruant. </p>
+               <p xml:id="azsw2e-d1e5448-d1e325" n="2">
+            Quem si liberum esse vel servum non esse fuerit pronuntiatum,
+            nec te conventione remisisse periculum evictionis fuerit comprobatum,
+            praeses provinciae, si res integra est, quanti tua interest restitui
+            tibi providebit. * DIOCL. ET MAXIM. AA. ET CC. HELIODORO. *&lt;A 293
+            S. XI K. IUL. SERDICAE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e329">
+               <head xml:id="azsw2e-d1e5448-Hd1e331">22</head>
+               <p xml:id="azsw2e-d1e5448-d1e333">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e335">Imperatores
+            Diocletianus, Maximianus</ref> Cum tibi liberum venumdatum fundum
+            ab auctore proponas, si ex antecedente obligatione quod debebatur
+            iure solvisti, stipulationem, quam subiectam emptioni de indemnitate
+            proponis, ipsius conceptio commissam manifeste declarat. * DIOCL.
+            ET MAXIM. AA. ET CC. IULIO. *&lt;A 293 S. VII K. SEPT. VIMINACII AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e340">
+               <head xml:id="azsw2e-d1e5448-Hd1e342">23</head>
+               <p xml:id="azsw2e-d1e5448-d1e344">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e346">Imperatores
+            Diocletianus, Maximianus</ref> Cum successores etiam venditoris pro
+            evictione teneri possint, si velut obligata sibi res publica thessalonicensium
+            pignoris instituat iure persequi quae comparasti, auctoris heredibus
+            quocumque gradu constitutis adsistere negotio denuntia. Quod sive
+            praesentibus his fundus quem emisti fuerit evictus sive absentibus,
+            postea quanti tua interest rem evictam non esse teneri, non quantum
+            pretii nomine dedisti, si aliud non placuit, publice notum est * DIOCL.
+            ET MAXIM. AA. ET CC. EUSTOCHIAE. *&lt;A 293 S. II K. IAN. SIRMI AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e350">
+               <head xml:id="azsw2e-d1e5448-Hd1e352">24</head>
+               <p xml:id="azsw2e-d1e5448-d1e354">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e356">Imperatores
+            Diocletianus, Maximianus</ref>  Si post perfectam venditionem ante
+            pretium numeratum rei venumdatae mota fuerit quaestio vel mancipia
+            venumdata proclament in libertatem, cum in ipso limine contractus
+            immineat evictio, emptorem, si satis ei non offeratur, ad totius vel
+            residui pretii solutionem non compelli iuris auctoritate monstratur.
+            </p>
+               <p xml:id="azsw2e-d1e5448-d1e359" n="1">
+            Unde cum parte pretii numerata, domus quam emisti tibi velut
+            pignoris iure obligatae ne ad emptionem accederes, denuntiatum ab
+            aliquo proponas, iudex tibi quae ex emptione veniunt praestari providebit.
+            * DIOCL. ET MAXIM. AA. ET CC. EUTYCHIO. *&lt;A 294 S. VI K. FEBR.
+            SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e363">
+               <head xml:id="azsw2e-d1e5448-Hd1e365">25</head>
+               <p xml:id="azsw2e-d1e5448-d1e367">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e369">Imperatores
+            Diocletianus, Maximianus</ref> Si tibi liberam saturninus condicionem
+            eius ignorans distraxit ac nunc eam defendit in libertatem, hac libera
+            pronuntiata venditorem vel ex stipulatione duplae, quantum in hanc
+            deductum est, vel empti actione quanti tua interest convenire potes.
+            * DIOCL. ET MAXIM. AA. ET CC. SATURNINAE. *&lt;A 294 S. ID. FEBR.
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e373">
+               <head xml:id="azsw2e-d1e5448-Hd1e375">26</head>
+               <p xml:id="azsw2e-d1e5448-d1e377">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e379">Imperatores
+            Diocletianus, Maximianus</ref> Si quis tibi servum vendidit, postquam
+            is rebus humanis exemptus est, cum evictionis periculum finitum sit,
+            a te conveniri non potest. * DIOCL. ET MAXIM. AA. ET CC. NEONI. *&lt;A
+            294 S. II K. APRIL. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e383">
+               <head xml:id="azsw2e-d1e5448-Hd1e385">27</head>
+               <p xml:id="azsw2e-d1e5448-d1e387">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e389">Imperatores
+            Diocletianus, Maximianus</ref> Si fundum sciens alienum vel obligatum
+            comparavit athenocles nec quicquam de evictione convenit, quod eo
+            nomine dedit, contra iuris poscit rationem. Nam si ignorans, desiderio
+            tuo iuris forma negantis hoc reddi refragatur * DIOCL. ET MAXIM. AA.
+            ET CC. THEOPHILO. *&lt;A 294 S. XVII K. OCT. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e393">
+               <head xml:id="azsw2e-d1e5448-Hd1e395">28</head>
+               <p xml:id="azsw2e-d1e5448-d1e397">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e399">Imperatores
+            Diocletianus, Maximianus</ref> Emptori etiam venditoris iura prodesse
+            non ambigitur. Si igitur vobis propter rei proprietatem mota fuerit
+            quaestio, tam propriis quam venditoris defensionibus uti poteritis
+            * DIOCL. ET MAXIM. AA. ET CC. MAXIMIANO. *&lt;A 294 S. III NON. OCT.
+            SCUPPIS CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e404">
+               <head xml:id="azsw2e-d1e5448-Hd1e406">29</head>
+               <p xml:id="azsw2e-d1e5448-d1e408">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e410">Imperatores
+            Diocletianus, Maximianus</ref> Si permutationis gratia praedia curatoribus
+            quondam fratris tui mater tua dedit, his, quae in eorum vicem accepit,
+            posteaquam ad defensionem fuerit denuntiatum, vel cum eorum non haberet
+            facultatem, evictis quanti interest eos conveniri posse rationis est.
+            * DIOCL. ET MAXIM. AA. ET CC. RHESO. *&lt;A 294 S. VII ID. DEC. NICOMEDIAE
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e414">
+               <head xml:id="azsw2e-d1e5448-Hd1e416">30</head>
+               <p xml:id="azsw2e-d1e5448-d1e418">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e420">Imperatores
+            Diocletianus, Maximianus</ref> Non ex eo, quod duplam qui a matre
+            tua mancipium comparavit evictionis nomine stipulatus est, alienae
+            rei scientia convincitur, nec opinio eius ex hoc laeditur , ut malae
+            fidei emptor existimetur. Aliis itaque hoc indiciis, si vis, probare
+            debes * DIOCL. ET MAXIM. AA. ET CC. HASTIO. *&lt;A 294 S. ID. DEC.
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5448-Dd1e424">
+               <head xml:id="azsw2e-d1e5448-Hd1e426">31</head>
+               <p xml:id="azsw2e-d1e5448-d1e428">
+                  <ref xml:id="azsw2e-d1e5448-Rd1e430">Imperatores
+            Diocletianus, Maximianus</ref> Heredem fideiussoris rerum, pro quibus
+            defunctus apud emptorem intercesserat pro venditore, factum eius cui
+            successit ex sua persona dominium vindicare non impedit, scilicet
+            evictionis causa durante actione. * DIOCL. ET MAXIM. AA. ET CC. AGATHO.
+            *&lt;A 294 S. XVIII K. IAN. NICOMEDIAE CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

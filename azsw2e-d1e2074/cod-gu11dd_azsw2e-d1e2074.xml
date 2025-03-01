@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 21</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 21</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2074"><!-- azsw2e-l4t21 -->
+            <head xml:id="azsw2e-d1e2074-Hd1e101">Titulus 21</head>
+            <head xml:id="azsw2e-d1e2074-Hd1e103" type="question-title">De fide instrumentorum et amissione eorum et antapochis faciendis
+            et de his quae sine scriptura fieri possunt</head>
+            <div xml:id="azsw2e-d1e2074-Dd1e106">
+               <head xml:id="azsw2e-d1e2074-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2074-d1e110">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e112">Imperator
+            Antoninus</ref> Debitores tuos quibuscumque rationibus debere tibi
+            pecuniam si probaveris, ad solutionem compellet aditus praeses provinciae
+            : nec oberit tibi amissio instrumentorum, si modo manifestis probationibus
+            eos debitores esse apparuerit. * ANT. A. SEPTIMIAE MARCIAE. *&lt;A
+            213 PP. V ID. SEPT. ANTONINO A. IIII ET BALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e116">
+               <head xml:id="azsw2e-d1e2074-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2074-d1e120">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e122">Imperator
+            Alexander Severus</ref> Si uteris instrumento, de quo alius accusatus
+            falsi victus est, et paratus es, si ita visum fuerit a quo pecuniam
+            petis, eiusdem criminis te reum facere et discrimen periculi poenae
+            legis Corneliae subire, non oberit sententia, a qua nec is contra
+            quem data est appellavit nec tu, qui tunc crimini non eras subiectus,
+            appellare debuisti. * ALEX. A. MANILIANO. *&lt;A 223 PP. III K. OCT.
+            MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e126">
+               <head xml:id="azsw2e-d1e2074-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2074-d1e130">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e132">Imperator
+            Alexander Severus</ref> Si adversarius tuus apud acta praesidis provinciae,
+            cum fides instrumenti quod proferebat in dubium revocaretur non se
+            usurum contestatus est, vereri non debes , ne ex ea scriptura, quam
+            non esse veram etiam professione eius constitit, negotium denuo repetatur.
+            * ALEX. A. AELIANO. *&lt;A 226 PP. III NON. MAI. ALEXANDRO A. II ET
+            MARCELLO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e137">
+               <head xml:id="azsw2e-d1e2074-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2074-d1e141">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e143">Imperator
+            Gordianus</ref> Illatae dispensatori pecuniae, si ob amissorum instrumentorum
+            casum probatione defeceris, inspectio rationum fiscalium fidem demonstrabit.
+            * GORD. A. MARCIANO. *&lt;A 239 D. II ID. FEBR. GORDIANO A. ET AVIOLA
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e147">
+               <head xml:id="azsw2e-d1e2074-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e2074-d1e151">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e153">Imperator
+            Gordianus</ref> Sicut iniquum est instrumentis vi ignis extinctis
+            debitores quantitatum debitarum renuere solutionem, ita non statim
+            casum conquerentibus facile credendum est. Intellegere itaque debetis
+            non existentibus instrumentis vel aliis argumentis probare fidem precibus
+            vestris adesse * GORD. A. AURELIO PRISCO ET MARCO MIL. *&lt;A 240
+            PP. III K. IUL. SABINO II ET VENUSTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e157">
+               <head xml:id="azsw2e-d1e2074-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e2074-d1e161">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Statum tuum natali professione perdita
+            mutilatum non esse certi iuris est. * DIOCL. ET MAXIM. AA. LUSCIDI.
+            *&lt;A 286 D. XIII K. FEBR. NICOMEDIAE MAXIMO II ET AQUILINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e167">
+               <head xml:id="azsw2e-d1e2074-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e2074-d1e171">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Si sollemnibus stipendiis honeste sacramento
+            solutus es, licet super huiusmodi re instrumenta, ut dicis, facta
+            perdita sunt, tamen, si aliis evidentibus probationibus veritas ostendi
+            potest, veteranorum privilegia etiam te usurpare posse dubium non
+            est. * DIOCL. ET MAXIM. AA. ZINIMAE. *&lt;A 286 D. XV K. IUN. MAXIMO
+            II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e177">
+               <head xml:id="azsw2e-d1e2074-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e2074-d1e181">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Si constiterit proprietatem possessionis
+            de qua agitur apud vos esse, providebit iudex ex persona fructuarii
+            nullum praeiudicium dominio comparari propter amissionem instrumentorum.
+            * DIOCL. ET MAXIM. AA. ALEXANDRAE. *&lt;A 287 D. XV K. MART. DIOCLETIANO
+            III ET MAXIMIANO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e187">
+               <head xml:id="azsw2e-d1e2074-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e2074-d1e191">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Instrumentis etiam non intervenientibus
+            semel divisio recte facta non habeatur irrita. * DIOCL. ET MAXIM.
+            AA. ET CC. ARISTAENETO. *&lt;A 293 PP. VI K. IUL. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e198">
+               <head xml:id="azsw2e-d1e2074-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e2074-d1e202">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> Cum instrumentis etiam non intervenientibus
+            venditio facta rata maneat, consequenter amissis etiam quae intercesserant
+            non tolli substantiam veritatis placuit. * DIOCL. ET MAXIM. AA. ET
+            CC. VICTORINO. *&lt;A 294 D. VIII K. NOV. REGINASSI CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e208">
+               <head xml:id="azsw2e-d1e2074-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e2074-d1e212">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e214">Imperatores
+            Diocletianus, Maximianus</ref> Emancipatione facta, etsi actorum tenor
+            non existat, si tamen aliis indubiis probationibus vel ex personis
+            vel ex instrumentorum incorrupta fide factam esse emancipationem probari
+            possit, actorum interitu veritas convelli non solet. * DIOCL. ET MAXIM.
+            AA. ET CC. THEAGENI. *&lt;A 294 D. III ID. NOV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e218">
+               <head xml:id="azsw2e-d1e2074-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e2074-d1e222">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e224">Imperatores
+            Diocletianus, Maximianus</ref> Non idcirco minus in vacuam inductus
+            praedii donationis causa possessionem, quod eius facti praetermissum
+            instrumentum adseveratur, hanc obtinere potes. * DIOCL. ET MAXIM.
+            AA. ET CC.DIONYSIAE. *&lt;A 294 D. ID. DEC. NICOMEDIAE CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e228">
+               <head xml:id="azsw2e-d1e2074-Hd1e230">13</head>
+               <p xml:id="azsw2e-d1e2074-d1e232">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e234">Imperatores
+            Diocletianus, Maximianus</ref> Apud eos, qui rem gestam ignoraverunt,
+            amissorum instrumentorum habita testatio nihil ad probationem veritatis
+            prodesse potest. * DIOCL. ET MAXIM. AA. ET CC. LEONTIO. *&lt;A 294
+            D. XVI K. IAN. NICOMEDIAE CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e238">
+               <head xml:id="azsw2e-d1e2074-Hd1e240">14</head>
+               <p xml:id="azsw2e-d1e2074-d1e242">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e244">Imperatores
+            Diocletianus, Maximianus</ref> Scripturae diversae et fidem sibi invicem
+            derogantes ab una eademque parte prolatae nihil firmitatis habere
+            potuerunt. * DIOCL. ET MAXIM. A. ET C. AD SEVERUM COM. HISPANIARUM.
+            *&lt;A 333 D. IIII NON MAI. CONSTANTINOPOLI DALMATIO ET ZENOPHILO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e248">
+               <head xml:id="azsw2e-d1e2074-Hd1e250">15</head>
+               <p xml:id="azsw2e-d1e2074-d1e252">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e254">Imperator
+            Constantinus</ref> In exercendis litibus eandem vim obtinent tam fides
+            instrumentorum quam depositiones testium. * CONSTANT. A. AD POP. *&lt;A
+            317 D. ROMAE XII K. AUG. GALLICANO ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e259">
+               <head xml:id="azsw2e-d1e2074-Hd1e261">16</head>
+               <p xml:id="azsw2e-d1e2074-d1e263"><!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e267">
+               <head xml:id="azsw2e-d1e2074-Hd1e269">17</head>
+               <p xml:id="azsw2e-d1e2074-d1e271">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e273">Imperator
+            Justinianus</ref>  Contractus venditionum vel permutationum vel donationum,
+            quas intimari non est necessarium, dationis etiam arrarum vel alterius
+            cuiuscumque causae, illos tamen , quos in scriptis fieri placuit,
+            transactionum etiam, quas instrumento recipi convenit, non aliter
+            vires habere sancimus, nisi instrumenta in mundum recepta subscriptionibusque
+            partium confirmata et, si per tabellionem conscribantur, etiam ab
+            ipso completa et postremo a partibus absoluta sint, ut nulli liceat
+            prius , quam haec ita processerint, vel a scheda conscripta, licet
+            litteras unius partis vel ambarum habeat, vel ab ipso mundo, quod
+            necdum est impletum et absolutum , aliquod ius sibi ex eodem contractu
+            vel transactione vindicare: adeo ut nec i llud in huiusmodi venditionibus
+            liceat dicere, quod pretio statuto necessitas venditori imponitur
+            vel contractum venditionis perficere vel id quod emptoris interest
+            ei persolvere. </p>
+               <p xml:id="azsw2e-d1e2074-d1e276" n="1">
+            Quae tam in postea conficiendis instrumentis quam in his,
+            quae iam scripta nondum autem absoluta sunt, locum habere praecipimus,
+            nisi iam super his transactum sit vel iudicatum, quae retractari non
+            possunt: exceptis emptionalibus tantum instrumentis iam vel in scheda
+            vel in mundo conscriptis, ad quae praesentem sanctionem non extendimus,
+            sed prisca iura in his tenere concedimus. </p>
+               <p xml:id="azsw2e-d1e2074-d1e279" n="2">
+            Illud etiam adicientes, ut et in posterum, si quae arrae
+            super facienda emptione cuiuscumque rei datae sunt sive in scriptis
+            sive sine scriptis, licet non sit specialiter adiectum, quid super
+            isdem arris non procedente contractu fieri oporteat, tamen et qui
+            vendere pollicitus est, venditionem recusans in duplum eas reddere
+            cogatur, et qui emere pactus est, ab emptione recedens datis a se
+            arris cadat, repetitione earum deneganda. * IUST. A. MENAE PP. *&lt;A
+            528 D. K. IUN. CONSTANTINOPOLI DN. IUSTINIANO A. II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e283">
+               <head xml:id="azsw2e-d1e2074-Hd1e285">18</head>
+               <p xml:id="azsw2e-d1e2074-d1e287">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e289">Imperator
+            Justinianus</ref> Iudices sive in hac inclita urbe sive in provinciis
+            ea quae disposuimus ( ut possint, si hoc perspexerint, occasione testium
+            in aliis locis degentium litigantes vel procuratores eorum ibi destinare,
+            ut depositionibus, sub utriusque partis praesentia factis res ad eos
+            referatur) etiam in illis servare volumus, qui prolatis instrumentis
+            fidem adhibere exiguntur, ut, si poposcerint in aliis locis id eis
+            facere permitti et hoc iuste peti iudex invenerit, similis proferatur
+            sententia, ut, postquam in locis opportunis fides instrumento data
+            vel minus data fuerit, referatur negotium ad priorem iudicem. * IUST.
+            A. MENAE PP. *&lt;A 529 D. VIII ID. APRIL. DECIO VC. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e293">
+               <head xml:id="azsw2e-d1e2074-Hd1e295">19</head>
+               <p xml:id="azsw2e-d1e2074-d1e297">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e299">Imperator
+            Justinianus</ref>  Plures, apochis vel redituum vel usurarum perceptis,
+            si quando super his fuerit dubitatio exorta, eas habere negando ius
+            agentium faciunt vacillare, cum coloni ad dominum certantes et sibi
+            iniquam forte libertatem vindicantes vel debitores creditoribus suis
+            temporalem praescriptionem opponere cupientes ad easdem infitiationes
+            perveniunt. </p>
+               <p xml:id="azsw2e-d1e2074-d1e302" n="1">
+            Quod resecantes iubemus, ut in praefatis casibus vel aliis
+            privatis similibus , si voluerit is qui apocham conscripsit vel exemplar
+            cum subscriptione eius qui apocham suscepit ab eo accipere vel antapocham
+            suscipere, omnis ei licentia hoc facere concedatur: necessitate imponenda
+            apochae susceptori antapocham reddere, ita tamen, ut si hoc is qui
+            apocham conscribit facere neglexerit vel non curaverit, nullum ei
+            praeiudicium ex eo, quod antapocham non recepit, generetur, cum hoc,
+            quod pro quibusdam introductum est, inferre eis iacturam minime rationi
+            convenit aequitatis. * IUST. A. DEMOSTHENI PP. *&lt;A 529 D. XII K.
+            OCT. CHALCEDONE DECIO VC. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e306">
+               <head xml:id="azsw2e-d1e2074-Hd1e308">20</head>
+               <p xml:id="azsw2e-d1e2074-d1e310">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e312">Imperator
+            Justinianus</ref>  Comparationes litterarum ex chirographis fieri et
+            aliis instrumentis, quae non sunt publice confecta, satis abundeque
+            occasionem criminis falsitatis dare et in iudiciis et in contractibus
+            manifestum est. </p>
+               <p xml:id="azsw2e-d1e2074-d1e315" n="1">
+            Ideoque sancimus non licere comparationes litterarum ex chirographis
+            fieri, nisi trium testium habuerint subscriptiones et prius litteris
+            eorum fides imponatur vel ex ipsis hoc deponentibus ( sive cunctis
+            sive omnimodo duobus ex his) sive comparatione litterarum testium
+            procedente, et tunc ex huiusmodi chartula iam probata comparatio fiat.
+            </p>
+               <p xml:id="azsw2e-d1e2074-d1e318" n="2">
+            Aliter etenim fieri comparationem nullo concedimus modo,
+            licet in semet ipsum aliquis chartam conscriptam proferat, sed tantummodo
+            vel ex forensibus vel publicis instrumentis vel ex huiusmodi chirographis
+            quae enumeravimus comparatione trutinanda. </p>
+               <p xml:id="azsw2e-d1e2074-d1e321" n="3">
+            Omnes autem comparationes non aliter fieri concedimus, nisi
+            iuramento antea praestito ab his qui comparationes faciunt fuerit
+            adfirmatum, quod neque lucri causa neque inimicitiis neque gratia
+            tenti huiusmodi faciunt comparationem. </p>
+               <p xml:id="azsw2e-d1e2074-d1e325" n="4">
+            Et hoc observari tam in omnibus sacris scriniis nostris quam
+            in apparitione omnis sublimissimae praefecturae nec non magisteriae
+            potestatis ceterisque omnibus iudiciis, quae in orbe nostro constituta
+            sunt, his omnibus in posterum observandis. Comparationes etenim iam
+            antea factas retractari extra periculum minime est * IUST. A. IULIANO
+            PP. *&lt;A 530 D. XIIII K. APRIL. CONSTANTINOPOLI LAMPADIO ET ORESTA
+            VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e329">
+               <head xml:id="azsw2e-d1e2074-Hd1e331">21</head>
+               <p xml:id="azsw2e-d1e2074-d1e333">
+                  <ref xml:id="azsw2e-d1e2074-Rd1e335">Imperator
+            Justinianus</ref>  Cum quidam instrumentum protulerit vel aliam chartulam
+            eique fidem imposuerit, postea autem persona, contra quam ista chartula
+            vel instrumentum prolatum est, quasi falsum hoc constitutum redarguere
+            niteretur, ne diutius dubitetur, utrum necessitatem ei qui protulit
+            imponi oporteret repetita vice hoc proferre, an sufficiat ei fides
+            iam pridem approbata, sancimus, si aliquid tali eveniat, eum, qui
+            petit eam chartam iterum proferri, prius sacramentum praestare, quod
+            existimans se posse falsum redarguere quod prolatum est ad huius modi
+            venit petitionem. Quid enim, si, cum nosset deperditam esse chartam
+            vel forte concrematam vel alio modo diminutam, hanc requiri adsimulans
+            et ad difficultatem productionis r espiciens huiusmodi facit petitionem
+            </p>
+               <p xml:id="azsw2e-d1e2074-d1e338" n="1">
+            Et postquam hoc ab actore vel petitore fuerit iuratum et
+            inscriptionum pagina apud competentem iudicem deposita, tunc necessitatem
+            imponi ei, qui protulit chartam de qua quaeritur, iterum eam apud
+            iudicem criminis proferre, quatenus possit apud eum crimen falsitatis
+            ventilari. </p>
+               <p xml:id="azsw2e-d1e2074-d1e341" n="2">
+            Sin autem dicat non esse sibi possibile eam ostendere, quia
+            per fortuitos casus huiusmodi copia ei abrepta est, tunc subeat sacramentum,
+            quod neque habet eandem chartulam neque alii eam dedit nec apud alium
+            voluntate eius constituta est nec dolo malo fecit, quominus ea appareat,
+            sed re vera ipsa chartula sine omni dolo deperdita est et productio
+            eius sibi impossibilis est: et si tale subeat sacramentum, ab huiusmodi
+            necessitate eum relaxari. </p>
+               <p xml:id="azsw2e-d1e2074-d1e344" n="3">
+            Quod si praedictum iusiurandum subire minime maluerit, tunc
+            quasi falsa chartula nullas habeat vires adversus eum, contra quem
+            prolata est, sed sit penitus vacuata: neque enim ulterius poenam produci
+            contra eos qui non iuraverunt volumus, cum forsitan quidam subtili
+            reverentia tenti nec verum sacramentum praestare patiuntur. </p>
+               <p xml:id="azsw2e-d1e2074-d1e348" n="4">
+            Eandem autem copiam ei praestamus, donec causa apud iudicem
+            ventilatur. Si enim iam plenissimum finem accepit et neque per appellationem
+            suspensa est neque per solitam retractationem adhuc lis vivere speratur,
+            tunc satis durum est huiusmodi querellae indulgeri, ne in infinitum
+            causae retractentur et sopita iam negotia per huiusmodi viam iterum
+            aperiantur et contrarium aliquid nostro eveniat proposito * IUST.
+            A. IULIANO PP. *&lt;A 530 D. V K. MART. LAMPADIO ET ORESTA VV. CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2074-Dd1e353">
+               <head xml:id="azsw2e-d1e2074-Hd1e355">22</head>
+               <p xml:id="azsw2e-d1e2074-d1e357"><!-- greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

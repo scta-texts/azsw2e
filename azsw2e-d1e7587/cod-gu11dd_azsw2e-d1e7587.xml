@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 48</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 48</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7587"><!-- azsw2e-l11t48 -->
+            <head xml:id="azsw2e-d1e7587-Hd1e101">Titulus 48</head>
+            <head xml:id="azsw2e-d1e7587-Hd1e103" type="question-title">De agricolis censitis vel colonis</head>
+            <div xml:id="azsw2e-d1e7587-Dd1e106">
+               <head xml:id="azsw2e-d1e7587-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7587-d1e110">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e112">Imperator
+            Constantinus</ref> Numquam rationibus vel colligendis frugibus insistens
+            agricola ad extraordinaria onera trahatur, cum providentiae sit opportuno
+            tempore his necessitatibus satisfacere. * CONST. A. AD AEMILIANUM
+            PP. *&lt;A 328 LECTA VII ID. MAI. ROMAE IANUARINO ET IUSTO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e116">
+               <head xml:id="azsw2e-d1e7587-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7587-d1e120">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e122">Imperator
+            Constantius</ref>  Si quis praedium vendere voluerit vel donare, retinere
+            sibi transferendos ad alia loca colonos privata pactione non possit.
+            </p>
+               <p xml:id="azsw2e-d1e7587-d1e125" n="1">
+            Qui enim colonos utiles credunt, aut cum praediis eos tenere
+            debent aut profuturos aliis derelinquere, si ipsi sibi praedium prodesse
+            desperant. * CONSTANTIUS A. AD DULCITIUM CONSULAREM AEMILIAE. *&lt;A
+            357 D. III K. MAI. MEDIOLANI CONSTANTIO A. VIIII ET IULIANO C. II
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e129">
+               <head xml:id="azsw2e-d1e7587-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e7587-d1e133">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e135">Imperatores
+            Valentinianus, Valens</ref>  Quisquis ex desertis agris veluti vagos
+            servos liberalitate nostra fuerit consecutus, pro fiscalibus pensitationibus
+            ad integram terrae professionem, ex qua videlicet servi manere videntur,
+            habeatur obnoxius. </p>
+               <p xml:id="azsw2e-d1e7587-d1e138" n="1">
+            Id etiam circa eos observari volumus, qui ex huiusmodi fundis
+            servos ad possessiones suas transire permiserint. * VALENTIN. ET VALENS
+            AA. AD FAVENTIUM VIC. ITALIAE. *&lt;A 365 D. PRID. K. AUG. MEDIOLANI
+            VALENTINIANO ET VALENTE AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e143">
+               <head xml:id="azsw2e-d1e7587-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e7587-d1e147">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e149">Imperatores
+            Valentinianus, Valens</ref>  Ii, penes quos fundorum dominia sunt,
+            pro his colonis originalibus, quos in locis isdem censitos esse constabit,
+            vel per se vel per actores proprios recepta compulsionis sollicitudine
+            implenda munia functionis agnoscant. </p>
+               <p xml:id="azsw2e-d1e7587-d1e152" n="1">
+            Sane quibus terrarum erit quantulacumque possessio, qui in
+            suis conscripti locis proprio nomine libris censualibus detinentur,
+            ab huius praecepti communione discernimus: eos enim convenit propriae
+            commissos mediocritati annonarias functiones sub solito exactore cognoscere.
+            * VALENTIN. ET VALENS AA. AD MODESTUM PP. *&lt;A 366 D. K. MAI. CONSTANTINOPOLI
+            GRATIANO A. ET DAGALAIFO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e156">
+               <head xml:id="azsw2e-d1e7587-Hd1e158">5</head>
+               <p xml:id="azsw2e-d1e7587-d1e160">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e162">Imperatores
+            Valentinianus, Valens</ref> Domini praediorum id quod terra praestat
+            accipiant, pecuniam non requirant, quam rustici optare non audent,
+            nisi consuetudo praedii hoc exigat. * VALENTIN. ET VALENS AA. AD ORICUM
+            PRAES. TRIPOLIT. *&lt;A 366 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e166">
+               <head xml:id="azsw2e-d1e7587-Hd1e168">6</head>
+               <p xml:id="azsw2e-d1e7587-d1e170">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e172">Imperatores
+            Valentinianus, Valens</ref> Omnes omnino fugitivos adscripticios colonos
+            vel inquilinos sine ullo sexus muneris condicionisque discrimine ad
+            antiquos penates, ubi censiti atque educati natique sunt, provinciis
+            praesidentes redire compellant. * VALENTIN. ET ET VALENS AA. AD GERMANICUM
+            PP. GALLIARUM. *&lt;A 366 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e176">
+               <head xml:id="azsw2e-d1e7587-Hd1e178">7</head>
+               <p xml:id="azsw2e-d1e7587-d1e180">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e182">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Quemadmodum originarios absque
+            terra, ita rusticos censitosque servos vendi omnifariam non licet.
+            </p>
+               <p xml:id="azsw2e-d1e7587-d1e185" n="1">
+            Neque vero commento fraudis id usurpet legis illusio, quod
+            in originariis saepe actitatum est, ut parva portione terrae emptori
+            tradita omnis integri fundi cultura adimatur. </p>
+               <p xml:id="azsw2e-d1e7587-d1e188" n="2">
+            Sed cum soliditas fundorum vel certa portio ad unumquemque
+            perveniat, tanti quoque servi et originarii transeant, quanti apud
+            superiores dominos et possessores vel in soliditate vel in parte manserunt:
+            et emptor pretium quod dederit amissum existimet, nihilo minus venditori
+            ad repetendos servos cum agnatione eorum vindicatione concessa. </p>
+               <p xml:id="azsw2e-d1e7587-d1e191" n="3">
+            Et si aliqua denique ex causa dissimulaverit legis usurpare
+            beneficium atque iste sub hac taciturnitate decesserit, et heredibus
+            eius et contra heredes emptoris vindicationem damus longi temporis
+            praescriptione submota: mala fide namque possessorem esse nullus ambiget,
+            qui aliquid contra legum interdicta mercatur. * VALENTIN. VALENS ET
+            GRAT. AAA. AD MAXIMUM PP. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e195">
+               <head xml:id="azsw2e-d1e7587-Hd1e197">8</head>
+               <p xml:id="azsw2e-d1e7587-d1e199">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e201">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Omnes profugi in alieno latebras
+            collocantes cum emolumentis tributariis, salva tamen moderatione,
+            revocentur, scilicet ut si, apud quos homines reperiuntur, alienos
+            esse noverant fugitivos et profugis in lucrum suum usi sunt, hoc est
+            sive excoluerunt agros fructibus dominis profuturos sive aliqua ab
+            isdem sibi iniuncta novaverunt nec mercedem laboris debitam consecuti
+            sunt, ab illis tributa quae publicis perierunt functionibus exigantur.
+            </p>
+               <p xml:id="azsw2e-d1e7587-d1e204" n="1">
+            Ceterum si occultato eo profugi, quod alieni esse videntur,
+            quasi sui arbitrii ac liberi apud aliquem se collocaverunt aut excolentes
+            terras partem fructuum pro solo debitam dominis praestiterunt cetera
+            proprio peculio reservantes, vel quibuscumque operis impensis mercedem
+            placitam consecuti sunt, ab ipsis profugis quaecumque debentur exigantur:
+            nam manifestum est privatum iam esse contractum. </p>
+               <p xml:id="azsw2e-d1e7587-d1e207" n="2">
+            Si qui vero inter agricolas, ut solet, ex quibuscumque commerciis
+            huiusmodi hominibus inveniuntur esse debitores, coram partibus constitutis
+            iudex ab obnoxiis quod debetur exposcat. * VALENTIN. VALENS ET GRAT.
+            AAA. AD PROBUM PP. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e211">
+               <head xml:id="azsw2e-d1e7587-Hd1e213">9</head>
+               <p xml:id="azsw2e-d1e7587-d1e215">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e217">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Immunitates specialiter
+            datae et iugatio et capitatio libris publicis et civitatum ac provinciarum
+            encautariis sine aliqua probatione factae penes fruentes ereptae in
+            functionem pristinam redeant. * GRAT. VALENTIN. ET THEODOS. AAA. AD
+            POP. *&lt;A 383 D.III NON.MART.MEDIOLANI MEROBAUDE II ET SATURNINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e222">
+               <head xml:id="azsw2e-d1e7587-Hd1e224">10</head>
+               <p xml:id="azsw2e-d1e7587-d1e226">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e228">Imperatores
+            Gratianus, Valentinianus, Theodosius, Arcadius</ref>  Cum antea per
+            singulos viros, per binas vero mulieres capitis norma sit censa, nunc
+            binis ac ternis viris, mulieribus autem quaternis unius pendendi capitis
+            attributum est. </p>
+               <p xml:id="azsw2e-d1e7587-d1e231" n="1">
+            Quocirca sublimitas tua huiusmodi census per Comanensium
+            et Ariarathensium Armeniae secundae, Amasenorum Helenoponti et Diocaesarensium
+            Cappadociae secundae urbes salubris et temperatae per aequationis
+            modum monumentis publicis iubebit adnecti. * GRAT. VALENTIN. THEODOS.
+            ET ARCAD. AAAA. CYNEGIO PP. *&lt;A 386 D.VI K.APRIL.CONSTANTINOPOLI
+            HONORIO ET EUODIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e235">
+               <head xml:id="azsw2e-d1e7587-Hd1e237">11</head>
+               <p xml:id="azsw2e-d1e7587-d1e239">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e241">Imperatores
+            Arcadius, Honorius</ref> Originarios colonos nullis privilegiis, nulla
+            dignitate, nulla census auctoritate excusari praecipimus, sed amputatis
+            omnibus, quae aliquotiens per gratiam sunt elicita, domino vel fundo
+            esse reddendos. * ARCAD. ET HONOR. AA. AD POP. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e245">
+               <head xml:id="azsw2e-d1e7587-Hd1e247">12</head>
+               <p xml:id="azsw2e-d1e7587-d1e249">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e251">Imperatores
+            Arcadius, Honorius</ref>  Servos vel tributarios vel inquilinos apud
+            dominos volumus remanere. Nam cum metu damni deterritus unusquisque
+            eum quem incognitum habuerit coeperit propulsare , voluntas fugiendi
+            servis non erit: nemo enim dominum suum deserit sciens nusquam sibi
+            latendi locum esse derelictum. </p>
+               <p xml:id="azsw2e-d1e7587-d1e254" n="1">
+            Sed aut cognitum sibi ingenuum unusquisque suscipiet, aut
+            eum qui se liberum esse simulaverit a se submovebit metuens his quae
+            statuta sunt obnoxius fieri. </p>
+               <p xml:id="azsw2e-d1e7587-d1e257" n="2">
+            Si quis igitur ex memoratis fugitivis apud quemlibet fuerit
+            repertus, duodecim libras argenti fisco nostro inferat detentator,
+            ipsi autem cuius fuit praeter eundem fugitivum alterum etiam eiusdem
+            aestimationis inferre decernimus. * ARCAD. ET HONOR. AA. FLORENTIO.
+            *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e261">
+               <head xml:id="azsw2e-d1e7587-Hd1e263">13</head>
+               <p xml:id="azsw2e-d1e7587-d1e265">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e267">Imperatores
+            Arcadius, Honorius</ref>  Definimus, ut inter inquilinos colonosve,
+            quorum quantum ad originem pertinet vindicandam indiscreta eademque
+            paene videtur esse condicio, licet sit discrimen in nomine, suscepti
+            liberi vel utroque vel neutro parente censito statum paternae condicionis
+            agnoscant. </p>
+               <p xml:id="azsw2e-d1e7587-d1e270" n="1">
+            Illud etiam servandum est, ut, si quando utriusque fundi
+            idem dominus de possessione referta cultoribus ad eam colonos quae
+            laborabat tenuitate transtulerit, idemque fundi ad diversorum iura
+            dominorum qualibet sorte transierint, maneat quidem facta translatio,
+            sed ita, ut praedii eius dominus, a quo coloni probantur fuisse transducti,
+            translatorum agnationem restituat. * ARCAD. ET HONOR. AA. VINCENTIO
+            PP. GALLIARUM.*&lt;A 400 D.III ID.IUL.STILICHONE ET AURELIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e274">
+               <head xml:id="azsw2e-d1e7587-Hd1e276">14</head>
+               <p xml:id="azsw2e-d1e7587-d1e278">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e280">Imperatores
+            Arcadius, Honorius</ref> Si coloni, quos bona fide quisque possedit,
+            ad alios fugae vitio transeuntes necessitatem condicionis propriae
+            declinare temptaverint, bonae fidei possessori primum oportet celeri
+            reformatione succurri, tunc causam originis et proprietatis agitari.
+            * ARCAD. ET HONOR. AA. VINCENTIO PP. GALLIARUM.*&lt;A 400 D.IIII ID.IUL.MEDIOLANI
+            STILICHONE ET AURELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e284">
+               <head xml:id="azsw2e-d1e7587-Hd1e286">15</head>
+               <p xml:id="azsw2e-d1e7587-d1e288">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e290">Imperatores
+            Honorius, Theodosius</ref> Colonos numquam fiscalium nomine debitorum
+            ullius exactoris pulset intentio: quos ita glebis inhaerere praecipimus,
+            ut ne puncto quidem temporis debeant amoveri. * HONOR. ET THEODOS.
+            AA. PROBO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e295">
+               <head xml:id="azsw2e-d1e7587-Hd1e297">16</head>
+               <p xml:id="azsw2e-d1e7587-d1e299">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e301">Imperatores
+            Honorius, Theodosius</ref> Mulier, quae fuisse originaria docebitur,
+            si cuiuscumque liberi hominis secuta consortium in urbibus vel in
+            quibuscumque locis victura constitit, eius omnem subolem secundum
+            vetera constituta conveniet revocari. * HONOR. ET THEODOS. AA. PALLADIO
+            PP. *&lt;A 419 D.VI K.IUL. RAVENNAE MONAXIO ET PLINTA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e305">
+               <head xml:id="azsw2e-d1e7587-Hd1e307">17</head>
+               <p xml:id="azsw2e-d1e7587-d1e309">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e311">Imperatores
+            Honorius, Theodosius</ref> Per colonum praeiudicium possessioni invito
+            vel inscio domino imponi non posse et iure et legum auctoritatibus
+            decantatur. * HONOR. ET THEODOS. AA. IOHANNI PP. *&lt;A 422 D.ID.IUL.RAVENNAE
+            HONORIO XIII ET THEODOSIO X.AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e315">
+               <head xml:id="azsw2e-d1e7587-Hd1e317">18</head>
+               <p xml:id="azsw2e-d1e7587-d1e319">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e321">Imperatores
+            Theodosius, Valentinianus</ref> Colonos nulla ratione ad ullum quamvis
+            humilioris militiae locum sinimus admitti : sed nec apparitores magisteriae
+            potestatis censibus adscriptos probari concedimus, quia in hac parte
+            et dominorum iuri et publicae consulimus honestati. * THEODOS. ET
+            VALENTIN. AA. BASSO PP. *&lt;A 426 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e325">
+               <head xml:id="azsw2e-d1e7587-Hd1e327">19</head>
+               <p xml:id="azsw2e-d1e7587-d1e329"><!-- Greek --></p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e333">
+               <head xml:id="azsw2e-d1e7587-Hd1e335">20</head>
+               <p xml:id="azsw2e-d1e7587-d1e337">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e339">Imperator
+            Justinianus</ref>  Litibus imponentes celeritatem sancimus, si quando
+            coloni cuiuscumque condicionis contra dominos terrae declamaverint
+            super hoc ipso dubitantes, utrum is terrae dominus est nec ne ( eos
+            tamen dicimus, qui non ex longo prolixoque tempore vel longinqua et
+            inveterata redituum susceptione sufficientem habent cautelam, in quibus
+            casibus ne contradicendi quidem licentia colonis relinquitur, longi
+            temporis praescriptione vel redituum frequentissima consequentia colonorum
+            impetus excludente): talem esse super redituum vel publicarum functionum
+            praestatione formam censemus, ut, si tales coloni, quales supra diximus,
+            idoneum fideiussorem totius summae quae ab his dependitur praestiterint,
+            quod omnes reditus sine ulla procrastinatione, si melior causa dominorum
+            iudicetur, eis restituent, et talis fideiussor per triennium accipiatur
+            eoque impleto iterum renovetur, coloni in medio nullo modo super reditibus
+            a dominis inquietentur. </p>
+               <p xml:id="azsw2e-d1e7587-d1e342" n="1">
+            Sin autem hoc coloni minime facere voluerint vel potuerint,
+            tunc idem reditus per officium iudicis annui exigantur per solita
+            tempora, in quae etiam dominis dependebantur, et deponantur in aede
+            sacra, id est in Cimeliarchio civitatis, sub qua possessio sita est,
+            vel si localis ecclesia ad susceptionem pecuniarum idonea non sit,
+            in metropolitana ecclesia, ut remaneant cum omni cautela et post plenissimam
+            definitionem vel dominis dentur vel colonis restituantur.</p>
+               <p xml:id="azsw2e-d1e7587-d1e345" n="2">
+            Sin autem reditus non in auro, sed in speciebus inferuntur,
+            vel in totum vel ex parte, interim per officium iudicis fructus vendantur
+            et pretia eorum secundum praedictum modum deponantur. </p>
+               <p xml:id="azsw2e-d1e7587-d1e348" n="3">
+            Haec de reditibus definientes ad publicas transeamus functiones.
+            Et si quidem coloni more solito eas dependant, ipsi maneant in pristina
+            consuetudine, nullo praeiudicio dominis generando, qui et quiescentibus
+            colonis et non contradicentibus ad publicum tributarias functiones
+            minime inferebant </p>
+               <p xml:id="azsw2e-d1e7587-d1e352"> 
+            Sin autem moris erat dominos totam summam accipere et ex
+            ea partem quidem in publicas vetere functiones, partem autem in suos
+            reditus habere, tunc, si quidem fideiussor a colonis detur, eundem
+            fideiussorem dominis sine praeiudicio litis tantam summam inferre,
+            quantam tributa publica faciunt, ut a dominis publicis rationibus
+            persolvatur: nullo ex hoc colonis praeiudicio generando. Super reditibus
+            enim domini fideiussore fiant contenti. </p>
+               <p xml:id="azsw2e-d1e7587-d1e354" n="4">
+            Sin autem fideiussione cessante ad sequestrationem res veniat
+            et pecuniae deponantur, ex earum summa tantam iudices separare, quanta
+            ad publicas sufficiat functiones, et eam disponere dominum accipere,
+            quatenus ipse eam persolvens publicas accipiat securitates: reliqua
+            quantitate, quae in reditus puros remanet, in tuto collocanda et litis
+            terminum expectante: </p>
+               <p xml:id="azsw2e-d1e7587-d1e357" n="5">
+            Nullo praeiudicio sive colonis sive dominis ex huiusmodi
+            fideiussione vel sequestratione vel publicarum functionum solutione
+            generando: sed omni causa in suspenso manente, donec iudicialis sententia,
+            quae de toto negotio procedit, omnem rem aperiat et ostendat, quis
+            dominus terrae constitutus est et ad quem publicarum functionum securitas
+            debet in posterum fieri, seu reditus vel pervenire vel permanere.
+            * IUST. A. DEMOSTHENI PP. *&lt;A 529 RECITATA SEPTIMO IN NOVO CONSISTORIO
+            PALATII IUSTINIANI.D.DECIO VC.CONS. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e361">
+               <head xml:id="azsw2e-d1e7587-Hd1e363">21</head>
+               <p xml:id="azsw2e-d1e7587-d1e365">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e367">Imperator
+            Justinianus</ref>  Ne diutius dubitetur, si quis ex adscripticia et
+            servo vel adscripticio et ancilla fuisset editus, cuius status sit,
+            vel quae peior fortuna sit, utrumne adscripticia an servilis, sancimus
+            ea quidem, quae in anterioribus legibus cauta sunt pro tali progenie,
+            quae ex mulieribus adscripticiis et viris liberis progenita sit, in
+            suo statu relinqui, et sit adscripticia proles ex tali copulatione
+            procreata. </p>
+               <p xml:id="azsw2e-d1e7587-d1e370" n="1">
+            Si quis autem vel ex servo et adscripticia, vel ancilla et
+            adscripticio fuerit editus, matris suae ventrem sequatur et talis
+            sit condicionis, qualis et genetrix fuit, sive ancilla sive adscripticia:
+            quod hactenus in liberis tantum et servis observabatur. Quae etenim
+            differentia inter servos et adscripticios intellegetur, cum uterque
+            in domini sui positus est potestate, et possit servum cum peculio
+            manumittere et adscripticium cum terra suo dominio expellere. * IUST.
+            A. AD SENATUM. *&lt;A 530 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e375">
+               <head xml:id="azsw2e-d1e7587-Hd1e377">22</head>
+               <p xml:id="azsw2e-d1e7587-d1e379">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e381">Imperator
+            Justinianus</ref>  Cum scimus nostro iure nullum praeiudicium generari
+            cuidam circa condicionem neque ex confessionibus neque ex scriptura,
+            nisi etiam ex aliis argumentis aliquid accesserit incrementum, sancimus
+            solam conductionem vel aliam quamcumque scripturam ad hoc minime sufficere
+            nec adscripticiam condicionem cuidam inferre, sed debere huiusmodi
+            scripturae aliquid advenire adiutorium, quatenus vel ex publici census
+            adscriptione vel ex aliis legitimis modis talis scriptura adiuvetur.
+            </p>
+               <p xml:id="azsw2e-d1e7587-d1e384" n="1">
+            Melius etenim est in huiusmodi difficultatibus ex pluribus
+            capitulis condiciones ostendi et non solis confessionibus neque scripturis
+            homines forte liberos ad deteriorem detrahi fortunam. </p>
+               <p xml:id="azsw2e-d1e7587-d1e387" n="2">
+            Sin autem et scriptura et post scripturam confessio seu depositio,
+            sine vi et necessitate tamen, intervenerit ( quid enim, si etiam conductionale
+            instrumentum vel alium chartulam, in qua subscripsit, intimavit et
+            inter acta deposuit sese colonum fuisse adscripticium?), tunc ex utroque
+            genere obligationis, id est tam scripturae quam confessionis vel depositionis,
+            talem eum esse credendum, qualem et scripsit et inter acta deposuit.
+            </p>
+               <p xml:id="azsw2e-d1e7587-d1e390" n="3">
+            Illud quoque non ineleganter dubitabatur, si coloni filius
+            per triginta annorum curricula vel forsitan quadraginta seu ampliora,
+            adhuc vivente patre et agriculturam peragente, ipse in libera conversatione
+            morabatur, et dominus terrae, quia per patrem ei satisfiebat, non
+            etiam eius praesentiam exigebat, an post obitum patris, vel postquam
+            inutilis is forte existat et ruri non idoneus, potest excusari filius,
+            longinqua libertate abutendo et quod per multos annos neque agrum
+            coluit neque aliquid colonarii operis celebravit, cum non possit dominus
+            incusari propter suam desidiam, cui per patrem eius omne quod voluerat
+            accedebat. </p>
+               <p xml:id="azsw2e-d1e7587-d1e394" n="4">
+            In omnibus itaque huiuscemodi speciebus satis acerbum nobis
+            videtur domino praeiudicari colonorum absentia eorum, qui in rure
+            nati et postea absentes per suos vel patres vel fratres vel cognatos
+            agriculturam peragebant. Cum enim pars quodammodo corporis eius per
+            cognationem in fundo remanebat, non videtur neque peregrinari neque
+            in libertate morari. </p>
+               <p xml:id="azsw2e-d1e7587-d1e397" n="5">
+            Maneat itaque domino ius inconcussum, et donec eius vel antiquitas
+            vel posteritas vel cognatio in agrum remanet, ipse videatur ibi resedisse.
+            * IUST. A. IULIANO PP. *&lt;A 531 D.X K...CONSTANTINOPOLI POST CONSULATUM
+            LAMPADII ET ORESTIS VV.CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e401">
+               <head xml:id="azsw2e-d1e7587-Hd1e403">23</head>
+               <p xml:id="azsw2e-d1e7587-d1e405">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e407">Imperator
+            Justinianus</ref>  Cum satis inhumanum est terram quae ab initio adscripticios
+            habebat suis quodammodo membris defraudari et colonos in aliis terris
+            demorantes dominos terrae maximis damnis adficere, censemus, quemadmodum
+            in curialium condicione nemo ex temporali cursu liberatur, ita nec
+            adscripticiae condicioni suppositus ex annalibus curriculis, quantacumque
+            emanaverint, vel quacumque prolixa negotiatione aliquis sibi vindicet
+            libertatem: sed remaneat adscripticius et inhaereat terrae. Et si
+            se celaverit vel separare conatus fuerit, secundum exemplum servi
+            fugitivi sese diutinis insidiis furari intellegatur et sit suppositus
+            una cum subole sua , etsi in alia terra eam fecerit, huiusmodi fortunae
+            et capitali illationi, nulla liberatione ei penitus competente. 
+            </p>
+               <p xml:id="azsw2e-d1e7587-d1e410" n="1">
+            Cum autem Anastasiana lex homines qui per triginta annos
+            colonaria detenti sunt condicione voluit liberos quidem permanere,
+            non autem habere facultatem terra derelicta in alia loca migrare,
+            et ex hoc quaerebatur, si etiam liberi eorum cuiuscumque sexus, licet
+            non triginta annos fecerint in fundis vel vicis, deberent colonariae
+            esse condicionis an tantummodo genitor eorum, qui per triginta annos
+            huiusmodi condicioni illigatus est: sancimus liberos colonorum esse
+            quidem in perpetuum secundum praefatam legem liberos et nulla deteriore
+            condicione praegravari, non autem habere licentiam relicto suo rure
+            in aliud migrare, sed semper terrae inhaereant, quam semel colendam
+            patres eorum susceperunt. </p>
+               <p xml:id="azsw2e-d1e7587-d1e413" n="2">
+            Caveant autem possessionum domini, in quibus tales coloni
+            constituti sunt, aliquam innovationem vel violentiam eis inferre.
+            Si enim hoc approbatum fuerit et per iudicem pronuntiatum, ipse provinciae
+            moderator, in qua aliquid tale fuerit perpetratum, omnimodo provideat
+            et laesionem, si qua subsecuta est, eis resarcire et veterem consuetudinem
+            in reditibus praestandis eis observare: nulla nec tunc licentia concedenda
+            colonis fundum ubi commorantur relinquere .</p>
+               <p xml:id="azsw2e-d1e7587-d1e416" n="3">
+            Et hoc tam in ipsis colonis quam in subole eorum qualiscumque
+            sexus vel aetatis sancimus, ut et ipsa semel in fundo nata remaneat
+            in possessione sub isdem modis isdemque condicionibus, sub quibus
+            etiam genitores eius manere in alienis fundis definivimus. </p>
+               <p xml:id="azsw2e-d1e7587-d1e420" n="4">
+            Nemini autem liceat vel adscripticium vel colonum alienum
+            scienti prudentique in suum ius suscipere. </p>
+               <p xml:id="azsw2e-d1e7587-d1e423" n="5">
+            Sed et si bona fide eum susceperit, postea autem reppererit
+            eum alienum esse constitutum, admonente domino vel ipsius adscripticii
+            vel terrae et hoc faciente per se vel per procuratorem suum hunc restituere
+            cum omni peculio et subole sua: et si hoc facere supersederit, omnis
+            quidem temporis, quo apud eum remoratus est, publicas functiones sive
+            terrenas sive animales pro eo inferre compelletur cura et provisione
+            tam eminentissimae praefecturae quam praesidis provinciae: coartetur
+            autem et sic ad restitutionem eius secundum veteres constitutiones
+            et poenas eis insertas. * IUST. A. IOHANNI PP. *&lt;A 531-534 &gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e7587-Dd1e427">
+               <head xml:id="azsw2e-d1e7587-Hd1e429">24</head>
+               <p xml:id="azsw2e-d1e7587-d1e431">
+                  <ref xml:id="azsw2e-d1e7587-Rd1e433">Imperator
+            Justinianus</ref>  Si qui adscripticiae condicionis constituti mulieres
+            liberas quacumque mente aut quacumque machinatione sive scientibus
+            dominis sive ignorantibus sibi uxores coniunxerunt vel postea coniunxerint,
+            in sua libertate permanere tam eas quam prolem quae ex eis cognoscitur
+            procreata sancimus: illo procul dubio observando, ut, si ex libero
+            marito et adscripticia uxore partus fuerit editus, is maternae condicionis
+            maculam, non paternam sequatur libertatem. </p>
+               <p xml:id="azsw2e-d1e7587-d1e436" n="1">
+            Sed ne adscripticii putent sibi impunitum esse tale conamen,
+            quod maxime verendum est, ne liberarum mulierum nuptiis ab his excogitatis
+            paulatim huiusmodi hominum condicio decrescat, sancimus, si quid tale
+            fuerit ab adscripticio perpetratum, liberam habere potestatem dominum
+            eius sive per se sive per praesidem provinciae talem hominem castigatione
+            moderata corrigere et abstrahere a tali muliere. Quod si neglexerit,
+            sciat in suum damnum huiusmodi desidiam reversuram. * IUST. A. HERMOGENI
+            MAG. OFF. *&lt;A XXX &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

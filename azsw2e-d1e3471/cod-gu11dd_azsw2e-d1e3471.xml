@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 4</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 4</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3471"><!-- azsw2e-l6t4 -->
+            <head xml:id="azsw2e-d1e3471-Hd1e101">Titulus 4</head>
+            <head xml:id="azsw2e-d1e3471-Hd1e103" type="question-title">De bonis libertorum et de iure patronatus</head>
+            <div xml:id="azsw2e-d1e3471-Dd1e106">
+               <head xml:id="azsw2e-d1e3471-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3471-d1e110">
+                  <ref xml:id="azsw2e-d1e3471-Rd1e112">Imperatores
+            Severus, Antoninus</ref>  Multum interest,
+            utrum quis suis nummis emptus ac manumissus sit ab emptore, an a domino
+            suo data pecunia mereatur libertatem. Priore enim casu ad contra tabulas
+            admitti patronum non placet, posteriore omnia iura patronatus retinet
+            </p>
+               <p xml:id="azsw2e-d1e3471-d1e115" n="1">
+            Et ideo cum sabiniani patroni filii, qui plenum ius habuit,
+            ut hostis publici bona fisco vindicata sunt, secundum ea, quae divo
+            pertinaci placuerunt et nos secuti sumus, in iura libertorum eius
+            fiscus noster successit. * SEV. ET ANT. AA. SECUNDAE. *&lt;A 210 PP. V NON. IUL. FAUSTINO ET RUFINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3471-Dd1e119">
+               <head xml:id="azsw2e-d1e3471-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e3471-d1e123">
+                  <ref xml:id="azsw2e-d1e3471-Rd1e125">Imperatores
+            Valentinianus, Valens</ref> Si liberti coniventibus patronis consortium
+            cum ancillis colonisve nostris elegerint, sciant illi se deinceps
+            commoda patronatus amissuros. * VALENTIN. ET VALENS AA. AD
+            FLORIANUM COM. RER. PRIVAT. *&lt;A 367 D.III ID.OCT.TREVERIS LUPICINO
+            ET IOVINO VV.CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3471-Dd1e129">
+               <head xml:id="azsw2e-d1e3471-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e3471-d1e133">
+                  <ref xml:id="azsw2e-d1e3471-Rd1e135">Imperator
+            Justinianus</ref>  Si quis patronum in posterum huiusmodi narrationem
+            conceperit vel in libertatibus, quae inter vivos actitantur, vel in
+            his, quae ex testamento vel codicillis scriptis vel sine scriptis
+            habitis proficiscuntur, ut liberti eorum a iure patronatus liberentur,
+            antiqua interpretatione semota non dubitet etiam patronatus ius ex
+            sola tali verborum conceptione libertis esse remittendum nec successionibus
+            quae ab intestato descendunt, quas veteres et post huiusmodi actus
+            servari in libertorum bonis decreverunt, a nobis patronis integris
+            reservandis. </p>
+               <p xml:id="azsw2e-d1e3471-d1e138" n="1">
+            Sed quemadmodum in natalium restitutione omne ius tollitur
+            patronatus, ita et in huiusmodi verbis eandem esse vim observandam
+            omnes non ignorent. </p>
+               <p xml:id="azsw2e-d1e3471-d1e141" n="2">
+            Idem que iuris est, si inter vivos manumissione imposita
+            in ultimis voluntatibus concessio data fuerit patronatus: ita tamen,
+            ut in omnibus natalium restitutiones, ex quibus paene solis ingenuitas
+            mera libertis competit, tam obtineant quam in nostra re publica polleant,
+            cum nobis cordi est ingenuis magis hominibus quam libertis eam frequentari.
+            </p>
+               <p xml:id="azsw2e-d1e3471-d1e144" n="3">
+            Reverentia tamen, quae a libertis debetur, et iure, quod
+            adversus ingratos libertos patronis competit, integris reservandis,
+            et si per verborum conceptionem secundum a nobis inductum modum ius
+            patronatus fuerit amissum, cum etiam haec ingenuitatis praemio tolluntur,
+            quam paene sola natalium restitutio inducit. </p>
+               <p xml:id="azsw2e-d1e3471-d1e148" n="4">
+            His videlicet casibus, per quos poenalibus modis ius patronatus
+            quasi ab indignis patronis eripitur, in suo robore durantibus. * IUST.
+            A. DEMOSTHENI PP. *&lt;A 529 RECITATA SEPTIMO MILIARIO IN NOVO CONSISTORIO PALATII IUSTINIANI.
+            D.III K.NOV.DECIO VC.CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3471-Dd1e153">
+               <head xml:id="azsw2e-d1e3471-Hd1e155">4</head>
+               <p xml:id="azsw2e-d1e3471-d1e157"><!-- Greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

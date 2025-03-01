@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 47</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 47</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6135"><!-- azsw2e-l9t47 -->
+            <head xml:id="azsw2e-d1e6135-Hd1e101">Titulus 47</head>
+            <head xml:id="azsw2e-d1e6135-Hd1e103" type="question-title">De poenis</head>
+            <div xml:id="azsw2e-d1e6135-Dd1e106">
+               <head xml:id="azsw2e-d1e6135-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6135-d1e110">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e112">Imperator
+            Titus Aelius Antoninus</ref> Etiam in opus perpetuum damnati non dissimilis
+            condicionis sunt ab his qui deportantur in insulam. * TITUS AEL. ANT.
+            A. *&lt; PP. SINE DIE ET CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e116">
+               <head xml:id="azsw2e-d1e6135-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6135-d1e120">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e122">Imperator
+            Antoninus</ref> Procurator meus, qui vice praesidis non fungebatur,
+            exilii poenam tibi non potuit inrogare, ac propterea frustra vereris
+            sententiam, quae nulla iuris ratione subnixa est. * ANT. A. VALERIO.
+            *&lt;A 212 PP.VI K.IUL.DUOBUS ASPRIS CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e126">
+               <head xml:id="azsw2e-d1e6135-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e6135-d1e130">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e132">Imperator
+            Antoninus</ref> Decurionem in opus publicum dari non oportere manifestum
+            est. * ANT. A. GEMINIO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e137">
+               <head xml:id="azsw2e-d1e6135-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e6135-d1e141">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e143">Imperator
+            Antoninus</ref> Si ante conceptus est puer, de quo libellos dedisti,
+            quam mater eius in metallum daretur, natus condicionis eius est, cuius
+            ante condemnationem mater eius fuit. * ANT. A. MARINAE. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e147">
+               <head xml:id="azsw2e-d1e6135-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e6135-d1e151">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e153">Imperator
+            Antoninus</ref> Honor veteranis etiam in eo habitus est, ut liberi
+            eorum usque ad primum dumtaxat gradum poena metalli vel operis publici
+            non adficiantur, sed in insulam relegentur. * ANT. A. SENECIONI. *&lt;A
+            XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e157">
+               <head xml:id="azsw2e-d1e6135-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e6135-d1e161">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e163">Imperator
+            Antoninus</ref> Incredibile est, quod adlegas liberum hominem, ut
+            vinculis perpetuis contineretur, esse damnatum: hoc enim vix in sola
+            servili condicione procedere potest. * ANT. A. APIONI. *&lt;A 214
+            PP.III ID.FEBR.MESSALA ET SABINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e167">
+               <head xml:id="azsw2e-d1e6135-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e6135-d1e171">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e173">Imperator
+            Alexander Severus</ref> Impunitas delictis propter aetatem non datur,
+            si modo in ea quis sit, in quam crimen quod intenditur cadere potest.
+            * ALEX. A. ISIDORO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e177">
+               <head xml:id="azsw2e-d1e6135-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e6135-d1e181">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e183">Imperator
+            Alexander Severus</ref> Deportatorum in insulam ab eo, cui id faciendi
+            ius erat, bona fisco vindicantur, relegatorum autem non nisi sententia
+            specialiter adempta fuerint. * ALEX. A. VICTORINO. *&lt;A XXX &gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e187">
+               <head xml:id="azsw2e-d1e6135-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e6135-d1e191">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e193">Imperator
+            Alexander Severus</ref> Si matrem tuam decurionis filiam fuisse probatum
+            fuerit, apparebit eam non oportuisse in ministerium metallicorum nec
+            in opus metalli dari. * ALEX. A. DEMETRIANO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e198">
+               <head xml:id="azsw2e-d1e6135-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e6135-d1e202">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e204">Imperator
+            Alexander Severus</ref> Servus sub poena vinculorum sine temporis
+            praefinitione domino reddi iussus sententia praesidis provinciae perpetuo
+            vinctus esse debet. * ALEX. A. CATULINO. *&lt;A 224 PP.VIIII K.SEPT.
+            IULIANO ET CRISPINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e208">
+               <head xml:id="azsw2e-d1e6135-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e6135-d1e212">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e214">Imperator
+            Gordianus</ref> Metalli supplicium tam ad personas liberas quam etiam
+            ad serviles pertinet condiciones. * GORD. A. ATTIANO. *&lt;A XXX &gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e218">
+               <head xml:id="azsw2e-d1e6135-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e6135-d1e222">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e224">Imperatores
+            Diocletianus, Maximianus</ref> Decurionum filii non debent bestiis
+            subici. Nec enim vocibus eorum credi oportet, quando aut obnoxium
+            crimine absolvi aut innocentem condemnari desideraverint * DIOCL.
+            ET MAXIM. AA. IN CONSISTORIO DIXERUNT: *&lt; S. DIE ET CONSULE&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e228">
+               <head xml:id="azsw2e-d1e6135-Hd1e230">13</head>
+               <p xml:id="azsw2e-d1e6135-d1e232">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e234">Imperatores
+            Diocletianus, Maximianus</ref> Servo ex sententia damnato si quoquo
+            modo ex sententia proprietatis ius amputatum non sit, domino suo obsequi
+            eum par est. * DIOCL. ET MAXIM. AA. URSIANO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e238">
+               <head xml:id="azsw2e-d1e6135-Hd1e240">14</head>
+               <p xml:id="azsw2e-d1e6135-d1e242">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e244">Imperatores
+            Diocletianus, Maximianus</ref> Si operis publici temporalis poenae
+            sententia praefinitus necdum excessit dies, hunc expectari convenit,
+            cum non remitti poenam facile publice intersit, ne ad maleficia temere
+            quisquam prosiliat. * DIOCL. ET MAXIM. AA. ET CC.VITALI. *&lt;A XXX
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e248">
+               <head xml:id="azsw2e-d1e6135-Hd1e250">15</head>
+               <p xml:id="azsw2e-d1e6135-d1e252">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e254">Imperatores
+            Diocletianus, Maximianus</ref> Poenam sua dictam sententia praesidi
+            provinciae revocare non licet. * DIOCL. ET MAXIM. AA. ET CC.AGATHEMERO.
+            *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e259">
+               <head xml:id="azsw2e-d1e6135-Hd1e261">16</head>
+               <p xml:id="azsw2e-d1e6135-d1e263">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e265">Imperator
+            Constantinus</ref> Qui sententiam laturus est, temperamentum hoc teneat,
+            ut non prius capitalem in quempiam promat severamque sententiam, quam
+            in adulterii vel homicidii vel maleficii crimen aut sua confessione
+            aut certe omnium, qui tormentis vel interrogationibus fuerint dediti,
+            in unum conspirantem concordantemque rei finem convictus sit et sic
+            in obiecto flagitio deprehensus, ut vix etiam ipse ea quae commiserit
+            negare sufficiat. * CONST. A. AD CATULLINUM. *&lt;A 314 D.III NON.NOV.TREVIRIS
+            ACCEPTA XV K.MAI.HADRUMETI VOLUSIANO ET ANNIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e269">
+               <head xml:id="azsw2e-d1e6135-Hd1e271">17</head>
+               <p xml:id="azsw2e-d1e6135-d1e273">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e275">Imperator
+            Constantinus</ref> Si quis in metallum fuerit pro criminum deprehensorum
+            qualitate damnatus, minime in eius facie scribatur, cum et in manibus
+            et in suris possit poena damnationis una scriptione comprehendi, quo
+            facies, quae ad similitudinem pulchritudinis caelestis est figurata,
+            minime maculetur. * CONST. A. EUMELIO. *&lt;A 315 D.XII K.APRIL.CABILLUNO
+            CONSTANTINO A.IIII ET LICINIO IIII CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e279">
+               <head xml:id="azsw2e-d1e6135-Hd1e281">18</head>
+               <p xml:id="azsw2e-d1e6135-d1e283">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e285">Imperator
+            Constantius</ref>  Dum reis manifesta probatione convictis spatium
+            ante sententiam temporis datur, facultas supplicandi vel quibusdam
+            malignis artibus tam praesidum quam officiorum poenas evitandi criminosissimis
+            patet, cum in homicidii crimine et in aliis detectis gravioribus causis
+            ultio differenda non sit. </p>
+               <p xml:id="azsw2e-d1e6135-d1e288" n="1">
+            Igitur de cetero iuxta criminis qualitatem legem oportet
+            servari et in scelerosos et in noxios proferri iuris sententiam. *
+            CONSTANTIUS A. THEODORO PRAESIDI ARABIAE. *&lt;A 346 D.ID.OCT.CONSTANTIO
+            A.IIII ET CONSTANTE C.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e292">
+               <head xml:id="azsw2e-d1e6135-Hd1e294">19</head>
+               <p xml:id="azsw2e-d1e6135-d1e296">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e298">Imperatores
+            Gratianus, Valentinianus</ref> Ne quis pro coercitione delicti vel
+            pistoribus vel cuicumque alteri corpori, cum alterius sit corporis,
+            addicatur: sed unusquisque pro crimine, in quo fuerit deprehensus,
+            motum congruae severitatis excipiat. * GRAT. ET VALENTIN. AA. OLYBRIO
+            PU. *&lt;A 365 &lt;D III ID.APRIL.VALENTINIANO ET VALENTE AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e302">
+               <head xml:id="azsw2e-d1e6135-Hd1e304">20</head>
+               <p xml:id="azsw2e-d1e6135-d1e306">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e308">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Si vindicari in aliquos
+            severius contra nostram consuetudinem pro causae intuitu iusserimus,
+            nolumus statim eos aut subire poenam aut excipere sententiam: sed
+            per dies triginta super statu eorum sors et fortuna suspensa sit.</p>
+               <p xml:id="azsw2e-d1e6135-d1e311" n="1">
+            Reos sane accipiat vinciatque custodia et excubiis sollertibus
+            vigilanter observet.* GRAT. VALENTIN. ET THEODOS. AAA. FLAVIANO
+            PP. ILLYRICI. *&lt;A 382 D.XV K.SEPT.VERONAE ANTONIO ET SYAGRIO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e315">
+               <head xml:id="azsw2e-d1e6135-Hd1e317">21</head>
+               <p xml:id="azsw2e-d1e6135-d1e319">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e321">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Ne diu apparitorum prava
+            admodum venalisque perfidia in publica impune commoda desaeviret,
+            censemus etiam in absentes eos pro competenti ultione debere consurgi.
+            * GRAT. VALENTIN. ET THEODOS. AAA. ET ARCAD. A. AD PRINCIPIUM PP.*&lt;A
+            385 D.K.IUN.ARCADIO A.ET BAUTONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e326">
+               <head xml:id="azsw2e-d1e6135-Hd1e328">22</head>
+               <p xml:id="azsw2e-d1e6135-d1e330">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e332">Imperatores
+            Arcadius, Honorius</ref>  Sancimus ibi esse poenam, ubi et noxa est.
+            </p>
+               <p xml:id="azsw2e-d1e6135-d1e335" n="1">
+            Propinquos notos familiares procul a calumnia submovemus,
+            quos reos sceleris societas non facit: nec enim adfinitas vel amicitia
+            nefarium crimen admittunt. </p>
+               <p xml:id="azsw2e-d1e6135-d1e338" n="2">
+            Peccata igitur suos teneant auctores nec ulterius progrediatur
+            metus, quam reperietur delictum. </p>
+               <p xml:id="azsw2e-d1e6135-d1e341" n="3">
+            Hoc singulis quibusque iudicibus intimetur. * ARCAD. ET HONOR.
+            AA. EUTYCHIANO PP. *&lt;A 399 D.VIII K.AUG.CONSTANTINOPOLI THEODORO
+            VC.CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e345">
+               <head xml:id="azsw2e-d1e6135-Hd1e347">23</head>
+               <p xml:id="azsw2e-d1e6135-d1e349">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e351">Imperatores
+            Honorius, Theodosius</ref>  Omnes, quos damnationis condicio diversis
+            exiliis destinatos metas temporis praestituti in carceris implesse
+            custodia deprehendit, solutos poena vinculisque laxatos custodia liberari
+            praecipimus nec formidare miserias ullas exilii. </p>
+               <p xml:id="azsw2e-d1e6135-d1e354" n="1">
+            Sit satis immensorum cruciatuum semel luisse supplicia, ne,
+            qui diu privati sunt aurae communis haustu et lucis adspectu non intra
+            breve spatium catenarum ponderibus praegravati, etiam exilii poenam
+            sustinere iterum compellantur. * HONOR. ET THEODOS. AA. AD ANTHEMIUM
+            PP. *&lt;A 414 D.XIIII K.MAI.CONSTANTIO ET CONSTANTE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e358">
+               <head xml:id="azsw2e-d1e6135-Hd1e360">24</head>
+               <p xml:id="azsw2e-d1e6135-d1e362">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e364">Imperatores
+            Honorius, Theodosius</ref> Rectores provinciarum conveniri praecipimus,
+            ut hi, quo pro suo crimine poenam exilii sub certo temporis spatio
+            subire decreti sunt, exacto praefinito tempore nec claustris carceralibus
+            nec in locis quibus exules versati sunt teneantur. * HONOR. ET THEODOS.
+            AA. MONAXIO PP. *&lt;A 416 D.III K.SEPT.EUDOXIOPOLI THEODOSIO A.VII
+            ET PALLADIO VC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e368">
+               <head xml:id="azsw2e-d1e6135-Hd1e370">25</head>
+               <p xml:id="azsw2e-d1e6135-d1e372">
+                  <ref xml:id="azsw2e-d1e6135-Rd1e374">Imperatores
+            Honorius, Theodosius</ref> His, qui conficiendi naves incognitam ante
+            peritiam barbaris tradiderunt, capitale supplicium proponi decernimus.
+            * HONOR. ET THEODOS. AA. MONAXIO PP. *&lt;A 419 D.VIII K.OCT.CONSTANTINOPOLI
+            MONAXIO ET PLINTA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6135-Dd1e378">
+               <head xml:id="azsw2e-d1e6135-Hd1e380">26</head>
+               <p xml:id="azsw2e-d1e6135-d1e382"><!-- greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

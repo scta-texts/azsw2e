@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 29</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 29</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8253"><!-- azsw2e-l12t29 -->
+            <head xml:id="azsw2e-d1e8253-Hd1e101">Titulus 29</head>
+            <head xml:id="azsw2e-d1e8253-Hd1e103" type="question-title">De privilegiis scholarum</head>
+            <div xml:id="azsw2e-d1e8253-Dd1e106">
+               <head xml:id="azsw2e-d1e8253-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8253-d1e110">
+                  <ref xml:id="azsw2e-d1e8253-Rd1e112">Imperatores
+            Theodosius, Valentinianus</ref>  Viris spectabilibus comitibus scholarum
+            verberandi regradandive senatores ac ducenarios licentiam denegamus.
+            Ea namque, quae tali commotione digna sunt, ad tuae sublimitatis volumus
+            referri notitiam. </p>
+               <p xml:id="azsw2e-d1e8253-d1e115" n="1">
+            Insuper etiam domesticos eorum non senatores vel ducenarios
+            centenariosve fieri decernimus: poena quinque librarum auri plectendo,
+            quisquis hanc divinam iussionem excesserit, scrinio vero barbarorum,
+            si tale quid vel attemptari passum fuerit vel attemptatum contra leges
+            non suggesserit, decem librarum auri condemnatione percellendo. </p>
+               <p xml:id="azsw2e-d1e8253-d1e118" n="2">
+            Illud etiam observari non sine ratione conveniet, ne is,
+            cui domestici officium per militiae gradum vel quinquennii tempus
+            interdici censuimus, familiaritate comitis simulata rem prohibitam
+            alio nomine valeat usurpare. * THEODOS. ET VALENTIN. AA. PHLEGETIO
+            COM. ET MAG. OFF. *&lt;A 441 D. XV K. MAI. CONSTANTINOPOLI CYRO VC.
+            CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8253-Dd1e122">
+               <head xml:id="azsw2e-d1e8253-Hd1e124">2</head>
+               <p xml:id="azsw2e-d1e8253-d1e126">
+                  <ref xml:id="azsw2e-d1e8253-Rd1e128">Imperatores
+            Leo, Zeno</ref>  Hac lege decernimus, ut, qui in singulis scholis militant
+            quique post emensa stipendiorum curricula ad primiceriorum gradum
+            pervenerint et adorata nostrae divinitatis purpura virorum clarissimorum
+            comitum meruerint dignitatem, tam cingulo quam privilegiis omnibus
+            sibimet competentibus perfruantur ac deinceps usque ad finem vitae
+            foro tuae celsitudinis tantummodo subiaceant nec ex alterius cuiuslibet
+            sententia civile subire litigium compellantur. </p>
+               <p xml:id="azsw2e-d1e8253-d1e131" n="1">
+            In criminalibus sane controversiis et in publicis tributis
+            et adversus tales viros provincias moderantium congruam iurisdictionem
+            volumus observari, ne sub praetextu concessi privilegii vel flagitiorum
+            crescat auctoritas vel publica vacillet utilitas. * LEO ET ZENO AA.
+            EUSEBIO MAG. OFF. *&lt;A 474 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8253-Dd1e135">
+               <head xml:id="azsw2e-d1e8253-Hd1e137">3</head>
+               <p xml:id="azsw2e-d1e8253-d1e139">
+                  <ref xml:id="azsw2e-d1e8253-Rd1e141">Imperator
+            Zeno</ref>  Quotiens super causa civili vel etiam criminali, ex sententia
+            videlicet iudicii tui culminis, scholares vel eorum coniuges, sive
+            adhuc vivent mariti sive post mortem eorum in viduitate constitutae
+            sunt, matresve eorum in viduitate permanentes aut liberi, qui non
+            specialiter alterius iudicis iurisdictioni subiectam condicionem sortiti
+            sunt, et servi ad eos pertinentes conveniuntur, minime eos easve extranei
+            fideiussoris exactione vexari, sed pro consuetudine vetustissima et
+            iugiter observata numerarium suae scholae fideiussorem praebere iubemus.
+            </p>
+               <p xml:id="azsw2e-d1e8253-d1e144" n="1">
+            Hoc videlicet observando, ut in criminalibus causis quinque
+            alios primates ex triginta viris, a primicerio usque ad tricesimum
+            retro numerandis una cum numerario, volentes scilicet et non recusantes,
+            praebeant fideiussores, aut recusantibus quinque sicut dictum est
+            viris extraneus in criminibus tantummodo publicis fideiussor una cum
+            numerario praebeatur: ita ut exsecutoribus non amplius ab his quam
+            unus solidus, sive per se sive per procuratorem respondere maluerint,
+            praebeatur. </p>
+               <p xml:id="azsw2e-d1e8253-d1e147"> 
+            In subeundis autem cognitionalibus certaminibus, quotiens
+            causa fuerit arbitro delegata, pro contestatione litis unum solidum
+            et pro definitione ab arbitro recitanda alterum unum et nihil amplius
+            dari decernimus. </p>
+               <p xml:id="azsw2e-d1e8253-d1e149" n="2">
+            Quod si causa in iudicio tui culminis ab ipsa contestatione
+            litis vel relatione iudicis aut appellatione interposita ventilatur,
+            pro inducenda cognitione non amplius quam tres solidos, et chartarum
+            vel recitandorum in cognitionibus instrumentorum nomine, editionis
+            quin etiam gestorum duos tantummodo solidos dabunt. </p>
+               <p xml:id="azsw2e-d1e8253-d1e153" n="3">
+            Quotiens sane apud viros clarissimos provinciarum moderatores,
+            ex delegatione scilicet sententiae tuae magnitudinis, contra viros
+            fortissimos scholares vel eorum coniuges vel liberos vel servos cognitio
+            celebretur, non amplius quam dimidiam partem consuetorum sumptuum
+            praeberi decernimus. </p>
+               <p xml:id="azsw2e-d1e8253-d1e156"> 
+            Hoc etiam adiciendo, ut, qui acceptis commeatibus ad provincias
+            profecti fuerint, usque ad quinque mensium spatium, intra quod ipsis
+            erit remeandi licentia, nullam penitus actionem, super civili videlicet
+            negotio ( exceptis criminibus et tributariis functionibus) sustineant.
+            </p>
+               <p xml:id="azsw2e-d1e8253-d1e158"> 
+            Ne tamen ibi quoque, post quinque scilicet commeatus menses,
+            ex sententia iudicii tuae magnitudinis conventi in exigendis fideiussoribus
+            aliquod sentiant detrimentum, iuratoriae eos cautioni iubemus committi.
+            </p>
+               <p xml:id="azsw2e-d1e8253-d1e160" n="4">
+            Quotiens autem ex verbis et sine ulla scriptis prolata sententia
+            idem fortissimi scholares vel eorum matres seu coniuges, ut dictum
+            est, aut liberi vel servi moneantur, nihil ipsa exsecutione sportularum
+            nomine penitus eos vel eorum matres seu coniuges aut liberos secundum
+            superius datam distinctionem vel servos praebere decernimus. </p>
+               <p xml:id="azsw2e-d1e8253-d1e163" n="5">
+            Sed si talis sit negotii vilitas, ut etiam sine scriptis,
+            consentientibus videlicet partibus, super ea possit cognosci, expectato
+            sine scriptis, sicut dictum est, habendae cognitionis eventu, si deteriorem
+            calculum reportaverint, sportularum nomine unum tantummodo solidum
+            exsecutori praestabunt. </p>
+               <p xml:id="azsw2e-d1e8253-d1e166" n="6">
+            Sin vero causae qualitas in scriptis habendam cognitionem
+            flagitaverit, in hoc necesse est casu interlocutione in scriptis proferenda
+            ea, quae superius de quantitate sportularum decidendarumque cognitionum
+            disposita sunt, observari. * ZENO A. LONGINO MAG. OFF. *&lt;A X &gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

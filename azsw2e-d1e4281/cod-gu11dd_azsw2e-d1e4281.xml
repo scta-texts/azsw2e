@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 15</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 15</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4281"><!-- azsw2e-l7t15 -->
+            <head xml:id="azsw2e-d1e4281-Hd1e101">Titulus 15</head>
+            <head xml:id="azsw2e-d1e4281-Hd1e103" type="question-title">Communia de manumissionibus</head>
+            <div xml:id="azsw2e-d1e4281-Dd1e106">
+               <head xml:id="azsw2e-d1e4281-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4281-d1e110">
+                  <ref xml:id="azsw2e-d1e4281-Rd1e112">Imperator
+            Justinianus</ref>  Sancimus, si proprietarius servo, cuius usus fructus
+            ad alium pertinebat, libertatem imposuit, non secundum antiquam observationem
+            et libertatem cadere et eum sine domino intellegi esse, sed nec inveniri
+            personam, cui res ad se venientes adquirat: sed si tam proprietarius
+            quam usufructuarius libertatem ei consentientes imposuerant, pleno
+            iure liberum eum effici et, si quid postea sibi adquisierit, hoc in
+            bonis suis habere. </p>
+               <p xml:id="azsw2e-d1e4281-d1e115" n="1">
+            Sin autem proprietarius solus libertatem imposuerit usufructuario
+            minime consentiente, sit quidem ille, qui libertatem a proprietario
+            accepit, inter libertos proprietarii connumeratus et, si quid in medio
+            possedit, hoc sibi adquirat, sibi habeat, suae posteritati relinquat,
+            salvo patronatus iure per omnia custodiendo, nisi et hoc ei legibus
+            fuerit remissum. </p>
+               <p xml:id="azsw2e-d1e4281-d1e118"> 
+            Ipse tamen libertus quasi servus apud usufructuarium permaneat,
+            donec usufructuarius vivit vel usus fructus non legitimo modo peremptus
+            est. Etenim si finem usus fructus quocumque modo accipiat, tunc facultas
+            ei tribuitur quo maluerit degere modo. Si vero adhuc superstite usufructuario
+            ab hac luce fuerit libertus exemptus, hereditas eius legitimum tramitem
+            sequatur. </p>
+               <p xml:id="azsw2e-d1e4281-d1e120" n="2">
+            Sin autem usufructuarius tantummodo libertatem imposuerit,
+            si quidem hoc modo, ut cedat usu fructu proprietario, plenissimum
+            ius habeat in servo proprietarius et omnia ei servus adquirat secundum
+            ea, quae generaliter in servos et dominos constituta sunt. </p>
+               <p xml:id="azsw2e-d1e4281-d1e124"> 
+            Sin vero gratias agendo usufructuarius eum ab usu fructu
+            liberaverit et libertate donaverit, tunc maneat quidem servus proprietario
+            suo adnexus, sed non necessitas ei imponatur, donec vivit usufructuarius
+            vel usus fructus constare potest, observare proprietarium et quaedam
+            ministeria ei adimplere, sed iudices nostri eum in quiete tueantur.
+            Post usufructuarii autem mortem vel usus fructus quocumque modo interemptionem
+            tunc serviat quidem domino et omnia, quae in medio ad eum perveniant,
+            haec suo domino adquirat </p>
+               <p xml:id="azsw2e-d1e4281-d1e126"> 
+            Et sit ex nostra constitutione haec separatio inter servos
+            et liberos et non secundum ius antiquum idem servus remaneat et nullum
+            respiciat dominum. </p>
+               <p xml:id="azsw2e-d1e4281-d1e128" n="3">
+            Illud quoque huic legi adicimus, ut explosa antiqua personarum
+            differentia liceat parentibus tam feminis quam masculis filiis filiabus
+            sive in sacris constitutis sive emancipatis cuiuscumque gradus mandatum
+            imponere, quatenus servos in libertatem producant sive apud iudicem
+            sive in sacris ecclesiis sive secundum alium quem mandator voluerit
+            legitimum modum. Cum enim et in successionibus et in aliis paene omnibus
+            nulla est inter liberos discretio, oportet hoc observari et in praesenti
+            casu maxime pro libertate, quam et fovere et tueri Romanis legibus
+            et praecipue nostro numini peculiare est * IUST. A. IULIANO PP. *&lt;A
+            530 D. K. AUG. LAMPADIO ET ORESTE VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4281-Dd1e132">
+               <head xml:id="azsw2e-d1e4281-Hd1e134">2</head>
+               <p xml:id="azsw2e-d1e4281-d1e136">
+                  <ref xml:id="azsw2e-d1e4281-Rd1e138">Imperator
+            Justinianus</ref> Si quis servo suo libertatem
+            imponat sive in ecclesia sive ad qualecumque tribunal vel apud eum,
+            qui libertatem imponere legibus habet licentiam, sive in testamento
+            vel alio ultimo elogio directam vel fideicommissariam, nullo coartetur
+            modo eorum qui ad libertatem veniunt aetatem requirere. Neque enim
+            eum tantummodo civitatem Romanam adipisci columus, qui maior triginta
+            annis extitit, sed quemadmodum in ecclesiasticis libertatibus non
+            est huiusmodi aetatis differentia, ita in omnibus libertatibus, quae
+            a dominis imponuntur sive in extremis dispositionibus sive per iudices
+            vel alio legitimo modo, hoc observari sancimus, ut sint omnes cives
+            Romani constituti: ampliandam enim magis civitatem nostram quam minuendam
+            esse censemus * IUST. A. IULIANO PP. *&lt;A 530 D. K. AUG.
+            LAMPADIO ET ORESTE VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4281-Dd1e142">
+               <head xml:id="azsw2e-d1e4281-Hd1e144">3</head>
+               <p xml:id="azsw2e-d1e4281-d1e146">
+                  <ref xml:id="azsw2e-d1e4281-Rd1e148">Imperator
+            Justinianus</ref>  Si quis sine uxore constitutus
+            ancillam suam nomine habeat concubinae et in eadem usque ad mortem
+            consuetudine permanserit et forsitan liberos ex ea sustulerit, sancimus
+            omnimodo non concedi heredibus defuncti eandem vel liberos eius, si
+            etiam liberos habuerit, in servitutem deducere, sed post mortem domini
+            sub certo modo eripiatur in libertatem una cum subole sua, si etiam
+            eam forsitan habuerit. </p>
+               <p xml:id="azsw2e-d1e4281-d1e151" n="1">
+            Ipse etenim domino, dum superest, damus licentiam quomodo
+            voluerit uti tam ancilla sua quam etiam ex ea progenita subole et
+            in suo ultimo elogio quidquid voluerit contra eos disponere, id est
+            sive quasi servos eos aliis legare sive in servitute heredum nominatim
+            relinquere. Sin autem taciturnitate eos praeterierit, tunc post mortem
+            eius ad libertatem eripiantur, ut sit domini mors libertatis eorum
+            exordium </p>
+               <p xml:id="azsw2e-d1e4281-d1e154" n="2">
+            Omnibus etenim uxores habentibus concubinas vel liberas vel
+            ancillas habere nec antiqua iure nec nostra concedunt. * IUST. A.
+            IOHANNI PP. *&lt;A 531 D. K. NOV. CONSTANTINOPOLI POST CONSULATUM
+            LAMPADII ET ORESTIS VV. CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

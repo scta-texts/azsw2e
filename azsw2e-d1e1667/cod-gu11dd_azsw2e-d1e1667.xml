@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 29</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 29</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1667"><!-- azsw2e-l3t29 -->
+            <head xml:id="azsw2e-d1e1667-Hd1e101">Titulus 29</head>
+            <head xml:id="azsw2e-d1e1667-Hd1e103" type="question-title">De inofficiosis donationibus.</head>
+            <div xml:id="azsw2e-d1e1667-Dd1e106">
+               <head xml:id="azsw2e-d1e1667-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1667-d1e110">
+                  <ref xml:id="azsw2e-d1e1667-Rd1e112">Imperator
+            Philippus</ref> Si, ut adlegatis, mater vestra ad deludendam inofficiosi
+            querellam paene universas facultates suas, dum ageret in rebus humanis,
+            factis donationibus sive in quosdam liberos sive in extraneos exhausit
+            ac postea vos ex duabus unciis fecit heredes easque legatis et fideicommissis
+            exinanire gestivit, non iniuria iuxta formam super inofficioso testamento
+            constitutorum subveniri vobis utpote quartam partem non habentibus
+            desideratis. * PHILIPP. A. NICANORI ET PAPINIANAE. *&lt;A 245 PP.
+            XIIII K. SEPT. PHILIPPO A. ET TITIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1667-Dd1e116">
+               <head xml:id="azsw2e-d1e1667-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e1667-d1e120">
+                  <ref xml:id="azsw2e-d1e1667-Rd1e122">Imperatores
+            Valerianus, Gallienus</ref> Pater si omne patrimonium suum impetu
+            quodam immensae liberalitatis in filium effudit, aut in potestate
+            is permansit, et arbitri familiae erciscundae officio congruit, ut
+            tibi quartam debitae ab intestato portionis praestet incolumen, aut
+            emancipatus fuerit, et, quia donatio non indiget alieno adminiculo,
+            sed suis viribus nititur, iuxta constitutiones is qui provinciam regit
+            ad similitudinem inofficiosi querellae auxilium tibi aequitatis impertiet.
+            * VALER. ET GALLIEN. AA. AETIAE. *&lt;A 256 PP. VI K. AUG. MAXIMO
+            II ET GLABRIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1667-Dd1e126">
+               <head xml:id="azsw2e-d1e1667-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e1667-d1e130">
+                  <ref xml:id="azsw2e-d1e1667-Rd1e132">Imperatores
+            Valerianus, Gallienus.</ref> Precibus quidem tuis proposita rescripta
+            eos parentes denotant, qui, cum testamento facto vivi patrimonium
+            suum immensis donationibus exinanissent, inane nomen heredum liberis
+            reliquissent. Sed ad intestatos quoque eadem ratio aequitatis extenditur
+            * VALER. ET GALLIEN. AA. AELIANO. *&lt;A 257 PP. X K. NOV. IPSIS IIII
+            ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1667-Dd1e137">
+               <head xml:id="azsw2e-d1e1667-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e1667-d1e141">
+                  <ref xml:id="azsw2e-d1e1667-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Si filius tuus immoderatae liberalitatis
+            effusione patrimonium suum exhausit, praesidis provinciae auxilio
+            uteris, qui discussa fide veri, si in integrum restitutionem ex filii
+            persona competere tibi ob improbabilem donationis enormitatem animadverterit,
+            in removendis his quae perperam gesta sunt tibi subveniet. Ideoque
+            non est tibi necessarium adversus immodicas donationes auxilium ad
+            instar inofficiosi testamenti * DIOCL. ET MAXIM. AA. CALPURNIAE ARISTAENETAE.
+            *&lt;A 286 PP. IIII ID. FEBR. MEDIOLANI MAXIMO II ET AQUILINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1667-Dd1e147">
+               <head xml:id="azsw2e-d1e1667-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e1667-d1e151">
+                  <ref xml:id="azsw2e-d1e1667-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Si totas facultates tuas per donationes
+            vacuefecisti, quas in emancipatos filios contulisti, id, quod ad submovendas
+            inofficiosi testamenti querellas non ingratis liberis relinqui necesse
+            est, ex factis donationibus detractum, ut filii vel nepotes, qui postea
+            ex quocumque legitimo matrimonio nati sunt, debitum bonorum subsidium
+            consequantur, ad patrimonium tuum revertetur. * DIOCL. ET MAXIM. AA.
+            COTTABEO. *&lt;A 286 D. II K. MART. MAXIMO II ET AQUILINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1667-Dd1e157">
+               <head xml:id="azsw2e-d1e1667-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e1667-d1e161">
+                  <ref xml:id="azsw2e-d1e1667-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Cum donationibus in fratrem tuum collatis
+            facultates patris tui exhaustas esse eundemque patrem vestrum ea quae
+            superfuerant codicillis inter vos divisisse proponas, si voluntatem
+            eius non agnovisti nec beneficio aetatis adversus haec iuvari poteris
+            nec tantum dos a patre data et fideicommissum continent, quantum ad
+            submovendam querellam sufficiat, de enormitate donationum ad exemplum
+            inofficiosi testamenti praeses provinciae iurisdictionis suae partes
+            exhibebit. * DIOCL. ET MAXIM. AA. DEMETRIANAE. *&lt;A 286 PP. VI K.
+            MAI. CONSS. UT SUPRA.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1667-Dd1e167">
+               <head xml:id="azsw2e-d1e1667-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e1667-d1e171">
+                  <ref xml:id="azsw2e-d1e1667-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Si mater tua ita patrimonium suum profunda
+            liberalitate in fratrem tuum evisceratis opibus suis exhausit, ut
+            quartae partis dimidium, quod ad excludendam inofficiosi testamenti
+            querellam adversus te sufficeret, in his donationibus quas tibi largita
+            est non habeas, quod immoderate gestum est revocabitur. * DIOCL. ET
+            MAXIM. AA. AURELIO AMMIANO. *&lt;A 286 PP. V ID. MAI. MAXIMO II ET
+            AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1667-Dd1e177">
+               <head xml:id="azsw2e-d1e1667-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e1667-d1e181">
+                  <ref xml:id="azsw2e-d1e1667-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref>  Si liqueat matrem tuam intervertendae
+            quaestionis inofficiosi causa patrimonium suum donationibus in unum
+            filium collatis exhausisse, cum adversus eorum cogitationes, qui consiliis
+            supremum iudicium anticipare contendunt et actiones filiorum exhauriunt,
+            aditum querellae ratio deposcat, quod donatum est pro ratione quartae
+            ad instar inofficiosi testamenti convicti deminuetur. </p>
+               <p xml:id="azsw2e-d1e1667-d1e186" n="1">
+            Nam quod uxor a marito in se matrimonii tempore donationis
+            causa collatum emancipato filio communi consentiente domino donavit,
+            velut ex bonis patris, de cuius substantia prohibente matrimonio non
+            potuit exire, datum accipi rationis est: in cuius bonis si idem consilium
+            et eventus comprehendatur, lex, quam patrimonio matris ediximus, observabitur.
+            * DIOCL. ET MAXIM. AA. AUXANONI. *&lt;A 294 PP. III ID. SEPT. CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1667-Dd1e190">
+               <head xml:id="azsw2e-d1e1667-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e1667-d1e194">
+                  <ref xml:id="azsw2e-d1e1667-Rd1e196">Imperator
+            Constantius</ref> Non convenit dubitari, quod immodicarum donationum
+            omnis querella ad similitudinem inofficiosi testamenti legibus fuerit
+            introducta et sit in hoc actionis utriusque vel una causa vel similis
+            aestimanda vel idem et temporibus et moribus. * CONSIUS. A. OLYBRIO.
+            *&lt;A 361 D. XIIII K. IUN. TAURO ET FLORENTIO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

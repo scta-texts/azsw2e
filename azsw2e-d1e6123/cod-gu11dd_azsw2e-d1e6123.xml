@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 46</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 46</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6123"><!-- azsw2e-l9t46 -->
+            <head xml:id="azsw2e-d1e6123-Hd1e101">Titulus 46</head>
+            <head xml:id="azsw2e-d1e6123-Hd1e103" type="question-title">De calumniatoribus</head>
+            <div xml:id="azsw2e-d1e6123-Dd1e106">
+               <head xml:id="azsw2e-d1e6123-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6123-d1e110">
+                  <ref xml:id="azsw2e-d1e6123-Rd1e112">Imperator
+            Alexander Severus</ref> Calumnia eo tempore coerceri solet, quo de
+            causa praesente accusatore iudicatur. Ideoque posteaquam de causa
+            iudicatum est, contra consuetudinem calumniam accusatoris puniri desideras
+            * ALEX. A. SABINO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6123-Dd1e116">
+               <head xml:id="azsw2e-d1e6123-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6123-d1e120">
+                  <ref xml:id="azsw2e-d1e6123-Rd1e122">Imperator
+            Alexander Severus</ref>  Mater inter eas personas est, quae sine calumniae
+            timore necem filii sui vindicare possunt: idque beneficium senatus
+            consulti et in aliis publicis iudiciis servatum est. </p>
+               <p xml:id="azsw2e-d1e6123-d1e125" n="1">
+            Sed et extraneus heres, qui suspicionem, quam de morte sua
+            habuisse defunctus cavit, exsequitur, hoc nomine a calumnia excusatus
+            est, cum inter voluntariam accusationem et officii necessitatem heredis
+            multum intersit. * ALEX. A. APOLLONIAE. *&lt;A 224 PP.VI K.IUL.IULIANO
+            ET CRISPINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6123-Dd1e129">
+               <head xml:id="azsw2e-d1e6123-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e6123-d1e133">
+                  <ref xml:id="azsw2e-d1e6123-Rd1e135">Imperator
+            Alexander Severus</ref> Qui non probasse crimen quod intendit pronuntiatur,
+            si calumniae non damnetur, detrimentum existimationis non patitur.
+            Non enim, si reus absolutus est, ex eo solo etiam accusator, qui potest
+            iustam habuisse veniendi ad crimen rationem, calumniator credendus
+            est * ALEX. A. EUMELIANO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6123-Dd1e140">
+               <head xml:id="azsw2e-d1e6123-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e6123-d1e144">
+                  <ref xml:id="azsw2e-d1e6123-Rd1e146">Imperatores
+            Carus, Carinus, Numerianus</ref> Calumniae poena in paternae mortis
+            accusatione cessat. * CARUS CARINUS ET NUMER. AAA. ARCHELAO. *&lt;A
+            283 PP.XI K.DEC.CARO ET CARINO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6123-Dd1e150">
+               <head xml:id="azsw2e-d1e6123-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e6123-d1e154">
+                  <ref xml:id="azsw2e-d1e6123-Rd1e156">Imperatores
+            Diocletianus, Maximianus</ref> Qui calumniatores pronuntiantur, in
+            publicorum dumtaxat iudiciorum quaestionibus , non etiam in liberalibus
+            causis, quae privatas disceptationes continent, periclitari solent.
+            * DIOCL. ET MAXIM. AA. CAESIO. *&lt;A XXX PP. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6123-Dd1e160">
+               <head xml:id="azsw2e-d1e6123-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e6123-d1e164">
+                  <ref xml:id="azsw2e-d1e6123-Rd1e166">Imperatores
+            Diocletianus, Maximianus</ref> Dominis servorum per accusatoris calumniam
+            tortorum adversus eum poena dupli lege Iulia providetur. * DIOCL.
+            ET MAXIM. AA. ET CC.DOMITIO. *&lt;A 290 VEL 293 S.XVI K.SEPT.IPSIS
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6123-Dd1e170">
+               <head xml:id="azsw2e-d1e6123-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e6123-d1e174">
+                  <ref xml:id="azsw2e-d1e6123-Rd1e176">Imperatores
+            Valentinianus, Valens</ref> Non prius quemquam sinceritas tua ad tuae
+            sedis examen iubebit adduci, quam sollemnibus satisfecerit, qui nititur
+            fidem doloris adserere, cum iuxta formam iuris antiqui ei qui coeperit
+            arguere aut vindicta proposita sit, si vera detulerit, aut supplicium,
+            si fefellerit. * VALENTIN. ET VALENS AA. AD VALERIANUM. *&lt;A 366
+            D.VII K.DEC.REMIS GRATIANO NP.ET DAGALAIFO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6123-Dd1e180">
+               <head xml:id="azsw2e-d1e6123-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e6123-d1e184">
+                  <ref xml:id="azsw2e-d1e6123-Rd1e186">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Nostris et parentum nostrorum
+            constitutionibus comprehensum est eos, qui accusationem alienis nominibus
+            praesumpsissent, delatorum numero esse ducendos. </p>
+               <p xml:id="azsw2e-d1e6123-d1e189" n="1">
+            Atque ideo calumniosissimum caput et personam iudicio irritae
+            delationis infamem supplicium sequatur, quo posthac singuli universique
+            cognoscant non licere in eo quod non possit ostendi iudicium animos
+            commovere. * GRAT. VALENTIN. ET THEODOS. AAA. MENANDRO VIC. ASIAE.
+            *&lt;A 385 D.VIII ID.MAI.CONSTANTINOPOLI ARCADIO A.ET BAUTONE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6123-Dd1e193">
+               <head xml:id="azsw2e-d1e6123-Hd1e195">9</head>
+               <p xml:id="azsw2e-d1e6123-d1e197">
+                  <ref xml:id="azsw2e-d1e6123-Rd1e199">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Fallaciter incusantibus,
+            maxime post exhibitionem accusati, nullius iuris color velut derivata
+            accusatione proficiat: non publica abolitio, non privata talibus prospiciat
+            subveniatque personis: non specialis indulgentia, ne beneficium quidem
+            eos generale subducat. * GRAT. VALENTIN. ET THEODOS. AAA. FLORO PP.
+            *&lt;A 382 D XV K.IUN.CONSTANTINOPOLI ANTONIO ET SYAGRIO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6123-Dd1e204">
+               <head xml:id="azsw2e-d1e6123-Hd1e206">10</head>
+               <p xml:id="azsw2e-d1e6123-d1e208">
+                  <ref xml:id="azsw2e-d1e6123-Rd1e210">Imperatores
+            Honorius, Theodosius</ref> Quisquis crimen intendit, non impunitam
+            fore noverit licentiam mentiendi, cum calumniantes ad vindictam poscat
+            similitudo supplicii. * HONOR. ET THEODOS. AA. CONSS. PRAETT. TRIBB.
+            PLEBIS SENATUI S.D.*&lt;A 423 D.VIII ID.AUG. RAVENNAE ASCLEPIODOTO
+            ET MARINIANO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

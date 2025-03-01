@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 50</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 50</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5515"><!-- azsw2e-l8t50 -->
+            <head xml:id="azsw2e-d1e5515-Hd1e101">Titulus 50</head>
+            <head xml:id="azsw2e-d1e5515-Hd1e103" type="question-title">De postliminio et de redemptis ab hostibus</head>
+            <div xml:id="azsw2e-d1e5515-Dd1e106">
+               <head xml:id="azsw2e-d1e5515-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5515-d1e110">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e112">Imperatores
+            Severus, Antoninus</ref>  Ex duobus captivis sarmatia nata patris originem
+            ita secuta videtur, si ambo parentes in civitatem nostram redissent.
+            Quamquam enim iure proprio postliminium habere non possit quae capta
+            non est, tamen parentum restitutio reddet patri filiam </p>
+               <p xml:id="azsw2e-d1e5515-d1e115" n="1">
+            Qui cum ab hostibus interemptus sit, matris dumtaxat condicionem,
+            quae secum filiam duxit, videtur necessario secuta. Nam fictio legis
+            Corneliae, quae legitimos apud hostes defuncto constituit heredes,
+            ad eam quae illic suscepta est non pertinet, cum eo tempore quo captus
+            est diem suum pater obisse existimetur * SEV. ET ANT. AA. OVINIO.
+            *&lt;A XXX PP. SINE DIE ET CONSULE.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e119">
+               <head xml:id="azsw2e-d1e5515-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e5515-d1e123">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e125">Imperator
+            Gordianus</ref>  Ab hostibus redempti, quoad exsolvatur pretium, in
+            causam pignoris constituti quam in servilem condicionem videntur esse
+            detrusi: et ideo si nummi eo nomine expensi donatio intercedat, pristinae
+            condicioni eos reddi manifestum est. </p>
+               <p xml:id="azsw2e-d1e5515-d1e128" n="1">
+            Proinde si ab hostibus redemptam post dissolutum veluti naturalis
+            pignoris vinculum in matrimonio habere coepisti, nihil est, quod de
+            statu eius seu liberorum communium debeas pertimescere. * GORD. A.
+            PUBLICIANO. *&lt;A 241 PP. II ID. IUN. GORDIANO A. II ET POMPEIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e132">
+               <head xml:id="azsw2e-d1e5515-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e5515-d1e136">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e138">Imperatores
+            Diocletianus, Maximianus</ref> Cum cognatos tuos nondum postliminio
+            regressos adfirmes, sed adhuc in rebus esse humanis, et bona eorum
+            fraudibus diversae partis dissipari, interpellatus rector provinciae
+            providebit eum sub observatione constituere, qui stipulante servo
+            publico satis idonee dederit. * DIOCL. ET MAXIM. AA. VARO. *&lt;A
+            287 PP. V K. SEPT. DIOCLETIANO III ET MAXIMIANO CONSS.&gt; </p>
+               <p xml:id="azsw2e-d1e5515-d1e141"> .
+            </p>
+               <p xml:id="azsw2e-d1e5515-d1e143">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e145">Imperatores
+            Diocletianus, Maximianus</ref>  Nec nos praeteriit hereditatem eius,
+            quam incognitum erat ab hostibus interfecta an capta esset, a filio
+            adiri non potuisse ( quando eorum bona, qui in hostium potestatem
+            rediguntur, eo demum tempore successionis iure adquiri possunt, cum
+            captos apud hostes mortuos esse cognoscitur), nec super facultatibus
+            eius, cuius incerta vita ac fortuna fuit, transigi vel iudicari potuit.
+            </p>
+               <p xml:id="azsw2e-d1e5515-d1e148" n="1">
+            Unde posteaquam apud hostes materteram vestram fati munus
+            implesse innotuit, tunc vobis licentia permittitur agnoscendae per
+            bonorum possessionem successionis: non officientibus enim, quae perperam
+            gesta sunt, si priorem gradum obtinetis, successionis compendium ad
+            vos pertinet. * DIOCL. ET MAXIM. AA. HERMOGENI. *&lt;A 290 PP. V K.
+            IUN. IPSIS AA. IIII ET III CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e153">
+               <head xml:id="azsw2e-d1e5515-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e5515-d1e157">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e159">Imperatores
+            Diocletianus, Maximianus</ref> Cum non redemptum ab hostibus filium
+            tuum, sed sine ullo contracto traditum a barbaris praefecto legionis
+            dicas, postliminii ius locum habuit et ilico ingenuitati suae reddi
+            eum praeses provinciae iubebit. * DIOCL. ET MAXIM. AA. URSAE. *&lt;A
+            290 PP. XVI K. IUN. IPSIS AA. IIII ET III CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e163">
+               <head xml:id="azsw2e-d1e5515-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e5515-d1e167">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e169">Imperatores
+            Diocletianus, Maximianus</ref> Cum et postliminii ius et communis
+            utilitatis ratio exigat, ut, si qui captos ab hostibus redemerint,
+            accepto pretio redemptos suae ingenuitati restituant, proponasque
+            redemptorem noluisse oblatum pretium a te vel ab alio recipere, praeses
+            provinciae efficaci instantia compellet eum legibus obtemperare et
+            recepto eo quod pretii nomine dependitur status securitatem non inquietare.
+            * DIOCL. ET MAXIM. AA. .TO. *&lt;A 291 PP. K. FEBR. TIBERIANO ET DIONE
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e173">
+               <head xml:id="azsw2e-d1e5515-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e5515-d1e177">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e179">Imperatores
+            Diocletianus, Maximianus</ref> Foedissimae mulieris nequitia permovemur.
+            Cum igitur filiam tuam captam ac prostitutam ab ea quae eam redemerat
+            ob retinendae pudicitiae cultum ac servandam natalium honestatem ad
+            te confugisse proponas, praeses provinciae, si filiae tuae supra dictam
+            iniuriam ab ea, quae sciebat ingenuam esse, inflictam cognoverit,
+            cum huiusmodi persona indigna sit pretium recipere propter odium detestabilis
+            quaestus, etiamsi pretium compensatum non est ex necessitate miserabili,
+            custodita ingenuitate natae tuae adversus flagitiosae mulieris turpitudinem
+            tutam eam defensamque praestabit * DIOCL. ET MAXIM. AA. CLAUDIO. *&lt;A
+            291 PP. III NON. FEBR. TIBERIANO ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e183">
+               <head xml:id="azsw2e-d1e5515-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e5515-d1e187">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e189">Imperatores
+            Diocletianus, Maximianus</ref> Praeses provinciae, ne ulterius in
+            servitutis iugo detinearis, curae habebit: qui pro sollertia tua parum
+            ignorat magis filiorum tuorum statum tueri, quos, posteaquam redempta
+            es, enixam te esse significas, cum eos, qui post redemptionem nascuntur,
+            ne pignoris quidem vinculo ob pretium, quod pro his datum non est,
+            teneri nullis auctoribus visum est. * DIOCL. ET MAXIM. AA. MATRONAE.
+            *&lt;A 291 PP. V ID. FEBR. TIBERIANO ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e193">
+               <head xml:id="azsw2e-d1e5515-Hd1e195">9</head>
+               <p xml:id="azsw2e-d1e5515-d1e197">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e199">Imperatores
+            Diocletianus, Maximianus</ref>  Captum ab hostibus filium, patre mortuo
+            medio tempore, lex cornelia reversum, si in potestate patris tempore
+            quo capiebatur fuit, suum facit heredem. </p>
+               <p xml:id="azsw2e-d1e5515-d1e202" n="1">
+            Unde si ex testamento ad te sive intestato successionem patris
+            tui pertinere apud praesidem provinciae probaveris, restitui tibi
+            res hereditarias iubebit, si non tantum postquam reversus es tempus
+            effluxit, quantum intentionem tuam temporis prolixitate conquiescere
+            facit. * DIOCL. ET MAXIM. AA. ET CC. GREGORIO. *&lt;A 293 PP. V ID.
+            APRIL. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e206">
+               <head xml:id="azsw2e-d1e5515-Hd1e208">10</head>
+               <p xml:id="azsw2e-d1e5515-d1e210">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e212">Imperatores
+            Diocletianus, Maximianus</ref> Sicut liberis captis ab hostibus ac
+            postliminio reversis status pristinus restituitur, sic servi domino.
+            Unde si haec, cuius meministi, ancilla patris tui fuit nec commercio
+            redempta est, reversa dominum vel eius successorem sequitur, qui per
+            captivitatem hanc amiserat * DIOCL. ET MAXIM. AA. ET CC. APOLLODORAE.
+            *&lt;A 293 S. III K. MAI. HADRIANOPOLI AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e217">
+               <head xml:id="azsw2e-d1e5515-Hd1e219">11</head>
+               <p xml:id="azsw2e-d1e5515-d1e221">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e223">Imperatores
+            Diocletianus, Maximianus</ref> Si liberum captum te ab hostibus commercio
+            redemit sabinus et eum vinculum pignoris superstitem remisisse tibi
+            probetur, non libertus effectus, sed ingenuitati quam amiseras restitutus
+            nullum filiis eius obsequium debes. * DIOCL. ET MAXIM. AA. ET CC.
+            EUTYCHIO. *&lt;A 293 S. XV K. IAN. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e227">
+               <head xml:id="azsw2e-d1e5515-Hd1e229">12</head>
+               <p xml:id="azsw2e-d1e5515-d1e231">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e233">Imperatores
+            Diocletianus, Maximianus</ref> Ab hostibus capti et non commercio
+            redempti, sed virtute militum nostrorum liberati ilico statum, quem
+            captivitatis casu amiserant, recipiunt: servi autem dominis suis restituentur:
+            receptos enim eos, non captos iudicare debemus, et militem nostrum
+            defensorem eorum decet esse, non dominum. * DIOCL. ET MAXIM. AA. ET
+            CC. QUINTIANAE. *&lt;A 293 S. V K. IAN. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e237">
+               <head xml:id="azsw2e-d1e5515-Hd1e239">13</head>
+               <p xml:id="azsw2e-d1e5515-d1e241">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e243">Imperatores
+            Diocletianus, Maximianus</ref> Si is, qui te ab hostibus ingenuam
+            captam commercio redemit, sibi matrimonio coniunxit, dignitate nuptiarum
+            et voto futurae iustae subolis vinculo pignoris tibi remisso redditos
+            natales pristinos rationis est. * DIOCL. ET MAXIM. AA. ET CC. *&lt;A
+            294 S. V ID. MART. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e247">
+               <head xml:id="azsw2e-d1e5515-Hd1e249">14</head>
+               <p xml:id="azsw2e-d1e5515-d1e251">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e253">Imperatores
+            Diocletianus, Maximianus</ref> Ius postliminii filiam rebus humanis
+            exempta matre, dum in servitutis ipsa necessitate per captivitatis
+            causam fuit, eventu purgato vigore ad eius legitimam invitat hereditatem,
+            nec tibi medii temporis fortuna, quominus res maternas successione
+            quaesitas persequi possis, iniuriam fieri patimur. * DIOCL. ET MAXIM.
+            AA. ET CC. SEVERAE. *&lt;A 294 S. XVI K. APRIL. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e257">
+               <head xml:id="azsw2e-d1e5515-Hd1e259">15</head>
+               <p xml:id="azsw2e-d1e5515-d1e261">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e263">Imperatores
+            Diocletianus, Maximianus</ref> Is, qui liber constitutus captus ab
+            hostibus commercio redimitur, et antequam restituatur pro eo data
+            pecunia, successionis iura sibi vindicare favore ingenuitatis potest,
+            ut ex ea possit pretium pro se datum exsolvere. * DIOCL. ET MAXIM.
+            AA. ET CC. MUCATRAULO. *&lt;A 294 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e267">
+               <head xml:id="azsw2e-d1e5515-Hd1e269">16</head>
+               <p xml:id="azsw2e-d1e5515-d1e271">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e273">Imperatores
+            Diocletianus, Maximianus</ref> Commercio redemptae filios, licet ex
+            servo medio susceptos tempore, origini ingenuitatis matris iuxta ea
+            quae benigne placuerunt reddi convenit. * DIOCL. ET MAXIM. AA. ET
+            CC. BASILINAE. *&lt;A 293 S. V K. SEPT. VIMINACII AA. CONSS.&gt; </p>
+               <p xml:id="azsw2e-d1e5515-d1e276"> .
+            </p>
+               <p xml:id="azsw2e-d1e5515-d1e278">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e280">Imperatores
+            Diocletianus, Maximianus</ref>  Liber captus ab hostibus et commercio
+            redemptus tunc demum cum pretium solverit vel hoc ei qualicumque remittatur
+            indicio, statum pristinum recipit. </p>
+               <p xml:id="azsw2e-d1e5515-d1e283" n="1">
+            Quo genere matre filium redimente, cum huiusmodi contractus
+            non de mercede, sed de tristitia repudianda cogitatur, voti recipiendi
+            filium cogitatio cum optabili condicione filium ilico matri restituit,
+            ita ut et civilium obsequio munerum propter casum praeteritum non
+            excusetur. </p>
+               <p xml:id="azsw2e-d1e5515-d1e287" n="2">
+            Pro pietatis itaque ratione ab hostibus redempto filio facti
+            te paenitere ac de pretio quicquam tractare non convenit: dotem tamen
+            ab eo debitam iure concesso reddi postulas. * DIOCL. ET MAXIM. AA.
+            ET CC. DIOGENIAE. *&lt;A 294 S. III K. NOV. DEVELTO CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e292">
+               <head xml:id="azsw2e-d1e5515-Hd1e294">18</head>
+               <p xml:id="azsw2e-d1e5515-d1e296">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e298">Imperatores
+            Diocletianus, Maximianus</ref> Ab hostibus captis ac postliminio reversis
+            pro huiusmodi casu amissa, quae in eadem causa quidem durant, omnimodo
+            directa, quae vero per usucapionem vel liberationem ex bonis subtracta
+            vel non utendo finita esse videntur, intra annum utilem experientibus
+            actione rescissoria restituuntur. * DIOCL. ET MAXIM. AA. ET CC. TRYPHONIANO.
+            *&lt;A 294 PP. XII K. DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e302">
+               <head xml:id="azsw2e-d1e5515-Hd1e304">19</head>
+               <p xml:id="azsw2e-d1e5515-d1e306">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e308">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Si quos forte necessitas captivitatis
+            abduxit, sciant, si non transierunt, sed hostilis inruptionis necessitate
+            transducti sunt, ad proprias terras festinare debere, recepturos iure
+            postliminii ea, quae in agris vel mancipiis seu aliis rebus ante tenuerunt,
+            etsi a fisco nostro possideantur. </p>
+               <p xml:id="azsw2e-d1e5515-d1e311" n="1">
+            Nec timeat quisquam alicuius contradictionis moram, cum hoc
+            solum requirendum sit, utrum aliquis cum barbaris voluntate fuerit
+            an coactus. * VALENTIN. VALENS ET GRAT. AAA. AD SEVERIANUM DUCEM.
+            *&lt;A 366 D. V K. IUL. REMIS GRATIANO A. ET DAGALAIFO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5515-Dd1e315">
+               <head xml:id="azsw2e-d1e5515-Hd1e317">20</head>
+               <p xml:id="azsw2e-d1e5515-d1e319">
+                  <ref xml:id="azsw2e-d1e5515-Rd1e321">Imperatores
+            Honorius, Theodosius</ref>  Diversarum homines provinciarum cuiuslibet
+            sexus condicionis aetatis, quos barbarica feritas captiva necessitate
+            transvexerat, invitos nemo retineat, sed ad propria redire cupientibus
+            libera sit facultas. </p>
+               <p xml:id="azsw2e-d1e5515-d1e324" n="1">
+            Quibus si quicquam in usum vestium vel alimoniae impensum
+            est, humanitati sit praestitum nec maneat victualis sumptus repetitio:
+            exceptis his, quos barbaris vendentibus emptos esse docebitur, a quibus
+            status sui pretium propter utilitatem publicam emptoribus aequum est
+            redhiberi. </p>
+               <p xml:id="azsw2e-d1e5515-d1e327" n="2">
+            Ne quando enim damni consideratio in tali necessitate positis
+            negari faciat emptionem, decet redemptos aut datum pro se pretium
+            emptoribus restituere aut laboris obsequio vel opere quinquennii vicem
+            referre beneficii, habituros incolumem, si in ea nati sunt, libertatem.
+            </p>
+               <p xml:id="azsw2e-d1e5515-d1e330" n="3">
+            Reddantur igitur sedibus propriis sub moderatione qua iussimus,
+            quibus iure postliminii etiam veterum responsis incolumia cuncta servanda
+            sunt. </p>
+               <p xml:id="azsw2e-d1e5515-d1e334" n="4">
+            ( 1) si quis itaque huic praecepto fuerit conatus obsistere
+            actor conductor procuratorque, dari se metallis cum poena deportationis
+            non ambiget: si vero possessionis dominus, rem suam fisco noverit
+            vindicandam seque deportandum. </p>
+               <p xml:id="azsw2e-d1e5515-d1e337" n="5">
+            Et ut facilis exsecutio proveniat, christianos proximorum
+            locorum volumus huius rei sollicitudinem gerere: curiales quoque proximarum
+            civitatum placuit admoneri , ut emergentibus talibus causis sciant
+            legis nostrae auxilium deferendum: ita ut noverint rectores universi
+            decem libras auri a se et tantundem a suis apparitoribus exigendum,
+            si praeceptum neglexerint. * HONOR. ET THEODOS. AA. THEODORO PP. *&lt;A
+            409 D. III ID. DEC. RAVENNAE HONORIO VIII ET THEODOSIO III AA. CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

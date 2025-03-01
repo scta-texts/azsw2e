@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 3</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 3</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7084"><!-- azsw2e-l11t3 -->
+            <head xml:id="azsw2e-d1e7084-Hd1e101">Titulus 3</head>
+            <head xml:id="azsw2e-d1e7084-Hd1e103" type="question-title">De praediis naviculariorum</head>
+            <div xml:id="azsw2e-d1e7084-Dd1e106">
+               <head xml:id="azsw2e-d1e7084-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7084-d1e110">
+                  <ref xml:id="azsw2e-d1e7084-Rd1e112">Imperatores
+            Valentinianus, Valens</ref> Domum etiam mansuetudinis nostrae in his,
+            quae naviculario nomine obnoxia sunt, agnoscere praecipimus debitam
+            functionem. * VALENTIN. ET VALENS AA. AURELIANO PRAEF. ANNONAE. *&lt;A
+            367 D.III K.OCT.LUPICINO ET IOVINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7084-Dd1e116">
+               <head xml:id="azsw2e-d1e7084-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7084-d1e120">
+                  <ref xml:id="azsw2e-d1e7084-Rd1e122">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  In his, quae navicularii vendunt,
+            quoniam intercipere contractum emendi vendendique fas prohibet, emptor
+            navicualrii functionem pro modo portionis comparatae subeat: res enim
+            oneri addicta est, non persona mercatoris. </p>
+               <p xml:id="azsw2e-d1e7084-d1e125" n="1">
+            Neque navicularium iubemus fieri eum, qui aliquid comparavit,
+            sed eam partem quae empta est pro suo modo ac ratione esse munificam:
+            nec enim totum patrimonium ad functionem naviculariam occupandum erit,
+            quod habuerit qui rei exiguae mercator accessit, sed illa portio,
+            quae ab initio navicularii fuit, ad pensionem huiusmodi functionis
+            sola tenenda est, residuo patrimonio, quod ab hoc vinculo liberum
+            est, otioso et immuni servando. </p>
+               <p xml:id="azsw2e-d1e7084-d1e128" n="2">
+            Domus vero, quarum cultu decus urbium potius quam fructus
+            adquiritur, ubi a naviculariis veneunt, pro tanto modo ad hanc pensionem
+            obligari placet, quantum habebant emolumentum, cum pecunia mutuarentur.
+            </p>
+               <p xml:id="azsw2e-d1e7084-d1e131" n="3">
+            Ubi vero spatia loci et exiguitas nullam habuit pensionem
+            aut extructio, cuius est ardua difficilisque molitio, aut decus sumptuosum,
+            aut, ut est plerumque liberale institutum, habitationem quis suam
+            ornamento urbis adiecit, nolumus munificentiam quae postea addita
+            est improbam licitationem aestimationis excipere: sed vetusta potius
+            loci species et pensio cogitetur quam cultus hodiernus, qui per industriam
+            hominis animosi accessit. * VALENTIN. ET VALENS ET GRAT. AAA. CHILONI
+            PROCONS. AFRICAE. *&lt;A 375 D.III NON.AUG.POST CONSULATUM GRATIANI
+            A.III ET EQUITII VC. &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7084-Dd1e135">
+               <head xml:id="azsw2e-d1e7084-Hd1e137">3</head>
+               <p xml:id="azsw2e-d1e7084-d1e139">
+                  <ref xml:id="azsw2e-d1e7084-Rd1e141">Imperatores
+            Arcadius, Honorius</ref> Hi, qui fundos naviculariae
+            functioni adscriptos a naviculariis acceperunt quodlibet ad se titulo
+            transeuntes, secundum agri opinionem, quae antiquitus habetur adscripta,
+            naviculariam functionem suscipere cogantur neque eas condiciones sibi
+            aestiment profuturas, quas venditor minus idoneus in se recipit impositas
+            ementis arbitrio: hac tamen ratione servata, ut, si ad minus idoneum
+            fuerit translata possessio, etiam auctores transscripti praedii teneantur
+            obnoxii, sitque hoc in promptu, ut damnis fiscalibus primitus ab idoneis
+            consulatur. * ARCAD. ET HONOR. AA. MESSALAE PP. *&lt;A 399
+            D.XIIII K.MART.MEDIOLANI THEODORO PVC.CONS.&gt; </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

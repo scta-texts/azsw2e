@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 7</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 7</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1918"><!-- azsw2e-l4t7 -->
+            <head xml:id="azsw2e-d1e1918-Hd1e101">Titulus 7</head>
+            <head xml:id="azsw2e-d1e1918-Hd1e103" type="question-title">De condictione ob turpem causam</head>
+            <div xml:id="azsw2e-d1e1918-Dd1e106">
+               <head xml:id="azsw2e-d1e1918-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1918-d1e110">
+                  <ref xml:id="azsw2e-d1e1918-Rd1e112">Imperator
+            Antoninus</ref> Si ex cautione tua conveniri coeperis, nullam te pecuniam
+            accepisse, sed ob turpem causam et quam fieri prohibitum est interpositam
+            ei, qui super ea re cogniturus est, probandum est et eo impleto absolutio
+            sequetur. * ANT. A. INGENUO. *&lt; SINE DIE ET CONSULE.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1918-Dd1e116">
+               <head xml:id="azsw2e-d1e1918-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e1918-d1e120">
+                  <ref xml:id="azsw2e-d1e1918-Rd1e122">Imperator
+            Antoninus</ref> Cum te propter turpem causam contra disciplinam temporum
+            meorum domum adversariae dedisse profitearis, frustra eam restitui
+            tibi desideras, cum in pari causa possessoris melior condicio habeatur.
+            * ANT. A. LONGINO. *&lt;A 215 PP. XV K. DEC. LAETO II ET CEREALE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1918-Dd1e126">
+               <head xml:id="azsw2e-d1e1918-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e1918-d1e130">
+                  <ref xml:id="azsw2e-d1e1918-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Quod evitandi tirocinii causa dedisse
+            te apud competentem iudicem ei de quo quereris indubia probationis
+            luce constiterit, instantia eius recipies: qui memor censurae publicae
+            post restitutionem pecuniae etiam concussionis crimen inultum esse
+            non patietur. * DIOCL. ET MAXIM. AA. DIZONI MIL. *&lt;A 290 PP. III
+            K. AUG. IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1918-Dd1e137">
+               <head xml:id="azsw2e-d1e1918-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e1918-d1e141">
+                  <ref xml:id="azsw2e-d1e1918-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Quotiens accipientis, non etiam dantis
+            turpis invenitur causa, licet haec secuta fuerit, datum condici tantum,
+            non etiam usurae peti possunt. * DIOCL. ET MAXIM. AA. ET CC. RUFINO.
+            *&lt;A 293 S. VII ID. IAN. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1918-Dd1e147">
+               <head xml:id="azsw2e-d1e1918-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e1918-d1e151">
+                  <ref xml:id="azsw2e-d1e1918-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Promercalem te habuisse uxorem proponis:
+            unde intellegis et confessionem lenocinii preces tuas continere et
+            cautae quantitatis ob turpem causam exactioni locum non esse. Quamvis
+            enim utriusque turpitudo versatur ac soluta quantitate cessat repetitio,
+            tamen ex huiusmodi stipulatione contra bonos mores interposita denegandas
+            esse actiones iuris auctoritate demonstratur * DIOCL. ET MAXIM. AA.
+            ET CC. BITHO. *&lt;A 294 S. VI ID. MAI. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1918-Dd1e157">
+               <head xml:id="azsw2e-d1e1918-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e1918-d1e161">
+                  <ref xml:id="azsw2e-d1e1918-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Ob restituenda quae subtraxerat accipientem
+            pecuniam, cum eius tantum interveniat turpitudo, condictione conventum
+            hanc restituere debere convenit. * DIOCL. ET MAXIM. AA. ET CC. EUTYCHIAE.
+            *&lt;A 294 S. VI ID. MAI. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1918-Dd1e167">
+               <head xml:id="azsw2e-d1e1918-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e1918-d1e171">
+                  <ref xml:id="azsw2e-d1e1918-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Eum, qui ob restituenda quae abegerat
+            pecora pecuniam accepit, tam hanc quam quae per hoc commissum tenuit
+            restituere debere convenit, licet mortua vel alio fortuito casu perisse
+            dicantur, cum in hoc casu in rem mora fiat. * DIOCL. ET MAXIM. AA.
+            ET CC. ZENONIDAE. *&lt;A 294 D. V K. DEC. NICOMEDIAE CC. CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

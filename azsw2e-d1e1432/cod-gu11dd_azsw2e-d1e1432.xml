@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 8</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 8</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1432"><!-- azsw2e-l3t8 -->
+            <head xml:id="azsw2e-d1e1432-Hd1e101">Titulus 8</head>
+            <head xml:id="azsw2e-d1e1432-Hd1e103" type="question-title">De ordine iudiciorum.</head>
+            <div xml:id="azsw2e-d1e1432-Dd1e106">
+               <head xml:id="azsw2e-d1e1432-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1432-d1e110">
+                  <ref xml:id="azsw2e-d1e1432-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Adite praesidem provinciae et ruptum esse
+            testamentum fabii praesentis agnatione filii docete. Neque enim impedit
+            notionem eius, quod status quaestio in cognitione vertitur, etsi super
+            causa status cognoscere non possit: pertinet enim ad officium iudicis
+            qui de hereditate cognoscit universam incidentem quaestionem quae
+            in iudicium devocatur examinare, quoniam non de ea, sed de hereditate
+            pronuntiat * SEV. ET ANT. AA. MARCELLINAE. *&lt;A 203 D. XIII K. DEC.
+            GETA ET PLAUTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1432-Dd1e116">
+               <head xml:id="azsw2e-d1e1432-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e1432-d1e120">
+                  <ref xml:id="azsw2e-d1e1432-Rd1e122">Imperator
+            Antoninus</ref> Si quaestio tibi generis ab his, quos fratres patrueles
+            esse dicis, non fit, adito praeside et accepto iudice familiae erciscundae
+            experire. Quod si de ea re quaestio erit, prius de nativitatis veritate
+            secundum iuris formam quaeri idem vir clarissimus curae habebit *
+            ANT. A. MAGNILLAE. *&lt;A 213 PP. X K. AUG. ANTONINO A. IIII ET BALBINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1432-Dd1e126">
+               <head xml:id="azsw2e-d1e1432-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e1432-d1e130">
+                  <ref xml:id="azsw2e-d1e1432-Rd1e132">Imperatores
+            Valerianus, Gallienus</ref> Cum civili disceptationi principaliter
+            motae quaestio criminis inciderit vel crimini prius instituto civilis
+            causa adiungitur, potest iudex eodem tempore utramque quaestionem
+            sua sententia dirimere. * VALER. ET GALLIEN. AA. DEMETRIO. *&lt;A
+            262 PP. NON. GALLIENO A. V ET FAUSTINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1432-Dd1e137">
+               <head xml:id="azsw2e-d1e1432-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e1432-d1e141">
+                  <ref xml:id="azsw2e-d1e1432-Rd1e143">Imperator
+            Constantinus</ref> Quoniam civili quaestione intermissa saepe fit,
+            ut prius de crimine iudicetur, quod utpote maius merito minori praefertur:
+            ex quo criminalis quaestio quocumque modo cessaverit, oportet civilem
+            causam velut ex integro in iudicium deductam discingi, ut finis criminalis
+            negotii ex eo die, quo inter partes fuerit lata sententia, initium
+            civili tribuat quaestioni. * CONSTANT. A. AD CALPURNIANUM. *&lt;A
+            336 D. ID. MART. NEPOTIANO ET FACUNDO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

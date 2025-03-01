@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 31</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 31</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2929"><!-- azsw2e-l5t31 -->
+            <head xml:id="azsw2e-d1e2929-Hd1e101">Titulus 31</head>
+            <head xml:id="azsw2e-d1e2929-Hd1e103" type="question-title">Qui petant tutores vel curatores</head>
+            <div xml:id="azsw2e-d1e2929-Dd1e106">
+               <head xml:id="azsw2e-d1e2929-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2929-d1e110">
+                  <ref xml:id="azsw2e-d1e2929-Rd1e112">Imperator
+            Antoninus</ref> Admone adulescentem, adversus quem consistere vis,
+            ut curatores sibi dari postulet, cum quibus secundum iuris formam
+            consistas. Qui si in petendis his cessabit, potes tu competentem iudicem
+            adire, ut in dandis curatoribus officio suo fungatur * ANT. A. CHRYSANTHAE.
+            *&lt;A 214 PP. II NON. FEBR. MESSALA ET SABINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2929-Dd1e116">
+               <head xml:id="azsw2e-d1e2929-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2929-d1e120">
+                  <ref xml:id="azsw2e-d1e2929-Rd1e122">Imperator
+            Antoninus</ref> Patroni tui filii si eius aetatis sunt, ut res eorum
+            per tutores administrari debeant, cura adire praetorem et nomina edere,
+            ex quibus tutores constituantur, ne, si cessaveris, obsequii deserti
+            periculum subeas. * ANT. A. EPAPHRODITO. *&lt;A 214 PP. III NON. IUL.
+            MESSALA ET SABINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2929-Dd1e126">
+               <head xml:id="azsw2e-d1e2929-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2929-d1e130">
+                  <ref xml:id="azsw2e-d1e2929-Rd1e132">Imperator
+            Antoninus</ref> In locum tutoris defuncti vel in perpetuum relegati
+            alium dari tutorem filiis tuis idoneum ex eadem provincia ab iudice
+            competente postula, qui secundum officium suum utilitatibus eorum
+            providebit. * ANT. A. ATALANTAE. *&lt;A 215 PP. IIII ID. IUL. LAETO
+            II ET CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2929-Dd1e137">
+               <head xml:id="azsw2e-d1e2929-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2929-d1e141">
+                  <ref xml:id="azsw2e-d1e2929-Rd1e143">Imperator
+            Antoninus</ref> Si filiis debitoris tui non sunt necessarii, qui tutores
+            petant, potes ipse curare, ut accipiant, per quos legitime defendantur.
+            * ANT. A. DOMNINO. *&lt;A 215 PP. III ID. IUL. LAETO II ET CEREALE
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2929-Dd1e147">
+               <head xml:id="azsw2e-d1e2929-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e2929-d1e151">
+                  <ref xml:id="azsw2e-d1e2929-Rd1e153">Imperator
+            Alexander Severus</ref> Amita tutores petere filiis fratris sui non
+            prohibetur. * ALEX. A. FUSCIANAE. *&lt;A 223 PP. V K. IUL. MAXIMO
+            II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2929-Dd1e157">
+               <head xml:id="azsw2e-d1e2929-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e2929-d1e161">
+                  <ref xml:id="azsw2e-d1e2929-Rd1e163">Imperator
+            Alexander Severus</ref> Matris pietas instruere te potest, quos tutores
+            filio tuo petere debes, sed et observare, ne quid secus quam oportet
+            in re filii pupilli agatur. Petendi autem filiis curatores necessitas
+            matribus imposita non est, cum puberes minores anno vicesimo quinto
+            ipsi sibi curatores, si res eorum exigit, petere debeant * ALEX. A.
+            OTACILIAE. *&lt;A 224 PP. X K. OCT. IULIANO ET CRISPINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2929-Dd1e167">
+               <head xml:id="azsw2e-d1e2929-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e2929-d1e171">
+                  <ref xml:id="azsw2e-d1e2929-Rd1e173">Imperator
+            Gordianus</ref> Admone eam, quae quondam pupilla tua fuit, cum eam
+            non tantum viri potentem, sed etiam nupsisse proponas, ut sibi petat
+            curatorem. Quod si ea petere neglexerit, quo maturius possis rationes
+            reddere administrationis, adito eo cuius super ea re notio est petere
+            curatorem non vetaris * GORD. A. DIONYSIO. *&lt;A 239 PP. VI ID. IAN.
+            GORDIANO A. ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2929-Dd1e177">
+               <head xml:id="azsw2e-d1e2929-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e2929-d1e181">
+                  <ref xml:id="azsw2e-d1e2929-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Cum a matribus sedulum petendi tutoris
+            officium exigatur, non fortuiti casus impedimentis adscribantur, proponasque
+            procuratorem, qui ad petendum pupillo tutorem a matre fuerat constitutus,
+            a latronibus interfectum petitionem ex necessitate demoratam esse,
+            ab hereditatis successione matrem repelli, cuius nullum vitium intercessisse
+            adseris, perquam durum est. * DIOCL. ET MAXIM. AA. MUSICO. *&lt;A
+            291 PP. V ID. MART. TIBERIANO ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2929-Dd1e187">
+               <head xml:id="azsw2e-d1e2929-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e2929-d1e191">
+                  <ref xml:id="azsw2e-d1e2929-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Cum iure habenti tutorem tutor dari
+            non possit, intellegis matrem non officium pietatis in petendo tutore
+            deseruisse, sed iure munitam merito filio suo tutorem non postulare.
+            * DIOCL. ET MAXIM. AA. ET CC. ASCLEPIODOTO. *&lt;A 293 S. III NON.
+            APRIL. BYZANTII AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2929-Dd1e198">
+               <head xml:id="azsw2e-d1e2929-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e2929-d1e202">
+                  <ref xml:id="azsw2e-d1e2929-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> Nepotibus fratris tui, si eorum mater
+            in petendis tutoribus debito non fungatur officio, petere tutores
+            sollemniter potes. * DIOCL. ET MAXIM. AA. ET CC. PRISCO. *&lt;A 294
+            S. PRID. K. MAI. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2929-Dd1e208">
+               <head xml:id="azsw2e-d1e2929-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e2929-d1e212">
+                  <ref xml:id="azsw2e-d1e2929-Rd1e214">Imperator
+            Zeno</ref> Matres naturalibus etiam filiis ad similitudinem eorum,
+            qui ex iustis ac legitimis nuptiis sunt procreati, petendorum tutorum
+            necessitati subiaceant, nulla eis ignorantia iuris ad evitanda legibus
+            vel sacris constitutionibus definita, si petitionem tutorum minus
+            curaverint, profutura. * ZENO A. DIOSCORO PP. *&lt;A 479 D. K. SEPT.
+            CONSTANTINOPOLI ZENONE A. II CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

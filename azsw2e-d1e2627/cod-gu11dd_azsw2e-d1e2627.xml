@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 4</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 4</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2627"><!-- azsw2e-l5t4 -->
+            <head xml:id="azsw2e-d1e2627-Hd1e101">Titulus 4</head>
+            <head xml:id="azsw2e-d1e2627-Hd1e103" type="question-title">De nuptiis</head>
+            <div xml:id="azsw2e-d1e2627-Dd1e106">
+               <head xml:id="azsw2e-d1e2627-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2627-d1e110">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Cum de nuptiis puellae quaeritur nec inter
+            tutorem et matrem et propinquos de eligendo futuro marito convenit,
+            arbitrium praesidis provinciae necessarium est. * SEV. ET ANT. AA.
+            POTITO. *&lt;A 199 D. NON. MAI. ANULLINO ET FRONTONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e116">
+               <head xml:id="azsw2e-d1e2627-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2627-d1e120">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Si nuptiis pater tuus consensit, nihil oberit,
+            quod instrumento ad matrimonium pertinenti subscripsit. * SEV. ET
+            ANT. AA. TROPHIMAE. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e126">
+               <head xml:id="azsw2e-d1e2627-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2627-d1e130">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e132">Imperatores
+            Severus, Antoninus</ref> Libertum, qui patronam seu patroni filiam
+            vel coniugem vel neptem vel proneptem uxorem ducere ausus est, apud
+            competentem iudicem accusare poteris moribus temporum meorum congruentem
+            sententiam daturum, quae huiusmodi coniunctiones odiosas esse merito
+            duxerunt. * SEV. ET ANT. AA. VALERIAE. *&lt;A 196 ID. NOV. DEXTRO
+            II ET PRISCO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e137">
+               <head xml:id="azsw2e-d1e2627-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2627-d1e141">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e143">Imperator
+            Alexander Severus</ref> Liberi concubinas parentum suorum uxores ducere
+            non possunt, quia minus religiosam et probabilem rem facere videntur.
+            Qui si contra hoc fecerint, crimen stupri committunt * ALEX. A. PERPETUO.
+            *&lt;A 228 III ID. APRIL. MODESTO ET PROBO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e147">
+               <head xml:id="azsw2e-d1e2627-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e2627-d1e151">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e153">Imperator
+            Alexander Severus</ref> Si, ut proponis, pater quondam mariti tui,
+            in cuius fuit potestate, cognitis nuptiis vestris non contradixit,
+            vereri non debes, nepotem suum ne non agnoscat. * ALEX. A. MAXIMAE.
+            *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e157">
+               <head xml:id="azsw2e-d1e2627-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e2627-d1e161">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e163">Imperator
+            Gordianus</ref> Etsi contra mandata principum contractum sit in provincia
+            consentiente muliere matrimonium, tamen post depositum officium si
+            in eadem voluntate perseveraverit, iustae nuptiae efficiuntur: et
+            ideo postea liberos susceptos natosque ex iusto matrimonio legitimos
+            esse responsum viri prudentissimi pauli declarat. * GORD. A. VALERIAE.
+            *&lt;A 239 XII K. SEPT. GORDIANO A. ET AVOILA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e167">
+               <head xml:id="azsw2e-d1e2627-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e2627-d1e171">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e173">Imperator
+            Gordianus</ref> Si, ut proponis, post querellam de marito a filia
+            ad te delatam dissociatum est matrimonium nec te consentiente ad eundem
+            regressa est, minus legitima coniunctio est cessante patris voluntate,
+            in cuius est potestate: atque ideo non paenitente filia petitionem
+            dotis repetere non prohiberis. * GORD. A. APRO. *&lt;A 240 PP. IIII
+            K. NOV. SABINO ET VENUSTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e177">
+               <head xml:id="azsw2e-d1e2627-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e2627-d1e181">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e183">Imperator
+            Gordianus</ref> In copulandis nuptiis nec curatoris, qui solam rei
+            familiaris sustinet administrationem, nec cognatorum vel adfinium
+            ulla auctoritas potest intervenire, sed spectanda est eius voluntas,
+            de cuius coniunctione tractatur. * GORD. A. ROMANO. *&lt;A 241 D.
+            V K. MART. GORDIANO A. II ET POMPEIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e187">
+               <head xml:id="azsw2e-d1e2627-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e2627-d1e191">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e193">Imperator
+            Probus</ref> Si vicinis vel aliis scientibus uxorem liberorum procreandorum
+            causa domi habuisti et ex eo matrimonio filia suscepta est, quamvis
+            neque nuptiales tabulae neque ad natam filiam pertinentes factae sunt,
+            non ideo minus veritas matrimonii aut susceptae filiae suam habet
+            potestatem. * PROBUS A. FORTUNATO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e198">
+               <head xml:id="azsw2e-d1e2627-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e2627-d1e202">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> Cum te non ex senatore patre procreatam
+            ob matrimonium cum senatore contractum clarissimae feminae nomen adeptam
+            dicas, claritas, quae beneficio mariti tibi parata est, si secundi
+            ordinis virum postea sortita es redacta ad prioris dignitatis statum,
+            deposita est. * DIOCL. ET MAXIM. AA. PAULINAE. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e208">
+               <head xml:id="azsw2e-d1e2627-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e2627-d1e212">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e214">Imperatores
+            Diocletianus, Maximianus</ref> Si invita detinetur uxor tua a parentibus
+            suis, interpellatus rector provinciae amicus noster exhibita muliere
+            voluntatem eius secutus desiderio tuo medebitur. * DIOCL. ET MAXIM.
+            AA. ALEXANDRO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e218">
+               <head xml:id="azsw2e-d1e2627-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e2627-d1e222">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e224">Imperatores
+            Diocletianus, Maximianus</ref> Ne filium quidem familias invitum ad
+            ducendam uxorem cogi legum disciplina permittit. Igitur, sicut desideras,
+            observatis iuris praeceptis sociare coniugio tuo quam volueris non
+            impediris, ita tamen, ut in contrahendis nuptiis patris tui consensus
+            accedat * DIOCL. ET MAXIM. AA. SABINO. *&lt;A 285 A. II ET ARISTOBULO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e228">
+               <head xml:id="azsw2e-d1e2627-Hd1e230">13</head>
+               <p xml:id="azsw2e-d1e2627-d1e232">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e234">Imperatores
+            Diocletianus, Maximianus</ref> Neque sine nuptiis instrumenta facta
+            matrimonii ad probationem sunt idonea diversum veritate continente,
+            neque non interpositis instrumentis iure contractum matrimonium irritum
+            est, cum omissa quoque scriptura cetera nuptiarum indicia non sunt
+            irrita. * DIOCL. ET MAXIM. AA. ET CC. ONESIMO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e238">
+               <head xml:id="azsw2e-d1e2627-Hd1e240">14</head>
+               <p xml:id="azsw2e-d1e2627-d1e242">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e244">Imperatores
+            Diocletianus, Maximianus</ref> Neque ab initio matrimonium contrahere
+            neque dissociatum reconciliare quisquam cogi potest. Unde intellegis
+            liberam facultatem contrahendi atque distrahendi matrimonii transferri
+            ad necessitatem non oportere * DIOCL. ET MAXIM. AA. ET CC. TITIO.
+            *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e248">
+               <head xml:id="azsw2e-d1e2627-Hd1e250">15</head>
+               <p xml:id="azsw2e-d1e2627-d1e252">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e254">Imperatores
+            Diocletianus, Maximianus</ref> Uxorem libertam suam manumissori, si
+            non sit ex his personis, quae specialiter prohibentur, ducere non
+            est interdictum, et ex eo matrimonio iustos patri filios nasci certissimum
+            est. * DIOCL. ET MAXIM. AA. ET CC. TITIANO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e259">
+               <head xml:id="azsw2e-d1e2627-Hd1e261">16</head>
+               <p xml:id="azsw2e-d1e2627-d1e263">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e265">Imperatores
+            Diocletianus, Maximianus</ref> Patrem, qui filiam exposuit, at nunc
+            adultam sumptibus et labore tuo factam matrimonio coniungi filio desiderantis
+            favere voto convenit. Qui si renitatur, alimentorum solutioni in hoc
+            solummodo casu parere debet * DIOCL. ET MAXIM. AA. ET CC. RHODONI.
+            *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e269">
+               <head xml:id="azsw2e-d1e2627-Hd1e271">17</head>
+               <p xml:id="azsw2e-d1e2627-d1e273">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e275">Imperatores
+            Diocletianus, Maximianus</ref> Nemini liceat contrahere matrimonium
+            cum filia nepte pronepte, itemque matre avia proavia et ex latere
+            amita ac matertera, sorore sororis filia et ex ea nepte, praeterea
+            fratris filia et ex ea nepte, itemque ex adfinibus privigna noverca
+            nuru socru ceterisque, quae iure antiquo prohibentur: a quibus cunctos
+            volumus abstinere. * DIOCL. ET MAXIM. AA. ET CC. *&lt;A 295 D. K.
+            MAI. DAMASCO TUSCO ET ANULLINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e279">
+               <head xml:id="azsw2e-d1e2627-Hd1e281">18</head>
+               <p xml:id="azsw2e-d1e2627-d1e283">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e285">Imperatores
+            Valentinianus, Valens, Gratianus</ref>  Viduae intra quintum et vicesimum
+            annum degentes, etiam si emancipationis libertate gaudent, tamen in
+            secundas nuptias sine patris sententia non conveniant. </p>
+               <p xml:id="azsw2e-d1e2627-d1e288" n="1">
+            Quod si in condicionis delectum mulieris voluntas repugnat
+            sententiae propinquorum, placet admodum, ut in virginum coniunctionibus
+            sanctum est, habendo examini auctoritatem quoque iudiciariae cognitionis
+            adiungi, ut, si pares sunt genere ac moribus petitores, is potior
+            aestimetur, quem sibi consulens mulier adprobaverit. </p>
+               <p xml:id="azsw2e-d1e2627-d1e291" n="2">
+            Sed ne forte ii, qui gradu proximo ad viduarum successiones
+            vocantur, et honestas nuptias impediant, si huiusmodi rei suspicio
+            processerit, eorum volumus auctoritatem iudiciumque succedere, ad
+            quos, etiamsi fatalis sors intercesserit, tamen hereditatis commodum
+            pervenire non possit. * VALENTIN. VALENS ET GRAT. AAA. AD SENATUM.
+            *&lt;A 371 D. XVII K. AUG. GRATIANO A. II ET PROBO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e295">
+               <head xml:id="azsw2e-d1e2627-Hd1e297">19</head>
+               <p xml:id="azsw2e-d1e2627-d1e299">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e301">Imperatores
+            Arcadius, Honorius</ref> Celebrandis inter consobrinos matrimoniis
+            licentia huius legis salubritate indulta est, ut revocata prisci iuris
+            auctoritate restinctisque calumniarum fomentis matrimonium inter consobrinos
+            habeatur legitimum, sive ex duobus fratribus sive ex duabus sororibus
+            sive ex fratre et sorore nati sunt, et ex eo matrimonio editi legitimi
+            et suis patribus successores habeantur. * ARCAD. ET HONOR. AA. EUTYCHIANO
+            PP. *&lt;A 405 D. III ID. IUN. NICAEAE STILICHONE II ET ANTHEMIO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e305">
+               <head xml:id="azsw2e-d1e2627-Hd1e307">20</head>
+               <p xml:id="azsw2e-d1e2627-d1e309">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e311">Imperatores
+            Honorius, Theodosius</ref>  In coniunctione filiarum in sacris positarum
+            patris expectetur arbitrium: si sui iuris puella sit intra quintum
+            et vicesimum annum constituta, ipsius quoque exploretur adsensus.
+            Si patris auxilio destituta, matris et propinquorum et ipsius quoque
+            requiratur adultae iudicium </p>
+               <p xml:id="azsw2e-d1e2627-d1e314" n="1">
+            Si vero utroque orbata parente sub curatoris defensione consistat
+            et inter honestos competitores matrimonii oriatur forte certamen,
+            ut queratur, cui potissimum puella iungenda sit, si puella cultu verecundiae
+            propriam noluerit depromere voluntatem, coram positis propinquis iudici
+            deliberare permissum sit, cui melius adulta societur. * HONOR. ET
+            THEODOS. AA. AD THEODORUM PP. *&lt;A 408-409 &gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e318">
+               <head xml:id="azsw2e-d1e2627-Hd1e320">21</head>
+               <p xml:id="azsw2e-d1e2627-d1e322">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e324">Imperatores
+            Theodosius, Valentinianus</ref> A caligato milite usque ad protectoris
+            personam et sine aliqua sollemnitate matrimoniorum liberam cum ingenuis
+            dumtaxat mulieribus contrahendi coniugii permittimus facultatem. *
+            THEODOS. ET VALENTIN. AA. BASSO PP. *&lt;A 426 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e329">
+               <head xml:id="azsw2e-d1e2627-Hd1e331">22</head>
+               <p xml:id="azsw2e-d1e2627-d1e333">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e335">Imperatores
+            Theodosius, Valentinianus</ref> Si donationum ante nuptias vel dotis
+            instrumenta defuerint, pompa etiam aliaque nuptiarum celebritas omittatur,
+            nullus aestimet ob id deesse recte alias inito matrimonio firmitatem
+            vel ex eo natis liberis iura posse legitimorum auferri, inter pares
+            honestate personas nulla lege impediente consortium, quod ipsorum
+            consensu atque amicorum fide firmatur. * THEODOS. ET VALENTIN. AA.
+            HIERIO PP. *&lt;A 428 D. X K. MART. CONSTANTINOPOLI FELICE ET TAURO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e339">
+               <head xml:id="azsw2e-d1e2627-Hd1e341">23</head>
+               <p xml:id="azsw2e-d1e2627-d1e343">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e345">Imperator
+            Justinus</ref>  Imperalis benevolentiae proprium hoc esse iudicantes,
+            ut omni tempore subiectorum commoda tam investigare quam eis mederi
+            procuremus, lapsus quoque mulierum, per quos indignam honore conversationem
+            imbecillitate sexus elegerint, cum competenti moderatione sublevandos
+            esse censemus minimeque eis spem melioris condicionis adimere, ut
+            ad eam respicientes improvidam et minus honestam electionem facilius
+            derelinquant. Nam ita credimus dei benevolentiam et circa genus humanum
+            nimiam clementiam quantum nostrae naturae possibile est imitari, qui
+            cottidianis hominum peccatis semper ignoscere dignatur et paenitentiam
+            suscipere nostram et ad meliorem statum reducere: quod si circa nostro
+            subiectos imperio nos etiam facere differamus, nulla venia digni esse
+            videbimur </p>
+               <p xml:id="azsw2e-d1e2627-d1e348" n="1">
+            Itaque cum iniustum sit servos quidem libertate donatos posse
+            per divinam indulgentiam natalibus suis restitui postque huiusmodi
+            principale beneficium ita degere, quasi numquam deservissent, sed
+            ingenui nati essent, mulieres autem, quae scaenicis quidem sese ludis
+            immiscuerunt, postea vero spreta mala condicione ad meliorem migravere
+            sententiam et inhonestam professionem effugerunt, nullam spem principalis
+            habere beneficii, quod eas ad illum statum reduceret, in quo, si nihil
+            peccatum esset, commorari potuerint: praesenti clementissima sanctione
+            principale beneficium eis sub ea lege condonamus, ut, si derelicta
+            mala et inhonesta conversatione commodiorem vitam amplexae fuerint
+            et honestati sese dederint, liceat eis nostro supplicare numini, ut
+            divinos adfatus sine dubio mereantur ad matrimonium eas venire permittentes
+            legitimum: </p>
+               <p xml:id="azsw2e-d1e2627-d1e351"> 
+            His, qui eis coniungendi sunt, nullo timore tenendis, ne
+            scitis praeteritarum legum infirmum esse videatur tale coniugium,
+            sed ita validum huiusmodi permanere matrimonium confidentibus, quasi
+            nulla praecedente inhonesta vita uxores eas duxerint, sive dignitate
+            praediti sint sive alio modo scaenicas in matrimonium ducere prohibeantur,
+            dum tamen dotalibus omnimodo instrumentis, non sine scriptis tale
+            probetur coniugium.</p>
+               <p xml:id="azsw2e-d1e2627-d1e353"> 
+            Nam omni macula penitus direpta et quasi suis natalibus huiusmodi
+            mulieribus redditis neque vocabulum inhonestum eis inhaerere de cetero
+            volumus neque differentiam aliquam eas habere cum his, quae nihil
+            simile peccaverunt: </p>
+               <p xml:id="azsw2e-d1e2627-d1e356" n="2">
+            Sed et liberos ex tali matrimonio procreandos suos et legitimos
+            patri esse, licet alios ex priore matrimonio legitimos habeat, ut
+            bona eius tam ab intestato quam ex testamento isti quoque sine ullo
+            impedimento percipere possint. </p>
+               <p xml:id="azsw2e-d1e2627-d1e359" n="3">
+            Sed etsi tales mulieres post divinum rescriptum ad preces
+            earum datum ad matrimonium venire distulerint, salvam eis nihilo minus
+            existimationem servari praecipimus tam in aliis omnibus quam ad transmittendam
+            quibus voluerint suam substantiam et suspiciendam competentem sibi
+            legibus ab aliis relictam vel ab intestato delatam hereditatem. </p>
+               <p xml:id="azsw2e-d1e2627-d1e362" n="4">
+            Similes vero tale merentibus ab imperatore beneficium mulieribus
+            illas etiam esse volumus, quae dignitatem aliquam, etsi non serenissimo
+            principi supplicaverunt, ultronea tamen donatione ante matrimonium
+            meruerint, ex qua dignitate aliam etiam omnem maculam, per quam certis
+            hominibus legitime coniungi mulieres prohibentur, aboleri penitus
+            oportet. </p>
+               <p xml:id="azsw2e-d1e2627-d1e365" n="5">
+            His illud adiungimus, ut et filiae huiuscemodi mulierum,
+            si quidem post expurgationem prioris vitae matris suae natae sint,
+            non videantur scaenicarum esse filiae nec subiacere legibus, quae
+            prohibuerunt filiam scaenicae certos homines in matrimonium ducere.
+            </p>
+               <p xml:id="azsw2e-d1e2627-d1e368"> 
+            Sin vero ante procreatae sint, liceat preces offerentibus
+            invictissimo principi sacrum sine ullo obstaculo mereri rescriptum,
+            per quod eis ita nubere permittatur, quasi non sint scaenicae matris
+            filiae: nec iam prohibeantur illis copulari, quibus scaenicae filias
+            vel dignitatis vel alterius causae gratia uxores ducere interdicitur,
+            ut tamen omnimodo dotalia inter eos etiam instrumenta conficiantur.
+            </p>
+               <p xml:id="azsw2e-d1e2627-d1e370" n="6">
+            Sed et si a scaenica matre procreata, quae usque ad mortem
+            suam in eadem professione duravit, post eius obitum preces imperatoriae
+            clementiae obtulerit et divinam indulgentiam meruerit liberationem
+            maternae iniuriae et nubendi licentiam sibi condonantem, istam quoque
+            posse sine metu priorum legum in matrimonio illis copulari, qui dudum
+            scaenicae filiam uxorem ducere prohibebantur. </p>
+               <p xml:id="azsw2e-d1e2627-d1e374" n="7">
+            Immo et illud removendum esse censuimus, quod etiam in priscis
+            legibus, licet obscurius, constitutum est, ut matrimonia inter impares
+            honestate contrahenda non aliter quidem valeant, nisi dotalia instrumenta
+            confecta fuerint, his vero intercedentibus omnimodo firma sint sine
+            aliqua distinctione personarum, si modo liberae sint et ingenuae mulieres,
+            nullaque nefariarum vel incestarum coniunctionum suberit suspicio.
+            </p>
+               <p xml:id="azsw2e-d1e2627-d1e377"> 
+            Nam nefarios et incestos coitus omnibus modis amputamus,
+            sicut et illos, qui praeteritarum legum sanctione specialiter vetiti
+            sunt, exceptis videlicet his, quos praesenti lege permisimus legitimique
+            matrimonii iure muniri praecepimus.</p>
+               <p xml:id="azsw2e-d1e2627-d1e379" n="8">
+            His itaque per hanc generalem legem ita constitutis et de
+            cetero conservandis, praeteritas etiam huiusmodi coniunctiones ex
+            subiecto tempore factas secundum praedictam dispositionem iudicari
+            praecipimus, ut, si quis talem uxorem ab initio nostri imperii, prout
+            dictum est, iam duxerit et liberos ab ea procreaverit, iustos eos
+            et legitimos et tam ab intestato quam ex testamento pater successores
+            habeat, et legitima in posterum nihilo minus ea uxore permanente procreandi
+            quoque liberi legitimi sint. * IUSTINUS A. DEMOSTHENI P P. *&lt;A
+            520-523 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e383">
+               <head xml:id="azsw2e-d1e2627-Hd1e385">24</head>
+               <p xml:id="azsw2e-d1e2627-d1e387">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e389">Imperator
+            Justinianus</ref> Sancimus, si quis nuptiarum fecerit mentionem in
+            qualicumque pacto, quod ad dandum vel faciendum vel non dandum vel
+            non faciendum concipitur, et sive nuptiarum tempus dixerit sive nuptias
+            nominaverit, non aliter intellegi esse condicionem adimplendam vel
+            extenuandam, nisi ipsa nuptiarum accedat festivitas, et non esse tempus
+            inspiciendum, in quo nuptiarum aetas vel feminis post duodecimum annum
+            accesserit vel maribus post quartum decimum annum completum, sed ex
+            quo vota nuptiarum re ipsa processerint. Sic etenim et antiqui iuris
+            contentio dirimetur et immensa librorum volumina ad mediocrem modum
+            tandem pervenient * IUST. A. AD SENATUM. *&lt;A 530 D. CONSTANTINOPOLI
+            XI K. AUG. LAMPADIO ET ORESTE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e393">
+               <head xml:id="azsw2e-d1e2627-Hd1e395">25</head>
+               <p xml:id="azsw2e-d1e2627-d1e397">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e399">Imperator
+            Justinianus</ref>  Si furiosi parentis liberi, in cuius potestate constituti
+            sunt, nuptias possunt contrahere, apud veteres agitabatur. </p>
+               <p xml:id="azsw2e-d1e2627-d1e402" n="1">
+            Et filiam quidem furiosi marito posse copulari omnes paene
+            iuris antiqui conditores admiserunt: sufficere enim putaverunt, si
+            pater non contradicat. </p>
+               <p xml:id="azsw2e-d1e2627-d1e405" n="2">
+            In filio autem familias dubitabatur. Et Ulpianus quidem rettulit
+            constitutionem imperatoris marci, quae non de furioso loquitur, sed
+            generaliter de filiis mente capti, sive masculi sive feminae sint
+            qui nuptias contrahunt, ut hoc facere possint etiam non adito principe,
+            et aliam dubitationem ex hoc emergere, si hoc, quod in demente constitutio
+            induxit, etiam in furiosis obtinendum est, quasi exemplo mente capti
+            et furiosi adiuvante </p>
+               <p xml:id="azsw2e-d1e2627-d1e408" n="3">
+            His itaque dubitatis tales ambiguitates decidentes sancimus
+            hoc repleri, quod divi Marci constitutioni deesse videtur, ut non
+            solum dementis, sed etiam furiosi liberi cuiuscumque sexus possint
+            legitimas contrahere nuptias, tam dote quam ante nuptias donatione
+            a curatore eorum praestanda: </p>
+               <p xml:id="azsw2e-d1e2627-d1e412" n="4">
+            Aestimatione tamen in hac quidem regia urbe excellentissimi
+            praefecti urbis, in provinciis autem virorum clarissimorum earum praesidum
+            vel locorum antistitum tam opinione personae quam moderatione dotis
+            et ante nuptias donationis constituenda, praesentibus tam curatoribus
+            dementis vel furiosi quam his, qui ex genere eorum nobiliores sunt:
+            </p>
+               <p xml:id="azsw2e-d1e2627-d1e415" n="5">
+            Ita tamen, ut nulla ex hac causa oriatur vel in hac regia
+            urbe vel in provinciis iactura substantiae furiosi vel mente capti,
+            sed gratis omnia procedant, ne tale hominum infortunium etiam expensarum
+            incremento praegravetur. * IUST. A. IULIANO PP. *&lt;A 530 D. K. OCT.
+            CONSTANTINOPOLI LAMPADIO ET ORESTE VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e419">
+               <head xml:id="azsw2e-d1e2627-Hd1e421">26</head>
+               <p xml:id="azsw2e-d1e2627-d1e423">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e425">Imperator
+            Justinianus</ref>  Si quis alumnam suam libertate donaverit et in matrimonio
+            suo collocaverit, dubitabatur apud antiquos, utrumne huiusmodi nuptiae
+            legitimae esse videantur, an non. </p>
+               <p xml:id="azsw2e-d1e2627-d1e428" n="1">
+            Nos itaque vetustam ambiguitatem decidentes non esse vetitum
+            matrimonium censemus. Si enim ex adfectu omnes introducuntur nuptiae
+            et nihil impium neque legibus contrarium in tali copulatione spectamus,
+            quare praedictas nuptias inhibendas existimaverimus? nec enim homo
+            sic impius inveniatur, ut, quam ab initio loco filiae habuit, eam
+            postea in suo collocaverit matrimonio, sed ei credendum est, qui eam
+            ab initio non ut filiam educavit et libertate donavit et dignam esse
+            postea suo putavit matrimonio </p>
+               <p xml:id="azsw2e-d1e2627-d1e431" n="2">
+            Ea videlicet persona omnimodo ad nuptias venire prohibenda,
+            quam aliquis, sive alumna sit sive non, a sacrosancto suscepit baptismate,
+            cum nihil aliud sic inducere potest paternam adfectionem et iustam
+            nuptiarum prohibitionem, quam huiusmodi nexus, per quem deo mediante
+            animae eorum copulatae sunt. * IUST. A. IULIANO PP. *&lt;A 530 D.
+            K. OCT. CONSTANTINOPOLI LAMPADIO ET ORESTE VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e435">
+               <head xml:id="azsw2e-d1e2627-Hd1e437">27</head>
+               <p xml:id="azsw2e-d1e2627-d1e439">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e441">Imperator
+            Justinianus</ref> Sancimus nuptias, quae inter masculos et feminas
+            maiores vel minores sexagenariis vel quinquagenariis lege Iulia vel
+            Papia prohibitae sunt, homines volentes contrahere et ex nullo modo
+            vel ex nulla parte tales nuptias impediri. * IUST. A. IOHANNI PP.
+            *&lt;A 531 VEL 532 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e446">
+               <head xml:id="azsw2e-d1e2627-Hd1e448">28</head>
+               <p xml:id="azsw2e-d1e2627-d1e450">
+                  <ref xml:id="azsw2e-d1e2627-Rd1e452">Imperator
+            Justinianus</ref>  Si libertam quis uxorem habeat, deinde inter senatores
+            scribatur dignitate illustratus, an solvatur matrimonium, apud Ulpianum
+            querebatur, quia lex Papia inter senatores et libertas stare conubia
+            non patitur. </p>
+               <p xml:id="azsw2e-d1e2627-d1e455" n="1">
+            Nos igitur dei sequentes iudicium non patimur in uno eodemque
+            conubio mariti felicitatem uxori fieri infortunium, ut, quantum vir
+            in altum tollatur, tantum et coniux eius decrescat, immo magis penitus
+            depereat. </p>
+               <p xml:id="azsw2e-d1e2627-d1e458" n="2">
+            Absit itaque a nostro tempore huiusmodi asperitas et firmum
+            maneat matrimonium et uxor marito concrescat et sentiat eius fulgorem
+            stabileque maneat matrimonium ex huiusmodi superventu minime deminutum.
+            </p>
+               <p xml:id="azsw2e-d1e2627-d1e461" n="3">
+            Simili modo si privati hominis filia ad liberti veniat conubium
+            et postea pater mulieris ad senatoris dignitatem fuerit elatus, taceat
+            Papiae legis crudelissima sanctio et neque per hunc modum dissolvatur
+            matrimonium inter facti senatoris filiam et libertum, ne soceri prosperitas
+            sine genero inveniatur. </p>
+               <p xml:id="azsw2e-d1e2627-d1e465" n="4">
+            Melius est enim legis papiae severitatem in utroque casu
+            compescere, quam eam sequendo hominum matrimonia dispergere non ex
+            vitio mulieris et mariti, sed ex prospera alterutrius partis fortuna:
+            cum enim ex una radice vitium nascitur, consequens est, ut una lege
+            tollatur. * IUST. A. IOHANNI PP. *&lt;A 531 VEL 532 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2627-Dd1e469">
+               <head xml:id="azsw2e-d1e2627-Hd1e471">29</head>
+               <p xml:id="azsw2e-d1e2627-d1e473"><!-- greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

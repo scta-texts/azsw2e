@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 12</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 12</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6319"><!-- azsw2e-l10t12 -->
+            <head xml:id="azsw2e-d1e6319-Hd1e101">Titulus 12</head>
+            <head xml:id="azsw2e-d1e6319-Hd1e103" type="question-title">De petitionibus bonorum sublatis.</head>
+            <div xml:id="azsw2e-d1e6319-Dd1e106">
+               <head xml:id="azsw2e-d1e6319-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6319-d1e110">
+                  <ref xml:id="azsw2e-d1e6319-Rd1e112">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Quisquis in crimine maiestatis
+            deprehensus fuerit et punitus bonaque eius, sicut plectendi consuetudo
+            criminis habet, fiscus invaserit, nullus eadem sub spe munificentiae
+            principalis audeat proprio iure poscere. Qui contra legem id ausus
+            fuerit sperare, quod non licet, reus violatae legis habeatur. </p>
+               <p xml:id="azsw2e-d1e6319-d1e115" n="1">
+            Sed quoniam plerumque ita in nonnullis inverecunda petentium
+            inhiatione constringimur, ut etiam non concedenda tribuamus, nec rescripto
+            quidem nostro adversus formam latae legis loci aliquid relinquatur.
+            </p>
+               <p xml:id="azsw2e-d1e6319-d1e118" n="2">
+            Si quid autem ex bonis talibus nostro iudicio, nullo tamen
+            desiderante atque poscente, concedi cuiquam voluerimus, huiusmodi
+            tantum valeat liberalitas. * GRAT. VALENTIN. ET THEODOS. AAA. EUTROPIO
+            PP. *&lt;A 380 D.XVI K.DEC.THESSALONICAE GRATIANO V ET THEODOSIO AA.CONSS.
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6319-Dd1e122">
+               <head xml:id="azsw2e-d1e6319-Hd1e124">2</head>
+               <p xml:id="azsw2e-d1e6319-d1e126">
+                  <ref xml:id="azsw2e-d1e6319-Rd1e128">Imperatores
+            Theodosius, Valentinianus</ref>  Omne semen alienas appetendi fortunas
+            stirpitus eruere cupientes nulli deinceps volumus petitionis rerum
+            esse licentiam, etsi intestatus quisquam quaeve ac nullis e numero
+            propinquorum extantibus vel uxore vel marito fati munus impleverit
+            et cuiuscumque sit condicionis aut sectae, seu quolibet titulo res
+            fuerit fiscalis. </p>
+               <p xml:id="azsw2e-d1e6319-d1e131" n="1">
+            Nemo audeat ad petitionem rerum defuncti defunctaeve, cuiuscumque
+            fortunae aut sectae sit, etsi fisco nostro locus pateat, adspirare,
+            cum nec illis quidem, quorum actu atque officio petitionem procedebat
+            effectus, impune liceat nostris sanctionibus adversari. </p>
+               <p xml:id="azsw2e-d1e6319-d1e134"> 
+            Sed vir illustris quidem cuiuscumque temporis quaestor, si
+            oblatae petitioni subscripserit vel etiam responsum dederit, virque
+            illustris comes rerum privatarum, si vel instrui permiserit vel petitionem,
+            si qua insinuatur, admiserit, indignationem nostri numinis sustinebunt,
+            ceterisque fient vindictae temeritatis exemplum. </p>
+               <p xml:id="azsw2e-d1e6319-d1e136"> 
+            Memoriales vero, qui excipienda eiusmodi rescripta vel implenda
+            ciraverint, et palatinos, qui instruxerint vel gesta admissae petitionis
+            ediderint, bonorum proscriptione puniri decernimus. </p>
+               <p xml:id="azsw2e-d1e6319-d1e139" n="2">
+            Pari forma res etiam civiles et ad ius publicum pertinentes
+            ab omni petitione muniendas esse censemus, scilicet nec pragmatica
+            iussione vel sacra adnotatione vel quolibet oraculo divino seu mandatis,
+            si qua contra hanc sanctionem nostram fuerint impetrata, quodcumque
+            roboris habere valituris. * THEODOS. ET VALENTIN. AA.
+            ZOILO PP. *&lt;A 444 D.X K.MAI.CONSTANTINOPOLI THEODOSIO A.XVIII
+            ET ALBINO CONSS. &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

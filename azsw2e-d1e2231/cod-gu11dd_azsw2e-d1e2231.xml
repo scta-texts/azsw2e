@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 35</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 35</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2231"><!-- azsw2e-l4t35 -->
+            <head xml:id="azsw2e-d1e2231-Hd1e101">Titulus 35</head>
+            <head xml:id="azsw2e-d1e2231-Hd1e103" type="question-title">Mandati</head>
+            <div xml:id="azsw2e-d1e2231-Dd1e106">
+               <head xml:id="azsw2e-d1e2231-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2231-d1e110">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Adversus eum, cuius negotia gesta sunt, de
+            pecunia, quam de propriis opibus vel ab aliis mutuo acceptam erogasti,
+            mandati actione pro sorte et usuris potes experiri: de salario quod
+            promisit a praeside provinciae cognitio praebebitur. * SEV. ET ANT.
+            AA. LEONIDAE. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e116">
+               <head xml:id="azsw2e-d1e2231-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2231-d1e120">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e122">Imperator
+            Antoninus</ref> Cum ex causa fideiussionis pecuniam patrem tuum exsolvisse
+            proponas, habes mandati actionem, qua non solum pecuniam, sed etiam
+            pignora in obligationem eam deducta potes consequi. * ANT. A. STATIO
+            MARCELLINO. *&lt;PP. VIII &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e126">
+               <head xml:id="azsw2e-d1e2231-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2231-d1e130">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e132">Imperator
+            Antoninus</ref> Si pater tuus tibi sui iuris constituto actionem adversus
+            debitores suos mandavit, potuit ipse praesens adversus eos re integra
+            experiri. Si quid itaque ab eo apud iudicem actum est, rescindi nulla
+            ratio patitur * ANT. A. GERMANO. *&lt;A 216 PP. VI K. NOV. SABINO
+            II ET ANULLINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e137">
+               <head xml:id="azsw2e-d1e2231-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2231-d1e141">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e143">Imperator
+            Alexander Severus</ref> Etiamsi contrariam sententiam reportaverunt,
+            qui te ad exercendas causas appellationis procuratorem constituerunt,
+            si tamen nihil culpa tua factum est, sumptus , quos in lite probabili
+            ratione feceras, contraria mandati actione petere potes. * ALEX. A.
+            AURELIO VULNERATO. *&lt;AS VIII ID. IAN.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e147">
+               <head xml:id="azsw2e-d1e2231-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e2231-d1e151">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e153">Imperator
+            Alexander Severus</ref> Si maritus sororis tuae tibi procurans petere
+            bonorum possessionem noluit, cum ipso tibi congrediendum est. Quam
+            querellam ita cum effectu habes, si mandasse te, ut peteretur bonorum
+            possessio, eumque neglexisse arguas * ALEX. A. IULIANO. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e157">
+               <head xml:id="azsw2e-d1e2231-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e2231-d1e161">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e163">Imperator
+            Gordianus</ref> Si fideiussor pro reo patiente fidem suam adstrinxit,
+            mandati cum eo post exsolutam pecuniam vel factam condemnationem potest
+            exercere actionem. * GORD. A. AELIO SOSIBIO MIL. *&lt;A 238 PP. III
+            NON. SEPT. PIO ET PONTIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e167">
+               <head xml:id="azsw2e-d1e2231-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e2231-d1e171">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e173">Imperator
+            Gordianus</ref> Si litteras eius secutus, qui pecuniae auctor fuerat,
+            ei qui tibi litteras tradidit pecunias credidisti, tam adversus eum,
+            qui a te mutuam sumpsit, quam adversus eum, cuius mandatum secutus
+            es, mandati actio tibi competit. * GORD. A. AURELIANO MIL. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e177">
+               <head xml:id="azsw2e-d1e2231-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e2231-d1e181">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e183">Imperatores
+            Valerianus, Gallienus</ref> Si tibi pupillorum pater, ut pecuniam
+            in rem suam servis eius crederes, mandavit et in hanc rem aeque ipso
+            praecipiente pignora sunt obligata, et mandati actione pupillos post
+            mortem patris convenire et exsequi ius obligationis pignorum poteris,
+            si in solutione cessabitur. * VALER. ET GALLIEN. AA. ET VALER. NOB.
+            C. AURELIO LUCIO. *&lt;A 259 D. IIII K. IAN. AEMILIANO ET BASSO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e187">
+               <head xml:id="azsw2e-d1e2231-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e2231-d1e191">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Cum per procuratorem causam tuam laesam
+            esse dicas, mandati actio adversus eum tibi competit. * DIOCL. ET
+            MAXIM. AA. MARCELLO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e198">
+               <head xml:id="azsw2e-d1e2231-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e2231-d1e202">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> Si pro ea contra quam supplicas fideiussor
+            seu mandator intercessisti et neque condemnatus es neque bona eam
+            dilapidare postea coepisse comprobare possis, ut iustam metuendi causam
+            praebeat, neque ab initio ita te obligationem suscepisse, ut eam possis
+            et ante solutionem convenire, nulla iuris ratione, antequam satis
+            creditori pro ea feceris, eam ad solutionem urgueri certum est. Fideiussorem
+            vero seu mandatorem exceptione munitum et iniuria iudicis damnatum
+            et appellatione contra bonam fidem minime usum non posse mandati agere
+            manifestum est * DIOCL. ET MAXIM. AA. ET CC. AURELIO PAPIO. *&lt;A
+            293 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e208">
+               <head xml:id="azsw2e-d1e2231-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e2231-d1e212">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e214">Imperatores
+            Diocletianus, Maximianus</ref> Procuratorem non tantum pro his quae
+            gessit, sed etiam pro his quae gerenda suscepit, et tam propter exactam
+            ex mandato pecuniam quam non exactam, tam dolum quam culpam, sumptuum
+            ratione bona fide habita, praestare necesse est. * DIOCL. ET MAXIM.
+            AA. ET CC. AURELIO GAIO. *&lt;A 293 D.... K. IUN. SIRMI AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e218">
+               <head xml:id="azsw2e-d1e2231-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e2231-d1e222">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e224">Imperatores
+            Diocletianus, Maximianus</ref> Cum mandati negotii contractum certam
+            accepisse legem adseveres, eam integram secundum bonam fidem custodiri
+            convenit. Unde si contra mandati tenorem procurator tuus ad te pertinentem
+            fundum vendidit nec venditionem postea ratam habuisti, dominium tibi
+            auferre non potuit * DIOCL. ET MAXIM. AA. ET CC. FIRMO. *&lt;A 293
+            PP. XVII K. IUN. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e228">
+               <head xml:id="azsw2e-d1e2231-Hd1e230">13</head>
+               <p xml:id="azsw2e-d1e2231-d1e232">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e234">Imperatores
+            Diocletianus, Maximianus</ref> A procuratore dolum et omnem culpam,
+            non etiam improvisum casum praestandum esse iuris auctoritate manifeste
+            declaratur. * DIOCL. ET MAXIM. AA. ET CC. ZOSIMO. *&lt;A 294 D. K.
+            FEBR. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e238">
+               <head xml:id="azsw2e-d1e2231-Hd1e240">14</head>
+               <p xml:id="azsw2e-d1e2231-d1e242">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e244">Imperatores
+            Diocletianus, Maximianus</ref> Si secundum mandatum tryphonis ac felicis
+            equos tua pecunia comparatos vel in solutum a proprio debitore tibi
+            traditos uni de his utriusque voluntate dedisti, ad parendum placitis
+            eos mandati iudicio conventos bona fides urguet. * DIOCL. ET MAXIM.
+            AA. ET CC. HERMIANO. *&lt;A 294 D. VI K. APRIL. SIRMI CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e248">
+               <head xml:id="azsw2e-d1e2231-Hd1e250">15</head>
+               <p xml:id="azsw2e-d1e2231-d1e252">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e254">Imperatores
+            Diocletianus, Maximianus</ref> Mandatum re integra domini morte finitur.
+            * DIOCL. ET MAXIM. AA. ET CC. AURELIO PRECARIO ATHENAEO. *&lt;A 294
+            D. XVII K. MAI. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e259">
+               <head xml:id="azsw2e-d1e2231-Hd1e261">16</head>
+               <p xml:id="azsw2e-d1e2231-d1e263">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e265">Imperatores
+            Diocletianus, Maximianus</ref> Ad comparandas merces data pecunia,
+            qui mandatum suscepit, fide rupta quanti interest mandatoris tenetur.
+            * DIOCL. ET MAXIM. AA. ET CC. UZANDO. *&lt;A 294? III K. OCT.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e269">
+               <head xml:id="azsw2e-d1e2231-Hd1e271">17</head>
+               <p xml:id="azsw2e-d1e2231-d1e273">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e275">Imperatores
+            Diocletianus, Maximianus</ref> Salarium incertae pollicitationis peti
+            non potest. * DIOCL. ET MAXIM. AA. ET CC. AURELIO GORGONIO. *&lt;A
+            294? &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e279">
+               <head xml:id="azsw2e-d1e2231-Hd1e281">18</head>
+               <p xml:id="azsw2e-d1e2231-d1e283">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e285">Imperatores
+            Diocletianus, Maximianus</ref> Post solutionem a se factam, qui dari
+            mutuo mandavit, ab eo, pro quo intercessit , vel successoribus eius
+            quod solutum est etiam cum usuris post moram recte reddi postulat.
+            * DIOCL. ET MAXIM. AA. ET CC. TUSCIANO. *&lt;A 294? D. VII K. OCT.
+            SIRMI... CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e289">
+               <head xml:id="azsw2e-d1e2231-Hd1e291">19</head>
+               <p xml:id="azsw2e-d1e2231-d1e293">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e295">Imperatores
+            Diocletianus, Maximianus</ref> Pretii rerum distractarum, quas venales
+            mandato praecedente acceperas, ultra licitum usuras ex stipulatione
+            vel mora praestare, licet pignora data probentur, compelli non potes.
+            * DIOCL. ET MAXIM. AA. ET CC. AURELIO EUGENIO. *&lt;A 294? S. XIIII
+            K. NOV. SIRMI ... CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e299">
+               <head xml:id="azsw2e-d1e2231-Hd1e301">20</head>
+               <p xml:id="azsw2e-d1e2231-d1e303">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e305">Imperatores
+            Diocletianus, Maximianus</ref>  Si contra licitum litis incertum redemisti,
+            interdictae conventionis tibi fidem impleri frustra petis. </p>
+               <p xml:id="azsw2e-d1e2231-d1e308" n="1">
+            Quod si gratuitum mandatum suscepisti, secundum bonam fidem
+            sumptus recte postulas. * DIOCL. ET MAXIM. AA. ET CC. AURELIO EPAGATHO.
+            *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e312">
+               <head xml:id="azsw2e-d1e2231-Hd1e314">21</head>
+               <p xml:id="azsw2e-d1e2231-d1e316">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e318">Imperator
+            Constantinus</ref> In re mandata non pecuniae solum, cuius est certissimum
+            mandati iudicium, verum etiam existimationis periculum est. Nam suae
+            quidem quisque rei moderator atque arbiter non omnia negotia, sed
+            pleraque ex proprio animo facit: aliena vero negotia exacto officio
+            geruntur nec quicquam in eorum administratione neglectum ac declinatum
+            culpa vacuum est * CONST. A. VOLUSIANO PP. *&lt;A 313 - 315? &gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e323">
+               <head xml:id="azsw2e-d1e2231-Hd1e325">22</head>
+               <p xml:id="azsw2e-d1e2231-d1e327">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e329">Imperator
+            Anastasius</ref>  Per diversas interpellationes ad nos factas comperimus
+            quosdam alienis rebus fortunisque inhiantes cessiones aliis competentium
+            actionum in semet exponi properare hocque modo diversas personas litigiorum,
+            vexationibus adficere, cum certum sit pro indubitatis obligationibus
+            eos magis, quibus antea suppetebant, sua vindicare quam ad alios ea
+            transferre velle. </p>
+               <p xml:id="azsw2e-d1e2231-d1e332" n="1">
+            Per hanc itaque legem iubemus in posterum huiusmodi conamen
+            inhiberi ( nec enim dubium est redemptores litium alienarum videri
+            eos esse, qui tales cessiones in se confici cupiunt), ita tamen, ut,
+            si quis datis pecuniis huiusmodi subierit cessionem, usque ad ipsam
+            tantummodo solutarum pecuniarum quantitatem et usurarum eius actiones
+            exercere permittatur, licet instrumento cessionis venditionis nomen
+            insertum sit: </p>
+               <p xml:id="azsw2e-d1e2231-d1e335" n="2">
+            Exceptis scilicet cessionibus, quas inter coheredes pro actionibus
+            hereditariis fieri contingit, et his, quascumque vel creditor vel
+            is qui res aliquas possidet pro debito seu rerum apud se constitutarum
+            munimine ac tuitione acceperit, nec non his, quas in legatarios seu
+            fideicommissarios, quibus debita vel actiones seu res aliae relictae
+            sunt, pro his fieri necesse sit: nulla etenim tali ratione intercedente
+            redemptor, sicuti superius declaratum est, magis existit, qui alienas
+            pecuniis praestitis subiit actiones. </p>
+               <p xml:id="azsw2e-d1e2231-d1e338" n="3">
+            Sin autem per donationem cessio facta est, sciant omnes huiusmodi
+            legi locum non esse, sed antiqua iura esse servanda, ut cessiones
+            tam pro exceptis et specialiter enumeratis quam aliis causis factae
+            seu faciendae secundum actionum, quaecumque cessae sunt vel fuerint,
+            tenorem sine quadam imminutione obtineant. * ANASTAS. A. EUSTATHIO
+            PP. *&lt;A 506 D. X K. AUG. AREOVINDA ET MESSALA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e342">
+               <head xml:id="azsw2e-d1e2231-Hd1e344">23</head>
+               <p xml:id="azsw2e-d1e2231-d1e346">
+                  <ref xml:id="azsw2e-d1e2231-Rd1e348">Imperator
+            Justinianus</ref>  Anastasio divae memoriae principi iustissima constitutio
+            conscripta est tam humanitatis quam benivolentiae plena, ut ne quis
+            alienum subeat debitum cessione in eum facta et amplius consequatur
+            a debitore his, quae praestavit cessionis auctori, exceptis quibusdam
+            casibus, qui specialiter illi sanctioni continentur. Sed cum hi, qui
+            circa lites morantur, eandem piam dispositionem in sua natura remanere
+            minime concesserunt, invenientes machinationem, ut partem quidem debiti
+            venditionis titulo transferant in alium creditores, reliquam autem
+            partem per coloratam cedant donationem, generaliter anastasiane constitutioni
+            subvenientes sancimus nulli licere partem quidem debiti cedere pecuniis
+            acceptis et venditione actionum habita, partem autem donationis titulo
+            videri transferre, sed, si voluerit, pure totum debitum donare et
+            per donationem actiones transferre, non o cculte nec per artes clandestinas
+            pecunias suscipere, publice autem simulatam donationem celebrare,
+            sed undique puram et non dissimulatam facere donationem: huiusmodi
+            enim cessionibus non adversamur</p>
+               <p xml:id="azsw2e-d1e2231-d1e351" n="1">
+            Si quis autem occulte aliud quidem agere conatur et pecunias
+            pro parte accepit et vendidit particulatim actiones, partem autem
+            donare simulat vel ipsi, qui emptionem actionis subiit, vel forsitan
+            alii per suppositam personam ( quia et hoc saepius perpetratum esse
+            didicimus), huiusmodi machinationem penitus amputamus, ut nihil amplius
+            accipiat, quam ipse vero contractu re ipsa persolvit: sed omne, quod
+            superfluum est et per figuratam donationem translatum, inutile esse
+            ex utraque parte censemus, ut neque ei qui cedit actiones neque ei
+            qui eas suscipere curavit aliquid lucri vel fieri vel remanere vel
+            aliquam contra debitorem vel res ad eum pertinentes esse utrique eorum
+            actionem. </p>
+               <p xml:id="azsw2e-d1e2231-d1e354" n="2">
+            Sed et si quis donationem quidem omnis debiti facere adsimulaverit,
+            ut videatur esse tota donatio, aliquid autem occulte susceperit, et
+            in hoc casu hoc tantummodo exactionem sortiri, quod datum esse comprobetur,
+            et si hoc a debitore persolvatur, nulla contra eum vel substantiam
+            eius ex dissimulata donatione oriatur molestia. </p>
+               <p xml:id="azsw2e-d1e2231-d1e357" n="3">
+            Et iustum quidem fuerat hoc remedium debitoribus ab anastasianis
+            temporibus impertiri, ex quibus etiam lex lata est, quam homines astute
+            lacerandam esse existimaverunt. sed ne videamur in tanta temporum
+            nostrorum benivolentia aliquid acerbius admittere, in futuris post
+            praesentem legem casibus haec observari censemus, ut omne, quod contra
+            legem anastasianam excogitatum est, hoc in posterum nostro perfruatur
+            remedio. * IUST. A. IOHANNI PP. *&lt;A 531 - 532 &gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e2231-Dd1e361">
+               <head xml:id="azsw2e-d1e2231-Hd1e363">24</head>
+               <p xml:id="azsw2e-d1e2231-d1e365"><!-- greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

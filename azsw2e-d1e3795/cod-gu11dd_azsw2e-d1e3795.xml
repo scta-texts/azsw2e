@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 33</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 33</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3795"><!-- azsw2e-l6t33 -->
+            <head xml:id="azsw2e-d1e3795-Hd1e101">Titulus 33</head>
+            <head xml:id="azsw2e-d1e3795-Hd1e103" type="question-title">De edicto divi hadriani tollendo et quemadmodum scriptus heres in
+            possessionem mittatur</head>
+            <div xml:id="azsw2e-d1e3795-Dd1e106">
+               <head xml:id="azsw2e-d1e3795-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3795-d1e110">
+                  <ref xml:id="azsw2e-d1e3795-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Cum inter institutum et substitutum controversia
+            moveatur, eum, qui primo loco institutus est, induci in possessionem
+            oportet. * SEV. ET ANT. AA. LUCILLO. *&lt;A 196 PP. XII K. DEC. DEXTRO
+            ET PRISCO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3795-Dd1e116">
+               <head xml:id="azsw2e-d1e3795-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3795-d1e120">
+                  <ref xml:id="azsw2e-d1e3795-Rd1e122">Imperator
+            Alexander Severus</ref> Quamvis quis se filium defuncti praeteritum
+            esse adleget aut falsum vel inofficiosum testamentum seu alio vitio
+            subiectum vel servus defunctus esse dicatur, tamen scriptus heres
+            in possessionem mitti solet. * ALEX. A. EUTACTO. *&lt;A 223 PP. VI
+            K. NOV. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3795-Dd1e126">
+               <head xml:id="azsw2e-d1e3795-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3795-d1e130">
+                  <ref xml:id="azsw2e-d1e3795-Rd1e132">Imperator
+            Justinianus</ref>  Edicto divi Hadriani, quod sub occasione vicesimae
+            hereditatum introductum est, cum multis ambagibus et difficultatibus
+            et indiscretis narrationibus penitus quiescente, quia et vicesima
+            hereditatis a nostra recessit re publica, antiquatis nihilo minus
+            et aliis omnibus, quae circa repletionem vel interpretationem eiusdem
+            edicti promulgata sunt, sancimus, ut, si quis ex asse vel ex parte
+            competenti iudici testamentum ostenderit non cancellatum neque abolitum
+            neque ex quacumque suae formae parte vitiatum, sed quod prima figura
+            sine omni vituperatione appareat et depositionibus testium legitimi
+            numeri vallatum sit, mittatur quidem in possessionem earum rerum,
+            quae testatoris mortis tempore fuerunt, non autem legitimo modo ab
+            alio detinentur, et eam cum testificatione publicarum personarum accipiat.
+            </p>
+               <p xml:id="azsw2e-d1e3795-d1e135" n="1">
+            Sin autem aliquis contradictor extiterit, tunc in iudicio
+            competenti causae in possessionem missionis et subsecutae contradictionis
+            ventilentur et ei possessio adquiratur, qui potiora ex legitimis modis
+            iura ostenderit, sive qui missus est qui antea detinens contradicendum
+            putavit. </p>
+               <p xml:id="azsw2e-d1e3795-d1e138" n="2">
+            Nullis angustiis temporum huiusmodi missione coartanda, sed
+            sive tardius sive praemature aliquis missus est, legis tantummodo
+            arbitrium requiratur et causa, unde vel missio vel contradictio exoritur.
+            </p>
+               <p xml:id="azsw2e-d1e3795-d1e141" n="3">
+            Sive enim post annale tempus sive post maioris aeui curricula
+            aliquis fuerit missus, si tantum ex legitime formato testamento missio
+            procedat, nullum ei temporis obiciatur obstaculum, nisi tantum temporis
+            effluxerit, quod possit vel possessori plenissime securitatem et super
+            dominio praestare, vel ipsi qui missus est omnem intentionem excludere.
+            </p>
+               <p xml:id="azsw2e-d1e3795-d1e145" n="4">
+            Si enim vel ex una parte vel ex utroque latere temporis prolixitas
+            occurrit, manifestissimum est non solum missionem, sed etiam ipsam
+            principalem causam esse sopitam. * IUST. A. IULIANO PP. *&lt;A A.
+            531 D. XII K. APRIL. CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTIS
+            VV. CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

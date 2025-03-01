@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 2</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 2</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5632"><!-- azsw2e-l9t2 -->
+            <head xml:id="azsw2e-d1e5632-Hd1e101">Titulus 2</head>
+            <head xml:id="azsw2e-d1e5632-Hd1e103" type="question-title">De accusationibus et inscriptionibus</head>
+            <div xml:id="azsw2e-d1e5632-Dd1e106">
+               <head xml:id="azsw2e-d1e5632-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5632-d1e110">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e112">Imperator
+            Alexander Severus</ref> Eos qui terminos effoderunt extraordinaria
+            animadversione coerceri debere praeses provinciae non ignorabit. *
+            ALEX. A. MARCIANO. *&lt;A 222 PP.III K.AUG.ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e116">
+               <head xml:id="azsw2e-d1e5632-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5632-d1e120">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e122">Imperator
+            Alexander Severus</ref>  Si cuiusdam criminis obnoxius servus
+            postulatur, dominus eum defendere potest et in iudicio sistere accusatoris
+            intentionibus responsurum. </p>
+               <p xml:id="azsw2e-d1e5632-d1e125" n="1">
+            Post probationes autem criminis non ipse dominus, sed servus
+            pro suo delicto condemnationem sustineat. Ideo enim servum suum domino
+            defendere permissum est, ut pro eo possit competentes adlegationes
+            offerre. * ALEX. A. SYRO. *&lt;A 222 PP.XI K.DEC.ALEXANDRO A. CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e129">
+               <head xml:id="azsw2e-d1e5632-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e5632-d1e133">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e135">Imperator
+            Alexander Severus</ref> Reos capitalium criminum
+            absentes etiam per procuratorem defendi leges publicorum iudiciorum
+            permittunt. * ALEX. A. STEPHANIDI. *&lt;A 223 PP.IIII NON.NOV.MAXIMO
+            II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e140">
+               <head xml:id="azsw2e-d1e5632-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e5632-d1e144">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e146">Imperator
+            Gordianus</ref> Si accusatoribus absentibus et non per contumaciam
+            adesse iudicio cessantibus ex una postulatione aditus praeses provinciae
+            non causa cognita sententiam dixit, qua eum de quo querimoniam detulisti
+            liberandum existimavit, criminatione etiam nunc perseverante, quae
+            contumacia vel cessatione accusatorum non interveniente auferri non
+            potuit, causa intentati criminis apud eundem vel successorem eius
+            more iudiciorum tractabitur. * GORD. A. ARCHELAO.
+            *&lt;A 241 PP.NON.MART.GORDIANO A. II ET POMPEIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e150">
+               <head xml:id="azsw2e-d1e5632-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e5632-d1e154">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e156">Imperator
+            Gordianus</ref> Non ideo minus crimine seu atrociorum iniuriarum iudicio
+            tenetur is qui in istam accusationem incidit, quod dicat alium se
+            huius facti mandatorem habuisse. Namque hoc casu praeter principalem
+            reum mandatorem quoque ex sua persona conveniri posse ignotum non
+            est * GORD. A. PAULINO. *&lt;A 241 PP.III ID.SEPT.GORDIANO A.II ET
+            POMPEIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e160">
+               <head xml:id="azsw2e-d1e5632-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e5632-d1e164">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e166">Imperator
+            Gordianus</ref>  Absentem capitali crimine accusari non posse, sed
+            requirendum tantummodo adnotari solere, si desit, vetus ius est. </p>
+               <p xml:id="azsw2e-d1e5632-d1e169" n="1">
+            Et ideo cum absentem te et ignorantem, cui numquam ullum
+            crimen denuntiatum esset, per iniuriam a praeside provinciae in metallum
+            datum dicas, quo magis in praesenti te agente, ut adseveras, iam nunc
+            fides veri possit illuminari, praefectos praetorio adire cura, qui,
+            quidquid novo more et contra formam constitutionum gestum deprehenderint,
+            pro sua iustitia reformabunt. * GORD. A. AVIDIANO. *&lt;A 243 PP.IIII
+            NON. APRIL.ARRIANO ET PAPO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e173">
+               <head xml:id="azsw2e-d1e5632-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e5632-d1e177">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e179">Imperator
+            Gordianus</ref> Ea quidem, quae per officium praesidibus nuntiantur,
+            et citra sollemnia accusationum posse perpendi incognitum non est.
+            Verum falsis nec ne notoriis insimulatus sit, perpenso iudicio dispici
+            debet * GORD. A. PROCULO. *&lt;A 244 PP.VIII ID.IAN.PEREGRINO ET AEMILIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e183">
+               <head xml:id="azsw2e-d1e5632-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e5632-d1e187">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e189">Imperatores
+            Diocletianus, Maximianus</ref> Si quis se iniuriam ab aliquo passum
+            putaverit et querellam deferre voluerit, non ad stationarios decurrat,
+            sed praesidalem, adeat potestatem aut libellos offerens aut querellas
+            suas apud acta deponens. * DIOCL. ET MAXIM. AA. EXEMPL. SACR. LITT.*&lt;A
+            XXX PP. SINE DIE ET CONSULE.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e193">
+               <head xml:id="azsw2e-d1e5632-Hd1e195">9</head>
+               <p xml:id="azsw2e-d1e5632-d1e197">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e199">Imperatores
+            Diocletianus, Maximianus</ref>  Qui de crimine publico in accusationem
+            deductus est, ab alio super eodem crimine deferri non potest. </p>
+               <p xml:id="azsw2e-d1e5632-d1e202" n="1">
+            Si tamen ex eodem facto plurima crimina nascuntur et de uno
+            crimine in accusationem fuerit deductus, de altero non prohibetur
+            ab alio deferri. </p>
+               <p xml:id="azsw2e-d1e5632-d1e205" n="2">
+            Iudex autem super utroque crimine audientiam accommodabit:
+            nec enim licebit ei separatim de uno crimine sententiam proferre,
+            priusquam plenissima examinatio super altero quoque crimine fiet.
+            * DIOCL. ET MAXIM. AA. HONORATO. *&lt;A 289 PP. XIIII K. SEPT. BASSO ET QUINTIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e210">
+               <head xml:id="azsw2e-d1e5632-Hd1e212">10</head>
+               <p xml:id="azsw2e-d1e5632-d1e214">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e216">Imperatores
+            Diocletianus, Maximianus</ref> Qui explicandi negotii spem, cuius
+            finis in iudicis potestate ac motu situs est, pollicetur, non minus
+            ob illicitam sponsionem crimen contrahit, quam qui ad huiusmodi promissionis
+            commercium contra disciplinam publicam adspirat. * DIOCL. ET MAXIM.
+            AA. URSAE. *&lt;A 290 PP.III K.NOV.IPSIS IIII ET III AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e220">
+               <head xml:id="azsw2e-d1e5632-Hd1e222">11</head>
+               <p xml:id="azsw2e-d1e5632-d1e224">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e226">Imperatores
+            Diocletianus, Maximianus</ref> Si quis homicidii crimen existimat
+            persequendum, secundum iuris publici formam debebit eum, qui in primordio
+            homicidii postulaverat reum neque probaverat ideoque reus absolutus
+            est, praevaricationis arguere: id enim salubriter statutis principum
+            parentum nostrorum iurisque forma praescriptum est: vel si id non
+            putaverit agendum, ad sequens crimen, id est pastorum latronumve,
+            descendere eum coges atque id exsequi iudicio tuo, cum, si quidem
+            id ab incusato appareat esse commissum, ob ultionem publicam obnoxius
+            legibus fiat. * DIOCL. ET MAXIM. AA. HAVE CRISPINE CARISS. NOBIS.*&lt;A
+            292 D.III ID.APRIL.HANNIBALIANO ET ASCLEPIODOTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e230">
+               <head xml:id="azsw2e-d1e5632-Hd1e232">12</head>
+               <p xml:id="azsw2e-d1e5632-d1e234">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e236">Imperatores
+            Diocletianus, Maximianus</ref> Factum sponte se praecipitantis innocenti
+            criminis periculum adferre non potest. * DIOCL. ET MAXIM. AA. ET CC.
+            AURELIO. *&lt;A 293 S.XIIII K.IUN.SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e240">
+               <head xml:id="azsw2e-d1e5632-Hd1e242">13</head>
+               <p xml:id="azsw2e-d1e5632-d1e244">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e246">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Si quis servos crediderit
+            accusandos, non prius ad corporum tormenta veniatur, quam se vinculo
+            subscriptionis adstrinxerit. * GRAT. VALENTIN. ET THEODOS. AAA. MARINIANO
+            VIC. HISPANIAE.*&lt;A 383 D.VI K.IUN.PATAVI MEROBAUDE ITERUM ET SATURNINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e250">
+               <head xml:id="azsw2e-d1e5632-Hd1e252">14</head>
+               <p xml:id="azsw2e-d1e5632-d1e254">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e256">Imperatores
+            Gratianus, Valentinianus, Theodosius, Arcadius</ref> Singuli universique
+            iudices cognoscant in publicis criminibus non oportere emendicatis
+            suffragiis decretorum aut relationibus a publicis personis destinandis
+            credere, sed rei veritatem requirere. * GRAT. VALENTIN. ET THEODOS.
+            ET ARCAD. A. CYNEGIO PP. *&lt;A 385 D.PRID.K.MAI.CONSTANTINOPOLI ARCADIO
+            A. ET BAUTONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e260">
+               <head xml:id="azsw2e-d1e5632-Hd1e262">15</head>
+               <p xml:id="azsw2e-d1e5632-d1e264">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e266">Imperatores
+            Gratianus, Valentinianus, Theodosius, Arcadius</ref> Tunc convenit
+            potentiores viros adesse iudiciis, cum eorum praesentiam in criminibus
+            publicis per inscriptionem causa deposcat, licet in pecuniariis causis
+            per procuratores lites sustineant. * GRAT. VALENTIN. THEODOS. ET ARCAD.
+            AAAA. TATIANO PP. *&lt;A 390 D.XV K.MART.MEDIOLANI VALENTINIANO A.IIII
+            ET NEOTERIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e271">
+               <head xml:id="azsw2e-d1e5632-Hd1e273">16</head>
+               <p xml:id="azsw2e-d1e5632-d1e275">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e277">Imperatores
+            Arcadius, Honorius</ref>  In causis criminalibus dignum est,
+            ut inscriptiones proponantur, quae magnitudinem videlicet criminis
+            tempusque designant, ut alterutram partem digna legum tenere possit
+            auctoritas. </p>
+               <p xml:id="azsw2e-d1e5632-d1e280" n="1">
+            Quod statutum si fuerit forte contemptum, hi qui ex officio
+            ingrediuntur secretarium quinque librarum auri condemnatione ferientur.
+            * ARCAD. ET HONOR. AA. PASIPHILO. *&lt;A 395 D.VIII K.IAN.MEDIOLANI
+            OLYBRIO ET PROBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5632-Dd1e284">
+               <head xml:id="azsw2e-d1e5632-Hd1e286">17</head>
+               <p xml:id="azsw2e-d1e5632-d1e288">
+                  <ref xml:id="azsw2e-d1e5632-Rd1e290">Imperatores
+            Honorius, Theodosius</ref>  In causis criminalibus dignum est,
+            ut inscriptiones proponantur, quae magnitudinem videlicet criminis
+            tempusque designant, ut alterutram partem digna legum tenere possit
+            auctoritas. </p>
+               <p xml:id="azsw2e-d1e5632-d1e293" n="1">
+            Nemo tamen sibi blandiatur obiectu cuiuslibet criminis de
+            se in quaestione confessus, veniam sperans propter flagitia adiuncti,
+            vel communione criminis consortium personae superioris optans, aut
+            inimici supplicio in ipsa supremorum suorum sorte sociandus, aut eripi
+            se posse confidens aut studio aut privilegio nominati, cum veteris
+            iuris auctoritas de se confessos ne interrogari quidem de aliorum
+            conscientia sinat. Nemo igitur de proprio crimine confitentem super
+            conscientia scrutetur aliena.* HONOR. ET THEODOS. AA. CONSS.
+            PRAETORIBUS TRIBUNIS PLEBIS SENATUI S.D.*&lt;A 423 D.VIII ID. AUG.
+            RAVENNAE ASCLEPIODOTO ET MARINIANO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 32</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 32</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2197"><!-- azsw2e-l4t32 -->
+            <head xml:id="azsw2e-d1e2197-Hd1e101">Titulus 32</head>
+            <head xml:id="azsw2e-d1e2197-Hd1e103" type="question-title">De usuris</head>
+            <div xml:id="azsw2e-d1e2197-Dd1e106">
+               <head xml:id="azsw2e-d1e2197-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2197-d1e110">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e112">Imperator
+            pius</ref> Si interrogatione praecedente promissio usurarum recte
+            facta probetur, licet instrumento conscripta non sit, tamen iure optimo
+            debentur. * P. A. AURELIO EVOCATO. *&lt; SINE DIE ET CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e116">
+               <head xml:id="azsw2e-d1e2197-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2197-d1e120">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Usuras emptor, cui possessio rei tradita
+            est, si pretium venditori non obtulerit , quamvis pecuniam obsignatam
+            in depositi causa habuerit, aequitatis ratione praestare cogitur.
+            * SEV. ET ANT. AA. LUCIO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e126">
+               <head xml:id="azsw2e-d1e2197-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2197-d1e130">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e132">Imperatores
+            Severus, Antoninus</ref> Quamvis usurae fenebris pecuniae citra vinculum
+            stipulationis peti non possunt, tamen ex pacti conventione solutae
+            neque ut indebitae repetuntur neque in sortem accepto ferendae sunt.
+            * SEV. ET ANT. AA. IULIANO SERPIO. *&lt;A 200 PP. V K. OCT. SEVERO
+            A. II ET VICTORINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e137">
+               <head xml:id="azsw2e-d1e2197-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2197-d1e141">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e143">Imperatores
+            Severus, Antoninus</ref>  Per retentionem pignoris usuras servari posse,
+            de quibus praestandis convenit, licet stipulatio interposita non sit,
+            merito constitutum est et rationem habet, cum pignora condicione pacti
+            etiam usuris obstricta sint. </p>
+               <p xml:id="azsw2e-d1e2197-d1e146" n="1">
+            Sed enim in causa de qua agis haec ratio cessat, si quidem
+            tempore contractus de minoribus usuris petendis convenit, postea autem,
+            cum se debitor praestaturum maiores repromisit, non potest videri
+            rata retentio pignoris, quando eo tempore, quo instrumenta emittebantur,
+            non convenerit, ut pignus etiam ad hanc adiectionem teneatur. * SEV.
+            ET ANT. AA. APRONIAE HONORATAE. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e150">
+               <head xml:id="azsw2e-d1e2197-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e2197-d1e154">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e156">Imperatores
+            Severus, Antoninus</ref> Adversus creditorem usuras maiores ex stipulatu
+            petentem, si probetur per certos annos minores postea consecutus,
+            utilis est pacti exceptio. Secundum quod tueri causam potestis etiam
+            adversus defensores civitatis maiores petentes ex cautione, si probaveritis
+            semper quincunces amitam pupillorum vestrorum, quae maiores caverat,
+            rependisse * SEV. ET ANT. AA. ULTUMIO SABINO ET ALIIS. *&lt;A 205
+            D. NON. IUL. GETA CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e160">
+               <head xml:id="azsw2e-d1e2197-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e2197-d1e164">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e166">Imperator
+            Antoninus</ref> Si creditrici, quae ex causa pignoris obligatam sibi
+            rem tenet, pecuniam debitam cum usuris testibus praesentibus obtulisti
+            eaque non accipiente obsignatam eam deposuisti, usuras ex eo tempore
+            quo obtulisti praestare non cogeris. Absente vero creditrice praesidem
+            super hoc interpellare debueras * ANT. A. ANTIGONO MIL. *&lt;A 212
+            PP. III ID. FEBR. DUOBUS ASPRIS CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e170">
+               <head xml:id="azsw2e-d1e2197-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e2197-d1e174">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e176">Imperator
+            Antoninus</ref> Creditor instrumentis suis probare debet quae intendit
+            et usuras se stipulatum, si potest. Nec enim, si aliquando ex consensu
+            praestitae sunt, obligationem constituunt * ANT. A. DOMITIO ARISTAEO.
+            *&lt;A 215 PP. IIII NON. OCT. ROMAE LAETO ET CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e180">
+               <head xml:id="azsw2e-d1e2197-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e2197-d1e184">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e186">Imperator
+            Antoninus</ref> Quamvis bassa, cum pecuniam mutuam acciperet, minores
+            usuras menophano spoponderit et, nisi intra certum tempus eas solvisset,
+            ampliores ( licitas tamen) promiserit, si post tempus cautioni praefinitum
+            creditor easdem accepit nec maiores dari sibi postulavit ac per hoc
+            non recessisse a minorum praestatione eum probari potest, eas usuras
+            computari oportet, quarum in exactione creditor perseveravit. * ANT.
+            A. CLAUDIO DORYPHORO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e190">
+               <head xml:id="azsw2e-d1e2197-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e2197-d1e194">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e196">Imperator
+            Antoninus</ref> Si per te non stetit quominus intra tempora praefinita
+            pecuniam minorum usurarum solveres, sed per tutores filiorum creditoris,
+            qui eam accipere noluerunt, idque apud iudicem datum probaveris, eius
+            temporis, quo per te non stetisse apparuerit, usurae maiores non exigentur.
+            Quod si etiam sortem deposuisti, exinde, ex quo id factum apparuerit,
+            in usuras non convenieris * ANT. A. CANIO PROBO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e201">
+               <head xml:id="azsw2e-d1e2197-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e2197-d1e205">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e207">Imperator
+            Antoninus</ref> Usurae per tempora solutae non proficiunt ad dupli
+            computationem. Tunc enim ultra sortis summam usurae non exiguntur,
+            quotiens tempore solutionis summa usurarum excedit eam computationem
+            * ANT. A. CRATO ET DONATO MIL. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e211">
+               <head xml:id="azsw2e-d1e2197-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e2197-d1e215">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e217">Imperator
+            Alexander Severus</ref> Frumenti vel hordei mutuo dati accessio etiam
+            ex nudo pacto praestanda est. * ALEX. A. AURELIO TYRANNO. *&lt;A 223
+            PP. K. MAI. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e221">
+               <head xml:id="azsw2e-d1e2197-Hd1e223">12</head>
+               <p xml:id="azsw2e-d1e2197-d1e225">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e227">Imperator
+            Alexander Severus</ref> Ex praedio pignori obligato creditor post
+            oblatam iure sibi pecuniam, quam non suscepit, si fructum accepit,
+            exonerari sortis debitum certum est. * ALEX. A. POPILIO. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e231">
+               <head xml:id="azsw2e-d1e2197-Hd1e233">13</head>
+               <p xml:id="azsw2e-d1e2197-d1e235">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e237">Imperator
+            Alexander Severus</ref> In bonae fidei iudiciis, quale est etiam negotiorum
+            gestorum, usurarum rationem haberi certum est. Sed si finitum est
+            iudicium sententia, quamvis minoris condemnatio facta est non adiectis
+            usuris, nec provocatio secuta est, finita retractanda non sunt: nec
+            eius temporis, quod post rem iudicatam fluxit, usurae ullo iure postulantur
+            nisi ex causa iudicati * ALEX. A. EUSTATHIAE ET ALIIS. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e241">
+               <head xml:id="azsw2e-d1e2197-Hd1e243">14</head>
+               <p xml:id="azsw2e-d1e2197-d1e245">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e247">Imperator
+            Alexander Severus</ref> Si ea pactione uxor tua mutuam pecuniam dedit,
+            ut vice usurarum inhabitaret, pactoque ita ut convenit usa est, non
+            etiam locando domum pensionem redegit, referri quaestionem, quasi
+            plus domus redigeret, si locaretur, quam usurarum legitimarum ratio
+            colligit, minime oportet. Licet enim uberiore sorte potuerit contrahi
+            locatio, non ideo tamen illicitum fenus esse contractum, sed vilius
+            conducta habitatio videtur * ALEX. A. AURELIO ARCASIANI. *&lt;A 234
+            D. XI K. MAI. MAXIMO ET URBANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e251">
+               <head xml:id="azsw2e-d1e2197-Hd1e253">15</head>
+               <p xml:id="azsw2e-d1e2197-d1e255">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e257">Imperator
+            Gordianus</ref> Cum adleges uxorem tuam ea condicione mille aureorum
+            numero quantitatem sumpsisse, ut, si intra diem certum debito satis
+            non fecisset, cum poena quadrupli redderet quod accepit, iuris forma
+            non patitur legem contractus istius ultra poenam legitimarum usurarum
+            posse procedere. * GORD. A. CLAUDIO PORTORIO. *&lt;A 242 D. NON. M.
+            ATTICO ET PRAETEXTATO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e262">
+               <head xml:id="azsw2e-d1e2197-Hd1e264">16</head>
+               <p xml:id="azsw2e-d1e2197-d1e266">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e268">Imperator
+            Gordianus</ref> Cum non frumentum, sed pecuniam fenori te accepisse
+            adleges, ut certa modiatio tritici praestaretur, ac, nisi is modus
+            sua die fuisset oblatus, mensurarum additamentis in fraudem usurarum
+            legitimarum gravatum te esse contendis, potes adversus improbam petitionem
+            competente uti defensione. * GORD. A. FLAVIO SULPICIO. *&lt;PP.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e272">
+               <head xml:id="azsw2e-d1e2197-Hd1e274">17</head>
+               <p xml:id="azsw2e-d1e2197-d1e276">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e278">Imperator
+            Philippus</ref> Si ea lege possessionem mater tua apud creditorem
+            tuum obligavit, ut fructus in vicem usurarum consequeretur, obtentu
+            maioris percepti emolumenti propter incertum fructuum eventum rescindi
+            placita non possunt. * PHILIPP. A. ET PHILIPP. C. AURELIO EUXENO.
+            *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e282">
+               <head xml:id="azsw2e-d1e2197-Hd1e284">18</head>
+               <p xml:id="azsw2e-d1e2197-d1e286">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e288">Imperatores
+            Diocletianus, Maximianus</ref> Indebitas usuras, etiam si ante sortem
+            solutae non fuerint ac propterea minuere eam non potuerint, licet
+            post sortem redditam creditori fuerint datae, exclusa iuris varietate
+            repeti posse pensa ratione firmatum est. * DIOCL. ET MAXIM. AA. ET
+            CC. AURELIO CASTORI. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e292">
+               <head xml:id="azsw2e-d1e2197-Hd1e294">19</head>
+               <p xml:id="azsw2e-d1e2197-d1e296">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e298">Imperatores
+            Diocletianus, Maximianus</ref>  Acceptam mutuo sortem cum usuris licitis
+            creditori post testationem offer ac, si non suscipiat, consignatam
+            in publico depone, ut cursus usurarum legitimarum inhibeatur. </p>
+               <p xml:id="azsw2e-d1e2197-d1e301" n="1">
+            In hoc autem casu publicum intellegi oportet vel sacratissimas
+            aedes vel ubi competens iudex super ea re aditus deponi eas disposuerit.
+            </p>
+               <p xml:id="azsw2e-d1e2197-d1e304" n="2">
+            Quo subsecuto etiam periculo debitor liberabitur et ius pignorum
+            tollitur, cum serviana etiam actio manifeste declarat pignoris inhiberi
+            persecutionem vel solutis pecuniis vel si per creditorem steterit,
+            quominus solvatur. </p>
+               <p xml:id="azsw2e-d1e2197-d1e307" n="3">
+            Quod etiam in traiecticiis servari oportet. </p>
+               <p xml:id="azsw2e-d1e2197-d1e311" n="4">
+            Creditori scilicet actione utili ad exactionem earum non
+            adversus debitorem, nisi forte eas receperit, sed vel contra depositarium
+            vel ipsas competente pecunias. * DIOCL. ET MAXIM. AA. ET CC. AURELIAE
+            IRENAEAE. *&lt;&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e315">
+               <head xml:id="azsw2e-d1e2197-Hd1e317">20</head>
+               <p xml:id="azsw2e-d1e2197-d1e319">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e321">Imperatores
+            Diocletianus, Maximianus</ref> Constitutionibus sacris, quae ultra
+            certum modum usuras fenebris exigi pecuniae prohibent, mandatoribus
+            etiam vel fideiussoribus subventum est: quibus quasi mandator vel
+            fideiussor conventus uti potes. * DIOCL. ET MAXIM. AA. ET CC. AELIO
+            NICOPOLITANO. *&lt;ASUB DIE... &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e325">
+               <head xml:id="azsw2e-d1e2197-Hd1e327">21</head>
+               <p xml:id="azsw2e-d1e2197-d1e329">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e331">Imperatores
+            Diocletianus, Maximianus</ref> Si usuras praestari pignore dato convenerat
+            et in continenti numeratione facta, postea vel ante, propter quod
+            debitum solutionem feceras, non designasti, habuit creditor in usuras
+            tibi accepto ferendae solutae quantitatis facultatem. * DIOCL. ET
+            MAXIM. AA. ET CC. CHRESIMONI. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e336">
+               <head xml:id="azsw2e-d1e2197-Hd1e338">22</head>
+               <p xml:id="azsw2e-d1e2197-d1e340">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e342">Imperatores
+            Diocletianus, Maximianus</ref> Pignoribus quidem intervenientibus
+            usurae, quae sine stipulatione peti non poterant, pacto retineri possunt.
+            Verum hoc iure constituto, cum huiusmodi nullo interposito pacto tantum
+            certae summae poenam praestari convenisse proponas, nec peti nec retineri
+            quicquam amplius et ad pignoris solutionem urgueri te disciplina iuris
+            perspicis * DIOCL. ET MAXIM. AA. ET CC. COMINIO CARINO. *&lt;PP. ID.
+            IUL. IPSIS... CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e346">
+               <head xml:id="azsw2e-d1e2197-Hd1e348">23</head>
+               <p xml:id="azsw2e-d1e2197-d1e350">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e352">Imperatores
+            Diocletianus, Maximianus</ref> Oleo quidem vel quibuscumque fructibus
+            mutuo datis incerti pretii ratio additamenta usurarum eiusdem materiae
+            suasit admitti. * DIOCL. ET MAXIM. AA. ET CC. IASONI. *&lt;A 294 D.
+            III K. OCT. VIMINACI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e356">
+               <head xml:id="azsw2e-d1e2197-Hd1e358">24</head>
+               <p xml:id="azsw2e-d1e2197-d1e360">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e362">Imperatores
+            Diocletianus, Maximianus</ref> Si mater tua maior annis constituta
+            negotia quae ad te pertinent gesserit, cum omnem diligentiam praestare
+            debeat, usuras pecuniae tuae, quam administrasse fuerit comprobata,
+            praestare compelli potest. * DIOCL. ET MAXIM. AA. ET CC. CULCIAE.
+            *&lt;A 294 D. XIIII K. DEC. IPSIS CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e366">
+               <head xml:id="azsw2e-d1e2197-Hd1e368">25</head>
+               <p xml:id="azsw2e-d1e2197-d1e370">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e372">Imperator
+            Constantinus</ref> Pro auro et argento et veste facto chirographo
+            licitas solvi vel promitti usuras iussimus. * CONST. A. AD POP. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e376">
+               <head xml:id="azsw2e-d1e2197-Hd1e378">26</head>
+               <p xml:id="azsw2e-d1e2197-d1e380">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e382">Imperator
+            Justinianus</ref>  Eos, qui principali actione per exceptionem triginta
+            vel quadraginta annorum, sive personali sive hypothecaria, ceciderunt,
+            non posse super usuris vel fructibus praeteriti temporis aliquam movere
+            quaestionem dicendo ex his temporibus eas velle sibi persolvi, quae
+            non ad triginta vel quadraginta praeteritos annos referuntur, et adserendo
+            singulis annis earum actiones nasci: principali enim actione non subsistente
+            satis supervacuum est super usuris vel fructibus adhuc iudicem cognoscere.
+            </p>
+               <p xml:id="azsw2e-d1e2197-d1e385" n="1">
+            Super usurarum vero quantitate etiam generalem sanctionem
+            facere necessarium esse duximus, veterem duram et gravissimam earum
+            molem ad mediocritatem deducentes. </p>
+               <p xml:id="azsw2e-d1e2197-d1e388" n="2">
+            Ideoque iubemus illustribus quidem personis sive eas praecedentibus
+            minime licere ultra tertiam partem centesimae usurarum in quocumque
+            contractu vili vel maximo stipulari: illos vero, qui ergasteriis praesunt
+            vel aliquam licitam negotiationem gerunt, usque ad bessem centesimae
+            suam stipulationem moderari: in traiecticiis autem contractibus vel
+            specierum fenori dationibus usque ad centesimam tantummodo licere
+            stipulari nec eam excedere, licet veteribus legibus hoc erat concessum:
+            ceteros autem omnes homines dimidiam tantummodo centesimae usurarum
+            posse stipulari et eam quantitatem usurarum etiam in aliis omnibus
+            casibus nullo modo ampliari, in quibus citra stipulationem usurae
+            exigi solent. </p>
+               <p xml:id="azsw2e-d1e2197-d1e391" n="3">
+            Nec liceat iudici memoratam augere taxationem occasione consuetudinis
+            in regione obtinentis. </p>
+               <p xml:id="azsw2e-d1e2197-d1e395" n="4">
+            Si quis autem aliquid contra modum huius fecerit constitutionis,
+            nullam penitus de superfluo habeat actionem, sed et si acceperit,
+            in sortem hoc imputare compelletur, interdicta licentia creditoribus
+            ex pecuniis fenori dandis aliquid detrahere vel retinere siliquarum
+            vel sportularum vel alterius cuiuscumque causae gratia. Nam si quid
+            huiusmodi factum fuerit, principale debitum ab initio ea quantitate
+            minuetur, ut tam ipsa minuenda pars quam usurae eius exigi prohibeantur
+            </p>
+               <p xml:id="azsw2e-d1e2197-d1e398" n="5">
+            Machinationes etiam creditorum, qui ex hac lege prohibiti
+            maiores usuras stipulari alios medios subiciunt, quibus hoc non ita
+            interdictum est, resecantes iubemus, si quid tale fuerit attemptatum,
+            ita computari usuras, ut necesse esset, si ipse qui alium interposuit
+            fuisset stipulatus: in quo casu sacramenti etiam illationem locum
+            habere sancimus. * IUST. A. MENAE PP. *&lt;A 528 D. ID. DEC. CONSTANTINOPOLI
+            IUSTINIANO PP A. II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e402">
+               <head xml:id="azsw2e-d1e2197-Hd1e404">27</head>
+               <p xml:id="azsw2e-d1e2197-d1e406">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e408">Imperator
+            Justinianus</ref>  De usuris, quarum modum iam statuimus, pravam quorundam
+            interpretationem penitus removentes iubemus etiam eos, qui ante eandem
+            sanctionem ampliores quam statutae sunt usuras stipulati sunt, ad
+            modum eadem sanctione taxatum ex tempore lationis eius suas moderari
+            actiones, illius scilicet temporis, quod ante eandem fluxit legem,
+            pro tenore stipulationis usuras exacturos. </p>
+               <p xml:id="azsw2e-d1e2197-d1e411" n="1">
+            Cursum insuper usurarum ultra duplum minime procedere concedimus,
+            nec si pignora quaedam pro debito creditori data sint, quorum occasione
+            quaedam veteres leges et ultra duplum usuras exigi permittebant.</p>
+               <p xml:id="azsw2e-d1e2197-d1e414" n="2">
+            Quod et in bonae fidei iudiciis ceterisque omnibus in quibus
+            usurae exiguntur servari censemus. * IUST. A. MENAE PP. *&lt;A 529
+            D. K. APRIL. CONSTANTINOPOLI DECIO VC. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2197-Dd1e419">
+               <head xml:id="azsw2e-d1e2197-Hd1e421">28</head>
+               <p xml:id="azsw2e-d1e2197-d1e423">
+                  <ref xml:id="azsw2e-d1e2197-Rd1e425">Imperator
+            Justinianus</ref>  Ut nullo modo usurae usurarum a debitoribus exigantur,
+            et veteribus quidem legibus constitutum fuerat, sed non perfectissime
+            cautum. Si enim usuras in sortem redigere fuerat concessum et totius
+            summae usuras stipulari, quae differentia erat debitoribus, qui re
+            vera usurarum usuras exigebantur? hoc certe erat non rebus sed verbis
+            tantummodo leges ponere </p>
+               <p xml:id="azsw2e-d1e2197-d1e428" n="1">
+            Quapropter hac apertissima lege definimus nullo modo licere
+            cuidam usuras praeteriti vel futuri temporis in sortem redigere et
+            earum iterum usuras stipulari, sed, si hoc fuerit subsecutum, usuras
+            quidem semper usuras manere et nullum aliarum usurarum incrementum
+            sentire, sorti autem antiquae tantummodo incrementum usurarum accedere.
+            * IUST. A. DEMOSTHENI PP. *&lt;A 529 PP. K. OCT. CHALCEDONE DECIO
+            VC. CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 26</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 26</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3717"><!-- azsw2e-l6t26 -->
+            <head xml:id="azsw2e-d1e3717-Hd1e101">Titulus 26</head>
+            <head xml:id="azsw2e-d1e3717-Hd1e103" type="question-title">De impuberum et de aliis substitutionibus</head>
+            <div xml:id="azsw2e-d1e3717-Dd1e106">
+               <head xml:id="azsw2e-d1e3717-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3717-d1e110">
+                  <ref xml:id="azsw2e-d1e3717-Rd1e112">Imperator
+            Titus Aelius Antoninus</ref> Cum heredes ex disparibus partibus instituti
+            et invicem substituti sunt nec in substitutione facta est ullarum
+            partium mentio, verum est non alias partes testatorem substitutioni
+            tacite inseruisse, quam quae manifeste in institutione expressae sunt.
+            * T. AEL. ANT. A. SECUNDO. *&lt;A 146 D. CLARO II ET SEVERO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3717-Dd1e116">
+               <head xml:id="azsw2e-d1e3717-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3717-d1e120">
+                  <ref xml:id="azsw2e-d1e3717-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Hereditatem quidem intestati filii delatam
+            tibi dubitari non oportet. Substitutio enim testamento patris facta
+            ad pubertatis tempora porrigi non potest, quia ipso et aliis non eiusdem
+            condicionis heredibus institutis et invicem substitutis propter eorum
+            personam, quibus in unum casum dumtaxat substitui potest, etiam in
+            filio idem debere servari et ratio suadet et divus marcus pater constituit
+            * SEV. ET ANT. AA. PHRONIMAE. *&lt;A 204 PP. VI K. AUG. CILONE ET
+            LIBONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3717-Dd1e126">
+               <head xml:id="azsw2e-d1e3717-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3717-d1e130">
+                  <ref xml:id="azsw2e-d1e3717-Rd1e132">Imperator
+            Alexander Severus</ref>  Heres instituta matris testamento si successionem
+            ex testamento omisisti et ab intestato bonorum possessionis ius habere
+            voluisti, substituto locum quin feceris, in dubium non venit. </p>
+               <p xml:id="azsw2e-d1e3717-d1e135" n="1">
+            Proinde si substitutus hereditatem amplexus est, actionibus
+            quae adversus matrem competebant ipsum convenire, non successionem
+            ab intestato potes vindicare. * ALEX. A. ACHILLAE. *&lt;A 223 PP.
+            XI K. SEPT. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3717-Dd1e140">
+               <head xml:id="azsw2e-d1e3717-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e3717-d1e144">
+                  <ref xml:id="azsw2e-d1e3717-Rd1e146">Imperator
+            Alexander Severus</ref> Quamvis placuerat substitutionem impuberis,
+            qui in potestate testatoris fuerit, a parente factam ita: " si
+            heres non erit" porrigi ad eum casum, quo, posteaquam heres extitit,
+            impubes decessit, si modo non contrariam defuncti voluntatem extitisse
+            probetur: cum tamen proponas ita substitutionem factam esse: "
+            si mihi firmianus filius et aelia uxor mea ( quod abominor) heredes
+            non erunt, in locum eorum publius firmianus heres esto", manifestum
+            est in eum casum factam substitutionem, quo utrique heredum substitui
+            potuit. * ALEX. A. FIRMIANO. *&lt;A 225 PP. IIII K. IUL. FUSCO II
+            ET DEXTRO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3717-Dd1e150">
+               <head xml:id="azsw2e-d1e3717-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e3717-d1e154">
+                  <ref xml:id="azsw2e-d1e3717-Rd1e156">Imperatores
+            Diocletianus, Maximianus</ref> Post aditam hereditatem directae substitutiones
+            non impuberibus filiis factae expirare solent. * DIOCL. ET MAXIM.
+            AA. HADRIANO. *&lt;A 290 PP.X K.IUN. IPSIS IIII ET AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3717-Dd1e160">
+               <head xml:id="azsw2e-d1e3717-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e3717-d1e164">
+                  <ref xml:id="azsw2e-d1e3717-Rd1e166">Imperatores
+            Diocletianus, Maximianus</ref> Testamento iure facto multis institutis
+            heredibus et invicem substitutis, adeuntibus suam portionem coheredum
+            etiam invitis repudiantium adcrescit portio. * DIOCL. ET MAXIM. AA.
+            ET CC. QUINTIANO. *&lt;A SINE DIE ET CONSULE &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3717-Dd1e170">
+               <head xml:id="azsw2e-d1e3717-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e3717-d1e174">
+                  <ref xml:id="azsw2e-d1e3717-Rd1e176">Imperatores
+            Diocletianus, Maximianus</ref> Si testamento facto intra pupillarem
+            aetatem et in sua potestate constitutae filiae, si intra pubertatem
+            decesserit, directis verbis pater substituit, heredem te factum ex
+            testamento post eventum condicionis intestati successionem exclusisse
+            constitit. * DIOCL. ET MAXIM. AA. ET CC. FELICIANO. *&lt;A 293 S.K.IAN.SIRMI
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3717-Dd1e180">
+               <head xml:id="azsw2e-d1e3717-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e3717-d1e184">
+                  <ref xml:id="azsw2e-d1e3717-Rd1e186">Imperatores
+            Diocletianus, Maximianus</ref>  Precibus tuis manifestius exprimere
+            debueras, maritus quondam tuus miles defunctus, quem testamento facto
+            heredem communem vestrum filium instituisse proponis et secundum heredem
+            scripsisse, utrumne in primum casum an filio suo, quem habuit in potestate
+            mortis tempore, si intra quartum decimum aetatis suae annum an postea
+            decesserit. </p>
+               <p xml:id="azsw2e-d1e3717-d1e189" n="1">
+                  <ref xml:id="azsw2e-d1e3717-Rd1e191">
+           </ref> Nam non est incerti iuris, quod, si quidem in patris militis
+            positus potestate primo casu tantum habuit substitutum et patri heres
+            extitit, eo defuncto ad te omnimodo eius pertineat successio. </p>
+               <p xml:id="azsw2e-d1e3717-d1e194" n="2">
+            Si vero substitutio in secundum casum vel expressa vel compendio
+            non usque ad certam aetatem facta reperiatur, si quidem infra pubertatem
+            decessit, eos habeat heredes, quos pater ei constituit et adierunt
+            hereditatem: si vero post pubertatem, te eius successionem obtinente
+            velut ex causa fideicommissi bona, quae cum moreretur patris eius
+            fuerunt, a te possunt petere. * DIOCL. ET MAXIM. AA. ET CC. PETRONIAE.
+            *&lt;A 293 S.K.IAN.SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3717-Dd1e198">
+               <head xml:id="azsw2e-d1e3717-Hd1e200">9</head>
+               <p xml:id="azsw2e-d1e3717-d1e202">
+                  <ref xml:id="azsw2e-d1e3717-Rd1e204">Imperator
+            Justinianus</ref>  Humanitatis intuitu parentibus indulgemus, ut, si
+            filium vel nepotem vel pronepotem cuiuscumque sexus habeant nec alia
+            proles descendentium eis sit, iste tamen filius vel filia vel nepos
+            vel neptis vel pronepos vel proneptis mente captus vel mente capta
+            perpetuo sit, vel si duo vel plures isti fuerint, nullus vero eorum
+            saperet, liceat isdem parentibus legitima portione ei vel eis relicta
+            quos voluerint his substituere, ut occasione huiusmodi substitutionis
+            ad exemplum pupillaris nulla querella contra testamentum eorum oriatur,
+            ita tamen, ut, si postea resipuerit vel resipuerint, talis substitutio
+            cesset, vel si filii aut alii descendentes ex huiusmodi mente capta
+            persona sapientes sint, non liceat parenti qui vel quae testatur alios
+            quam ex eo descendentes unum vel certos vel omnes substituere. </p>
+               <p xml:id="azsw2e-d1e3717-d1e207" n="1">
+            Sin vero etiam alii liberi testatori vel testatrici sint
+            sapientes, ex his vero personis quae mente captae sunt nullus descendat,
+            ad fratres eorum unum vel certos vel omnes eandem fieri substitutionem
+            oportet. * IUST. A. MENAE PP. *&lt;A 528 D.III ID.DEC.CONSTANTINOPOLI
+            DN.IUSTI NIANO A. PP. II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3717-Dd1e212">
+               <head xml:id="azsw2e-d1e3717-Hd1e214">10</head>
+               <p xml:id="azsw2e-d1e3717-d1e216">
+                  <ref xml:id="azsw2e-d1e3717-Rd1e218">Imperator
+            Justinianus</ref>  Cum quidam duobus impuberibus filiis suis heredibus
+            institutis adiecit, si uterque impubes decesserit, illum sibi esse
+            heredem, et dubitabatur apud antiquos legum auctores, utrumne tunc
+            voluit substitutum admitti, cum uterque filius eius in prima aetate
+            decesserit, an alterutro decedente ilico substitutus in eius partem
+            succedat, placuit Sabino substitutionem tunc locum habere, cum uterque
+            decesserit: cogitasse enim patrem primo decedente fratrem suum in
+            eius portionem succedere. </p>
+               <p xml:id="azsw2e-d1e3717-d1e221" n="1">
+            Nos eiusdem Sabini veriorem sententiam existimantes non aliter
+            substitutionem admittendam esse censemus, nisi uterque eorum in prima
+            aetate decesserit. * IUST. A. IOHANNI.PP. *&lt;A 531 D.VI K.AUG.CONSTINTINOPOLI
+            POST CONSULATUM LAMPADII ET ORESTIS VV.CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3717-Dd1e225">
+               <head xml:id="azsw2e-d1e3717-Hd1e227">11</head>
+               <p xml:id="azsw2e-d1e3717-d1e229">
+                  <ref xml:id="azsw2e-d1e3717-Rd1e231">Imperator
+            Justinianus</ref>  Si quis duobus heredibus institutis filio suo impuberi
+            eos una cum alio tertio substituit et verba testamenti ita composuerit:
+            " quisquis mihi heres erit, et titius filio meo heres esto",
+            secundum quod apud Ulpianum invenimus, mortuo impubere filio quaerebatur,
+            quomodo ad substitutionem vocentur tres substituti: utrumne duo priores,
+            qui et patri heredes fuerant scripti, in dimidiam vocantur et titius
+            in reliquam dimidiam, an tres substituti unusquisque ex triente ad
+            substitutionem vocantur? alia applicata dubitatione, si quis ita heredem
+            scripserit: " titius una cum filiis suis et Sempronius heredes
+            mihi sunto". Et in praesente etenim specie quaerebatur secundum
+            ulpianum voluntas testantis: utrumne titium una cum suis filiis in
+            dimidiam vocat et Sempronium in aliam dimidiam, an omnes in virilem
+            portionem </p>
+               <p xml:id="azsw2e-d1e3717-d1e234" n="1">
+            Nobis autem in prima quidem specie videtur tres substitutos
+            unumquemque in trientem vocari, in secunda autem specie, cum et natura
+            pater et filius eadem persona paene intelleguntur, dimidiam quidem
+            partem titio cum filiis, alteram autem partem Sempronio adsignari.
+            * IUST. A. IOHANNI PP. *&lt;A 531 D. IIII K. AUG. CONSTANTINOPOLI
+            POST CONSULATUM LAMPADII ET ORESTIS VV. CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

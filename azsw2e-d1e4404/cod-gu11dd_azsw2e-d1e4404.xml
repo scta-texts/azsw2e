@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 26</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 26</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4404"><!-- azsw2e-l7t26 -->
+            <head xml:id="azsw2e-d1e4404-Hd1e101">Titulus 26</head>
+            <head xml:id="azsw2e-d1e4404-Hd1e103" type="question-title">De usucapione pro emptore vel transactione</head>
+            <div xml:id="azsw2e-d1e4404-Dd1e106">
+               <head xml:id="azsw2e-d1e4404-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4404-d1e110">
+                  <ref xml:id="azsw2e-d1e4404-Rd1e112">Imperator
+            Antoninus</ref> Mancipia tua si ab eis distracta sunt, qui ius vendendi
+            non habuerunt, vindicare ea potes. Nec enim usucapi ab emptoribus
+            potuerunt, cum illicita venditione furtum contractum sit * ANT. A.
+            FLAVIANO. *&lt;A 213 PP. ID. AUG. ANONINO A. IIII ET BALBINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4404-Dd1e116">
+               <head xml:id="azsw2e-d1e4404-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e4404-d1e120">
+                  <ref xml:id="azsw2e-d1e4404-Rd1e122">Imperator
+            Alexander Severus</ref> Si contra defuncti voluntatem servos, quos
+            propter perfectae artis peritiam heredibus suis defunctus servari
+            testamento praecepit, tutores vendiderunt, usucapi non potuerunt.
+            * ALEX. A. MARCELLINO. *&lt;A 224 D. V NON. MART. IULIANO ET CRISPINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4404-Dd1e126">
+               <head xml:id="azsw2e-d1e4404-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e4404-d1e130">
+                  <ref xml:id="azsw2e-d1e4404-Rd1e132">Imperator
+            Alexander Severus</ref> Si matrem eius, cuius nomine quaestionem pati
+            dicis, bona fide emptam possidere coepisti, etiamsi ipsa in causam
+            furtivam incidit, tamen postea conceptum apud te partum usucapere
+            potuisti. * ALEX. A. NEPOTILLAE. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4404-Dd1e137">
+               <head xml:id="azsw2e-d1e4404-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e4404-d1e141">
+                  <ref xml:id="azsw2e-d1e4404-Rd1e143">Imperator
+            Alexander Severus</ref> Venditioni ancillae consensum dedisse diversam
+            partem si probaveris, retractando contractum, quem ipsa ratum habuit,
+            non audietur. Sed et hac probatione cessante si bona fide emptam ancillam
+            venditore bona fide distrahente temporis spatio usuceperis, intentio
+            proprietatem vindicantis tenere non potest * ALEX. A. ACHILLEO. *&lt;PP.
+            III ID. APRIL.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4404-Dd1e147">
+               <head xml:id="azsw2e-d1e4404-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e4404-d1e151">
+                  <ref xml:id="azsw2e-d1e4404-Rd1e153">Imperator
+            Gordianus</ref>  Si partem possessionis mala fide possessor venumdedit,
+            id quidem, quod ab ipso tenetur, omnimodo cum fructibus recipi potest,
+            portio autem, quae distracta est, ita demum recte petitur a possidente,
+            si sciens alienam comparavit vel bona fide emptor nondum complevit
+            usucapionem. </p>
+               <p xml:id="azsw2e-d1e4404-d1e156" n="1">
+            Violenter autem possessione amissa, priusquam in domini potestatem
+            perveniat, usucapio emptori, etsi bona fide mercatus est, non competit.
+            * GORD. A. MARINO. *&lt;A 238 PP. XII K. APRIL. PIO ET PONTIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4404-Dd1e160">
+               <head xml:id="azsw2e-d1e4404-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e4404-d1e164">
+                  <ref xml:id="azsw2e-d1e4404-Rd1e166">Imperator
+            Philippus</ref> Cum sit probatum rem pignori fuisse obligatam et postea
+            a debitore distractam, palam est non potuisse eam quasi furtivam usucapi.
+            * PHILIPP. A. CUM CONSILIO COLLOCUTUS DIXIT: *&lt; S. DIE ET CONSULE.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4404-Dd1e170">
+               <head xml:id="azsw2e-d1e4404-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e4404-d1e174">
+                  <ref xml:id="azsw2e-d1e4404-Rd1e176">Imperatores
+            Diocletianus, Maximianus</ref> Sciens servum alienum citra domini
+            voluntatem venumdans furtum committit. Quod rei vitium, priusquam
+            ad dominum eius revertatur possessio, non permittit usucapionem fieri,
+            licet bona fide possideatur * DIOCL. ET MAXIM. AA. ET CC. PECUDI.
+            *&lt;A 294 D. V ID. FEBR. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4404-Dd1e180">
+               <head xml:id="azsw2e-d1e4404-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e4404-d1e184">
+                  <ref xml:id="azsw2e-d1e4404-Rd1e186">Imperatores
+            Diocletianus, Maximianus</ref> Ex causa transactionis habentes iustam
+            causam possessionis usucapere possunt. * DIOCL. ET MAXIM. AA. ET CC.
+            SEVERO. *&lt;A 294 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4404-Dd1e190">
+               <head xml:id="azsw2e-d1e4404-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e4404-d1e194">
+                  <ref xml:id="azsw2e-d1e4404-Rd1e196">Imperatores
+            Diocletianus, Maximianus</ref> Eum, qui a pupillo sine tutoris auctoritate
+            distrahente comparavit, nullum temporis spatium defendit. Sed si locupletior
+            factus emptoris pecunia post pubertatem occasionem iuris ad iniquum
+            trahat compendium, doli mali submovebitur exceptione * DIOCL. ET MAXIM.
+            AA. ET CC. GAIO. *&lt;A 294 S. VIII ID. DEC. CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

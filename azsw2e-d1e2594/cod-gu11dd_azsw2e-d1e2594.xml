@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 1</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 1</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2594"><!-- azsw2e-l5t1 -->
+            <head xml:id="azsw2e-d1e2594-Hd1e101">Titulus 1</head>
+            <head xml:id="azsw2e-d1e2594-Hd1e103" type="question-title">De sponsalibus et arris sponsaliciis et proxeneticis.</head>
+            <div xml:id="azsw2e-d1e2594-Dd1e106">
+               <head xml:id="azsw2e-d1e2594-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2594-d1e110">
+                  <ref xml:id="azsw2e-d1e2594-Rd1e112">Imperatores
+            Diocletianus, Maximianus</ref> Alii desponsata renuntiare condicioni
+            ac nubere alii non prohibetur. * DIOCL. ET MAXIM. AA. ET CC. BIANORI.
+            *&lt;A 293 D. XVIII K. MAI. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2594-Dd1e116">
+               <head xml:id="azsw2e-d1e2594-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2594-d1e120">
+                  <ref xml:id="azsw2e-d1e2594-Rd1e122">Imperator
+            Constantinus</ref> Si is, qui puellam suis
+            nuptiis pactus est, intra biennium exsequi nuptias in eadem provincia
+            degens supersederit, eiusque spatii fine decurso in alterius postea
+            coniunctionem puella pervenerit, nihil fraudis ei sit, quae nuptias
+            maturando vota sua diutius ludi non passa est. * CONST. A.
+            ET CONST. C. AD PACATIANUM PU. *&lt;A 332 D. PRID. ID. APRIL. MARCIANOPOLI
+            PACATIOANO ET HILARIANOCONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2594-Dd1e126">
+               <head xml:id="azsw2e-d1e2594-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2594-d1e130">
+                  <ref xml:id="azsw2e-d1e2594-Rd1e132">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Arris sponsaliorum nomine
+            datis, si interea sponsus vel sponsa decesserit, quae data sunt iubemus
+            restitui, nisi causam, ut nuptiae non celebrentur, defuncta persona
+            iam praebuit. * GRAT. VALENTIN. ET THEODOS. AAA. EUTROPIO PP. *&lt;A 380 D. XV K. IUL. THESSALONICAE GRATIANO V ET THEODOSIO
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2594-Dd1e137">
+               <head xml:id="azsw2e-d1e2594-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2594-d1e141">
+                  <ref xml:id="azsw2e-d1e2594-Rd1e143">Imperatores
+            Honorius, Theodosius</ref>  Si pater pactum
+            de filiae nuptiis inierit et humana sorte consumptus ad vota non potuerit
+            pervenire, id inter sponsos firmum ratumque permaneat, quod a patre
+            docebitur definitum, nihilque permittatur habere momenti, quod cum
+            defensore, ad quem minoris commoda pertinebunt, docebitur fuisse transactum.
+            </p>
+               <p xml:id="azsw2e-d1e2594-d1e146" n="1">
+            Periniquum est enim, ut contra patriam voluntatem redempti
+            forsitan tutoris aut curatoris admittatur arbitrium, cum plerumque
+            etiam ipsius feminae adversus commoda propria inveniatur laborare
+            consilium. * HONOR. ET THEODOS. AA. AD MARINIANUM PP. *&lt;A
+            422 D. IIII NON. NOV. RAVENNAE HONORIO XIII ET THEODOSIO X AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2594-Dd1e150">
+               <head xml:id="azsw2e-d1e2594-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e2594-d1e154">
+                  <ref xml:id="azsw2e-d1e2594-Rd1e156">Imperatores
+            Leo, Anthemius</ref>  Mulier iuris sui constituta
+            arrarum sponsalium nomine usque ad duplum teneatur, id est in id quod
+            accepit et aliud tantundem nec amplius, si post completum vicesimum
+            quintum annum vel post impetratam veniam aetatis atque in competenti
+            iudicio comprobatam huiusmodi arras suscepit: in simplum autem, id
+            est tantummodo quod accepit, si minoris aetatis est, sive virgo sive
+            vidua sit, sive per se sive per tutorem vel curatorem vel aliam personam
+            easdem arras acceperit. </p>
+               <p xml:id="azsw2e-d1e2594-d1e159" n="1">
+            Patrem vero vel matrem, legitimae videlicet aetatis constitutos,
+            sive simul sive separatim arras pro filia susceperint, avum autem
+            vel proavum pro nepte seu pronepte in duplum tantummodo convenit teneri.
+            </p>
+               <p xml:id="azsw2e-d1e2594-d1e162" n="2">
+            Quae ita custodiri censemus, si non propter personam vel
+            condicionem aut aliam causam legibus vel generalibus constitutionibus
+            interdictam futurum matrimonium constare prohibetur: tunc enim quasi
+            nullo facto, utpote sine causa easdem arras praestitas tantummodo
+            reddi consequens esse praecipimus. </p>
+               <p xml:id="azsw2e-d1e2594-d1e165" n="3">
+            Hoc quoque his adicimus, ut etiam, si legibus prohibitae
+            non sint speratae nuptiae, post arras autem sponsalicias sponsa coniugium
+            sponsi propter turpem vel impudicam conversationem aut religionis
+            vel sectae diversitatem recusaverit vel eo, quod quasi vir coitum,
+            ex quo spes subolis oritur, facere non potuerit, vel ob aliam iustam
+            excusationis causam, si quidem probatum fuerit ante datas easdem arras
+            sponsalicias hoc idem mulierem vel parentes eius cognovisse, sibi
+            debeant imputare. </p>
+               <p xml:id="azsw2e-d1e2594-d1e169" n="4">
+            Sin vero horum ignari sponsalicias arras susceperint vel
+            post arras datas aliqua iusta causa paenitentiae intercesserit, isdem
+            tantummodo redditis super alterius simpli poena liberi custodiantur.
+            </p>
+               <p xml:id="azsw2e-d1e2594-d1e172" n="5">
+            Quae omnia simili modo etiam de sponsis super recipiendis
+            nec ne arris praestitis custodiri censemus: quadrupli videlicet poena,
+            quae anterioribus legibus definita erat, in qua et arrarum quantitas
+            imputabatur, cessante, nisi specialiter aliud ex communi consensu
+            inter contrahentes de eadem quadrupli ratione placuit. </p>
+               <p xml:id="azsw2e-d1e2594-d1e175" n="6">
+            Extra definitionem autem huius legis si cautio poenam stipulationis
+            continens fuerit interposita, ex utraque parte nullas vires habebit,
+            cum in contrahendis nuptiis libera potestas esse debet. * LEO ET ANTHEM.
+            AA. ERYTHRIO PP. *&lt;A 472 D. K. IUL. CONSTANTINOPOLI MARCIANO
+            CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2594-Dd1e179">
+               <head xml:id="azsw2e-d1e2594-Hd1e181">6</head>
+               <p xml:id="azsw2e-d1e2594-d1e183"><!-- Greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

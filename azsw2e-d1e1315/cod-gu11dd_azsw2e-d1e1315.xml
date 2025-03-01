@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 56</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 56</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1315"><!-- azsw2e-l2t56 -->
+            <head xml:id="azsw2e-d1e1315-Hd1e101">Titulus 56</head>
+            <head xml:id="azsw2e-d1e1315-Hd1e103" type="question-title">De satisdando</head>
+            <div xml:id="azsw2e-d1e1315-Dd1e106">
+               <head xml:id="azsw2e-d1e1315-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1315-d1e110">
+                  <ref xml:id="azsw2e-d1e1315-Rd1e112">Imperatores
+            Diocletianus, Maximianus</ref>  Non est iuris incerti eum, qui apud
+            acta factus est agentis procurator, non compelli ratam rem dominum
+            habiturum satisdare: hoc enim casu veluti praesentis procuratorem
+            intervenire intellegendum est. </p>
+               <p xml:id="azsw2e-d1e1315-d1e115" n="1">
+            Itaque etsi postea mutata voluntate procuratorem esse noluerit,
+            tamen iudicium, quo quasi procurator expertus est, iudex ratum habere
+            debebit. </p>
+               <p xml:id="azsw2e-d1e1315-d1e118" n="2">
+            Sin autem ei ab adversario opposita fuerit in ipso litis
+            exordio defensionis adlegatio, etiam ipse quasi absentis in hac parte
+            procurator satisdationem super excipienda lite praestare cogitur,
+            qua non praecedente lis quae ei mandata est ulterius procedere a iudice
+            non conceditur. </p>
+               <p xml:id="azsw2e-d1e1315-d1e121" n="3">
+            Rei autem procurator vel defensor, etiam sub gestorum testificatione
+            factus, in ipso litis limine iudicatum solvi satisdationem in omnibus
+            causis praestare cogitur. * DIOCL. ET MAXIM. AA. ET CC. *&lt;A 294
+            D. VIIII K. NOV. CC. CONSS.&gt;
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

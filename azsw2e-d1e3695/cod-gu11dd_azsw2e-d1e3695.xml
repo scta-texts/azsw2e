@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 24</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 24</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3695"><!-- azsw2e-l6t24 -->
+            <head xml:id="azsw2e-d1e3695-Hd1e101">Titulus 24</head>
+            <head xml:id="azsw2e-d1e3695-Hd1e103" type="question-title">De heredibus instituendis et quae personae heredes institui non possunt.</head>
+            <div xml:id="azsw2e-d1e3695-Dd1e106">
+               <head xml:id="azsw2e-d1e3695-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3695-d1e110">
+                  <ref xml:id="azsw2e-d1e3695-Rd1e112">Imperator
+            Titus Aelius Antoninus</ref> Qui deportantur, si heredes scribantur,
+            tamquam peregrini capere non possunt, sed hereditas in ea causa est,
+            in qua esset, si scripti non fuissent. * T. AEL. ANT. A. ANTESTIANO.
+            *&lt; SINE DIE ET CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3695-Dd1e116">
+               <head xml:id="azsw2e-d1e3695-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3695-d1e120">
+                  <ref xml:id="azsw2e-d1e3695-Rd1e122">Imperator
+            Antoninus</ref> Pater tuus si ex residua parte heres institutus est,
+            quam alter heres scriptus capere non posset, isque ad nullam partem
+            hereditatis propter condicionem suam admitti potuit, ex asse heres
+            extitit: nam residui commemoratio etiam totum admittit. * ANT. A.
+            CAECILIO. *&lt;A 212 PP. XV K. IUL. ROMAE DUOBUS ASPRIS CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3695-Dd1e126">
+               <head xml:id="azsw2e-d1e3695-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3695-d1e130">
+                  <ref xml:id="azsw2e-d1e3695-Rd1e132">Imperator
+            Alexander Severus</ref>  Cum proponas Alexandrum equitem testamento
+            primo loco Iulianum ut libertum suum heredem instituisse eique substituisse
+            his verbis: "quod si ex aliqua causa primus hereditatem meam
+            adire noluerit vel non potuerit, tunc in locum secundum heredem substituo
+            vitalem", post mortem autem testatoris iulianum servum communem
+            fuisse defuncti militis et zoili fratris eius apparuerit, an tu ex
+            substitutione admittereris, voluntatis est quaestio. </p>
+               <p xml:id="azsw2e-d1e3695-d1e135" n="1">
+            Nam si credens eum proprium et suum libertum heredem instituit
+            nec per eum ad alium quemquam hereditatem pertinere voluit, extitit
+            condicio substitutionis tibique delata hereditas est. </p>
+               <p xml:id="azsw2e-d1e3695-d1e138" n="2">
+            Quod si verba substitutionis subscriptae ad ius rettulit,
+            ut si nec per semet ipsum alium fecisset heredem ( potuit enim quamvis
+            iubente domino nolle adire), ita demum substitutus vocaretur, si tamen
+            paruit domino et adiit, substitutioni locus non est. * ALEX. A. VITALI
+            MIL. *&lt;A 223 PP. VI K. MAI. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3695-Dd1e143">
+               <head xml:id="azsw2e-d1e3695-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e3695-d1e147">
+                  <ref xml:id="azsw2e-d1e3695-Rd1e149">Imperator
+            Gordianus</ref> Si pater tuus eum quasi filium heredem instituit,
+            quem falsa opinione ductus suum esse credebat, non instituturus, si
+            alienum nosset, isque postea subditicius esse ostensus est, auferendam
+            ei successionem divi severi et antonini placitis continetur. * GORD.
+            A. ULPIO. *&lt;A 238 PP. PRID. NON. OCT. PIO ET PONTIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3695-Dd1e153">
+               <head xml:id="azsw2e-d1e3695-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e3695-d1e157">
+                  <ref xml:id="azsw2e-d1e3695-Rd1e159">Imperator
+            Gordianus</ref> Non ideo minus uxor iure heres videtur instituta,
+            quod non uxor, sed adfinis testamento nominata est. * GORD. A. CASSIANO.
+            *&lt;A 241 PP. V K. OCT. GORDIANO A. II ET POMPEIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3695-Dd1e163">
+               <head xml:id="azsw2e-d1e3695-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e3695-d1e167">
+                  <ref xml:id="azsw2e-d1e3695-Rd1e169">Imperator
+            Philippus</ref> Si compensandi debiti gratia uxor maritum fecit heredem,
+            desiderio tuo praeter portionem hereditatis debitum quoque restitui
+            postulantis non tantum iuris severitas, verum etiam defunctae voluntas
+            refragatur. * PHILIPP. A. ET PHILIPP. C. ANTONIO. *&lt;A 246 PP. XII
+            K. MART. PRAESENTE ET ALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3695-Dd1e173">
+               <head xml:id="azsw2e-d1e3695-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e3695-d1e177">
+                  <ref xml:id="azsw2e-d1e3695-Rd1e179">Imperatores
+            Diocletianus, Maximianus</ref> Nec apud peregrinos fratrem sibi quisquam
+            per adoptionem facere poterat. Cum igitur, quod patrem tuum voluisse
+            facere dicis, irritum sit, portionem hereditatis , quam is adversus
+            quem supplicas velut adoptatus frater heres institutus tenet, restitui
+            tibi curae habebit praeses provinciae * DIOCL. ET MAXIM. AA. ZIZONI.
+            *&lt;A 285 PP. III NON. DEC. DIOCLETIANO II ET ARISTOBULO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3695-Dd1e183">
+               <head xml:id="azsw2e-d1e3695-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e3695-d1e187">
+                  <ref xml:id="azsw2e-d1e3695-Rd1e189">Imperatores
+            Diocletianus, Maximianus</ref> Collegium, si nullo speciali privilegio
+            subnixum sit, hereditatem capere non posse dubium non est. * DIOCL.
+            ET MAXIM. AA. HADRIANO. *&lt;A 290 PP. X K. IUN. IPSIS IIII ET III
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3695-Dd1e193">
+               <head xml:id="azsw2e-d1e3695-Hd1e195">9</head>
+               <p xml:id="azsw2e-d1e3695-d1e197">
+                  <ref xml:id="azsw2e-d1e3695-Rd1e199">Imperatores
+            Diocletianus, Maximianus</ref> Extraneum etiam cum morietur heredem
+            scribi placuit. * DIOCL. ET MAXIM. AA. ET CC.IULIAE. *&lt;A 293 PP.
+            XVI K. NOV. SIRMI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3695-Dd1e204">
+               <head xml:id="azsw2e-d1e3695-Hd1e206">10</head>
+               <p xml:id="azsw2e-d1e3695-d1e208">
+                  <ref xml:id="azsw2e-d1e3695-Rd1e210">Imperatores
+            Diocletianus, Maximianus</ref> Neque per se heredes institutos, quibus
+            hoc concessum non est, neque per servos proprios hereditatem posse
+            quaerere dictat iuris ratio. * DIOCL. ET MAXIM. AA. ET CC. ASCLEPIADAE.
+            *&lt;A 294 S. XVI K. SEPT. SIRMII CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3695-Dd1e214">
+               <head xml:id="azsw2e-d1e3695-Hd1e216">11</head>
+               <p xml:id="azsw2e-d1e3695-d1e218">
+                  <ref xml:id="azsw2e-d1e3695-Rd1e220">Imperatores
+            Theodosius, Valentinianus</ref> Extraneum etiam penitus ignotum heredem
+            quis instituere potest. * THEODOS. ET VALENTIN. AA. HIERIO PP. *&lt;A
+            428 D. X K. MART. CONSTANTINOPOLI FELICE ET TAURO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3695-Dd1e224">
+               <head xml:id="azsw2e-d1e3695-Hd1e226">12</head>
+               <p xml:id="azsw2e-d1e3695-d1e228">
+                  <ref xml:id="azsw2e-d1e3695-Rd1e230">Imperator
+            Leo</ref> Hereditatis vel legati seu fideicommissi aut donationis
+            titulo domus aut annonae civiles aut quaelibet aedificia vel mancipia
+            ad ius inclitae urbis vel alterius cuiuslibet civitatis pervenire
+            possunt. * LEO A. ERYTHRIO PP. *&lt;A 469 D. V K. MART. MARCIANO ET
+            ZENONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3695-Dd1e234">
+               <head xml:id="azsw2e-d1e3695-Hd1e236">13</head>
+               <p xml:id="azsw2e-d1e3695-d1e238">
+                  <ref xml:id="azsw2e-d1e3695-Rd1e240">Imperator
+            Justinianus</ref> Quotiens certi quidem ex certa re scripti sunt heredes
+            vel certis rebus pro sua institutione contenti esse iussi sunt, quos
+            legatariorum loco haberi certum est, alii vero ex certa parte vel
+            sine parte, qui pro veterum legum tenore ad certam unciarum institutionem
+            referuntur, eos tantummodo omnibus hereditariis actionibus uti vel
+            conveniri decernimus, qui ex certa parte vel sine parte scripti fuerint,
+            nec aliquam deminutionem earundem actionum occasione heredum ex certa
+            re scriptorum fieri. * IUST. A. MENAE PP. *&lt;A 529 D. VIII ID. APRIL.
+            CONSTANTINOPOLI DECIO VC. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3695-Dd1e244">
+               <head xml:id="azsw2e-d1e3695-Hd1e246">14</head>
+               <p xml:id="azsw2e-d1e3695-d1e248">
+                  <ref xml:id="azsw2e-d1e3695-Rd1e250">Imperator
+            Justinianus</ref>  Cum in libris Ulpiani, quos ad Massurium Sabinum
+            scripsit, talis species relata est, hanc apertius expedire nobis visum
+            est. </p>
+               <p xml:id="azsw2e-d1e3695-d1e253" n="1">
+            Quidam testamentum faciens ita instituit: "Sempronius
+            Plotii heres esto". Veteres quidem existimabant errorem nominis
+            esse et sic institutionem valere, quasi testator Plotius nominaretur
+            et Sempronium sibi scripsisset heredem </p>
+               <p xml:id="azsw2e-d1e3695-d1e256" n="2">
+            Sed huiusmodi sententiam crassiorem esse existimamus: neque
+            enim sic homo supinus, immo magis stultus invenitur, ut suum nomen
+            ignoret. Sed si quidem ipse testator Plotio cuidam heres extitit,
+            manifestissimum esse sibi Sempronium heredem instituisse, ut per mediam
+            ipsius personam Plotii heres efficiatur: et hoc argumentamur ex antiqua
+            regula, quae voluit heredem heredis testatoris esse heredem </p>
+               <p xml:id="azsw2e-d1e3695-d1e259" n="3">
+            Sin autem nihil tale factum est, supervacuam esse et inanem
+            huiusmodi institutionem, nisi prius herede plotio sibi instituto sic
+            adiecit:" Sempronius Plotii heres esto". Tunc etenim existimandum
+            est eum dixisse, si non Plotius heres sibi fuerit, tunc Sempronium
+            in locum partemve Plotii ex substitutione vocari, ut ita ex consequentia
+            verborum Plotius quidem institutus, Sempronius autem substitutus inveniatur
+            </p>
+               <p xml:id="azsw2e-d1e3695-d1e263" n="4">
+            Sin autem neque ipse testator Plotio heres extitit neque
+            Plotium heredem antea scripsit et sic Sempronium Plotio heredem voluit
+            esse, nullius esse momenti talem institutionem, cum non est verisimile
+            in suum nomen quendam errasse. * IUST. A. IOHANNI PP. *&lt;D. III
+            K. AUG. POST CONSULATUM LAMPADII ET ORESTIS VV. CC.&gt; 
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

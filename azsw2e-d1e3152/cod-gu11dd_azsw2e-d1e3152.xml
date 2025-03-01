@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 51</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 51</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3152"><!-- azsw2e-l5t51 -->
+            <head xml:id="azsw2e-d1e3152-Hd1e101">Titulus 51</head>
+            <head xml:id="azsw2e-d1e3152-Hd1e103" type="question-title">Arbitrium tutelae</head>
+            <div xml:id="azsw2e-d1e3152-Dd1e106">
+               <head xml:id="azsw2e-d1e3152-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3152-d1e110">
+                  <ref xml:id="azsw2e-d1e3152-Rd1e112">Imperator
+            Antoninus</ref> Cum tutelae administratae ratio a te peti coeperit,
+            neque veritati neque iustis probationibus officit, quod ( ut dicis)
+            testator modum patrimonii sui verbis testamenti ampliavit vel minuit.
+            * ANT. A. LEONI. *&lt;A 212 PP. V K. OCT. ROMAE DUOBUS ASPRIS CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3152-Dd1e116">
+               <head xml:id="azsw2e-d1e3152-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3152-d1e120">
+                  <ref xml:id="azsw2e-d1e3152-Rd1e122">Imperator
+            Antoninus</ref> Nomina paternorum debitorum si idonea fuerunt initio
+            susceptae tutelae et per latam culpam tutorum minus idonea tempore
+            tutelae esse coeperunt, iudex qui super ea re datus fuerit dispiciet:
+            et si palam dolo tutoris vel manifesta neglegentia cessatur, tutelae
+            iudicio damnum, quod ex cessatione accidisset, pupillo praestandum
+            esse statuere curabit. * ANT. A. PRAESENTINO. *&lt;A 213 PP. NON.
+            IUL. ANTONINO A. IIII ET BALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3152-Dd1e126">
+               <head xml:id="azsw2e-d1e3152-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3152-d1e130">
+                  <ref xml:id="azsw2e-d1e3152-Rd1e132">Imperator
+            Antoninus</ref> Curator, qui post decretum praesidis, sublata pecunia,
+            quae ad comparationem possessionis fuerat deposita, praedium sibi
+            comparavit, elige, utrum malis in emptione tibi negotium eum gessisse,
+            an, quia in usus suos conversae pecuniae sunt, legitimas usuras ab
+            eo accipere: secundum quae iudex tutelae iudicio redditus partem religionis
+            implebit. * ANT. A. VITALIO. *&lt;A 215 PP. III K. IUL. ROMAE LAETO
+            II ET CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3152-Dd1e137">
+               <head xml:id="azsw2e-d1e3152-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e3152-d1e141">
+                  <ref xml:id="azsw2e-d1e3152-Rd1e143">Imperator
+            Alexander Severus</ref>  Eum, qui bonis paternis secundum edicti formam
+            abstentus est, hereditariis actionibus conveniri nulla ratio suadet.
+            </p>
+               <p xml:id="azsw2e-d1e3152-d1e146" n="1">
+            Nec ad rem facit, quod adversus curatores , si non consulte
+            abstentus sit, actio competat: nihil quippe in ea quae ex officio
+            gesta sunt vel geri debebunt veniet, sed culpa solum quantique interfuit
+            eius non fuisse abstentum aestimatur. </p>
+               <p xml:id="azsw2e-d1e3152-d1e149" n="2">
+            Cui consequens est, ut, si propter eam causam transegisti
+            cum curatoribus, nulla adversus te creditoribus patris tui petitio
+            competat. * ALEX. A. AGLAO. *&lt;A 222 PP. III K. MAI. ALEXANDRO A.
+            CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3152-Dd1e153">
+               <head xml:id="azsw2e-d1e3152-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e3152-d1e157">
+                  <ref xml:id="azsw2e-d1e3152-Rd1e159">Imperator
+            Gordianus</ref> Omnes tutores seu heredes eorum, qui administraverunt
+            tutelam, ad eundem iudicem ire debere iam pridem constitutum est.
+            Cum igitur patrem tuum cum alio tutelam administrasse adlegas, praeses
+            provinciae eundem iudicem adversus te atque heredes contutorum patris
+            tui dare debebit, quatenus quisque condemnari debeat, examinaturum
+            * GORD. A. VICTORINO. *&lt;A 238 PP. X K. AUG. PIO ET PONTIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3152-Dd1e163">
+               <head xml:id="azsw2e-d1e3152-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e3152-d1e167">
+                  <ref xml:id="azsw2e-d1e3152-Rd1e169">Imperatores
+            Diocletianus, Maximianus</ref>  Cum interdictae venditionis vitium
+            etiam pretii fraude tutor vester cumulasse proponatur, non dubitabit
+            praeses provinciae, quando venditionem confirmare voluistis, residuum
+            pretium cum usuris venditae a tutore possessionis celeriter vobis
+            restitui iubere. </p>
+               <p xml:id="azsw2e-d1e3152-d1e172" n="1">
+            Quod autem petitis ab heredibus eius qui vendidit pretium
+            vobis exsolvi, superfluo a nobis desideratis, quia nec praesidis experientiam
+            possit latere, tutores qui gesserint sive heredes eorum obea negotia,
+            quae per eos administrata sunt, principali loco conveniri debere,
+            ceteris ob culpae rationem non servati detrimenti periculo substitutis,
+            vel, si pariter administrasse doceantur, etiam adversus unum liberum
+            experiundi arbitrium competere, ita ut actiones, quas adversus alios
+            habetis, ad electum transferantur. * DIOCL. ET MAXIM. AA. SEPTIMO
+            ET CONONI. *&lt;A 290 PP. IIII K. SEPT. IPSIS IIII ET III AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3152-Dd1e176">
+               <head xml:id="azsw2e-d1e3152-Hd1e178">7</head>
+               <p xml:id="azsw2e-d1e3152-d1e180">
+                  <ref xml:id="azsw2e-d1e3152-Rd1e182">Imperatores
+            Diocletianus, Maximianus</ref> Quidquid tutoris dolo vel lata culpa
+            vel levi culpa sive curatoris minores amiserint vel, cum possent,
+            non quaesierint, hoc etiam in tutelae sive negotiorum gestorum utile
+            iudicium venire non est incerti iuris. * DIOCL. ET MAXIM. AA. ET CC.
+            ALEXANDRO. *&lt;A 293 S. PRID. ID. APRIL. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3152-Dd1e186">
+               <head xml:id="azsw2e-d1e3152-Hd1e188">8</head>
+               <p xml:id="azsw2e-d1e3152-d1e190">
+                  <ref xml:id="azsw2e-d1e3152-Rd1e192">Imperatores
+            Diocletianus, Maximianus</ref> Tutores tutelae conveniri longi temporis
+            praescriptio non prohibet. Unde si his transactione vel novatione
+            atque acceptilatione liberationem non praestitisti, apud rectorem
+            provinciae quaecumque tibi debentur repetere non prohiberis * DIOCL.
+            ET MAXIM. AA. ET CC. DALMATIO. *&lt;A 293 S. XVI K. MAI. AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3152-Dd1e196">
+               <head xml:id="azsw2e-d1e3152-Hd1e198">9</head>
+               <p xml:id="azsw2e-d1e3152-d1e200">
+                  <ref xml:id="azsw2e-d1e3152-Rd1e202">Imperatores
+            Diocletianus, Maximianus</ref> Tutorem quondam, ut tam rationem quam
+            si quid reliquorum nomine debet reddat, apud praetorem convenire potes.
+            Quamvis enim matrem tuam susceptis bonis vestris indemnitatem pro
+            hac administratione tutori se praestituram promisisse proponatur,
+            tamen adversus tutorem tibi tutelae, non adversus matris successores
+            ex stipulatu competit actio * DIOCL. ET MAXIM. AA. ET CC. IULIANO.
+            *&lt;A 293 S. PRID. K. IAN. AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3152-Dd1e207">
+               <head xml:id="azsw2e-d1e3152-Hd1e209">10</head>
+               <p xml:id="azsw2e-d1e3152-d1e211">
+                  <ref xml:id="azsw2e-d1e3152-Rd1e213">Imperatores
+            Diocletianus, Maximianus</ref>  Si defunctus tutelam vestram administraverit,
+            non rerum eius dominium vindicare vel tenere potes, sed tutelae contra
+            eius successores tibi competit actio. </p>
+               <p xml:id="azsw2e-d1e3152-d1e216" n="1">
+            Debitum autem aliis indiciis probari oportet. Nam quod neque
+            ipse neque uxor eius quicquam ante administrationem habuerunt, non
+            idoneum huius continet indicium : nec enim pauperibus industria vel
+            augmentum patrimonii, quod laboribus ac multis casibus quaeritur,
+            interdicendum est * DIOCL. ET MAXIM. AA. ET CC. POMPONIO. *&lt;A 294
+            S. XI K. FEBR. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3152-Dd1e220">
+               <head xml:id="azsw2e-d1e3152-Hd1e222">11</head>
+               <p xml:id="azsw2e-d1e3152-d1e224">
+                  <ref xml:id="azsw2e-d1e3152-Rd1e226">Imperatores
+            Diocletianus, Maximianus</ref> Tutor post puberem aetatem puellae
+            si in administratione conexa perseveraverit, tutelae actione totius
+            temporis rationem praestare cogitur. Sin autem post finitam administrationem
+            in isdem rebus minime se immiscuerit, temporis quod insequitur periculum
+            ad eum non pertinet * DIOCL. ET MAXIM. AA. ET CC. CHRYSIANAE. *&lt;A
+            294 S. V K. DEC. ANCHIALO CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3152-Dd1e230">
+               <head xml:id="azsw2e-d1e3152-Hd1e232">12</head>
+               <p xml:id="azsw2e-d1e3152-d1e234">
+                  <ref xml:id="azsw2e-d1e3152-Rd1e236">Imperatores
+            Diocletianus, Maximianus</ref> Tutelae actio tam heredibus quam etiam
+            contra successores competit. * DIOCL. ET MAXIM. AA. ET CC. QUINTILLAE.
+            *&lt;A 294 S. X K. DEC. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3152-Dd1e240">
+               <head xml:id="azsw2e-d1e3152-Hd1e242">13</head>
+               <p xml:id="azsw2e-d1e3152-d1e244">
+                  <ref xml:id="azsw2e-d1e3152-Rd1e246">Imperator
+            Justinianus</ref>  Veteris iuris dubitationem decidentes sancimus,
+            si quidem tutor vel curator pro substantia pupilli vel adulti aliquid
+            ubicumque dixerit ad maiorem quantitatem eam reducens, sive pro utilitate
+            pupilli vel adulti sive per solam simplicitatem sive per aliam quamcumque
+            causam, nihil veritati praeiudicare, sed hoc obtinere , quod ipsius
+            rei inducit natura et mensura pupillaris vel adulti ostendit substantiae.
+            </p>
+               <p xml:id="azsw2e-d1e3152-d1e249" n="1">
+            Sin autem inventario publice facto res pupillares vel adulti
+            conscripserit et ipse per huiusmodi scripturam confessus fuerit ampliorem
+            quantitatem substantiae, non esse aliud inspiciendum nisi hoc quod
+            scripsit, et secundum vires eiusdem scripturae patrimonium pupilli
+            vel adulti exigi: neque enim sic homo simplex, immo magis stultus
+            invenitur, ut et in publico inventario contra se scribi aliquid patiatur.
+            </p>
+               <p xml:id="azsw2e-d1e3152-d1e252" n="2">
+            Illo procul dubio observando, ut non audeat tutor vel curator
+            res pupillares vel adulti aliter attingere vel ullam sibi communionem
+            ad eas vindicare, nisi prius inventario publice facto secundum morem
+            solitum res eis tradantur: nisi testatores qui substantiam transmittunt
+            specialiter inventarium conscribi vetaverint. </p>
+               <p xml:id="azsw2e-d1e3152-d1e255" n="3">
+            Scituris tutoribus et curatoribus, quod, si inventarium facere
+            neglexerint, et quasi suspecti ab officio removeantur et poenis legitimis,
+            quae contra eos interminatae sunt, subiacebunt et postea perpetua
+            macula infamiae notabuntur, neque ab imperiali beneficio absolutione
+            huiusmodi notae fruituri. * IUST. A. IULIANO PP. *&lt;A 530 D. K.
+            AUG. CONSTANTINOPOLI LAMPADIO ET ORESTE VV. CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

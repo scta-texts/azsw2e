@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 49</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 49</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3130"><!-- azsw2e-l5t49 -->
+            <head xml:id="azsw2e-d1e3130-Hd1e101">Titulus 49</head>
+            <head xml:id="azsw2e-d1e3130-Hd1e103" type="question-title">Ubi pupilli educentur</head>
+            <div xml:id="azsw2e-d1e3130-Dd1e106">
+               <head xml:id="azsw2e-d1e3130-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3130-d1e110">
+                  <ref xml:id="azsw2e-d1e3130-Rd1e112">Imperator
+            Alexander Severus</ref>  Educatio pupillorum tutorum nulli magis quam
+            matri eorum, si non vitricum eis induxerit, committenda est. </p>
+               <p xml:id="azsw2e-d1e3130-d1e115" n="1">
+            Quando autem inter eam et cognatos et tutorem super hoc orta
+            fuerit dubitatio, aditus praeses provinciae inspecta personarum et
+            qualitate et coniunctione perpendet, ubi puer educari debeat. </p>
+               <p xml:id="azsw2e-d1e3130-d1e118" n="2">
+            Sin autem aestimaverit, apud quem educari debeat, is necessitatem
+            habebit hoc facere, quod praeses iusserit. * ALEX. A. DIONYSODORO.
+            *&lt;A 223 PP. VII ID. FEBR. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3130-Dd1e122">
+               <head xml:id="azsw2e-d1e3130-Hd1e124">2</head>
+               <p xml:id="azsw2e-d1e3130-d1e126">
+                  <ref xml:id="azsw2e-d1e3130-Rd1e128">Imperatores
+            Diocletianus, Maximianus</ref> Utrum nepos tuus ex filia apud te an
+            patruum suum morari debeat, ex singulorum adfectione et qui magis
+            ad suspicionem ex spe successionis propior sit, aestimabitur. * DIOCL.
+            ET MAXIM. AA. ET CC. GRATAE. *&lt;A 294 S. XVIII K. NOV. NICOMEDIAE
+            CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

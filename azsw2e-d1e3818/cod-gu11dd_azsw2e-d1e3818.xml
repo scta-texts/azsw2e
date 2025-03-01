@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 35</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 35</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3818"><!-- azsw2e-l6t35 -->
+            <head xml:id="azsw2e-d1e3818-Hd1e101">Titulus 35</head>
+            <head xml:id="azsw2e-d1e3818-Hd1e103" type="question-title">De his quibus ut indignis auferuntur et ad senatus consultum Silanianum.</head>
+            <div xml:id="azsw2e-d1e3818-Dd1e106">
+               <head xml:id="azsw2e-d1e3818-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3818-d1e110">
+                  <ref xml:id="azsw2e-d1e3818-Rd1e112">Imperatores
+            Severus, Antoninus</ref>  Heredes, quos necem testatoris inultam omisisse
+            constitit, fructus integros cogantur reddere. Neque enim bonae fidei
+            possessores ante controversiam illatam videntur fuisse, qui debitum
+            officium pietatis scientes omiserint </p>
+               <p xml:id="azsw2e-d1e3818-d1e115" n="1">
+            Ex hereditate autem rerum distractarum vel a debitoribus
+            acceptae pecuniae post motam litem bonorum usuras inferant. </p>
+               <p xml:id="azsw2e-d1e3818-d1e118" n="2">
+            Quod in fructibus quoque locum habere, quos in praediis hereditariis
+            inventos aut exinde perceptos vendiderint, procul dubio est. </p>
+               <p xml:id="azsw2e-d1e3818-d1e121" n="3">
+            Usuras autem semisses dependere satis est. * SEV. ET ANT.
+            AA. CELERI. *&lt;A 204 D.XV K.APRIL.CILONE ET LIBONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3818-Dd1e125">
+               <head xml:id="azsw2e-d1e3818-Hd1e127">2</head>
+               <p xml:id="azsw2e-d1e3818-d1e129">
+                  <ref xml:id="azsw2e-d1e3818-Rd1e131">Imperatores
+            Severus, Antoninus</ref>  Polla quidem liberam habuit administrandi
+            patrimonii sui potestatem nec idcirco, quod pupillus illi heres extitit,
+            ea quae ab ipsa finita sunt revocari in disceptationem oportet. </p>
+               <p xml:id="azsw2e-d1e3818-d1e134" n="1">
+            Sed si pupilli nomine falsum dicere vis testamentum, de quo
+            per pollam transactum est, potes experiri, dum memineris, si in causa
+            non obtinueris, et portionem, quam ex eo testamento pupillus habet,
+            te ei salvam facturum, quam adimi pupillo necesse erit secundum iuris
+            formam, et de calumnia tua praesidem deliberaturum, quamvis pupilli
+            nomine agere videaris, cum retractas ea quae finita sunt per coheredem.
+            * SEV. ET ANT. AA. VERO. *&lt;A 208 PP.VII K.MAI.ANTONINO A.III ET
+            GETA III CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3818-Dd1e138">
+               <head xml:id="azsw2e-d1e3818-Hd1e140">3</head>
+               <p xml:id="azsw2e-d1e3818-d1e142">
+                  <ref xml:id="azsw2e-d1e3818-Rd1e144">Imperator
+            Alexander Severus</ref> Si ea quaestio infertur filiis eius, quam
+            consobrinam tuam dicis, quod tabulae testamenti patris eorum, qui
+            a familia interfectus dicebatur, priusquam quaestio de servis haberetur,
+            apertae et recitatae sunt, propter amplissimi ordinis consultum hereditas
+            a fisco vindicatur et ideo agi causa apud procuratorem meum debet,
+            quia non eo tempore pupilli fuerunt. * ALEX. A. ANTIOCHIANO. *&lt;A
+            222 PP.II NON.APRIL.ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3818-Dd1e149">
+               <head xml:id="azsw2e-d1e3818-Hd1e151">4</head>
+               <p xml:id="azsw2e-d1e3818-d1e153">
+                  <ref xml:id="azsw2e-d1e3818-Rd1e155">Imperator
+            Alexander Severus</ref> Hereditas in testamento data per epistulam
+            vel codicillos adimi non potuit. Quia tamen testatrix voluntatem suam
+            non mereri unum ex heredibus declaraverat, merito eius portio non
+            iure ad alium translata fisco vindicata est. Libertates autem in eadem
+            epistula datae peti poterun * ALEX. A. PHILOMUSO. *&lt;A 223 PP.II
+            K.DEC.MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3818-Dd1e159">
+               <head xml:id="azsw2e-d1e3818-Hd1e161">5</head>
+               <p xml:id="azsw2e-d1e3818-d1e163">
+                  <ref xml:id="azsw2e-d1e3818-Rd1e165">Imperator
+            Alexander Severus</ref> Non oportet ut indignis heredibus successiones
+            auferri praetextu, quod in sepultura supremis defunctorum obtemperatum
+            non fuisset. * ALEX. A. TYRANNO. *&lt;A 224 PP. VII ID. MART. IULIANO
+            ET CRISPINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3818-Dd1e169">
+               <head xml:id="azsw2e-d1e3818-Hd1e171">6</head>
+               <p xml:id="azsw2e-d1e3818-d1e173">
+                  <ref xml:id="azsw2e-d1e3818-Rd1e175">Imperator
+            Alexander Severus</ref>  Minoribus quinque et viginti annis heredibus
+            non obesse crimen inultae mortis placuit. </p>
+               <p xml:id="azsw2e-d1e3818-d1e178" n="1">
+            Cum autem vos etiam accusationem pertulisse et quosdam ex
+            reis punitos proponatis, licet is qui mandasse caedem dicitur provocaverit,
+            vereri non debetis, ne quam hereditatis paternae a fisco meo quaestionem
+            patiamini. Convenit enim pietati vestrae respondere causam appellationis
+            reddenti </p>
+               <p xml:id="azsw2e-d1e3818-d1e181" n="2">
+            Quod si maioris aetatis fuissetis, etiam ex necessitate provocationis
+            certamen implere deberetis, ut possitis adire hereditatem. * ALEX.
+            A. VENUSTO ET CLEMENTINO. *&lt;A 229 PP.XV K.IUL.ALEXANDRO A. III
+            ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3818-Dd1e185">
+               <head xml:id="azsw2e-d1e3818-Hd1e187">7</head>
+               <p xml:id="azsw2e-d1e3818-d1e189">
+                  <ref xml:id="azsw2e-d1e3818-Rd1e191">Imperator
+            Alexander Severus</ref> Si ideo ultio necis testatoris non est desiderata,
+            quia caedis auctores reperiri non potuerunt, obesse heredibus, in
+            quo nulla eorum culpa detegitur, non oportet. * ALEX. A. VITALIAE.
+            *&lt;A 232 PP.ID.MART.LUPO ET MAXIMO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3818-Dd1e195">
+               <head xml:id="azsw2e-d1e3818-Hd1e197">8</head>
+               <p xml:id="azsw2e-d1e3818-d1e199">
+                  <ref xml:id="azsw2e-d1e3818-Rd1e201">Imperator
+            Gordianus</ref> Alia causa est eius, qui falsi instituta accusatione
+            ad finem usque quod insimulabat perduxit et contrariam sententiam
+            meruit, alia eius, qui inchoatam accusationem non pertulit, cum in
+            illius quidem partem succedat fiscus, hic autem, qui contrariam iudicis
+            sententiam non sustinuit, suae partis non perdat persecutionem. *
+            GORD. A. TATIAE. *&lt;A 239 PP.XV K.FEBR.GORDIANO A.ET AVIOLA CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3818-Dd1e205">
+               <head xml:id="azsw2e-d1e3818-Hd1e207">9</head>
+               <p xml:id="azsw2e-d1e3818-d1e209">
+                  <ref xml:id="azsw2e-d1e3818-Rd1e211">Imperatores
+            Diocletianus, Maximianus</ref> Cum fratrem tuum veneno peremptum esse
+            adseveras, ut effectus successionis eius tibi non auferatur, mortem
+            eius ulcisci te necesse est. Licet enim hereditatem eorum, qui clandestinis
+            insidiis perimuntur, hi qui iure vocantur adire non vetantur, tamen,
+            si interitum non fuerint ulti, successionem obtinere non possunt *
+            DIOCL. ET MAXIM. AA. AELIANAE. *&lt;A 291 PP. TIBERIANO ET DIONE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3818-Dd1e216">
+               <head xml:id="azsw2e-d1e3818-Hd1e218">10</head>
+               <p xml:id="azsw2e-d1e3818-d1e220">
+                  <ref xml:id="azsw2e-d1e3818-Rd1e222">Imperatores
+            Diocletianus, Maximianus</ref>  Sororem fratris necem iure licito vindicantem
+            evincere ab uxore scripta recte successionem non convenit. </p>
+               <p xml:id="azsw2e-d1e3818-d1e225" n="1">
+            Secundum quae, si fiduciam innocentiae geris et neque dolo
+            malo tuo maritum necatum neque alias indignam te successione posse
+            probari confidis, adversus omnem calumniam maximam habes securitatem.
+            * DIOCL. ET MAXIM. AA. ET CC. SILVANAE. *&lt;A 294 D. XII K. MAI.
+            SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3818-Dd1e229">
+               <head xml:id="azsw2e-d1e3818-Hd1e231">11</head>
+               <p xml:id="azsw2e-d1e3818-d1e233">
+                  <ref xml:id="azsw2e-d1e3818-Rd1e235">Imperator
+            Justinianus</ref>  Cum Silanianum senatus consultum et a nobis tam
+            laudandum quam corroborandum est nec non divi Marci oratio, quae circa
+            id facta est, invenimus autem in ea nullam mentionem libertatis factam
+            et veteres movit quaedam de libertatibus relictis in testamento necati
+            testatoris quaestio, necessarium nobis visum est etiam haec dirimere.
+            </p>
+               <p xml:id="azsw2e-d1e3818-d1e238" n="1">
+            Ii enim, qui libertate fuerant in hoc testamento donati et
+            si eam accepissent, lucrum, quod eis in medio accidit, poterant sibi
+            adquirere, interea autem procrastinatione propter necis vindictam
+            habita hoc minime ad eos pervenit et postea in libertatem deducti
+            periclitabantur. </p>
+               <p xml:id="azsw2e-d1e3818-d1e241" n="2">
+            Ne medium tempus fuerit eis damnosum, et maxime si ancillae
+            in medio pepererint et postea hereditas adita sit, bellissimum nobis
+            videtur divi marci prudentissimi principis orationem et in libertatibus
+            producere, ne princeps philosophiae plenus aliquid videatur imperfectum
+            sanxisse: sed ita in hereditatibus et in legatis et in fideicommissis
+            et maxime in libertatibus, quas semper philosophia amplectitur, extendatur
+            eius oratio, ut et lucrum quod in medio accidit eis post libertatem
+            acceptam restituatur et partus liber et ingenuus esse intellegatur
+            nullaque machinatione huiusmodi praepeditio damnum aliquod inrogare
+            concedatur et libera eorum posteritas, si in medio fuerint ab hac
+            luce subtracti, suorum gen itorum commodum consequatur. </p>
+               <p xml:id="azsw2e-d1e3818-d1e244" n="3">
+            Merito enim nobis sanctissimi marci per omnia constitutionem
+            replere placuit: nihil etenim actum esse credimus, dum aliquid addendum
+            superest. * IUST. A. IOHANNI PP. *&lt;A 531 D. II K. MAI. CONSTANTINOPOLI
+            POST CONSULATUM LAMPADII ET ORESTIS VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3818-Dd1e248">
+               <head xml:id="azsw2e-d1e3818-Hd1e250">12</head>
+               <p xml:id="azsw2e-d1e3818-d1e252">
+                  <ref xml:id="azsw2e-d1e3818-Rd1e254">Imperator
+            Justinianus</ref>  Talis de antiquo iure dubietas nostrae serenitati
+            suggesta est propter senatus consultum silanianum et servos, qui supplicio
+            adficiuntur sub eodem tecto commorantes et non suum auxilium domino
+            per insidias occiso praebentes. Veteres enim certum non faciunt, qui
+            intellectus de verbis " sub eodem tecto" significatur, sive
+            in eodem cubiculo sive in triclinio vel porticu vel in aula haec appellatio
+            accipi debeat, adicientes, si dominus in via vel in agro fuerit interfectus,
+            eos servos puniri, qui praesto erant et non auxilium ad prohibendum
+            periculum praebuerunt, nulla distinctione super qualitate praesentiae
+            utentes </p>
+               <p xml:id="azsw2e-d1e3818-d1e257" n="1">
+            Nos igitur omnem eis occasionem ad declinanda supplicia super
+            neglegentia salutis domini sui amputantes sancimus omnes servos, ex
+            quocumque loco sive in domo sive in via sive in agro possint clamorem
+            exaudire vel insidias sentire et non auxilium tulerint, supplicio
+            senatus consulti subiacere. Oportet enim eos, ubicumque senserint
+            dominum periclitantem, ad prohibendas insidias concurrere * IUST.
+            A. IOHANNI PP. *&lt;A 532 D. XV K. NOV. CONSTANTINOPOLI POST CONSULATUM
+            LAMPADII ET ORESTIS VV. CC. ANNO SECUNDO.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 44</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 44</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6665"><!-- azsw2e-l10t44 -->
+            <head xml:id="azsw2e-d1e6665-Hd1e101">Titulus 44</head>
+            <head xml:id="azsw2e-d1e6665-Hd1e103" type="question-title">De his qui sponte munera susceperunt</head>
+            <div xml:id="azsw2e-d1e6665-Dd1e106">
+               <head xml:id="azsw2e-d1e6665-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6665-d1e110">
+                  <ref xml:id="azsw2e-d1e6665-Rd1e112">Imperator
+            Alexander Severus</ref> Veterani, qui, cum possent se tueri immunitate
+            his concessa, decuriones se fieri in patria sua maluerunt, redire
+            ad excusationem quam reliquerunt non possunt, nisi certa lege et pacto
+            servandae immunitatis vel partem eius oneris agnoverunt. * ALEX. A.
+            FELICIANO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6665-Dd1e116">
+               <head xml:id="azsw2e-d1e6665-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6665-d1e120">
+                  <ref xml:id="azsw2e-d1e6665-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> Qui publici muneris vacationem habet,
+            si aliquem honorem excepto decurionatu sponte susceperit, ob id, quod
+            patriae suae utilitatibus cesserit vel gloriae cupiditate paulisper
+            ius publicum relaxaverit, competens privilegium non amittit. * DIOCL.
+            ET MAXIM. AA. VALERIO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6665-Dd1e126">
+               <head xml:id="azsw2e-d1e6665-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e6665-d1e130">
+                  <ref xml:id="azsw2e-d1e6665-Rd1e132">Imperator
+            Leo</ref>  Qui condicioni non obnoxius curiali quemlibet honorem vel
+            munus voluntate propria in quacumque gesserit civitate, nullum praeiudicium
+            circa fortunam suam statumque sustineat: sed tam ipse quam liberi
+            eius et qui ex his in posterum procreandi sunt ab omni huiusmodi nexu
+            cum suis facultatibus liberi alienique permaneant, ita tamen ut, si
+            aliqua functio volentibus eis fuerit iniuncta, ex qua necesse sit
+            aliquid eos accipere, quod ex data sibi pecunia in reliquis apud eos
+            mansisse constiterit, solventes sine ulla molestia vel condicionis
+            suae formidine discedant. </p>
+               <p xml:id="azsw2e-d1e6665-d1e135" n="1">
+            Si quis vero ex his omnia decurionum munera vel functiones
+            vel honores nulla imminente necessitate, sed sua sponte peregerit,
+            eum pro sua liberalitate patrem civitatis, in qua voluntarius municeps
+            apparebit, si hoc ei libuerit, fieri constituique hac lege decernimus.
+            * LEO A. PUSAEO PP. *&lt;A 465 D.V ID.NOV.CONSTANTINOPOLI BASILISCO
+            ET HERMINERICO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6665-Dd1e140">
+               <head xml:id="azsw2e-d1e6665-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e6665-d1e144">
+                  <ref xml:id="azsw2e-d1e6665-Rd1e146">Imperator
+            Justinianus</ref>  Eos, qui liberi fortuna curiali constituti postea
+            se curiae cuiuscumque civitatis obtulerunt, confidere volumus, quod
+            posteritas eorum non solum iam procreata, sed etiam post talem deditionem
+            procreanda huiusmodi fortuna libera manebit, sive specialiter sub
+            hac lege curiae se obtulerint, ut ab his descendentes tali fortuna
+            liberi maneant, sive nullam huiusmodi fecerint mentionem, nullo audente
+            dicere, quod nati vel concepti post talem deditionem sequi paternam
+            condicionem debeant: hoc enim speciali beneficio alacriores omnes
+            ad conferendam civitatibus huiusmodi opitulationem constituere properavimus:
+            ita tamen, ut nec occasione quartae portionis bonorum huiusmodi decurionis
+            quicumque successores eius aliquam inquietudinem patiantur, utpote
+            libera eius substantia omni curiali gravamine conservanda. </p>
+               <p xml:id="azsw2e-d1e6665-d1e149" n="1">
+            Et si quid defunctus vel ex administratione curialium munerum
+            vel ex quarta portione ad eandem curiam semel vel saepius devoluta
+            vel ex alia quacumque causa eidem curiae debuisse probetur, hoc idem
+            successores curialibus reddere minime dubitent. </p>
+               <p xml:id="azsw2e-d1e6665-d1e152" n="2">
+            Illis scilicet, quae super naturalibus filiis, quos naturalis
+            pater sub hac lege curiae dedit vel postea dederit, ut legitimos tam
+            ex testamento quam ab intestato successores habeat, non solum veteribus
+            legibus, sed etiam nostris sanctionibus disposita sunt, praesenti
+            lege excipiendis, ut non ipsi tantum filii naturales, sed etiam ex
+            his procreandi mares paternam sequantur fortunam, vel maribus liberis
+            minime subsistentibus pars quarta substantiae mortui curiae deputetur.
+            * IUST. A. MENAE PP. *&lt;&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

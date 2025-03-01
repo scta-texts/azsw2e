@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 60</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 60</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4086"><!-- azsw2e-l6t60 -->
+            <head xml:id="azsw2e-d1e4086-Hd1e101">Titulus 60</head>
+            <head xml:id="azsw2e-d1e4086-Hd1e103" type="question-title">De bonis maternis et materni generis</head>
+            <div xml:id="azsw2e-d1e4086-Dd1e106">
+               <head xml:id="azsw2e-d1e4086-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4086-d1e110">
+                  <ref xml:id="azsw2e-d1e4086-Rd1e112">Imperator
+            Constantinus</ref>  Res, quae ex matris successione fuerint ad filios
+            devolutae, ita sint in parentum potestate, ut fruendi dumtaxat habeant
+            facultatem, dominio videlicet earum ad liberos pertinente. </p>
+               <p xml:id="azsw2e-d1e4086-d1e115" n="1">
+            Parentes autem, penes quos maternarum rerum utendi fruendique
+            tantum potestas est, omnem debent tuendae rei diligentiam adhibere
+            et quod iure filiis debetur in examine per se vel per procuratorem
+            poscere et sumptus ex fructibus impigre facere et litem inferentibus
+            resistere atque ita omnia agere, tamquam solidum perfectumque dominium
+            et personam gerant legitimam, ita ut, si quando rem alienare voluerint,
+            emptor vel is cui res donatur observet, ne quam partem earum rerum,
+            quas alienari prohibitum est, sciens accipiat vel ignorans. </p>
+               <p xml:id="azsw2e-d1e4086-d1e118" n="2">
+            Docere enim pater debet proprii iuris eam rem esse, quam
+            donat aut distrahit: et emptori, si velit, fideiussorem licebit accipere,
+            quia nullam poterit praescriptionem opponere filiis quandoque rem
+            suam vindicantibus. * CONST. A. CONSS. PRAETT. TRIBB. PLEBIS SENATUI
+            SALUTEM. *&lt;A 319 D. XV K. AUG. AQUILEIA. RECITATA APUD VETTIUM
+            RUFINUM PU. IN SENATU NON. SEPT. CONSTANTINO A. V ET LICINIO C. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4086-Dd1e122">
+               <head xml:id="azsw2e-d1e4086-Hd1e124">2</head>
+               <p xml:id="azsw2e-d1e4086-d1e126">
+                  <ref xml:id="azsw2e-d1e4086-Rd1e128">Imperatores
+            Arcadius, Honorius</ref> Quidquid avus avia, proavus proavia ex materna
+            linea venientes nepoti nepti pronepoti pronepti testamento fideicommisso
+            legato donatione vel alio quolibet titulo largitionis vel etiam intestati
+            successione contulerint, pater filio filiaeve integra illibataque
+            custodiat, ut vendere donare relinquere alteri obligare, sicut nec
+            materna bona, non possit usu fructu dumtaxat ad eum pertinente, ita
+            ut, quemadmodum ipse super his licentiam totius potestatis amittit,
+            defuncto eo filio filiaeve praecipua computentur nec ab illis, qui
+            ex patre sunt coheredes, vindicentur. * ARCAD. ET HONOR. AA. FLORENTINO
+            PU. *&lt;A 395 D. ID. OCT. MEDIOLANI OLYBRIO ET PROBINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4086-Dd1e132">
+               <head xml:id="azsw2e-d1e4086-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e4086-d1e136">
+                  <ref xml:id="azsw2e-d1e4086-Rd1e138">Imperatores
+            Theodosius, Valentinianus</ref>  Si viva matre emancipati sunt filii
+            et postea mater decesserit, quoniam omni commodo destituitur pater
+            nec retinet usum fructum, viriles ei inter filios, sive unus seu plures
+            sunt, usus fructus tribuimus portiones. </p>
+               <p xml:id="azsw2e-d1e4086-d1e141" n="1">
+            Si vero mulier moriens alios ex filiis emancipatos a patre,
+            alios in patria potestate dimiserit, in casu dispari utitur maritus
+            defunctae beneficio, quod casui utrique praescripsimus, id est circa
+            eorum quidem portionem, quos adhuc in sacris retinet, usum fructum
+            ex legum auctoritate retinebit et praemium delatae, cum volet, emancipationis
+            accipiet, in eorum vero parte, quos exisse de potestate viva matre
+            constiterit, usum fructum virilis inter eos portinnis secundum praescripta
+            percipiet. </p>
+               <p xml:id="azsw2e-d1e4086-d1e144" n="2">
+            In nepotibus etiam vel neptibus hoc observandum esse censemus,
+            ut maritus, qui uxore mortua, non extantibus filiis, cum solis nepotibus
+            vel neptibus ex hac lege ad emolumentum vocandus est, si unus vel
+            una pluresve nepotes ex filio uno vel pluribus, qui in potestate defecerunt,
+            procreati sunt, hoc iure utatur, quod de filiis constitutum est. </p>
+               <p xml:id="azsw2e-d1e4086-d1e147"> 
+            Nam licet hoc novum praesens lex constituat in nepotes, non
+            est tamen ab re, ut in hoc casu deteriores esse nepotibus filii non
+            sinantur. </p>
+               <p xml:id="azsw2e-d1e4086-d1e150"> 
+            Habeat igitur avus veniens cum nepotibus in potestate durantibus
+            usum fructum bonorum omnium, quae ex defunctae aviae successione delata
+            sunt. </p>
+               <p xml:id="azsw2e-d1e4086-d1e152"> 
+            Cum vero his quoque libertatem emancipatione largitur, similiter
+            et ab ipsis, sicut de filiis constitutum est, praemium manumissionis
+            accipiat, vel si ex pluribus alteros manumittit alteros retinet, ex
+            parte manumissorum legitimum praemium, ex parte vero in potestate
+            manentium retineat usum fructum. </p>
+               <p xml:id="azsw2e-d1e4086-d1e154" n="3">
+            Quod si nepotes sint neptesve aut ex emancipato filio aut
+            ex filia procreati aut ab ipso avia vivente sacris dimissis idem avus
+            virilis cum ipsis portionis habeat usum fructum. Si vero ex nepotibus
+            neptibusve tempore, quo in aviae successionem vocantur, alii in avi
+            sunt potestate, id est mariti defunctae, alii sui iuris sint, circa
+            personam quidem eorum, qui in potestate consistunt, et in usu fructu
+            consequendo et in emancipationis praemio conquirendo ratio supra dicta
+            servetur: in his vero, qui sui iuris sunt, facultas capiendi usus
+            fructus virilis inter eos portionis habeatur. </p>
+               <p xml:id="azsw2e-d1e4086-d1e157" n="4">
+            Eadem autem et de pronepotibus sexus utriusque sancimus,
+            manente definitione, quae de singulis sancita est, si filii sint pariter
+            ac nepotes. * THEODOS. ET VALENTIN. AA. AD SENATUM URB. ROMAE. *&lt;A
+            426 D. VIII ID. NOV. RAVENNAE THEODOSIO XII ET VALENTINIANO II AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4086-Dd1e162">
+               <head xml:id="azsw2e-d1e4086-Hd1e164">4</head>
+               <p xml:id="azsw2e-d1e4086-d1e166">
+                  <ref xml:id="azsw2e-d1e4086-Rd1e168">Imperator
+            Leo</ref>  Omnem ambiguitatis confusionem amputantes hac liquida et
+            compendiosa lege sancimus circa usum fructum maternarum rerum nullam
+            esse differentiam, sive in priore matrimonio pater, ex quo filios
+            habuit, permanere voluerit sive novercam filiis superduxerit: legibus,
+            quae de maternis bonis latae sunt, suam habentibus firmitatem. </p>
+               <p xml:id="azsw2e-d1e4086-d1e171" n="1">
+            Patres igitur usum fructum maternarum rerum, etiamsi ad secundas
+            migraverint nuptias, sine dubio habere debebunt: nec ullam filiis
+            vel quibuslibet ex persona eorum contra patres improbam vocem accusationemque
+            posse competere. * LEO A. CALLICRATI PP. PER ILLYRICUM. *&lt;A 468
+            D. K. SEPT. ANTHEMIO A. II CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

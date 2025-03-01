@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 46</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 46</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e5470"><!-- azsw2e-l8t46 -->
+            <head xml:id="azsw2e-d1e5470-Hd1e101">Titulus 46</head>
+            <head xml:id="azsw2e-d1e5470-Hd1e103" type="question-title">De patria potestate</head>
+            <div xml:id="azsw2e-d1e5470-Dd1e106">
+               <head xml:id="azsw2e-d1e5470-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e5470-d1e110">
+                  <ref xml:id="azsw2e-d1e5470-Rd1e112">Imperatores
+            Antoninus, Verus</ref> Si filium tuum in potestate tua dicis esse,
+            praeses provinciae aestimabit, an audire te debeat, cum diu passus
+            sis ut patris familias rem eius agi per eos, qui testamento matris
+            tutores nominati fuerunt. * ANT. ET VERUS AA. TITIO. *&lt;A XXX PP.
+            SINE DIE ET CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5470-Dd1e116">
+               <head xml:id="azsw2e-d1e5470-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e5470-d1e120">
+                  <ref xml:id="azsw2e-d1e5470-Rd1e122">Imperator
+            Antoninus</ref> Eius, quod in potestate patris agens habuisti, dominium
+            ad patrem tuum pertinuit extra ea, quae non adquiruntur. * ANT. A.
+            MARONIAE. *&lt;A 215 PP. XIII K. MART. LAETO II ET CEREALE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e5470-Dd1e126">
+               <head xml:id="azsw2e-d1e5470-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e5470-d1e130">
+                  <ref xml:id="azsw2e-d1e5470-Rd1e132">Imperator
+            Alexander Severus</ref> Si filius tuus in potestate tua est, res adquisitas
+            tibi alienare non potuit: quem, si pietatem patri debitam non agnoscit,
+            castigare iure patriae potestatis non prohiberis, artiore remedio
+            usurus, si in pari contumacia perseveraverit, eumque praesidi provinciae
+            oblaturus dicturo sententiam, quam tu quoque dici volueris. * ALEX.
+            A. ARTEMIDORO. *&lt;A 227 PP. V ID. DEC. ALBINO ET MAXIMO CONSS.&gt;
+            </p>
+               <p xml:id="azsw2e-d1e5470-d1e135"> .
+            </p>
+               <p xml:id="azsw2e-d1e5470-d1e137">
+                  <ref xml:id="azsw2e-d1e5470-Rd1e139">Imperatores
+            Valerianus, Gallienus</ref>  Congruentius quidem videtur intra domum,
+            inter te ac filios tuos si quae controversiae oriuntur, terminari.
+            </p>
+               <p xml:id="azsw2e-d1e5470-d1e142" n="1">
+            Sed si ita res fuit, ut iniuriis eorum et ad ius experiundum
+            et ad vindictam processeris, aditus praeses provinciae super disceptationibus
+            quidem pecuniariis consuetum exerceri iubebit ordinem iuris: reverentiam
+            autem debitam exhibere matri filios coget et, si provectam ad inclementiores
+            iniurias improbitatem deprehenderit, laesam pietatem severius vindicabit.
+            * VALER. ET GALLIEN. AA. ET VALER. C. GALLAE. *&lt;A 259 PP. XVI K.
+            IUN. AEMILIANO ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5470-Dd1e147">
+               <head xml:id="azsw2e-d1e5470-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e5470-d1e151">
+                  <ref xml:id="azsw2e-d1e5470-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Filia tua non solum reverentiam, sed
+            et subsidium vitae ut exhibeat tibi, rectoris provinciae auctoritate
+            compelletur. * DIOCL. ET MAXIM. AA. DONATIO. *&lt;A 287 PP. K. MART.
+            DIOCLETIANO III ET MAXIMIANO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5470-Dd1e157">
+               <head xml:id="azsw2e-d1e5470-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e5470-d1e161">
+                  <ref xml:id="azsw2e-d1e5470-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Abdicatio, quae Graeco more ad alienandos
+            liberos usurpabatur et <foreign>apoceryxis</foreign>
+            dicebatur, Romanis legibus non comprobatur. * DIOCL. ET MAXIM. AA.
+            HERMOGENI. *&lt;A 288 PP. XVII K. DEC. MAXIMIANO A. II ET IANUARIO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5470-Dd1e169">
+               <head xml:id="azsw2e-d1e5470-Hd1e171">7</head>
+               <p xml:id="azsw2e-d1e5470-d1e173">
+                  <ref xml:id="azsw2e-d1e5470-Rd1e175">Imperatores
+            Diocletianus, Maximianus</ref> Si maritus tuus, licet militans, in
+            patria potestate constitutus filium legitimis suscepit nuptiis, eum
+            in potestate avi perseverasse non ambigitur. * DIOCL. ET MAXIM. AA.
+            ET CC. DUPLIANAE. *&lt;A 294 S. PRID. NON. APRIL. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5470-Dd1e179">
+               <head xml:id="azsw2e-d1e5470-Hd1e181">8</head>
+               <p xml:id="azsw2e-d1e5470-d1e183">
+                  <ref xml:id="azsw2e-d1e5470-Rd1e185">Imperatores
+            Diocletianus, Maximianus</ref> Libertos exemplo ingenuorum filios
+            suos post libertatem ex legitimis nuptiis natos in potestate habere
+            non est prohibitum. * DIOCL. ET MAXIM. AA. ET CC. AEMILIANAE. *&lt;A
+            294 S. XVI K. MAI. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5470-Dd1e189">
+               <head xml:id="azsw2e-d1e5470-Hd1e191">9</head>
+               <p xml:id="azsw2e-d1e5470-d1e193">
+                  <ref xml:id="azsw2e-d1e5470-Rd1e195">Imperatores
+            Diocletianus, Maximianus</ref> Nec filium negare cuiquam esse liberum
+            senatus consulta de partu agnoscendo ac denuntiata poena, item praeiudicium
+            edicto perpetuo propositum et remedium alimentorum apud praesidem
+            maiori trimo petenti monstratum iure manifesto declarant. * DIOCL.
+            ET MAXIM. AA. ET CC. NICAGORAE. *&lt;A 294 S. V K. MAI. SIRMI CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e5470-Dd1e199">
+               <head xml:id="azsw2e-d1e5470-Hd1e201">10</head>
+               <p xml:id="azsw2e-d1e5470-d1e203">
+                  <ref xml:id="azsw2e-d1e5470-Rd1e205">Imperator
+            Constantinus</ref> Libertati a maioribus tantum impensum est, ut patribus,
+            quibus ius vitae in liberos necisque potestas olim erat permissa,
+            eripere libertatem non liceret. * CONST. A. AD MAXIMUM PU. *&lt;A
+            323 D. XV K. IUN. THESSALONICAE SEVERO ET RUFINO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

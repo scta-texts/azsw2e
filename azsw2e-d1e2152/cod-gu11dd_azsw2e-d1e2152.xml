@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 28</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 28</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2152"><!-- azsw2e-l4t28 -->
+            <head xml:id="azsw2e-d1e2152-Hd1e101">Titulus 28</head>
+            <head xml:id="azsw2e-d1e2152-Hd1e103" type="question-title">Ad senatus consultum Macedonianum</head>
+            <div xml:id="azsw2e-d1e2152-Dd1e106">
+               <head xml:id="azsw2e-d1e2152-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2152-d1e110">
+                  <ref xml:id="azsw2e-d1e2152-Rd1e112">Imperator
+            Pertinax</ref> Si filius, cum in potestate patris esset, mutuam a
+            te pecuniam accepit, cum se patrem familias diceret, eiusque adfirmationi
+            credidisse te iusta ratione edocere potes, exceptio ei denegabitur.
+            * PERTINAX A. ATILIO. *&lt;A . 193 PP. X K. APRIL. FALCONE ET CLARO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2152-Dd1e116">
+               <head xml:id="azsw2e-d1e2152-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2152-d1e120">
+                  <ref xml:id="azsw2e-d1e2152-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Zenodorus cum sui iuris esse publico videretur
+            aut patris voluntate contraxit aut in eam rem pecuniam accepit, quae
+            patris oneribus incumberet, vel suae potestatis constitutus novatione
+            facta fidem suam obligavit vel alias agnovit debitum , non esse locum
+            decreto amplissimi ordinis rationis est. * SEV. ET ANT. AA. SOPHIAE.
+            *&lt;A 198 PP. V K. MART. SATURNINO ET GALLO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2152-Dd1e126">
+               <head xml:id="azsw2e-d1e2152-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2152-d1e130">
+                  <ref xml:id="azsw2e-d1e2152-Rd1e132">Imperatores
+            Severus, Antoninus</ref> Si filius familias aliquid mercatus pretium
+            stipulanti venditori cum usurarum accessione spondeat, non esse locum
+            senatus consulto, quo fenerare filiis familias prohibitum est, nemini
+            dubium est: origo enim potius obligationis quam titulus actionis considerandus
+            est. * SEV. ET ANT. AA. MACRINO. *&lt;A 198 PP. ID. MART. SATURNINO
+            ET GALLO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2152-Dd1e137">
+               <head xml:id="azsw2e-d1e2152-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2152-d1e141">
+                  <ref xml:id="azsw2e-d1e2152-Rd1e143">Imperatores
+            Severus, Antoninus</ref> Si permittente patre filio familias pecuniam
+            mutuam dedisti, senatus consulti potestas non intervenit, et ideo
+            persecutio pignoris quod in bonis patris fuit non denegabitur, praesertim
+            cum eidem filius heres extiterit, modo si nullus alius iure conventionis
+            ratione temporis et ordinis potior apparuerit. * SEV. ET ANT. AA.CYRILLAE.
+            *&lt;A 201 PP. XII K. MAI. FABIANO ET MUCIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2152-Dd1e147">
+               <head xml:id="azsw2e-d1e2152-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e2152-d1e151">
+                  <ref xml:id="azsw2e-d1e2152-Rd1e153">Imperator
+            Alexander Severus</ref>  Macedoniani senatus consulti auctoritas petitionem
+            eius pecuniae non impedit, quae filio familias studiorum vel legationis
+            causa alibi degenti ad necessarios sumptus, quos patris pietas non
+            recusaret, credita est. </p>
+               <p xml:id="azsw2e-d1e2152-d1e156" n="1">
+            Sed ex contractu filii post mortem eius de peculio actio
+            in patrem competere ita demum potest, si anni utilis spatium petitionem
+            non impedit. </p>
+               <p xml:id="azsw2e-d1e2152-d1e159" n="2">
+            Sane si iussu patris datum mutuum probetur, nec in quos usus
+            versa sit pecunia disquiri necesse est et perpetua in patrem etiam
+            mortuo filio actio est. * ALEX. A. SEPTIMIAE MUSAE. *&lt;A 230 PP.
+            PRID. K. MART. AGRICOLA ET CLEMENTE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2152-Dd1e163">
+               <head xml:id="azsw2e-d1e2152-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e2152-d1e167">
+                  <ref xml:id="azsw2e-d1e2152-Rd1e169">Imperator
+            Philippus</ref>  Si filius tuus in potestate tua agens contra senatus
+            consultum macedonianum mutuam sumpsit pecuniam, actio de peculio adversus
+            te eo nomine efficaciter dirigi nequaquam potest. </p>
+               <p xml:id="azsw2e-d1e2152-d1e172" n="1">
+            Quod senatus consulti auxilium, licet filii familias meminit,
+            ad nepotes et ad pronepotes porrigitur. * PHILIPP. A. ET PHILIPP.
+            C. THEOPOMPO. *&lt;A 245 PP. VI NON. MART. PHILIPPO A. ET TITIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2152-Dd1e176">
+               <head xml:id="azsw2e-d1e2152-Hd1e178">7</head>
+               <p xml:id="azsw2e-d1e2152-d1e180">
+                  <ref xml:id="azsw2e-d1e2152-Rd1e182">Imperator
+            Justinianus</ref>  Si filius familias citra patris iussionem vel mandatum
+            vel voluntatem pecunias creditas acceperit, postea autem pater ratum
+            habuerit contractum, veterum ambiguitatem decidentes sancimus, quemadmodum,
+            si ab initio voluntate patris vel mandato filius familias pecuniam
+            creditam accepisset, obnoxius firmiter constituebatur, ita et si postea
+            ratum pater habuerit contractum, validum esse huiusmodi contractum,
+            cum testimonium paternum respuere satis iniquum est. Necesse est enim
+            patris ratihabitionem principali patris mandato vel consensui non
+            esse absimilem, cum nostra novella lege et generaliter omnis ratihabitio
+            prorsus trahitur et confirmat ea ab initio quae subsecuta sunt. Et
+            haec quidem de privatis hominibus sancienda sun </p>
+               <p xml:id="azsw2e-d1e2152-d1e185" n="1">
+            Sin autem miles filius familias pecuniam creditam acceperit,
+            sive sine mandato vel consensu vel voluntate vel ratihabitione patris,
+            stare oportet contractum, nulla differentia introducenda, ob quam
+            causam pecuniae creditae vel ubi consumptae sunt. In pluribus enim
+            iuris articulis filii familias milites non absimiles videntur hominibus
+            qui sui iuris sunt, et ex praesumptione omnis miles non credatur in
+            aliud quicquam pecunias accipere et expendere nisi in causas castrenses
+            * IUST. A. IULIANO PP. *&lt;A 530 D. XII K. AUG. LAMPADIO ET ORESTA
+            VV. CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

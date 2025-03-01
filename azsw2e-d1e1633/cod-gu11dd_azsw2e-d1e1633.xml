@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 26</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 26</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1633"><!-- azsw2e-l3t26 -->
+            <head xml:id="azsw2e-d1e1633-Hd1e101">Titulus 26</head>
+            <head xml:id="azsw2e-d1e1633-Hd1e103" type="question-title">Ubi causae fiscales vel divinae domus hominumque eius agantur</head>
+            <div xml:id="azsw2e-d1e1633-Dd1e106">
+               <head xml:id="azsw2e-d1e1633-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1633-d1e110">
+                  <ref xml:id="azsw2e-d1e1633-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Non defensae mortis quaestionem apud procuratores
+            nostros non oportere tractari quis ignorat, nec bona fisco peti posse,
+            quam si de crimine constiterit apud eum , cui convictis poenam inrogare
+            licet? plane defunctis homicidii reis apud procuratores quoque causam
+            agendam esse ratio permittit. * SEV. ET ANT. AA. DIOSCORO. *&lt;A
+            197 PP. VII ID. MAI. LATERANO ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1633-Dd1e116">
+               <head xml:id="azsw2e-d1e1633-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e1633-d1e120">
+                  <ref xml:id="azsw2e-d1e1633-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Non animadvertimus, cur causam ad officium
+            procuratorum nostrorum pertinentem ad proconsulis notionem advocare
+            velis. Nam cum hoc quaeratur, an pater tuus mortem sibi consciverit
+            metu alicuius poenae ac propterea bona fisco debeant vindicari, iam
+            non de crimine aut poena mortui, sed de bonis quaerendum est * SEV.
+            ET ANT. AA. ARISTAE. *&lt;A 207 D. XII K. OCT. APRO ET MAXIMO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1633-Dd1e126">
+               <head xml:id="azsw2e-d1e1633-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e1633-d1e130">
+                  <ref xml:id="azsw2e-d1e1633-Rd1e132">Imperator
+            Antoninus</ref> Procurator meus, qui vice praesidis provinciae non
+            fungitur, sicut exigere poenam desertae accusationis potest, ita iudicare,
+            ut ea inferatur sententia sua, non potest. * ANT. A. HELIODORO. *&lt;A
+            215 D. X K. SEPT. LAETO ET CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1633-Dd1e137">
+               <head xml:id="azsw2e-d1e1633-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e1633-d1e141">
+                  <ref xml:id="azsw2e-d1e1633-Rd1e143">Imperator
+            Alexander Severus</ref>  Cum vendente procuratore meo emisse te praedia
+            dicas, pretium eorum necessario solvere debes. </p>
+               <p xml:id="azsw2e-d1e1633-d1e146" n="1">
+            Cum his, quibus mandantibus eadem praedia emisse te et tradidisse
+            dicas, agente te procurator meus, si eius audientiam elegeris, cognoscet,
+            ut pecuniam quae pretii nomine tibi debetur et usuras quae fisco solvendae
+            sunt consequi possis. * ALEX. A. MAXIMAE. *&lt;A 233 PP. IIII ID.
+            OCT. MAXIMO ET PATERNO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1633-Dd1e150">
+               <head xml:id="azsw2e-d1e1633-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e1633-d1e154">
+                  <ref xml:id="azsw2e-d1e1633-Rd1e156">Imperator
+            Constantinus</ref> Ad fiscum pertinentes causas rationalis decidat,
+            omnibus concussionibus prohibendis. * CONST. A. AD URSUM. *&lt;A 315
+            D. NON. FEBR. CONSTANTINO A. IIII ET LICINIO IIII CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1633-Dd1e160">
+               <head xml:id="azsw2e-d1e1633-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e1633-d1e164">
+                  <ref xml:id="azsw2e-d1e1633-Rd1e166">Imperatores
+            Constantius, Constans</ref> Si quis adversus conductorem nostrum aliquid
+            agendum crediderit, viro illustri comiti rerum privatarum referri
+            oportet, ne et iudici existimationis et officio eius salutis discrimen
+            immineat. * CONSTANTIUS A. AD ITALICUM. *&lt;D. K. FEBR..... CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1633-Dd1e170">
+               <head xml:id="azsw2e-d1e1633-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e1633-d1e174">
+                  <ref xml:id="azsw2e-d1e1633-Rd1e176">Imperatores
+            Constantius, Constans</ref> Dominicis colonis et patrimonialibus gravitatem
+            tuam censuimus disceptatricem esse debere. Duces enim et praepositos
+            limitum et castrorum et rectores provinciarum evocandis et arcessendis
+            colonis abstinere oportet * CONSTANT. A. AD BULEPHORUM RATIONALEM
+            SUMMAE REI. *&lt;A 349 D. XVI K. MART. LIMENIO ET CATULLINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1633-Dd1e180">
+               <head xml:id="azsw2e-d1e1633-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e1633-d1e184">
+                  <ref xml:id="azsw2e-d1e1633-Rd1e186">Imperator
+            Constantius</ref> Cum aliquid colonus aut servus rei privatae nostrae
+            contra disciplinam publicam adseratur perpetrare, ad iudicium rectoris
+            provinciae venire cogendus est, sic videlicet, ut praesente rationali
+            vel procuratore domus nostrae inter eum et accusatorem causa tractetur
+            et, si facinus fuerit adprobatum, iuris severitas exseratur. * CONSTANT.
+            A. AD TAURUM PP. *&lt;A 358 D. V NON. MART. SIRMI DATIANO ET CEREALE
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1633-Dd1e190">
+               <head xml:id="azsw2e-d1e1633-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e1633-d1e194">
+                  <ref xml:id="azsw2e-d1e1633-Rd1e196">Imperatores
+            Valentinianus, Valens</ref> Universi fiduciam gerant, ut, cum quis
+            eorum ab actore rerum privatarum nostrarum sive a procuratore fuerit
+            vexatus iniuriis, super eius contumeliis vel depraedationibus deferre
+            querimoniam sinceritati tuae vel rectori provinciae non dubitet et
+            ad publicae sententiam vindictae sine aliqua trepidatione convolare.
+            Quae res cum fuerit certis probationibus declarata, sancimus et edicimus,
+            ut, si in provincialem hanc audaciam quisquam moliri fuerit ausus,
+            publice vivus concremetur * VALENTIN. ET VALENS AA. AD PHILIPPUM VIC.
+            *&lt;A 365 D. III NON. IUL. HERACLIAE VALENTINIANO ET VALENTE AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1633-Dd1e201">
+               <head xml:id="azsw2e-d1e1633-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e1633-d1e205">
+                  <ref xml:id="azsw2e-d1e1633-Rd1e207">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Nullum ex officio rationalis,
+            qui exactioni vel chartis inserviat, in alio iudicio adduci oportet,
+            nisi forte cuiuspiam caput accusatio legibus instituta pulsaverit.
+            * GRAT. VALENTIN. ET THEODOS. AAA. AD POLEMIUM PP. *&lt;A 385 D. II
+            K. MAI. ARCADIO ET BAUTONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1633-Dd1e211">
+               <head xml:id="azsw2e-d1e1633-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e1633-d1e215">
+                  <ref xml:id="azsw2e-d1e1633-Rd1e217">Imperatores
+            Theodosius, Valentinianus</ref> Hac lege sancimus, ut, sive agat domorum
+            nostrarum colonus aut inquilinus aut servus seu pulsetur ab aliquo
+            super criminali vel civili negotio, non alibi quam tui culminis ac
+            viri spectabilis comitis domorum petatur examen: nullius adlegatione
+            super fori praescriptione penitus admittenda. * THEODOS. ET VALENTIN.
+            AA. ARTAXI PRAEPOSITO SACRI CUBICULI. *&lt;A 442 D. V ID. APRIL. EUDOXIO
+            ET DIOSCORO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

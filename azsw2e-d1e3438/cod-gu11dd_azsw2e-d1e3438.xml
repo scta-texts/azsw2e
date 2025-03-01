@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 1</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 1</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3438"><!-- azsw2e-l6t1 -->
+            <head xml:id="azsw2e-d1e3438-Hd1e101">Titulus 1</head>
+            <head xml:id="azsw2e-d1e3438-Hd1e103" type="question-title">De fugitivis servis et libertis mancipiisque civitatum artificibus
+            et ad diversa opera deputatis et ad rem privatam vel dominicam pertinentibus.</head>
+            <div xml:id="azsw2e-d1e3438-Dd1e106">
+               <head xml:id="azsw2e-d1e3438-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3438-d1e110">
+                  <ref xml:id="azsw2e-d1e3438-Rd1e112">Imperatores
+            Diocletianus, Maximianus</ref> Servum fugitivum sui furtum facere
+            et ideo non habere locum nec usucapionem nec longi temporis praescriptionem
+            manifestum est, ne fuga servorum dominis suis ex quacumque causa fiat
+            damnosa. * DIOCL. ET MAXIM. AA. AEMILIAE. *&lt;A 286 PP.V ID.DEC.MAXIMO
+            II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3438-Dd1e116">
+               <head xml:id="azsw2e-d1e3438-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3438-d1e120">
+                  <ref xml:id="azsw2e-d1e3438-Rd1e122">Imperatores
+            Diocletianus, Maximianus</ref> Requirendi fugitivos potestatem fieri
+            dominis praesidialis officio est. * DIOCL. ET MAXIM. AA. ET CC. POMPEIANO.
+            *&lt;A 294 PP.III K.MAI.CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3438-Dd1e126">
+               <head xml:id="azsw2e-d1e3438-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3438-d1e130">
+                  <ref xml:id="azsw2e-d1e3438-Rd1e132">Imperator
+            Constantinus</ref> Si fugitivi servi deprehendantur ad barbaricum
+            transeuntes, aut pede amputato debilitentur aut metallo dentur aut
+            qualibet alia poena adficiantur. * CONST. A. ET LICIN. C.
+            AD PROBUM. *&lt;A 317 -323 SINE DIE ET CONSULE.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3438-Dd1e137">
+               <head xml:id="azsw2e-d1e3438-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e3438-d1e141">
+                  <ref xml:id="azsw2e-d1e3438-Rd1e143">Imperator
+            Constantinus</ref>  Quicumque fugitivum servum in domum vel in agrum
+            inscio domino eius susceperit, eum cum pari alio vel viginti solidis
+            reddat. </p>
+               <p xml:id="azsw2e-d1e3438-d1e146" n="1">
+            Sin vero secundo vel tertio eum susceperit, praeter ipsum
+            duos vel tres alios vel praedictam aestimationem pro unoquoque domino
+            repraesentet: in minorum persona tutoribus vel curatoribus poena simili
+            imminente. </p>
+               <p xml:id="azsw2e-d1e3438-d1e149" n="2">
+            Quod si ad praedictam poenam solvendam is qui susceperit
+            minime sufficiat, aestimatione competentis iudicis castigatio in eum
+            procedat. </p>
+               <p xml:id="azsw2e-d1e3438-d1e152" n="3">
+            Quod si servus ingenuum se esse mentitus sub mercede apud
+            aliquem fuerit, nihil is qui eum habuit poterit incusari. </p>
+               <p xml:id="azsw2e-d1e3438-d1e156" n="4">
+            Sane mancipium torqueri oportet, ut manifestetur, utrum propter
+            lucrum capiendum callide a domino ad domum vel agrum eius qui suscepit
+            immissus est, an non. </p>
+               <p xml:id="azsw2e-d1e3438-d1e159" n="5">
+            Quod si maligne factum esse ex servi interrogatione patuerit,
+            servo etiam suo eum qui hoc fecerit privari oportet et ad fiscum pertinere
+            mancipium. * CONST. A. AD VALERIANUM. *&lt;A 317
+            D.V K.IUL.THESSALONICAE GALLICANO ET BASSO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3438-Dd1e163">
+               <head xml:id="azsw2e-d1e3438-Hd1e165">5</head>
+               <p xml:id="azsw2e-d1e3438-d1e167">
+                  <ref xml:id="azsw2e-d1e3438-Rd1e169">Imperator
+            Constantinus</ref> Mancipia diversis artibus
+            praedita, quae ad rem publicam pertinent, in isdem civitatibus placet
+            permanere, ita ut, si quis tale mancipium sollicitaverit vel avocandum
+            crediderit, cum servo altero sollicitatum restituat, duodecim solidorum
+            summa inferenda rei publicae illius civitatis, cuius mancipium abduxit:
+            libertis quoque artificibus, si sollicitati fuerint, cum eadem forma
+            civitati reddendis: ita ut pro fugitivo servo, si sollicitudine defensoris
+            non fuerit requisitus et revocatus, idem defensor duo vicaria mancipia
+            exigatur, nec beneficio principali nec venditione in eius persona
+            iam de cetero valituris. * CONST. A. AD IA NUARIUM. *&lt;A
+            319 D. XVI K. MART. CONSTANTINO A. V ET LICINIO C. CONSS.&gt; </p>
+               <p xml:id="azsw2e-d1e3438-d1e172"> .
+            </p>
+               <p xml:id="azsw2e-d1e3438-d1e174">
+                  <ref xml:id="azsw2e-d1e3438-Rd1e176">Imperator
+            Constantinus</ref>  Cum servum quispiam repetit fugitivum et alius
+            vitandae legis gratia, quae in occultantes mancipia certam poenam
+            statuit, proprietatem opponet, vel in vocem libertatis eum animaverit,
+            ilico nequissimus verbero super quo ambigitur tormentis subiciatur,
+            ut aperta veritate diceptationi terminus fiat. </p>
+               <p xml:id="azsw2e-d1e3438-d1e179" n="1">
+            Quod non solum utrisque iurgantibus proderit, sed etiam servorum
+            animos a fuga poterit deterrere. * CONST. A. AD TIBERIANUM COM. HISPANIARUM.
+            *&lt;A 332 D. XV K. SEPT. CONSTANTINOPOLI PACATIANO ET HILARIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3438-Dd1e183">
+               <head xml:id="azsw2e-d1e3438-Hd1e185">7</head>
+               <p xml:id="azsw2e-d1e3438-d1e187">
+                  <ref xml:id="azsw2e-d1e3438-Rd1e189">Imperatores
+            Valentinianus, Valens, Gratianus</ref> Si quis servum fiscalem putaverit
+            occultandum, non solum eum restituere, sed etiam duodecim libras argenti
+            poenae nomine fisci viribus dependere compellatur. * VALENTIN. VALENS
+            ET GRAT. AAA. AD FELICEM CONSULAREM. *&lt;A 371 D. II ID. APRIL. GRATIANO A. II ET
+            PROBO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3438-Dd1e193">
+               <head xml:id="azsw2e-d1e3438-Hd1e195">8</head>
+               <p xml:id="azsw2e-d1e3438-d1e197">
+                  <ref xml:id="azsw2e-d1e3438-Rd1e199">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Si qui publicorum servorum fabricis seu aliis operibus deputati tamquam
+            propriae condicionis immemores domibus se alienis et privatarum ancillarum
+            consortiis adiunxerit, tam ipsi quam uxores eorum et liberi confestim
+            condicioni pristinae laborique restituantur. * VALENTIN. THEODOS.
+            ET ARCAD. AAA. ALBINO PU. ROMAE. *&lt;A 389 D. VIII K. AUG. TIMASIO
+            ET PROMOTO CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

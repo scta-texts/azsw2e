@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 19</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 19</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e902"><!-- azsw2e-l2t19 -->
+            <head xml:id="azsw2e-d1e902-Hd1e101">Titulus 19</head>
+            <head xml:id="azsw2e-d1e902-Hd1e103" type="question-title">De his quae vi metusve causa gesta sunt.</head>
+            <div xml:id="azsw2e-d1e902-Dd1e106">
+               <head xml:id="azsw2e-d1e902-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e902-d1e110">
+                  <ref xml:id="azsw2e-d1e902-Rd1e112">Imperator
+            Alexander Severus</ref> Persecutionem eorum, quae vi vel furto ablata
+            sunt, etiam si postea interciderunt, integram esse iure responsum
+            est. * ALEX. A. FELICI. *&lt;A 223 PP. X K. DEC. MAXIMO II ET AELIANO
+            CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e902-Dd1e116">
+               <head xml:id="azsw2e-d1e902-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e902-d1e120">
+                  <ref xml:id="azsw2e-d1e902-Rd1e122">Imperator
+            Alexander Severus</ref> Cum te non solum cavisse, verum etiam solvisse
+            pecuniam confitearis, qua ratione ut vim passus restitui quod illatum
+            est postules, perspici non potest, quando verisimile non sit ad solutionem
+            te properasse omissa querella de chirographo utpote per vim extorto,
+            nisi et in solvendo vim te passum dicis. * ALEX. A. ALEXANDRO. *&lt;A
+            226 PP. VI K. IUL. ALEXANDRO A. II ET MARCELLO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e902-Dd1e126">
+               <head xml:id="azsw2e-d1e902-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e902-d1e130">
+                  <ref xml:id="azsw2e-d1e902-Rd1e132">Imperator
+            Gordianus</ref> Si vi vel metu fundum avus tuus distrahere coactus
+            est, etiamsi maxime emptor eum alii vendidit, si tamen tu avo tuo
+            heres extitisti, ut tibi reddito a te pretio restituatur, postquam
+            placuit in rem quoque dari actionem, secundum formam perpetui edicti
+            adito praeside provinciae poteris postulare, si modo qui secundo loco
+            comparavit longae possessionis praescriptione non fuerit munitus.
+            * GORD. A. GAIO. *&lt;A 238 PP. VI ID. AUG. PIO ET PONTIANO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e902-Dd1e137">
+               <head xml:id="azsw2e-d1e902-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e902-d1e141">
+                  <ref xml:id="azsw2e-d1e902-Rd1e143">Imperator
+            Gordianus</ref> Si per vim vel metum mortis aut cruciatus corporis
+            venditio vobis extorta est et non postea eam consensu roborastis,
+            iuxta perpetui formam edicti intra annum quidem agentes, quo experiundi
+            potestas est, si res non restituatur, quadrupli referetis condemnationem,
+            scilicet reddito a vobis pretio: post annum vero causa cognita eadem
+            actio in simplum permittitur: quae causae cognitio eo pertinet, ut
+            ita demum decernatur, si alia actio non sit. * GORD. A. PRIMO ET EUTYCHETI.
+            *&lt;A 239 PP. III NON. AUG. GORDIANO A. ET AVIOLA CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e902-Dd1e147">
+               <head xml:id="azsw2e-d1e902-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e902-d1e151">
+                  <ref xml:id="azsw2e-d1e902-Rd1e153">Imperator
+            Gordianus</ref> Non interest, a quo vis adhibita sit patri et patruo
+            tuo, utrum ab emptore an vero sciente emptore ab alio, ut vi metuve
+            possessionem vendere cogerentur. Nam si adhibita vi compulsi sunt
+            possessiones suas quae maiore valebant minimo distrahere, iurisdictionis
+            tenore, ut id quod improbe factum est in priorem statum revolvatur,
+            impetrabunt. * GORD. A. RUFO MIL. *&lt;A 239 PP. VI K. IAN. GORDIANO
+            A. ET AVIOLA CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e902-Dd1e157">
+               <head xml:id="azsw2e-d1e902-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e902-d1e161">
+                  <ref xml:id="azsw2e-d1e902-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Ad invidiam alicui nocere nullam dignitatem
+            oportet. Unde intellegis, quod ad metum arguendum, per quem dicis
+            initum esse contractum, senatoria dignitas adversarii tui sola non
+            est idonea. * DIOCL. ET MAXIM. AA. ET CC. POLLAE. *&lt;A 294 PP. III
+            K. MAI. HERACLIAE CC. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e902-Dd1e167">
+               <head xml:id="azsw2e-d1e902-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e902-d1e171">
+                  <ref xml:id="azsw2e-d1e902-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Si donationis vel transactionis vel
+            stipulationis vel cuiuscumque alterius contractus obligationis confectum
+            instrumentum metu mortis vel cruciatus corporis extortum vel capitales
+            minas pertimescendo adito praeside provinciae probare poteris, hoc
+            ratum haberi secundum edicti formam non patietur. * DIOCL. ET MAXIM.
+            AA. ET CC. COTUI. *&lt;A 293 D. II NON. IAN. AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e902-Dd1e177">
+               <head xml:id="azsw2e-d1e902-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e902-d1e181">
+                  <ref xml:id="azsw2e-d1e902-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Cum te domus et horti venditionem fecisse
+            sub spe recipiendi, quod de frumento feceras, instrumentum vel timore,
+            ne ad civilia munera nominareris, proponas et rescindi venditionem
+            veluti metus causa factam desideres, intellegis ad ratum non habendum
+            contractum metum huiusmodi prodesse non posse. * DIOCL. ET MAXIM.
+            AA. ET CC. TROPHIMO. *&lt;A 293 D. XI K. SEPT. VIMINACII AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e902-Dd1e187">
+               <head xml:id="azsw2e-d1e902-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e902-d1e191">
+                  <ref xml:id="azsw2e-d1e902-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Metum non iactationibus tantum vel
+            contestationibus, sed atrocitate facti probari convenit. * DIOCL.
+            ET MAXIM. AA. ET CC. HYMNODAE. *&lt;A 293 D. K. DEC. AA. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e902-Dd1e198">
+               <head xml:id="azsw2e-d1e902-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e902-d1e202">
+                  <ref xml:id="azsw2e-d1e902-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> Accusationis institutae vel futurae
+            metu alienationem seu promissionem factam rescindi postulantis improbum
+            desiderium est. * DIOCL. ET MAXIM. AA. ET CC. FAUSTINAE. *&lt;A 294
+            D. VI K. FEBR. CC. CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e902-Dd1e208">
+               <head xml:id="azsw2e-d1e902-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e902-d1e212">
+                  <ref xml:id="azsw2e-d1e902-Rd1e214">Imperator
+            Constantinus</ref> Si per impressionem quis aliquem metuens saltem
+            in mediocri officio constitutum rei suae in eadem provincia vel loco,
+            ubi tale officium peragit, sub venditionis titulo fecerit cessionem,
+            et quod emptum fuerit reddatur et nihilo minus etiam pecunia retineatur:
+            simili poena servanda, si qui vel coniugis vel amici nominibus abutentes
+            praedam tamen sibi adquirunt. * CONST. A. AD EUAGRIUM PP. *&lt;A 326
+            D. X K. OCT. AQUILEIAE CONSTANTINO A. VII ET CONSTANTIO CONSS.&gt;</p>
+            </div>
+            <div xml:id="azsw2e-d1e902-Dd1e218">
+               <head xml:id="azsw2e-d1e902-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e902-d1e222">
+                  <ref xml:id="azsw2e-d1e902-Rd1e224">Imperatores
+            Honorius, Theodosius</ref> Venditiones donationes transactiones, quae
+            per potentiam extortae sunt, praecipimus infirmari. * HONOR. ET THEODOS.
+            AA. AD POP. *&lt;A 415 D. XIII K. MART. CONSTANTINOPOLI HONORIO X
+            ET THEODOSIO VI AA. CONSS.&gt;
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

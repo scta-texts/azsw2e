@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 16</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 16</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8107"><!-- azsw2e-l12t16 -->
+            <head xml:id="azsw2e-d1e8107-Hd1e101">Titulus 16</head>
+            <head xml:id="azsw2e-d1e8107-Hd1e103" type="question-title">De decurionibus et silentiariis</head>
+            <div xml:id="azsw2e-d1e8107-Dd1e106">
+               <head xml:id="azsw2e-d1e8107-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8107-d1e110">
+                  <ref xml:id="azsw2e-d1e8107-Rd1e112">Imperatores
+            Honorius, Theodosius</ref> Decuriones nostri
+            palatii post emensum fideliter obsequium postque deposita sacramenta
+            militiae electionem habeant, sive ex magistro officiorum velut agentes
+            dignitatem consequi a nostra maiestate maluerint, sive inter viros
+            illustres comites domesticorum, videlicet inter agentes, taxari, ut
+            tam in adoranda nostra serenitate quam in salutandis administratoribus
+            et reliquis praedicti honoris privilegiis nec non in nostro consistorio
+            his honor omnifariam observetur. * HONOR. ET THEODOS. AA. URSO
+            PU. ET AURELIANO PP. ORIENTIS ET STRATEGIO PP PER ILLYRICUM.*&lt;A
+            415 D. PRID. K. NOV. CONSTANTINOPOLI HONORIO X ET THEODOSIO VI AA.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8107-Dd1e116">
+               <head xml:id="azsw2e-d1e8107-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e8107-d1e120">
+                  <ref xml:id="azsw2e-d1e8107-Rd1e122">Imperatores
+            Honorius, Theodosius</ref> Unusquisque decurio vel silentiarius a
+            tironum et equorum praestatione habeatur immunis: nullam collationem,
+            quae plerumque poscitur, solvat: nihil his ulla potestas iniungat
+            aut necessitas imponat. * HONOR. ET THEODOS. AA. VENATIO PP. *&lt;A
+            423 D. VII ID. MART. RAVENNAE ASCLEPIODOTO ET MARINIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8107-Dd1e126">
+               <head xml:id="azsw2e-d1e8107-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e8107-d1e130">
+                  <ref xml:id="azsw2e-d1e8107-Rd1e132">Imperatores
+            Theodosius, Valentinianus</ref>  Decurionibus et silentiariis, etiam
+            si ad superiorem gradum successu meliore transcendunt, omnia privilegia,
+            quae iam dudum divorum principum iudicio meruerunt, legis istius praeceptione
+            noveris esse firmata, non praeiudicatura quacumque generalitate pragmatica.
+            </p>
+               <p xml:id="azsw2e-d1e8107-d1e135" n="1">
+            Nec angarias vel parangarias sive paraveredos ulla eis amplissimae
+            praeceptionis imponat auctoritas. Sordidis quoque muneribus, excoctione
+            calcis et superindicti gravamine eos liberamus </p>
+               <p xml:id="azsw2e-d1e8107-d1e138" n="2">
+            Domus quoque eorum non tantum in hac sacratissima urbe, sed
+            in qualibet alia positas civitate immunes ab omni hospitum cuiuslibet
+            dignitatis inquietudine vindicamus: permissa eis veniendi ad comitatum
+            licentia praeter evocatoriae securitatem. Multa decem librarum auri
+            iudicibus provinciarum eorumque officiis infligenda, si statuta numinis
+            nostri crediderint esse contemnenda </p>
+               <p xml:id="azsw2e-d1e8107-d1e141" n="3">
+            His addimus, ut, cum optatam quietem acceperint et inter
+            viros illustres senatores coeperint numerari, honore curiae sine aliqua
+            functione laetentur, immunitatisque gaudio plena dignitatis laetitia
+            potiantur, ut dignitatem solam habeant ex senatu: sub hac videlicet
+            definitione, ut triginta tantummodo numero ea privilegia consequantur,
+            decuriones quoque tres. </p>
+               <p xml:id="azsw2e-d1e8107-d1e145" n="4">
+            Sed eos tunc demum perpotiri decernimus beneficiis supra
+            scriptis, cum per continuos tredecim annos inculpatas excubias peregerint.
+            * THEODOS. ET VALENTIN. AA. FLAVIANO PP. *&lt;A 432 D. VIIII K. APRIL.
+            RAVENNAE AETIO ET VALERIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8107-Dd1e150">
+               <head xml:id="azsw2e-d1e8107-Hd1e152">4</head>
+               <p xml:id="azsw2e-d1e8107-d1e154">
+                  <ref xml:id="azsw2e-d1e8107-Rd1e156">Imperator
+            Zeno</ref> Ne ad diversa tracti viri devoti silentiarii iudicia sacris
+            abstrahi videantur obsequiis, iubemos eos, qui quemlibet devotissimorum
+            silentiariorum scholae vel eius uxorem civiliter vel etiam criminaliter
+            pulsare maluerint, minime eum ex cuiuslibet alterius iudicio nisi
+            ex iudicio tantummodo viri excellentissimi magistri officiorum conveniri.
+            * ZENO A. COSMAE PRAEPOSITO SACRI CUBICULI. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8107-Dd1e160">
+               <head xml:id="azsw2e-d1e8107-Hd1e162">5</head>
+               <p xml:id="azsw2e-d1e8107-d1e164">
+                  <ref xml:id="azsw2e-d1e8107-Rd1e166">Imperator
+            Anastasius</ref>  Iubemus clarissimorum silentiariorum
+            militia praeditos, etsi genitorum suorum in potestate sint constituti,
+            quaecumque solaciorum sive emolumentorum vel donationum seu hereditatum
+            nomine per militiam vel quamlibet eius causam his adquisita sunt vel
+            fuerint, iure castrensis peculii possidere, nec ea posse vel perentes
+            superstites sibimet vindicare vel auferre, vel etiam post eorum obitum
+            fratres vel alios heredes eorum quasi ad defunctorum dominium pertinentia
+            in divisionem deducere: nec enim oportet labores eorum aliis fructum
+            vel lucrum adferre. </p>
+               <p xml:id="azsw2e-d1e8107-d1e169" n="1">
+            Hac namque ratione simul et contemplatione nec ipsam militiam
+            vel suffragium, quodcumque pro ea vel ab isdem viris devotis silentiariis
+            vel a parentibus eorum vel quolibet alio datum est vel fuerit, ab
+            his patimur in successionem defunctorum parentum conferri seu nomine
+            collationis in medium easdem offerri pecunias vel his imputari. </p>
+               <p xml:id="azsw2e-d1e8107-d1e172" n="2">
+            Ad haec de tutelis et curationibus eos excusari sancimus,
+            ne alienarum rerum administrationem subire compellantur, qui propter
+            nostra ministeria nec suis curam seu provisionem diligenter deferre
+            possunt. </p>
+               <p xml:id="azsw2e-d1e8107-d1e175" n="3">
+            Liberos insuper eorum, qui dignitate virorum spectabilium
+            comitum seu tribunorum decorati sunt vel fuerint, nullatenus nolentes
+            administrationem praeturae suscipere seu peragere. </p>
+               <p xml:id="azsw2e-d1e8107-d1e179" n="4">
+            Omnibus videlicet antelatis privilegiis in persona non tantum
+            in praesenti militantium, sed etiam postea eidem consortio inserendorum
+            tam tempore militiae quam post eam depositam observandis.* ANASTAS.
+            A. POLYCARPO PP. *&lt;A 497-499 &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

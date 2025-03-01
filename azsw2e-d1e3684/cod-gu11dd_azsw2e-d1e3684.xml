@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 23</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 23</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3684"><!-- azsw2e-l6t23 -->
+            <head xml:id="azsw2e-d1e3684-Hd1e101">Titulus 23</head>
+            <head xml:id="azsw2e-d1e3684-Hd1e103" type="question-title">De testamentis: quemadmodum testamenta ordinantur.</head>
+            <div xml:id="azsw2e-d1e3684-Dd1e106">
+               <head xml:id="azsw2e-d1e3684-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3684-d1e110">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e112">Imperator
+            Hadrianus</ref> Testes servi an liberi fuerunt, non oportet in hac
+            causa tractari, cum eo tempore, quo testamentum signabatur, omnium
+            consensu liberorum loco habiti sunt nec quisquam eis usque adhuc status
+            controversiam moverit. * HADR. A. CATONIO VERO. *&lt; SINE DIE ET
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e116">
+               <head xml:id="azsw2e-d1e3684-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3684-d1e120">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e122">Imperator
+            Alexander Severus</ref> Publicati semel testamenti fides, quamvis
+            ipsa materia, in qua primum a testatore scriptum relictum fuit, casu
+            qui probatur intercidit, nihilo minus valet. * ALEX. A. EXPEDITO.
+            *&lt;A 225 PP. K. IUN. FUSCO II ET DEXTRO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e126">
+               <head xml:id="azsw2e-d1e3684-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3684-d1e130">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e132">Imperator
+            Alexander Severus</ref> Ex imperfecto testamento nec imperatorem hereditatem
+            vindicare saepe constitutum est. Licet enim lex imperii sollemnibus
+            iuris imperatorem solverit, nihil tamen tam proprium imperii est,
+            ut legibus vivere * ALEX. A. ANTIGONO. *&lt;A 232 PP. XI K. IAN. LUPO
+            ET MAXIMO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e137">
+               <head xml:id="azsw2e-d1e3684-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e3684-d1e141">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e143">Imperator
+            Gordianus</ref> Si in nomine praenomine seu cognomine testator erravit
+            nec tamen de quo senserit incertum sit, error huiusmodi nihil officit
+            veritati. * GORD. A. RUFINO. *&lt;A 239 PP. XII K. AUG. GORDIANO A.
+            ET AVIOLA CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e147">
+               <head xml:id="azsw2e-d1e3684-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e3684-d1e151">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e153">Imperatores
+            Valerianus, Gallienus. </ref>Neque professio neque adseveratio nuncupantium
+            filios, qui non sunt, veritati praeiudicant: et quae ut filiis testamento
+            relinquuntur, iuxta ea quae a principibus statuta sunt non deberi
+            certi iuris est. * VALER. ET GALLIEN. AA. LUCILLO. *&lt;A 254 ACCEPTA
+            IIII NON. IUL. VALERIANO II ET GALLIENO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e157">
+               <head xml:id="azsw2e-d1e3684-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e3684-d1e161">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Verba testamenti, quibus mater vestra
+            decedens nihil se cuiquam donasse significavit, si res se aliter habet,
+            fidem veri non perfringunt. * DIOCL. ET MAXIM. AA. TERENTIAE. *&lt;A
+            285 PP. III NON. NOV. DIOCLETIANO A. II ET ARISTOBULO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e167">
+               <head xml:id="azsw2e-d1e3684-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e3684-d1e171">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Errore scribentis testamentum iuris
+            sollemnitas mutilari nequaquam potest, quando minus scriptum, plus
+            nuncupatum videtur. Et ideo recte testamento facto, quamquam desit
+            " heres esto", consequens est existente herede legata sive
+            fideicommissa iuxta voluntatem testatoris oportere dari * DIOCL. ET
+            MAXIM. AA. RUFINAE. *&lt;A 290 PP. XVII K. FEBR. IPSIS IIII ET III
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e177">
+               <head xml:id="azsw2e-d1e3684-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e3684-d1e181">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref>  Casus maioris ac novi contingentis
+            ratione adversus timorem contagionis, quae testes deterret, aliquid
+            de iure laxatum est: non tamen prorsus reliqua etiam testamentorum
+            sollemnitas perempta est. </p>
+               <p xml:id="azsw2e-d1e3684-d1e186" n="1">
+            Testes enim huiusmodi morbo oppresso eo tempore iungi atque
+            sociari remissum est, non etiam conveniendi numeri eorum observatio
+            sublata. * DIOCL. ET MAXIM. AA. MARCELLINO. *&lt;A 290 S. K. IUL.
+            IPSIS IIII ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e190">
+               <head xml:id="azsw2e-d1e3684-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e3684-d1e194">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e196">Imperatores
+            Diocletianus, Maximianus</ref> Si non speciali privilegio patriae
+            tuae iuris observatio relaxata est et testes non in conspectu testatoris
+            testimoniorum officio functi sunt, nullo iure testamentum valet. *
+            DIOCL. ET MAXIM. AA. PATROCLIAE. *&lt;A 290 PP. K. IUL. IPSIS IIII
+            ET III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e201">
+               <head xml:id="azsw2e-d1e3684-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e3684-d1e205">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e207">Imperatores
+            Diocletianus, Maximianus</ref> Si testamentum iure factum sit et heres
+            sit capax, auctoritate rescripti nostri rescindi non oportet. * DIOCL.
+            ET MAXIM. AA. ET CC. MENOPHILIANO. *&lt;A 293 S. XV K..... AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e211">
+               <head xml:id="azsw2e-d1e3684-Hd1e213">11</head>
+               <p xml:id="azsw2e-d1e3684-d1e215">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e217">Imperatores
+            Diocletianus, Maximianus</ref> Non idcirco minus iure factum testamentum
+            suas obtinet vires, quod post mortem testatoris subtractum probatur.
+            * DIOCL. ET MAXIM. AA. ET CC. ZETHO. *&lt;A 293 S. PRID NON. IUL.
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e221">
+               <head xml:id="azsw2e-d1e3684-Hd1e223">12</head>
+               <p xml:id="azsw2e-d1e3684-d1e225">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e227">Imperatores
+            Diocletianus, Maximianus</ref>  Si unus de septem testibus defuerit
+            vel coram testatore omnes eodem loco testes suo vel alieno anulo non
+            signaverint, iure deficiat testamentum. </p>
+               <p xml:id="azsw2e-d1e3684-d1e230" n="1">
+            De his autem, quae interleta sive supra scripta dicis, non
+            ad iuris sollemnitatem, sed ad fidei pertinet quaestionem, ut appareat,
+            utrum testatoris voluntate emendationem meruerunt, vel ab altero inconsulte
+            deleta sunt, an ab aliquo falso haec fuerint commissa. * DIOCL. ET
+            MAXIM. AA. ET CC. MATRONIAE. *&lt;A 293 S. PRID. NON. IUL. PHILIPPOPOLI
+            AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e234">
+               <head xml:id="azsw2e-d1e3684-Hd1e236">13</head>
+               <p xml:id="azsw2e-d1e3684-d1e238">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e240">Imperatores
+            Diocletianus, Maximianus</ref> Testandi causa de pecunia sua legibus
+            certis facultas, non iurisdictionis mutare formam vel iuri publico
+            derogare cuiquam permissum est. * DIOCL. ET MAXIM. AA. ET CC. EURIPIDI.
+            *&lt;A 294 S. VI K. DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e244">
+               <head xml:id="azsw2e-d1e3684-Hd1e246">14</head>
+               <p xml:id="azsw2e-d1e3684-d1e248">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e250">Imperatores
+            Diocletianus, Maximianus</ref> Non codicillum, sed testamentum aviam
+            vestram facere voluisse institutio et exheredatio facta probant evidenter.
+            * DIOCL. ET MAXIM. AA. ET CC. ACHILLEO. *&lt;A 294 S. ID. DEC. CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e254">
+               <head xml:id="azsw2e-d1e3684-Hd1e256">15</head>
+               <p xml:id="azsw2e-d1e3684-d1e258">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e260">Imperator
+            Constantinus</ref>  Quoniam indignum est ob inanem observationem irritas
+            fieri tabulas et iudicia mortuorum, placuit ademptis his, quorum imaginarius
+            usus est, institutioni heredis verborum non esse necessariam observantiam,
+            utrum imperativis et directis verbis fiat an inflexa. </p>
+               <p xml:id="azsw2e-d1e3684-d1e263" n="1">
+            Nec enim interest, si dicatur " heredem facio"
+            vel " instituo" vel " volo" vel " mando"
+            vel " cupio" vel " esto" vel " erit",
+            sed quibuslibet confecta sententiis, quolibet loquendi genere formata
+            institutio valeat, si modo per eam liquebit voluntatis intentio, nec
+            necessaria sint momenta verborum, quae forte seminecis et balbutiens
+            lingua profudit. </p>
+               <p xml:id="azsw2e-d1e3684-d1e266" n="2">
+            Et in postremis ergo iudiciis ordinandis amota erit sollemnium
+            sermonum necessitas, ut, qui facultates proprias cupiunt ordinare,
+            in quacumque instrumenti materia conscribere et quibuscumque verbis
+            uti liberam habeant facultatem. * CONST. A. AD POP. *&lt;A 339 S.
+            D. K. FEBR. LAODICEAE CONSTANTIO A. II ET CONSTANTE A. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e271">
+               <head xml:id="azsw2e-d1e3684-Hd1e273">16</head>
+               <p xml:id="azsw2e-d1e3684-d1e275">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e277">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref>  Non dubium nec incertum
+            est, sicut imperatoribus, ita qualibet dignitate vel potestate decoratis
+            viris tam hereditatem quam legatum seu fideicommissum relinqui posse.
+            </p>
+               <p xml:id="azsw2e-d1e3684-d1e280" n="1">
+            Illud adiciendum est, ut, qui ex testamento vel ab intestato
+            heres extiterit, etsi voluntas defuncti circa legata seu fideicommissa
+            seu libertates legibus non sit subnixa, tamen, si sua sponte agnoverit,
+            implendi eam necessitatem habeat. * GRAT. VALENTIN. ET THEODOS. AAA.
+            EUTROPIO PP. *&lt;A 380 S. D. K. IUL. THESSALONICAE GRATIANO V ET
+            THEODOSIO AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e284">
+               <head xml:id="azsw2e-d1e3684-Hd1e286">17</head>
+               <p xml:id="azsw2e-d1e3684-d1e288">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e290">Imperatores
+            Arcadius, Honorius</ref> Testamentum non ideo infirmari debebit, quod
+            diversis hoc deficiens nominibus appellavit, cum superflua non noceant.
+            Namque necessaria praetermissa imminuunt contractus et testatoris
+            officiunt voluntati, non abundans cautela * ARCAD. ET HONOR. AA. AETERNALI
+            PROCONS. ASIAE. *&lt;A 396 D. XII K. APRIL. ARCADIO IIII ET HONORIO
+            III AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e294">
+               <head xml:id="azsw2e-d1e3684-Hd1e296">18</head>
+               <p xml:id="azsw2e-d1e3684-d1e298">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e300">Imperatores
+            Arcadius, Honorius</ref> Testamenta omnia ceteraque, quae apud officium
+            censuale publicari solent, in eodem reserventur nec usquam pemittatur
+            fieri ulla translatio. Mos namque retinendus est fidelissimae vetustatis,
+            quem si quis in hac urbe voluerit immutare, irritam mortuorum videri
+            faciet voluntatem * ARCAD. ET HONOR. AA. AFRICANO PU. *&lt;A 397 D.
+            VI K. OCT. CONSTANTINOPOLI CAESARIO ET ATTICO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e304">
+               <head xml:id="azsw2e-d1e3684-Hd1e306">19</head>
+               <p xml:id="azsw2e-d1e3684-d1e308">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e310">Imperatores
+            Honorius, Theodosius</ref>  Omnium testamentorum sollemnitatem superare
+            videatur, quod insertum mera fide precibus inter tot nobiles probatasque
+            personas etiam conscientiam principis tenet. </p>
+               <p xml:id="azsw2e-d1e3684-d1e313" n="1">
+            Sicut igitur securus erit, qui actis cuiuscumque iudicis
+            aut municipum aut auribus privatorum mentis suae postremum publicavit
+            iudicium, ita nec de eius umquam successione tractabitur, qui nobis
+            mediis et toto iure, quod nostris est scriniis constitutum, teste
+            succedit. </p>
+               <p xml:id="azsw2e-d1e3684-d1e316" n="2">
+            Nec sane illud heredibus nocere permittimus, si rescripta
+            nostra nihil de eadem voluntate responderit. Voluntates etenim hominum
+            audire volumus, non iubere, ne post sententiam nostram inhibitum videatur
+            commutationis arbitrium, cum hoc ipsum, quod per supplicationem nostris
+            auribus intimatur, ita demum firmum sit, si ultimum comprobatur nec
+            contra iudicium suum defunctus postea venisse detegitur </p>
+               <p xml:id="azsw2e-d1e3684-d1e319" n="3">
+            Ne quid sane praetermisisse credamur huiusmodi institutionis
+            successoribus designatis, omnia quae scriptis heredibus competunt
+            iubemus eos habere nec super bonorum possessionis petitione ullam
+            controversiam nasci, cum pro herede agere cuncta sufficiat et ius
+            omne ipsa complere aditio videatur. </p>
+               <p xml:id="azsw2e-d1e3684-d1e323" n="4">
+            Omnibus etenim praestandum esse censemus, ut libero arbitrio,
+            cui testandi facultas suppetit, successorem suum oblatis possit precibus
+            declarare et stabile sciat esse quod fecerit, nec institutus heres
+            pertimescat, cum oblatas preces secundum voluntatem defuncti idoneis
+            possit testibus approbare, si ei alia nocere non possunt. * HONOR.
+            ET THEODOS. AA. IOHANNI PP. *&lt;A 413 D. XII K. MART. RAVENNAE POST
+            CONSULATUM HONORII VIIII ET THEODOSII V AA.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e327">
+               <head xml:id="azsw2e-d1e3684-Hd1e329">20</head>
+               <p xml:id="azsw2e-d1e3684-d1e331">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e333">Imperatores
+            Honorius, Theodosius</ref>  Nolumus convelli deficientium scriptas
+            iure ac sollemniter voluntates, dum quoddam morientis supremum et
+            non adscriptum processisse confirmatur arbitrium, tamquam patrimonium
+            suum ad nos deficiens maluerit pertinere. </p>
+               <p xml:id="azsw2e-d1e3684-d1e336" n="1">
+            Omnibus enim privatis et militantibus interdicimus, ut huiusmodi
+            perhibeant testimonia, et falsi criminis reos teneri praecipimus,
+            si, cum scriptae iure ac sollemniter deficientium extiterint voluntates,
+            non scriptum aliquid sub nostrorum nominum mentione falso adstruere
+            moliantur. </p>
+               <p xml:id="azsw2e-d1e3684-d1e339" n="2">
+            Nemo itaque relictus heres vel legibus ad successionem vocatus
+            nostrum vel potentium nomen horrescat: nemo ferre testimonia in hunc
+            modum vel suscipere gestis huiusmodi voces audeat nostro vel etiam
+            privatorum potentium nomine. * HONOR. ET THEODOS. AA. EDICT. AD POP.
+            URB. CONSTANINOPOLIT. *&lt;A 416 D. IIII ID. MART. CONSTANTINOPOLI
+            THEODOSIO A. VII ET PALLADIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e343">
+               <head xml:id="azsw2e-d1e3684-Hd1e345">21</head>
+               <p xml:id="azsw2e-d1e3684-d1e347">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e349">Imperatores
+            Theodosius, Valentinianus</ref>  Hac consultissima lege sancimus licere
+            per scripturam conficientibus testamentum, si nullum scire volunt
+            quae in eo scripta sunt, signatam vel ligatam vel tantum clausulam
+            involutamque proferre scripturam vel ipsius testatoris vel cuiuslibet
+            alterius manu conscriptam, eamque rogatis testibus septem numero civibus
+            romanis puberibus omnibus simul offerre signandam et subscribendam,
+            dum tamen testibus praesentibus testator suum esse testamentum dixerit
+            quod offertur eique ipse coram testibus sua manu in reliqua parte
+            testamenti subscripserit: quo facto et testibus uno eodemque die ac
+            tempore subscribentibus et consignantibus valere testamentum nec ideo
+            infirmari, quod testes nesciant quae in eo scripta sunt testamento.
+            </p>
+               <p xml:id="azsw2e-d1e3684-d1e352" n="1">
+            Quod si litteras testator ignoret vel subscribere nequeat,
+            octavo subscriptore pro eo adhibito eadem servari decernimus. </p>
+               <p xml:id="azsw2e-d1e3684-d1e355" n="2">
+            In omnibus autem testamentis, quae praesentibus vel absentibus
+            testibus dictantur, superfluum est uno eodemque tempore exigere testatorem
+            et testes adhibere et dictare suum arbitrium et finire testamentum.
+            Sed licet alio tempore dictatum scriptumve proferatur testamentum,
+            sufficiet uno eodemque die nullo actu interveniente testes omnes,
+            videlicet simul nec diversis temporibus, subscribere signareque testamentum
+            </p>
+               <p xml:id="azsw2e-d1e3684-d1e358"> 
+            Finem autem testamenti subscriptiones et signacula testium
+            esse decernimus. Non subscriptum namque a testibus ac signatum testamentum
+            pro imperfecto haberi convenit </p>
+               <p xml:id="azsw2e-d1e3684-d1e361" n="3">
+            Ex imperfecto autem testamento voluntatem tenere defuncti,
+            nisi inter solos liberos a parentibus utriusque sexus habeatur, non
+            volumus. </p>
+               <p xml:id="azsw2e-d1e3684-d1e364"> 
+            Si vero in huiusmodi voluntate liberis alia sit extranea
+            mixta persona, certum est eam voluntatem, quantum ad illam dumtaxat
+            permixtam personam pro nullo haberi, sed liberis adcrescere. </p>
+               <p xml:id="azsw2e-d1e3684-d1e366" n="4">
+            Per nuncupationem quoque, hoc est sine scriptura, testamenta
+            non alias valere sancimus, nisi septem testes, ut supra dictum est,
+            simul uno eodemque tempore collecti testatoris voluntatem ut testamentum
+            sine scriptura facientis audierint. </p>
+               <p xml:id="azsw2e-d1e3684-d1e369" n="5">
+            Si quis autem testamento iure perfecto postea ad aliud pervenerit
+            testamentum, non alias quod ante factum est infirmari decernimus,
+            quam id, quod secundum facere testator instituit, iure fuerit consummatum,
+            nisi forte in priore testamento scriptis his, qui ab intestato ad
+            testatoris hereditatem successionemve venire non poterant, in secunda
+            voluntate testator eos scribere instituit, qui ab intestato ad eius
+            hereditatem vocantur. Eo enim casu, licet imperfecta videatur scriptura
+            posterior, infirmato priore testamento secundam eius voluntatem non
+            quasi testamentum, sed quasi voluntatem intestati valere sancimus
+            </p>
+               <p xml:id="azsw2e-d1e3684-d1e372"> 
+            In qua voluntate quinque testium iuratorum depositiones sufficient:
+            quo non facto valebit primum testamentum, licet in eo scripti videantur
+            extranei. </p>
+               <p xml:id="azsw2e-d1e3684-d1e374" n="6">
+            Illud etiam huic legi perspeximus inserendum, ut etiam graece
+            omnibus liceat testari. * THEODOS. ET VALENTIN. AA. FLORENTIO PP.
+            *&lt;A 439 D. PRID. ID. SEPT. CONSTANTINOPOLI THEODOSIO A. XVII ET
+            FESTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e379">
+               <head xml:id="azsw2e-d1e3684-Hd1e381">22</head>
+               <p xml:id="azsw2e-d1e3684-d1e383">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e385">Imperator
+            Zeno</ref> Dictantibus testamenta vel aliam quamlibet ultimam voluntatem
+            legatum vel fideicommissum vel quodcumque aliud quolibet legitimo
+            titulo testatorem posse relinquere minime dubitandum est. Testibus
+            etiam ad efficiendam voluntatem adhibitis pro suo libitu quod voluerit
+            testator relinquere non prohibetur * ZENO A. SEBASTIANO PP. *&lt;A
+            480 D. K. MAI. CONSTANTINOPOLI BASILIO IUNIORE VC. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e389">
+               <head xml:id="azsw2e-d1e3684-Hd1e391">23</head>
+               <p xml:id="azsw2e-d1e3684-d1e393">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e395">Imperator
+            Justinus</ref> Consulta divalia, quibus considerate prospectum est,
+            ne voluntates ultimae deficientium in hac regia urbe confectae apud
+            alium aperiri possint quam virum clarissimum pro tempore census magistrum,
+            monumentis intervenientibus pro iuris ordine, neve in hereditate,
+            cuius summa centum aureorum pretium non excedit, mercedis quicquam
+            aut sumptuum censum administrantes aut censualis apparitio super intimandis
+            isdem elogiis audeant adsequi, firma nunc quoque edicimus ac repetita
+            promulgatione non solum iudices quorumlibet tribunalium, verum etiam
+            defensores ecclesiarum, quos turpissimum intimationis genus inrepserat,
+            praemonendos censemus, ne rem attingant, quae nemini prorsus omnium
+            secundum constitutionum praecepta quam census magistro competit. Absurdum
+            est namque, si promiscuis actibus rerum turbentur officia et alii
+            creditum alius subtrahat, ac praecipue clericis, quibus opprobrium
+            est, si peritos se velint disceptationum esse forensium: poena etiam
+            feriendis temeratoribus praesentis sanctionis quinquaginta librarum
+            auri. Nec enim concedendum est, ut suprema vota deficientium eversionis
+            quicquam ex incongrua insinuatione contrahant, dum res ab incongruis
+            usurpatur audacte * IUSTINUS A. ARCHELAO PP. *&lt;A 524 D. XIII K.
+            DEC. CONSTANTINOPOLI IUSTINO A. II ET OPILIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e399">
+               <head xml:id="azsw2e-d1e3684-Hd1e401">24</head>
+               <p xml:id="azsw2e-d1e3684-d1e403">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e405">Imperator
+            Justinianus</ref> Ambiguitates, quae vel imperitia vel desidia testamenta
+            conscribentium oriuntur, resecandas esse censemus et, sive institutio
+            heredum post legatorum dationes scripta sit vel alia praetermissa
+            sit observatio non ex mente testatoris, sed vitio tabellionis vel
+            alterius qui testamentum scribit, nulli licentiam concedimus per eam
+            occasionem testatoris voluntatem subvertere vel minuere. * IUST. A.
+            MENAE PP. *&lt;A 528 D. K. IAN. DN. IUSTINIANO A. PP. II CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e409">
+               <head xml:id="azsw2e-d1e3684-Hd1e411">25</head>
+               <p xml:id="azsw2e-d1e3684-d1e413">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e415">Imperator
+            Justinianus</ref> Praeposteri reprehensionem, quam novella constitutio
+            in dotalibus instrumentis sustulisse noscitur, in aliis quoque omnibus
+            tam contractibus quam testamentis tollimus, ut tali exceptione cessante
+            et stipulatio et alii contractus et testatoris voluntas indubitate
+            valeat, exactione videlicet post condicionem vel diem competente.
+            * IUST. A. MENAE PP. *&lt;A 528 S. D. VII ID. DEC. DN. IUSTINIANO
+            A. PP. II CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e419">
+               <head xml:id="azsw2e-d1e3684-Hd1e421">26</head>
+               <p xml:id="azsw2e-d1e3684-d1e423">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e425">Imperator
+            Justinianus</ref> In testamentis sine scriptis faciendis omnem formalem
+            observationem penitus amputamus, ut, postquam septem testes convenerint,
+            satis sit voluntatem testatoris vel testatricis simul omnibus manifestari
+            significantis, ad quos substantiam suam pervenire vellet vel quibus
+            legata vel fideicommissa vel libertates disponeret, etiamsi non ante
+            huiusmodi dispositionem praedixerit testator vel testatrix illa formalia
+            verba: ideo eosdem testes convenisse, quod sine scriptis suam voluntatem
+            vel testamentum componere censuit. * IUST. A. MENAE PP. *&lt;A 528
+            S. D. IIII ID. DEC. CONSTANTINOPOLI DN. IUSTINIANO A. PP. II CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e429">
+               <head xml:id="azsw2e-d1e3684-Hd1e431">27</head>
+               <p xml:id="azsw2e-d1e3684-d1e433">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e435">Imperator
+            Justinianus</ref>  Sancimus, si quis legitimo modo condidit testamentum
+            et post eius confectionem decennium profluxit, si quidem nulla innovatio
+            vel contraria voluntas testatoris apparuit, hoc esse firmum. Quod
+            enim non mutatur, quare stare prohibetur? quemadmodum enim, qui testamentum
+            fecit et nihil voluit contrarium, intestatus efficitur </p>
+               <p xml:id="azsw2e-d1e3684-d1e438" n="1">
+            Sin autem in medio tempore contraria voluntas ostenditur,
+            si quidem perfectissima est secundi testamenti confectio, ipso iure
+            prius tollitur testamentum. </p>
+               <p xml:id="azsw2e-d1e3684-d1e441" n="2">
+            Sin autem testator tantummodo dixerit non voluisse prius
+            stare testamentum, vel aliis verbis utendo contrariam aperuit voluntatem,
+            et hoc vel per testes idoneos non minus tribus vel inter acta manifestaverit
+            et decennium fiat emensum, tunc irritum esse testamentum tam ex contraria
+            voluntate quam ex cursu temporali. </p>
+               <p xml:id="azsw2e-d1e3684-d1e444" n="3">
+            Aliter etenim testamenta mortuorum per decennii transcursionem
+            evanescere nullo patimur modo, prioribus constitutionibus, quae super
+            huiusmodi testamentis vacuandis latae fuerant, penitus antiquandis.
+            * IUST. A. IULIANO PP. *&lt;A 530 D. XV K. APRIL. CONSTANTINOPOLI
+            LAMPADIO ET ORESTE VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e449">
+               <head xml:id="azsw2e-d1e3684-Hd1e451">28</head>
+               <p xml:id="azsw2e-d1e3684-d1e453">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e455">Imperator
+            Justinianus</ref>  Cum antiquitas testamenta fieri voluit nullo actu
+            interveniente et huiusmodi verborum compositio non rite interpretata
+            paene in perniciem et testantium et testamentorum procederet, sancimus
+            in tempore, quo testamentum conditur vel codicillus nascitur vel ultima
+            quaedam dispositio secundum pristinam celebratus observationem ( nihil
+            enim ex ea penitus immutandum esse censemus) , ea quidem, quae minime
+            necessaria sunt, nullo procedere modo, quippe causa subtilissima proposita
+            ea quae superflua sunt minime debent intercedere. </p>
+               <p xml:id="azsw2e-d1e3684-d1e458" n="1">
+            Si quid autem necessarium advenerit et in ipsum corpus laborantis
+            respiciens contigerit, id est vel victus necessarii vel potionis oblatio
+            vel medicaminis datio vel impositio, quibus relictis ipsa sanitas
+            testatoris periclitatur, vel si quis necessarius naturae usus ad depositionem
+            superflui ponderis immineat vel testatori vel testibus, non esse ex
+            hac causa testamentum subvertendum licet morbus comitialis, quod et
+            factum esse comperimus, uni ex testibus contigerit, sed eo quod urguet
+            et imminet repleto vel deposito iterum solita per testamenti factionem
+            adimpleri. </p>
+               <p xml:id="azsw2e-d1e3684-d1e461" n="2">
+            Et si quidem a testatore aliquid fiat testibus paulisper
+            separatis, cum coram his facere aliquid naturale testator erubescat,
+            iterum introductis testibus consequentiam factionis testamenti procedere.
+            </p>
+               <p xml:id="azsw2e-d1e3684-d1e464" n="3">
+            Si tamen in quendam vel quosdam testium aliquid tale contingat,
+            si quidem ex brevi temporis intervallo necessitas potest transire,
+            iterum eorundem testium reversum expectari et sollemnia peragi. </p>
+               <p xml:id="azsw2e-d1e3684-d1e468" n="4">
+            Sin autem longiore spatio refectio fortuiti casus indigeat,
+            et maxime si salus testatoris periclitantis immineat, tunc illo vel
+            illis testibus, circa quos aliquid tale eveniet, separatis alios subrogari
+            et ab eo vel ab eis tam testatorem quam alios testes sciscitari, si
+            ea, quae eorum praesentiam antecedunt, omnia coram eis processissent.
+            </p>
+               <p xml:id="azsw2e-d1e3684-d1e471" n="5">
+            Et si hoc fuerit undique manifestum, tunc eos vel eum una
+            cum aliis testibus ea quae oportet facere, etsi in medio subscriptiones
+            testium iam fuerant subsecutae. Sic etenim et naturae medemur et mortuorum
+            elogia in suo statu facimus permanere </p>
+               <p xml:id="azsw2e-d1e3684-d1e474" n="6">
+            Cum autem constitutione, quae de testamentis ordinandis processit,
+            cavetur, quatenus septem testium praesentia in testamentis requiratur
+            et subscriptio a testatore fiat vel alio pro eo, et constitutio sic
+            edixit: " octavo subscriptore adhibito", et quidam testamentum
+            suum omne manu propria conscripsit et post eius litteras testes adhibiti
+            suas subscriptiones supposuerunt aliaque omnia sollemniter in testamento
+            peracta sunt et testamentum ex hoc, de quo dubitatur, irritum factum
+            est, eandem constitutionem corrigentes sancimus, si quis sua manu
+            totum testamentum vel codicillum conscripserit et hoc specialiter
+            in scriptura reposu erit, quod sua manu hoc confecit, sufficiat ei
+            totius testamenti scriptura et non alia subscriptio requiratur neque
+            ab eo neque pro eo ab alio , sed sequantur huiusmodi scripturam et
+            litterae testium et omnis quae expectatur observatio, et sit testamentum
+            validum, et codicillus, si quinque testium litterae testatoris scripturae
+            coadunentur, in sua firmitate remaneat, et nemo callidus machinator
+            huiusmodi iniquitatis in posterum inveniatur. * IUST. A. IULIANO PP.
+            *&lt;A 530 D. VI K. APRIL. CONSTANTINOPOLI LAMPADIO ET ORESTE VV.
+            CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e478">
+               <head xml:id="azsw2e-d1e3684-Hd1e480">29</head>
+               <p xml:id="azsw2e-d1e3684-d1e482">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e484">Imperator
+            Justinianus</ref>  Iubemus omnimodo testatorem, si vires ad scribendum
+            habeat, nomen heredis vel heredum in sua subscriptione vel in quacumque
+            parte testamenti ponere, ut sit manifestum secundum illius voluntatem
+            hereditatem esse transmissam. </p>
+               <p xml:id="azsw2e-d1e3684-d1e487" n="1">
+            Sin autem forsitan ex morbi acerbitate vel litterarum imperitia
+            hoc facere minime poterit, testibus testamenti praesentibus nomen
+            vel nomina heredis vel heredum ab eo nuncupari, ut omnimodo sciant
+            testes, si non ipse subscribere potest, qui sunt scripti heredes,
+            et ita certo heredis nomine successio procedat. </p>
+               <p xml:id="azsw2e-d1e3684-d1e490" n="2">
+            Si enim talis est testator, qui neque scribere neque articulate
+            loqui potest, mortuo similis est et falsitas in elogiis committitur,
+            quam, ut exul fiat a re publica nostra, maxime in testamentorum confectione
+            cupientes hanc edictalem legem in orbem terrarum ponimus. </p>
+               <p xml:id="azsw2e-d1e3684-d1e493" n="3">
+            Quod si non fuerit observatum et nomen heredis vel heredum
+            non fuerit manu testatoris scriptum vel voce coram testibus nuncupatum,
+            hoc testamentum stare minime patimur vel in totum, si tota heredum
+            nomina fuerint praetermissa, vel in eius heredis institutionem, cuius
+            nomen neque lingua neque manus testatoris significavit. </p>
+               <p xml:id="azsw2e-d1e3684-d1e497" n="4">
+            Sed ne aliqua forsitan oblivio testium animis incumbat pluribus
+            interdum nominibus heredum expressis, ipsi testes in suis subscriptionibus,
+            cum testator non haec scripserit, sed nuncupaverit, eorum nomina scribere
+            non differant ad aeternam rei memoriam. </p>
+               <p xml:id="azsw2e-d1e3684-d1e500" n="5">
+            Sin vero ipse testator in qualicumque parte testamenti nomina
+            heredum ( sicut dictum est) scripserit, supervacuum est testes in
+            sua subscriptione hoc exprimere , cum forsitan nescire eos testator
+            suos heredes voluit et semel causa ex ipsius testatoris scriptura
+            appareat. </p>
+               <p xml:id="azsw2e-d1e3684-d1e503" n="6">
+            Oportet enim omnimodo vel ex litteris testatoris vel ex voce
+            quidem testatoris, litteris autem testium, qui ad elogium conficiendum
+            fuerint convocati, nomina manifestari heredum. Quemadmodum enim in
+            elogio, quod sine scriptura conficitur, necesse est testatorem voce
+            exprimere nomen vel nomina heredum, ita oportet et in testamentis
+            per scripturam conficiendis, cum ipse testator manu sua scribere heredes
+            vel noluerit vel minime potuerit, voce tamen eius eos manifestari
+            </p>
+               <p xml:id="azsw2e-d1e3684-d1e506" n="7">
+            Quae in posterum tantummodo observari censemus, ut, quae
+            testamenta post hanc novellam nostri numinis legem conficiuntur, haec
+            cum tali observatione procedant: quid enim antiquitas peccavit, quae
+            praesentis legis inscia pristinam secuta est observationem? scituris
+            et tabellionibus et his qui conficienda testamenta procurant, quod,
+            si aliter facere ausi fuerint, poenam falsitatis non evitabunt, quasi
+            dolose in tam necessaria causa versati. * IUST. A. IULIANO PP. *&lt;A
+            531 D. K. MART. CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTIS
+            VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e510">
+               <head xml:id="azsw2e-d1e3684-Hd1e512">30</head>
+               <p xml:id="azsw2e-d1e3684-d1e514">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e516">Imperator
+            Justinianus</ref> Nostram provisionem, maxime circa ultima elogia
+            defunctorum, nunc etiam extendi properamus. Unde cum invenimus quasdam
+            controversias veteribus iuris interpretatoribus exortas propter testamentum,
+            quod legitimo modo conditum est septemque testium signa habens, postea
+            fortuito casu vel per ipsius testatoris operam lino toto vel plurima
+            eius parte incisa in ambiguitatem inciderit, solitum ei praebemus
+            remedium sancientes, si quidem testator linum vel signacula inciderit
+            vel abstulerit utpote voluntate eius mutata, testamentum non valere:
+            sin autem ex alia quacumque causa hoc contigerit, durante testamento
+            scriptos ad hereditatem vocari, maxime cum nostra constitutio, quam
+            super tuitione testamentorum promulgavimus, testatorem disposuit vel
+            sua manu nomen heredis scribere vel, si imper itia litterarum vel
+            adversa valitudine seu alio modo hoc facere non potest, testes ipsos
+            audito nomine heredis sub praesentia ipsius testatoris nomen heredis
+            suis subscriptionibus declarare * IUST. A. IOHANNI PP. *&lt;A 531
+            D. XV K. NOV. CONSTANTINOPOLI POST CONSULATUM LAMPADII ET ORESTIS
+            VV. CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3684-Dd1e520">
+               <head xml:id="azsw2e-d1e3684-Hd1e522">31</head>
+               <p xml:id="azsw2e-d1e3684-d1e524">
+                  <ref xml:id="azsw2e-d1e3684-Rd1e526">Imperator
+            Justinianus</ref>  Et ab antiquis legibus et a diversis retro principibus
+            semper rusticitati consultum est et in multis legum subtilitatibus
+            stricta observatio eis remissa est, quod ex ipsis rerum invenimus
+            documentis. Cum enim testamentorum ordinatio sub certa definitione
+            legum instituta est, homines rustici et quibus non est litterarum
+            peritia quomodo possunt tantam legum subtilitatem custodire in ultimis
+            suis voluntatibus? ideo ad dei humanitatem respicientes necessarium
+            duximus per hanc legem eorum simplicitati subvenire </p>
+               <p xml:id="azsw2e-d1e3684-d1e529" n="1">
+            Sancimus itaque in omnibus quidem civitatibus et in castris
+            orbis romani, ubi et leges nostrae manifestae sunt et litterarum viget
+            scientia, omnia, quae etiam libris nostrorum digestorum seu institutionum
+            et imperialibus sanctionibus nostrisque dispositionibus in condendis
+            testamentis cauta sunt, observari nullamque ex praesenti lege fieri
+            innovationem. </p>
+               <p xml:id="azsw2e-d1e3684-d1e532" n="2">
+            In illis vero locis, in quibus raro inveniuntur homines litterati,
+            per praesentem legem rusticanis concedimus antiquam eorum consuetudinem
+            legis vicem obtinere, ita tamen, ut, ubi scientes litteras inventi
+            fuerint, septem testes, quos ad testimonium vocari necesse est, adhibeantur
+            et unusquisque pro sua persona subscribat: ubi autem non inveniuntur
+            litterati, septem testes et sine scriptura testimonium adhibentes
+            admitti. </p>
+               <p xml:id="azsw2e-d1e3684-d1e535" n="3">
+            Si autem in illo loco minime inventi fuerint septem testes,
+            usque ad quinque modis omnibus testes adhiberi iubemus: minus autem
+            nullo modo concedimus. </p>
+               <p xml:id="azsw2e-d1e3684-d1e539" n="4">
+            Si vero unus aut duo vel plures scierint litteras, liceat
+            his pro ignorantibus litteras, praesentibus tamen, subscriptionem
+            suam imponere, sic tamen, ut ipsi testes cognoscant testatoris voluntatem
+            et maxime quem vel quos heredes sibi relinquere voluerit, et hoc post
+            mortem testatoris iurati deponant. </p>
+               <p xml:id="azsw2e-d1e3684-d1e542" n="5">
+            Quod igitur quisque rusticorum, sicut praedictum est, pro
+            suis rebus disposuerit, hoc omnimodo legum subtilitate remissa firmum
+            validumque consistat. * IUST. A. IOHANNI PP. *&lt;A 534 D. III NON.
+            IUL. CONSTANTINOPOLI DN. IUSTINIANO A. IIII ET PAULINO VC. CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

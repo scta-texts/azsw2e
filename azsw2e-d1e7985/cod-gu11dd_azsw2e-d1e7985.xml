@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 5</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 5</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e7985"><!-- azsw2e-l12t5 -->
+            <head xml:id="azsw2e-d1e7985-Hd1e101">Titulus 5</head>
+            <head xml:id="azsw2e-d1e7985-Hd1e103" type="question-title">De praepositis sacri cubiculi et de omnibus cubiculariis et privilegiis
+            eorum</head>
+            <div xml:id="azsw2e-d1e7985-Dd1e106">
+               <head xml:id="azsw2e-d1e7985-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e7985-d1e110">
+                  <ref xml:id="azsw2e-d1e7985-Rd1e112">Imperatores
+            Honorius, Theodosius</ref> Sacri cubiculi
+            praepositi ea dignitate fungantur, qua sunt praediti, qui eminentissimam
+            praetorianam vel urbanam meruerint praefecturam aut certe militarem
+            magisteriam potestatem, ita ut sit inter eos post depositas administrationes
+            nulla discretio, sive nostrae serenitatis adoraturi admittuntur imperium
+            sive pro suo arbitrio sollemnes festivitates et coetus vel salutationes
+            vel quaelibet alia officia frequentent, ut in sedibus et in concessu
+            is eis ordo servetur, quem ordo provectionis ostenderit, sub habitu
+            ipsis videlicet consueto, cum manifeste decretum sit eum esse qui
+            praecesserit potiorem, vel illum subsequi, quem recentius probavit
+            examen. * HONOR. ET THEODOS. AA. FLORENTIO PU. *&lt;A
+            422 D. VIII ID. NOV. CONSTANTINOPOLI HONORIO XIII ET THEODOSIO
+            X AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7985-Dd1e116">
+               <head xml:id="azsw2e-d1e7985-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e7985-d1e120">
+                  <ref xml:id="azsw2e-d1e7985-Rd1e122">Imperatores
+            Theodosius, Valentinianus</ref>  Hac nostrae mansuetudinis aeterna
+            lege sancimus, ut omnes cubicularii, qui de nostro cubiculo exeunt,
+            antequam primum locum obtineant, excepto castrensi et comite domorum
+            his privilegiis perfruantur, id est ut nec possessiones eorum angarias
+            sive parangarias vel etiam paraveredos in posterum dispositione tui
+            culminis vel alicuius calumnia dare cogantur, ne sordidis adstricti
+            muneribus decus ministerii, quod militando videbantur adepti, otii
+            tempore et quietis amittant. </p>
+               <p xml:id="azsw2e-d1e7985-d1e125" n="1">
+            Domos quoque eorum vel in hac sacratissima urbe vel in qualibet
+            alia positas civitate ab omni hospitum cuiuslibet dignitatis inquietudine
+            vindicamus. </p>
+               <p xml:id="azsw2e-d1e7985-d1e128" n="2">
+            Provinciarum rectoribus eorumque apparationibus denarum librarum
+            auri dispendio feriendis, si mansuetudinis nostrae statuta dissimulare
+            et ex aliqua parte violare temptaverint. * THEODOS. ET VALENTIN. AA.
+            PROCULO PU. *&lt;A 428 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7985-Dd1e132">
+               <head xml:id="azsw2e-d1e7985-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e7985-d1e136">
+                  <ref xml:id="azsw2e-d1e7985-Rd1e138">Imperatores
+            Leo, Anthemius</ref> Cubicularios tam sacri
+            cubiculi mei quam venerabilis augustae, quos utrosque certum est obsequiis
+            occupatos et aulae penetralibus inhaerentes diversa iudicia obire
+            non posse, ab observatione aliorum tribunalium liberamus, ut in sublimitatis
+            solummodo tuae iudicio propositas adversus se excipiant actiones.
+            * LEO ET ANTHEM. AA. IOHANNI COM. ET MAG.
+            OFF. *&lt;A X &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7985-Dd1e143">
+               <head xml:id="azsw2e-d1e7985-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e7985-d1e147">
+                  <ref xml:id="azsw2e-d1e7985-Rd1e149">Imperator
+            Leo</ref>  Iubemus omnes, qui vel iam in sacrum cubiculum cuiuspiam liberalitate
+            donati aliove titulo dati vel dandi principalibus obsequiis inhaerere
+            vel ante meruerunt vel postea meruerint, licet nulla interveniente
+            scriptura, nulla confectione gestorum, postquam devotissimis cubiculariis
+            fuerint sociati, ad condicionem libertatis ingenuitatisque rapiantur
+            raptique videantur. </p>
+               <p xml:id="azsw2e-d1e7985-d1e152" n="1">
+            Hoc non solum circa superstites, sed etiam circa mortuos
+            volumus custodiri. Nam cum hoc privilegium videatur principalis esse
+            proprium maiestatis, ut non famulorum, sicut privatae condicionis
+            homines, sed liberorum honestis utantur obsequiis, periniquum est
+            eos dumtaxat pati fortunae deterioris incommodat. </p>
+               <p xml:id="azsw2e-d1e7985-d1e155" n="2">
+            Sed testamenta quidem ad similitudinem aliorum, qui ingenuitatis
+            infulis decorantur, pro sua liceat eis condere voluntate. Intestatorum
+            vero nemo dubitet facultates utpote sine legitimis successoribus defunctorum
+            fisci viribus vindicari. </p>
+               <p xml:id="azsw2e-d1e7985-d1e158" n="3">
+            Haec omnia tunc diligenti observatione volumus custodiri,
+            cum sponte suaque voluntate quis dederit eunuchum sacri cubiculi ministeriis
+            adhaesurum. </p>
+               <p xml:id="azsw2e-d1e7985-d1e162" n="4">
+            Si vero cuidam fuerit violenter extortus, aut invito domino
+            vel ignaro intra sacrum ausus sit militare cubiculum, liceat domino
+            destinatum sacra ex lege cubiculariis interpellare iudicium et eum,
+            quem probaverit nolente se vel inscio sacrum penetrasse cubiculum,
+            ut suum famulum cum peculio consequatur. </p>
+               <p xml:id="azsw2e-d1e7985-d1e165" n="5">
+            Sed sicut laesis implorandi praesidii facultatem denegari
+            non convenit, ita nec calumniandi viam patimur diutius esse patefactam.
+            Ideoque tempus quinquennii praefinimus, intra quoc contra eum suas
+            debeant exercere quaestiones, ut, si medio tempore movere distulerint,
+            ulterius eis tamquam in suum famulum vindicandi vel eius ut servi
+            peculium vel bona quasi liberti copia denegetur. </p>
+               <p xml:id="azsw2e-d1e7985-d1e168" n="6">
+            Haec omnia, quae super devotissimis cubiculariis sancimus,
+            etiam ad cubicularias , quae a dominis in sacrum cubiculum datae vel
+            dandae sunt, superstites atque mortuas extendi propagarique decernimus.
+            * LEO A. PUSAEO PP. *&lt;A X &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e7985-Dd1e172">
+               <head xml:id="azsw2e-d1e7985-Hd1e174">5</head>
+               <p xml:id="azsw2e-d1e7985-d1e176">
+                  <ref xml:id="azsw2e-d1e7985-Rd1e178">Imperator
+            Anastasius</ref> Iubemus duobus viris illustribus
+            praepositis utriusque sacri cubiculi tam nostrae pietatis quam nostrae
+            serenissimae coniugis, post finitam militiam si senatorio fuerint
+            consortio sociati, licere, quotiens ad adspiciendos agros suos vel
+            ob aliam causam proficisci voluerint, cingulo uti, cum hoc ad implendum
+            eorum desiderium et ad nullius laesionem respicere videatur. * ANASTAS. A. EUSEBIO MAG. OFF. *&lt;A XXX &gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

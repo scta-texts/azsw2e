@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 11</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 11</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e1466"><!-- azsw2e-l3t11 -->
+            <head xml:id="azsw2e-d1e1466-Hd1e101">Titulus 11</head>
+            <head xml:id="azsw2e-d1e1466-Hd1e103" type="question-title">De dilationibus.</head>
+            <div xml:id="azsw2e-d1e1466-Dd1e106">
+               <head xml:id="azsw2e-d1e1466-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e1466-d1e110">
+                  <ref xml:id="azsw2e-d1e1466-Rd1e112">Imperatores
+            Diocletianus, Maximianus</ref>  Quoniam plerumque evenit, ut iudex
+            instrumentorum vel personarum gratia dilationem dare rerum necessitate
+            cogatur, spatium instructionis exhibendae postulatum dari conveniet.
+            </p>
+               <p xml:id="azsw2e-d1e1466-d1e115" n="1">
+            Quod hac ratione arbitramur esse moderandum, ut, si ex ea
+            provincia ubi lis agitur vel persona vel instrumenta poscentur, non
+            amplius quam tres menses indulgeantur: si vero ex continentibus provinciis,
+            sex menses custodiri iustitiae est: in transmarina autem dilatione
+            novem menses computari oportebit. </p>
+               <p xml:id="azsw2e-d1e1466-d1e118" n="2">
+            Quod ita constitutum iudicantes sentire debebunt, ut hac
+            ratione non sibi concessum intellegant dandae dilationis arbitrium,
+            sed eandem dilationem, si rerum urguentissima ratio flagitaverit et
+            necessitas desideratae instructionis exegerit , non facile amplius
+            quam semel nec ulla trahendi arte sciant esse tribuendam. * DIOCL.
+            ET MAXIM. AA. ET CC. DICUNT: *&lt;A 294 D. XV K. APRIL. CC. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e1466-Dd1e122">
+               <head xml:id="azsw2e-d1e1466-Hd1e124">2</head>
+               <p xml:id="azsw2e-d1e1466-d1e126">
+                  <ref xml:id="azsw2e-d1e1466-Rd1e128">Imperator
+            Constantinus</ref> Si quando quis rescriptum ad extraordinarium iudicem
+            reportaverit, dilatio ei penitus deneganda est: illi autem, qui in
+            iudicium vocatur, danda est ad probanda precum mendacia vel proferenda
+            aliqua instrumenta vel testes, quoniam instructus esse non potuit,
+            si praeter spem ad alienum iudicium trahitur. * CONST. A. AD URSUM
+            VIC. *&lt;A 314 D. II NON. MART. VOLUSIANO ET ANNIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1466-Dd1e132">
+               <head xml:id="azsw2e-d1e1466-Hd1e134">3</head>
+               <p xml:id="azsw2e-d1e1466-d1e136">
+                  <ref xml:id="azsw2e-d1e1466-Rd1e138">Imperator
+            Constantinus</ref> Sive pars sive integra dilatio fuerit data, eo
+            usque iudicis officium conquiescat, donec petiti temporis defluxerint
+            curricula. Feriae autem, sive repentinae sive sollemnes sint, dilationum
+            temporibus non excipiantur, sed his connumerentur * CONST. A. PROFUTURO
+            PRAEF. ANNONAE. *&lt;A 318 D. VII ID. FEBR. SIRMI LICINIO V ET CRISPO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1466-Dd1e143">
+               <head xml:id="azsw2e-d1e1466-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e1466-d1e147">
+                  <ref xml:id="azsw2e-d1e1466-Rd1e149">Imperator
+            Constantinus</ref> A procedente iudice dilationem non convenit postulari,
+            etiamsi utraque parte praesente tribuatur, cum non alias nisi causa
+            cognita indulgeri queat et cognitio causae non interpellatione planaria,
+            sed considente magis iudice legitime colligatur, et, si forte dilationis
+            petitio fuerit improbata, suscepta quaestio per sententiam iudicis
+            dirimatur. * CONST. A. AD CATULLINUM PROCONS. AFRICAE. *&lt;A 318
+            D. V ID. FEBR. SIRMI LICINIO V ET CRISPO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1466-Dd1e153">
+               <head xml:id="azsw2e-d1e1466-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e1466-d1e157">
+                  <ref xml:id="azsw2e-d1e1466-Rd1e159">Imperator
+            Constantinus</ref> Cum a nobis fuerit ad appellationem consultationemve
+            rescriptum, sive sit primo iudicio petita dilatio sive ea tributa
+            non sit sive nec petita quidem, eam dare cuiquam non licebit eadem
+            ratione, qua nec in iudiciis quidem cognitionum nostrarum dilatio
+            tribui solet. * CONST. A. AD MAXIMUM. *&lt;A 322 PP. ROMAE VIII K.
+            APRIL. PROBIANO ET IULIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1466-Dd1e163">
+               <head xml:id="azsw2e-d1e1466-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e1466-d1e167">
+                  <ref xml:id="azsw2e-d1e1466-Rd1e169">Imperatores
+            Constantius, Constans</ref> Inter privatos et fiscum si aliqua lis
+            mota fuerit, utrique parti petendae dilationis per defensores suos
+            copia non est deneganda, si hoc commoditatis ratio postulaverit. *
+            CONSTANTIUS ET CONSTANS AA. AD PETRONIUM VIC. AFRICAE. *&lt;A 340
+            D. V ID. APRIL. AQUILEIAE ACYNDINO ET PROCULO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e1466-Dd1e173">
+               <head xml:id="azsw2e-d1e1466-Hd1e175">7</head>
+               <p xml:id="azsw2e-d1e1466-d1e177">
+                  <ref xml:id="azsw2e-d1e1466-Rd1e179">Imperatores
+            Arcadius, Honorius</ref> Nec de statu ac patrimonio litigantibus in
+            transmarina etiam dilatione mensuum novem spatia egredi concedatur.
+            * ARCAD. ET HONOR. AA. MESSALAE PP. *&lt;A 399 D. XII K. DEC. THEODORO
+            CONS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

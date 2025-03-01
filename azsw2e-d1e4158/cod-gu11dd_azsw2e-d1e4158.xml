@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 4</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 4</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e4158"><!-- azsw2e-l7t4 -->
+            <head xml:id="azsw2e-d1e4158-Hd1e101">Titulus 4</head>
+            <head xml:id="azsw2e-d1e4158-Hd1e103" type="question-title">De fideicommissariis libertatibus</head>
+            <div xml:id="azsw2e-d1e4158-Dd1e106">
+               <head xml:id="azsw2e-d1e4158-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e4158-d1e110">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e112">Imperatores
+            Severus, Antoninus</ref>  Cum proponas hereditatem
+            eius aditam non esse, a quo tibi fideicommissariam libertatem relictam
+            dicis, et ab intestato alium quam qui scriptus erat hereditatem possedisse,
+            si non a legitimo quoque herede fideicommissaria libertas repetita
+            est, nullo iure praestari eam ab eo qui rogatus non est desideras.
+            </p>
+               <p xml:id="azsw2e-d1e4158-d1e115" n="1">
+            Plane si pecunia accepta heredem institutum omisisse hereditatem
+            docueris, libertatem tibi praestare cogetur. * SEV. ET ANT.
+            AA. *&lt;A 197 PP. XIII K. MART. LATERANO
+            ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e119">
+               <head xml:id="azsw2e-d1e4158-Hd1e121">2</head>
+               <p xml:id="azsw2e-d1e4158-d1e123">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e125">Imperator
+            Antoninus</ref> Quamvis codicilli, quibus avunculo defunctae legatus
+            esse videaris, falsi pronuntiati sunt, tamen si ante motam criminis
+            quaestionem iustam libertatem es a legatario consecutus, posterior
+            eventus non infirmat ita datam libertatem. Plane secundum divi hadriani
+            constitutionem datur heredi viginti aureorum repetitio * ANT. A. VALERIO.
+            *&lt;A D. XVIII K. AUG. EODEM ANTONIO A........... CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e129">
+               <head xml:id="azsw2e-d1e4158-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e4158-d1e133">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e135">Imperator
+            Alexander Severus</ref> Cum libertatem mulieribus
+            sub condicione datam proponas, quid dubium est eos, qui ex his ante
+            impletam eam eduntur, servos nasci et pertinere ad heredes iure dominii?
+            his enim demum succursum est, qui post moram praestandae libertatis
+            progeniti sunt, ut liberi et ingenui viderentur. * ALEX. A.
+            LUCIO. *&lt;A 222? &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e140">
+               <head xml:id="azsw2e-d1e4158-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e4158-d1e144">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e146">Imperator
+            Alexander Severus</ref> Si voluntate domini
+            in libertate morata est, cui fideicommissaria libertas debita fuerit,
+            secundum senatus consultum et constitutiones ad id pertinentes civis
+            Romana facta ingenuos peperit. Sed si numquam ab ea libertas
+            petita est, sibimet imputare debet, cum interea ex ea progeniti servi
+            sint * ALEX. A. ARRIANO. *&lt;A 222? &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e150">
+               <head xml:id="azsw2e-d1e4158-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e4158-d1e154">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e156">Imperator
+            Alexander Severus</ref> Minor annis lege definitis
+            nec per fideicommissum libertatem supremis suis relinquere potest
+            nisi his, quorum causam probare potest. * ALEX. A. DIONYSIO. *&lt;A
+            222? &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e160">
+               <head xml:id="azsw2e-d1e4158-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e4158-d1e164">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e166">Imperator
+            Alexander Severus</ref> Deberi etiam alienae
+            ancillae fideicommissariam libertatem placuit: nec deficit hoc debitum,
+            si interim domina, si modo nihil ex iudicio eius, qui quaeve reliquit
+            libertatem, percepit, noluit vendere, quia possit tempore procedente,
+            ubicumque occasio redimendae ancillae fuerit, praestari libertas.
+            * ALEX. A. MAXIMO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e170">
+               <head xml:id="azsw2e-d1e4158-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e4158-d1e174">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e176">Imperator
+            Alexander Severus</ref> Hi, quibus per fideicommissum
+            libertas supremis iudiciis relinquitur, eorum liberti efficiuntur,
+            a quibus manumittuntur. * ALEX.A. NICOMEDI. *&lt;A 225 PP. K. APRIL.
+            FUSCO ET DEXTRO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e180">
+               <head xml:id="azsw2e-d1e4158-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e4158-d1e184">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e186">Imperator
+            Alexander Severus</ref> Cum proponas fideicommissariam
+            libertatem ita tibi datam, si uxori testatoris placuisset, licet non
+            adeunte hereditatem ad filium solida hereditas pertinere coepit, non
+            refragante tamen uxore testatoris potes petere libertatem. *
+            ALEX. A. EUTYCHETI. *&lt;A 225 PP. XV K. SEPT. FUSCO ET DEXTRO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e190">
+               <head xml:id="azsw2e-d1e4158-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e4158-d1e194">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e196">Imperator
+            Alexander Severus</ref> Fideicommissaria quidem
+            libertas ita tibi relicta, cum testatoris filius ad annum vigensimum
+            quintum pervenisset, non intercidit, licet heredem intra praestitutam
+            aetatem decessisse proponas: tempore quippe, quo, si viveret, praefinitam
+            aetatem impleturus foret, spem libertatis non intercidere vetus placitum
+            est. * ALEX. A. MERCURIALI. *&lt;A 231 PP. K. APRIL. POMPEIANO ET PELIGNO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e201">
+               <head xml:id="azsw2e-d1e4158-Hd1e203">10</head>
+               <p xml:id="azsw2e-d1e4158-d1e205">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e207">Imperatores
+            Valerianus, Gallienus</ref>  Etsi non adscripta libertate testator
+            servum suum tutorem filiis suis dederit, receptum est et libertatis
+            et pupillorum favore, ut per fideicommissum manumisisse eum videatur.
+            </p>
+               <p xml:id="azsw2e-d1e4158-d1e210" n="1">
+            Et si non suum proprium, sed alienum servum condicionem eius
+            sciens tutorem adscripserit, aeque fideicommissariam libertatem datam,
+            nisi aliud evidenter defunctum sensisse appareat, prudentibus placuit.
+            * VALER. ET GALLIEN. AA. DAPHNO. *&lt;A 260 PP. III K. MART. SAECULARE ET DONATO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e214">
+               <head xml:id="azsw2e-d1e4158-Hd1e216">11</head>
+               <p xml:id="azsw2e-d1e4158-d1e218">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e220">Imperatores
+            Diocletianus, Maximianus</ref>  Si servus fuisti
+            ac tibi per fideicommissum libertas relicta fuerit, pervides sine
+            manumissione te ad libertatem pervenire non potuisse. </p>
+               <p xml:id="azsw2e-d1e4158-d1e223" n="1">
+            Quapropter si verbis precariis constitutus servus libertatem
+            accepisti, adiri praeses provinciae oportet, ut causa cognita, si
+            tibi deberi libertatem perspexerit, ad manumittendum eum qui debet
+            urgueat vel, si latitet, contra latitantem interposito decreto tibi
+            prospiciat. * DIOCL. ET MAXIM. AA. ET CC. FLAVIANO. *&lt; SINE
+            DIE ET CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e227">
+               <head xml:id="azsw2e-d1e4158-Hd1e229">12</head>
+               <p xml:id="azsw2e-d1e4158-d1e231">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e233">Imperatores
+            Diocletianus, Maximianus</ref> Ex verbo "commendo" testamento
+            vel codicillis non videri fideicommissariam libertatem relictam auctoritate
+            iuris declaratur. * DIOCL. ET MAXIM. AA. ET CC. IRENAEO. *&lt;A 294
+            S. XVII K. MAI. SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e237">
+               <head xml:id="azsw2e-d1e4158-Hd1e239">13</head>
+               <p xml:id="azsw2e-d1e4158-d1e241">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e243">Imperatores
+            Diocletianus, Maximianus</ref> Si te, donatam ante matrimonium uxori
+            suae, post ei legato relicto manumitti testamento seu codicillis verbis
+            precariis a successoribus voluit, tam hos ad redemptionem et manumissionem
+            quam eam, quae in capiendis relictis defuncti consensit iudicio, teneri
+            tibique fideicommissariam debere libertatem non ambigitur. * DIOCL.
+            ET MAXIM. AA. ET CC. PYTHAGORIDAE. *&lt;A 294 S. VII ID. DEC. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e247">
+               <head xml:id="azsw2e-d1e4158-Hd1e249">14</head>
+               <p xml:id="azsw2e-d1e4158-d1e251">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e253">Imperator
+            Justinianus</ref>  Cum inter veteres dubitabatur,
+            si fideicommissariam libertatem possibile esset relinqui servo, qui
+            adhuc in ventre portaretur et homo fieri speraretur, nos vetus iurgium
+            decidentes libertatis favore censemus et fideicommissariam nec non
+            directam libertatem suam firmitatem habere sive in masculo sive in
+            femina, quae adhuc in ventre vehatur materno, ut cum libertate solem
+            respiciat, etsi mater sua adhuc in servitute constans eum vel eam
+            ediderit. </p>
+               <p xml:id="azsw2e-d1e4158-d1e256" n="1">
+            Sin autem plures creati vel creatae sint, sive unius fecit
+            mentionem sive pluraliter nuncupavit, nihilo minus omnes ad libertatem
+            ad prima veniant cunabula, cum in ambiguis sensibus melius est, et
+            maxime in libertate, favore eius humaniorem amplecti sententiam. *
+            IUST. A. IULIANO PP. *&lt;A 530 D. K. OCT. CONSTANTINOPOLI
+            LAMPADIO ET ORESTE VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e260">
+               <head xml:id="azsw2e-d1e4158-Hd1e262">15</head>
+               <p xml:id="azsw2e-d1e4158-d1e264">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e266">Imperator
+            Justinianus</ref> Ancillam seu servum, cum
+            fideicommissaria libertas eis relicta sit, sancimus, si mora a debitore
+            libertatis facta fuerit, sententia praesidis eripi ad libertatem et
+            nullo facto aut voluntate ab herede expectanda, sed talem habere eos
+            libertatem, quasi ab ipso testatore directis verbis fuerint libertatem
+            consecuti, cum satis impium atque absurdum est heredes testatoris
+            differre voluntates, maxime cum ad libertatem respiciant. * IUST.
+            A. IULIANO PP. *&lt;A 530 D. K. OCT. CONSTANTINOPOLI LAMPADIO
+            ET ORESTE VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e271">
+               <head xml:id="azsw2e-d1e4158-Hd1e273">16</head>
+               <p xml:id="azsw2e-d1e4158-d1e275">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e277">Imperator
+            Justinianus</ref>  Si quis in suo testamento
+            rogaverit suum heredem ex liberis ancillae suae quam nominaverit unum
+            quem elegerit ad libertatem perducere et, cum ancilla unum vel plures
+            enixa est, heres neque dum superest in libertatem aliquem adduxerit
+            vel, cum deliberat, quis ad libertatem producendus est, ab hac luce
+            fuerit subtractus : dubitabatur ab antiquis, utrumne omnes an quidam
+            aut nemo ex his ad libertatem perveniant. Sed veteris quidem iuris
+            altercatio multa sibi super huiusmodi casibus resonavit. </p>
+               <p xml:id="azsw2e-d1e4158-d1e280" n="1">
+            Nos autem heredis malignitatem coercentes, si non voluntatem
+            testatoris adimpleverit et mox, cum potuerit, non elegerit unum ex
+            liberis ancillae et eum libertate donaverit, sancimus compelli non
+            solum eum, sed etiam heredes vel successores eius omnes ancillae liberos
+            in libertatem producere. </p>
+               <p xml:id="azsw2e-d1e4158-d1e283" n="2">
+            Neque enim hoc contrarium est sententiae testatoris: cum
+            enim omnimodo quendam ex his liberum esse disposuit et non ad certum
+            corpus, sed ad omnes respexit, si non paretur eius voluntati, sine
+            dubio ex sententia testatoris omnes ad libertatem perveniunt. </p>
+               <p xml:id="azsw2e-d1e4158-d1e286" n="3">
+            Similemque esse definitionem censemus, et si non ab herede,
+            sed a legatario vel fideicommissario testator rogaverit libertatem
+            imponi. </p>
+               <p xml:id="azsw2e-d1e4158-d1e290" n="4">
+            Sic etenim iusto timore heredes vel legatarii vel fideicommissarii
+            perterriti et voluntatem testatoris adimplere procurent et sibi non
+            ex omnium libertate quandam adferri patiantur iacturam. Quod
+            si reclamaverint, sibi tale dispendium imputent, non ex nostra lege,
+            sed ex sua lugentes instantia.* IUST. A. IULIANO PP. *&lt;A 530 D. XV K. DEC. CONSTANTINOPOLI
+            LAMPADIO ET ORESTE VV. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e4158-Dd1e294">
+               <head xml:id="azsw2e-d1e4158-Hd1e296">17</head>
+               <p xml:id="azsw2e-d1e4158-d1e298">
+                  <ref xml:id="azsw2e-d1e4158-Rd1e300">Imperator
+            Justinianus</ref>  Cum quidam servum suum ita
+            legavit, ut legatarius libertatem ei imponat, et heres ad huiusmodi
+            legatum improbe versatus servum dare legatario designatus est, ut
+            etiam lite pulsetur, et iudex non in ipsum servum, sed in aestimationem
+            litis condemnationem proferat: veteris iuris interpretes dubitabant,
+            ne quid obstaculum libertati ex hac causa procedat et, si placuerit
+            eandem deberi libertatem, a quo danda est utrumne ab herede an a legatario,
+            et si heres imponat libertatem, an legatarius, quod ex pecuniaria
+            condemnatione accepit, firmiter detinet sive totum sive ex parte sive
+            etiam nihil. </p>
+               <p xml:id="azsw2e-d1e4158-d1e303" n="1">
+            Talem itaque altercationem resecantes miramur, quare iudex,
+            qui praepositus est in praedicta causa, non omnimodo condemnationem
+            in servum, sed in aestimationem eius fecerat, cum ipsius vitium etiam
+            huiusmodi altercationi praebuit occasionem. </p>
+               <p xml:id="azsw2e-d1e4158-d1e306" n="2">
+            Unde si talis quaestio emerserit, nullum quidem iudicem ita
+            esse stultum putamus , ut huiusmodi proferat condemnationem, sed si
+            legatarius immineat, quatenus ei servus restituatur, et post litem
+            contestatam duorum mensum spatium effluxerit, censemus ilico ad libertatem
+            eripi servum, et illum quidem liberum esse, heredem autem pro sua
+            indevotione omnes expensas, quas legatarius in litem fecit, in quadruplum
+            ei condemnari, iure patronatus integro legatario servando. * IUST.
+            A. IULIANO PP. *&lt;A 530 D. CONSTANTINOPOLI XV K. DEC. LAMPADIO
+            ET ORESTE VV. CC.CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

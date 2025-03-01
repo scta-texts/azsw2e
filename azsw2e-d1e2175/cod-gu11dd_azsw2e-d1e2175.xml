@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 30</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 30</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2175"><!-- azsw2e-l4t30 -->
+            <head xml:id="azsw2e-d1e2175-Hd1e101">Titulus 30</head>
+            <head xml:id="azsw2e-d1e2175-Hd1e103" type="question-title">De non numerata pecunia</head>
+            <div xml:id="azsw2e-d1e2175-Dd1e106">
+               <head xml:id="azsw2e-d1e2175-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2175-d1e110">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Si pecuniam tibi non esse numeratam atque
+            ideo frustra cautionem emissam adseris et pignus datum probaturus
+            es, in rem experiri potes: nam intentio dati pignoris neque numeratae
+            pecuniae non aliter tenebit, quam si de fide debiti constiterit. Eademque
+            ratione veritas servetur, si te possidente pignus adversarius tuus
+            agere coeperit * SEV. ET ANT. AA. HILARO. *&lt;A 197 PP. K. SEPT.
+            LATERANO ET RUFINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e116">
+               <head xml:id="azsw2e-d1e2175-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2175-d1e120">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e122">Imperator
+            Antoninus</ref> Minorem pecuniam te accepisse et maioris cautionem
+            interposuisse si apud eum qui super ea re cogniturus est constiterit,
+            nihil ultra quam accepisti cum usuris in stipulatum deductis restituere
+            te iubebit. * ANT. A. MATURIO. *&lt;A 213 D. ID. APRIL. ANTONINO A.
+            IIII ET BALBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e126">
+               <head xml:id="azsw2e-d1e2175-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2175-d1e130">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e132">Imperator
+            Antoninus</ref> Si ex cautione tua, licet hypotheca data, conveniri
+            coeperis, exceptione opposita seu doli seu non numeratae pecuniae
+            compelletur petitor probare pecuniam tibi esse numeratam: quo non
+            impleto absolutio sequetur. * ANT. A. DEMETRIAE. *&lt;A 215 D. III
+            K. IUL. LAETO ET CEREALE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e137">
+               <head xml:id="azsw2e-d1e2175-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2175-d1e141">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e143">Imperator
+            Antoninus</ref> Cum fidem cautionis agnoscens etiam solutionem portionis
+            debiti vel usurarum feceris, intellegis de non numerata pecunia nimium
+            tarde querellam te deferre. * ANT. A.BASSO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e147">
+               <head xml:id="azsw2e-d1e2175-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e2175-d1e151">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e153">Imperator
+            Alexander Severus</ref> Adversus petitiones adversarii si quid iuris
+            habes, uti eo potes. Ignorare autem non debes non numeratae pecuniae
+            exceptionem ibi locum habere, ubi quasi credita pecunia petitur, cum
+            autem ex praecedenti causa debiti in chirographum quantitas redigitur,
+            non requiri, an tunc cum cavebatur numerata sit, sed an iusta causa
+            debiti praecesserit * ALEX. A. AUGUSTIANO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e157">
+               <head xml:id="azsw2e-d1e2175-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e2175-d1e161">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e163">Imperator
+            Alexander Severus</ref> Frustra opinaris exceptione non numeratae
+            pecuniae te esse munitum, quando, ut fateris, in eius vicem qui erat
+            obligatus substitueris te debitorem. * ALEX. A. IUSTINO. *&lt;PP.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e167">
+               <head xml:id="azsw2e-d1e2175-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e2175-d1e171">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e173">Imperator
+            Alexander Severus</ref> Si quasi accepturi mutuam pecuniam adversario
+            cavistis, quae numerata non est, per condictionem obligationem repetere,
+            etsi actor non petat, vel exceptione non numeratae pecuniae adversus
+            agentem uti potestis. * ALEX. A. IULIANO ET AMMONIANO. *&lt;A 223
+            PP. NON. NOV. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e177">
+               <head xml:id="azsw2e-d1e2175-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e2175-d1e181">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e183">Imperator
+            Alexander Severus</ref>  Si intra legibus definitum tempus qui cautionem
+            exposuit nulla querimonia usus defunctus est, residuum tempus eius
+            heres habebit tam adversus creditorem quam adversus heredes eius.
+            </p>
+               <p xml:id="azsw2e-d1e2175-d1e186" n="1">
+            Sin autem questus est, exceptio non numeratae pecuniae heredi
+            et adversus heredes perpetuo competit. </p>
+               <p xml:id="azsw2e-d1e2175-d1e189" n="2">
+            Sin vero legitimum tempus excessit in querimoniam creditore
+            minime deducto, omnimodo heres eius, et si pupillus sit, debitum solvere
+            compelletur. * ALEX. A. MATERNO. *&lt;A 228 PP. XII K. APRIL. MODESTO
+            ET PROBO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e193">
+               <head xml:id="azsw2e-d1e2175-Hd1e195">9</head>
+               <p xml:id="azsw2e-d1e2175-d1e197">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e199">Imperatores
+            Diocletianus, Maximianus</ref> Cum ultra hoc quod accepit re obligari
+            neminem posse constet et stipulatione interposita placita creditor
+            non dederit, in factum dandam exceptionem convenit: si necdum tempus,
+            intra quod huius rei querella deferri debet, transiit vel intra hoc
+            in testando iuri paritum sit, nihil ultra hoc quod accepisti sortis
+            a te nomine praeses provinciae exigi patietur. * DIOCL. ET MAXIM.
+            AA. ET CC. ZOILO. *&lt;A 293? D. III ID. DEC. IPSIS.... CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e204">
+               <head xml:id="azsw2e-d1e2175-Hd1e206">10</head>
+               <p xml:id="azsw2e-d1e2175-d1e208">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e210">Imperatores
+            Diocletianus, Maximianus</ref> Adseveratio debitum solutum contendentis
+            temporis diuturnitatis non excluditur. Nec huic obloquitur, quod exceptio
+            non numeratae pecuniae certa die non delata querella prius evanescat,
+            cum inter eum, qui factum adseverans onus subiit probationis, et negantem
+            numerationem, cuius naturali ratione probatio nulla est, et ob hoc
+            ad petitorem eius rei necessitatem transferentem magna sit differentia
+            * DIOCL. ET MAXIM. AA. ET CC. MUCAZANO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e214">
+               <head xml:id="azsw2e-d1e2175-Hd1e216">11</head>
+               <p xml:id="azsw2e-d1e2175-d1e218">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e220">Imperatores
+            Diocletianus, Maximianus</ref> Si transactionis causa dare palladio
+            pecuniam stipulanti spopondisti, exceptione non numeratae pecuniae
+            defendi non potes. * DIOCL. ET MAXIM. AA. ET CC. EUTYCHIANO. *&lt;D.
+            IIII ID. APRIL.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e224">
+               <head xml:id="azsw2e-d1e2175-Hd1e226">12</head>
+               <p xml:id="azsw2e-d1e2175-d1e228">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e230">Imperatores
+            Diocletianus, Maximianus</ref> Tam mandatori quam fideiussori non
+            numeratae pecuniae exceptio exemplo rei principalis competit. * DIOCL.
+            ET MAXIM. AA. ET CC. SEVERIANO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e234">
+               <head xml:id="azsw2e-d1e2175-Hd1e236">13</head>
+               <p xml:id="azsw2e-d1e2175-d1e238">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e240">Imperator
+            Justinus</ref> Generaliter sancimus, ut, si quid scriptis cautum fuerit
+            pro quibuscumque pecuniis ex antecedente causa descendentibus eamque
+            causam specialiter promissor edixerit, non iam ei licentia sit causae
+            probationes stipulatorem exigere, cum suis adquiescere deceat, nisi
+            certe ipse e contrario per apertissima rerum argumenta scriptis inserta
+            religionem iudicis possit instruere, quod in alium quemquam modum
+            et non in eum quem cautio perhibet negotium subsecutum sit. Nimis
+            enim indignum esse iudicamus, ut, quod sua quisque voce dilucide protestatus
+            est, id in eundem casum infirmare testimonioque proprio resistere
+            * IUSTINUS A. THEODOTO PU. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e244">
+               <head xml:id="azsw2e-d1e2175-Hd1e246">14</head>
+               <p xml:id="azsw2e-d1e2175-d1e248">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e250">Imperator
+            Justinianus</ref>  In contractibus, in quibus pecuniae vel aliae res
+            numeratae vel datae esse conscribuntur, non intra quinquennium, quod
+            antea constitutum erat, non numeratae pecuniae exceptionem obicere
+            possit, qui accepisse pecunias vel alias res scriptus sit, vel successor
+            eius, sed intra solum biennium continuum, ut eo lapso nullo modo querella
+            non numeratae pecuniae introduci possit: his scilicet, qui propter
+            aliquas causas specialiter legibus expressas etiam lapso quinquennio
+            in praeteritis temporibus adiuvabantur, etiam in posterum, licet biennium
+            pro quinquennio statutum est, eodem auxilio potituris. </p>
+               <p xml:id="azsw2e-d1e2175-d1e253" n="1">
+            Sed quoniam securitatibus et instrumentis depositarum rerum
+            vel pecuniarum talem exceptionem opponere litigatores conantur, iustum
+            esse prospicimus huiusmodi potestatem in certis quidem casibus prorsus
+            amputare, in aliis vero brevi tempore concludere. Ideoque sancimus
+            instrumento quidem depositionis certarum rerum vel certae pecuniae
+            securitatibusque publicarum functionum, sive in solidum sive ex parte
+            solutae esse conscribantur, illis etiam securitatibus, quae post confectionem
+            dotalium instrumentorum de soluta dote ex parte vel in solidum exponuntur,
+            nullam exceptionem non numeratae pecuniae penitus opponi </p>
+               <p xml:id="azsw2e-d1e2175-d1e256" n="2">
+            Super ceteris vero securitatibus, quae super privatis debitis
+            a creditore conscribuntur partem debiti sortis vel usurarum nomine
+            solutam esse significantes, vel adhuc feneraticia cautione apud creditorem
+            manente, solidi tamen debiti solutionem factam esse demonstrantes,
+            vel etiam futuram esse redhibitionem instrumenti feneraticii promittentes,
+            vel si qua alterius cuiuscumque contractus gratia, in qua numeratio
+            pecuniarum vel datio certarum specierum scripta est, securitas similiter
+            data sit depensas esse pecunias vel alias res vel partem earum significans,
+            intra triginta tantummodo dies post huiusmodi securitatis expositionem
+            connumerandos exceptionem non numeratae pecuniae posse obici, ut,
+            si hi transac ti fuerint, eadem securitas ab iudicantibus omnibus
+            modis admittatur, nec liceat ei qui securitatem exposuit post excessum
+            memoratorum dierum non esse sibi solutas vel pecunias vel alias res
+            dicere. </p>
+               <p xml:id="azsw2e-d1e2175-d1e259" n="3">
+            Illo videlicet observando, ut, in quibus permittitur exceptionem
+            non numeratae pecuniae opponere vel ab initio vel post taxatum tempus
+            elapsum, in his nec iusiurandum offerri liceat. </p>
+               <p xml:id="azsw2e-d1e2175-d1e263" n="4">
+            In omni vero tempore, quod memoratae exceptioni taxatum est,
+            licebit ei, cui talis exceptio competit, vel denuntiationibus scripto
+            missis querellam non numeratae pecuniae manifestare ei, qui numerasse
+            eam vel alias res dedisse instrumento scriptus est, vel, si abesse
+            eum his locis in quibus contractus factus est contigerit, in hac quidem
+            alma urbe apud quemlibet ordinarium iudicem, in provinciis vero apud
+            viros clarissimos rectores earum vel defensores locorum eandem querellam
+            manifestare eoque modo perpetuam sibi exceptionem efficere. </p>
+               <p xml:id="azsw2e-d1e2175-d1e266" n="5">
+            Sed si praesens quidem sit, qui pecunias numerasse vel alias
+            res dedisse scriptus est, aliquam vero administrationem vel in hac
+            alma urbe vel in provinciis gerat, ut difficile esse videatur denuntiationem
+            ei mittere, licentiam damus ei, qui memorata exceptione uti velit,
+            alios iudices adire vel in hac alma urbe vel in provinciis et per
+            eos ei manifestare, cui exceptionem huiusmodi obicit, factam a se
+            super non numerata pecunia querellam esse. </p>
+               <p xml:id="azsw2e-d1e2175-d1e269" n="6">
+            Quod si in provinciis vel non sit alius administrator civilis
+            vel militaris, vel per aliquam causam difficile sit ei qui memoratam
+            querellam opponit adire eum et ea quae dicta sunt facere, licentiam
+            ei damus per virum reverentissimum episcopum eandem suam exceptionem
+            creditori manifestare et ita tempus statutum interrumpere. Quae etiam
+            in exceptione non numeratae dotis locum habere certum est * IUST.
+            A. MENAE PP. *&lt;A 528 D. K. IUL. CONSTANTINOPOLI IPSO A. II CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e273">
+               <head xml:id="azsw2e-d1e2175-Hd1e275">15</head>
+               <p xml:id="azsw2e-d1e2175-d1e277">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e279">Imperator
+            Justinianus</ref> Si cui non numeratae pecuniae competere possit exceptio,
+            etiam eo supersedente tali auxilio uti, vel praesente vel absente,
+            creditores eius possint ( sive ipsi conveniantur utpote res eius detinentes,
+            ab his qui debita eius exigunt, cui competit huiusmodi exceptio vel
+            dotis vel alterius causae nomine, sive contra alios possidentes aliquam
+            actionem ipsi moveant) possint in examinando negotio suis adversariis
+            eandem non numeratae pecuniae exceptionem opponere nec eo prohibeantur,
+            quod principalis debitor ea numquam usus est: ita tamen, ut neque
+            principali debitori neque fideiussori eius aliquid praeiudicium generetur,
+            si is qui eam exceptionem opposuit victus fuit, sed possint illi postea,
+            si conveniantur, intra statuta scilicet tempora eadem se exceptione
+            tueri. * IUST. A. MENAE PP. *&lt;A 528 - 529 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2175-Dd1e284">
+               <head xml:id="azsw2e-d1e2175-Hd1e286">16</head>
+               <p xml:id="azsw2e-d1e2175-d1e288">
+                  <ref xml:id="azsw2e-d1e2175-Rd1e290">Imperator
+            Justinianus</ref> Indubitati iuris est non numeratae pecuniae exceptionem
+            locum habere et in talibus nominibus vel feneraticiis vel aliis cautionibus,
+            quae etiam sacramenti habent mentionem. Quae enim differentia est
+            in huiusmodi exceptione, sive iusiurandum positum est sive non, tam
+            in feneraticiis cautionibus quam in aliis instrumentis, quae talem
+            exceptionem recipiunt * IUST. A. IOHANNI PP. *&lt;A 531 - 532 &gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

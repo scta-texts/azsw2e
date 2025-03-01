@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 60</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 60</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e8599"><!-- azsw2e-l12t60 -->
+            <head xml:id="azsw2e-d1e8599-Hd1e101">Titulus 60</head>
+            <head xml:id="azsw2e-d1e8599-Hd1e103" type="question-title">De exsecutoribus et exactoribus</head>
+            <div xml:id="azsw2e-d1e8599-Dd1e106">
+               <head xml:id="azsw2e-d1e8599-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e8599-d1e110">
+                  <ref xml:id="azsw2e-d1e8599-Rd1e112">Imperatores
+            Arcadius, Honorius</ref> Ne per diversas provinciarum partes aut palatinus
+            exactor accederet aut illustrium virorum apparitor vagaretur vel militaris
+            terror inferret formidinem, hac lege sancimus, ut omnis memoratis
+            intentio ad provinciae rectorem sit, cum eo agant, illo insistente
+            disponente et agnoscente suo periculo rem peragant et impleant universa.
+            * ARCAD. ET HONOR. AA. AD PROVINCIALES ET AD PROCONSULES. *&lt;A 395
+            D. XVII K. IUL. MEDIOLANI OLYBRIO ET PROBINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8599-Dd1e116">
+               <head xml:id="azsw2e-d1e8599-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e8599-d1e120">
+                  <ref xml:id="azsw2e-d1e8599-Rd1e122">Imperatores
+            Arcadius, Honorius</ref> Quicumque e palatio nostro cuiuslibet tituli
+            ad provincias commeaverit compulsor exactor admonitor portitorve praecepti,
+            agens in rebus vel palatinus vel apparitor illustrium potestatum,
+            hoc tantum potestatis adripiat, quod mandatum curae suae specialiter
+            approbatur, nec quod iniunctum alteri fuit collegii iure praesumat,
+            ne, dum hoc sibi invicem mutui officii licentia partiuntur, agant
+            cuncti, quod singulis credebatur. * ARCAD. ET HONOR. AA. ANDROMACHO
+            PP. *&lt;A 395 D. PRID. ID. IU. MEDIOLANI OLYBRIO ET PROBINO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e8599-Dd1e126">
+               <head xml:id="azsw2e-d1e8599-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e8599-d1e130">
+                  <ref xml:id="azsw2e-d1e8599-Rd1e132">Imperatores
+            Honorius, Theodosius</ref>  Sive ex praetoriano officio sive illustris
+            comitivae sedis largitionum nec non et rei privatae nostrae vel ex
+            quacumque apparitione ad quamcumque necessitatem profligandam quis
+            fuerit destinatus, sciat intra anni metas debere collectis ratiociniis
+            ad proprium iudicem remeare eique suam efficaciam ostendere, quid
+            eius instantia exactum fuerit quidve in debitis habetur vel penes
+            quos resederit vel cuius culpa aut causa in eadem provincia fuerit
+            derelictum. </p>
+               <p xml:id="azsw2e-d1e8599-d1e135" n="1">
+            Quod si exacto spatio anni eius regionis visceribus praedator
+            insidens deprehensus fuerit remorari, tunc absolutus cingulo militia
+            abicietur, primoribus eius militiae decem librarum auri multa proposita.
+            </p>
+               <p xml:id="azsw2e-d1e8599-d1e138" n="2">
+            Si redire dissimulet, per vices officiorum ligatus ferreis
+            nexibus cura provincialis officii ad debitum mittatur examen nec ei
+            liberum sit, ut hoc se privilegio aut occasione defendat, quod sibi
+            aliud negotium vel aliam necessitatem post iniunctam esse causetur,
+            cum isdem licentiam auferamus in eadem provincia continuare exactionem.
+            * HONOR. ET THEODOS. AA. PALLADIO PP. *&lt;A 416 D.X K.OCT.RAVENNAE
+            THEODOSIO A.VII ET PALLADIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8599-Dd1e143">
+               <head xml:id="azsw2e-d1e8599-Hd1e145">4</head>
+               <p xml:id="azsw2e-d1e8599-d1e147">
+                  <ref xml:id="azsw2e-d1e8599-Rd1e149">Imperatores
+            Honorius, Theodosius</ref> Nullam possessionem alterius pro alienis
+            debitis publicis sive privatis praecipimus conveniri. * HONOR. ET
+            THEODOS. AA. IOHANNI PP. *&lt;A 422 D.V ID.IUL.RAVENNAE HONORIO XIII
+            ET THEODOSIO X AA.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8599-Dd1e153">
+               <head xml:id="azsw2e-d1e8599-Hd1e155">5</head>
+               <p xml:id="azsw2e-d1e8599-d1e157">
+                  <ref xml:id="azsw2e-d1e8599-Rd1e159">Imperatores
+            Theodosius, Valentinianus</ref> Contra nostra praecepta si quisquam
+            vetito ausu exsecutor audebit, licebit provinciae moderatori eundem
+            correptum ad sublimitatis tuae iudicium sub prosecutione dirigere,
+            licebit provinciali, etsi probatur obnoxius, exsecutoris contra vetitum
+            exactionem sibi vindicantis temeritatem legitime repellere. * THEODOS.
+            ET VALENTIN. AA. VOLUSIANO PP. *&lt;A 429 A.III K.MART.RAVENNAE POST
+            CONS.FELICIS ET TAURI VV.CC.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8599-Dd1e163">
+               <head xml:id="azsw2e-d1e8599-Hd1e165">6</head>
+               <p xml:id="azsw2e-d1e8599-d1e167">
+                  <ref xml:id="azsw2e-d1e8599-Rd1e169">Imperator
+            Zeno</ref>  Sancimus, ut eum, cui ex iudicio tui culminis quocumque
+            modo sive studio numerariorum aut tractatorum vel ipsorum iussu, qui
+            pro tempore amplissimae tuae sedis administrationem suscipiunt, exactio
+            publicarum pecuniarum iniungatur, minime prius liceat aliam sollicitudinem
+            gerendam suscipere, antequam reversus iniunctae sibi causae responsum
+            praebuerit. </p>
+               <p xml:id="azsw2e-d1e8599-d1e172" n="1">
+            Si tamen ita sors tulerit, ut in ea provincia, ad quam exsequendi
+            causa publici negotii aliquis proficiscitur, alia quoque causa sit
+            exsequenda, non prohiberi unum eundemque exsecutorem ab hac urbe regia
+            proficiscentem duorum simul, non plurium negotiorum exsecutionem suscipere,
+            dum ipsi quoque tertii negotii non sit iniungendi, antequam superioribus
+            responsum portaverit. </p>
+               <p xml:id="azsw2e-d1e8599-d1e175" n="2">
+            Exsecutoribus his, qui secundam, si non simul duas, vel etiam
+            tertiam causam passi fuerint exsequendam suscipere, non solum cinguli
+            et bonorum suorum amissionem, verum etiam perpetui exsilii supplicium
+            subituris. </p>
+               <p xml:id="azsw2e-d1e8599-d1e178" n="3">
+            Eandemque hanc poenam numerarium quoque et eius adiutores,
+            ad quorum curam quod violatum est pertinet, formidare. * ZENO A. ARCADIO
+            PP. *&lt;A 485-486 ? &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e8599-Dd1e182">
+               <head xml:id="azsw2e-d1e8599-Hd1e184">7</head>
+               <p xml:id="azsw2e-d1e8599-d1e186"><!-- greek -->
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

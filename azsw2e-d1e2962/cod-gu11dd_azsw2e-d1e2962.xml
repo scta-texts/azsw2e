@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 34</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 34</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2962"><!-- azsw2e-l5t34 -->
+            <head xml:id="azsw2e-d1e2962-Hd1e101">Titulus 34</head>
+            <head xml:id="azsw2e-d1e2962-Hd1e103" type="question-title">Qui dare tutores vel curatores et qui dari possunt</head>
+            <div xml:id="azsw2e-d1e2962-Dd1e106">
+               <head xml:id="azsw2e-d1e2962-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2962-d1e110">
+                  <ref xml:id="azsw2e-d1e2962-Rd1e112">Imperator
+            Alexander Severus</ref> Cum tibi in ea aetate constituto, ut, si de
+            statu constaret, per tutores sive curatores negotia tua administrari
+            deberent, libertatis controversiam fieri adleges, non oportuit impediri,
+            quo magis liberali causa ordinata, quia interim pro libero habebaris,
+            curator tibi daretur, per quem defendi causa tua potest. * ALEX. A.
+            AMBIBULO. *&lt;A 222 PP. K. NOV. ALEXANDRO A. CONS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2962-Dd1e116">
+               <head xml:id="azsw2e-d1e2962-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2962-d1e120">
+                  <ref xml:id="azsw2e-d1e2962-Rd1e122">Imperator
+            Alexander Severus</ref> Maritus etsi rebus uxoris suae debeat adfectionem,
+            tamen curator ei creari non potest. * ALEX. A. ARTEMISIAE. *&lt;A
+            225 PP. K. IUL. FUSCO II ET DEXTRO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2962-Dd1e126">
+               <head xml:id="azsw2e-d1e2962-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2962-d1e130">
+                  <ref xml:id="azsw2e-d1e2962-Rd1e132">Imperator
+            Philippus</ref> Luminibus captum curatorem habere falso tibi persuasum
+            est. * PHILIPP. A. DOLENTI. *&lt;A 244 PP. XIII K. AUG. PEREGRINO
+            ET AEMILIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2962-Dd1e137">
+               <head xml:id="azsw2e-d1e2962-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2962-d1e141">
+                  <ref xml:id="azsw2e-d1e2962-Rd1e143">Imperator
+            Philippus</ref> Armatae militae muneribus occupatus neque si legitimus
+            sit neque si ex testamento datus fuerit nec alio modo, etsi voluerit,
+            tutor aut curator fieri potest: sed si errore ductus res administraverit,
+            negotiorum gestorum actione convenitur. * PHILIPP. A. EMERITO MIL.
+            *&lt;A 244 PP. X K. AUG. PEREGRINO ET AEMILIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2962-Dd1e147">
+               <head xml:id="azsw2e-d1e2962-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e2962-d1e151">
+                  <ref xml:id="azsw2e-d1e2962-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Neque a praeside alterius provinciae
+            neque a magistratibus municipalibus tutorem ortum ex alia civitate
+            nec domicilium ubi nominatur habentem iure dari posse ab eo, cuius
+            iurisdictioni subiectus non est, certissimi iuris est: neque cessatio
+            iniuncti perperam officii ad periculum eius pertinet. * DIOCL. ET
+            MAXIM. AA. ET CC. AELIANAE. *&lt;A 293 S. XII K. MAI. AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2962-Dd1e157">
+               <head xml:id="azsw2e-d1e2962-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e2962-d1e161">
+                  <ref xml:id="azsw2e-d1e2962-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Quod dicis matrem filiis tutores nolle
+            petere, super hac re adi praesidem provinciae, cum, si eam neglexisse
+            perspexerit, etiam ipse magistratus dare tutores vel nomina mittere,
+            ut ab ipso decreto tribui possint, iubere non prohibeatur. * DIOCL.
+            ET MAXIM. AA.ET CC. LEONTIO. *&lt;A 293 PP. PRID. K. MAI. AA. CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2962-Dd1e167">
+               <head xml:id="azsw2e-d1e2962-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e2962-d1e171">
+                  <ref xml:id="azsw2e-d1e2962-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> In servili condicione constitutum tutorem
+            vel curatorem a praeside dari non posse nullam habet iuris dubitationem.
+            * DIOCL. ET MAXIM. AA. ET CC. RUFO. *&lt;A 293 S. PRID. NON. IUL.
+            PHILIPPOPOLI AA. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2962-Dd1e177">
+               <head xml:id="azsw2e-d1e2962-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e2962-d1e181">
+                  <ref xml:id="azsw2e-d1e2962-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Creditorem debitoribus tutorem datum
+            non tantum petitionem non amittere, sed etiam ipsum sibi posse solvere
+            non ambigitur. * DIOCL. ET MAXIM. AA. ET CC. EUELPISTO. *&lt;A 294
+            PP. V NON. IAN. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2962-Dd1e187">
+               <head xml:id="azsw2e-d1e2962-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e2962-d1e191">
+                  <ref xml:id="azsw2e-d1e2962-Rd1e193">Imperatores
+            Diocletianus, Maximianus</ref> Si sororis tuae filiis, tutore legitimo
+            patruo constituto nec ullo excusato privilegio, tutor datus es, cum
+            habenti tutorem alium dari prohibeant iura, necessitatem administrationis
+            ad eum pertinere nec te datione teneri non ambigitur. * DIOCL. ET
+            MAXIM. AA. ET CC. MAXIMIANO. *&lt;A 294 S. III K. FEBR. SIRMI CC.
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2962-Dd1e198">
+               <head xml:id="azsw2e-d1e2962-Hd1e200">10</head>
+               <p xml:id="azsw2e-d1e2962-d1e202">
+                  <ref xml:id="azsw2e-d1e2962-Rd1e204">Imperatores
+            Diocletianus, Maximianus</ref> Curatorem habenti neque adiungi nisi
+            causa cognita nec in loco eius alium substitui non ante priore remoto
+            ambigui iuris non est: teque afuturum damni, quod medio tempore negotiis
+            pupillaribus contigit, esse succedaneum, cum actorem periculo tuo
+            constituere debueris, nec iure magistratum in absentiam tuam alium
+            creasse certum est. * DIOCL. ET MAXIM. AA. ET CC. FLORENTINO. *&lt;A
+            294 PP. III K. APRIL. CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2962-Dd1e208">
+               <head xml:id="azsw2e-d1e2962-Hd1e210">11</head>
+               <p xml:id="azsw2e-d1e2962-d1e212">
+                  <ref xml:id="azsw2e-d1e2962-Rd1e214">Imperator
+            Constantinus</ref> In universis litibus placet non prius puberem iustam
+            habere personam, nisi interposito decreto aut administrandi patrimonii
+            gratia aut in litem fuerit curator datus, ut iuxta praecedentia nostrae
+            pietatis statuta legitime initiatae litis agitata in iudiciis controversia
+            finiatur. * CONST. A. ET CONST. C. AD BASSUM PU. *&lt;A 319 D. IIII
+            ID. OCT. AQUILEIAE CONSTANTINO A. V ET LICINIO C. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2962-Dd1e218">
+               <head xml:id="azsw2e-d1e2962-Hd1e220">12</head>
+               <p xml:id="azsw2e-d1e2962-d1e222">
+                  <ref xml:id="azsw2e-d1e2962-Rd1e224">Imperatores
+            Gratianus, Valentinianus, Theodosius</ref> Curator adulescenti ordinatus
+            post inchoatam litem non potest sub praetextu specialis curatoris
+            a se nominati aut litem contestatam deserere aut ab administratione
+            se subtrahere. * GRAT. VALENTIN. ET THEODOS. AAA. EUTROPIO PP. *&lt;A
+            381 D. IIII K. OCT. CONSTANTINOPOLI EUCHER ET SYAGRIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2962-Dd1e228">
+               <head xml:id="azsw2e-d1e2962-Hd1e230">13</head>
+               <p xml:id="azsw2e-d1e2962-d1e232">
+                  <ref xml:id="azsw2e-d1e2962-Rd1e234">Imperatores
+            Honorius, Theodosius</ref> Ne magistratuum ulterius procedat licentia,
+            plenius designamus, ne patrimonialem colonum sive alium, qui privilegio
+            ab hac nuncupatione defenditur, tutelae muneris adstringat officium.
+            * HONOR. ET THEODOS. AA. MONAXIO PU. *&lt;A 409 D.......... HONORIO
+            VIII ET THEODOSIO III AA. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

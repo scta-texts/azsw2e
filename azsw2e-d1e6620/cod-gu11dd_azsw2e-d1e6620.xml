@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 40</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 40</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e6620"><!-- azsw2e-l10t40 -->
+            <head xml:id="azsw2e-d1e6620-Hd1e101">Titulus 40</head>
+            <head xml:id="azsw2e-d1e6620-Hd1e103" type="question-title">De incolis et ubi quis domicilium habere videtur et de his qui studiorum
+            causa in alia civitate degunt</head>
+            <div xml:id="azsw2e-d1e6620-Dd1e106">
+               <head xml:id="azsw2e-d1e6620-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e6620-d1e110">
+                  <ref xml:id="azsw2e-d1e6620-Rd1e112">Imperator
+            Antoninus</ref> Non tibi obest, si, cum incola esses, aliquod munus
+            suscepisti, modo si ante, quam ad alios honores vocareris, domicilium
+            transtulisti. * ANT. A. PAULINO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6620-Dd1e116">
+               <head xml:id="azsw2e-d1e6620-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e6620-d1e120">
+                  <ref xml:id="azsw2e-d1e6620-Rd1e122">Imperator
+            Alexander Severus</ref>  Nec ipsi, qui studiorum causa aliquo loci
+            morantur, domicilium ibi habere creduntur, nisi decem annis transactis
+            eo loci sedes sibi constituerunt, secundum epistulam divi Hadriani,
+            nec pater, qui propter filium studentem frequentius ad eum commeat.
+            </p>
+               <p xml:id="azsw2e-d1e6620-d1e125" n="1">
+            Sed si aliis rationibus domicilium in splendidissima civitate
+            Laodicenorum habere probatus fueris, Mendacium, quo minus muneribus
+            fungaris, non proderit. * ALEX. A. CRISPO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6620-Dd1e129">
+               <head xml:id="azsw2e-d1e6620-Hd1e131">3</head>
+               <p xml:id="azsw2e-d1e6620-d1e133">
+                  <ref xml:id="azsw2e-d1e6620-Rd1e135">Imperatores
+            Diocletianus, Maximianus</ref> Est verum eos, qui in territorio alicuius
+            civitatis commorantur, velut incolas ad subeunda munera vel capiendos
+            honores non adstringi. * DIOCL. ET MAXIM. AA. ALEXANDRO. *&lt;A XXX
+            &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6620-Dd1e140">
+               <head xml:id="azsw2e-d1e6620-Hd1e142">4</head>
+               <p xml:id="azsw2e-d1e6620-d1e144">
+                  <ref xml:id="azsw2e-d1e6620-Rd1e146">Imperatores
+            Diocletianus, Maximianus</ref> Cum neque originales neque incolas
+            vos esse memoratis, ob solam domus sive possessionis, licet ex substantia
+            decurionis adquisita sit, causam publici iuris auctoritas muneribus
+            subiugari vos non sinet. * DIOCL. ET MAXIM. AA. ALEXANDRO. *&lt;A
+            XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6620-Dd1e150">
+               <head xml:id="azsw2e-d1e6620-Hd1e152">5</head>
+               <p xml:id="azsw2e-d1e6620-d1e154">
+                  <ref xml:id="azsw2e-d1e6620-Rd1e156">Imperatores
+            Diocletianus, Maximianus</ref> Si in patria uxoris tuae vel in qualibet
+            alia domicilium defixisti, incolatus iure ultro te eiusdem civitatis
+            muneribus obligasti. * DIOCL. ET MAXIM. AA. MAXIMO. *&lt;A XXX &gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e6620-Dd1e160">
+               <head xml:id="azsw2e-d1e6620-Hd1e162">6</head>
+               <p xml:id="azsw2e-d1e6620-d1e164">
+                  <ref xml:id="azsw2e-d1e6620-Rd1e166">Imperatores
+            Diocletianus, Maximianus</ref> Privilegio speciali civitatis non interveniente
+            tantum originis ratione ac domicilii voluntate ad munera civilia quemque
+            vocari certissimum est. * DIOCL. ET MAXIM. AA. ET CC. MARCELLO. *&lt;A
+            XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6620-Dd1e170">
+               <head xml:id="azsw2e-d1e6620-Hd1e172">7</head>
+               <p xml:id="azsw2e-d1e6620-d1e174">
+                  <ref xml:id="azsw2e-d1e6620-Rd1e176">Imperatores
+            Diocletianus, Maximianus</ref>  Cives quidem origo manumissio adlectio
+            adoptio, incolas vero, sicut et divus hadrianus edicto suo manifestissime
+            declaravit, domicilium facit. </p>
+               <p xml:id="azsw2e-d1e6620-d1e179" n="1">
+            Et in eodem loco singulos habere domicilium non ambigitur,
+            ubi quis larem rerumque ac fortunarum suarum summam constituit, unde
+            rursus non sit discessurus, si nihil avocet, unde cum profectus est,
+            peregrinari videtur, quo si rediit, peregrinari iam destitit. * DIOCL.
+            ET MAXIM. AA. ET CC. AURELIO. *&lt;A XXX &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6620-Dd1e183">
+               <head xml:id="azsw2e-d1e6620-Hd1e185">8</head>
+               <p xml:id="azsw2e-d1e6620-d1e187">
+                  <ref xml:id="azsw2e-d1e6620-Rd1e189">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref> Senatores in sacratissima
+            urbe domicilium dignitatis habere videntur. * VALENTIN. THEODOS. ET
+            ARCAD. AAA. . . . PRAEF. AUGUSTALI.*&lt;A 390 D. K. MART. VALENTINIANO
+            A. ET NEOTERIO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e6620-Dd1e193">
+               <head xml:id="azsw2e-d1e6620-Hd1e195">9</head>
+               <p xml:id="azsw2e-d1e6620-d1e197">
+                  <ref xml:id="azsw2e-d1e6620-Rd1e199">Imperatores
+            Valentinianus, Theodosius, Arcadius</ref>  Mulieres honore maritorum
+            erigimus et genere nobilitamus et forum ex eorum persona statuimus
+            et domicilia mutamus. </p>
+               <p xml:id="azsw2e-d1e6620-d1e202" n="1">
+            Sin autem minoris ordinis virum postea sortitae fuerint,
+            priore dignitate privatae posterioris mariti sequantur condicionem.
+            * VALENTIN. THEODOS. ET ARCAD. AAA. MARTINIANO COM. ORIENTIS. *&lt;A
+            392 D. IIII ID. NOV. CONSTANTINOPOLI ARCADIO A. II ET RUFINO CONSS.&gt;
+            
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

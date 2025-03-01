@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 39</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 39</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e2275"><!-- azsw2e-l4t39 -->
+            <head xml:id="azsw2e-d1e2275-Hd1e101">Titulus 39</head>
+            <head xml:id="azsw2e-d1e2275-Hd1e103" type="question-title">De hereditate vel actione vendita</head>
+            <div xml:id="azsw2e-d1e2275-Dd1e106">
+               <head xml:id="azsw2e-d1e2275-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e2275-d1e110">
+                  <ref xml:id="azsw2e-d1e2275-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Aes alienum hereditate nomine fisci vendita
+            ad onus emptoris bonorum pertinere nec fiscum creditoribus hereditariis
+            respondere certum et absolutum est. * SEV. ET ANT. AA. GEMINIO. *&lt;D.
+            III NON. NOV.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2275-Dd1e116">
+               <head xml:id="azsw2e-d1e2275-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e2275-d1e120">
+                  <ref xml:id="azsw2e-d1e2275-Rd1e122">Imperator
+            Antoninus</ref> Ratio iuris postulat, ut creditoribus hereditariis
+            et legatariis seu fideicommissariis te convenire volentibus tu respondeas
+            et cum eo, cui hereditatem venumdedisti, tu experiaris suo ordine.
+            Nam ut satis tibi detur, sero desideras, quoniam eo tempore, quo venumdabatur
+            hereditas, hoc non est comprehensum. Quamvis enim ea lege emerit,
+            ut creditoribus hereditariis satisfaciat, excipere actiones hereditarias
+            invitus cogi non potes * ANT. A. TITIO FLORIANO. *&lt;&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2275-Dd1e126">
+               <head xml:id="azsw2e-d1e2275-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e2275-d1e130">
+                  <ref xml:id="azsw2e-d1e2275-Rd1e132">Imperator
+            Alexander Severus</ref> Nominis venditio et ignorante vel invito eo,
+            adversus quem actiones mandantur, contrahi solet. * ALEX. A. QUINTIANO
+            ET TIMOTHEO. *&lt;A 223 D. VIII ID. FEBR. MAXIMO II ET AELIANO CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2275-Dd1e137">
+               <head xml:id="azsw2e-d1e2275-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e2275-d1e141">
+                  <ref xml:id="azsw2e-d1e2275-Rd1e143">Imperator
+            Alexander Severus</ref> Qui nondum certus de quantitate hereditatis,
+            persuadente emptore quasi exiguam quantitatem, eam vendidit, bonae
+            fidei iudicio conveniri, ut res tradat vel actiones mandet, non compellitur
+            suoque iure eorum persecutionem habet. * ALEX. A. AURELIO DIOGENI
+            MIL. *&lt;A 223 D. XVII K. OCT. MAXIMO II ET AELIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2275-Dd1e147">
+               <head xml:id="azsw2e-d1e2275-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e2275-d1e151">
+                  <ref xml:id="azsw2e-d1e2275-Rd1e153">Imperator
+            Alexander Severus</ref> Emptor hereditatis actionibus mandatis eo
+            iure uti debet, quo is cuius persona fungitur, quamvis utiles etiam
+            adversus debitores hereditarios actiones emptori tribui placuerit.
+            * ALEX. A. NONARIO ONESIMO. *&lt;A 224 PP. K. MART. IULIANO ET CRISPINO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2275-Dd1e157">
+               <head xml:id="azsw2e-d1e2275-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e2275-d1e161">
+                  <ref xml:id="azsw2e-d1e2275-Rd1e163">Imperator
+            Alexander Severus</ref> Qui tibi hereditatem vendidit, antequam res
+            hereditarias traderet, dominus earum perseveravit et ideo vendendo
+            eas aliis dominium transferre potuit. Sed quoniam contractus fidem
+            fregit, ex empto actione conventus quod tua interest praestare cogitur
+            * ALEX. A. POMPONIO MIL. *&lt;A A. 230 PP. VIII K. IUL. AGRICOLA ET
+            CLEMENTE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2275-Dd1e167">
+               <head xml:id="azsw2e-d1e2275-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e2275-d1e171">
+                  <ref xml:id="azsw2e-d1e2275-Rd1e173">Imperatores
+            Diocletianus, Maximianus</ref> Postquam eo decursum est, ut cautiones
+            quoque debitorum pignori darentur, ordinarium visum est, ut post nominis
+            venditionem utiles emptori, sic ( ut responsum est) vel ipsi creditori
+            postulanti dandas actiones. * DIOCL. ET MAXIM. AA. MANASEAE. *&lt;&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e2275-Dd1e177">
+               <head xml:id="azsw2e-d1e2275-Hd1e179">8</head>
+               <p xml:id="azsw2e-d1e2275-d1e181">
+                  <ref xml:id="azsw2e-d1e2275-Rd1e183">Imperatores
+            Diocletianus, Maximianus</ref> Ex nominis emptione dominium rerum
+            obligatarum ad emptorem non transit, sed vel in rem suam procuratori
+            facto vel utilis secundum ea, quae pridem constituta sunt, exemplo
+            creditoris persecutio tribuitur. * DIOCL. ET MAXIM. AA. ET CC. VIGILIANO.
+            *&lt;AS XV.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e2275-Dd1e187">
+               <head xml:id="azsw2e-d1e2275-Hd1e189">9</head>
+               <p xml:id="azsw2e-d1e2275-d1e191">
+                  <ref xml:id="azsw2e-d1e2275-Rd1e193">Imperator
+            Justinianus</ref> Certi et indubitati iuris est ad similitudinem eius,
+            qui personalem redemerit actionem et utiliter eam movere suo nomine
+            conceditur, et eum, qui in rem actionem comparaverit, eadem uti posse
+            facultate. Cum enim actionis nomen generale est omnium sive in rem
+            siue( !) in personam actionum et apud omnes veteres iuris conditores
+            hoc nomen in omnibus pateat, nihil est tale, quod differentiam in
+            huiusmodi utilibus actionibus possit introducere * IUST. A. IOHANNI
+            PP. *&lt;A 531 D. K. NOV. CONSTANTINOPOLI POST CONSULATUM LAMPADII
+            ET ORESTIS VV. CC.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 9</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 9</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3527"><!-- azsw2e-l6t9 -->
+            <head xml:id="azsw2e-d1e3527-Hd1e101">Titulus 9</head>
+            <head xml:id="azsw2e-d1e3527-Hd1e103" type="question-title">Qui admitti ad bonorum possessionem possunt et intra quod tempus.</head>
+            <div xml:id="azsw2e-d1e3527-Dd1e106">
+               <head xml:id="azsw2e-d1e3527-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3527-d1e110">
+                  <ref xml:id="azsw2e-d1e3527-Rd1e112">Imperatores
+            Severus, Antoninus</ref> Bonorum possessio filio familias delata cum
+            ignorante quoque patre possit peti, emolumentum et patri adlatura,
+            si ratam petitionem pater habuerit, amittitur transacto tempore. *
+            SEV. ET ANT. AA. MACRINAE. *&lt; S. DIE ET CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3527-Dd1e116">
+               <head xml:id="azsw2e-d1e3527-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3527-d1e120">
+                  <ref xml:id="azsw2e-d1e3527-Rd1e122">Imperatores
+            Severus, Antoninus</ref> Si bonorum possessio dumtaxat tibi competit
+            proximitatis nomine, habuisti spatium centum dierum utilium, ex quo
+            eum defunctum scisti, ad bonorum possessionem amplectendam. * SEV.
+            ET ANT. AA. CRISPINO. *&lt;A 205 PP.III NON.NOV.GETA II CONS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3527-Dd1e126">
+               <head xml:id="azsw2e-d1e3527-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3527-d1e130">
+                  <ref xml:id="azsw2e-d1e3527-Rd1e132">Imperatores
+            Diocletianus, Maximianus</ref> Infantis nomine agnitam bonorum possessionem
+            et antequam loqueretur diem functi recte competere nulla dubitatio
+            est. * DIOCL. ET MAXIM. AA. CRESCENTINO. *&lt;A 286 PP.V K.IAN.MAXIMO
+            II ET AQUILINO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3527-Dd1e137">
+               <head xml:id="azsw2e-d1e3527-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e3527-d1e141">
+                  <ref xml:id="azsw2e-d1e3527-Rd1e143">Imperatores
+            Diocletianus, Maximianus</ref> Emancipata si non agnovit intra annum
+            unde liberi bonorum possessionem, nullam ad heredes vindicationem
+            successionis transmittere potuit. * DIOCL. ET MAXIM. AA. ET CC. MARCELLO.
+            *&lt;A 294 D. XIIII K.MAI. HERACLIAE CC.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3527-Dd1e147">
+               <head xml:id="azsw2e-d1e3527-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e3527-d1e151">
+                  <ref xml:id="azsw2e-d1e3527-Rd1e153">Imperatores
+            Diocletianus, Maximianus</ref> Quamdiu per facti quaestionem incertum
+            est, utrumne secundum tabulas an ab intestato, et ex quo capite possessio
+            sit delata, ne tibi tempus agnoscendae bonorum possessionis praefinitum
+            cedat, superstitiosam geris sollicitudinem. * DIOCL. ET MAXIM. AA.
+            ET CC. MAXIMO. *&lt;A 294 &gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3527-Dd1e157">
+               <head xml:id="azsw2e-d1e3527-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e3527-d1e161">
+                  <ref xml:id="azsw2e-d1e3527-Rd1e163">Imperatores
+            Diocletianus, Maximianus</ref> Iuris ignorantiam nec mulieribus prodesse
+            in edicti perpetui cursum de agnoscenda bonorum possessione manifestum
+            est. * DIOCL. ET MAXIM. AA. ET CC. FRONTINAE. *&lt;A 294 D.III K.MAI
+            SIRMI CC. CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3527-Dd1e167">
+               <head xml:id="azsw2e-d1e3527-Hd1e169">7</head>
+               <p xml:id="azsw2e-d1e3527-d1e171">
+                  <ref xml:id="azsw2e-d1e3527-Rd1e173">Imperatores
+            Constantius, Maximianus</ref>  Bonorum quidem possessionem pupilli
+            nomine agnoscere tutorem potuisse aperte declaratur. </p>
+               <p xml:id="azsw2e-d1e3527-d1e176" n="1">
+            Ipse autem pupillus bonorum possessionem sine tutoris auctoritate
+            amplecti non potest, nisi etiam impuberi sine tutoris auctoritate
+            hoc postulanti sciens hoc competens iudex dedit bonorum possessionem:
+            tunc enim emolumentum successionis videtur praetorio iure quaesitum
+            esse. * P. EPIST. CONSTANTII ET MAXIMIANI AA. ET SEVERI ET MAXIMINI
+            NOBB. *&lt;A 305 VI ID. SEPT. CONSTANTIO ET MAXIMIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3527-Dd1e180">
+               <head xml:id="azsw2e-d1e3527-Hd1e182">8</head>
+               <p xml:id="azsw2e-d1e3527-d1e184">
+                  <ref xml:id="azsw2e-d1e3527-Rd1e186">Imperator
+            Constantinus</ref> Quicumque res ex parentum vel proximorum successione
+            iure sibi competere confidit, sciat sibi non obesse, si per rusticitatem
+            vel ignorantiam facti vel absentiam vel quamcumque aliam rationem
+            intra praefinitum tempus bonorum possessionem minime petisse noscatur,
+            quoniam haec sanctio huiusmodi consuetudinis necessitatem mutavit.
+            * CONST. A. AD DIONYSIUM. *&lt;A 320 VEL 326 PP. PRID.ID.MART.HELIOPOLI
+            CONSTANTINO A. ET CONST.C.CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3527-Dd1e190">
+               <head xml:id="azsw2e-d1e3527-Hd1e192">9</head>
+               <p xml:id="azsw2e-d1e3527-d1e194">
+                  <ref xml:id="azsw2e-d1e3527-Rd1e196">Imperator
+            Constantinus</ref> Ut verborum inanium excludimus captiones, ita haec
+            observari decernimus, ut apud quemlibet iudicem vel etiam apud duumviros
+            qualiscumque testatio amplectendae hereditatis ostendatur, statutis
+            prisco iure temporibus coartanda, eo addito, ut , etiamsi intra alienam
+            vicem, id est prioris gradus, properantius exseratur, nihilo minus
+            tamen efficaciam parem, quasi suis sita curriculis, consequatur. *
+            CONST. A. AD POP. *&lt;A 339 D.K.FEBR.LAODICEAE CONSTANTIO A. II ET
+            CONSTANTE A. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

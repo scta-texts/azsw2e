@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 43</title>
+            <author ref="#JustinianI">Justinian</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 43</title>
+               <date when="2025-03-01">March 01, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-03-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="azsw2e-d1e3063"><!-- azsw2e-l5t43 -->
+            <head xml:id="azsw2e-d1e3063-Hd1e101">Titulus 43</head>
+            <head xml:id="azsw2e-d1e3063-Hd1e103" type="question-title">De suspectis</head>
+            <div xml:id="azsw2e-d1e3063-Dd1e106">
+               <head xml:id="azsw2e-d1e3063-Hd1e108">1</head>
+               <p xml:id="azsw2e-d1e3063-d1e110">
+                  <ref xml:id="azsw2e-d1e3063-Rd1e112">Imperator
+            Antoninus</ref> Libertum tuum et tutorem filii tui, si fraudulenter
+            res eius administrare existimas, suspectum facere potes, modo si officium
+            eius pubertate pupilli finitum non est. Nam si eo iure tutor esse
+            desiit, iudicio tutelae conveniendus est * ANT. A. DOMITIAE. *&lt;A
+            212 PP. ID. AUG. ROMAE DUOBUS ASPRIS CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3063-Dd1e116">
+               <head xml:id="azsw2e-d1e3063-Hd1e118">2</head>
+               <p xml:id="azsw2e-d1e3063-d1e120">
+                  <ref xml:id="azsw2e-d1e3063-Rd1e122">Imperator
+            Antoninus</ref> Curatores quidem suo periculo, quanto tardius ad eos
+            tutela transfertur, cessant. Quod si id fraude factum existimas, suspectos
+            eos postula: qui si submoveri meruerint, in locum eorum alios accipies
+            * ANT. A. LONGINO. *&lt;A 215 PP. ID. IAN. LAETO II ET CEREALE CONSS.&gt;
+            </p>
+            </div>
+            <div xml:id="azsw2e-d1e3063-Dd1e126">
+               <head xml:id="azsw2e-d1e3063-Hd1e128">3</head>
+               <p xml:id="azsw2e-d1e3063-d1e130">
+                  <ref xml:id="azsw2e-d1e3063-Rd1e132">Imperator
+            Alexander Severus</ref> Praeses provinciae tutores filiorum tuorum
+            strictioribus remediis adhibitis omnimodo administrationis officium
+            compellet agnoscere. Quod si in eadem contumacia perseveraverint,
+            suspectos postulare, ut alii in locum eorum petantur, non prohiberis
+            * ALEX. A. FORTUNATAE. *&lt;A 229 PP. ID. IAN. ALEXANDRO A. III ET
+            DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3063-Dd1e137">
+               <head xml:id="azsw2e-d1e3063-Hd1e139">4</head>
+               <p xml:id="azsw2e-d1e3063-d1e141">
+                  <ref xml:id="azsw2e-d1e3063-Rd1e143">Imperator
+            Alexander Severus</ref> Etiam testamento patris tutorem datum suspectum
+            postulare potes, si fraudem tutoris argueris. * ALEX. A. THALIDAE.
+            *&lt;A 229 PP. V ID. SEPT. ALEXANDRO A. III ET DIONE CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3063-Dd1e147">
+               <head xml:id="azsw2e-d1e3063-Hd1e149">5</head>
+               <p xml:id="azsw2e-d1e3063-d1e151">
+                  <ref xml:id="azsw2e-d1e3063-Rd1e153">Imperator
+            Alexander Severus</ref> In postulandis suspectis tutoribus seu curatoribus
+            non vires patrimoniorum principaliter, sed an nihil segniter, nihil
+            fraudulenter geratur, perpendi oportet. * ALEX. A. ASCLEPIADI. *&lt;A
+            233 PP. VIII K. IAN. MAXIMO II ET PATERNO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3063-Dd1e157">
+               <head xml:id="azsw2e-d1e3063-Hd1e159">6</head>
+               <p xml:id="azsw2e-d1e3063-d1e161">
+                  <ref xml:id="azsw2e-d1e3063-Rd1e163">Imperator
+            Gordianus</ref>  Pietatis fungeris munere, qui fratris tui filios,
+            ut necessitudo sanguinis suadet, protegere conaris. </p>
+               <p xml:id="azsw2e-d1e3063-d1e166" n="1">
+            Si igitur tutores vel curatores eorum non recte administrant,
+            suspectis eis postulatis atque ostensis, ut alii in loco eorum constituantur,
+            facile impetrabis. </p>
+               <p xml:id="azsw2e-d1e3063-d1e169" n="2">
+            Quod si nihil in fraudem egerunt, verum ita egeni sunt, ut
+            in eorum administratione fratris tui filiorum substantia periclitetur,
+            an eis iniungendus sit curator, qui idoneis facultatibus sit, rector
+            provinciae aestimabit. </p>
+               <p xml:id="azsw2e-d1e3063-d1e172" n="3">
+            Removendi autem licentia non solum parentibus utriusque sexus,
+            sed etiam cognatis et extraneis et infamibus et ipsi cuius res administrantur,
+            si non impubes sit, arbitrio cognatorum bonae opinionis constitutorum
+            conceditur. * GORD. A. FELICI. *&lt;A 238 PP. V ID. NOV. PIO ET PONTIANO
+            CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3063-Dd1e176">
+               <head xml:id="azsw2e-d1e3063-Hd1e178">7</head>
+               <p xml:id="azsw2e-d1e3063-d1e180">
+                  <ref xml:id="azsw2e-d1e3063-Rd1e182">Imperator
+            Gordianus</ref> Eum, quem ut suspectum tutorem vel curatorem accusas,
+            pendente causa cognitionis abstinere ab administratione rerum tuarum,
+            donec causa finiatur, praeses provinciae iubebit. Alius tamen interea
+            in locum eius in administratione rerum ordinandus est * GORD. A. GORGONIAE.
+            *&lt;A 240 PP. VII K. MART. SABINO II ET VENUSTO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3063-Dd1e186">
+               <head xml:id="azsw2e-d1e3063-Hd1e188">8</head>
+               <p xml:id="azsw2e-d1e3063-d1e190">
+                  <ref xml:id="azsw2e-d1e3063-Rd1e192">Imperator
+            Philippus</ref> Si non suspectum contutorem tuum postulare ac removere
+            ab administratione bonorum pupilli curaveris, admitti nequaquam potest
+            ratio desiderii tui iam nunc postulantis tutelam tibi nomine eiusdem
+            pupilli restitui. * PHILIPP. A. ET PHILIPP. C. PROCULO. *&lt;A 244
+            PP. XIII K. NOV. PEREGRINO ET AEMILIANO CONSS.&gt; </p>
+            </div>
+            <div xml:id="azsw2e-d1e3063-Dd1e196">
+               <head xml:id="azsw2e-d1e3063-Hd1e198">9</head>
+               <p xml:id="azsw2e-d1e3063-d1e200">
+                  <ref xml:id="azsw2e-d1e3063-Rd1e202">Imperatores
+            Diocletianus, Maximianus</ref> Suspectos tutores ex dolo, non etiam
+            eos, qui ob neglegentiam remoti sunt, infames fieri manifestum est.
+            * DIOCL. ET MAXIM. AA. ET CC. AMMIANO. *&lt;A 294 S. VIII K. MAI.
+            CC. CONSS.&gt; 
+
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
