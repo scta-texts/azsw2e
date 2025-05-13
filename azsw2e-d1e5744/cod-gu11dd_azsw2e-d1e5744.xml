@@ -6,7 +6,7 @@
             <author ref="#JustinianI">Justinian</author>
             <respStmt>
                <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
+               
                <resp>TEI Encoder</resp>
             </respStmt>
          </titleStmt>
@@ -25,7 +25,7 @@
          </publicationStmt>
          <sourceDesc>
             <listWit>
-               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1892, v. 2</witness>
             </listWit>
          </sourceDesc>
       </fileDesc>

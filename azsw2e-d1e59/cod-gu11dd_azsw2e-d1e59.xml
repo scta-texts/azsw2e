@@ -6,7 +6,7 @@
             <author ref="#JustinianI">Justinian</author>
             <respStmt>
                <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
+               
                <resp>TEI Encoder</resp>
             </respStmt>
          </titleStmt>
@@ -25,7 +25,7 @@
          </publicationStmt>
          <sourceDesc>
             <listWit>
-               <witness xml:id="B" n="cod-gu11dd">Berlin 1877, v. 1</witness>
+               <witness xml:id="B" n="cod-gu11dd">Berlin 1892, v. 2</witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -109,7 +109,10 @@
             <div xml:id="azsw2e-d1e59-Dd1e136">
                <head xml:id="azsw2e-d1e59-Hd1e138">3</head>
                <p xml:id="azsw2e-d1e59-d1e140" xml:lang="gr">
-        <!-- Greek -->
+        <lb ed="#B"/>Autokr
+               </p>
+              <p>
+                
       </p>
             </div>
             <div xml:id="azsw2e-d1e59-Dd1e147">
@@ -144,7 +147,8 @@
             <div xml:id="azsw2e-d1e59-Dd1e166">
                <head xml:id="azsw2e-d1e59-Hd1e168">5</head>
                <p xml:id="azsw2e-d1e59-d1e170" xml:lang="gr">
-        <!-- greek -->  
+                 <lb ed="#B"/>
+      
       </p>
             </div>
             <div xml:id="azsw2e-d1e59-Dd1e176">
